@@ -401,6 +401,7 @@ const services = [
   { icon: LineChart, title: "Content & Keywords", body: "Teksten die scoren én converteren." },
   { icon: Link2, title: "Linkbuilding", body: "Autoriteit via relevante netwerken." },
   { icon: MapPin, title: "Local SEO", body: "Word gevonden in jouw regio." },
+  { icon: Sparkles, title: "GEO & AI Visibility", body: "Zichtbaar in ChatGPT, Perplexity & AI-overviews." },
 ];
 
 function Services() {
