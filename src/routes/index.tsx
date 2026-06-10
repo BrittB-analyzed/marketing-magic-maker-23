@@ -20,17 +20,17 @@ import dashboardImage from "@/assets/seo-dashboard.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SEO voor MKB — Meetbaar resultaat | B. Analyzed" },
+      { title: "SEO & GEO voor MKB — Meetbaar resultaat | B. Analyzed" },
       {
         name: "description",
         content:
-          "Data-gedreven SEO voor MKB-ondernemers. Domineer Google met een gratis SEO-scan, helder rapport en bewezen resultaat. 9.8/10 klantbeoordeling.",
+          "Data-gedreven SEO & GEO (AI Visibility) voor MKB-ondernemers. Domineer Google én AI-zoekmachines met een gratis scan, helder rapport en bewezen resultaat. 9.8/10 klantbeoordeling.",
       },
-      { property: "og:title", content: "SEO voor MKB — Meetbaar resultaat | B. Analyzed" },
+      { property: "og:title", content: "SEO & GEO voor MKB — Meetbaar resultaat | B. Analyzed" },
       {
         property: "og:description",
         content:
-          "Data-gedreven SEO voor MKB. Vraag binnen 60 seconden je gratis SEO-rapport aan.",
+          "Data-gedreven SEO & GEO voor MKB. Vraag binnen 60 seconden je gratis SEO & GEO-rapport aan.",
       },
       { property: "og:type", content: "website" },
     ],
@@ -50,6 +50,7 @@ function Index() {
       <Process />
       <Services />
       <DashboardShowcase />
+      <Guarantee />
       <Cases />
       <FAQ />
       <CTA />
