@@ -10,6 +10,10 @@ import {
   Star,
   Plus,
   Minus,
+  ShieldCheck,
+  TrendingUp,
+  Clock,
+  Phone,
 } from "lucide-react";
 import dashboardImage from "@/assets/seo-dashboard.jpg";
 
@@ -37,11 +41,15 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="min-h-screen bg-zinc-50 font-sans text-zinc-900 selection:bg-brand-red/10">
+      <TrustBar />
       <Nav />
       <Hero />
+      <ClientLogos />
+      <BigStats />
       <Results />
       <Process />
       <Services />
+      <DashboardShowcase />
       <Cases />
       <FAQ />
       <CTA />
@@ -51,22 +59,58 @@ function Index() {
   );
 }
 
+function TrustBar() {
+  return (
+    <div className="hidden border-b border-zinc-200 bg-white md:block">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2 text-xs">
+        <div className="flex items-center gap-2">
+          <div className="flex">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Star key={i} className="size-3.5 fill-brand-star text-brand-star" strokeWidth={0} />
+            ))}
+          </div>
+          <span className="font-medium text-zinc-700">Beoordeeld met een 9.8</span>
+        </div>
+        <div className="flex items-center gap-6 text-zinc-600">
+          <span className="flex items-center gap-1.5">
+            <Check className="size-3.5 text-brand-green" strokeWidth={3} />
+            15 jaar ervaring
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Check className="size-3.5 text-brand-green" strokeWidth={3} />
+            Aantoonbare resultaten
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Check className="size-3.5 text-brand-green" strokeWidth={3} />
+            Transparante werkwijze
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function Nav() {
   return (
-    <nav className="sticky top-0 z-50 border-b border-zinc-200/60 bg-zinc-50/80 backdrop-blur-md">
+    <nav className="sticky top-0 z-50 border-b border-zinc-200/60 bg-white/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
-        <a href="#" className="flex items-center gap-2">
-          <div className="flex size-8 items-center justify-center rounded-sm bg-brand-red font-semibold text-white">
+        <a href="#" className="flex items-center gap-2.5">
+          <div className="flex size-9 items-center justify-center rounded-full bg-brand-red text-lg font-bold text-white">
             B
           </div>
-          <span className="text-sm font-semibold uppercase tracking-tight">Analyzed</span>
+          <div className="leading-none">
+            <div className="text-lg font-semibold tracking-tight text-brand-ink">analyzed</div>
+            <div className="text-[10px] font-medium uppercase tracking-widest text-brand-red">
+              marketing
+            </div>
+          </div>
         </a>
         <div className="hidden items-center gap-8 md:flex">
+          <a href="#diensten" className="text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900">
+            Diensten
+          </a>
           <a href="#resultaten" className="text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900">
             Resultaten
-          </a>
-          <a href="#werkwijze" className="text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900">
-            Werkwijze
           </a>
           <a href="#cases" className="text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900">
             Cases
@@ -75,12 +119,21 @@ function Nav() {
             FAQ
           </a>
         </div>
-        <a
-          href="#cta"
-          className="h-9 rounded-md bg-brand-green px-4 text-sm font-medium leading-9 text-white ring-1 ring-brand-green/20 transition hover:brightness-110"
-        >
-          Gratis SEO scan
-        </a>
+        <div className="flex items-center gap-3">
+          <a
+            href="tel:+31000000000"
+            className="hidden items-center gap-1.5 text-sm font-medium text-zinc-700 hover:text-brand-red md:flex"
+          >
+            <Phone className="size-3.5" />
+            Direct contact
+          </a>
+          <a
+            href="#hero-form"
+            className="h-9 rounded-md bg-brand-green px-4 text-sm font-semibold leading-9 text-white ring-1 ring-brand-green/20 transition hover:brightness-110"
+          >
+            Gratis SEO scan
+          </a>
+        </div>
       </div>
     </nav>
   );
@@ -88,65 +141,164 @@ function Nav() {
 
 function Hero() {
   return (
-    <section className="overflow-hidden pt-16 pb-24 md:pt-20 md:pb-32">
+    <section className="overflow-hidden pt-12 pb-20 md:pt-16 md:pb-24">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="grid items-center gap-16 lg:grid-cols-[1.2fr_0.8fr]">
+        <div className="grid items-start gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <div className="mb-6 inline-flex items-center gap-2 rounded bg-zinc-100 px-2 py-1 font-mono text-[10px] font-medium uppercase tracking-wider text-zinc-500">
-              <span className="size-1.5 animate-pulse rounded-full bg-brand-green" />
-              Live Performance Data
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-brand-red-soft px-3 py-1 text-xs font-semibold text-brand-red">
+              <span className="size-1.5 animate-pulse rounded-full bg-brand-red" />
+              SEO advies voor MKB
             </div>
-            <h1 className="mb-6 text-balance text-5xl font-semibold leading-tight tracking-tight lg:text-6xl">
-              SEO voor MKB met <span className="text-brand-red">meetbaar</span> resultaat.
+            <h1 className="mb-6 text-balance text-4xl font-bold leading-[1.05] tracking-tight text-brand-ink md:text-5xl lg:text-[3.5rem]">
+              Meer leads uit Google.{" "}
+              <span className="text-brand-red">Meetbaar</span> en zonder gedoe.
             </h1>
-            <p className="mb-10 max-w-[48ch] text-pretty text-lg leading-relaxed text-zinc-600">
-              Geen vage beloftes, maar harde cijfers. Wij domineren de zoekresultaten voor MKB-ondernemers
-              door data-gedreven strategie.
+            <p className="mb-8 max-w-[52ch] text-pretty text-lg leading-relaxed text-zinc-600">
+              B. Analyzed brengt MKB-bedrijven op pagina 1 van Google met een
+              data-gedreven SEO-aanpak. 12+ jaar ervaring, 150+ klanten, 9.8/10 beoordeeld.
             </p>
-            <div className="flex flex-wrap gap-4">
-              <a
-                href="#cta"
-                className="inline-flex h-12 items-center gap-2 rounded-md bg-brand-green px-6 font-medium text-white ring-1 ring-brand-green/20 transition hover:brightness-110"
-              >
-                Start gratis analyse
-                <ArrowRight className="size-4" />
-              </a>
-              <a
-                href="#cases"
-                className="inline-flex h-12 items-center rounded-md border border-zinc-200 bg-white px-6 font-medium text-zinc-900 transition-colors hover:bg-zinc-50"
-              >
-                Bekijk cases
-              </a>
-            </div>
-            <div className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-3 opacity-70">
-              <span className="flex items-center gap-1.5 font-mono text-xs text-zinc-500">
-                <Star className="size-3.5 fill-brand-red text-brand-red" />
-                9.8/10 — 200+ reviews
-              </span>
-              <span className="font-mono text-xs text-zinc-500">Google Partner</span>
-              <span className="font-mono text-xs text-zinc-500">12+ jaar ervaring</span>
+            <ul className="mb-10 space-y-3">
+              {[
+                "Vergroot je vindbaarheid in Google",
+                "Krijg meer relevante bezoekers naar je site",
+                "Vergroot je aantal leads en sales online",
+              ].map((b) => (
+                <li key={b} className="flex items-center gap-3 text-[15px] text-zinc-800">
+                  <span className="flex size-5 items-center justify-center rounded-full bg-brand-green/15 text-brand-green">
+                    <Check className="size-3" strokeWidth={3} />
+                  </span>
+                  {b}
+                </li>
+              ))}
+            </ul>
+            <div className="flex flex-wrap items-center gap-6">
+              <div className="flex -space-x-2">
+                <div className="size-9 rounded-full bg-zinc-300 ring-2 ring-white" />
+                <div className="size-9 rounded-full bg-zinc-400 ring-2 ring-white" />
+                <div className="size-9 rounded-full bg-zinc-500 ring-2 ring-white" />
+              </div>
+              <div className="text-sm">
+                <div className="flex items-center gap-1">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <Star key={i} className="size-3.5 fill-brand-star text-brand-star" strokeWidth={0} />
+                  ))}
+                  <span className="ml-1 font-semibold">9.8/10</span>
+                </div>
+                <div className="text-xs text-zinc-500">200+ MKB-klanten gingen je voor</div>
+              </div>
             </div>
           </div>
 
-          <div className="relative">
-            <div className="rounded-xl bg-white p-4 shadow-2xl shadow-zinc-200/60 ring-1 ring-black/5">
-              <img
-                src={dashboardImage}
-                alt="SEO dashboard met organisch verkeer en keyword rankings"
-                width={1280}
-                height={960}
-                className="w-full rounded-md"
-              />
-            </div>
-            <div className="absolute -bottom-6 -left-6 rounded-lg bg-white p-4 shadow-xl ring-1 ring-black/5">
-              <div className="mb-1 font-mono text-[10px] uppercase text-zinc-400">Groei deze maand</div>
-              <div className="font-mono text-2xl font-semibold text-brand-green">+312.4%</div>
-            </div>
-            <div className="absolute -top-4 -right-4 hidden rounded-lg bg-zinc-900 p-3 shadow-xl md:block">
-              <div className="font-mono text-[10px] uppercase text-zinc-400">Top 3 posities</div>
-              <div className="font-mono text-xl font-semibold text-white">1.4k+</div>
-            </div>
+          <HeroForm />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function HeroForm() {
+  return (
+    <div id="hero-form" className="relative">
+      <div className="rounded-2xl bg-white p-7 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.15)] ring-1 ring-zinc-200/70 md:p-8">
+        <div className="mb-1 text-xs font-semibold uppercase tracking-wider text-brand-red">
+          Gratis &amp; vrijblijvend
+        </div>
+        <h2 className="mb-2 text-2xl font-bold leading-tight text-brand-ink">
+          Vraag je gratis SEO-scan aan
+        </h2>
+        <p className="mb-6 text-sm text-zinc-500">
+          Binnen 24 uur ontvang je een persoonlijke analyse van een SEO-expert.
+        </p>
+        <form onSubmit={(e) => e.preventDefault()} className="space-y-3">
+          <div className="grid grid-cols-2 gap-3">
+            <Field label="Voornaam" placeholder="Jan" />
+            <Field label="Achternaam" placeholder="Jansen" />
           </div>
+          <Field label="E-mailadres" type="email" placeholder="jan@bedrijf.nl" />
+          <Field label="Telefoonnummer" type="tel" placeholder="06 12345678" />
+          <Field label="Website URL" type="url" placeholder="www.jouwwebsite.nl" />
+          <button
+            type="submit"
+            className="mt-2 inline-flex h-12 w-full items-center justify-center gap-2 rounded-md bg-brand-green text-base font-semibold text-white ring-1 ring-brand-green/30 transition hover:brightness-110"
+          >
+            Vraag gratis SEO-scan aan
+            <ArrowRight className="size-4" />
+          </button>
+          <p className="pt-1 text-center text-[11px] text-zinc-400">
+            Door te versturen ga je akkoord met ons{" "}
+            <a href="#" className="underline">
+              privacybeleid
+            </a>
+            .
+          </p>
+        </form>
+      </div>
+      <div className="absolute -top-3 -right-3 hidden rotate-3 rounded-md bg-brand-ink px-3 py-2 text-xs font-semibold text-white shadow-lg md:block">
+        <span className="mr-1 text-brand-green">●</span>
+        Reactie binnen 24u
+      </div>
+    </div>
+  );
+}
+
+const clientLogos = [
+  "Solar Solutions",
+  "Modern Tiles",
+  "Bakkerij de Groot",
+  "Tech-Flow",
+  "Rapasso",
+  "Marello",
+];
+
+function ClientLogos() {
+  return (
+    <section className="border-y border-zinc-200/70 bg-white/60 py-10">
+      <div className="mx-auto max-w-7xl px-6">
+        <p className="mb-6 text-center font-mono text-[11px] uppercase tracking-[0.2em] text-zinc-400">
+          Vertrouwd door 150+ MKB-ondernemers
+        </p>
+        <div className="grid grid-cols-2 items-center gap-x-8 gap-y-6 opacity-70 md:grid-cols-6">
+          {clientLogos.map((c) => (
+            <div
+              key={c}
+              className="text-center font-mono text-sm font-semibold tracking-tight text-zinc-500"
+            >
+              {c}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+const bigStats = [
+  { value: "93%", label: "van Nederland zoekt nog steeds via Google" },
+  { value: "68%", label: "van alle clicks gaat naar de top-3 posities" },
+  { value: "+312%", label: "gemiddelde groei in organisch verkeer" },
+  { value: "150+", label: "MKB-klanten in 12 jaar tijd geholpen" },
+];
+
+function BigStats() {
+  return (
+    <section className="py-20 md:py-24">
+      <div className="mx-auto max-w-7xl px-6">
+        <div className="mb-12 max-w-2xl">
+          <h2 className="text-balance text-3xl font-bold tracking-tight md:text-4xl">
+            Waarom SEO geen optie meer is voor het MKB.
+          </h2>
+        </div>
+        <div className="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4">
+          {bigStats.map((s) => (
+            <div key={s.label}>
+              <div className="mb-2 font-sans text-5xl font-bold tracking-tight text-brand-red md:text-6xl">
+                {s.value}
+              </div>
+              <div className="max-w-[26ch] text-sm leading-relaxed text-zinc-600">
+                {s.label}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
@@ -214,13 +366,15 @@ const steps = [
 
 function Process() {
   return (
-    <section id="werkwijze" className="py-24 md:py-32">
+    <section id="werkwijze" className="py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16">
-          <h2 className="mb-4 text-3xl font-semibold tracking-tight md:text-4xl">
+          <div className="mb-3 font-mono text-[11px] uppercase tracking-[0.2em] text-brand-red">
+            Onze werkwijze
+          </div>
+          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">
             Drie stappen naar dominantie.
           </h2>
-          <div className="h-1 w-12 bg-brand-red" />
         </div>
         <div className="grid gap-12 md:grid-cols-3">
           {steps.map((s) => (
@@ -247,12 +401,17 @@ const services = [
 
 function Services() {
   return (
-    <section className="border-y border-zinc-200/60 bg-white py-24">
+    <section id="diensten" className="border-y border-zinc-200/60 bg-white py-20 md:py-24">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-12 flex items-end justify-between gap-8">
-          <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
-            Wat wij doen.
-          </h2>
+          <div>
+            <div className="mb-3 font-mono text-[11px] uppercase tracking-[0.2em] text-brand-red">
+              Diensten
+            </div>
+            <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
+              Eén partner voor jouw complete SEO.
+            </h2>
+          </div>
           <p className="hidden max-w-sm text-sm text-zinc-500 md:block">
             Eén team, vier disciplines. Strak op elkaar afgestemd voor maximale impact.
           </p>
@@ -268,6 +427,57 @@ function Services() {
               <p className="text-sm text-zinc-500">{s.body}</p>
             </div>
           ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function DashboardShowcase() {
+  return (
+    <section className="bg-brand-ink py-20 text-white md:py-28">
+      <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-2">
+        <div>
+          <div className="mb-3 font-mono text-[11px] uppercase tracking-[0.2em] text-brand-green">
+            Transparant dashboard
+          </div>
+          <h2 className="mb-6 text-balance text-3xl font-bold leading-tight md:text-4xl">
+            Altijd inzicht in jouw rankings, verkeer en ROI.
+          </h2>
+          <p className="mb-8 max-w-md text-zinc-300">
+            Geen vage PDF-rapportjes. Jij krijgt een live dashboard waarin je
+            precies ziet welke euro's rendement opleveren — wanneer jij wilt.
+          </p>
+          <ul className="space-y-3 text-sm">
+            {[
+              { Icon: TrendingUp, t: "Live keyword posities & organisch verkeer" },
+              { Icon: ShieldCheck, t: "Maandelijkse rapportages, helder uitgelegd" },
+              { Icon: Clock, t: "Persoonlijk account team, 24u response" },
+            ].map(({ Icon, t }) => (
+              <li key={t} className="flex items-center gap-3 text-zinc-200">
+                <span className="flex size-7 items-center justify-center rounded-md bg-white/10">
+                  <Icon className="size-4 text-brand-green" />
+                </span>
+                {t}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="relative">
+          <div className="rounded-xl bg-white p-3 shadow-2xl ring-1 ring-white/10">
+            <img
+              src={dashboardImage}
+              alt="SEO dashboard met organisch verkeer en keyword rankings"
+              loading="lazy"
+              width={1280}
+              height={960}
+              className="w-full rounded-md"
+            />
+          </div>
+          <div className="absolute -bottom-5 -left-5 rounded-lg bg-white p-4 shadow-xl ring-1 ring-black/10">
+            <div className="font-mono text-[10px] uppercase text-zinc-400">Groei deze maand</div>
+            <div className="font-mono text-2xl font-semibold text-brand-green">+312.4%</div>
+          </div>
         </div>
       </div>
     </section>
