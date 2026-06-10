@@ -5,10 +5,12 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-brand-red: #dc2626;
+  --color-brand-red: #e3242b;
   --color-brand-red-soft: #fef2f2;
-  --color-brand-green: #16a34a;
+  --color-brand-green: #22c55e;
   --color-brand-green-soft: #f0fdf4;
+  --color-brand-ink: #1a1a1a;
+  --color-brand-star: #f5a524;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }
