@@ -414,14 +414,14 @@ function Services() {
               Diensten
             </div>
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-              Eén partner voor jouw complete SEO.
+              Eén partner voor jouw complete SEO &amp; GEO.
             </h2>
           </div>
           <p className="hidden max-w-sm text-sm text-zinc-500 md:block">
-            Eén team, vier disciplines. Strak op elkaar afgestemd voor maximale impact.
+            Eén team, vijf disciplines. Strak op elkaar afgestemd voor maximale impact in Google én AI.
           </p>
         </div>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
           {services.map((s) => (
             <div
               key={s.title}
