@@ -14,6 +14,9 @@ import {
   TrendingUp,
   Clock,
   Phone,
+  Sparkles,
+  BadgeCheck,
+  Lock,
 } from "lucide-react";
 import dashboardImage from "@/assets/seo-dashboard.jpg";
 
