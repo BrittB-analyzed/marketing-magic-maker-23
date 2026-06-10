@@ -14,23 +14,26 @@ import {
   TrendingUp,
   Clock,
   Phone,
+  Sparkles,
+  BadgeCheck,
+  Lock,
 } from "lucide-react";
 import dashboardImage from "@/assets/seo-dashboard.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SEO voor MKB — Meetbaar resultaat | B. Analyzed" },
+      { title: "SEO & GEO voor MKB — Meetbaar resultaat | B. Analyzed" },
       {
         name: "description",
         content:
-          "Data-gedreven SEO voor MKB-ondernemers. Domineer Google met een gratis SEO-scan, helder rapport en bewezen resultaat. 9.8/10 klantbeoordeling.",
+          "Data-gedreven SEO & GEO (AI Visibility) voor MKB-ondernemers. Domineer Google én AI-zoekmachines met een gratis scan, helder rapport en bewezen resultaat. 9.8/10 klantbeoordeling.",
       },
-      { property: "og:title", content: "SEO voor MKB — Meetbaar resultaat | B. Analyzed" },
+      { property: "og:title", content: "SEO & GEO voor MKB — Meetbaar resultaat | B. Analyzed" },
       {
         property: "og:description",
         content:
-          "Data-gedreven SEO voor MKB. Vraag binnen 60 seconden je gratis SEO-rapport aan.",
+          "Data-gedreven SEO & GEO voor MKB. Vraag binnen 60 seconden je gratis SEO & GEO-rapport aan.",
       },
       { property: "og:type", content: "website" },
     ],
@@ -50,6 +53,7 @@ function Index() {
       <Process />
       <Services />
       <DashboardShowcase />
+      <Guarantee />
       <Cases />
       <FAQ />
       <CTA />
@@ -131,7 +135,7 @@ function Nav() {
             href="#hero-form"
             className="h-9 rounded-md bg-brand-green px-4 text-sm font-semibold leading-9 text-white ring-1 ring-brand-green/20 transition hover:brightness-110"
           >
-            Gratis SEO scan
+            Gratis SEO & GEO scan
           </a>
         </div>
       </div>
@@ -147,19 +151,19 @@ function Hero() {
           <div>
             <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-brand-red-soft px-3 py-1 text-xs font-semibold text-brand-red">
               <span className="size-1.5 animate-pulse rounded-full bg-brand-red" />
-              SEO advies voor MKB
+              SEO & GEO advies voor MKB
             </div>
             <h1 className="mb-6 text-balance text-4xl font-bold leading-[1.05] tracking-tight text-brand-ink md:text-5xl lg:text-[3.5rem]">
-              Meer leads uit Google.{" "}
-              <span className="text-brand-red">Meetbaar</span> en zonder gedoe.
+              Meer leads uit Google &amp;{" "}
+              <span className="text-brand-red">AI-zoekmachines</span>. Meetbaar en zonder gedoe.
             </h1>
             <p className="mb-8 max-w-[52ch] text-pretty text-lg leading-relaxed text-zinc-600">
-              B. Analyzed brengt MKB-bedrijven op pagina 1 van Google met een
-              data-gedreven SEO-aanpak. 12+ jaar ervaring, 150+ klanten, 9.8/10 beoordeeld.
+              B. Analyzed brengt MKB-bedrijven op pagina 1 van Google én in AI-zoekmachines
+              met een data-gedreven SEO &amp; GEO-aanpak. 12+ jaar ervaring, 150+ klanten, 9.8/10 beoordeeld.
             </p>
             <ul className="mb-10 space-y-3">
               {[
-                "Vergroot je vindbaarheid in Google",
+                "Vergroot je vindbaarheid in Google & AI-zoekmachines",
                 "Krijg meer relevante bezoekers naar je site",
                 "Vergroot je aantal leads en sales online",
               ].map((b) => (
@@ -204,10 +208,10 @@ function HeroForm() {
           Gratis &amp; vrijblijvend
         </div>
         <h2 className="mb-2 text-2xl font-bold leading-tight text-brand-ink">
-          Vraag je gratis SEO-scan aan
+          Vraag je gratis SEO &amp; GEO-scan aan
         </h2>
         <p className="mb-6 text-sm text-zinc-500">
-          Binnen 24 uur ontvang je een persoonlijke analyse van een SEO-expert.
+          Binnen 24 uur ontvang je een persoonlijke SEO &amp; GEO-analyse inclusief AI-visibility check.
         </p>
         <form onSubmit={(e) => e.preventDefault()} className="space-y-3">
           <div className="grid grid-cols-2 gap-3">
@@ -221,7 +225,7 @@ function HeroForm() {
             type="submit"
             className="mt-2 inline-flex h-12 w-full items-center justify-center gap-2 rounded-md bg-brand-green text-base font-semibold text-white ring-1 ring-brand-green/30 transition hover:brightness-110"
           >
-            Vraag gratis SEO-scan aan
+            Vraag gratis SEO &amp; GEO-scan aan
             <ArrowRight className="size-4" />
           </button>
           <p className="pt-1 text-center text-[11px] text-zinc-400">
@@ -276,7 +280,7 @@ const bigStats = [
   { value: "93%", label: "van Nederland zoekt nog steeds via Google" },
   { value: "68%", label: "van alle clicks gaat naar de top-3 posities" },
   { value: "+312%", label: "gemiddelde groei in organisch verkeer" },
-  { value: "150+", label: "MKB-klanten in 12 jaar tijd geholpen" },
+  { value: "AI+", label: "GEO-optimalisatie voor ChatGPT & Perplexity" },
 ];
 
 function BigStats() {
@@ -285,7 +289,7 @@ function BigStats() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-12 max-w-2xl">
           <h2 className="text-balance text-3xl font-bold tracking-tight md:text-4xl">
-            Waarom SEO geen optie meer is voor het MKB.
+            Waarom SEO &amp; GEO geen optie meer is voor het MKB.
           </h2>
         </div>
         <div className="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4">
@@ -397,6 +401,7 @@ const services = [
   { icon: LineChart, title: "Content & Keywords", body: "Teksten die scoren én converteren." },
   { icon: Link2, title: "Linkbuilding", body: "Autoriteit via relevante netwerken." },
   { icon: MapPin, title: "Local SEO", body: "Word gevonden in jouw regio." },
+  { icon: Sparkles, title: "GEO & AI Visibility", body: "Zichtbaar in ChatGPT, Perplexity & AI-overviews." },
 ];
 
 function Services() {
@@ -409,14 +414,14 @@ function Services() {
               Diensten
             </div>
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-              Eén partner voor jouw complete SEO.
+              Eén partner voor jouw complete SEO &amp; GEO.
             </h2>
           </div>
           <p className="hidden max-w-sm text-sm text-zinc-500 md:block">
-            Eén team, vier disciplines. Strak op elkaar afgestemd voor maximale impact.
+            Eén team, vijf disciplines. Strak op elkaar afgestemd voor maximale impact in Google én AI.
           </p>
         </div>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
           {services.map((s) => (
             <div
               key={s.title}
@@ -451,6 +456,7 @@ function DashboardShowcase() {
           <ul className="space-y-3 text-sm">
             {[
               { Icon: TrendingUp, t: "Live keyword posities & organisch verkeer" },
+              { Icon: Sparkles, t: "GEO-monitoring: zichtbaarheid in ChatGPT & Perplexity" },
               { Icon: ShieldCheck, t: "Maandelijkse rapportages, helder uitgelegd" },
               { Icon: Clock, t: "Persoonlijk account team, 24u response" },
             ].map(({ Icon, t }) => (
@@ -477,6 +483,44 @@ function DashboardShowcase() {
           <div className="absolute -bottom-5 -left-5 rounded-lg bg-white p-4 shadow-xl ring-1 ring-black/10">
             <div className="font-mono text-[10px] uppercase text-zinc-400">Groei deze maand</div>
             <div className="font-mono text-2xl font-semibold text-brand-green">+312.4%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Guarantee() {
+  return (
+    <section className="border-y border-zinc-200/60 bg-brand-red/5 py-20 md:py-24">
+      <div className="mx-auto max-w-5xl px-6">
+        <div className="grid items-center gap-10 md:grid-cols-2">
+          <div>
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-brand-red/10 px-3 py-1 text-xs font-semibold text-brand-red">
+              <Lock className="size-3.5" />
+              Onze belofte
+            </div>
+            <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight md:text-4xl">
+              Je verdient je investering terug. <span className="text-brand-red">Gegarandeerd.</span>
+            </h2>
+            <p className="max-w-md text-pretty text-zinc-600">
+              Wij werken net zo lang door totdat je meetbaar resultaat boekt. Geen resultaat? Dan stoppen wij pas als jij tevreden bent — dat is onze werkwijze.
+            </p>
+          </div>
+          <div className="space-y-4">
+            {[
+              { icon: BadgeCheck, text: "Werken tot jij meetbaar resultaat ziet" },
+              { icon: Check, text: "Geen verborgen kosten of kleine lettertjes" },
+              { icon: Check, text: "Maandelijks opzegbaar, geen lange contracten" },
+              { icon: Check, text: "Transparante rapportages & live dashboard" },
+            ].map((item) => (
+              <div key={item.text} className="flex items-center gap-4 rounded-xl bg-white p-4 shadow-sm ring-1 ring-zinc-200/60">
+                <span className="flex size-10 items-center justify-center rounded-full bg-brand-green/10 text-brand-green">
+                  <item.icon className="size-5" strokeWidth={2.5} />
+                </span>
+                <span className="font-medium text-zinc-800">{item.text}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -538,10 +582,14 @@ function Cases() {
 const faqs = [
   {
     q: "Hoe lang duurt het voor ik resultaat zie?",
-    a: "Eerste verbeteringen meet je binnen 4-8 weken. Structurele groei in organisch verkeer zien klanten gemiddeld vanaf maand 3.",
+    a: "Eerste verbeteringen meet je binnen 4-8 weken. Structurele groei in organisch verkeer zien klanten gemiddeld vanaf maand 3. GEO-resultaten in AI-zoekmachines volgen vaak al binnen 6-12 weken.",
   },
   {
-    q: "Wat kost een SEO-traject bij B. Analyzed?",
+    q: "Wat is GEO en waarom is het belangrijk?",
+    a: "GEO (Generative Engine Optimization) zorgt ervoor dat jouw bedrijf wordt genoemd in antwoorden van AI-tools zoals ChatGPT, Perplexity en Google AI Overviews. Steeds meer mensen zoeken via AI — wij zorgen dat jij daar zichtbaar bent.",
+  },
+  {
+    q: "Wat kost een SEO & GEO-traject bij B. Analyzed?",
     a: "Trajecten starten vanaf €950 per maand. Na de gratis scan krijg je een concreet voorstel op maat — geen verrassingen.",
   },
   {
@@ -599,14 +647,14 @@ function CTA() {
                 Klaar om je concurrentie in te halen?
               </h2>
               <p className="mb-8 text-zinc-400">
-                Vraag binnen 60 seconden je gratis SEO-rapport aan. Onze experts kijken handmatig naar je
-                kansen.
+                Vraag binnen 60 seconden je gratis SEO &amp; GEO-rapport aan. Onze experts kijken handmatig naar je
+                kansen in Google én AI-zoekmachines.
               </p>
               <ul className="space-y-4">
                 {[
-                  "Gratis zoekwoorden onderzoek",
-                  "Technisch rapport (PDF)",
-                  "Persoonlijk adviesgesprek",
+                  "Gratis SEO & GEO scan (inclusief AI-visibility)",
+                  "Technisch rapport + zoekwoorden onderzoek",
+                  "Persoonlijk adviesgesprek met strategie",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-sm">
                     <span className="flex size-5 items-center justify-center rounded-full bg-brand-green/20 text-brand-green">
@@ -631,7 +679,7 @@ function CTA() {
                 type="submit"
                 className="mt-2 h-12 w-full rounded-md bg-brand-green font-medium text-white transition hover:brightness-110"
               >
-                Vraag gratis scan aan
+                Vraag gratis SEO &amp; GEO scan aan
               </button>
               <p className="text-center text-[10px] text-zinc-400">
                 100% vrijblijvend · Binnen 24 uur antwoord
@@ -696,11 +744,11 @@ function Footer() {
 function StickyMobileCTA() {
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 border-t border-zinc-200 bg-white/90 p-3 backdrop-blur md:hidden">
-      <a
+        <a
         href="#cta"
         className="flex h-12 items-center justify-center gap-2 rounded-md bg-brand-green font-medium text-white"
       >
-        Gratis SEO scan aanvragen
+        Gratis SEO &amp; GEO scan aanvragen
         <ArrowRight className="size-4" />
       </a>
     </div>
