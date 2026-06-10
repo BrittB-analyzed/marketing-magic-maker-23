@@ -456,6 +456,7 @@ function DashboardShowcase() {
           <ul className="space-y-3 text-sm">
             {[
               { Icon: TrendingUp, t: "Live keyword posities & organisch verkeer" },
+              { Icon: Sparkles, t: "GEO-monitoring: zichtbaarheid in ChatGPT & Perplexity" },
               { Icon: ShieldCheck, t: "Maandelijkse rapportages, helder uitgelegd" },
               { Icon: Clock, t: "Persoonlijk account team, 24u response" },
             ].map(({ Icon, t }) => (
@@ -482,6 +483,44 @@ function DashboardShowcase() {
           <div className="absolute -bottom-5 -left-5 rounded-lg bg-white p-4 shadow-xl ring-1 ring-black/10">
             <div className="font-mono text-[10px] uppercase text-zinc-400">Groei deze maand</div>
             <div className="font-mono text-2xl font-semibold text-brand-green">+312.4%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Guarantee() {
+  return (
+    <section className="border-y border-zinc-200/60 bg-brand-red/5 py-20 md:py-24">
+      <div className="mx-auto max-w-5xl px-6">
+        <div className="grid items-center gap-10 md:grid-cols-2">
+          <div>
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-brand-red/10 px-3 py-1 text-xs font-semibold text-brand-red">
+              <Lock className="size-3.5" />
+              Onze belofte
+            </div>
+            <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight md:text-4xl">
+              Je verdient je investering terug. <span className="text-brand-red">Gegarandeerd.</span>
+            </h2>
+            <p className="max-w-md text-pretty text-zinc-600">
+              Wij werken net zo lang door totdat je meetbaar resultaat boekt. Geen resultaat? Dan stoppen wij pas als jij tevreden bent — dat is onze werkwijze.
+            </p>
+          </div>
+          <div className="space-y-4">
+            {[
+              { icon: BadgeCheck, text: "Werken tot jij meetbaar resultaat ziet" },
+              { icon: Check, text: "Geen verborgen kosten of kleine lettertjes" },
+              { icon: Check, text: "Maandelijks opzegbaar, geen lange contracten" },
+              { icon: Check, text: "Transparante rapportages & live dashboard" },
+            ].map((item) => (
+              <div key={item.text} className="flex items-center gap-4 rounded-xl bg-white p-4 shadow-sm ring-1 ring-zinc-200/60">
+                <span className="flex size-10 items-center justify-center rounded-full bg-brand-green/10 text-brand-green">
+                  <item.icon className="size-5" strokeWidth={2.5} />
+                </span>
+                <span className="font-medium text-zinc-800">{item.text}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -543,10 +582,14 @@ function Cases() {
 const faqs = [
   {
     q: "Hoe lang duurt het voor ik resultaat zie?",
-    a: "Eerste verbeteringen meet je binnen 4-8 weken. Structurele groei in organisch verkeer zien klanten gemiddeld vanaf maand 3.",
+    a: "Eerste verbeteringen meet je binnen 4-8 weken. Structurele groei in organisch verkeer zien klanten gemiddeld vanaf maand 3. GEO-resultaten in AI-zoekmachines volgen vaak al binnen 6-12 weken.",
   },
   {
-    q: "Wat kost een SEO-traject bij B. Analyzed?",
+    q: "Wat is GEO en waarom is het belangrijk?",
+    a: "GEO (Generative Engine Optimization) zorgt ervoor dat jouw bedrijf wordt genoemd in antwoorden van AI-tools zoals ChatGPT, Perplexity en Google AI Overviews. Steeds meer mensen zoeken via AI — wij zorgen dat jij daar zichtbaar bent.",
+  },
+  {
+    q: "Wat kost een SEO & GEO-traject bij B. Analyzed?",
     a: "Trajecten starten vanaf €950 per maand. Na de gratis scan krijg je een concreet voorstel op maat — geen verrassingen.",
   },
   {
@@ -604,14 +647,14 @@ function CTA() {
                 Klaar om je concurrentie in te halen?
               </h2>
               <p className="mb-8 text-zinc-400">
-                Vraag binnen 60 seconden je gratis SEO-rapport aan. Onze experts kijken handmatig naar je
-                kansen.
+                Vraag binnen 60 seconden je gratis SEO &amp; GEO-rapport aan. Onze experts kijken handmatig naar je
+                kansen in Google én AI-zoekmachines.
               </p>
               <ul className="space-y-4">
                 {[
-                  "Gratis zoekwoorden onderzoek",
-                  "Technisch rapport (PDF)",
-                  "Persoonlijk adviesgesprek",
+                  "Gratis SEO & GEO scan (inclusief AI-visibility)",
+                  "Technisch rapport + zoekwoorden onderzoek",
+                  "Persoonlijk adviesgesprek met strategie",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-sm">
                     <span className="flex size-5 items-center justify-center rounded-full bg-brand-green/20 text-brand-green">
@@ -636,7 +679,7 @@ function CTA() {
                 type="submit"
                 className="mt-2 h-12 w-full rounded-md bg-brand-green font-medium text-white transition hover:brightness-110"
               >
-                Vraag gratis scan aan
+                Vraag gratis SEO &amp; GEO scan aan
               </button>
               <p className="text-center text-[10px] text-zinc-400">
                 100% vrijblijvend · Binnen 24 uur antwoord
@@ -701,11 +744,11 @@ function Footer() {
 function StickyMobileCTA() {
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 border-t border-zinc-200 bg-white/90 p-3 backdrop-blur md:hidden">
-      <a
+        <a
         href="#cta"
         className="flex h-12 items-center justify-center gap-2 rounded-md bg-brand-green font-medium text-white"
       >
-        Gratis SEO scan aanvragen
+        Gratis SEO &amp; GEO scan aanvragen
         <ArrowRight className="size-4" />
       </a>
     </div>
