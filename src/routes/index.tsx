@@ -135,7 +135,7 @@ function Nav() {
             href="#hero-form"
             className="h-9 rounded-md bg-brand-green px-4 text-sm font-semibold leading-9 text-white ring-1 ring-brand-green/20 transition hover:brightness-110"
           >
-            Gratis SEO scan
+            Gratis SEO & GEO scan
           </a>
         </div>
       </div>
@@ -151,19 +151,19 @@ function Hero() {
           <div>
             <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-brand-red-soft px-3 py-1 text-xs font-semibold text-brand-red">
               <span className="size-1.5 animate-pulse rounded-full bg-brand-red" />
-              SEO advies voor MKB
+              SEO & GEO advies voor MKB
             </div>
             <h1 className="mb-6 text-balance text-4xl font-bold leading-[1.05] tracking-tight text-brand-ink md:text-5xl lg:text-[3.5rem]">
-              Meer leads uit Google.{" "}
-              <span className="text-brand-red">Meetbaar</span> en zonder gedoe.
+              Meer leads uit Google &amp;{" "}
+              <span className="text-brand-red">AI-zoekmachines</span>. Meetbaar en zonder gedoe.
             </h1>
             <p className="mb-8 max-w-[52ch] text-pretty text-lg leading-relaxed text-zinc-600">
-              B. Analyzed brengt MKB-bedrijven op pagina 1 van Google met een
-              data-gedreven SEO-aanpak. 12+ jaar ervaring, 150+ klanten, 9.8/10 beoordeeld.
+              B. Analyzed brengt MKB-bedrijven op pagina 1 van Google én in AI-zoekmachines
+              met een data-gedreven SEO &amp; GEO-aanpak. 12+ jaar ervaring, 150+ klanten, 9.8/10 beoordeeld.
             </p>
             <ul className="mb-10 space-y-3">
               {[
-                "Vergroot je vindbaarheid in Google",
+                "Vergroot je vindbaarheid in Google & AI-zoekmachines",
                 "Krijg meer relevante bezoekers naar je site",
                 "Vergroot je aantal leads en sales online",
               ].map((b) => (
@@ -208,10 +208,10 @@ function HeroForm() {
           Gratis &amp; vrijblijvend
         </div>
         <h2 className="mb-2 text-2xl font-bold leading-tight text-brand-ink">
-          Vraag je gratis SEO-scan aan
+          Vraag je gratis SEO &amp; GEO-scan aan
         </h2>
         <p className="mb-6 text-sm text-zinc-500">
-          Binnen 24 uur ontvang je een persoonlijke analyse van een SEO-expert.
+          Binnen 24 uur ontvang je een persoonlijke SEO &amp; GEO-analyse inclusief AI-visibility check.
         </p>
         <form onSubmit={(e) => e.preventDefault()} className="space-y-3">
           <div className="grid grid-cols-2 gap-3">
@@ -225,7 +225,7 @@ function HeroForm() {
             type="submit"
             className="mt-2 inline-flex h-12 w-full items-center justify-center gap-2 rounded-md bg-brand-green text-base font-semibold text-white ring-1 ring-brand-green/30 transition hover:brightness-110"
           >
-            Vraag gratis SEO-scan aan
+            Vraag gratis SEO &amp; GEO-scan aan
             <ArrowRight className="size-4" />
           </button>
           <p className="pt-1 text-center text-[11px] text-zinc-400">
@@ -280,7 +280,7 @@ const bigStats = [
   { value: "93%", label: "van Nederland zoekt nog steeds via Google" },
   { value: "68%", label: "van alle clicks gaat naar de top-3 posities" },
   { value: "+312%", label: "gemiddelde groei in organisch verkeer" },
-  { value: "150+", label: "MKB-klanten in 12 jaar tijd geholpen" },
+  { value: "AI+", label: "GEO-optimalisatie voor ChatGPT & Perplexity" },
 ];
 
 function BigStats() {
@@ -289,7 +289,7 @@ function BigStats() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-12 max-w-2xl">
           <h2 className="text-balance text-3xl font-bold tracking-tight md:text-4xl">
-            Waarom SEO geen optie meer is voor het MKB.
+            Waarom SEO &amp; GEO geen optie meer is voor het MKB.
           </h2>
         </div>
         <div className="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4">
