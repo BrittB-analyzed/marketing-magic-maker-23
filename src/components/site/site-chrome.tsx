@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowRight, Menu, Phone, Star, X } from "lucide-react";
+import logoUrl from "@/assets/logo-b-analyzed.svg?url";
 
 export const PHONE = "+31 (0)6 819 539 99";
 export const PHONE_HREF = "tel:+31681953999";
@@ -16,18 +17,14 @@ export const PILLARS = [
 
 export function Logo({ compact = false }: { compact?: boolean }) {
   return (
-    <Link to="/" className="flex items-center gap-2.5" aria-label="B. Analyzed home">
-      <span className="flex size-9 items-center justify-center rounded-full bg-brand-red text-base font-bold text-white">
-        B
-      </span>
-      {!compact && (
-        <span className="leading-none">
-          <span className="block text-lg font-semibold tracking-tight text-brand-ink">analyzed</span>
-          <span className="block text-[10px] font-medium uppercase tracking-[0.18em] text-brand-muted">
-            marketing
-          </span>
-        </span>
-      )}
+    <Link to="/" className="flex items-center" aria-label="B. Analyzed marketing — home">
+      <img
+        src={logoUrl}
+        alt="B. Analyzed marketing"
+        width={441}
+        height={114}
+        className={compact ? "h-7 w-auto" : "h-9 w-auto"}
+      />
     </Link>
   );
 }
