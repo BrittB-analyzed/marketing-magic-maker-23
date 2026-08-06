@@ -44,6 +44,7 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
               placeholder="jouwbedrijf.nl"
               value={website}
               onChange={(e) => setWebsite(e.target.value)}
+              data-lpignore="true"
             />
           </label>
           <label className="block">
@@ -55,6 +56,7 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
               placeholder="jan@bedrijf.nl"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              data-lpignore="true"
             />
           </label>
           <input
@@ -65,6 +67,7 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
             className="hidden"
             value={honeypot}
             onChange={(e) => setHoneypot(e.target.value)}
+            data-lpignore="true"
           />
           <button
             type="submit"
