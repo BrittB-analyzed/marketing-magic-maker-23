@@ -147,7 +147,7 @@ function GeoPage() {
           investering is dus niet weg als het landschap verschuift.
         </p>
         <Link
-          to="/kennisbank"
+          to="/kennisbank/"
           className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-brand-ink"
         >
           Lees meer in de kennisbank <ArrowRight className="size-4 text-brand-red" />

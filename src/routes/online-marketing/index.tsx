@@ -4,12 +4,12 @@ import { SiteLayout, PILLARS } from "@/components/site/site-chrome";
 import { CtaBand, PageHero, Section, SectionHeading } from "@/components/site/page-bits";
 
 const SUPPORT = [
-  { label: "Local SEO", to: "/online-marketing/local-seo", d: "Zichtbaar in je eigen werkgebied." },
-  { label: "Linkbuilding", to: "/online-marketing/linkbuilding-uitbesteden", d: "Autoriteit zonder linkspam." },
-  { label: "Social media marketing", to: "/online-marketing/social-media-marketing", d: "Bereik dat je pijlers versterkt." },
-  { label: "E-mailmarketing", to: "/online-marketing/emailmarketing", d: "Rendement uit bestaande contacten." },
-  { label: "Google Tag Manager", to: "/online-marketing/google-tag-manager-inrichten", d: "Meting waar je op kunt sturen." },
-  { label: "WordPress onderhoud", to: "/online-marketing/wordpress-onderhoud", d: "Snel, veilig en vindbaar." },
+  { label: "Local SEO", to: "/online-marketing/local-seo/", d: "Zichtbaar in je eigen werkgebied." },
+  { label: "Linkbuilding", to: "/online-marketing/linkbuilding-uitbesteden/", d: "Autoriteit zonder linkspam." },
+  { label: "Social media marketing", to: "/online-marketing/social-media-marketing/", d: "Bereik dat je pijlers versterkt." },
+  { label: "E-mailmarketing", to: "/online-marketing/emailmarketing/", d: "Rendement uit bestaande contacten." },
+  { label: "Google Tag Manager", to: "/online-marketing/google-tag-manager-inrichten/", d: "Meting waar je op kunt sturen." },
+  { label: "WordPress onderhoud", to: "/online-marketing/wordpress-onderhoud/", d: "Snel, veilig en vindbaar." },
 ];
 
 export const Route = createFileRoute("/online-marketing/")({

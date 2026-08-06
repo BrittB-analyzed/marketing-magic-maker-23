@@ -53,7 +53,7 @@ function OverOns() {
               </p>
             </div>
             <Link
-              to="/online-marketing-cases"
+              to="/online-marketing-cases/"
               className="mt-8 inline-flex items-center gap-2 text-sm font-semibold underline underline-offset-4"
             >
               Bekijk onze cases <ArrowRight className="size-4 text-brand-red" />

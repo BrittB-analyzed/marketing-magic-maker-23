@@ -75,7 +75,7 @@ export function ServicePage(props: ServicePageProps) {
               <p className="mt-3 text-3xl font-semibold tracking-tight">{props.price.from}</p>
               <p className="mt-2 text-sm leading-relaxed text-brand-muted">{props.price.note}</p>
               <Link
-                to="/tarieven-seo"
+                to="/tarieven-seo/"
                 className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-brand-ink"
               >
                 Bekijk alle tarieven <ArrowRight className="size-4 text-brand-red" />

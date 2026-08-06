@@ -25,7 +25,7 @@ const PLANS = [
     note: "Eenmalig",
     items: ["Zichtbaarheid in Google en AI", "Belangrijkste blokkades", "Korte persoonlijke video", "Binnen 2 werkdagen"],
     cta: "Aanvragen",
-    to: "/gratis-seo-scan",
+    to: "/gratis-seo-scan/",
     highlight: false,
   },
   {
@@ -40,7 +40,7 @@ const PLANS = [
       "Toelichting in een adviesgesprek",
     ],
     cta: "Audit aanvragen",
-    to: "/contact",
+    to: "/contact/",
     highlight: false,
   },
   {
@@ -55,7 +55,7 @@ const PLANS = [
       "Vaste specialist, geen accountmanager",
     ],
     cta: "Plan een gesprek",
-    to: "/contact",
+    to: "/contact/",
     highlight: true,
   },
 ];

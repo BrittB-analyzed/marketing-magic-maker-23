@@ -12,10 +12,10 @@ export const REVIEWS_HREF =
 export const REVIEW_COUNT = 47;
 
 export const PILLARS = [
-  { name: "SEO", to: "/online-marketing/seo-uitbesteden", claim: "Gevonden worden in Google" },
-  { name: "GEO", to: "/online-marketing/geo-optimalisatie", claim: "Genoemd worden in AI" },
-  { name: "Ads", to: "/online-marketing/google-ads-uitbesteden", claim: "Verkeer dat vandaag converteert" },
-  { name: "CRO", to: "/online-marketing/conversie-optimalisatie", claim: "Bezoekers omzetten in aanvragen" },
+  { name: "SEO", to: "/online-marketing/seo-uitbesteden/", claim: "Gevonden worden in Google" },
+  { name: "GEO", to: "/online-marketing/geo-optimalisatie/", claim: "Genoemd worden in AI" },
+  { name: "Ads", to: "/online-marketing/google-ads-uitbesteden/", claim: "Verkeer dat vandaag converteert" },
+  { name: "CRO", to: "/online-marketing/conversie-optimalisatie/", claim: "Bezoekers omzetten in aanvragen" },
 ] as const;
 
 export function Logo({ compact = false }: { compact?: boolean }) {
@@ -65,18 +65,18 @@ export function TrustLine() {
 }
 
 const SUPPORT_LINKS = [
-  { label: "Social media marketing", to: "/online-marketing/social-media-marketing" },
-  { label: "E-mailmarketing", to: "/online-marketing/emailmarketing" },
-  { label: "Google Tag Manager", to: "/online-marketing/google-tag-manager-inrichten" },
-  { label: "Linkbuilding", to: "/online-marketing/linkbuilding-uitbesteden" },
-  { label: "Local SEO", to: "/online-marketing/local-seo" },
-  { label: "WordPress onderhoud", to: "/online-marketing/wordpress-onderhoud" },
+  { label: "Social media marketing", to: "/online-marketing/social-media-marketing/" },
+  { label: "E-mailmarketing", to: "/online-marketing/emailmarketing/" },
+  { label: "Google Tag Manager", to: "/online-marketing/google-tag-manager-inrichten/" },
+  { label: "Linkbuilding", to: "/online-marketing/linkbuilding-uitbesteden/" },
+  { label: "Local SEO", to: "/online-marketing/local-seo/" },
+  { label: "WordPress onderhoud", to: "/online-marketing/wordpress-onderhoud/" },
 ];
 
 const NAV = [
-  { label: "Over ons", to: "/online-marketing-bedrijf" },
-  { label: "Cases", to: "/online-marketing-cases" },
-  { label: "Tarieven", to: "/tarieven-seo" },
+  { label: "Over ons", to: "/online-marketing-bedrijf/" },
+  { label: "Cases", to: "/online-marketing-cases/" },
+  { label: "Tarieven", to: "/tarieven-seo/" },
 ];
 
 export function Header() {
@@ -151,7 +151,7 @@ export function Header() {
                     </div>
                   </div>
                   <Link
-                    to="/online-marketing"
+                    to="/online-marketing/"
                     onClick={() => setServices(false)}
                     className="mt-5 inline-flex items-center gap-1.5 border-t border-brand-line pt-4 text-sm font-semibold text-brand-ink hover:text-brand-red"
                   >
@@ -173,7 +173,7 @@ export function Header() {
             ))}
             <li>
               <Link
-                to="/gratis-seo-scan"
+                to="/gratis-seo-scan/"
                 className="flex items-center gap-1.5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
                 activeProps={{ className: "text-brand-ink" }}
               >
@@ -186,13 +186,6 @@ export function Header() {
           </ul>
           <div className="flex items-center gap-2">
             <a
-              href={PHONE_HREF}
-              className="mr-2 hidden items-center gap-1.5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-red md:flex"
-            >
-              <Phone className="size-3.5" />
-              Direct contact
-            </a>
-            <a
               href={WHATSAPP_HREF}
               target="_blank"
               rel="noopener noreferrer"
@@ -203,7 +196,7 @@ export function Header() {
               WhatsApp
             </a>
             <Link
-              to="/gratis-seo-scan"
+              to="/gratis-seo-scan/"
               className="hidden rounded-full bg-brand-green px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark sm:inline-flex"
             >
               Gratis SEO &amp; GEO scan
@@ -252,7 +245,7 @@ export function Header() {
               ))}
               <li>
                 <Link
-                  to="/gratis-seo-scan"
+                  to="/gratis-seo-scan/"
                   onClick={() => setOpen(false)}
                   className="flex items-center gap-2 border-b border-brand-line py-3 text-base font-medium text-brand-ink"
                 >
@@ -264,7 +257,7 @@ export function Header() {
               </li>
               <li className="flex flex-col gap-2 pt-4">
                 <Link
-                  to="/gratis-seo-scan"
+                  to="/gratis-seo-scan/"
                   onClick={() => setOpen(false)}
                   className="rounded-full bg-brand-green px-4 py-3 text-center text-sm font-semibold text-white"
                 >
@@ -340,32 +333,32 @@ export function Footer() {
           <h2 className="text-sm font-semibold text-brand-ink">Bedrijf</h2>
           <ul className="mt-4 space-y-2 text-sm text-brand-muted">
             <li>
-              <Link to="/online-marketing-bedrijf" className="hover:text-brand-ink">
+              <Link to="/online-marketing-bedrijf/" className="hover:text-brand-ink">
                 Over B. Analyzed
               </Link>
             </li>
             <li>
-              <Link to="/online-marketing-cases" className="hover:text-brand-ink">
+              <Link to="/online-marketing-cases/" className="hover:text-brand-ink">
                 Cases
               </Link>
             </li>
             <li>
-              <Link to="/tarieven-seo" className="hover:text-brand-ink">
+              <Link to="/tarieven-seo/" className="hover:text-brand-ink">
                 Tarieven
               </Link>
             </li>
             <li>
-              <Link to="/blog" className="hover:text-brand-ink">
+              <Link to="/blog/" className="hover:text-brand-ink">
                 Blog
               </Link>
             </li>
             <li>
-              <Link to="/kennisbank" className="hover:text-brand-ink">
+              <Link to="/kennisbank/" className="hover:text-brand-ink">
                 Kennisbank
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-brand-ink">
+              <Link to="/contact/" className="hover:text-brand-ink">
                 Contact
               </Link>
             </li>
@@ -387,7 +380,7 @@ export function StickyMobileCTA() {
     <div className="fixed inset-x-0 bottom-0 z-50 border-t border-brand-line bg-white/95 p-3 backdrop-blur md:hidden">
       <div className="flex gap-2">
         <Link
-          to="/gratis-seo-scan"
+          to="/gratis-seo-scan/"
           className="flex flex-1 items-center justify-center gap-2 rounded-full bg-brand-green px-4 py-3 text-sm font-semibold text-white"
         >
           Gratis scan <ArrowRight className="size-4" />
