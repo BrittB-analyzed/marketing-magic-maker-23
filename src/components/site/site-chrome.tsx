@@ -1,12 +1,15 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, Check, Menu, Phone, Star, X } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, Menu, MessageCircle, Phone, Star, X } from "lucide-react";
 import logoUrl from "@/assets/logo-b-analyzed.svg?url";
 
 export const PHONE = "+31 (0)6 819 539 99";
 export const PHONE_HREF = "tel:+31681953999";
 export const WHATSAPP_HREF = "https://wa.me/31681953999";
 export const EMAIL = "info@b-analyzed.com";
+export const REVIEWS_HREF =
+  "https://www.google.com/search?q=b+analyzed+marketing#lrd=0x0:0x0,1,,,";
+export const REVIEW_COUNT = 47;
 
 export const PILLARS = [
   { name: "SEO", to: "/online-marketing/seo-uitbesteden", claim: "Gevonden worden in Google" },
@@ -33,14 +36,21 @@ export function TrustLine() {
   return (
     <div className="hidden border-b border-brand-line bg-white md:block">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-2 text-xs">
-        <div className="flex items-center gap-2">
+        <a
+          href={REVIEWS_HREF}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 transition-colors hover:text-brand-red"
+        >
           <span className="flex" aria-hidden="true">
             {Array.from({ length: 5 }).map((_, i) => (
               <Star key={i} className="size-3.5 fill-brand-star text-brand-star" strokeWidth={0} />
             ))}
           </span>
-          <span className="font-medium text-brand-ink">Beoordeeld met een 9,8</span>
-        </div>
+          <span className="font-medium text-brand-ink">
+            Beoordeeld met een 9,8 — {REVIEW_COUNT} reviews
+          </span>
+        </a>
         <div className="flex items-center gap-6 text-brand-muted">
           {["15 jaar ervaring", "Aantoonbare resultaten", "Transparante werkwijze"].map((t) => (
             <span key={t} className="flex items-center gap-1.5">
@@ -54,16 +64,24 @@ export function TrustLine() {
   );
 }
 
+const SUPPORT_LINKS = [
+  { label: "Social media marketing", to: "/online-marketing/social-media-marketing" },
+  { label: "E-mailmarketing", to: "/online-marketing/emailmarketing" },
+  { label: "Google Tag Manager", to: "/online-marketing/google-tag-manager-inrichten" },
+  { label: "Linkbuilding", to: "/online-marketing/linkbuilding-uitbesteden" },
+  { label: "Local SEO", to: "/online-marketing/local-seo" },
+  { label: "WordPress onderhoud", to: "/online-marketing/wordpress-onderhoud" },
+];
+
 const NAV = [
-  ...PILLARS.map((p) => ({ label: p.name, to: p.to, badge: p.name === "GEO" })),
-  { label: "Cases", to: "/online-marketing-cases", badge: false },
-  { label: "Tarieven", to: "/tarieven-seo", badge: false },
-  { label: "Kennis", to: "/blog", badge: false },
-  { label: "Over ons", to: "/online-marketing-bedrijf", badge: false },
+  { label: "Over ons", to: "/online-marketing-bedrijf" },
+  { label: "Cases", to: "/online-marketing-cases" },
+  { label: "Tarieven", to: "/tarieven-seo" },
 ];
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const [services, setServices] = useState(false);
 
   return (
     <>
@@ -71,23 +89,100 @@ export function Header() {
       <header className="sticky top-0 z-50 border-b border-brand-line bg-white/90 backdrop-blur-md">
         <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6" aria-label="Hoofdnavigatie">
           <Logo />
-          <ul className="hidden items-center gap-6 lg:flex">
+          <ul className="hidden items-center gap-5 whitespace-nowrap lg:flex">
+            <li
+              className="relative"
+              onMouseEnter={() => setServices(true)}
+              onMouseLeave={() => setServices(false)}
+            >
+              <button
+                type="button"
+                onClick={() => setServices((v) => !v)}
+                aria-expanded={services}
+                className="flex items-center gap-1 py-5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
+              >
+                Diensten
+                <ChevronDown className="size-3.5" />
+              </button>
+              {services && (
+                <div className="absolute left-1/2 top-full w-[34rem] -translate-x-1/2 rounded-2xl border border-brand-line bg-white p-6 shadow-xl">
+                  <div className="grid grid-cols-2 gap-6">
+                    <div>
+                      <p className="text-[11px] font-semibold uppercase tracking-wide text-brand-muted">
+                        Hoofdpijlers
+                      </p>
+                      <ul className="mt-3 space-y-2">
+                        {PILLARS.map((p) => (
+                          <li key={p.to}>
+                            <Link
+                              to={p.to}
+                              onClick={() => setServices(false)}
+                              className="flex items-center gap-1.5 text-sm font-medium text-brand-ink hover:text-brand-red"
+                            >
+                              {p.name}
+                              {p.name === "GEO" && (
+                                <span className="rounded-full bg-brand-red-soft px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-red">
+                                  nieuw
+                                </span>
+                              )}
+                              <span className="text-xs font-normal text-brand-muted">— {p.claim}</span>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <p className="text-[11px] font-semibold uppercase tracking-wide text-brand-muted">
+                        Ondersteunend
+                      </p>
+                      <ul className="mt-3 space-y-2">
+                        {SUPPORT_LINKS.map((l) => (
+                          <li key={l.to}>
+                            <Link
+                              to={l.to}
+                              onClick={() => setServices(false)}
+                              className="text-sm text-brand-muted hover:text-brand-ink"
+                            >
+                              {l.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                  <Link
+                    to="/online-marketing"
+                    onClick={() => setServices(false)}
+                    className="mt-5 inline-flex items-center gap-1.5 border-t border-brand-line pt-4 text-sm font-semibold text-brand-ink hover:text-brand-red"
+                  >
+                    Alle diensten bekijken <ArrowRight className="size-4" />
+                  </Link>
+                </div>
+              )}
+            </li>
             {NAV.map((item) => (
               <li key={item.to}>
                 <Link
                   to={item.to}
-                  className="flex items-center gap-1.5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
+                  className="whitespace-nowrap text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
                   activeProps={{ className: "text-brand-ink" }}
                 >
                   {item.label}
-                  {item.badge && (
-                    <span className="rounded-full bg-brand-red-soft px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-red">
-                      nieuw
-                    </span>
-                  )}
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                to="/gratis-seo-scan"
+                className="flex items-center gap-1.5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
+                activeProps={{ className: "text-brand-ink" }}
+              >
+                SEO &amp; GEO audit
+                <span className="rounded-full bg-brand-red-soft px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-red">
+                  nieuw
+                </span>
+              </Link>
+            </li>
           </ul>
           <div className="flex items-center gap-2">
             <a
@@ -96,6 +191,16 @@ export function Header() {
             >
               <Phone className="size-3.5" />
               Direct contact
+            </a>
+            <a
+              href={WHATSAPP_HREF}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp Business"
+              className="hidden items-center gap-1.5 rounded-full border border-brand-line px-3 py-2 text-sm font-medium text-brand-ink transition-colors hover:border-brand-green hover:text-brand-green md:inline-flex"
+            >
+              <MessageCircle className="size-4" />
+              WhatsApp
             </a>
             <Link
               to="/gratis-seo-scan"
@@ -117,6 +222,23 @@ export function Header() {
         {open && (
           <div className="border-t border-brand-line bg-brand-canvas lg:hidden">
             <ul className="mx-auto max-w-6xl px-6 py-4">
+              <li className="border-b border-brand-line py-3">
+                <p className="text-[11px] font-semibold uppercase tracking-wide text-brand-muted">
+                  Diensten
+                </p>
+                <div className="mt-2 grid gap-2">
+                  {[...PILLARS.map((p) => ({ label: p.name, to: p.to })), ...SUPPORT_LINKS].map((l) => (
+                    <Link
+                      key={l.to}
+                      to={l.to}
+                      onClick={() => setOpen(false)}
+                      className="text-sm text-brand-muted"
+                    >
+                      {l.label}
+                    </Link>
+                  ))}
+                </div>
+              </li>
               {NAV.map((item) => (
                 <li key={item.to}>
                   <Link
@@ -128,6 +250,18 @@ export function Header() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  to="/gratis-seo-scan"
+                  onClick={() => setOpen(false)}
+                  className="flex items-center gap-2 border-b border-brand-line py-3 text-base font-medium text-brand-ink"
+                >
+                  SEO &amp; GEO audit
+                  <span className="rounded-full bg-brand-red-soft px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-red">
+                    nieuw
+                  </span>
+                </Link>
+              </li>
               <li className="flex flex-col gap-2 pt-4">
                 <Link
                   to="/gratis-seo-scan"
@@ -136,6 +270,14 @@ export function Header() {
                 >
                   Gratis scan aanvragen
                 </Link>
+                <a
+                  href={WHATSAPP_HREF}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full border border-brand-line px-4 py-3 text-center text-sm font-semibold text-brand-ink"
+                >
+                  WhatsApp ons
+                </a>
                 <a
                   href={PHONE_HREF}
                   className="rounded-full border border-brand-line px-4 py-3 text-center text-sm font-semibold text-brand-ink"
@@ -150,15 +292,6 @@ export function Header() {
     </>
   );
 }
-
-const SUPPORT_LINKS = [
-  { label: "Social media marketing", to: "/online-marketing/social-media-marketing" },
-  { label: "E-mailmarketing", to: "/online-marketing/emailmarketing" },
-  { label: "Google Tag Manager", to: "/online-marketing/google-tag-manager-inrichten" },
-  { label: "Linkbuilding", to: "/online-marketing/linkbuilding-uitbesteden" },
-  { label: "Local SEO", to: "/online-marketing/local-seo" },
-  { label: "WordPress onderhoud", to: "/online-marketing/wordpress-onderhoud" },
-];
 
 export function Footer() {
   return (
@@ -266,8 +399,32 @@ export function StickyMobileCTA() {
         >
           <Phone className="size-5" />
         </a>
+        <a
+          href={WHATSAPP_HREF}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp Business"
+          className="flex size-12 items-center justify-center rounded-full bg-[#25D366] text-white"
+        >
+          <MessageCircle className="size-5" />
+        </a>
       </div>
     </div>
+  );
+}
+
+export function WhatsAppFab() {
+  return (
+    <a
+      href={WHATSAPP_HREF}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Stuur ons een WhatsApp-bericht"
+      className="fixed bottom-6 right-6 z-50 hidden items-center gap-2 rounded-full bg-[#25D366] px-4 py-3 text-sm font-semibold text-white shadow-lg transition-transform hover:scale-105 md:inline-flex"
+    >
+      <MessageCircle className="size-5" />
+      WhatsApp
+    </a>
   );
 }
 
@@ -278,6 +435,7 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
       <main className="pb-20 md:pb-0">{children}</main>
       <Footer />
       <StickyMobileCTA />
+      <WhatsAppFab />
     </div>
   );
 }
