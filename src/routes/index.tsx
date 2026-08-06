@@ -148,7 +148,7 @@ function Hero() {
               ))}
             </span>
             <p className="text-sm text-brand-muted">
-              <span className="font-semibold text-brand-ink">9,8</span> gemiddeld · 50+ klantwaarderingen
+              <span className="font-semibold text-brand-ink">9,8</span> gemiddeld · 47 reviews
             </p>
           </div>
           </div>
@@ -551,7 +551,7 @@ function PersonalTouch() {
           </div>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {[
-              ["Beoordeeld met 9,8", "Op basis van 50+ klantwaarderingen."],
+              ["Beoordeeld met 9,8", "Op basis van 47 Google-reviews."],
               ["Vaste specialist", "Dezelfde persoon van strategie tot uitvoering."],
               ["Limburgse nuchterheid", "Geen beloftes die we niet waar kunnen maken."],
               ["Altijd inzichtelijk", "Dashboard + Loom-video, 24/7 beschikbaar."],
