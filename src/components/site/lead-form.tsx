@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ClientOnly } from "@tanstack/react-router";
 import { ArrowRight, Check, Lock } from "lucide-react";
 
 const inputClass =
