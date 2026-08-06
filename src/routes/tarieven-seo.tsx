@@ -126,7 +126,7 @@ function Tarieven() {
           ))}
         </div>
         <p className="mt-8 text-sm text-brand-muted">
-          Alle bedragen zijn exclusief btw. Ads-beheer start vanaf € 499,- per maand, CRO vanaf € 750,- per maand.
+          Alle bedragen zijn exclusief btw. Vanaf € 999,- per maand combineren we SEO, GEO, Ads en CRO. Je kunt kiezen uit diverse diensten voor dit bedrag.
         </p>
       </Section>
       <FaqBlock items={FAQ} title="Over onze tarieven" />

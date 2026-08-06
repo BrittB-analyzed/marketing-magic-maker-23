@@ -6,7 +6,7 @@ import { faqJsonLd } from "@/components/site/page-bits";
 const FAQ = [
   {
     q: "Wat kost Google Ads uitbesteden?",
-    a: "Het beheer start bij € 499,- per maand, exclusief je advertentiebudget. Voor kleinere accounts kijken we naar een passende variant.",
+    a: "Vanaf € 999,- per maand combineren we SEO, GEO, Ads en CRO. Je advertentiebudget betaal je rechtstreeks aan Google; wij werken in jouw eigen account.",
   },
   {
     q: "Hoe snel zie ik resultaat met Ads?",
@@ -25,7 +25,7 @@ export const Route = createFileRoute("/online-marketing/google-ads-uitbesteden")
       {
         name: "description",
         content:
-          "Google Ads uitbesteden voor het MKB: campagnes op koopintentie, wekelijkse optimalisatie en heldere rapportage. Beheer vanaf € 499,- per maand.",
+          "Google Ads uitbesteden voor het MKB: campagnes op koopintentie, wekelijkse optimalisatie en heldere rapportage. Vanaf € 999,- per maand.",
       },
       { property: "og:title", content: "Google Ads uitbesteden — verkeer dat vandaag converteert" },
       {

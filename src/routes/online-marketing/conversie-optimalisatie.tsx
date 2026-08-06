@@ -63,7 +63,7 @@ export const Route = createFileRoute("/online-marketing/conversie-optimalisatie"
           { title: "Optimalisatie", body: "Wat wint, blijft staan. Wat verliest, leert ons iets voor de volgende test." },
         ]}
         connection="CRO maakt SEO, GEO en Ads rendabel. Meer verkeer zonder conversie is een dure hobby; een hogere conversieratio verhoogt het rendement van élk kanaal tegelijk."
-        price={{ from: "Vanaf € 750,- per maand", note: "Losse conversie-audit vanaf € 599,-, inclusief prioriteitenlijst die je zelf kunt uitvoeren." }}
+        price={{ from: "Vanaf € 999,- per maand", note: "CRO is in te zetten als onderdeel van het pakket of als aparte schijf met dezelfde basis." }}
         faq={FAQ}
       />
     </SiteLayout>
