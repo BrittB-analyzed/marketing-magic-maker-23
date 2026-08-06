@@ -12,8 +12,11 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as TarievenSeoRouteImport } from './routes/tarieven-seo'
 import { Route as SeoVoorMkbRouteImport } from './routes/seo-voor-mkb'
 import { Route as OnlineMarketingCasesRouteImport } from './routes/online-marketing-cases'
+import { Route as OnlineMarketingBedrijfRouteImport } from './routes/online-marketing-bedrijf'
+import { Route as KennisbankRouteImport } from './routes/kennisbank'
 import { Route as GratisSeoScanRouteImport } from './routes/gratis-seo-scan'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as BlogRouteImport } from './routes/blog'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as OnlineMarketingIndexRouteImport } from './routes/online-marketing/index'
 import { Route as OnlineMarketingWordpressOnderhoudRouteImport } from './routes/online-marketing/wordpress-onderhoud'
@@ -42,6 +45,16 @@ const OnlineMarketingCasesRoute = OnlineMarketingCasesRouteImport.update({
   path: '/online-marketing-cases',
   getParentRoute: () => rootRouteImport,
 } as any)
+const OnlineMarketingBedrijfRoute = OnlineMarketingBedrijfRouteImport.update({
+  id: '/online-marketing-bedrijf',
+  path: '/online-marketing-bedrijf',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KennisbankRoute = KennisbankRouteImport.update({
+  id: '/kennisbank',
+  path: '/kennisbank',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const GratisSeoScanRoute = GratisSeoScanRouteImport.update({
   id: '/gratis-seo-scan',
   path: '/gratis-seo-scan',
@@ -50,6 +63,11 @@ const GratisSeoScanRoute = GratisSeoScanRouteImport.update({
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogRoute = BlogRouteImport.update({
+  id: '/blog',
+  path: '/blog',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -124,8 +142,11 @@ const OnlineMarketingConversieOptimalisatieRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/gratis-seo-scan': typeof GratisSeoScanRoute
+  '/kennisbank': typeof KennisbankRoute
+  '/online-marketing-bedrijf': typeof OnlineMarketingBedrijfRoute
   '/online-marketing-cases': typeof OnlineMarketingCasesRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
   '/tarieven-seo': typeof TarievenSeoRoute
@@ -143,8 +164,11 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/gratis-seo-scan': typeof GratisSeoScanRoute
+  '/kennisbank': typeof KennisbankRoute
+  '/online-marketing-bedrijf': typeof OnlineMarketingBedrijfRoute
   '/online-marketing-cases': typeof OnlineMarketingCasesRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
   '/tarieven-seo': typeof TarievenSeoRoute
@@ -163,8 +187,11 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/gratis-seo-scan': typeof GratisSeoScanRoute
+  '/kennisbank': typeof KennisbankRoute
+  '/online-marketing-bedrijf': typeof OnlineMarketingBedrijfRoute
   '/online-marketing-cases': typeof OnlineMarketingCasesRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
   '/tarieven-seo': typeof TarievenSeoRoute
@@ -184,8 +211,11 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/blog'
     | '/contact'
     | '/gratis-seo-scan'
+    | '/kennisbank'
+    | '/online-marketing-bedrijf'
     | '/online-marketing-cases'
     | '/seo-voor-mkb'
     | '/tarieven-seo'
@@ -203,8 +233,11 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/blog'
     | '/contact'
     | '/gratis-seo-scan'
+    | '/kennisbank'
+    | '/online-marketing-bedrijf'
     | '/online-marketing-cases'
     | '/seo-voor-mkb'
     | '/tarieven-seo'
@@ -222,8 +255,11 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/blog'
     | '/contact'
     | '/gratis-seo-scan'
+    | '/kennisbank'
+    | '/online-marketing-bedrijf'
     | '/online-marketing-cases'
     | '/seo-voor-mkb'
     | '/tarieven-seo'
@@ -242,8 +278,11 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  BlogRoute: typeof BlogRoute
   ContactRoute: typeof ContactRoute
   GratisSeoScanRoute: typeof GratisSeoScanRoute
+  KennisbankRoute: typeof KennisbankRoute
+  OnlineMarketingBedrijfRoute: typeof OnlineMarketingBedrijfRoute
   OnlineMarketingCasesRoute: typeof OnlineMarketingCasesRoute
   SeoVoorMkbRoute: typeof SeoVoorMkbRoute
   TarievenSeoRoute: typeof TarievenSeoRoute
@@ -283,6 +322,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OnlineMarketingCasesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/online-marketing-bedrijf': {
+      id: '/online-marketing-bedrijf'
+      path: '/online-marketing-bedrijf'
+      fullPath: '/online-marketing-bedrijf'
+      preLoaderRoute: typeof OnlineMarketingBedrijfRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/kennisbank': {
+      id: '/kennisbank'
+      path: '/kennisbank'
+      fullPath: '/kennisbank'
+      preLoaderRoute: typeof KennisbankRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/gratis-seo-scan': {
       id: '/gratis-seo-scan'
       path: '/gratis-seo-scan'
@@ -295,6 +348,13 @@ declare module '@tanstack/react-router' {
       path: '/contact'
       fullPath: '/contact'
       preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog': {
+      id: '/blog'
+      path: '/blog'
+      fullPath: '/blog'
+      preLoaderRoute: typeof BlogRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -386,8 +446,11 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  BlogRoute: BlogRoute,
   ContactRoute: ContactRoute,
   GratisSeoScanRoute: GratisSeoScanRoute,
+  KennisbankRoute: KennisbankRoute,
+  OnlineMarketingBedrijfRoute: OnlineMarketingBedrijfRoute,
   OnlineMarketingCasesRoute: OnlineMarketingCasesRoute,
   SeoVoorMkbRoute: SeoVoorMkbRoute,
   TarievenSeoRoute: TarievenSeoRoute,
