@@ -3,6 +3,7 @@ import { Mail, MessageSquare, Phone } from "lucide-react";
 import { SiteLayout, EMAIL, PHONE, PHONE_HREF, WHATSAPP_HREF } from "@/components/site/site-chrome";
 import { LeadForm } from "@/components/site/lead-form";
 import { Eyebrow, Section } from "@/components/site/page-bits";
+import portretStoer from "@/assets/photos/portret-stoer.jpg.asset.json";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
