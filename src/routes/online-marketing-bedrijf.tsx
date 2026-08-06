@@ -52,19 +52,41 @@ function OverOns() {
                 het doen en wat het oplevert.
               </p>
             </div>
+            <Link
+              to="/online-marketing-cases"
+              className="mt-8 inline-flex items-center gap-2 text-sm font-semibold underline underline-offset-4"
+            >
+              Bekijk onze cases <ArrowRight className="size-4 text-brand-red" />
+            </Link>
           </div>
-          <div className="grid gap-5 sm:grid-cols-2">
-            {[
-              ["Beoordeling 9,8", "Op basis van 50+ klantwaarderingen."],
-              ["Vaste specialist", "Dezelfde persoon van strategie tot uitvoering."],
-              ["Maandelijkse video", "Je resultaten uitgelegd, niet toegestuurd."],
-              ["MKB-focus", "Nederland en België, van installateur tot dienstverlener."],
-            ].map(([t, d]) => (
-              <div key={t} className="rounded-2xl border border-brand-line bg-white p-6">
-                <h3 className="text-base font-semibold">{t}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-brand-muted">{d}</p>
-              </div>
-            ))}
+          <div className="grid grid-cols-2 gap-4">
+            <div className="col-span-2 overflow-hidden rounded-2xl bg-brand-line">
+              <img
+                src={teamSamen.url}
+                alt="Het team van B. Analyzed"
+                className="h-64 w-full object-cover sm:h-80"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl bg-brand-line">
+              <img
+                src={portretFounder.url}
+                alt="Sanne — oprichter van B. Analyzed"
+                className="h-64 w-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl bg-brand-line">
+              <img
+                src={teamOmhelzing.url}
+                alt="Persoonlijk contact staat voorop"
+                className="h-64 w-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
           </div>
         </div>
       </Section>
