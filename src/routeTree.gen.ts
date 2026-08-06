@@ -11,9 +11,13 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as SeoVoorMkbRouteImport } from './routes/seo-voor-mkb'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as OnlineMarketingSocialMediaMarketingRouteImport } from './routes/online-marketing/social-media-marketing'
 import { Route as OnlineMarketingSeoUitbestedenRouteImport } from './routes/online-marketing/seo-uitbesteden'
+import { Route as OnlineMarketingLocalSeoRouteImport } from './routes/online-marketing/local-seo'
+import { Route as OnlineMarketingLinkbuildingUitbestedenRouteImport } from './routes/online-marketing/linkbuilding-uitbesteden'
 import { Route as OnlineMarketingGoogleAdsUitbestedenRouteImport } from './routes/online-marketing/google-ads-uitbesteden'
 import { Route as OnlineMarketingGeoOptimalisatieRouteImport } from './routes/online-marketing/geo-optimalisatie'
+import { Route as OnlineMarketingEmailmarketingRouteImport } from './routes/online-marketing/emailmarketing'
 import { Route as OnlineMarketingConversieOptimalisatieRouteImport } from './routes/online-marketing/conversie-optimalisatie'
 
 const SeoVoorMkbRoute = SeoVoorMkbRouteImport.update({
@@ -26,10 +30,27 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const OnlineMarketingSocialMediaMarketingRoute =
+  OnlineMarketingSocialMediaMarketingRouteImport.update({
+    id: '/online-marketing/social-media-marketing',
+    path: '/online-marketing/social-media-marketing',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const OnlineMarketingSeoUitbestedenRoute =
   OnlineMarketingSeoUitbestedenRouteImport.update({
     id: '/online-marketing/seo-uitbesteden',
     path: '/online-marketing/seo-uitbesteden',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingLocalSeoRoute = OnlineMarketingLocalSeoRouteImport.update({
+  id: '/online-marketing/local-seo',
+  path: '/online-marketing/local-seo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OnlineMarketingLinkbuildingUitbestedenRoute =
+  OnlineMarketingLinkbuildingUitbestedenRouteImport.update({
+    id: '/online-marketing/linkbuilding-uitbesteden',
+    path: '/online-marketing/linkbuilding-uitbesteden',
     getParentRoute: () => rootRouteImport,
   } as any)
 const OnlineMarketingGoogleAdsUitbestedenRoute =
@@ -44,6 +65,12 @@ const OnlineMarketingGeoOptimalisatieRoute =
     path: '/online-marketing/geo-optimalisatie',
     getParentRoute: () => rootRouteImport,
   } as any)
+const OnlineMarketingEmailmarketingRoute =
+  OnlineMarketingEmailmarketingRouteImport.update({
+    id: '/online-marketing/emailmarketing',
+    path: '/online-marketing/emailmarketing',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const OnlineMarketingConversieOptimalisatieRoute =
   OnlineMarketingConversieOptimalisatieRouteImport.update({
     id: '/online-marketing/conversie-optimalisatie',
@@ -55,26 +82,38 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
+  '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
   '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
   '/online-marketing/google-ads-uitbesteden': typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  '/online-marketing/linkbuilding-uitbesteden': typeof OnlineMarketingLinkbuildingUitbestedenRoute
+  '/online-marketing/local-seo': typeof OnlineMarketingLocalSeoRoute
   '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
+  '/online-marketing/social-media-marketing': typeof OnlineMarketingSocialMediaMarketingRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
+  '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
   '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
   '/online-marketing/google-ads-uitbesteden': typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  '/online-marketing/linkbuilding-uitbesteden': typeof OnlineMarketingLinkbuildingUitbestedenRoute
+  '/online-marketing/local-seo': typeof OnlineMarketingLocalSeoRoute
   '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
+  '/online-marketing/social-media-marketing': typeof OnlineMarketingSocialMediaMarketingRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
+  '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
   '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
   '/online-marketing/google-ads-uitbesteden': typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  '/online-marketing/linkbuilding-uitbesteden': typeof OnlineMarketingLinkbuildingUitbestedenRoute
+  '/online-marketing/local-seo': typeof OnlineMarketingLocalSeoRoute
   '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
+  '/online-marketing/social-media-marketing': typeof OnlineMarketingSocialMediaMarketingRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -82,34 +121,50 @@ export interface FileRouteTypes {
     | '/'
     | '/seo-voor-mkb'
     | '/online-marketing/conversie-optimalisatie'
+    | '/online-marketing/emailmarketing'
     | '/online-marketing/geo-optimalisatie'
     | '/online-marketing/google-ads-uitbesteden'
+    | '/online-marketing/linkbuilding-uitbesteden'
+    | '/online-marketing/local-seo'
     | '/online-marketing/seo-uitbesteden'
+    | '/online-marketing/social-media-marketing'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/seo-voor-mkb'
     | '/online-marketing/conversie-optimalisatie'
+    | '/online-marketing/emailmarketing'
     | '/online-marketing/geo-optimalisatie'
     | '/online-marketing/google-ads-uitbesteden'
+    | '/online-marketing/linkbuilding-uitbesteden'
+    | '/online-marketing/local-seo'
     | '/online-marketing/seo-uitbesteden'
+    | '/online-marketing/social-media-marketing'
   id:
     | '__root__'
     | '/'
     | '/seo-voor-mkb'
     | '/online-marketing/conversie-optimalisatie'
+    | '/online-marketing/emailmarketing'
     | '/online-marketing/geo-optimalisatie'
     | '/online-marketing/google-ads-uitbesteden'
+    | '/online-marketing/linkbuilding-uitbesteden'
+    | '/online-marketing/local-seo'
     | '/online-marketing/seo-uitbesteden'
+    | '/online-marketing/social-media-marketing'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   SeoVoorMkbRoute: typeof SeoVoorMkbRoute
   OnlineMarketingConversieOptimalisatieRoute: typeof OnlineMarketingConversieOptimalisatieRoute
+  OnlineMarketingEmailmarketingRoute: typeof OnlineMarketingEmailmarketingRoute
   OnlineMarketingGeoOptimalisatieRoute: typeof OnlineMarketingGeoOptimalisatieRoute
   OnlineMarketingGoogleAdsUitbestedenRoute: typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  OnlineMarketingLinkbuildingUitbestedenRoute: typeof OnlineMarketingLinkbuildingUitbestedenRoute
+  OnlineMarketingLocalSeoRoute: typeof OnlineMarketingLocalSeoRoute
   OnlineMarketingSeoUitbestedenRoute: typeof OnlineMarketingSeoUitbestedenRoute
+  OnlineMarketingSocialMediaMarketingRoute: typeof OnlineMarketingSocialMediaMarketingRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -128,11 +183,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/online-marketing/social-media-marketing': {
+      id: '/online-marketing/social-media-marketing'
+      path: '/online-marketing/social-media-marketing'
+      fullPath: '/online-marketing/social-media-marketing'
+      preLoaderRoute: typeof OnlineMarketingSocialMediaMarketingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/online-marketing/seo-uitbesteden': {
       id: '/online-marketing/seo-uitbesteden'
       path: '/online-marketing/seo-uitbesteden'
       fullPath: '/online-marketing/seo-uitbesteden'
       preLoaderRoute: typeof OnlineMarketingSeoUitbestedenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/local-seo': {
+      id: '/online-marketing/local-seo'
+      path: '/online-marketing/local-seo'
+      fullPath: '/online-marketing/local-seo'
+      preLoaderRoute: typeof OnlineMarketingLocalSeoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/linkbuilding-uitbesteden': {
+      id: '/online-marketing/linkbuilding-uitbesteden'
+      path: '/online-marketing/linkbuilding-uitbesteden'
+      fullPath: '/online-marketing/linkbuilding-uitbesteden'
+      preLoaderRoute: typeof OnlineMarketingLinkbuildingUitbestedenRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/online-marketing/google-ads-uitbesteden': {
@@ -147,6 +223,13 @@ declare module '@tanstack/react-router' {
       path: '/online-marketing/geo-optimalisatie'
       fullPath: '/online-marketing/geo-optimalisatie'
       preLoaderRoute: typeof OnlineMarketingGeoOptimalisatieRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/emailmarketing': {
+      id: '/online-marketing/emailmarketing'
+      path: '/online-marketing/emailmarketing'
+      fullPath: '/online-marketing/emailmarketing'
+      preLoaderRoute: typeof OnlineMarketingEmailmarketingRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/online-marketing/conversie-optimalisatie': {
@@ -164,10 +247,16 @@ const rootRouteChildren: RootRouteChildren = {
   SeoVoorMkbRoute: SeoVoorMkbRoute,
   OnlineMarketingConversieOptimalisatieRoute:
     OnlineMarketingConversieOptimalisatieRoute,
+  OnlineMarketingEmailmarketingRoute: OnlineMarketingEmailmarketingRoute,
   OnlineMarketingGeoOptimalisatieRoute: OnlineMarketingGeoOptimalisatieRoute,
   OnlineMarketingGoogleAdsUitbestedenRoute:
     OnlineMarketingGoogleAdsUitbestedenRoute,
+  OnlineMarketingLinkbuildingUitbestedenRoute:
+    OnlineMarketingLinkbuildingUitbestedenRoute,
+  OnlineMarketingLocalSeoRoute: OnlineMarketingLocalSeoRoute,
   OnlineMarketingSeoUitbestedenRoute: OnlineMarketingSeoUitbestedenRoute,
+  OnlineMarketingSocialMediaMarketingRoute:
+    OnlineMarketingSocialMediaMarketingRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
