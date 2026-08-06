@@ -3,8 +3,8 @@ import { ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/site/site-chrome";
 import { CtaBand, PageHero, Section, SectionHeading } from "@/components/site/page-bits";
 import portretFounder from "@/assets/photos/portret-founder.jpg.asset.json";
-import teamSamen from "@/assets/photos/team-samen.jpg.asset.json";
-import teamOmhelzing from "@/assets/photos/team-omhelzing.jpg.asset.json";
+import portretBuiten from "@/assets/photos/portret-buiten.jpg.asset.json";
+import portretZittend from "@/assets/photos/portret-zittend.jpg.asset.json";
 
 export const Route = createFileRoute("/online-marketing-bedrijf")({
   head: () => ({
@@ -62,8 +62,8 @@ function OverOns() {
           <div className="grid grid-cols-2 gap-4">
             <div className="col-span-2 overflow-hidden rounded-2xl bg-brand-line">
               <img
-                src={teamSamen.url}
-                alt="Het team van B. Analyzed"
+                src={portretBuiten.url}
+                alt="Sanne van B. Analyzed buiten in het veld"
                 className="h-64 w-full object-cover sm:h-80"
                 loading="lazy"
                 decoding="async"
@@ -80,8 +80,8 @@ function OverOns() {
             </div>
             <div className="overflow-hidden rounded-2xl bg-brand-line">
               <img
-                src={teamOmhelzing.url}
-                alt="Persoonlijk contact staat voorop"
+                src={portretZittend.url}
+                alt="Persoonlijk contact staat voorop bij B. Analyzed"
                 className="h-64 w-full object-cover"
                 loading="lazy"
                 decoding="async"
