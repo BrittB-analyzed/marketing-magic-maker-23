@@ -1,6 +1,10 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/site/site-chrome";
 import { CtaBand, PageHero, Section, SectionHeading } from "@/components/site/page-bits";
+import portretFounder from "@/assets/photos/portret-founder.jpg.asset.json";
+import teamSamen from "@/assets/photos/team-samen.jpg.asset.json";
+import teamOmhelzing from "@/assets/photos/team-omhelzing.jpg.asset.json";
 
 export const Route = createFileRoute("/online-marketing-bedrijf")({
   head: () => ({
