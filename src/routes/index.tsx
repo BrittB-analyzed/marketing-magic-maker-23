@@ -162,16 +162,7 @@ function Hero() {
 function HeroForm() {
   return (
     <div className="relative">
-      <div className="rounded-2xl border border-brand-line bg-white p-7 shadow-[0_30px_80px_-30px_rgba(20,24,31,0.25)] md:p-8">
-        <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-brand-red">
-          Gratis &amp; vrijblijvend
-        </p>
-        <h2 className="mb-2 text-2xl font-semibold leading-tight tracking-tight">
-          Vraag je gratis SEO &amp; GEO-scan aan
-        </h2>
-        <p className="mb-6 text-sm text-brand-muted">
-          Binnen 24 uur ontvang je een persoonlijke analyse inclusief AI-visibility check.
-        </p>
+      <div className="rounded-2xl border border-brand-line bg-white p-3 shadow-[0_30px_80px_-30px_rgba(20,24,31,0.25)]">
         <LeadForm id="hero-form" compact />
       </div>
       <div className="absolute -right-3 -top-3 hidden rotate-3 rounded-md bg-brand-sand px-3 py-2 text-xs font-semibold text-brand-ink shadow-lg ring-1 ring-brand-line md:block">
