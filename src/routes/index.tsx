@@ -74,6 +74,7 @@ function Home() {
       <Pillars />
       <Proof />
       <Method />
+      <PersonalTouch />
       <Testimonials />
       <ScanSection />
       <FaqBlock items={FAQ} />
