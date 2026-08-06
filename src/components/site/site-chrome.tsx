@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowRight, Check, ChevronDown, Menu, MessageCircle, Phone, Star, X } from "lucide-react";
 import logoUrl from "@/assets/logo-b-analyzed.svg?url";
+import portretClose from "@/assets/photos/portret-close.jpg.asset.json";
 
 export const PHONE = "+31 (0)6 819 539 99";
 export const PHONE_HREF = "tel:+31681953999";
@@ -31,6 +32,8 @@ export function Logo({ compact = false }: { compact?: boolean }) {
     </Link>
   );
 }
+
+export const AVATAR_URL = portretClose.url;
 
 export function TrustLine() {
   return (
@@ -185,6 +188,24 @@ export function Header() {
             </li>
           </ul>
           <div className="flex items-center gap-2">
+            <a
+              href={PHONE_HREF}
+              className="hidden items-center gap-2 rounded-full border border-brand-line py-1 pl-1 pr-3 transition-colors hover:border-brand-green xl:inline-flex"
+            >
+              <img
+                src={portretClose.url}
+                alt="Je vaste specialist bij B. Analyzed"
+                width={64}
+                height={64}
+                className="size-8 rounded-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+              <span className="leading-tight">
+                <span className="block text-[11px] text-brand-muted">Je vaste specialist</span>
+                <span className="block text-xs font-semibold text-brand-ink">Even sparren?</span>
+              </span>
+            </a>
             <a
               href={WHATSAPP_HREF}
               target="_blank"
