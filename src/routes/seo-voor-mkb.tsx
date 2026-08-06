@@ -530,19 +530,19 @@ function Guarantee() {
 
 const cases = [
   {
-    tag: "Solar Solutions",
-    metric: "+420%",
-    label: "Leads via organisch in 6 maanden",
+    tag: "Meubel & Outlet Weert",
+    metric: "+680%",
+    label: "Organisch verkeer, nummer 1 op 'meubel outlet'",
   },
   {
-    tag: "Tech-Flow BV",
-    metric: "#1",
-    label: "Positie op 'software op maat'",
+    tag: "Sleep Factory BV",
+    metric: "800%",
+    label: "Meer online transacties in 1,5 jaar",
   },
   {
-    tag: "Bakkerij De Groot",
-    metric: "+186%",
-    label: "Lokale zichtbaarheid in 4 maanden",
+    tag: "Parketreus",
+    metric: "439k",
+    label: "Vertoningen in 8 maanden, top 3 in Limburg",
   },
 ];
 
@@ -590,7 +590,7 @@ const faqs = [
   },
   {
     q: "Wat kost een SEO & GEO-traject bij B. Analyzed?",
-    a: "Trajecten starten vanaf €950 per maand. Na de gratis scan krijg je een concreet voorstel op maat — geen verrassingen.",
+    a: "Een uitgebreide audit start vanaf € 599,-. Een doorlopend SEO & GEO-pakket start vanaf € 999,- per maand, met diverse diensten om uit te kiezen. Los maatwerk factureren we tegen € 90,- per uur. Na de gratis scan krijg je een concreet voorstel op maat.",
   },
   {
     q: "Werken jullie ook voor mijn branche?",
