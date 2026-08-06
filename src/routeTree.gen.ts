@@ -11,10 +11,13 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as SeoVoorMkbRouteImport } from './routes/seo-voor-mkb'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as OnlineMarketingIndexRouteImport } from './routes/online-marketing/index'
+import { Route as OnlineMarketingWordpressOnderhoudRouteImport } from './routes/online-marketing/wordpress-onderhoud'
 import { Route as OnlineMarketingSocialMediaMarketingRouteImport } from './routes/online-marketing/social-media-marketing'
 import { Route as OnlineMarketingSeoUitbestedenRouteImport } from './routes/online-marketing/seo-uitbesteden'
 import { Route as OnlineMarketingLocalSeoRouteImport } from './routes/online-marketing/local-seo'
 import { Route as OnlineMarketingLinkbuildingUitbestedenRouteImport } from './routes/online-marketing/linkbuilding-uitbesteden'
+import { Route as OnlineMarketingGoogleTagManagerInrichtenRouteImport } from './routes/online-marketing/google-tag-manager-inrichten'
 import { Route as OnlineMarketingGoogleAdsUitbestedenRouteImport } from './routes/online-marketing/google-ads-uitbesteden'
 import { Route as OnlineMarketingGeoOptimalisatieRouteImport } from './routes/online-marketing/geo-optimalisatie'
 import { Route as OnlineMarketingEmailmarketingRouteImport } from './routes/online-marketing/emailmarketing'
@@ -30,6 +33,17 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const OnlineMarketingIndexRoute = OnlineMarketingIndexRouteImport.update({
+  id: '/online-marketing/',
+  path: '/online-marketing/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OnlineMarketingWordpressOnderhoudRoute =
+  OnlineMarketingWordpressOnderhoudRouteImport.update({
+    id: '/online-marketing/wordpress-onderhoud',
+    path: '/online-marketing/wordpress-onderhoud',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const OnlineMarketingSocialMediaMarketingRoute =
   OnlineMarketingSocialMediaMarketingRouteImport.update({
     id: '/online-marketing/social-media-marketing',
@@ -51,6 +65,12 @@ const OnlineMarketingLinkbuildingUitbestedenRoute =
   OnlineMarketingLinkbuildingUitbestedenRouteImport.update({
     id: '/online-marketing/linkbuilding-uitbesteden',
     path: '/online-marketing/linkbuilding-uitbesteden',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingGoogleTagManagerInrichtenRoute =
+  OnlineMarketingGoogleTagManagerInrichtenRouteImport.update({
+    id: '/online-marketing/google-tag-manager-inrichten',
+    path: '/online-marketing/google-tag-manager-inrichten',
     getParentRoute: () => rootRouteImport,
   } as any)
 const OnlineMarketingGoogleAdsUitbestedenRoute =
@@ -85,10 +105,13 @@ export interface FileRoutesByFullPath {
   '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
   '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
   '/online-marketing/google-ads-uitbesteden': typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  '/online-marketing/google-tag-manager-inrichten': typeof OnlineMarketingGoogleTagManagerInrichtenRoute
   '/online-marketing/linkbuilding-uitbesteden': typeof OnlineMarketingLinkbuildingUitbestedenRoute
   '/online-marketing/local-seo': typeof OnlineMarketingLocalSeoRoute
   '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
   '/online-marketing/social-media-marketing': typeof OnlineMarketingSocialMediaMarketingRoute
+  '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
+  '/online-marketing/': typeof OnlineMarketingIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -97,10 +120,13 @@ export interface FileRoutesByTo {
   '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
   '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
   '/online-marketing/google-ads-uitbesteden': typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  '/online-marketing/google-tag-manager-inrichten': typeof OnlineMarketingGoogleTagManagerInrichtenRoute
   '/online-marketing/linkbuilding-uitbesteden': typeof OnlineMarketingLinkbuildingUitbestedenRoute
   '/online-marketing/local-seo': typeof OnlineMarketingLocalSeoRoute
   '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
   '/online-marketing/social-media-marketing': typeof OnlineMarketingSocialMediaMarketingRoute
+  '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
+  '/online-marketing': typeof OnlineMarketingIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -110,10 +136,13 @@ export interface FileRoutesById {
   '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
   '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
   '/online-marketing/google-ads-uitbesteden': typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  '/online-marketing/google-tag-manager-inrichten': typeof OnlineMarketingGoogleTagManagerInrichtenRoute
   '/online-marketing/linkbuilding-uitbesteden': typeof OnlineMarketingLinkbuildingUitbestedenRoute
   '/online-marketing/local-seo': typeof OnlineMarketingLocalSeoRoute
   '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
   '/online-marketing/social-media-marketing': typeof OnlineMarketingSocialMediaMarketingRoute
+  '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
+  '/online-marketing/': typeof OnlineMarketingIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -124,10 +153,13 @@ export interface FileRouteTypes {
     | '/online-marketing/emailmarketing'
     | '/online-marketing/geo-optimalisatie'
     | '/online-marketing/google-ads-uitbesteden'
+    | '/online-marketing/google-tag-manager-inrichten'
     | '/online-marketing/linkbuilding-uitbesteden'
     | '/online-marketing/local-seo'
     | '/online-marketing/seo-uitbesteden'
     | '/online-marketing/social-media-marketing'
+    | '/online-marketing/wordpress-onderhoud'
+    | '/online-marketing/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -136,10 +168,13 @@ export interface FileRouteTypes {
     | '/online-marketing/emailmarketing'
     | '/online-marketing/geo-optimalisatie'
     | '/online-marketing/google-ads-uitbesteden'
+    | '/online-marketing/google-tag-manager-inrichten'
     | '/online-marketing/linkbuilding-uitbesteden'
     | '/online-marketing/local-seo'
     | '/online-marketing/seo-uitbesteden'
     | '/online-marketing/social-media-marketing'
+    | '/online-marketing/wordpress-onderhoud'
+    | '/online-marketing'
   id:
     | '__root__'
     | '/'
@@ -148,10 +183,13 @@ export interface FileRouteTypes {
     | '/online-marketing/emailmarketing'
     | '/online-marketing/geo-optimalisatie'
     | '/online-marketing/google-ads-uitbesteden'
+    | '/online-marketing/google-tag-manager-inrichten'
     | '/online-marketing/linkbuilding-uitbesteden'
     | '/online-marketing/local-seo'
     | '/online-marketing/seo-uitbesteden'
     | '/online-marketing/social-media-marketing'
+    | '/online-marketing/wordpress-onderhoud'
+    | '/online-marketing/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -161,10 +199,13 @@ export interface RootRouteChildren {
   OnlineMarketingEmailmarketingRoute: typeof OnlineMarketingEmailmarketingRoute
   OnlineMarketingGeoOptimalisatieRoute: typeof OnlineMarketingGeoOptimalisatieRoute
   OnlineMarketingGoogleAdsUitbestedenRoute: typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  OnlineMarketingGoogleTagManagerInrichtenRoute: typeof OnlineMarketingGoogleTagManagerInrichtenRoute
   OnlineMarketingLinkbuildingUitbestedenRoute: typeof OnlineMarketingLinkbuildingUitbestedenRoute
   OnlineMarketingLocalSeoRoute: typeof OnlineMarketingLocalSeoRoute
   OnlineMarketingSeoUitbestedenRoute: typeof OnlineMarketingSeoUitbestedenRoute
   OnlineMarketingSocialMediaMarketingRoute: typeof OnlineMarketingSocialMediaMarketingRoute
+  OnlineMarketingWordpressOnderhoudRoute: typeof OnlineMarketingWordpressOnderhoudRoute
+  OnlineMarketingIndexRoute: typeof OnlineMarketingIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -181,6 +222,20 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/': {
+      id: '/online-marketing/'
+      path: '/online-marketing'
+      fullPath: '/online-marketing/'
+      preLoaderRoute: typeof OnlineMarketingIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/wordpress-onderhoud': {
+      id: '/online-marketing/wordpress-onderhoud'
+      path: '/online-marketing/wordpress-onderhoud'
+      fullPath: '/online-marketing/wordpress-onderhoud'
+      preLoaderRoute: typeof OnlineMarketingWordpressOnderhoudRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/online-marketing/social-media-marketing': {
@@ -209,6 +264,13 @@ declare module '@tanstack/react-router' {
       path: '/online-marketing/linkbuilding-uitbesteden'
       fullPath: '/online-marketing/linkbuilding-uitbesteden'
       preLoaderRoute: typeof OnlineMarketingLinkbuildingUitbestedenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/google-tag-manager-inrichten': {
+      id: '/online-marketing/google-tag-manager-inrichten'
+      path: '/online-marketing/google-tag-manager-inrichten'
+      fullPath: '/online-marketing/google-tag-manager-inrichten'
+      preLoaderRoute: typeof OnlineMarketingGoogleTagManagerInrichtenRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/online-marketing/google-ads-uitbesteden': {
@@ -251,12 +313,17 @@ const rootRouteChildren: RootRouteChildren = {
   OnlineMarketingGeoOptimalisatieRoute: OnlineMarketingGeoOptimalisatieRoute,
   OnlineMarketingGoogleAdsUitbestedenRoute:
     OnlineMarketingGoogleAdsUitbestedenRoute,
+  OnlineMarketingGoogleTagManagerInrichtenRoute:
+    OnlineMarketingGoogleTagManagerInrichtenRoute,
   OnlineMarketingLinkbuildingUitbestedenRoute:
     OnlineMarketingLinkbuildingUitbestedenRoute,
   OnlineMarketingLocalSeoRoute: OnlineMarketingLocalSeoRoute,
   OnlineMarketingSeoUitbestedenRoute: OnlineMarketingSeoUitbestedenRoute,
   OnlineMarketingSocialMediaMarketingRoute:
     OnlineMarketingSocialMediaMarketingRoute,
+  OnlineMarketingWordpressOnderhoudRoute:
+    OnlineMarketingWordpressOnderhoudRoute,
+  OnlineMarketingIndexRoute: OnlineMarketingIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
