@@ -9,38 +9,354 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as TarievenSeoRouteImport } from './routes/tarieven-seo'
+import { Route as SeoVoorMkbRouteImport } from './routes/seo-voor-mkb'
+import { Route as OnlineMarketingCasesRouteImport } from './routes/online-marketing-cases'
+import { Route as OnlineMarketingBedrijfRouteImport } from './routes/online-marketing-bedrijf'
+import { Route as KennisbankRouteImport } from './routes/kennisbank'
+import { Route as GratisSeoScanRouteImport } from './routes/gratis-seo-scan'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as BlogRouteImport } from './routes/blog'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as OnlineMarketingIndexRouteImport } from './routes/online-marketing/index'
+import { Route as OnlineMarketingWordpressOnderhoudRouteImport } from './routes/online-marketing/wordpress-onderhoud'
+import { Route as OnlineMarketingSocialMediaMarketingRouteImport } from './routes/online-marketing/social-media-marketing'
+import { Route as OnlineMarketingSeoUitbestedenRouteImport } from './routes/online-marketing/seo-uitbesteden'
+import { Route as OnlineMarketingLocalSeoRouteImport } from './routes/online-marketing/local-seo'
+import { Route as OnlineMarketingLinkbuildingUitbestedenRouteImport } from './routes/online-marketing/linkbuilding-uitbesteden'
+import { Route as OnlineMarketingGoogleTagManagerInrichtenRouteImport } from './routes/online-marketing/google-tag-manager-inrichten'
+import { Route as OnlineMarketingGoogleAdsUitbestedenRouteImport } from './routes/online-marketing/google-ads-uitbesteden'
+import { Route as OnlineMarketingGeoOptimalisatieRouteImport } from './routes/online-marketing/geo-optimalisatie'
+import { Route as OnlineMarketingEmailmarketingRouteImport } from './routes/online-marketing/emailmarketing'
+import { Route as OnlineMarketingConversieOptimalisatieRouteImport } from './routes/online-marketing/conversie-optimalisatie'
 
+const TarievenSeoRoute = TarievenSeoRouteImport.update({
+  id: '/tarieven-seo',
+  path: '/tarieven-seo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoVoorMkbRoute = SeoVoorMkbRouteImport.update({
+  id: '/seo-voor-mkb',
+  path: '/seo-voor-mkb',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OnlineMarketingCasesRoute = OnlineMarketingCasesRouteImport.update({
+  id: '/online-marketing-cases',
+  path: '/online-marketing-cases',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OnlineMarketingBedrijfRoute = OnlineMarketingBedrijfRouteImport.update({
+  id: '/online-marketing-bedrijf',
+  path: '/online-marketing-bedrijf',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KennisbankRoute = KennisbankRouteImport.update({
+  id: '/kennisbank',
+  path: '/kennisbank',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GratisSeoScanRoute = GratisSeoScanRouteImport.update({
+  id: '/gratis-seo-scan',
+  path: '/gratis-seo-scan',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogRoute = BlogRouteImport.update({
+  id: '/blog',
+  path: '/blog',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const OnlineMarketingIndexRoute = OnlineMarketingIndexRouteImport.update({
+  id: '/online-marketing/',
+  path: '/online-marketing/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OnlineMarketingWordpressOnderhoudRoute =
+  OnlineMarketingWordpressOnderhoudRouteImport.update({
+    id: '/online-marketing/wordpress-onderhoud',
+    path: '/online-marketing/wordpress-onderhoud',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingSocialMediaMarketingRoute =
+  OnlineMarketingSocialMediaMarketingRouteImport.update({
+    id: '/online-marketing/social-media-marketing',
+    path: '/online-marketing/social-media-marketing',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingSeoUitbestedenRoute =
+  OnlineMarketingSeoUitbestedenRouteImport.update({
+    id: '/online-marketing/seo-uitbesteden',
+    path: '/online-marketing/seo-uitbesteden',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingLocalSeoRoute = OnlineMarketingLocalSeoRouteImport.update({
+  id: '/online-marketing/local-seo',
+  path: '/online-marketing/local-seo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OnlineMarketingLinkbuildingUitbestedenRoute =
+  OnlineMarketingLinkbuildingUitbestedenRouteImport.update({
+    id: '/online-marketing/linkbuilding-uitbesteden',
+    path: '/online-marketing/linkbuilding-uitbesteden',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingGoogleTagManagerInrichtenRoute =
+  OnlineMarketingGoogleTagManagerInrichtenRouteImport.update({
+    id: '/online-marketing/google-tag-manager-inrichten',
+    path: '/online-marketing/google-tag-manager-inrichten',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingGoogleAdsUitbestedenRoute =
+  OnlineMarketingGoogleAdsUitbestedenRouteImport.update({
+    id: '/online-marketing/google-ads-uitbesteden',
+    path: '/online-marketing/google-ads-uitbesteden',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingGeoOptimalisatieRoute =
+  OnlineMarketingGeoOptimalisatieRouteImport.update({
+    id: '/online-marketing/geo-optimalisatie',
+    path: '/online-marketing/geo-optimalisatie',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingEmailmarketingRoute =
+  OnlineMarketingEmailmarketingRouteImport.update({
+    id: '/online-marketing/emailmarketing',
+    path: '/online-marketing/emailmarketing',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingConversieOptimalisatieRoute =
+  OnlineMarketingConversieOptimalisatieRouteImport.update({
+    id: '/online-marketing/conversie-optimalisatie',
+    path: '/online-marketing/conversie-optimalisatie',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/blog': typeof BlogRoute
+  '/contact': typeof ContactRoute
+  '/gratis-seo-scan': typeof GratisSeoScanRoute
+  '/kennisbank': typeof KennisbankRoute
+  '/online-marketing-bedrijf': typeof OnlineMarketingBedrijfRoute
+  '/online-marketing-cases': typeof OnlineMarketingCasesRoute
+  '/seo-voor-mkb': typeof SeoVoorMkbRoute
+  '/tarieven-seo': typeof TarievenSeoRoute
+  '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
+  '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
+  '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
+  '/online-marketing/google-ads-uitbesteden': typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  '/online-marketing/google-tag-manager-inrichten': typeof OnlineMarketingGoogleTagManagerInrichtenRoute
+  '/online-marketing/linkbuilding-uitbesteden': typeof OnlineMarketingLinkbuildingUitbestedenRoute
+  '/online-marketing/local-seo': typeof OnlineMarketingLocalSeoRoute
+  '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
+  '/online-marketing/social-media-marketing': typeof OnlineMarketingSocialMediaMarketingRoute
+  '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
+  '/online-marketing/': typeof OnlineMarketingIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/blog': typeof BlogRoute
+  '/contact': typeof ContactRoute
+  '/gratis-seo-scan': typeof GratisSeoScanRoute
+  '/kennisbank': typeof KennisbankRoute
+  '/online-marketing-bedrijf': typeof OnlineMarketingBedrijfRoute
+  '/online-marketing-cases': typeof OnlineMarketingCasesRoute
+  '/seo-voor-mkb': typeof SeoVoorMkbRoute
+  '/tarieven-seo': typeof TarievenSeoRoute
+  '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
+  '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
+  '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
+  '/online-marketing/google-ads-uitbesteden': typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  '/online-marketing/google-tag-manager-inrichten': typeof OnlineMarketingGoogleTagManagerInrichtenRoute
+  '/online-marketing/linkbuilding-uitbesteden': typeof OnlineMarketingLinkbuildingUitbestedenRoute
+  '/online-marketing/local-seo': typeof OnlineMarketingLocalSeoRoute
+  '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
+  '/online-marketing/social-media-marketing': typeof OnlineMarketingSocialMediaMarketingRoute
+  '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
+  '/online-marketing': typeof OnlineMarketingIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/blog': typeof BlogRoute
+  '/contact': typeof ContactRoute
+  '/gratis-seo-scan': typeof GratisSeoScanRoute
+  '/kennisbank': typeof KennisbankRoute
+  '/online-marketing-bedrijf': typeof OnlineMarketingBedrijfRoute
+  '/online-marketing-cases': typeof OnlineMarketingCasesRoute
+  '/seo-voor-mkb': typeof SeoVoorMkbRoute
+  '/tarieven-seo': typeof TarievenSeoRoute
+  '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
+  '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
+  '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
+  '/online-marketing/google-ads-uitbesteden': typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  '/online-marketing/google-tag-manager-inrichten': typeof OnlineMarketingGoogleTagManagerInrichtenRoute
+  '/online-marketing/linkbuilding-uitbesteden': typeof OnlineMarketingLinkbuildingUitbestedenRoute
+  '/online-marketing/local-seo': typeof OnlineMarketingLocalSeoRoute
+  '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
+  '/online-marketing/social-media-marketing': typeof OnlineMarketingSocialMediaMarketingRoute
+  '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
+  '/online-marketing/': typeof OnlineMarketingIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/blog'
+    | '/contact'
+    | '/gratis-seo-scan'
+    | '/kennisbank'
+    | '/online-marketing-bedrijf'
+    | '/online-marketing-cases'
+    | '/seo-voor-mkb'
+    | '/tarieven-seo'
+    | '/online-marketing/conversie-optimalisatie'
+    | '/online-marketing/emailmarketing'
+    | '/online-marketing/geo-optimalisatie'
+    | '/online-marketing/google-ads-uitbesteden'
+    | '/online-marketing/google-tag-manager-inrichten'
+    | '/online-marketing/linkbuilding-uitbesteden'
+    | '/online-marketing/local-seo'
+    | '/online-marketing/seo-uitbesteden'
+    | '/online-marketing/social-media-marketing'
+    | '/online-marketing/wordpress-onderhoud'
+    | '/online-marketing/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/blog'
+    | '/contact'
+    | '/gratis-seo-scan'
+    | '/kennisbank'
+    | '/online-marketing-bedrijf'
+    | '/online-marketing-cases'
+    | '/seo-voor-mkb'
+    | '/tarieven-seo'
+    | '/online-marketing/conversie-optimalisatie'
+    | '/online-marketing/emailmarketing'
+    | '/online-marketing/geo-optimalisatie'
+    | '/online-marketing/google-ads-uitbesteden'
+    | '/online-marketing/google-tag-manager-inrichten'
+    | '/online-marketing/linkbuilding-uitbesteden'
+    | '/online-marketing/local-seo'
+    | '/online-marketing/seo-uitbesteden'
+    | '/online-marketing/social-media-marketing'
+    | '/online-marketing/wordpress-onderhoud'
+    | '/online-marketing'
+  id:
+    | '__root__'
+    | '/'
+    | '/blog'
+    | '/contact'
+    | '/gratis-seo-scan'
+    | '/kennisbank'
+    | '/online-marketing-bedrijf'
+    | '/online-marketing-cases'
+    | '/seo-voor-mkb'
+    | '/tarieven-seo'
+    | '/online-marketing/conversie-optimalisatie'
+    | '/online-marketing/emailmarketing'
+    | '/online-marketing/geo-optimalisatie'
+    | '/online-marketing/google-ads-uitbesteden'
+    | '/online-marketing/google-tag-manager-inrichten'
+    | '/online-marketing/linkbuilding-uitbesteden'
+    | '/online-marketing/local-seo'
+    | '/online-marketing/seo-uitbesteden'
+    | '/online-marketing/social-media-marketing'
+    | '/online-marketing/wordpress-onderhoud'
+    | '/online-marketing/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  BlogRoute: typeof BlogRoute
+  ContactRoute: typeof ContactRoute
+  GratisSeoScanRoute: typeof GratisSeoScanRoute
+  KennisbankRoute: typeof KennisbankRoute
+  OnlineMarketingBedrijfRoute: typeof OnlineMarketingBedrijfRoute
+  OnlineMarketingCasesRoute: typeof OnlineMarketingCasesRoute
+  SeoVoorMkbRoute: typeof SeoVoorMkbRoute
+  TarievenSeoRoute: typeof TarievenSeoRoute
+  OnlineMarketingConversieOptimalisatieRoute: typeof OnlineMarketingConversieOptimalisatieRoute
+  OnlineMarketingEmailmarketingRoute: typeof OnlineMarketingEmailmarketingRoute
+  OnlineMarketingGeoOptimalisatieRoute: typeof OnlineMarketingGeoOptimalisatieRoute
+  OnlineMarketingGoogleAdsUitbestedenRoute: typeof OnlineMarketingGoogleAdsUitbestedenRoute
+  OnlineMarketingGoogleTagManagerInrichtenRoute: typeof OnlineMarketingGoogleTagManagerInrichtenRoute
+  OnlineMarketingLinkbuildingUitbestedenRoute: typeof OnlineMarketingLinkbuildingUitbestedenRoute
+  OnlineMarketingLocalSeoRoute: typeof OnlineMarketingLocalSeoRoute
+  OnlineMarketingSeoUitbestedenRoute: typeof OnlineMarketingSeoUitbestedenRoute
+  OnlineMarketingSocialMediaMarketingRoute: typeof OnlineMarketingSocialMediaMarketingRoute
+  OnlineMarketingWordpressOnderhoudRoute: typeof OnlineMarketingWordpressOnderhoudRoute
+  OnlineMarketingIndexRoute: typeof OnlineMarketingIndexRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/tarieven-seo': {
+      id: '/tarieven-seo'
+      path: '/tarieven-seo'
+      fullPath: '/tarieven-seo'
+      preLoaderRoute: typeof TarievenSeoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-voor-mkb': {
+      id: '/seo-voor-mkb'
+      path: '/seo-voor-mkb'
+      fullPath: '/seo-voor-mkb'
+      preLoaderRoute: typeof SeoVoorMkbRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing-cases': {
+      id: '/online-marketing-cases'
+      path: '/online-marketing-cases'
+      fullPath: '/online-marketing-cases'
+      preLoaderRoute: typeof OnlineMarketingCasesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing-bedrijf': {
+      id: '/online-marketing-bedrijf'
+      path: '/online-marketing-bedrijf'
+      fullPath: '/online-marketing-bedrijf'
+      preLoaderRoute: typeof OnlineMarketingBedrijfRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/kennisbank': {
+      id: '/kennisbank'
+      path: '/kennisbank'
+      fullPath: '/kennisbank'
+      preLoaderRoute: typeof KennisbankRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gratis-seo-scan': {
+      id: '/gratis-seo-scan'
+      path: '/gratis-seo-scan'
+      fullPath: '/gratis-seo-scan'
+      preLoaderRoute: typeof GratisSeoScanRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog': {
+      id: '/blog'
+      path: '/blog'
+      fullPath: '/blog'
+      preLoaderRoute: typeof BlogRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -48,11 +364,113 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/online-marketing/': {
+      id: '/online-marketing/'
+      path: '/online-marketing'
+      fullPath: '/online-marketing/'
+      preLoaderRoute: typeof OnlineMarketingIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/wordpress-onderhoud': {
+      id: '/online-marketing/wordpress-onderhoud'
+      path: '/online-marketing/wordpress-onderhoud'
+      fullPath: '/online-marketing/wordpress-onderhoud'
+      preLoaderRoute: typeof OnlineMarketingWordpressOnderhoudRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/social-media-marketing': {
+      id: '/online-marketing/social-media-marketing'
+      path: '/online-marketing/social-media-marketing'
+      fullPath: '/online-marketing/social-media-marketing'
+      preLoaderRoute: typeof OnlineMarketingSocialMediaMarketingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/seo-uitbesteden': {
+      id: '/online-marketing/seo-uitbesteden'
+      path: '/online-marketing/seo-uitbesteden'
+      fullPath: '/online-marketing/seo-uitbesteden'
+      preLoaderRoute: typeof OnlineMarketingSeoUitbestedenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/local-seo': {
+      id: '/online-marketing/local-seo'
+      path: '/online-marketing/local-seo'
+      fullPath: '/online-marketing/local-seo'
+      preLoaderRoute: typeof OnlineMarketingLocalSeoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/linkbuilding-uitbesteden': {
+      id: '/online-marketing/linkbuilding-uitbesteden'
+      path: '/online-marketing/linkbuilding-uitbesteden'
+      fullPath: '/online-marketing/linkbuilding-uitbesteden'
+      preLoaderRoute: typeof OnlineMarketingLinkbuildingUitbestedenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/google-tag-manager-inrichten': {
+      id: '/online-marketing/google-tag-manager-inrichten'
+      path: '/online-marketing/google-tag-manager-inrichten'
+      fullPath: '/online-marketing/google-tag-manager-inrichten'
+      preLoaderRoute: typeof OnlineMarketingGoogleTagManagerInrichtenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/google-ads-uitbesteden': {
+      id: '/online-marketing/google-ads-uitbesteden'
+      path: '/online-marketing/google-ads-uitbesteden'
+      fullPath: '/online-marketing/google-ads-uitbesteden'
+      preLoaderRoute: typeof OnlineMarketingGoogleAdsUitbestedenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/geo-optimalisatie': {
+      id: '/online-marketing/geo-optimalisatie'
+      path: '/online-marketing/geo-optimalisatie'
+      fullPath: '/online-marketing/geo-optimalisatie'
+      preLoaderRoute: typeof OnlineMarketingGeoOptimalisatieRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/emailmarketing': {
+      id: '/online-marketing/emailmarketing'
+      path: '/online-marketing/emailmarketing'
+      fullPath: '/online-marketing/emailmarketing'
+      preLoaderRoute: typeof OnlineMarketingEmailmarketingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/conversie-optimalisatie': {
+      id: '/online-marketing/conversie-optimalisatie'
+      path: '/online-marketing/conversie-optimalisatie'
+      fullPath: '/online-marketing/conversie-optimalisatie'
+      preLoaderRoute: typeof OnlineMarketingConversieOptimalisatieRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  BlogRoute: BlogRoute,
+  ContactRoute: ContactRoute,
+  GratisSeoScanRoute: GratisSeoScanRoute,
+  KennisbankRoute: KennisbankRoute,
+  OnlineMarketingBedrijfRoute: OnlineMarketingBedrijfRoute,
+  OnlineMarketingCasesRoute: OnlineMarketingCasesRoute,
+  SeoVoorMkbRoute: SeoVoorMkbRoute,
+  TarievenSeoRoute: TarievenSeoRoute,
+  OnlineMarketingConversieOptimalisatieRoute:
+    OnlineMarketingConversieOptimalisatieRoute,
+  OnlineMarketingEmailmarketingRoute: OnlineMarketingEmailmarketingRoute,
+  OnlineMarketingGeoOptimalisatieRoute: OnlineMarketingGeoOptimalisatieRoute,
+  OnlineMarketingGoogleAdsUitbestedenRoute:
+    OnlineMarketingGoogleAdsUitbestedenRoute,
+  OnlineMarketingGoogleTagManagerInrichtenRoute:
+    OnlineMarketingGoogleTagManagerInrichtenRoute,
+  OnlineMarketingLinkbuildingUitbestedenRoute:
+    OnlineMarketingLinkbuildingUitbestedenRoute,
+  OnlineMarketingLocalSeoRoute: OnlineMarketingLocalSeoRoute,
+  OnlineMarketingSeoUitbestedenRoute: OnlineMarketingSeoUitbestedenRoute,
+  OnlineMarketingSocialMediaMarketingRoute:
+    OnlineMarketingSocialMediaMarketingRoute,
+  OnlineMarketingWordpressOnderhoudRoute:
+    OnlineMarketingWordpressOnderhoudRoute,
+  OnlineMarketingIndexRoute: OnlineMarketingIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

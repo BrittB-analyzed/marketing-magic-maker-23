@@ -1,0 +1,53 @@
+import { Link } from "@tanstack/react-router";
+import { ArrowRight, Check } from "lucide-react";
+import { SiteLayout } from "./site-chrome";
+import { CtaBand, PageHero, Section, SectionHeading } from "./page-bits";
+
+export function SupportPage({
+  eyebrow,
+  title,
+  intro,
+  points,
+  pillar,
+  pillarTo,
+  pillarNote,
+}: {
+  eyebrow: string;
+  title: string;
+  intro: string;
+  points: string[];
+  pillar: string;
+  pillarTo: string;
+  pillarNote: string;
+}) {
+  return (
+    <SiteLayout>
+      <PageHero eyebrow={eyebrow} title={title} intro={intro} />
+      <Section>
+        <div className="grid gap-12 lg:grid-cols-2">
+          <div>
+            <SectionHeading title="Wat we voor je doen" />
+            <ul className="mt-8 space-y-3">
+              {points.map((p) => (
+                <li key={p} className="flex gap-3 text-sm leading-relaxed text-brand-muted">
+                  <Check className="mt-0.5 size-4 shrink-0 text-brand-green" strokeWidth={2.5} />
+                  {p}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="rounded-2xl border border-brand-line bg-white p-8">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">
+              Hoort bij pijler {pillar}
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-brand-muted">{pillarNote}</p>
+            <Link to={pillarTo} className="mt-6 inline-flex items-center gap-2 text-sm font-semibold">
+              Bekijk {pillar} <ArrowRight className="size-4 text-brand-red" />
+            </Link>
+          </div>
+        </div>
+      </Section>
+      <CtaBand />
+    </SiteLayout>
+  );
+}
