@@ -86,7 +86,7 @@ export function Header() {
           <div className="flex items-center gap-2">
             <Link
               to="/gratis-seo-scan"
-              className="hidden rounded-full bg-brand-ink px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-red sm:inline-flex"
+              className="hidden rounded-full bg-brand-green px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark sm:inline-flex"
             >
               Gratis scan
             </Link>
@@ -119,7 +119,7 @@ export function Header() {
                 <Link
                   to="/gratis-seo-scan"
                   onClick={() => setOpen(false)}
-                  className="rounded-full bg-brand-ink px-4 py-3 text-center text-sm font-semibold text-white"
+                  className="rounded-full bg-brand-green px-4 py-3 text-center text-sm font-semibold text-white"
                 >
                   Gratis scan aanvragen
                 </Link>
@@ -242,7 +242,7 @@ export function StickyMobileCTA() {
       <div className="flex gap-2">
         <Link
           to="/gratis-seo-scan"
-          className="flex flex-1 items-center justify-center gap-2 rounded-full bg-brand-ink px-4 py-3 text-sm font-semibold text-white"
+          className="flex flex-1 items-center justify-center gap-2 rounded-full bg-brand-green px-4 py-3 text-sm font-semibold text-white"
         >
           Gratis scan <ArrowRight className="size-4" />
         </Link>

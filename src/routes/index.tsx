@@ -100,7 +100,7 @@ function Hero() {
           <div className="mt-9 flex flex-wrap items-center gap-5">
             <Link
               to="/gratis-seo-scan"
-              className="inline-flex items-center gap-2 rounded-full bg-brand-ink px-7 py-4 text-sm font-semibold text-white transition-colors hover:bg-brand-red"
+              className="inline-flex items-center gap-2 rounded-full bg-brand-green px-7 py-4 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
             >
               Vraag je gratis scan aan <ArrowRight className="size-4" />
             </Link>

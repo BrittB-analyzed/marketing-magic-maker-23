@@ -63,7 +63,7 @@ export function PageHero({
         <div className="mt-8 flex flex-wrap items-center gap-4">
           <Link
             to="/gratis-seo-scan"
-            className="inline-flex items-center gap-2 rounded-full bg-brand-ink px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-red"
+            className="inline-flex items-center gap-2 rounded-full bg-brand-green px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
           >
             {ctaLabel} <ArrowRight className="size-4" />
           </Link>
@@ -131,7 +131,7 @@ export function CtaBand({
   intro?: string;
 }) {
   return (
-    <section className="border-t border-brand-line bg-brand-ink text-white">
+    <section className="border-t border-brand-line bg-brand-green-dark text-white">
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-20 md:flex-row md:items-center md:justify-between">
         <div className="max-w-xl">
           <h2 className="text-3xl font-semibold tracking-tight">{title}</h2>

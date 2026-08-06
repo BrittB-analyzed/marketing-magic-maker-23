@@ -237,7 +237,7 @@ function HeroForm() {
           </p>
         </form>
       </div>
-      <div className="absolute -top-3 -right-3 hidden rotate-3 rounded-md bg-brand-ink px-3 py-2 text-xs font-semibold text-white shadow-lg md:block">
+      <div className="absolute -top-3 -right-3 hidden rotate-3 rounded-md bg-brand-green px-3 py-2 text-xs font-semibold text-white shadow-lg md:block">
         <span className="mr-1 text-brand-green">●</span>
         Reactie binnen 24u
       </div>
@@ -440,7 +440,7 @@ function Services() {
 
 function DashboardShowcase() {
   return (
-    <section className="bg-brand-ink py-20 text-white md:py-28">
+    <section className="bg-brand-green-dark py-20 text-white md:py-28">
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-2">
         <div>
           <div className="mb-3 font-mono text-[11px] uppercase tracking-[0.2em] text-brand-green">
