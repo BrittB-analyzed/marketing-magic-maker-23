@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowRight, Minus, Phone, Plus } from "lucide-react";
 import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "./site-chrome";
+import { LeadForm } from "./lead-form";
 
 export function Section({
   children,
@@ -131,26 +132,27 @@ export function CtaBand({
   intro?: string;
 }) {
   return (
-    <section className="border-t border-brand-line bg-brand-green-dark text-white">
-      <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-20 md:flex-row md:items-center md:justify-between">
+    <section className="border-y border-brand-line bg-brand-sand text-brand-ink">
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-2 md:items-center">
         <div className="max-w-xl">
           <h2 className="text-3xl font-semibold tracking-tight">{title}</h2>
-          <p className="mt-4 text-base leading-relaxed text-white/70">{intro}</p>
+          <p className="mt-4 text-base leading-relaxed text-brand-muted">{intro}</p>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+            <Link
+              to="/gratis-seo-scan"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-green px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
+            >
+              Gratis scan aanvragen <ArrowRight className="size-4" />
+            </Link>
+            <a
+              href={WHATSAPP_HREF}
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-brand-line bg-white px-6 py-3.5 text-sm font-semibold text-brand-ink"
+            >
+              Even sparren via WhatsApp
+            </a>
+          </div>
         </div>
-        <div className="flex flex-col gap-3 sm:flex-row md:flex-col">
-          <Link
-            to="/gratis-seo-scan"
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-red px-6 py-3.5 text-sm font-semibold text-white"
-          >
-            Gratis scan aanvragen <ArrowRight className="size-4" />
-          </Link>
-          <a
-            href={WHATSAPP_HREF}
-            className="inline-flex items-center justify-center gap-2 rounded-full border border-white/25 px-6 py-3.5 text-sm font-semibold text-white"
-          >
-            Even sparren via WhatsApp
-          </a>
-        </div>
+        <LeadForm id="cta-scan" compact />
       </div>
     </section>
   );
