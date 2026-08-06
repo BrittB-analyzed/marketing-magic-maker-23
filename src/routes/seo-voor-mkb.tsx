@@ -560,16 +560,16 @@ function Cases() {
           {cases.map((c) => (
             <div
               key={c.tag}
-              className="flex flex-col justify-between rounded-2xl bg-zinc-900 p-8 text-white"
+              className="flex flex-col justify-between rounded-2xl border border-brand-line bg-brand-sand p-8 text-brand-ink"
             >
-              <div className="mb-12 font-mono text-[10px] uppercase tracking-widest text-zinc-500">
+              <div className="mb-12 font-mono text-[10px] uppercase tracking-widest text-brand-muted">
                 Case · {c.tag}
               </div>
               <div>
                 <div className="mb-2 font-mono text-5xl font-semibold tracking-tighter text-brand-green">
                   {c.metric}
                 </div>
-                <div className="text-sm text-zinc-400">{c.label}</div>
+                <div className="text-sm text-brand-muted">{c.label}</div>
               </div>
             </div>
           ))}
@@ -640,13 +640,13 @@ function CTA() {
   return (
     <section id="cta" className="py-24 md:py-32">
       <div className="mx-auto max-w-5xl px-6">
-        <div className="relative overflow-hidden rounded-3xl bg-zinc-900 p-8 text-white lg:p-16">
+        <div className="relative overflow-hidden rounded-3xl border border-brand-line bg-brand-sand p-8 text-brand-ink lg:p-16">
           <div className="relative z-10 grid gap-12 lg:grid-cols-2">
             <div>
               <h2 className="mb-6 text-balance text-3xl font-semibold leading-tight md:text-4xl">
                 Klaar om je concurrentie in te halen?
               </h2>
-              <p className="mb-8 text-zinc-400">
+              <p className="mb-8 text-brand-muted">
                 Vraag binnen 60 seconden je gratis SEO &amp; GEO-rapport aan. Onze experts kijken handmatig naar je
                 kansen in Google én AI-zoekmachines.
               </p>
@@ -657,7 +657,7 @@ function CTA() {
                   "Persoonlijk adviesgesprek met strategie",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-sm">
-                    <span className="flex size-5 items-center justify-center rounded-full bg-brand-green/20 text-brand-green">
+                    <span className="flex size-5 items-center justify-center rounded-full bg-brand-green/15 text-brand-green">
                       <Check className="size-3" strokeWidth={3} />
                     </span>
                     {item}
@@ -667,7 +667,7 @@ function CTA() {
             </div>
             <form
               onSubmit={(e) => e.preventDefault()}
-              className="space-y-4 rounded-2xl bg-white p-8 text-zinc-900 shadow-xl"
+              className="space-y-4 rounded-2xl border border-brand-line bg-white p-8 text-brand-ink shadow-xl"
             >
               <Field label="Bedrijfsnaam" placeholder="B. Analyzed BV" />
               <Field label="Website URL" type="url" placeholder="www.jouwwebsite.nl" />
@@ -681,7 +681,7 @@ function CTA() {
               >
                 Vraag gratis SEO &amp; GEO scan aan
               </button>
-              <p className="text-center text-[10px] text-zinc-400">
+              <p className="text-center text-[10px] text-brand-muted">
                 100% vrijblijvend · Binnen 24 uur antwoord
               </p>
             </form>
@@ -720,7 +720,7 @@ function Footer() {
     <footer className="border-t border-zinc-200 py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 px-6 md:flex-row">
         <div className="flex items-center gap-2 opacity-60">
-          <div className="flex size-6 items-center justify-center rounded-sm bg-zinc-900 text-[10px] font-semibold text-white">
+          <div className="flex size-6 items-center justify-center rounded-sm bg-brand-green text-[10px] font-semibold text-white">
             B
           </div>
           <span className="text-xs font-semibold uppercase tracking-tight">Analyzed</span>

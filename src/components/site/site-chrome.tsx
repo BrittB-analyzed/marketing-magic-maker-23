@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, Menu, Phone, Star, X } from "lucide-react";
+import { ArrowRight, Check, Menu, Phone, Star, X } from "lucide-react";
 import logoUrl from "@/assets/logo-b-analyzed.svg?url";
 
 export const PHONE = "+31 (0)6 819 539 99";
@@ -32,17 +32,23 @@ export function Logo({ compact = false }: { compact?: boolean }) {
 export function TrustLine() {
   return (
     <div className="hidden border-b border-brand-line bg-white md:block">
-      <div className="mx-auto flex max-w-6xl items-center justify-center gap-3 px-6 py-2 text-xs text-brand-muted">
-        <span className="flex items-center gap-1" aria-hidden="true">
-          {Array.from({ length: 5 }).map((_, i) => (
-            <Star key={i} className="size-3.5 fill-brand-star text-brand-star" strokeWidth={0} />
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-2 text-xs">
+        <div className="flex items-center gap-2">
+          <span className="flex" aria-hidden="true">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Star key={i} className="size-3.5 fill-brand-star text-brand-star" strokeWidth={0} />
+            ))}
+          </span>
+          <span className="font-medium text-brand-ink">Beoordeeld met een 9,8</span>
+        </div>
+        <div className="flex items-center gap-6 text-brand-muted">
+          {["15 jaar ervaring", "Aantoonbare resultaten", "Transparante werkwijze"].map((t) => (
+            <span key={t} className="flex items-center gap-1.5">
+              <Check className="size-3.5 text-brand-green" strokeWidth={3} />
+              {t}
+            </span>
           ))}
-        </span>
-        <span className="font-medium text-brand-ink">Beoordeling 9,8</span>
-        <span className="text-brand-line">·</span>
-        <span>50+ klantwaarderingen</span>
-        <span className="text-brand-line">·</span>
-        <span>Google Partner</span>
+        </div>
       </div>
     </div>
   );
@@ -62,7 +68,7 @@ export function Header() {
   return (
     <>
       <TrustLine />
-      <header className="sticky top-0 z-50 border-b border-brand-line bg-brand-canvas/90 backdrop-blur-md">
+      <header className="sticky top-0 z-50 border-b border-brand-line bg-white/90 backdrop-blur-md">
         <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6" aria-label="Hoofdnavigatie">
           <Logo />
           <ul className="hidden items-center gap-6 lg:flex">
@@ -84,11 +90,18 @@ export function Header() {
             ))}
           </ul>
           <div className="flex items-center gap-2">
+            <a
+              href={PHONE_HREF}
+              className="mr-2 hidden items-center gap-1.5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-red md:flex"
+            >
+              <Phone className="size-3.5" />
+              Direct contact
+            </a>
             <Link
               to="/gratis-seo-scan"
               className="hidden rounded-full bg-brand-green px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark sm:inline-flex"
             >
-              Gratis scan
+              Gratis SEO &amp; GEO scan
             </Link>
             <button
               type="button"
