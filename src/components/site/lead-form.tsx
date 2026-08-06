@@ -25,7 +25,7 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
           </p>
           <div className="mt-4 h-10 animate-pulse rounded-xl bg-brand-sand" />
           <div className="mt-3 h-10 animate-pulse rounded-xl bg-brand-sand" />
-          <div className="mt-4 h-11 animate-pulse rounded-full bg-brand-red/20" />
+          <div className="mt-4 h-11 animate-pulse rounded-full bg-brand-green/20" />
           {!compact && (
             <ul className="mt-6 space-y-2 border-t border-brand-line pt-5 text-sm text-brand-muted">
               {[
@@ -111,7 +111,7 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
           />
           <button
             type="submit"
-            className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-red px-5 py-3.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+            className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
           >
             Start mijn gratis scan <ArrowRight className="size-4" />
           </button>
