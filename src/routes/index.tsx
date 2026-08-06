@@ -345,6 +345,72 @@ function Method() {
   );
 }
 
+function PersonalTouch() {
+  return (
+    <Section className="border-y border-brand-line bg-brand-canvas">
+      <div className="grid gap-12 lg:grid-cols-[1fr_0.95fr] lg:items-center">
+        <div className="relative">
+          <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-brand-line sm:aspect-[3/4]">
+            <img
+              src={portretBuiten.url}
+              alt="Sanne van B. Analyzed — online marketing specialist"
+              className="h-full w-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div className="absolute -bottom-6 -right-6 hidden w-48 overflow-hidden rounded-2xl border-4 border-brand-canvas shadow-lg sm:block lg:-right-10 lg:w-56">
+            <img
+              src={aanHetWerk.url}
+              alt="Aan het werk met een laptop"
+              className="aspect-square w-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+        <div>
+          <SectionHeading
+            eyebrow="Persoonlijk"
+            title="Geen accountmanager. Wel een vaste specialist."
+            intro="Je belt, mailt en spart met de persoon die je strategie bedenkt én uitvoert. Dat scheelt gedoe, misverstanden en een hoop uren."
+          />
+          <div className="mt-8 space-y-4 text-base leading-relaxed text-brand-muted">
+            <p>
+              Wij zijn een klein bureau uit Limburg. We werken niet met pakketjes, junior-medewerkers
+              of mooie praatjes. Wel met eerlijk advies, duidelijke afspraken en maandelijkse
+              video-rapportages waarin je zelf ziet wat er gebeurt.
+            </p>
+            <p>
+              Onze klanten zitten in Nederland en België: van installateur tot zakelijke
+              dienstverlener. Wat ze gemeen hebben? Ze willen resultaat zonder marketingjargon.
+            </p>
+          </div>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            {[
+              ["Beoordeeld met 9,8", "Op basis van 50+ klantwaarderingen."],
+              ["Vaste specialist", "Dezelfde persoon van strategie tot uitvoering."],
+              ["Limburgse nuchterheid", "Geen beloftes die we niet waar kunnen maken."],
+              ["Altijd inzichtelijk", "Dashboard + Loom-video, 24/7 beschikbaar."],
+            ].map(([t, d]) => (
+              <div key={t} className="rounded-2xl border border-brand-line bg-white p-5">
+                <h3 className="text-sm font-semibold text-brand-ink">{t}</h3>
+                <p className="mt-1 text-sm leading-relaxed text-brand-muted">{d}</p>
+              </div>
+            ))}
+          </div>
+          <Link
+            to="/online-marketing-bedrijf"
+            className="mt-8 inline-flex items-center gap-2 text-sm font-semibold underline underline-offset-4"
+          >
+            Meer over ons <ArrowRight className="size-4 text-brand-red" />
+          </Link>
+        </div>
+      </div>
+    </Section>
+  );
+}
+
 function Testimonials() {
   const quotes = [
     {
