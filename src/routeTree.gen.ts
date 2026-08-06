@@ -9,7 +9,9 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as TarievenSeoRouteImport } from './routes/tarieven-seo'
 import { Route as SeoVoorMkbRouteImport } from './routes/seo-voor-mkb'
+import { Route as GratisSeoScanRouteImport } from './routes/gratis-seo-scan'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as OnlineMarketingIndexRouteImport } from './routes/online-marketing/index'
 import { Route as OnlineMarketingWordpressOnderhoudRouteImport } from './routes/online-marketing/wordpress-onderhoud'
@@ -23,9 +25,19 @@ import { Route as OnlineMarketingGeoOptimalisatieRouteImport } from './routes/on
 import { Route as OnlineMarketingEmailmarketingRouteImport } from './routes/online-marketing/emailmarketing'
 import { Route as OnlineMarketingConversieOptimalisatieRouteImport } from './routes/online-marketing/conversie-optimalisatie'
 
+const TarievenSeoRoute = TarievenSeoRouteImport.update({
+  id: '/tarieven-seo',
+  path: '/tarieven-seo',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SeoVoorMkbRoute = SeoVoorMkbRouteImport.update({
   id: '/seo-voor-mkb',
   path: '/seo-voor-mkb',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GratisSeoScanRoute = GratisSeoScanRouteImport.update({
+  id: '/gratis-seo-scan',
+  path: '/gratis-seo-scan',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -100,7 +112,9 @@ const OnlineMarketingConversieOptimalisatieRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/gratis-seo-scan': typeof GratisSeoScanRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
+  '/tarieven-seo': typeof TarievenSeoRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
   '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
   '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
@@ -115,7 +129,9 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/gratis-seo-scan': typeof GratisSeoScanRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
+  '/tarieven-seo': typeof TarievenSeoRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
   '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
   '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
@@ -131,7 +147,9 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/gratis-seo-scan': typeof GratisSeoScanRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
+  '/tarieven-seo': typeof TarievenSeoRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
   '/online-marketing/emailmarketing': typeof OnlineMarketingEmailmarketingRoute
   '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
@@ -148,7 +166,9 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/gratis-seo-scan'
     | '/seo-voor-mkb'
+    | '/tarieven-seo'
     | '/online-marketing/conversie-optimalisatie'
     | '/online-marketing/emailmarketing'
     | '/online-marketing/geo-optimalisatie'
@@ -163,7 +183,9 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/gratis-seo-scan'
     | '/seo-voor-mkb'
+    | '/tarieven-seo'
     | '/online-marketing/conversie-optimalisatie'
     | '/online-marketing/emailmarketing'
     | '/online-marketing/geo-optimalisatie'
@@ -178,7 +200,9 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/gratis-seo-scan'
     | '/seo-voor-mkb'
+    | '/tarieven-seo'
     | '/online-marketing/conversie-optimalisatie'
     | '/online-marketing/emailmarketing'
     | '/online-marketing/geo-optimalisatie'
@@ -194,7 +218,9 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  GratisSeoScanRoute: typeof GratisSeoScanRoute
   SeoVoorMkbRoute: typeof SeoVoorMkbRoute
+  TarievenSeoRoute: typeof TarievenSeoRoute
   OnlineMarketingConversieOptimalisatieRoute: typeof OnlineMarketingConversieOptimalisatieRoute
   OnlineMarketingEmailmarketingRoute: typeof OnlineMarketingEmailmarketingRoute
   OnlineMarketingGeoOptimalisatieRoute: typeof OnlineMarketingGeoOptimalisatieRoute
@@ -210,11 +236,25 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/tarieven-seo': {
+      id: '/tarieven-seo'
+      path: '/tarieven-seo'
+      fullPath: '/tarieven-seo'
+      preLoaderRoute: typeof TarievenSeoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/seo-voor-mkb': {
       id: '/seo-voor-mkb'
       path: '/seo-voor-mkb'
       fullPath: '/seo-voor-mkb'
       preLoaderRoute: typeof SeoVoorMkbRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gratis-seo-scan': {
+      id: '/gratis-seo-scan'
+      path: '/gratis-seo-scan'
+      fullPath: '/gratis-seo-scan'
+      preLoaderRoute: typeof GratisSeoScanRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -306,7 +346,9 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  GratisSeoScanRoute: GratisSeoScanRoute,
   SeoVoorMkbRoute: SeoVoorMkbRoute,
+  TarievenSeoRoute: TarievenSeoRoute,
   OnlineMarketingConversieOptimalisatieRoute:
     OnlineMarketingConversieOptimalisatieRoute,
   OnlineMarketingEmailmarketingRoute: OnlineMarketingEmailmarketingRoute,
