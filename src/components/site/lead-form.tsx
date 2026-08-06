@@ -100,13 +100,13 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
           </div>
           <label className="block">
             <span className="mb-1.5 block text-xs font-semibold text-brand-ink">Naam</span>
-            <input className={inputClass} value={name} onChange={(e) => setName(e.target.value)} placeholder="Voornaam Achternaam" />
+            <input className={inputClass} value={name} onChange={(e) => setName(e.target.value)} placeholder="Voornaam Achternaam" data-lpignore="true" />
           </label>
           <label className="block">
             <span className="mb-1.5 block text-xs font-semibold text-brand-ink">
               Telefoon <span className="font-normal text-brand-muted">(optioneel)</span>
             </span>
-            <input className={inputClass} value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="06 12 34 56 78" />
+            <input className={inputClass} value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="06 12 34 56 78" data-lpignore="true" />
           </label>
           <fieldset>
             <legend className="mb-1.5 block text-xs font-semibold text-brand-ink">
@@ -130,7 +130,7 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
             </div>
           </fieldset>
           <label className="flex items-start gap-2 text-xs text-brand-muted">
-            <input type="checkbox" required className="mt-0.5 size-4 rounded border-brand-line" />
+            <input type="checkbox" required className="mt-0.5 size-4 rounded border-brand-line" data-lpignore="true" />
             Ik ga ermee akkoord dat B. Analyzed contact met mij opneemt over deze scan.
           </label>
           <button
