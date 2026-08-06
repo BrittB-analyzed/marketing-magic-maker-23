@@ -64,16 +64,25 @@ export function TrustLine() {
   );
 }
 
+const SUPPORT_LINKS = [
+  { label: "Social media marketing", to: "/online-marketing/social-media-marketing" },
+  { label: "E-mailmarketing", to: "/online-marketing/emailmarketing" },
+  { label: "Google Tag Manager", to: "/online-marketing/google-tag-manager-inrichten" },
+  { label: "Linkbuilding", to: "/online-marketing/linkbuilding-uitbesteden" },
+  { label: "Local SEO", to: "/online-marketing/local-seo" },
+  { label: "WordPress onderhoud", to: "/online-marketing/wordpress-onderhoud" },
+];
+
 const NAV = [
-  ...PILLARS.map((p) => ({ label: p.name, to: p.to, badge: p.name === "GEO" })),
-  { label: "Cases", to: "/online-marketing-cases", badge: false },
-  { label: "Tarieven", to: "/tarieven-seo", badge: false },
-  { label: "Kennis", to: "/blog", badge: false },
-  { label: "Over ons", to: "/online-marketing-bedrijf", badge: false },
+  { label: "Over ons", to: "/online-marketing-bedrijf" },
+  { label: "Cases", to: "/online-marketing-cases" },
+  { label: "Tarieven", to: "/tarieven-seo" },
+  { label: "Kennis", to: "/blog" },
 ];
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const [services, setServices] = useState(false);
 
   return (
     <>
@@ -82,22 +91,99 @@ export function Header() {
         <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6" aria-label="Hoofdnavigatie">
           <Logo />
           <ul className="hidden items-center gap-6 lg:flex">
+            <li
+              className="relative"
+              onMouseEnter={() => setServices(true)}
+              onMouseLeave={() => setServices(false)}
+            >
+              <button
+                type="button"
+                onClick={() => setServices((v) => !v)}
+                aria-expanded={services}
+                className="flex items-center gap-1 py-5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
+              >
+                Diensten
+                <ChevronDown className="size-3.5" />
+              </button>
+              {services && (
+                <div className="absolute left-1/2 top-full w-[34rem] -translate-x-1/2 rounded-2xl border border-brand-line bg-white p-6 shadow-xl">
+                  <div className="grid grid-cols-2 gap-6">
+                    <div>
+                      <p className="text-[11px] font-semibold uppercase tracking-wide text-brand-muted">
+                        Hoofdpijlers
+                      </p>
+                      <ul className="mt-3 space-y-2">
+                        {PILLARS.map((p) => (
+                          <li key={p.to}>
+                            <Link
+                              to={p.to}
+                              onClick={() => setServices(false)}
+                              className="flex items-center gap-1.5 text-sm font-medium text-brand-ink hover:text-brand-red"
+                            >
+                              {p.name}
+                              {p.name === "GEO" && (
+                                <span className="rounded-full bg-brand-red-soft px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-red">
+                                  nieuw
+                                </span>
+                              )}
+                              <span className="text-xs font-normal text-brand-muted">— {p.claim}</span>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <p className="text-[11px] font-semibold uppercase tracking-wide text-brand-muted">
+                        Ondersteunend
+                      </p>
+                      <ul className="mt-3 space-y-2">
+                        {SUPPORT_LINKS.map((l) => (
+                          <li key={l.to}>
+                            <Link
+                              to={l.to}
+                              onClick={() => setServices(false)}
+                              className="text-sm text-brand-muted hover:text-brand-ink"
+                            >
+                              {l.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                  <Link
+                    to="/online-marketing"
+                    onClick={() => setServices(false)}
+                    className="mt-5 inline-flex items-center gap-1.5 border-t border-brand-line pt-4 text-sm font-semibold text-brand-ink hover:text-brand-red"
+                  >
+                    Alle diensten bekijken <ArrowRight className="size-4" />
+                  </Link>
+                </div>
+              )}
+            </li>
             {NAV.map((item) => (
               <li key={item.to}>
                 <Link
                   to={item.to}
-                  className="flex items-center gap-1.5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
+                  className="text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
                   activeProps={{ className: "text-brand-ink" }}
                 >
                   {item.label}
-                  {item.badge && (
-                    <span className="rounded-full bg-brand-red-soft px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-red">
-                      nieuw
-                    </span>
-                  )}
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                to="/gratis-seo-scan"
+                className="flex items-center gap-1.5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
+                activeProps={{ className: "text-brand-ink" }}
+              >
+                SEO &amp; GEO audit
+                <span className="rounded-full bg-brand-red-soft px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-red">
+                  nieuw
+                </span>
+              </Link>
+            </li>
           </ul>
           <div className="flex items-center gap-2">
             <a
@@ -106,6 +192,16 @@ export function Header() {
             >
               <Phone className="size-3.5" />
               Direct contact
+            </a>
+            <a
+              href={WHATSAPP_HREF}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp Business"
+              className="hidden items-center gap-1.5 rounded-full border border-brand-line px-3 py-2 text-sm font-medium text-brand-ink transition-colors hover:border-brand-green hover:text-brand-green md:inline-flex"
+            >
+              <MessageCircle className="size-4" />
+              WhatsApp
             </a>
             <Link
               to="/gratis-seo-scan"
@@ -127,6 +223,23 @@ export function Header() {
         {open && (
           <div className="border-t border-brand-line bg-brand-canvas lg:hidden">
             <ul className="mx-auto max-w-6xl px-6 py-4">
+              <li className="border-b border-brand-line py-3">
+                <p className="text-[11px] font-semibold uppercase tracking-wide text-brand-muted">
+                  Diensten
+                </p>
+                <div className="mt-2 grid gap-2">
+                  {[...PILLARS.map((p) => ({ label: p.name, to: p.to })), ...SUPPORT_LINKS].map((l) => (
+                    <Link
+                      key={l.to}
+                      to={l.to}
+                      onClick={() => setOpen(false)}
+                      className="text-sm text-brand-muted"
+                    >
+                      {l.label}
+                    </Link>
+                  ))}
+                </div>
+              </li>
               {NAV.map((item) => (
                 <li key={item.to}>
                   <Link
@@ -138,6 +251,18 @@ export function Header() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  to="/gratis-seo-scan"
+                  onClick={() => setOpen(false)}
+                  className="flex items-center gap-2 border-b border-brand-line py-3 text-base font-medium text-brand-ink"
+                >
+                  SEO &amp; GEO audit
+                  <span className="rounded-full bg-brand-red-soft px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-red">
+                    nieuw
+                  </span>
+                </Link>
+              </li>
               <li className="flex flex-col gap-2 pt-4">
                 <Link
                   to="/gratis-seo-scan"
@@ -146,6 +271,14 @@ export function Header() {
                 >
                   Gratis scan aanvragen
                 </Link>
+                <a
+                  href={WHATSAPP_HREF}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full border border-brand-line px-4 py-3 text-center text-sm font-semibold text-brand-ink"
+                >
+                  WhatsApp ons
+                </a>
                 <a
                   href={PHONE_HREF}
                   className="rounded-full border border-brand-line px-4 py-3 text-center text-sm font-semibold text-brand-ink"
@@ -160,15 +293,6 @@ export function Header() {
     </>
   );
 }
-
-const SUPPORT_LINKS = [
-  { label: "Social media marketing", to: "/online-marketing/social-media-marketing" },
-  { label: "E-mailmarketing", to: "/online-marketing/emailmarketing" },
-  { label: "Google Tag Manager", to: "/online-marketing/google-tag-manager-inrichten" },
-  { label: "Linkbuilding", to: "/online-marketing/linkbuilding-uitbesteden" },
-  { label: "Local SEO", to: "/online-marketing/local-seo" },
-  { label: "WordPress onderhoud", to: "/online-marketing/wordpress-onderhoud" },
-];
 
 export function Footer() {
   return (
