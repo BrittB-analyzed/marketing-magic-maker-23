@@ -29,7 +29,7 @@ import dashboardImage from "@/assets/seo-dashboard.jpg";
 const FAQ: Faq[] = [
   {
     q: "Wat kost SEO en GEO bij B. Analyzed?",
-    a: "Een uitgebreide audit start vanaf € 599,- en een doorlopend SEO- & GEO-pakket vanaf € 999,- per maand. Wat je precies betaalt hangt af van je markt, concurrentie en hoeveel we zelf uitvoeren. Je krijgt altijd vooraf een vaste prijs — geen nacalculatie.",
+    a: "Een uitgebreide audit start vanaf € 599,- en een doorlopend SEO- & GEO-pakket vanaf € 999,- per maand, met diverse diensten om uit te kiezen. Losse werkzaamheden factureren we tegen € 90,- per uur. Wat je precies betaalt hangt af van je markt en concurrentie — we werken net zo lang door tot je meetbaar resultaat boekt.",
   },
   {
     q: "Hoe lang duurt het voordat ik resultaat zie?",
@@ -112,9 +112,9 @@ function Hero() {
             <span className="text-brand-red">Meer aanvragen.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-brand-muted">
-            Voor MKB-bedrijven in Nederland en België die willen groeien zonder marketingjargon. Wij
-            zorgen dat je zichtbaar bent waar je klant zoekt — en dat het verkeer dat binnenkomt ook
-            daadwerkelijk klant wordt.
+            B. Analyzed is hét datagedreven full service online marketingbureau dat al behoorlijk wat
+            klanten blij heeft gemaakt. Onafhankelijk, persoonlijk en transparant — en we werken net
+            zo lang door tot jij meetbaar resultaat boekt.
           </p>
           <ul className="mt-8 space-y-3">
             {[
@@ -174,10 +174,10 @@ function HeroForm() {
 }
 
 const BIG_STATS = [
-  { value: "93%", label: "van Nederland zoekt nog steeds via Google" },
-  { value: "68%", label: "van alle clicks gaat naar de top-3 posities" },
-  { value: "+312%", label: "gemiddelde groei in organisch verkeer" },
-  { value: "AI+", label: "GEO-optimalisatie voor ChatGPT & Perplexity" },
+  { value: "386", label: "nummer 1-posities behaald voor klanten in Google" },
+  { value: "+25", label: "SEO-opdrachtgevers met minimaal 150% organische groei in 1 jaar" },
+  { value: "+50", label: "tevreden SEO-klanten met minimaal 300% groei in organisch verkeer" },
+  { value: "12+", label: "jaar ervaring in SEO, GEO, Ads en conversie-optimalisatie" },
 ];
 
 function BigStats() {
@@ -203,9 +203,9 @@ function BigStats() {
 }
 
 const RESULT_CARDS = [
-  { label: "Top-3 posities", value: "1.4k+", note: "Behaald voor MKB'ers in Nederland en België", wide: true },
-  { label: "ROI gemiddelde", value: "12x", note: null, wide: false },
-  { label: "Klanten", value: "150+", note: null, wide: false, accent: true },
+  { label: "Nummer 1-posities", value: "386", note: "Behaald in Google voor onze klanten", wide: true },
+  { label: "Linkbuilding netwerk", value: "2.500+", note: null, wide: false },
+  { label: "Jaar ervaring", value: "12+", note: null, wide: false, accent: true },
 ];
 
 function ResultCards() {
@@ -292,7 +292,7 @@ function DashboardShowcase() {
 }
 
 function LogoStrip() {
-  const logos = ["Parketreus", "Van Gogh Group", "Limburgia", "Nedcon", "Hoveniers NL", "Bouwgroep Zuid"];
+  const logos = ["Parketreus", "Meubel & Outlet Weert", "Sleep Factory", "DN Research", "Jana Nails", "Van Daken"];
   return (
     <div className="border-b border-brand-line bg-brand-canvas">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-12 gap-y-5 px-6 py-10">
@@ -423,18 +423,18 @@ function Proof() {
       <div className="mt-12 grid gap-6 lg:grid-cols-2">
         {[
           {
-            tag: "Bouw & installatie",
-            title: "Van onzichtbaar naar vaste aanvraagstroom",
-            start: "Nauwelijks organisch verkeer, alle aanvragen uit advertenties.",
-            action: "Technische fundering, 12 dienstpagina's op koopintentie en lokale autoriteit.",
-            result: "Organisch verkeer en aanvragen structureel gegroeid binnen 12 maanden.",
+            tag: "Meubel & Outlet Weert",
+            title: "6.600x per maand gezocht op 'meubel outlet' en nummer 1 in Google",
+            start: "De website werd nauwelijks gevonden, minder dan 500 organische bezoekers per maand.",
+            action: "Categoriepagina's geoptimaliseerd, een blog gelanceerd en Google Ads opnieuw ingericht.",
+            result: "+680% organisch verkeer naar bijna 5.500 bezoekers/maand en positie 1 op 'meubel outlet'.",
           },
           {
-            tag: "Zakelijke dienstverlening",
-            title: "Zichtbaar in AI-antwoorden op branchevragen",
-            start: "Goede posities in Google, geen enkele vermelding in AI-antwoorden.",
-            action: "Content herstructureerd naar citeerbare antwoorden, schema en crawler-toegang.",
-            result: "Wordt inmiddels genoemd bij meerdere gemonitorde prompts.",
+            tag: "Sleep Factory BV",
+            title: "800% groei in het aantal online transacties",
+            start: "Beperkt organisch en betaald verkeer voor de boxspring-webshop.",
+            action: "SEO- en Google Ads-strategie gericht op termen als 'goedkope boxspring'.",
+            result: "800% meer online transacties in 1,5 jaar, top 5-posities en 3.000+ bezoekers per maand.",
           },
         ].map((c) => (
           <article key={c.title} className="rounded-2xl border border-brand-line bg-white p-8">
@@ -540,21 +540,23 @@ function PersonalTouch() {
           />
           <div className="mt-8 space-y-4 text-base leading-relaxed text-brand-muted">
             <p>
-              Wij zijn een klein bureau uit Limburg. We werken niet met pakketjes, junior-medewerkers
-              of mooie praatjes. Wel met eerlijk advies, duidelijke afspraken en maandelijkse
-              video-rapportages waarin je zelf ziet wat er gebeurt.
+              In 2014 startte Britt Daemen als freelance marketeer onder de naam B. Analyzed
+              marketing, met SEO en Google Ads als specialisme. Inmiddels runt ze met een team van
+              freelancers wereldwijd een fullservice online marketingbureau dat ieder bedrijf van A
+              tot Z ontzorgt.
             </p>
             <p>
-              Onze klanten zitten in Nederland en België: van installateur tot zakelijke
-              dienstverlener. Wat ze gemeen hebben? Ze willen resultaat zonder marketingjargon.
+              We werken niet met pakketjes, junior-medewerkers of mooie praatjes. Wel met eerlijk
+              advies, duidelijke afspraken en maandelijkse Loom-video's waarin je zelf ziet wat er
+              gebeurt — tot je meetbaar resultaat boekt.
             </p>
           </div>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {[
-              ["Beoordeeld met 9,8", "Op basis van 47 Google-reviews."],
-              ["Vaste specialist", "Dezelfde persoon van strategie tot uitvoering."],
-              ["Limburgse nuchterheid", "Geen beloftes die we niet waar kunnen maken."],
-              ["Altijd inzichtelijk", "Dashboard + Loom-video, 24/7 beschikbaar."],
+              ["12+ jaar ervaring", "Sinds 2014 actief als online marketingbureau."],
+              ["Transparante werkwijze", "Alles laten we zien via Loom-video's."],
+              ["Gegarandeerde top 10", "Alleen de eerste pagina van Google telt."],
+              ["Trouwe opdrachtgevers", "Klanten waar we al jaren voor werken."],
             ].map(([t, d]) => (
               <div key={t} className="rounded-2xl border border-brand-line bg-white p-5">
                 <h3 className="text-sm font-semibold text-brand-ink">{t}</h3>
@@ -577,19 +579,19 @@ function PersonalTouch() {
 function Testimonials() {
   const quotes = [
     {
-      q: "Eindelijk een bureau dat uitlegt wat er gebeurt in plaats van een rapport te sturen dat ik niet begrijp.",
-      n: "Klantwaardering",
-      r: "MKB-ondernemer, Limburg",
+      q: "Britt denkt out of the box en kan mij ook enorm motiveren door te pakken. In 1,5 jaar tijd beschik ik over meer kennis over mijn bedrijf en heb ik er een hoop mooie opdrachten aan over gehouden.",
+      n: "Kevin Jaspers",
+      r: "Eigenaar",
     },
     {
-      q: "De maandelijkse video's zijn goud waard. Ik weet precies waar mijn budget heen gaat.",
-      n: "Klantwaardering",
-      r: "Marketingmanager, Noord-Brabant",
+      q: "Sterke groei door de inspanningen van Britt.",
+      n: "Ron Thielen",
+      r: "Opdrachtgever",
     },
     {
-      q: "We worden nu genoemd in ChatGPT als iemand naar onze dienst vraagt. Daar had ik zelf niet aan gedacht.",
-      n: "Klantwaardering",
-      r: "Directeur, zakelijke dienstverlening",
+      q: "Britt is betrokken en heeft veel kennis.",
+      n: "Wesley Kissen",
+      r: "Eigenaar Steel Garden",
     },
   ];
   return (

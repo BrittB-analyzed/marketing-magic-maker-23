@@ -16,7 +16,7 @@ export const Route = createFileRoute("/online-marketing/website-advies")({
     <SupportPage
       eyebrow="Ondersteunende dienst"
       title="Website advies: wat moet er écht gebeuren met je site?"
-      intro="Voordat je duizenden euro's in een nieuwe website steekt: laat eerst nuchter bekijken wat je huidige site wel en niet doet."
+      intro="De meeste ondernemers halen niet uit hun website wat erin zit. Voordat je duizenden euro's in een nieuwe website steekt: laat eerst nuchter bekijken wat je huidige site wel en niet doet."
       points={["Analyse van je huidige site op techniek, snelheid, content en conversie", "Advies of doorontwikkelen slimmer is dan opnieuw bouwen", "Redirectplan en behoud van bestaande posities bij een nieuwe site", "Prioriteitenlijst met verwacht effect en benodigde inspanning", "Meedenken bij offertes van webbouwers, zodat je niet voor verrassingen komt te staan"]}
       pillar="CRO"
       pillarTo="/online-marketing/conversie-optimalisatie"
