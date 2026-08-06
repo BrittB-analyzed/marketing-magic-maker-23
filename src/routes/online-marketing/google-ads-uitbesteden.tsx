@@ -63,7 +63,7 @@ export const Route = createFileRoute("/online-marketing/google-ads-uitbesteden")
           { title: "Optimalisatie", body: "Wekelijks bijsturen. Wat werkt schalen we op, wat niet werkt zetten we uit." },
         ]}
         connection="Ads levert binnen weken de zoektermdata waar SEO en GEO maanden over doen. Wat in advertenties converteert, weten we zeker en gebruiken we in de organische strategie. CRO maakt vervolgens elke euro advertentiebudget meer waard."
-        price={{ from: "Beheer vanaf € 499,- per maand", note: "Exclusief advertentiebudget. Je adverteert in je eigen account en blijft eigenaar." }}
+        price={{ from: "Vanaf € 999,- per maand", note: "Exclusief advertentiebudget. Je adverteert in je eigen account en blijft eigenaar." }}
         faq={FAQ}
       />
     </SiteLayout>
