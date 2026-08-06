@@ -404,9 +404,6 @@ export function WhatsAppFab() {
   return null;
 }
 
-export function WhatsAppFab() {
-  return null;
-}
 
 export function SiteLayout({ children }: { children: React.ReactNode }) {
   return (
