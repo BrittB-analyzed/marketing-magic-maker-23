@@ -11,6 +11,9 @@ import {
   SectionHeading,
   faqJsonLd,
 } from "@/components/site/page-bits";
+import portretBuiten from "@/assets/photos/portret-buiten.jpg.asset.json";
+import aanHetWerk from "@/assets/photos/aan-het-werk.jpg.asset.json";
+import teamSamen from "@/assets/photos/team-samen.jpg.asset.json";
 
 const FAQ: Faq[] = [
   {
