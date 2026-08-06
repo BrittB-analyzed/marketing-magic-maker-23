@@ -1,12 +1,15 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, Check, Menu, Phone, Star, X } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, Menu, MessageCircle, Phone, Star, X } from "lucide-react";
 import logoUrl from "@/assets/logo-b-analyzed.svg?url";
 
 export const PHONE = "+31 (0)6 819 539 99";
 export const PHONE_HREF = "tel:+31681953999";
 export const WHATSAPP_HREF = "https://wa.me/31681953999";
 export const EMAIL = "info@b-analyzed.com";
+export const REVIEWS_HREF =
+  "https://www.google.com/search?q=b+analyzed+marketing#lrd=0x0:0x0,1,,,";
+export const REVIEW_COUNT = 47;
 
 export const PILLARS = [
   { name: "SEO", to: "/online-marketing/seo-uitbesteden", claim: "Gevonden worden in Google" },
@@ -33,14 +36,21 @@ export function TrustLine() {
   return (
     <div className="hidden border-b border-brand-line bg-white md:block">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-2 text-xs">
-        <div className="flex items-center gap-2">
+        <a
+          href={REVIEWS_HREF}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 transition-colors hover:text-brand-red"
+        >
           <span className="flex" aria-hidden="true">
             {Array.from({ length: 5 }).map((_, i) => (
               <Star key={i} className="size-3.5 fill-brand-star text-brand-star" strokeWidth={0} />
             ))}
           </span>
-          <span className="font-medium text-brand-ink">Beoordeeld met een 9,8</span>
-        </div>
+          <span className="font-medium text-brand-ink">
+            Beoordeeld met een 9,8 — {REVIEW_COUNT} reviews
+          </span>
+        </a>
         <div className="flex items-center gap-6 text-brand-muted">
           {["15 jaar ervaring", "Aantoonbare resultaten", "Transparante werkwijze"].map((t) => (
             <span key={t} className="flex items-center gap-1.5">
