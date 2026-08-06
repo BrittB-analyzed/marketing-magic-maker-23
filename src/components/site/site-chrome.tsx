@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowRight, Check, ChevronDown, Menu, MessageCircle, Phone, Star, X } from "lucide-react";
 import logoUrl from "@/assets/logo-b-analyzed.svg?url";
+import portretClose from "@/assets/photos/portret-close.jpg.asset.json";
 
 export const PHONE = "+31 (0)6 819 539 99";
 export const PHONE_HREF = "tel:+31681953999";
@@ -31,6 +32,8 @@ export function Logo({ compact = false }: { compact?: boolean }) {
     </Link>
   );
 }
+
+export const AVATAR_URL = portretClose.url;
 
 export function TrustLine() {
   return (
