@@ -1,5 +1,16 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Check, MessageSquare, Phone, Star, Video } from "lucide-react";
+import {
+  ArrowRight,
+  Check,
+  Clock,
+  MessageSquare,
+  Phone,
+  ShieldCheck,
+  Sparkles,
+  Star,
+  TrendingUp,
+  Video,
+} from "lucide-react";
 import { SiteLayout, PHONE, PHONE_HREF, PILLARS, WHATSAPP_HREF } from "@/components/site/site-chrome";
 import { LeadForm } from "@/components/site/lead-form";
 import {
@@ -13,6 +24,7 @@ import {
 } from "@/components/site/page-bits";
 import portretBuiten from "@/assets/photos/portret-buiten.jpg.asset.json";
 import aanHetWerk from "@/assets/photos/aan-het-werk.jpg.asset.json";
+import dashboardImage from "@/assets/seo-dashboard.jpg";
 
 const FAQ: Faq[] = [
   {
@@ -69,9 +81,12 @@ function Home() {
     <SiteLayout>
       <Hero />
       <LogoStrip />
+      <BigStats />
+      <ResultCards />
       <Shift />
       <Pillars />
       <Proof />
+      <DashboardShowcase />
       <Method />
       <PersonalTouch />
       <Testimonials />
@@ -85,8 +100,9 @@ function Home() {
 function Hero() {
   return (
     <div className="border-b border-brand-line bg-white">
-      <div className="mx-auto max-w-6xl px-6 py-24 sm:py-32">
-        <div className="max-w-3xl">
+      <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+        <div className="grid items-start gap-12 lg:grid-cols-[1.05fr_0.95fr]">
+          <div>
           <Eyebrow>SEO · GEO · Ads · CRO</Eyebrow>
           <h1 className="mt-5 text-4xl font-semibold leading-[1.08] tracking-tight sm:text-6xl">
             Gevonden in Google.
@@ -100,6 +116,20 @@ function Hero() {
             zorgen dat je zichtbaar bent waar je klant zoekt — en dat het verkeer dat binnenkomt ook
             daadwerkelijk klant wordt.
           </p>
+          <ul className="mt-8 space-y-3">
+            {[
+              "Vergroot je vindbaarheid in Google én AI-zoekmachines",
+              "Krijg meer relevante bezoekers naar je site",
+              "Vergroot je aantal leads en sales online",
+            ].map((b) => (
+              <li key={b} className="flex items-center gap-3 text-[15px] text-brand-ink">
+                <span className="flex size-5 items-center justify-center rounded-full bg-brand-green/15 text-brand-green">
+                  <Check className="size-3" strokeWidth={3} />
+                </span>
+                {b}
+              </li>
+            ))}
+          </ul>
           <div className="mt-9 flex flex-wrap items-center gap-5">
             <Link
               to="/gratis-seo-scan"
@@ -121,9 +151,152 @@ function Hero() {
               <span className="font-semibold text-brand-ink">9,8</span> gemiddeld · 50+ klantwaarderingen
             </p>
           </div>
+          </div>
+          <HeroForm />
         </div>
       </div>
     </div>
+  );
+}
+
+function HeroForm() {
+  return (
+    <div className="relative">
+      <div className="rounded-2xl border border-brand-line bg-white p-7 shadow-[0_30px_80px_-30px_rgba(20,24,31,0.25)] md:p-8">
+        <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-brand-red">
+          Gratis &amp; vrijblijvend
+        </p>
+        <h2 className="mb-2 text-2xl font-semibold leading-tight tracking-tight">
+          Vraag je gratis SEO &amp; GEO-scan aan
+        </h2>
+        <p className="mb-6 text-sm text-brand-muted">
+          Binnen 24 uur ontvang je een persoonlijke analyse inclusief AI-visibility check.
+        </p>
+        <LeadForm id="hero-form" compact />
+      </div>
+      <div className="absolute -right-3 -top-3 hidden rotate-3 rounded-md bg-brand-sand px-3 py-2 text-xs font-semibold text-brand-ink shadow-lg ring-1 ring-brand-line md:block">
+        <span className="mr-1 text-brand-green">●</span>
+        Reactie binnen 24u
+      </div>
+    </div>
+  );
+}
+
+const BIG_STATS = [
+  { value: "93%", label: "van Nederland zoekt nog steeds via Google" },
+  { value: "68%", label: "van alle clicks gaat naar de top-3 posities" },
+  { value: "+312%", label: "gemiddelde groei in organisch verkeer" },
+  { value: "AI+", label: "GEO-optimalisatie voor ChatGPT & Perplexity" },
+];
+
+function BigStats() {
+  return (
+    <Section>
+      <div className="max-w-2xl">
+        <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
+          Waarom SEO &amp; GEO geen optie meer is voor het MKB.
+        </h2>
+      </div>
+      <div className="mt-12 grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4">
+        {BIG_STATS.map((s) => (
+          <div key={s.label}>
+            <div className="mb-2 text-5xl font-semibold tracking-tight text-brand-red md:text-6xl">
+              {s.value}
+            </div>
+            <p className="max-w-[26ch] text-sm leading-relaxed text-brand-muted">{s.label}</p>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
+const RESULT_CARDS = [
+  { label: "Top-3 posities", value: "1.4k+", note: "Behaald voor MKB'ers in Nederland en België", wide: true },
+  { label: "ROI gemiddelde", value: "12x", note: null, wide: false },
+  { label: "Klanten", value: "150+", note: null, wide: false, accent: true },
+];
+
+function ResultCards() {
+  return (
+    <Section id="resultaten" className="border-y border-brand-line bg-brand-sand">
+      <div className="grid gap-4 md:grid-cols-4">
+        {RESULT_CARDS.map((s) => (
+          <div
+            key={s.label}
+            className={`flex h-48 flex-col justify-between rounded-2xl border p-8 md:h-64 ${
+              s.accent
+                ? "border-brand-red bg-brand-red text-white"
+                : "border-brand-line bg-white text-brand-ink"
+            } ${s.wide ? "md:col-span-2" : ""}`}
+          >
+            <div
+              className={`text-sm font-semibold uppercase tracking-[0.14em] ${
+                s.accent ? "opacity-80" : "text-brand-red"
+              }`}
+            >
+              {s.label}
+            </div>
+            <div>
+              <div className="mb-2 text-5xl font-semibold tracking-tight">{s.value}</div>
+              {s.note && <p className="text-sm text-brand-muted">{s.note}</p>}
+            </div>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
+function DashboardShowcase() {
+  return (
+    <Section className="border-y border-brand-line bg-brand-sand">
+      <div className="grid items-center gap-12 lg:grid-cols-2">
+        <div>
+          <Eyebrow>Transparant dashboard</Eyebrow>
+          <h2 className="mt-5 text-balance text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
+            Altijd inzicht in jouw rankings, verkeer en ROI.
+          </h2>
+          <p className="mt-5 max-w-md text-base leading-relaxed text-brand-muted">
+            Geen vage PDF-rapportjes. Jij krijgt een live dashboard waarin je precies ziet welke
+            euro's rendement opleveren — wanneer jij wilt.
+          </p>
+          <ul className="mt-8 space-y-3 text-sm">
+            {[
+              { Icon: TrendingUp, t: "Live keyword posities & organisch verkeer" },
+              { Icon: Sparkles, t: "GEO-monitoring: zichtbaarheid in ChatGPT & Perplexity" },
+              { Icon: ShieldCheck, t: "Maandelijkse rapportages, helder uitgelegd" },
+              { Icon: Clock, t: "Vaste specialist, reactie binnen 24 uur" },
+            ].map(({ Icon, t }) => (
+              <li key={t} className="flex items-center gap-3 text-brand-ink">
+                <span className="flex size-7 items-center justify-center rounded-md bg-white ring-1 ring-brand-line">
+                  <Icon className="size-4 text-brand-green" />
+                </span>
+                {t}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="relative">
+          <div className="rounded-xl border border-brand-line bg-white p-3 shadow-xl">
+            <img
+              src={dashboardImage}
+              alt="SEO- en GEO-dashboard met organisch verkeer en keyword rankings"
+              loading="lazy"
+              width={1280}
+              height={960}
+              className="w-full rounded-md"
+            />
+          </div>
+          <div className="absolute -bottom-5 -left-5 rounded-lg border border-brand-line bg-white p-4 shadow-xl">
+            <div className="text-[10px] font-semibold uppercase tracking-wide text-brand-muted">
+              Groei deze maand
+            </div>
+            <div className="text-2xl font-semibold text-brand-green">+312,4%</div>
+          </div>
+        </div>
+      </div>
+    </Section>
   );
 }
 
