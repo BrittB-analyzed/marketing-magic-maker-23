@@ -400,8 +400,32 @@ export function StickyMobileCTA() {
         >
           <Phone className="size-5" />
         </a>
+        <a
+          href={WHATSAPP_HREF}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp Business"
+          className="flex size-12 items-center justify-center rounded-full bg-[#25D366] text-white"
+        >
+          <MessageCircle className="size-5" />
+        </a>
       </div>
     </div>
+  );
+}
+
+export function WhatsAppFab() {
+  return (
+    <a
+      href={WHATSAPP_HREF}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Stuur ons een WhatsApp-bericht"
+      className="fixed bottom-6 right-6 z-50 hidden items-center gap-2 rounded-full bg-[#25D366] px-4 py-3 text-sm font-semibold text-white shadow-lg transition-transform hover:scale-105 md:inline-flex"
+    >
+      <MessageCircle className="size-5" />
+      WhatsApp
+    </a>
   );
 }
 
@@ -412,6 +436,7 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
       <main className="pb-20 md:pb-0">{children}</main>
       <Footer />
       <StickyMobileCTA />
+      <WhatsAppFab />
     </div>
   );
 }
