@@ -189,6 +189,24 @@ export function Header() {
           </ul>
           <div className="flex items-center gap-2">
             <a
+              href={PHONE_HREF}
+              className="hidden items-center gap-2 rounded-full border border-brand-line py-1 pl-1 pr-3 transition-colors hover:border-brand-green xl:inline-flex"
+            >
+              <img
+                src={portretClose.url}
+                alt="Je vaste specialist bij B. Analyzed"
+                width={64}
+                height={64}
+                className="size-8 rounded-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+              <span className="leading-tight">
+                <span className="block text-[11px] text-brand-muted">Je vaste specialist</span>
+                <span className="block text-xs font-semibold text-brand-ink">Even sparren?</span>
+              </span>
+            </a>
+            <a
               href={WHATSAPP_HREF}
               target="_blank"
               rel="noopener noreferrer"
