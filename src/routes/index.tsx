@@ -132,12 +132,12 @@ function Hero() {
           </ul>
           <div className="mt-9 flex flex-wrap items-center gap-5">
             <Link
-              to="/gratis-seo-scan"
+              to="/gratis-seo-scan/"
               className="inline-flex items-center gap-2 rounded-full bg-brand-green px-7 py-4 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
             >
               Vraag je gratis scan aan <ArrowRight className="size-4" />
             </Link>
-            <Link to="/online-marketing-cases" className="text-sm font-semibold underline underline-offset-4">
+            <Link to="/online-marketing-cases/" className="text-sm font-semibold underline underline-offset-4">
               Bekijk onze cases
             </Link>
           </div>
@@ -404,7 +404,7 @@ function Pillars() {
       </div>
       <p className="mt-8 text-sm text-brand-muted">
         Ook mogelijk: social media, e-mailmarketing, GTM en meer —{" "}
-        <Link to="/online-marketing" className="font-semibold text-brand-ink underline underline-offset-4">
+        <Link to="/online-marketing/" className="font-semibold text-brand-ink underline underline-offset-4">
           bekijk alle diensten
         </Link>
       </p>
@@ -461,7 +461,7 @@ function Proof() {
         ))}
       </div>
       <Link
-        to="/online-marketing-cases"
+        to="/online-marketing-cases/"
         className="mt-8 inline-flex items-center gap-2 text-sm font-semibold"
       >
         Alle cases bekijken <ArrowRight className="size-4 text-brand-red" />
@@ -563,7 +563,7 @@ function PersonalTouch() {
             ))}
           </div>
           <Link
-            to="/online-marketing-bedrijf"
+            to="/online-marketing-bedrijf/"
             className="mt-8 inline-flex items-center gap-2 text-sm font-semibold underline underline-offset-4"
           >
             Meer over ons <ArrowRight className="size-4 text-brand-red" />

@@ -63,7 +63,7 @@ export function PageHero({
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-brand-muted">{intro}</p>
         <div className="mt-8 flex flex-wrap items-center gap-4">
           <Link
-            to="/gratis-seo-scan"
+            to="/gratis-seo-scan/"
             className="inline-flex items-center gap-2 rounded-full bg-brand-green px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
           >
             {ctaLabel} <ArrowRight className="size-4" />
@@ -139,7 +139,7 @@ export function CtaBand({
           <p className="mt-4 text-base leading-relaxed text-brand-muted">{intro}</p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <Link
-              to="/gratis-seo-scan"
+              to="/gratis-seo-scan/"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-green px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
             >
               Gratis scan aanvragen <ArrowRight className="size-4" />

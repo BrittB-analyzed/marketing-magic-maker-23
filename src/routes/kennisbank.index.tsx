@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/site-chrome";
 import { CtaBand, PageHero, Section, SectionHeading } from "@/components/site/page-bits";
 
-export const Route = createFileRoute("/kennisbank")({
+export const Route = createFileRoute("/kennisbank/")({
   head: () => ({
     meta: [
       { title: "Kennisbank: SEO en GEO uitgelegd | B. Analyzed" },

@@ -1,6 +1,7 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/site-chrome";
-import { CtaBand, PageHero, Section, SectionHeading } from "@/components/site/page-bits";
+import { CtaBand, PageHero, Section } from "@/components/site/page-bits";
+import { POST_LIST } from "@/content/blog";
 
 export const Route = createFileRoute("/blog")({
   head: () => ({
@@ -29,7 +30,23 @@ function Blog() {
         intro="Praktische stukken over SEO, GEO, Ads en CRO. Geschreven voor ondernemers, niet voor collega-marketeers."
       />
       <Section>
-        <SectionHeading title="Artikelen worden gemigreerd" intro="De bestaande artikelen van b-analyzed.com worden in de volgende stap overgezet naar dit nieuwe platform, inclusief inhoudsopgave, leestijd en gerelateerde artikelen." />
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {POST_LIST.map((p) => (
+            <Link
+              key={p.slug}
+              to="/$slug/"
+              params={{ slug: p.slug }}
+              className="flex flex-col rounded-2xl border border-brand-line bg-white p-6 transition-colors hover:border-brand-ink"
+            >
+              <span className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">{p.tag}</span>
+              <h2 className="mt-3 text-lg font-semibold leading-snug">{p.title}</h2>
+              <p className="mt-2 flex-1 text-sm leading-relaxed text-brand-muted">{p.excerpt}</p>
+              <time className="mt-4 text-xs text-brand-muted" dateTime={p.date}>
+                {new Date(p.date).toLocaleDateString("nl-NL", { day: "numeric", month: "long", year: "numeric" })}
+              </time>
+            </Link>
+          ))}
+        </div>
       </Section>
       <CtaBand />
     </SiteLayout>
