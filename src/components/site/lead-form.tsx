@@ -117,7 +117,7 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
                   onClick={() => setFocus(option)}
                   className={`rounded-full border px-3.5 py-2 text-sm transition-colors ${
                     focus === option
-                      ? "border-brand-ink bg-brand-ink text-white"
+                      ? "border-brand-green bg-brand-green text-white"
                       : "border-brand-line text-brand-muted hover:border-brand-ink hover:text-brand-ink"
                   }`}
                 >
@@ -132,7 +132,7 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
           </label>
           <button
             type="submit"
-            className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-ink px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-red"
+            className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
           >
             Aanvraag afronden <ArrowRight className="size-4" />
           </button>
