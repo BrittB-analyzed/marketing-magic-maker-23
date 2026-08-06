@@ -77,7 +77,6 @@ const NAV = [
   { label: "Over ons", to: "/online-marketing-bedrijf" },
   { label: "Cases", to: "/online-marketing-cases" },
   { label: "Tarieven", to: "/tarieven-seo" },
-  { label: "Kennis", to: "/blog" },
 ];
 
 export function Header() {
@@ -90,7 +89,7 @@ export function Header() {
       <header className="sticky top-0 z-50 border-b border-brand-line bg-white/90 backdrop-blur-md">
         <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6" aria-label="Hoofdnavigatie">
           <Logo />
-          <ul className="hidden items-center gap-6 lg:flex">
+          <ul className="hidden items-center gap-5 whitespace-nowrap lg:flex">
             <li
               className="relative"
               onMouseEnter={() => setServices(true)}
@@ -165,7 +164,7 @@ export function Header() {
               <li key={item.to}>
                 <Link
                   to={item.to}
-                  className="text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
+                  className="whitespace-nowrap text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
                   activeProps={{ className: "text-brand-ink" }}
                 >
                   {item.label}
