@@ -720,7 +720,7 @@ function Footer() {
     <footer className="border-t border-zinc-200 py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 px-6 md:flex-row">
         <div className="flex items-center gap-2 opacity-60">
-          <div className="flex size-6 items-center justify-center rounded-sm bg-zinc-900 text-[10px] font-semibold text-white">
+          <div className="flex size-6 items-center justify-center rounded-sm bg-brand-green text-[10px] font-semibold text-white">
             B
           </div>
           <span className="text-xs font-semibold uppercase tracking-tight">Analyzed</span>
