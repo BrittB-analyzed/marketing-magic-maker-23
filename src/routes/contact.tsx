@@ -3,6 +3,7 @@ import { Mail, MessageSquare, Phone } from "lucide-react";
 import { SiteLayout, EMAIL, PHONE, PHONE_HREF, WHATSAPP_HREF } from "@/components/site/site-chrome";
 import { LeadForm } from "@/components/site/lead-form";
 import { Eyebrow, Section } from "@/components/site/page-bits";
+import portretStoer from "@/assets/photos/portret-stoer.jpg.asset.json";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -36,7 +37,16 @@ function Contact() {
               Vertel wat er nu niet loopt. We denken vrijblijvend mee en zeggen het eerlijk als we
               niet de juiste partij zijn.
             </p>
-            <div className="mt-10 space-y-4 text-sm">
+            <div className="mt-10 overflow-hidden rounded-2xl bg-brand-line">
+              <img
+                src={portretStoer.url}
+                alt="Sanne — jouw vaste contactpersoon bij B. Analyzed"
+                className="aspect-[4/3] w-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div className="mt-6 space-y-4 text-sm">
               <a href={PHONE_HREF} className="flex items-center gap-3 font-semibold">
                 <Phone className="size-5 text-brand-red" /> {PHONE}
               </a>
@@ -47,7 +57,7 @@ function Contact() {
                 <Mail className="size-5 text-brand-red" /> {EMAIL}
               </a>
             </div>
-            <div className="mt-10 rounded-2xl border border-brand-line bg-brand-sand p-6 text-sm leading-relaxed text-brand-muted">
+            <div className="mt-6 rounded-2xl border border-brand-line bg-brand-sand p-6 text-sm leading-relaxed text-brand-muted">
               <p className="font-semibold text-brand-ink">B. Analyzed Marketing</p>
               <p className="mt-2">
                 Venlo, Limburg — actief in heel Nederland en België

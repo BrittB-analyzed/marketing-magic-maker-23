@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ClientOnly } from "@tanstack/react-router";
 import { ArrowRight, Check, Lock } from "lucide-react";
 
 const inputClass =
@@ -9,6 +10,45 @@ const inputClass =
  * Step 2 enriches it; dropping out after step 1 still leaves a usable lead.
  */
 export function LeadForm({ id = "scan", compact = false }: { id?: string; compact?: boolean }) {
+  return (
+    <ClientOnly
+      fallback={
+        <div
+          id={id}
+          className="rounded-2xl border border-brand-line bg-white p-6 shadow-[0_1px_2px_rgba(20,24,31,0.04)] sm:p-8"
+          aria-busy="true"
+        >
+          <h2 className="text-xl font-semibold tracking-tight">Vraag je gratis SEO &amp; GEO-scan aan</h2>
+          <p className="mt-1 text-sm text-brand-muted">
+            Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse — geen
+            automatisch rapport.
+          </p>
+          <div className="mt-4 h-10 animate-pulse rounded-xl bg-brand-sand" />
+          <div className="mt-3 h-10 animate-pulse rounded-xl bg-brand-sand" />
+          <div className="mt-4 h-11 animate-pulse rounded-full bg-brand-red/20" />
+          {!compact && (
+            <ul className="mt-6 space-y-2 border-t border-brand-line pt-5 text-sm text-brand-muted">
+              {[
+                "Persoonlijke video-analyse, geen PDF-generator",
+                "Zichtbaarheid in Google én in ChatGPT, Gemini en AI Overviews",
+                "Concrete actiepunten die je ook zonder ons kunt uitvoeren",
+              ].map((item) => (
+                <li key={item} className="flex gap-2">
+                  <Check className="mt-0.5 size-4 shrink-0 text-brand-green" strokeWidth={2.5} />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      }
+    >
+      <LeadFormInner id={id} compact={compact} />
+    </ClientOnly>
+  );
+}
+
+function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
   const [step, setStep] = useState<1 | 2 | 3>(1);
   const [website, setWebsite] = useState("");
   const [email, setEmail] = useState("");
