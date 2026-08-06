@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowRight, Minus, Phone, Plus } from "lucide-react";
 import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "./site-chrome";
+import { LeadForm } from "./lead-form";
 
 export function Section({
   children,
