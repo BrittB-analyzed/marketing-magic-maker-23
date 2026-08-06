@@ -96,6 +96,11 @@ function Tarieven() {
                 p.highlight ? "border-brand-ink bg-white shadow-[0_2px_16px_rgba(20,24,31,0.06)]" : "border-brand-line bg-white"
               }`}
             >
+              {p.highlight && (
+                <div className="-mx-8 -mt-8 mb-5 rounded-t-2xl bg-brand-green px-8 py-2 text-center text-xs font-semibold uppercase tracking-wide text-white">
+                  Meest gekozen
+                </div>
+              )}
               <h2 className="text-lg font-semibold">{p.name}</h2>
               <p className="mt-4 text-3xl font-semibold tracking-tight">{p.price}</p>
               <p className="mt-1 text-xs uppercase tracking-[0.16em] text-brand-muted">{p.note}</p>

@@ -206,16 +206,6 @@ export function Header() {
                 <span className="block text-xs font-semibold text-brand-ink">Even sparren?</span>
               </span>
             </a>
-            <a
-              href={WHATSAPP_HREF}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="WhatsApp Business"
-              className="hidden items-center gap-1.5 rounded-full border border-brand-line px-3 py-2 text-sm font-medium text-brand-ink transition-colors hover:border-brand-green hover:text-brand-green md:inline-flex"
-            >
-              <MessageCircle className="size-4" />
-              WhatsApp
-            </a>
             <Link
               to="/gratis-seo-scan/"
               className="hidden rounded-full bg-brand-green px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark sm:inline-flex"
@@ -284,14 +274,6 @@ export function Header() {
                 >
                   Gratis scan aanvragen
                 </Link>
-                <a
-                  href={WHATSAPP_HREF}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-full border border-brand-line px-4 py-3 text-center text-sm font-semibold text-brand-ink"
-                >
-                  WhatsApp ons
-                </a>
                 <a
                   href={PHONE_HREF}
                   className="rounded-full border border-brand-line px-4 py-3 text-center text-sm font-semibold text-brand-ink"
