@@ -9,14 +9,14 @@ import portretZittend from "@/assets/photos/portret-zittend.jpg.asset.json";
 export const Route = createFileRoute("/online-marketing-bedrijf")({
   head: () => ({
     meta: [
-      { title: "Over B. Analyzed — online marketingbureau uit Limburg" },
+      { title: "Hey hallo, wij zijn een online marketing bedrijf | B. Analyzed" },
       {
         name: "description",
         content:
-          "B. Analyzed is een online marketingbureau uit Limburg voor het MKB. Vaste specialisten, maandelijkse video-rapportage en één verhaal: SEO, GEO, Ads en CRO.",
+          "B. Analyzed is in 2014 gestart door Britt Daemen en is uitgegroeid tot een fullservice online marketingbureau met freelancers wereldwijd. 12+ jaar ervaring in SEO, GEO, Ads en meer.",
       },
-      { property: "og:title", content: "Over B. Analyzed — online marketingbureau uit Limburg" },
-      { property: "og:description", content: "Klein team, vaste specialist, alles wat we doen leggen we uit in gewone taal." },
+      { property: "og:title", content: "Hey hallo, wij zijn een online marketing bedrijf" },
+      { property: "og:description", content: "Remote team van online vakidioten. Transparant, persoonlijk en gericht op meetbaar resultaat." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
@@ -29,27 +29,30 @@ function OverOns() {
     <SiteLayout>
       <PageHero
         eyebrow="Over ons"
-        title="Een klein bureau dat je gewoon te spreken krijgt"
-        intro="B. Analyzed is een online marketingbureau uit Limburg. We werken voor MKB-bedrijven in Nederland en België die willen groeien zonder een marketingafdeling op te tuigen."
+        title="Hey hallo, wij zijn een online marketing bedrijf"
+        intro="Maar dan anders. Ons team bestaat uit online vakidioten die blij worden van de digitale wereld en work from anywhere — B. Analyzed runt het bedrijf volledig remote, wereldwijd."
       />
       <Section>
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
-            <SectionHeading title="Waarom we anders werken" />
+            <SectionHeading title="B. Analyzed door de jaren heen" />
             <div className="mt-6 space-y-4 text-base leading-relaxed text-brand-muted">
               <p>
-                De meeste bureaus verkopen losse diensten. Wij vertellen één verhaal: je moet gevonden
-                worden in Google, genoemd worden in AI, verkeer kunnen kopen dat vandaag converteert,
-                en dat verkeer omzetten in aanvragen. Dat zijn onze vier pijlers.
+                In 2014 startte Britt Daemen als freelance marketeer onder de naam B. Analyzed
+                marketing, met zoekmachine optimalisatie en Google Ads als specialismen. Al snel bleek
+                dat klanten behoefte hadden aan een totaalpakket: een nieuwe website, social media,
+                linkbuilding en een betere vindbaarheid.
               </p>
               <p>
-                Je krijgt een vaste specialist die het werk zelf uitvoert. Geen accountmanager
-                ertussen, geen doorverkoop aan een ander bureau. Elke maand loopt die specialist in
-                een Loom-video je resultaten met je door — in gewone taal.
+                Inmiddels is B. Analyzed een fullservice online marketingbureau dat ieder bedrijf van
+                A tot Z ontzorgt: SEO, Google Ads, linkbuilding, social media marketing, Google Tag
+                Manager, SEO-teksten, WordPress-websites en SEO voor MKB.
               </p>
               <p>
-                We beloven geen posities. Wel dat je op elk moment precies weet wat we doen, waarom we
-                het doen en wat het oplevert.
+                Omdat we remote werken hebben we geen hoge bedrijfspandkosten — dat vertaalt zich naar
+                scherpe prijzen en kennis die altijd en overal voor jou beschikbaar is. En we geloven in
+                wij en samen: we werken net zo lang door tot jij een gegarandeerd mooi, meetbaar
+                resultaat boekt.
               </p>
             </div>
             <Link
@@ -59,6 +62,7 @@ function OverOns() {
               Bekijk onze cases <ArrowRight className="size-4 text-brand-red" />
             </Link>
           </div>
+
           <div className="grid grid-cols-2 gap-4">
             <div className="col-span-2 overflow-hidden rounded-2xl bg-brand-line">
               <img
