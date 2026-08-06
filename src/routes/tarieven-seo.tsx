@@ -14,7 +14,11 @@ const FAQ: Faq[] = [
   },
   {
     q: "Wat als het niet werkt?",
-    a: "We spreken vooraf af welke resultaten we nastreven en meten die maandelijks. Blijven die uit, dan sturen we bij zonder extra kosten. Wat we niet doen: posities garanderen — dat kan niemand eerlijk waarmaken.",
+    a: "We spreken vooraf af welke resultaten we nastreven en meten die maandelijks. Blijven die uit, dan sturen we bij zonder extra kosten en werken we net zo lang door tot je wél meetbaar resultaat boekt.",
+  },
+  {
+    q: "Werken jullie ook op uurbasis?",
+    a: "Ja, voor losse werkzaamheden buiten een vast pakket hanteren we een uurtarief van € 90,-. Dat spreken we altijd vooraf af, zodat je nooit voor verrassingen komt te staan.",
   },
 ];
 
@@ -126,7 +130,7 @@ function Tarieven() {
           ))}
         </div>
         <p className="mt-8 text-sm text-brand-muted">
-          Alle bedragen zijn exclusief btw. Vanaf € 999,- per maand combineren we SEO, GEO, Ads en CRO. Je kunt kiezen uit diverse diensten voor dit bedrag.
+          Alle bedragen zijn exclusief btw. Vanaf € 999,- per maand combineren we SEO, GEO, Ads en CRO — je kiest zelf uit diverse diensten. Los maatwerk factureren we tegen € 90,- per uur. Werken we samen? Dan gaan we net zo lang door tot je meetbaar resultaat boekt.
         </p>
       </Section>
       <FaqBlock items={FAQ} title="Over onze tarieven" />

@@ -1,7 +1,9 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowRight, Check } from "lucide-react";
 import { SiteLayout } from "./site-chrome";
-import { CtaBand, PageHero, Section, SectionHeading } from "./page-bits";
+import { CtaBand, Faq, FaqBlock, PageHero, Section, SectionHeading, faqJsonLd } from "./page-bits";
+
+export type SupportPageSection = { title: string; body: string };
 
 export function SupportPage({
   eyebrow,
@@ -11,6 +13,8 @@ export function SupportPage({
   pillar,
   pillarTo,
   pillarNote,
+  sections,
+  faq,
 }: {
   eyebrow: string;
   title: string;
@@ -19,6 +23,8 @@ export function SupportPage({
   pillar: string;
   pillarTo: string;
   pillarNote: string;
+  sections?: SupportPageSection[];
+  faq?: Faq[];
 }) {
   return (
     <SiteLayout>
@@ -47,6 +53,19 @@ export function SupportPage({
           </div>
         </div>
       </Section>
+      {sections && sections.length > 0 && (
+        <Section className="border-t border-brand-line bg-white">
+          <div className="grid gap-10 md:grid-cols-2">
+            {sections.map((s) => (
+              <div key={s.title}>
+                <h3 className="text-lg font-semibold tracking-tight">{s.title}</h3>
+                <p className="mt-3 text-sm leading-relaxed text-brand-muted">{s.body}</p>
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
+      {faq && faq.length > 0 && <FaqBlock items={faq} />}
       <CtaBand />
     </SiteLayout>
   );

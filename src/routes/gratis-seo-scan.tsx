@@ -53,8 +53,9 @@ function ScanPage() {
               Hoe zichtbaar ben je in Google én in AI?
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-brand-muted">
-              Vul je website en e-mailadres in. Binnen twee werkdagen krijg je een persoonlijke
-              video-analyse van je vindbaarheid, met de drie ingrepen die bij jou het meeste opleveren.
+              Kom binnen 30 dagen hoger in Google, behaal binnen 9 maanden topposities en verhoog je
+              online rendement. Start vandaag onze 100% gratis en vrijblijvende websitescan — je
+              verbindt je aan niets.
             </p>
             <ul className="mt-8 space-y-3 text-sm text-brand-muted">
               {[

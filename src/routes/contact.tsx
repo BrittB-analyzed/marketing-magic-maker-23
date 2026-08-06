@@ -8,13 +8,13 @@ import portretStoer from "@/assets/photos/portret-stoer.jpg.asset.json";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — even sparren over je vindbaarheid | B. Analyzed" },
+      { title: "Contact — zullen we samen online groeien? | B. Analyzed" },
       {
         name: "description",
         content:
           "Neem contact op met B. Analyzed. Bel, WhatsApp of vraag een persoonlijk adviesgesprek aan over SEO, GEO, Ads en CRO voor jouw bedrijf.",
       },
-      { property: "og:title", content: "Contact — even sparren over je vindbaarheid" },
+      { property: "og:title", content: "Contact — zullen we samen online groeien?" },
       { property: "og:description", content: "Bel, WhatsApp of plan een persoonlijk adviesgesprek." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -34,8 +34,10 @@ function Contact() {
               Even sparren? Dat kost je niets.
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-brand-muted">
-              Vertel wat er nu niet loopt. We denken vrijblijvend mee en zeggen het eerlijk als we
-              niet de juiste partij zijn.
+              Heb je korte- of langetermijnambities op het gebied van online marketing, of een
+              eenmalig project dat je wilt uitbesteden? Deel je wensen en we bekijken samen wat we
+              kunnen doen: een sympathiek eigenwijze insteek, transparante werkwijze en mooie
+              resultaten.
             </p>
             <div className="mt-10 overflow-hidden rounded-2xl bg-brand-line">
               <img
@@ -60,7 +62,7 @@ function Contact() {
             <div className="mt-6 rounded-2xl border border-brand-line bg-brand-sand p-6 text-sm leading-relaxed text-brand-muted">
               <p className="font-semibold text-brand-ink">B. Analyzed Marketing</p>
               <p className="mt-2">
-                Venlo, Limburg — actief in heel Nederland en België
+                Dorperheideweg 34, 5944NK Arcen, Nederland
                 <br />
                 KVK 61944351 · BTW NL001846301B46
               </p>

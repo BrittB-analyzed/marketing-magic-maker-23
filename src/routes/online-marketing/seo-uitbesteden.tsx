@@ -66,7 +66,7 @@ export const Route = createFileRoute("/online-marketing/seo-uitbesteden")({
           { title: "Uitvoering", body: "Techniek eerst, dan content, dan autoriteit. Alles zichtbaar in je dashboard." },
           { title: "Optimalisatie", body: "Maandelijks bijsturen op basis van wat de data laat zien." },
         ]}
-        connection="SEO en GEO gebruiken dezelfde fundering: sterke content en schone techniek. Ads levert binnen weken de zoektermdata waarmee we de SEO-strategie scherper maken, en CRO zorgt dat het organische verkeer dat binnenkomt ook echt aanvragen wordt."
+        connection="Meer dan 90% van de klikken gaat naar pagina 1 van Google, en zo'n 60% daarvan naar de top 3. SEO en GEO gebruiken dezelfde fundering: sterke content en schone techniek. Ads levert binnen weken de zoektermdata waarmee we de SEO-strategie scherper maken, en CRO zorgt dat het organische verkeer dat binnenkomt ook echt aanvragen wordt."
         price={{ from: "Vanaf € 999,- per maand", note: "Losse uitgebreide audit met concrete actiepunten vanaf € 599,-. Altijd een vaste prijs vooraf." }}
         faq={FAQ}
       />
