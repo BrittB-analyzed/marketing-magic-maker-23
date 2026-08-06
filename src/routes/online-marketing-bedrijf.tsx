@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/site/site-chrome";
+import { Check } from "lucide-react";
 import { CtaBand, PageHero, Section, SectionHeading } from "@/components/site/page-bits";
 import portretFounder from "@/assets/photos/portret-founder.jpg.asset.json";
 import portretBuiten from "@/assets/photos/portret-buiten.jpg.asset.json";
@@ -76,7 +77,7 @@ function OverOns() {
             <div className="overflow-hidden rounded-2xl bg-brand-line">
               <img
                 src={portretFounder.url}
-                alt="Sanne — oprichter van B. Analyzed"
+                alt="Britt Daemen — oprichter van B. Analyzed"
                 className="h-64 w-full object-cover"
                 loading="lazy"
                 decoding="async"
@@ -92,6 +93,27 @@ function OverOns() {
               />
             </div>
           </div>
+        </div>
+      </Section>
+      <Section className="border-t border-brand-line bg-white">
+        <SectionHeading eyebrow="Onze voordelen" title="Waarom bedrijven voor B. Analyzed kiezen" intro="Wij hanteren een transparante en persoonlijke werkwijze. Resultaatgericht werken staat hierin voorop!" />
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            ["12 jaar ervaring", "B. Analyzed bestaat al meer dan 12 jaar op het gebied van online marketing — daar zijn we trots op."],
+            ["Transparante werkwijze", "Alles wat we doen laten we zien via Loom-video's, zodat je precies weet wat er gebeurt."],
+            ["Aantoonbare resultaten", "Met tools en screenshots van website statistieken laten we onze cases zien waar we trots op zijn."],
+            ["Gegarandeerde top 10 posities", "In Google. Alleen de eerste pagina telt en dat weten wij als geen ander."],
+            ["Trouwe opdrachtgevers", "Klanten waar wij al jaren voor werken — het bewijs dat wat we doen, we goed doen."],
+            ["Verbeterd ROI", "Dat is waar het uiteindelijk om draait. Dit presenteren wij graag."],
+          ].map(([t, d]) => (
+            <div key={t} className="rounded-2xl border border-brand-line bg-brand-canvas p-6">
+              <span className="flex size-8 items-center justify-center rounded-full bg-brand-green/15 text-brand-green">
+                <Check className="size-4" strokeWidth={3} />
+              </span>
+              <h3 className="mt-4 text-base font-semibold text-brand-ink">{t}</h3>
+              <p className="mt-1.5 text-sm leading-relaxed text-brand-muted">{d}</p>
+            </div>
+          ))}
         </div>
       </Section>
       <CtaBand />
