@@ -5,12 +5,16 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-brand-red: #e3242b;
-  --color-brand-red-soft: #fef2f2;
-  --color-brand-green: #22c55e;
-  --color-brand-green-soft: #f0fdf4;
-  --color-brand-ink: #1a1a1a;
-  --color-brand-star: #f5a524;
+  --color-brand-red: #ca1434;
+  --color-brand-red-soft: #fdf3f4;
+  --color-brand-green: #15803d;
+  --color-brand-green-soft: #f2f9f4;
+  --color-brand-ink: #14181f;
+  --color-brand-muted: #5b6472;
+  --color-brand-line: #e6e4df;
+  --color-brand-canvas: #faf9f6;
+  --color-brand-sand: #f2f0ea;
+  --color-brand-star: #e0a52a;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }

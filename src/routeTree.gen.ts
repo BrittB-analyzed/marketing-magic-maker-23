@@ -9,38 +9,90 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SeoVoorMkbRouteImport } from './routes/seo-voor-mkb'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as OnlineMarketingSeoUitbestedenRouteImport } from './routes/online-marketing/seo-uitbesteden'
+import { Route as OnlineMarketingGeoOptimalisatieRouteImport } from './routes/online-marketing/geo-optimalisatie'
 
+const SeoVoorMkbRoute = SeoVoorMkbRouteImport.update({
+  id: '/seo-voor-mkb',
+  path: '/seo-voor-mkb',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const OnlineMarketingSeoUitbestedenRoute =
+  OnlineMarketingSeoUitbestedenRouteImport.update({
+    id: '/online-marketing/seo-uitbesteden',
+    path: '/online-marketing/seo-uitbesteden',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingGeoOptimalisatieRoute =
+  OnlineMarketingGeoOptimalisatieRouteImport.update({
+    id: '/online-marketing/geo-optimalisatie',
+    path: '/online-marketing/geo-optimalisatie',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/seo-voor-mkb': typeof SeoVoorMkbRoute
+  '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
+  '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/seo-voor-mkb': typeof SeoVoorMkbRoute
+  '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
+  '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/seo-voor-mkb': typeof SeoVoorMkbRoute
+  '/online-marketing/geo-optimalisatie': typeof OnlineMarketingGeoOptimalisatieRoute
+  '/online-marketing/seo-uitbesteden': typeof OnlineMarketingSeoUitbestedenRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/seo-voor-mkb'
+    | '/online-marketing/geo-optimalisatie'
+    | '/online-marketing/seo-uitbesteden'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/seo-voor-mkb'
+    | '/online-marketing/geo-optimalisatie'
+    | '/online-marketing/seo-uitbesteden'
+  id:
+    | '__root__'
+    | '/'
+    | '/seo-voor-mkb'
+    | '/online-marketing/geo-optimalisatie'
+    | '/online-marketing/seo-uitbesteden'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  SeoVoorMkbRoute: typeof SeoVoorMkbRoute
+  OnlineMarketingGeoOptimalisatieRoute: typeof OnlineMarketingGeoOptimalisatieRoute
+  OnlineMarketingSeoUitbestedenRoute: typeof OnlineMarketingSeoUitbestedenRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/seo-voor-mkb': {
+      id: '/seo-voor-mkb'
+      path: '/seo-voor-mkb'
+      fullPath: '/seo-voor-mkb'
+      preLoaderRoute: typeof SeoVoorMkbRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -48,22 +100,29 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/online-marketing/seo-uitbesteden': {
+      id: '/online-marketing/seo-uitbesteden'
+      path: '/online-marketing/seo-uitbesteden'
+      fullPath: '/online-marketing/seo-uitbesteden'
+      preLoaderRoute: typeof OnlineMarketingSeoUitbestedenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/geo-optimalisatie': {
+      id: '/online-marketing/geo-optimalisatie'
+      path: '/online-marketing/geo-optimalisatie'
+      fullPath: '/online-marketing/geo-optimalisatie'
+      preLoaderRoute: typeof OnlineMarketingGeoOptimalisatieRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  SeoVoorMkbRoute: SeoVoorMkbRoute,
+  OnlineMarketingGeoOptimalisatieRoute: OnlineMarketingGeoOptimalisatieRoute,
+  OnlineMarketingSeoUitbestedenRoute: OnlineMarketingSeoUitbestedenRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}
