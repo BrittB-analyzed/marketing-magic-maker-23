@@ -280,6 +280,23 @@ export function Header() {
                   ))}
                 </div>
               </li>
+              <li className="border-b border-brand-line py-3">
+                <p className="text-[11px] font-semibold uppercase tracking-wide text-brand-muted">
+                  Over ons
+                </p>
+                <div className="mt-2 grid gap-2">
+                  {ABOUT_LINKS.map((l) => (
+                    <Link
+                      key={l.to}
+                      to={l.to}
+                      onClick={() => setOpen(false)}
+                      className="text-sm text-brand-muted"
+                    >
+                      {l.label}
+                    </Link>
+                  ))}
+                </div>
+              </li>
               {NAV.map((item) => (
                 <li key={item.to}>
                   <Link
