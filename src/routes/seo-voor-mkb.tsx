@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
+import { FormPortrait } from "@/components/site/lead-form";
 import {
   ArrowRight,
   Check,
@@ -204,15 +205,19 @@ function HeroForm() {
   return (
     <div id="hero-form" className="relative">
       <div className="rounded-2xl bg-white p-7 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.15)] ring-1 ring-zinc-200/70 md:p-8">
-        <div className="mb-1 text-xs font-semibold uppercase tracking-wider text-brand-red">
-          Gratis &amp; vrijblijvend
-        </div>
-        <h2 className="mb-2 text-2xl font-bold leading-tight text-brand-ink">
-          Vraag je gratis SEO &amp; GEO-scan aan
-        </h2>
-        <p className="mb-6 text-sm text-zinc-500">
-          Binnen 24 uur ontvang je een persoonlijke SEO &amp; GEO-analyse inclusief AI-visibility check.
-        </p>
+        <FormPortrait>
+          <div className="mb-1 text-xs font-semibold uppercase tracking-wider text-brand-red">
+            Gratis &amp; vrijblijvend
+          </div>
+          <h2 className="mb-2 text-2xl font-bold leading-tight text-brand-ink">
+            Vraag je gratis SEO &amp; GEO-scan aan
+          </h2>
+          <p className="text-sm text-zinc-500">
+            Binnen 24 uur ontvang je een persoonlijke SEO &amp; GEO-analyse van Britt, inclusief
+            AI-visibility check.
+          </p>
+        </FormPortrait>
+        <div className="mb-6" />
         <form onSubmit={(e) => e.preventDefault()} className="space-y-3">
           <div className="grid grid-cols-2 gap-3">
             <Field label="Voornaam" placeholder="Jan" />
