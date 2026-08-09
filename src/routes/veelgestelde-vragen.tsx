@@ -4,7 +4,7 @@ import { CtaBand, Faq, FaqBlock, PageHero, faqJsonLd } from "@/components/site/p
 
 const FAQ: Faq[] = [
   { q: "Waarom online marketing?", a: "In een wereld die constant in beweging is, speelt online marketing een steeds grotere rol. Een goede online marketingcampagne kan al voor een laag tarief een meetbaar effect en groot bereik hebben. Wij denken in de breedste zin mee aan het behalen van online resultaat." },
-  { q: "Wat is B. Analyzed?", a: "B. Analyzed is een online marketing bureau dat online resultaten boekt. Online marketing is onze passie: met +12 jaar werkervaring runnen wij met een team van freelancers wereldwijd B. Analyzed marketing." },
+  { q: "Wat is B. Analyzed?", a: "B. Analyzed is een online marketing bureau dat online resultaten boekt. Online marketing is onze passie: met +15 jaar werkervaring runnen wij met een team van freelancers wereldwijd B. Analyzed marketing." },
   { q: "Hoe werkt B. Analyzed?", a: "We starten met een kennismakingsgesprek zodat we jouw wensen en doelen goed in kaart brengen. Zonder dat inzicht kunnen we geen kwalitatieve oplossing aanbieden." },
   { q: "Voor wie is B. Analyzed?", a: "B. Analyzed is er voor iedereen die online zichtbaar wil zijn en meer uit een webshop of website wil halen — van ZZP'er tot multinational." },
   { q: "Wat kunnen jullie voor mij doen?", a: "B. Analyzed is een one-stop, fullservice internet marketingbureau dat ieder bedrijf van A tot Z ontzorgt: SEO, GEO, Google Ads, linkbuilding, social media en meer, in een strategie op maat." },

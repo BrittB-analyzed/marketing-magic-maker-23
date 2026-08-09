@@ -16,7 +16,7 @@ export const Route = createFileRoute("/online-marketing-bedrijf")({
       {
         name: "description",
         content:
-          "B. Analyzed is in 2014 gestart door Britt Daemen en is uitgegroeid tot een fullservice online marketingbureau met freelancers wereldwijd. 12+ jaar ervaring in SEO, GEO, Ads en meer.",
+          "B. Analyzed is in 2014 gestart door Britt Daemen en is uitgegroeid tot een fullservice online marketingbureau met freelancers wereldwijd. 15 jaar ervaring in SEO, GEO, Ads en meer.",
       },
       { property: "og:title", content: "Hey hallo, wij zijn een online marketing bedrijf" },
       { property: "og:description", content: "Remote team van online vakidioten. Transparant, persoonlijk en gericht op meetbaar resultaat." },
@@ -104,7 +104,7 @@ function OverOns() {
         <SectionHeading eyebrow="Onze voordelen" title="Waarom bedrijven voor B. Analyzed kiezen" intro="Wij hanteren een transparante en persoonlijke werkwijze. Resultaatgericht werken staat hierin voorop!" />
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            ["12 jaar ervaring", "B. Analyzed bestaat al meer dan 12 jaar op het gebied van online marketing — daar zijn we trots op."],
+            ["15 jaar ervaring", "B. Analyzed bestaat al meer dan 15 jaar op het gebied van online marketing — daar zijn we trots op."],
             ["Transparante werkwijze", "Alles wat we doen laten we zien via Loom-video's, zodat je precies weet wat er gebeurt."],
             ["Aantoonbare resultaten", "Met tools en screenshots van website statistieken laten we onze cases zien waar we trots op zijn."],
             ["Gegarandeerde top 10 posities", "In Google. Alleen de eerste pagina telt en dat weten wij als geen ander."],

@@ -160,7 +160,7 @@ function Hero() {
             </h1>
             <p className="mb-8 max-w-[52ch] text-pretty text-lg leading-relaxed text-zinc-600">
               B. Analyzed brengt MKB-bedrijven op pagina 1 van Google én in AI-zoekmachines
-              met een data-gedreven SEO &amp; GEO-aanpak. 12+ jaar ervaring, 150+ klanten, 9.8/10 beoordeeld.
+              met een data-gedreven SEO &amp; GEO-aanpak. 15 jaar ervaring, 150+ klanten, 9.8/10 beoordeeld.
             </p>
             <ul className="mb-10 space-y-3">
               {[
