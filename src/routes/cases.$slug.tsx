@@ -60,14 +60,14 @@ function CaseDetail() {
               {study.blocks.map((b: CaseBlock, i: number) => (
                 <div key={i}>
                   {b.h && <h2 className="text-2xl font-semibold tracking-tight">{b.h}</h2>}
-                  {b.ps?.map((p) => (
+                  {b.ps?.map((p: string) => (
                     <p key={p} className="mt-3 text-base leading-relaxed text-brand-muted">
                       {p}
                     </p>
                   ))}
                   {b.bullets && (
                     <ul className="mt-4 space-y-2">
-                      {b.bullets.map((li) => (
+                      {b.bullets.map((li: string) => (
                         <li key={li} className="flex gap-2 text-base leading-relaxed text-brand-muted">
                           <Check className="mt-1 size-4 shrink-0 text-brand-green" /> {li}
                         </li>
@@ -89,7 +89,7 @@ function CaseDetail() {
             <div className="mt-12 rounded-2xl border border-brand-line bg-brand-sand p-8">
               <h2 className="text-xl font-semibold tracking-tight">Samengevat</h2>
               <ul className="mt-4 space-y-2">
-                {study.summary.map((s) => (
+                {study.summary.map((s: string) => (
                   <li key={s} className="flex gap-2 text-sm leading-relaxed">
                     <Check className="mt-0.5 size-4 shrink-0 text-brand-green" /> {s}
                   </li>
@@ -106,7 +106,7 @@ function CaseDetail() {
             <div className="rounded-2xl border border-brand-line bg-white p-8">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-muted">Resultaten</p>
               <dl className="mt-4 space-y-4">
-                {study.highlights.map((h) => (
+                {study.highlights.map((h: { label: string; value: string }) => (
                   <div key={h.label}>
                     <dt className="text-xs uppercase tracking-[0.16em] text-brand-muted">{h.label}</dt>
                     <dd className="text-2xl font-semibold text-brand-red">{h.value}</dd>
