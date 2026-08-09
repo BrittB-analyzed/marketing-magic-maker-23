@@ -178,7 +178,7 @@ const BIG_STATS = [
   { value: "386", label: "nummer 1-posities behaald voor klanten in Google" },
   { value: "+25", label: "SEO-opdrachtgevers met minimaal 150% organische groei in 1 jaar" },
   { value: "+50", label: "tevreden SEO-klanten met minimaal 300% groei in organisch verkeer" },
-  { value: "12+", label: "jaar ervaring in SEO, GEO, Ads en conversie-optimalisatie" },
+  { value: "15", label: "jaar ervaring in SEO, GEO, Ads en conversie-optimalisatie" },
 ];
 
 function BigStats() {
@@ -206,7 +206,7 @@ function BigStats() {
 const RESULT_CARDS = [
   { label: "Nummer 1-posities", value: "386", note: "Behaald in Google voor onze klanten", wide: true },
   { label: "Linkbuilding netwerk", value: "2.500+", note: null, wide: false },
-  { label: "Jaar ervaring", value: "12+", note: null, wide: false, accent: true },
+  { label: "Jaar ervaring", value: "15", note: null, wide: false, accent: true },
 ];
 
 function ResultCards() {
@@ -546,7 +546,7 @@ function PersonalTouch() {
           </div>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {[
-              ["12+ jaar ervaring", "Sinds 2014 actief als online marketingbureau."],
+              ["15 jaar ervaring", "Sinds 2014 actief als online marketingbureau."],
               ["Transparante werkwijze", "Alles laten we zien via Loom-video's."],
               ["Gegarandeerde top 10", "Alleen de eerste pagina van Google telt."],
               ["Trouwe opdrachtgevers", "Klanten waar we al jaren voor werken."],
