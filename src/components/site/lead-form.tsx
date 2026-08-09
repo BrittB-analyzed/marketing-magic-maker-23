@@ -12,11 +12,11 @@ export function FormPortrait({ children }: { children: React.ReactNode }) {
       <img
         src={brittPortret.url}
         alt="Britt Daemen, je vaste specialist bij B. Analyzed"
-        width={112}
-        height={112}
+        width={128}
+        height={128}
         loading="lazy"
         decoding="async"
-        className="size-14 shrink-0 rounded-full object-cover ring-2 ring-brand-green/25"
+        className="size-16 shrink-0 rounded-full object-cover ring-2 ring-brand-green/25"
       />
       <div>{children}</div>
     </div>
