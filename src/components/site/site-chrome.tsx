@@ -89,6 +89,7 @@ const ABOUT_LINKS = [
 export function Header() {
   const [open, setOpen] = useState(false);
   const [services, setServices] = useState(false);
+  const [about, setAbout] = useState(false);
 
   return (
     <>
