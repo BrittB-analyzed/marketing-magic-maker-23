@@ -173,9 +173,20 @@ export const TERMS_BLOCKS: TextBlock[] = [
 ];
 
 export const PRIVACY_INTRO =
-  "Je privacy is voor ons van groot belang. Wij houden ons dan ook aan de privacywet. Dit betekent dat wij: • Onze doeleinden duidelijk vastleggen voordat wij je persoonlijke gegevens verwerken, via het privacybeleid; • Zo min mogelijk persoonlijke gegevens opslaan en enkel de gegevens die nodig zijn voor onze doeleinden; • Expliciet toestemming vragen voor de verwerking van je persoonlijke gegevens, mocht toestemming verplicht zijn; • Benodigde beveiligingsmaatregelen treffen om je persoonlijke gegevens te beschermen. • Je rechten respecteren, zoals het recht op toegang, correctie of verwijdering van jouw bij ons verwerkte persoonsgegevens. Je gegevens zijn veilig bij ons en wij zullen deze gegevens altijd netjes gebruiken. In het privacybeleid leggen we uit wat we allemaal doen met informatie die we over je te weten komen. Als je vragen hebt, of wilt weten wat we precies van jou bijhouden, neem dan contact met ons op. Wanneer onze website wijzigt, moeten wij natuurlijk ook het privacybeleid aanpassen. Let dus altijd op de datum hierboven en kijk regelmatig of er nieuwe versies zijn.";
+  "Je privacy is voor ons van groot belang. Wij houden ons dan ook aan de privacywet.";
 
 export const PRIVACY_BLOCKS: TextBlock[] = [
+  {
+    h: "Waar wij ons aan houden",
+    p: [
+      "• Onze doeleinden duidelijk vastleggen voordat wij je persoonlijke gegevens verwerken, via het privacybeleid;",
+      "• Zo min mogelijk persoonlijke gegevens opslaan en enkel de gegevens die nodig zijn voor onze doeleinden;",
+      "• Expliciet toestemming vragen voor de verwerking van je persoonlijke gegevens, mocht toestemming verplicht zijn;",
+      "• Benodigde beveiligingsmaatregelen treffen om je persoonlijke gegevens te beschermen.",
+      "• Je rechten respecteren, zoals het recht op toegang, correctie of verwijdering van jouw bij ons verwerkte persoonsgegevens.",
+      "Je gegevens zijn veilig bij ons en wij zullen deze gegevens altijd netjes gebruiken. In het privacybeleid leggen we uit wat we allemaal doen met informatie die we over je te weten komen. Als je vragen hebt, of wilt weten wat we precies van jou bijhouden, neem dan contact met ons op. Wanneer onze website wijzigt, moeten wij natuurlijk ook het privacybeleid aanpassen. Let dus altijd op de datum hierboven en kijk regelmatig of er nieuwe versies zijn.",
+    ],
+  },
   {
     h: "Formulieren",
     p: [
