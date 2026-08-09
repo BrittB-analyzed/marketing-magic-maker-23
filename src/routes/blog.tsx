@@ -36,14 +36,24 @@ function Blog() {
               key={p.slug}
               to="/$slug/"
               params={{ slug: p.slug }}
-              className="flex flex-col rounded-2xl border border-brand-line bg-white p-6 transition-colors hover:border-brand-ink"
+              className="flex flex-col overflow-hidden rounded-2xl border border-brand-line bg-white transition-colors hover:border-brand-ink"
             >
+              {p.image && (
+                <img
+                  src={p.image}
+                  alt={p.imageAlt ?? p.title}
+                  loading="lazy"
+                  className="aspect-[16/10] w-full object-cover"
+                />
+              )}
+              <div className="flex flex-1 flex-col p-6">
               <span className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">{p.tag}</span>
               <h2 className="mt-3 text-lg font-semibold leading-snug">{p.title}</h2>
               <p className="mt-2 flex-1 text-sm leading-relaxed text-brand-muted">{p.excerpt}</p>
               <time className="mt-4 text-xs text-brand-muted" dateTime={p.date}>
                 {new Date(p.date).toLocaleDateString("nl-NL", { day: "numeric", month: "long", year: "numeric" })}
               </time>
+              </div>
             </Link>
           ))}
         </div>

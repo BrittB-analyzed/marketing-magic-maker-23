@@ -423,6 +423,7 @@ function Proof() {
       <div className="mt-12 grid gap-6 lg:grid-cols-2">
         {[
           {
+            slug: "6600x-meubel-outlet-nummer-1-in-google",
             tag: "Meubel & Outlet Weert",
             title: "6.600x per maand gezocht op 'meubel outlet' en nummer 1 in Google",
             start: "De website werd nauwelijks gevonden, minder dan 500 organische bezoekers per maand.",
@@ -430,6 +431,7 @@ function Proof() {
             result: "+680% organisch verkeer naar bijna 5.500 bezoekers/maand en positie 1 op 'meubel outlet'.",
           },
           {
+            slug: "meer-omzet-sleep-factory-bv",
             tag: "Sleep Factory BV",
             title: "800% groei in het aantal online transacties",
             start: "Beperkt organisch en betaald verkeer voor de boxspring-webshop.",
@@ -437,7 +439,12 @@ function Proof() {
             result: "800% meer online transacties in 1,5 jaar, top 5-posities en 3.000+ bezoekers per maand.",
           },
         ].map((c) => (
-          <article key={c.title} className="rounded-2xl border border-brand-line bg-white p-8">
+          <Link
+            key={c.title}
+            to="/cases/$slug/"
+            params={{ slug: c.slug }}
+            className="block rounded-2xl border border-brand-line bg-white p-8 transition-colors hover:border-brand-ink"
+          >
             <span className="rounded-full bg-brand-sand px-3 py-1 text-xs font-semibold text-brand-muted">
               {c.tag}
             </span>
@@ -455,9 +462,9 @@ function Proof() {
               ))}
             </dl>
             <p className="mt-6 text-xs text-brand-muted">
-              Exacte cijfers en dashboardbeelden delen we in het adviesgesprek.
+              Lees de volledige case met alle cijfers en grafieken →
             </p>
-          </article>
+          </Link>
         ))}
       </div>
       <Link

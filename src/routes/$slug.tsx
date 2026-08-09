@@ -52,6 +52,14 @@ function Article() {
       <Section>
         <div className="grid gap-12 lg:grid-cols-[1.3fr_0.7fr]">
           <article className="space-y-8">
+            {post.image && (
+              <img
+                src={post.image}
+                alt={post.imageAlt ?? post.title}
+                loading="lazy"
+                className="aspect-[16/9] w-full rounded-2xl border border-brand-line object-cover"
+              />
+            )}
             {post.sections.map((s: PostSection) => (
               <div key={s.h}>
                 <h2 className="text-2xl font-semibold tracking-tight">{s.h}</h2>
