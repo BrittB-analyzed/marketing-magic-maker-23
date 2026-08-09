@@ -73,6 +73,7 @@ import { Route as OnlineMarketingEmailmarketingRouteImport } from './routes/onli
 import { Route as OnlineMarketingDisplayAdvertisementRouteImport } from './routes/online-marketing/display-advertisement'
 import { Route as OnlineMarketingConversieOptimalisatieRouteImport } from './routes/online-marketing/conversie-optimalisatie'
 import { Route as KennisbankGeoRouteImport } from './routes/kennisbank.geo'
+import { Route as CasesSlugRouteImport } from './routes/cases.$slug'
 
 const ZoekenRoute = ZoekenRouteImport.update({
   id: '/zoeken',
@@ -413,6 +414,11 @@ const KennisbankGeoRoute = KennisbankGeoRouteImport.update({
   path: '/kennisbank/geo',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CasesSlugRoute = CasesSlugRouteImport.update({
+  id: '/cases/$slug',
+  path: '/cases/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -462,6 +468,7 @@ export interface FileRoutesByFullPath {
   '/tarieven-social-media': typeof TarievenSocialMediaRoute
   '/veelgestelde-vragen': typeof VeelgesteldeVragenRoute
   '/zoeken': typeof ZoekenRoute
+  '/cases/$slug': typeof CasesSlugRoute
   '/kennisbank/geo': typeof KennisbankGeoRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
   '/online-marketing/display-advertisement': typeof OnlineMarketingDisplayAdvertisementRoute
@@ -528,6 +535,7 @@ export interface FileRoutesByTo {
   '/tarieven-social-media': typeof TarievenSocialMediaRoute
   '/veelgestelde-vragen': typeof VeelgesteldeVragenRoute
   '/zoeken': typeof ZoekenRoute
+  '/cases/$slug': typeof CasesSlugRoute
   '/kennisbank/geo': typeof KennisbankGeoRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
   '/online-marketing/display-advertisement': typeof OnlineMarketingDisplayAdvertisementRoute
@@ -595,6 +603,7 @@ export interface FileRoutesById {
   '/tarieven-social-media': typeof TarievenSocialMediaRoute
   '/veelgestelde-vragen': typeof VeelgesteldeVragenRoute
   '/zoeken': typeof ZoekenRoute
+  '/cases/$slug': typeof CasesSlugRoute
   '/kennisbank/geo': typeof KennisbankGeoRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
   '/online-marketing/display-advertisement': typeof OnlineMarketingDisplayAdvertisementRoute
@@ -663,6 +672,7 @@ export interface FileRouteTypes {
     | '/tarieven-social-media'
     | '/veelgestelde-vragen'
     | '/zoeken'
+    | '/cases/$slug'
     | '/kennisbank/geo'
     | '/online-marketing/conversie-optimalisatie'
     | '/online-marketing/display-advertisement'
@@ -729,6 +739,7 @@ export interface FileRouteTypes {
     | '/tarieven-social-media'
     | '/veelgestelde-vragen'
     | '/zoeken'
+    | '/cases/$slug'
     | '/kennisbank/geo'
     | '/online-marketing/conversie-optimalisatie'
     | '/online-marketing/display-advertisement'
@@ -795,6 +806,7 @@ export interface FileRouteTypes {
     | '/tarieven-social-media'
     | '/veelgestelde-vragen'
     | '/zoeken'
+    | '/cases/$slug'
     | '/kennisbank/geo'
     | '/online-marketing/conversie-optimalisatie'
     | '/online-marketing/display-advertisement'
@@ -862,6 +874,7 @@ export interface RootRouteChildren {
   TarievenSocialMediaRoute: typeof TarievenSocialMediaRoute
   VeelgesteldeVragenRoute: typeof VeelgesteldeVragenRoute
   ZoekenRoute: typeof ZoekenRoute
+  CasesSlugRoute: typeof CasesSlugRoute
   KennisbankGeoRoute: typeof KennisbankGeoRoute
   OnlineMarketingConversieOptimalisatieRoute: typeof OnlineMarketingConversieOptimalisatieRoute
   OnlineMarketingDisplayAdvertisementRoute: typeof OnlineMarketingDisplayAdvertisementRoute
@@ -1331,6 +1344,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KennisbankGeoRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/cases/$slug': {
+      id: '/cases/$slug'
+      path: '/cases/$slug'
+      fullPath: '/cases/$slug'
+      preLoaderRoute: typeof CasesSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -1384,6 +1404,7 @@ const rootRouteChildren: RootRouteChildren = {
   TarievenSocialMediaRoute: TarievenSocialMediaRoute,
   VeelgesteldeVragenRoute: VeelgesteldeVragenRoute,
   ZoekenRoute: ZoekenRoute,
+  CasesSlugRoute: CasesSlugRoute,
   KennisbankGeoRoute: KennisbankGeoRoute,
   OnlineMarketingConversieOptimalisatieRoute:
     OnlineMarketingConversieOptimalisatieRoute,
@@ -1413,13 +1434,3 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}
