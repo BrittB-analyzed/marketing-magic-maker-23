@@ -4,6 +4,7 @@ import { SiteLayout } from "@/components/site/site-chrome";
 import { Check } from "lucide-react";
 import { CtaBand, PageHero, Section, SectionHeading } from "@/components/site/page-bits";
 import { ReviewsSection } from "@/components/site/reviews";
+import { FounderCard } from "@/components/site/founder-card";
 import portretFounder from "@/assets/photos/portret-founder.jpg.asset.json";
 import portretBuiten from "@/assets/photos/portret-buiten.jpg.asset.json";
 import portretZittend from "@/assets/photos/portret-zittend.jpg.asset.json";
@@ -34,6 +35,9 @@ function OverOns() {
         title="Hey hallo, wij zijn een online marketing bedrijf"
         intro="Maar dan anders. Ons team bestaat uit online vakidioten die blij worden van de digitale wereld en work from anywhere — B. Analyzed runt het bedrijf volledig remote, wereldwijd."
       />
+      <Section className="bg-brand-canvas">
+        <FounderCard />
+      </Section>
       <Section>
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
