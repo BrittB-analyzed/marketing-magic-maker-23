@@ -77,14 +77,19 @@ const SUPPORT_LINKS = [
 ];
 
 const NAV = [
-  { label: "Over ons", to: "/online-marketing-bedrijf/" },
   { label: "Cases", to: "/online-marketing-cases/" },
   { label: "Tarieven", to: "/tarieven-seo/" },
+];
+
+const ABOUT_LINKS = [
+  { label: "Over ons", to: "/online-marketing-bedrijf/" },
+  { label: "Klantwaarderingen", to: "/klantwaarderingen/" },
 ];
 
 export function Header() {
   const [open, setOpen] = useState(false);
   const [services, setServices] = useState(false);
+  const [about, setAbout] = useState(false);
 
   return (
     <>
@@ -163,6 +168,38 @@ export function Header() {
                 </div>
               )}
             </li>
+            <li
+              className="relative"
+              onMouseEnter={() => setAbout(true)}
+              onMouseLeave={() => setAbout(false)}
+            >
+              <button
+                type="button"
+                onClick={() => setAbout((v) => !v)}
+                aria-expanded={about}
+                className="flex items-center gap-1 py-5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
+              >
+                Over ons
+                <ChevronDown className="size-3.5" />
+              </button>
+              {about && (
+                <div className="absolute left-1/2 top-full w-56 -translate-x-1/2 rounded-2xl border border-brand-line bg-white p-4 shadow-xl">
+                  <ul className="space-y-2">
+                    {ABOUT_LINKS.map((l) => (
+                      <li key={l.to}>
+                        <Link
+                          to={l.to}
+                          onClick={() => setAbout(false)}
+                          className="block text-sm font-medium text-brand-ink hover:text-brand-red"
+                        >
+                          {l.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </li>
             {NAV.map((item) => (
               <li key={item.to}>
                 <Link
@@ -232,6 +269,23 @@ export function Header() {
                 </p>
                 <div className="mt-2 grid gap-2">
                   {[...PILLARS.map((p) => ({ label: p.name, to: p.to })), ...SUPPORT_LINKS].map((l) => (
+                    <Link
+                      key={l.to}
+                      to={l.to}
+                      onClick={() => setOpen(false)}
+                      className="text-sm text-brand-muted"
+                    >
+                      {l.label}
+                    </Link>
+                  ))}
+                </div>
+              </li>
+              <li className="border-b border-brand-line py-3">
+                <p className="text-[11px] font-semibold uppercase tracking-wide text-brand-muted">
+                  Over ons
+                </p>
+                <div className="mt-2 grid gap-2">
+                  {ABOUT_LINKS.map((l) => (
                     <Link
                       key={l.to}
                       to={l.to}
