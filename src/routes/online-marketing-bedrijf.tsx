@@ -4,6 +4,7 @@ import { SiteLayout } from "@/components/site/site-chrome";
 import { Check } from "lucide-react";
 import { CtaBand, PageHero, Section, SectionHeading } from "@/components/site/page-bits";
 import { ReviewsSection } from "@/components/site/reviews";
+import { FounderCard } from "@/components/site/founder-card";
 import portretFounder from "@/assets/photos/portret-founder.jpg.asset.json";
 import portretBuiten from "@/assets/photos/portret-buiten.jpg.asset.json";
 import portretZittend from "@/assets/photos/portret-zittend.jpg.asset.json";
