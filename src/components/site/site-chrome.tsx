@@ -365,6 +365,21 @@ export function Footer() {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link to="/algemene-voorwaarden-online-marketing/" className="hover:text-brand-ink">
+                Algemene voorwaarden
+              </Link>
+            </li>
+            <li>
+              <Link to="/privacybeleid/" className="hover:text-brand-ink">
+                Privacybeleid
+              </Link>
+            </li>
+            <li>
+              <Link to="/disclaimer/" className="hover:text-brand-ink">
+                Disclaimer
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
