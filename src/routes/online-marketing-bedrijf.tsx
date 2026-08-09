@@ -117,7 +117,12 @@ function OverOns() {
           ))}
         </div>
       </Section>
-      <ReviewsSection />
+      <ReviewsSection
+        initial={6}
+        linkToAll
+        title="Wat opdrachtgevers over ons zeggen"
+        intro="Een greep uit de 45 klantwaarderingen die we ontvingen. Klanttevredenheid staat bij ons voorop: de meeste opdrachtgevers werken al jaren met ons samen."
+      />
       <CtaBand />
     </SiteLayout>
   );
