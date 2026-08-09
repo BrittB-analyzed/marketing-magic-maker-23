@@ -77,9 +77,13 @@ const SUPPORT_LINKS = [
 ];
 
 const NAV = [
-  { label: "Over ons", to: "/online-marketing-bedrijf/" },
   { label: "Cases", to: "/online-marketing-cases/" },
   { label: "Tarieven", to: "/tarieven-seo/" },
+];
+
+const ABOUT_LINKS = [
+  { label: "Over ons", to: "/online-marketing-bedrijf/" },
+  { label: "Klantwaarderingen", to: "/klantwaarderingen/" },
 ];
 
 export function Header() {
