@@ -1,7 +1,7 @@
 import { SiteLayout } from "./site-chrome";
 import { PageHero, Section } from "./page-bits";
 
-export type TextBlock = { h: string; p: string };
+export type TextBlock = { h: string; p: string | string[] };
 
 export function TextPage({
   eyebrow,
@@ -22,7 +22,11 @@ export function TextPage({
           {blocks.map((b) => (
             <div key={b.h}>
               <h2 className="text-xl font-semibold tracking-tight">{b.h}</h2>
-              <p className="mt-2 text-sm leading-relaxed text-brand-muted">{b.p}</p>
+              <div className="mt-2 space-y-3 text-sm leading-relaxed text-brand-muted">
+                {(Array.isArray(b.p) ? b.p : [b.p]).map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
             </div>
           ))}
         </div>
