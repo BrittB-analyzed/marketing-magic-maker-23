@@ -1,9 +1,27 @@
 import { useState } from "react";
 import { ClientOnly } from "@tanstack/react-router";
 import { ArrowRight, Check, Lock } from "lucide-react";
+import brittPortret from "@/assets/photos/britt-portret.jpg.asset.json";
 
 const inputClass =
   "w-full rounded-xl border border-brand-line bg-white px-4 py-3 text-sm text-brand-ink outline-none transition-colors placeholder:text-brand-muted/70 focus:border-brand-ink";
+
+export function FormPortrait({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="flex items-start gap-4">
+      <img
+        src={brittPortret.url}
+        alt="Britt Daemen, je vaste specialist bij B. Analyzed"
+        width={112}
+        height={112}
+        loading="lazy"
+        decoding="async"
+        className="size-14 shrink-0 rounded-full object-cover ring-2 ring-brand-green/25"
+      />
+      <div>{children}</div>
+    </div>
+  );
+}
 
 /**
  * Two-step lead form. Step 1 captures the lead (URL + e-mail).
@@ -18,11 +36,13 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
           className="rounded-2xl border border-brand-line bg-white p-6 shadow-[0_1px_2px_rgba(20,24,31,0.04)] sm:p-8"
           aria-busy="true"
         >
-          <h2 className="text-xl font-semibold tracking-tight">Vraag je gratis SEO &amp; GEO-scan aan</h2>
-          <p className="mt-1 text-sm text-brand-muted">
-            Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse — geen
-            automatisch rapport.
-          </p>
+          <FormPortrait>
+            <h2 className="text-xl font-semibold tracking-tight">Vraag je gratis SEO &amp; GEO-scan aan</h2>
+            <p className="mt-1 text-sm text-brand-muted">
+              Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse van Britt —
+              geen automatisch rapport.
+            </p>
+          </FormPortrait>
           <div className="mt-4 h-10 animate-pulse rounded-xl bg-brand-sand" />
           <div className="mt-3 h-10 animate-pulse rounded-xl bg-brand-sand" />
           <div className="mt-4 h-11 animate-pulse rounded-full bg-brand-green/20" />
@@ -68,13 +88,13 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
             setStep(2);
           }}
         >
-          <div>
+          <FormPortrait>
             <h2 className="text-xl font-semibold tracking-tight">Vraag je gratis SEO &amp; GEO-scan aan</h2>
             <p className="mt-1 text-sm text-brand-muted">
-              Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse — geen
-              automatisch rapport.
+              Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse van Britt —
+              geen automatisch rapport.
             </p>
-          </div>
+          </FormPortrait>
           <label className="block">
             <span className="mb-1.5 block text-xs font-semibold text-brand-ink">Website</span>
             <input
