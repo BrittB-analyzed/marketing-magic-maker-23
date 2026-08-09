@@ -3,14 +3,18 @@ import { useState } from "react";
 import { ArrowRight, Check, ChevronDown, Menu, Phone, Star, X } from "lucide-react";
 import logoUrl from "@/assets/logo-b-analyzed.svg?url";
 import portretClose from "@/assets/photos/portret-close.jpg.asset.json";
+import {
+  EMAIL,
+  PHONE,
+  PHONE_HREF,
+  REVIEW_COUNT,
+  REVIEWS_HREF,
+  WHATSAPP_HREF,
+} from "@/lib/site-config";
+import { FounderCard } from "@/components/site/founder-card";
 
-export const PHONE = "+31 (0)6 819 539 99";
-export const PHONE_HREF = "tel:+31681953999";
-export const WHATSAPP_HREF = "https://wa.me/31681953999";
-export const EMAIL = "info@b-analyzed.com";
-export const REVIEWS_HREF =
-  "https://www.google.com/search?q=b+analyzed+marketing#lrd=0x0:0x0,1,,,";
-export const REVIEW_COUNT = 47;
+export { EMAIL, PHONE, PHONE_HREF, REVIEW_COUNT, REVIEWS_HREF, WHATSAPP_HREF };
+
 
 export const PILLARS = [
   { name: "SEO", to: "/online-marketing/seo-uitbesteden/", claim: "Gevonden worden in Google" },
@@ -346,7 +350,10 @@ export function Header() {
 export function Footer() {
   return (
     <footer className="border-t border-brand-line bg-white">
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-4">
+      <div className="mx-auto max-w-6xl px-6 pt-12">
+        <FounderCard />
+      </div>
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 md:grid-cols-4">
         <div>
           <Logo />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-brand-muted">
@@ -362,6 +369,7 @@ export function Footer() {
             </a>
           </div>
         </div>
+
         <div>
           <h2 className="text-sm font-semibold text-brand-ink">Onze vier pijlers</h2>
           <ul className="mt-4 space-y-2 text-sm text-brand-muted">

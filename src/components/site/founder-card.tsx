@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Linkedin, Star, Youtube } from "lucide-react";
 import portret from "@/assets/photos/britt-portret.jpg.asset.json";
-import { REVIEW_COUNT, REVIEWS_HREF } from "@/components/site/site-chrome";
+import { REVIEW_COUNT, REVIEWS_HREF } from "@/lib/site-config";
+
 
 const SOCIALS = [
   { name: "Instagram", href: "#instagram", icon: Instagram },
