@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Star } from "lucide-react";
+import { Link } from "@tanstack/react-router";
 import { REVIEWS } from "@/content/reviews";
 import { Section, SectionHeading } from "@/components/site/page-bits";
 
@@ -13,7 +14,17 @@ function Stars() {
   );
 }
 
-export function ReviewsSection({ initial = 9 }: { initial?: number }) {
+export function ReviewsSection({
+  initial = 9,
+  linkToAll = false,
+  title,
+  intro,
+}: {
+  initial?: number;
+  linkToAll?: boolean;
+  title?: string;
+  intro?: string;
+}) {
   const [count, setCount] = useState(initial);
   const visible = REVIEWS.slice(0, count);
 
@@ -21,8 +32,11 @@ export function ReviewsSection({ initial = 9 }: { initial?: number }) {
     <Section id="klantwaarderingen" className="border-t border-brand-line bg-brand-sand">
       <SectionHeading
         eyebrow="Klantwaarderingen"
-        title={`Wat ${REVIEWS.length} opdrachtgevers over ons zeggen`}
-        intro="Klanttevredenheid staat bij ons voorop. Gaan we voor resultaat en betekent dat een stapje extra? Dan doen we dat graag. De meeste opdrachtgevers werken al jaren met ons samen."
+        title={title ?? `Wat ${REVIEWS.length} opdrachtgevers over ons zeggen`}
+        intro={
+          intro ??
+          "Klanttevredenheid staat bij ons voorop. Gaan we voor resultaat en betekent dat een stapje extra? Dan doen we dat graag. De meeste opdrachtgevers werken al jaren met ons samen."
+        }
       />
       <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {visible.map((r, i) => (
@@ -44,7 +58,16 @@ export function ReviewsSection({ initial = 9 }: { initial?: number }) {
           </figure>
         ))}
       </div>
-      {count < REVIEWS.length ? (
+      {linkToAll ? (
+        <div className="mt-10 text-center">
+          <Link
+            to="/klantwaarderingen/"
+            className="inline-flex rounded-full bg-brand-green px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
+          >
+            Bekijk alle {REVIEWS.length} klantwaarderingen
+          </Link>
+        </div>
+      ) : count < REVIEWS.length ? (
         <div className="mt-10 text-center">
           <button
             type="button"
