@@ -350,7 +350,10 @@ export function Header() {
 export function Footer() {
   return (
     <footer className="border-t border-brand-line bg-white">
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-4">
+      <div className="mx-auto max-w-6xl px-6 pt-12">
+        <FounderCard />
+      </div>
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 md:grid-cols-4">
         <div>
           <Logo />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-brand-muted">
@@ -366,6 +369,7 @@ export function Footer() {
             </a>
           </div>
         </div>
+
         <div>
           <h2 className="text-sm font-semibold text-brand-ink">Onze vier pijlers</h2>
           <ul className="mt-4 space-y-2 text-sm text-brand-muted">
