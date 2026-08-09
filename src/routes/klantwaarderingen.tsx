@@ -23,6 +23,9 @@ function KlantwaarderingenPage() {
         title={`${REVIEWS.length} opdrachtgevers aan het woord`}
         intro="Van MKB tot e-commerce: hieronder lees je het complete overzicht van de waarderingen die we van onze opdrachtgevers ontvingen. Gemiddeld beoordeeld met een 9,8."
       />
+      <Section className="bg-brand-canvas">
+        <FounderCard />
+      </Section>
       <LogoStrip />
       <ReviewsSection initial={12} title="Alle klantwaarderingen" intro="Klanttevredenheid staat bij ons voorop. Gaan we voor resultaat en betekent dat een stapje extra? Dan doen we dat graag." />
       <CtaBand />
