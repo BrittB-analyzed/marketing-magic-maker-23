@@ -31,7 +31,7 @@ export function Logo({ compact = false }: { compact?: boolean }) {
         alt="B. Analyzed marketing"
         width={441}
         height={114}
-        className={compact ? "h-7 w-auto" : "h-9 w-auto"}
+        className={compact ? "h-9 w-auto" : "h-11 w-auto"}
       />
     </Link>
   );
@@ -41,8 +41,8 @@ export const AVATAR_URL = portretClose.url;
 
 export function TrustLine() {
   return (
-    <div className="hidden border-b border-brand-line bg-white md:block">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-2 text-xs">
+    <div className="hidden border-b border-brand-line bg-brand-sand md:block">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-2.5 text-sm">
         <a
           href={REVIEWS_HREF}
           target="_blank"
@@ -51,17 +51,20 @@ export function TrustLine() {
         >
           <span className="flex" aria-hidden="true">
             {Array.from({ length: 5 }).map((_, i) => (
-              <Star key={i} className="size-3.5 fill-brand-star text-brand-star" strokeWidth={0} />
+              <Star key={i} className="size-4 fill-brand-star text-brand-star" strokeWidth={0} />
             ))}
           </span>
-          <span className="font-medium text-brand-ink">
+          <span className="font-semibold text-brand-ink">
             Beoordeeld met een 9,8 — {REVIEW_COUNT} reviews
           </span>
         </a>
-        <div className="flex items-center gap-6 text-brand-muted">
+        <div className="flex items-center gap-5 text-brand-muted">
+          <span className="flex items-center gap-1.5 rounded-full bg-brand-green px-3 py-1 text-xs font-bold uppercase tracking-wide text-white">
+            <Check className="size-3.5" strokeWidth={3} />1 vast aanspreekpunt
+          </span>
           {["15 jaar ervaring", "Aantoonbare resultaten", "Transparante werkwijze"].map((t) => (
-            <span key={t} className="flex items-center gap-1.5">
-              <Check className="size-3.5 text-brand-green" strokeWidth={3} />
+            <span key={t} className="flex items-center gap-1.5 font-medium">
+              <Check className="size-4 text-brand-green" strokeWidth={3} />
               {t}
             </span>
           ))}
