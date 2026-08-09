@@ -11,7 +11,7 @@ import {
   TrendingUp,
   Video,
 } from "lucide-react";
-import { SiteLayout, PHONE, PHONE_HREF, PILLARS, WHATSAPP_HREF } from "@/components/site/site-chrome";
+import { LogoStrip } from "@/components/site/logo-strip";
 import { LeadForm } from "@/components/site/lead-form";
 import {
   CtaBand,
