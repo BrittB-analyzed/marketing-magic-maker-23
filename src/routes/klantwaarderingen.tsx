@@ -2,9 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { landingHead } from "@/components/site/landing-page";
 import { LANDINGS } from "@/content/landings";
 import { SiteLayout } from "@/components/site/site-chrome";
-import { CtaBand, PageHero } from "@/components/site/page-bits";
+import { CtaBand, PageHero, Section } from "@/components/site/page-bits";
 import { LogoStrip } from "@/components/site/logo-strip";
 import { ReviewsSection } from "@/components/site/reviews";
+import { FounderCard } from "@/components/site/founder-card";
 import { REVIEWS } from "@/content/reviews";
 
 const data = LANDINGS["klantwaarderingen"]!;
