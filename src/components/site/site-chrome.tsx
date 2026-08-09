@@ -168,6 +168,38 @@ export function Header() {
                 </div>
               )}
             </li>
+            <li
+              className="relative"
+              onMouseEnter={() => setAbout(true)}
+              onMouseLeave={() => setAbout(false)}
+            >
+              <button
+                type="button"
+                onClick={() => setAbout((v) => !v)}
+                aria-expanded={about}
+                className="flex items-center gap-1 py-5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
+              >
+                Over ons
+                <ChevronDown className="size-3.5" />
+              </button>
+              {about && (
+                <div className="absolute left-1/2 top-full w-56 -translate-x-1/2 rounded-2xl border border-brand-line bg-white p-4 shadow-xl">
+                  <ul className="space-y-2">
+                    {ABOUT_LINKS.map((l) => (
+                      <li key={l.to}>
+                        <Link
+                          to={l.to}
+                          onClick={() => setAbout(false)}
+                          className="block text-sm font-medium text-brand-ink hover:text-brand-red"
+                        >
+                          {l.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </li>
             {NAV.map((item) => (
               <li key={item.to}>
                 <Link
