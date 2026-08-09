@@ -35,6 +35,9 @@ function OverOns() {
         title="Hey hallo, wij zijn een online marketing bedrijf"
         intro="Maar dan anders. Ons team bestaat uit online vakidioten die blij worden van de digitale wereld en work from anywhere — B. Analyzed runt het bedrijf volledig remote, wereldwijd."
       />
+      <Section className="bg-brand-canvas">
+        <FounderCard />
+      </Section>
       <Section>
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
