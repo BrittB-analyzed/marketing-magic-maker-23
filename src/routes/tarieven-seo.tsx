@@ -133,7 +133,7 @@ function Tarieven() {
           Alle bedragen zijn exclusief btw. Vanaf € 999,- per maand combineren we SEO, GEO, Ads en CRO — je kiest zelf uit diverse diensten. Los maatwerk factureren we tegen € 90,- per uur. Werken we samen? Dan gaan we net zo lang door tot je meetbaar resultaat boekt.
         </p>
       </Section>
-      <Section muted>
+      <Section className="bg-brand-sand">
         <SectionHeading
           eyebrow="Marktoverzicht"
           title="Wat kost SEO & GEO in de markt?"
