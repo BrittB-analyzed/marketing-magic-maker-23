@@ -43,7 +43,7 @@ function Contact() {
               <img
                 src={portretStoer.url}
                 alt="Britt Daemen — jouw vaste aanspreekpunt bij B. Analyzed"
-                className="aspect-[4/5] w-full object-cover object-top sm:aspect-[3/4]"
+                className="aspect-[4/3] w-full object-cover object-[center_20%]"
                 loading="lazy"
                 decoding="async"
               />
