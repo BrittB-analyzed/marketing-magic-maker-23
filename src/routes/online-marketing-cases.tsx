@@ -55,7 +55,7 @@ function Cases() {
                   {c.highlights.map((h) => (
                     <div key={h.label}>
                       <dt className="text-[10px] uppercase tracking-[0.14em] text-brand-muted">{h.label}</dt>
-                      <dd className="mt-1 text-sm font-semibold text-brand-red">{h.value}</dd>
+                      <dd className="mt-1 text-sm font-semibold text-brand-green">{h.value}</dd>
                     </div>
                   ))}
                 </dl>
