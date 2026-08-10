@@ -6,27 +6,27 @@ import { faqJsonLd } from "@/components/site/page-bits";
 const FAQ = [
   {
     q: "Wat kost Google Ads uitbesteden?",
-    a: "Een audit van je huidige account start vanaf € 599,-. Doorlopend beheer, inclusief SEO en GEO, combineren we vanaf € 999,- per maand. Je advertentiebudget betaal je rechtstreeks aan Google, in je eigen account — nooit aan ons.",
+    a: "Een audit van je huidige account start vanaf € 599,-. Doorlopend beheer, inclusief SEO en GEO, combineren we vanaf € 999,- per maand. Je advertentiebudget betaal je rechtstreeks aan Google, in je eigen account — nooit aan ons. Ads uitbesteden bij een Google Ads bureau hoeft dus niet duur te zijn, maar wel transparant.",
+  },
+  {
+    q: "Wanneer is het slim om een ads expert in te huren?",
+    a: "Een ads expert inhuren is slim als je campagnes draaien maar je niet weet wat ze opleveren, of als je snel schaalbare resultaat wilt zonder zelf in het Google Ads-dashboard te verdwalen. Wij nemen het opzetten, monitoren en optimaliseren volledig uit handen.",
   },
   {
     q: "Werkt Google Ads voor elke branche?",
-    a: "Google Ads is interessant voor iedereen die op zoek is naar klanten met een duidelijke zoekintentie, niet alleen voor webshops. Met de juiste zoekwoorden filteren we die intentie eruit, of je nu dienstverlener, webshop of B2B-bedrijf bent.",
+    a: "Google Ads is interessant voor iedereen die op zoek is naar klanten met een duidelijke zoekintentie, niet alleen voor webshops. Met de juiste zoekwoorden filteren we die intentie eruit, of je nu dienstverlener, webshop of B2B-bedrijf bent. Als Google Ads bureau kijken we altijd eerst of de kosten per conversie haalbaar zijn.",
   },
   {
     q: "Hoe snel zie ik resultaat met Ads?",
-    a: "Ads is het snelste kanaal van onze pijlers: waar SEO en GEO maanden opbouwen, zie je bij een goed ingerichte campagne vaak al binnen enkele weken de eerste aanvragen binnenkomen.",
+    a: "Ads is het snelste kanaal van onze pijlers: waar SEO en GEO maanden opbouwen, zie je bij een goed ingerichte campagne vaak al binnen enkele weken de eerste aanvragen binnenkomen. Juist daarom kiezen bedrijven ervoor om ads uitbesteden aan een specialist.",
   },
   {
     q: "Wie is eigenaar van het advertentieaccount?",
-    a: "Jij. We werken altijd in jouw eigen Google Ads-account, koppelen dit aan Analytics en Google Shopping waar nodig, en je blijft eigenaar — ook als de samenwerking ooit stopt.",
+    a: "Jij. We werken altijd in jouw eigen Google Ads-account, koppelen dit aan Analytics en Google Places en Google Shopping waar nodig, en je blijft eigenaar — ook als de samenwerking ooit stopt. Zo blijf je onafhankelijk van welk Google Ads bureau je ook kiest.",
   },
   {
     q: "Kan ik ook met een klein budget adverteren?",
-    a: "Ja. Je bepaalt zelf je dagbudget, dus je geeft nooit meer uit dan je wilt. We helpen zowel kleine als grote adverteerders, van ZZP'er tot multinational, om met slimme campagne-instellingen het maximale uit elk budget te halen.",
-  },
-  {
-    q: "Hoe gaan jullie te werk bij het opzetten van campagnes?",
-    a: "Na een intakegesprek maken we een SEA-analyse van je huidige situatie, branche en concurrentie. Daarna stellen we een actieplan op, bouwen we de campagnes en landingspagina's op, en gaan we pas live na jouw akkoord. Vanaf dat moment optimaliseren we wekelijks door tot je meetbaar resultaat boekt.",
+    a: "Ja. Je bepaalt zelf je dagbudget, dus je geeft nooit meer uit dan je wilt. We helpen zowel kleine als grote adverteerders, van ZZP'er tot multinational, om met slimme campagne-instellingen het maximale uit elk budget te halen. Zelfs met een beperkt budget loont het om een ads expert in te huren.",
   },
 ];
 
