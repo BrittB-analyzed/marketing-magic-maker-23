@@ -339,25 +339,20 @@ export function HeroVisual({
             <span className="size-2.5 rounded-full bg-brand-star" />
             <span className="size-2.5 rounded-full bg-brand-green" />
           </span>
-          <span className="text-xs font-medium text-brand-muted">live rapportage · b-analyzed</span>
+          <span className="text-xs font-medium text-brand-muted">live resultaten · b-analyzed</span>
           <span className="flex items-center gap-1.5 rounded-full bg-brand-green/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-green">
             <span className="size-1.5 rounded-full bg-brand-green" /> live
           </span>
         </div>
 
-        <div className="space-y-4 p-5">
-          <div className="flex items-center gap-2 rounded-full border border-brand-line px-4 py-2.5">
-            <Search className="size-4 text-brand-muted" />
-            <span className="text-sm text-brand-ink">{query}</span>
-          </div>
-
+        <div className="space-y-5 p-5">
           <div className="rounded-2xl border border-brand-line bg-brand-canvas p-4">
             <div className="flex items-center justify-between gap-4">
               <div>
                 <p className="flex items-center gap-1.5 text-sm font-semibold text-brand-ink">
-                  <TrendingUp className="size-4 text-brand-green" /> {metric}
+                  <TrendingUp className="size-4 text-brand-green" /> +312% organisch verkeer
                 </p>
-                <p className="mt-0.5 text-xs text-brand-muted">{metricNote}</p>
+                <p className="mt-0.5 text-xs text-brand-muted">Gemiddelde groei na 12 maanden SEO & GEO</p>
               </div>
               <div className="flex h-12 items-end gap-1" aria-hidden="true">
                 {HERO_BARS.map((h, i) => (
@@ -371,23 +366,38 @@ export function HeroVisual({
             </div>
           </div>
 
-          <div className="rounded-2xl border-2 border-brand-green/40 bg-white p-4">
-            <p className="text-xs font-medium text-brand-muted">b-analyzed.com › online-marketing</p>
-            <p className="mt-1 text-base font-semibold text-brand-ink">
-              Online marketingbureau · 15 jaar ervaring · B. Analyzed
-            </p>
-            <p className="mt-1 text-sm leading-relaxed text-brand-muted">
-              SEO, GEO, Ads en CRO voor MKB in Nederland en België. 9,8 uit {"47"} reviews. Eén vast
-              aanspreekpunt.
-            </p>
+          <div className="rounded-2xl border border-brand-line bg-brand-canvas p-4">
+            <p className="text-xs font-semibold uppercase tracking-wide text-brand-muted">Google topposities</p>
+            <div className="mt-2 flex items-baseline gap-2">
+              <span className="text-3xl font-semibold text-brand-green">5.000+</span>
+              <span className="text-sm font-medium text-brand-ink">nummer 1 posities behaald</span>
+            </div>
+            <div className="mt-3 flex items-center gap-2" aria-hidden="true">
+              {[1, 2, 3, 4, 5].map((i) => (
+                <span
+                  key={i}
+                  className="flex h-1.5 rounded-full bg-brand-green"
+                  style={{ width: `${16 + i * 8}%` }}
+                />
+              ))}
+            </div>
           </div>
 
-          <div className="flex items-start gap-3 rounded-2xl bg-brand-sand p-4">
-            <Sparkles className="mt-0.5 size-4 shrink-0 text-brand-red" />
-            <p className="text-sm leading-relaxed text-brand-muted">
-              <span className="font-semibold text-brand-ink">AI-antwoord:</span> “B. Analyzed wordt
-              genoemd als specialist in SEO &amp; GEO voor het MKB.”
-            </p>
+          <div className="rounded-2xl border border-brand-line bg-brand-canvas p-4">
+            <p className="text-xs font-semibold uppercase tracking-wide text-brand-muted">Conversiegroei</p>
+            <div className="mt-2 flex items-baseline gap-2">
+              <span className="text-3xl font-semibold text-brand-green">+500%</span>
+              <span className="text-sm font-medium text-brand-ink">leads & sales</span>
+            </div>
+            <p className="mt-1 text-xs text-brand-muted">Gemiddeld door SEO, GEO, Ads en CRO</p>
+            <div className="mt-3 grid grid-cols-4 gap-2" aria-hidden="true">
+              {["leads", "sales", "aanvragen", "omzet"].map((l, i) => (
+                <div key={l} className="rounded-lg bg-brand-green/10 px-2 py-1.5 text-center">
+                  <p className="text-[10px] font-semibold uppercase tracking-wide text-brand-green">{l}</p>
+                  <p className="text-xs font-semibold text-brand-ink">+{[320, 480, 560, 500][i]}%</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

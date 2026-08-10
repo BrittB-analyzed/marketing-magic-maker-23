@@ -109,7 +109,7 @@ function CaseDetail() {
                 {study.highlights.map((h: { label: string; value: string }) => (
                   <div key={h.label}>
                     <dt className="text-xs uppercase tracking-[0.16em] text-brand-muted">{h.label}</dt>
-                    <dd className="text-2xl font-semibold text-brand-red">{h.value}</dd>
+                    <dd className="text-2xl font-semibold text-brand-green">{h.value}</dd>
                   </div>
                 ))}
               </dl>
