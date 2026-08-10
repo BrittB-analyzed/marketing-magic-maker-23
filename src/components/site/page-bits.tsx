@@ -406,6 +406,7 @@ export function PageHero({
     { value: "150+", label: "klanten geholpen" },
   ],
   visual = true,
+  variant,
 }: {
   eyebrow: string;
   title: string;
@@ -413,7 +414,9 @@ export function PageHero({
   ctaLabel?: string;
   stats?: { value: string; label: string }[];
   visual?: boolean;
+  variant?: HeroVariant;
 }) {
+  const heroVariant = variant ?? deriveHeroVariant(`${eyebrow} ${title} ${intro}`);
   return (
     <div className="relative overflow-hidden border-b border-brand-line bg-white">
       <div
@@ -456,7 +459,7 @@ export function PageHero({
             </dl>
           )}
         </div>
-        {visual && <HeroVisual />}
+        {visual && <HeroVisual variant={heroVariant} />}
       </div>
     </div>
   );
