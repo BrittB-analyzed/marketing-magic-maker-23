@@ -133,8 +133,92 @@ function Tarieven() {
           Alle bedragen zijn exclusief btw. Vanaf € 999,- per maand combineren we SEO, GEO, Ads en CRO — je kiest zelf uit diverse diensten. Los maatwerk factureren we tegen € 90,- per uur. Werken we samen? Dan gaan we net zo lang door tot je meetbaar resultaat boekt.
         </p>
       </Section>
+      <Section className="bg-brand-sand">
+        <SectionHeading
+          eyebrow="Marktoverzicht"
+          title="Wat kost SEO & GEO in de markt?"
+          intro="Ter vergelijking: dit zijn de gangbare investeringen in Nederland, per type aanbieder en per bedrijfsgrootte. Zo zie je meteen waar onze tarieven staan."
+        />
+        <div className="mt-10 grid gap-8 lg:grid-cols-2">
+          <PriceTable
+            caption="Per type aanbieder"
+            head={["Type aanbieder", "Per maand", "Uurtarief"]}
+            rows={[
+              ["Freelancer / SEO-specialist", "€ 500,- tot € 1.500,-", "€ 75,- tot € 110,-"],
+              ["MKB-bureau (zoals wij)", "€ 999,- tot € 3.500,-", "€ 90,- tot € 140,-"],
+              ["Enterprise agency", "€ 3.500,- tot € 10.000+", "€ 140,- tot € 200+"],
+            ]}
+            highlightRow={1}
+          />
+          <PriceTable
+            caption="Per bedrijfsgrootte"
+            head={["Bedrijfsgrootte / platform", "Gemiddelde investering per maand"]}
+            rows={[
+              ["Lokale speler / kleine website", "€ 500,- tot € 1.000,-"],
+              ["Nationale MKB / e-commerce", "€ 1.000,- tot € 4.000,-"],
+              ["Internationaal / enterprise e-commerce", "€ 4.000,- tot € 15.000+"],
+            ]}
+            highlightRow={1}
+          />
+        </div>
+        <p className="mt-6 text-sm text-brand-muted">
+          Bedragen exclusief btw en indicatief. Bij ons weet je vooraf exact wat je betaalt — geen nacalculatie.
+        </p>
+      </Section>
       <FaqBlock items={FAQ} title="Over onze tarieven" />
       <CtaBand />
     </SiteLayout>
+  );
+}
+
+function PriceTable({
+  caption,
+  head,
+  rows,
+  highlightRow,
+}: {
+  caption: string;
+  head: string[];
+  rows: string[][];
+  highlightRow?: number;
+}) {
+  return (
+    <div className="overflow-hidden rounded-2xl border border-brand-line bg-white">
+      <div className="border-b border-brand-line px-6 py-4 text-xs font-semibold uppercase tracking-[0.16em] text-brand-muted">
+        {caption}
+      </div>
+      <div className="overflow-x-auto">
+        <table className="w-full border-collapse text-left text-sm">
+          <thead>
+            <tr className="bg-brand-sand/60">
+              {head.map((h) => (
+                <th key={h} className="px-6 py-3 font-semibold text-brand-ink">
+                  {h}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((r, i) => (
+              <tr
+                key={r[0]}
+                className={`border-t border-brand-line ${i === highlightRow ? "bg-brand-green/10" : ""}`}
+              >
+                {r.map((cell, j) => (
+                  <td
+                    key={cell + j}
+                    className={`px-6 py-4 ${j === 0 ? "font-medium text-brand-ink" : "text-brand-muted"} ${
+                      i === highlightRow && j === 0 ? "text-brand-ink" : ""
+                    }`}
+                  >
+                    {cell}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
   );
 }
