@@ -42,8 +42,8 @@ function Contact() {
             <div className="mt-10 overflow-hidden rounded-2xl bg-brand-line">
               <img
                 src={portretStoer.url}
-                alt="Sanne — jouw vaste contactpersoon bij B. Analyzed"
-                className="aspect-[4/3] w-full object-cover"
+                alt="Britt Daemen — jouw vaste aanspreekpunt bij B. Analyzed"
+                className="aspect-[4/3] w-full object-cover object-[center_20%]"
                 loading="lazy"
                 decoding="async"
               />
