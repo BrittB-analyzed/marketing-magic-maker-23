@@ -156,9 +156,9 @@ function GeoVisual() {
 
 function AdsVisual() {
   const rows = [
-    { kw: "keuken renoveren", clicks: "412", impr: "9.104", conv: "38" },
-    { kw: "keukenrenovatie kosten", clicks: "288", impr: "6.871", conv: "24" },
-    { kw: "keukendeurtjes vervangen", clicks: "196", impr: "4.320", conv: "17" },
+    { kw: "ads uitbesteden", clicks: "412", impr: "9.104", conv: "38" },
+    { kw: "google ads bureau", clicks: "288", impr: "6.871", conv: "24" },
+    { kw: "ads specialist inhuren", clicks: "196", impr: "4.320", conv: "17" },
   ];
   return (
     <VisualFrame label="Google Ads · campagneoverzicht">
