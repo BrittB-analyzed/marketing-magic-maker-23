@@ -160,7 +160,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         h: "Bij +25 klanten werken we wekelijks aan groei",
-        p: "Wij kunnen zelf wel vertellen hoe wij werken en wij kunnen jou de geboekte resultaten laten zien. Misschien ben je ook benieuwd wat klanten van ons vinden. Samen gaan we altijd voor RESULTAAT. Nieuwsgierig hoe? Bekijk onze klantwaarderingen! Je bent bij ons aan het juiste adres wanneer je op zoek bent naar een SEO bureau en zoekt naar SEO Maastricht SEO Rotterdam SEO Venlo Online marketing Venlo SEO Limburg Menu reCAPTCHA",
+        p: "Wij kunnen zelf wel vertellen hoe wij werken en wij kunnen jou de geboekte resultaten laten zien. Misschien ben je ook benieuwd wat klanten van ons vinden. Samen gaan we altijd voor RESULTAAT. Nieuwsgierig hoe? Bekijk onze klantwaarderingen!",
       },
     ],
     faq: [
@@ -217,7 +217,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         h: "B.Analyzed: een veelzijdig online marketing bureau",
-        p: "Wil je meer weten over B.Analyzed, of zocht je een andere marketingterm? Bezoek hier onze andere pagina’s en ontdek hoe veelzijdig we zijn: SEO specialist SEO expert SEA expert SEO Eindhoven SEO Maastricht SEO Rotterdam SEO Nijmegen SEO partner SEO guru SEO score SEO ranking SEO marketing SEO consultant SEO Venlo Gratis SEO Scan Menu reCAPTCHA",
+        p: "Wil je meer weten over B.Analyzed, of zocht je een andere marketingterm?",
       },
     ],
     faq: [
@@ -371,7 +371,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         h: "B.Analyzed: overal beschikbaar!",
-        p: "Niet alleen wat betreft de diensten die wij aanbieden zijn wij flexibel, maar ook wat betreft de locatie: want of je nou in het noorden van Groningen of in het zuiden van Limburg werkt, of zelfs buiten Nederland behoefte hebt aan onze diensten, wij kunnen je overal helpen! Omdat B.Analyzed op afstand werkt zijn wij overal bereikbaar. Tot nu toe hebben wij al klanten geholpen in onder andere Maastricht, Rotterdam en Nijmegen, maar ook in Ibiza en Thailand. Dus waar je ter wereld je ook bevindt, B.Analyzed is altijd voor jouw bedrijf bereikbaar! Menu reCAPTCHA",
+        p: "Niet alleen wat betreft de diensten die wij aanbieden zijn wij flexibel, maar ook wat betreft de locatie: want of je nou in het noorden van Groningen of in het zuiden van Limburg werkt, of zelfs buiten Nederland behoefte hebt aan onze diensten, wij kunnen je overal helpen! Omdat B.Analyzed op afstand werkt zijn wij overal bereikbaar. Tot nu toe hebben wij al klanten geholpen in onder andere Maastricht, Rotterdam en Nijmegen, maar ook in Ibiza en Thailand. Dus waar je ter wereld je ook bevindt, B.Analyzed is altijd voor jouw bedrijf bereikbaar!",
       },
     ],
     faq: [
@@ -428,7 +428,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         h: "Neem contact op met jouw SEO partner voor direct resultaat!",
-        p: "Heb je interesse in ons als SEO partner, of in onze diensten in het algemeen? Neem dan contact met ons op! Menu reCAPTCHA",
+        p: "Heb je interesse in ons als SEO partner, of in onze diensten in het algemeen? Neem dan contact met ons op!",
       },
     ],
     faq: [
@@ -493,7 +493,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         h: "Waarom kiezen voor B.Analyzed?",
-        p: "Zoekmachine optimalisatie is een doorlopend proces, want er zijn altijd nieuwe potentiële klanten en daarnaast verandert Google de algoritmes om de paar maanden. Met een op maat gemaakte SEO strategie kan jij het maximale uit je website halen. Check je SEO score of laat je SEO uitbesteden aan B.Analyzed en wij zorgen ervoor dat jouw website hoger in Google komt, dat jouw website meer relevant verkeer krijgt en dat jouw bedrijf uiteindelijk winstgevender wordt! Gratis SEO Scan Menu reCAPTCHA",
+        p: "Zoekmachine optimalisatie is een doorlopend proces, want er zijn altijd nieuwe potentiële klanten en daarnaast verandert Google de algoritmes om de paar maanden. Met een op maat gemaakte SEO strategie kan jij het maximale uit je website halen. Check je SEO score of laat je SEO uitbesteden aan B.Analyzed en wij zorgen ervoor dat jouw website hoger in Google komt, dat jouw website meer relevant verkeer krijgt en dat jouw bedrijf uiteindelijk winstgevender wordt!",
       },
     ],
     faq: [
@@ -562,7 +562,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         h: "Het verschil maken",
-        p: "Er zijn natuurlijk talloze freelancers of online marketing bureau’s die in zekere zin hetzelfde doen. Het grote verschil zit hem in het onderscheidende vermogen. Als online marketing bureau Nederland begrijpen wij dat je bedrijf véél verder gaat dan alleen je website. We verdiepen ons daarom niet alleen in de techniek en uitstraling van je website, maar willen ook alles weten of je strategie, je diensten of producten, je klanten en je doelgroep en over jouw bedrijf. Wij zien jou namelijk als partner, niet als klant. Jouw succes is ons succes. En vice versa. Wij snappen online marketing. Jij snapt jouw doelgroep. Samen komen we tot een optimaal resultaat voor jouw bedrijf. Wil jij meer weten over onze diensten als online marketing bureau Nederland? Wil jij je SEO uitbesteden aan een zoekmachine optimalisatie bureau? Neem dan contact met ons op voor een vrijblijvend en oriënterend gesprek! Wij helpen je graag verder! Bekijk ook eens: SEO Venlo SEO bureau Rotterdam SEO Bureau Maastricht SEO Nijmegen SEO expert Offerte aanvragen Menu reCAPTCHA",
+        p: "Er zijn natuurlijk talloze freelancers of online marketing bureau’s die in zekere zin hetzelfde doen. Het grote verschil zit hem in het onderscheidende vermogen. Als online marketing bureau Nederland begrijpen wij dat je bedrijf véél verder gaat dan alleen je website. We verdiepen ons daarom niet alleen in de techniek en uitstraling van je website, maar willen ook alles weten of je strategie, je diensten of producten, je klanten en je doelgroep en over jouw bedrijf. Wij zien jou namelijk als partner, niet als klant. Jouw succes is ons succes. En vice versa. Wij snappen online marketing. Jij snapt jouw doelgroep. Samen komen we tot een optimaal resultaat voor jouw bedrijf. Wil jij meer weten over onze diensten als online marketing bureau Nederland? Wil jij je SEO uitbesteden aan een zoekmachine optimalisatie bureau? Neem dan contact met ons op voor een vrijblijvend en oriënterend gesprek! Wij helpen je graag verder!",
       },
     ],
     faq: [
@@ -615,7 +615,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         h: "Meer weten?",
-        p: "Wil jij weten wat ons internet marketing bureau voor jou kan betekenen? Ben je op zoek naar een SEO specialist of heb je vragen over zoekmachine optimalisatie? Wil jij jouw online campagnes uitbesteden of wil je hulp bij search engine advertising? Wat je vraag ook is, je kan altijd contact opnemen met een van onze specialisten of plan een vrijblijvend gesprek in waarin we samen naar de mogelijkheden voor jouw bedrijf kijken! Je kunt bij ons ook terecht als je op zoek bent naar een SEO bureau Rotterdam of SEO bureau Maastricht. Ongeacht waar je bedrijf zich bevindt, wij kunnen je altijd van dienst zijn! Meer weten? Menu reCAPTCHA",
+        p: "Wil jij weten wat ons internet marketing bureau voor jou kan betekenen? Ben je op zoek naar een SEO specialist of heb je vragen over zoekmachine optimalisatie? Wil jij jouw online campagnes uitbesteden of wil je hulp bij search engine advertising? Wat je vraag ook is, je kan altijd contact opnemen met een van onze specialisten of plan een vrijblijvend gesprek in waarin we samen naar de mogelijkheden voor jouw bedrijf kijken! Je kunt bij ons ook terecht als je op zoek bent naar een SEO bureau Rotterdam of SEO bureau Maastricht. Ongeacht waar je bedrijf zich bevindt, wij kunnen je altijd van dienst zijn!",
       },
     ],
     faq: [
@@ -643,17 +643,13 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     h1: "Behaal meer online rendement met B. Analyzed marketingbureau Limburg",
     title: "Marketingbureau Limburg | B. Analyzed",
     description: "B. Analyzed is een marketingbureau in Limburg dat ondernemers helpt met SEO, Google Ads en social media, met oog voor de grensregio en AI-zichtbaarheid.",
-    intro: "Ik wil graagIk wil graag...Een offerte aanvragenEen gratis SEO scan DienstKies een dienst...Online marketingGoogle AdsSEOLinkbuildingSocial media marketingOverige Voornaam \\* Achternaam \\* Telefoonnummer \\* Emailadres \\* Website URL Webpagina URL \\* Zoekwoordcombinatie(s) \\* Toelichting aanvraag \\* GDPR-overeenkomst \\* Bij het indienen van dit formulier ga je automatisch akkoord met ons Privacybeleid. reCAPTCHA Recaptcha requires verification. I'm not a robot reCAPTCHA Go for it",
+    intro: "Online marketing is onze passie. B. Analyzed marketing is een online marketing specialist op het gebied van zoekmachine optimalisatie (SEO), zoekmachine adverteren (SEA) en lead generalisatie. De specialisten van ons online marketing bureau in Limburg hebben meer dan 10 jaar ervaring. Onze experts kunnen je altijd vrijblijvend voorzien van marketing strategieën op maat. Daarnaast werken wij samen met experts op het gebied van programmering, webdesign, display marketing & copywriting om de beste resultaten te behalen voor jouw onderneming!",
     bullets: [
       "Regionale kennis van de Limburgse markt en grensregio",
       "0-meting om je startpositie helder in kaart te brengen",
       "Gezamenlijk stappenplan met concrete doelstellingen",
     ],
     sections: [
-      {
-        h: "Over online marketing bureau Limburg",
-        p: "Online marketing is onze passie. B. Analyzed marketing is een online marketing specialist op het gebied van zoekmachine optimalisatie (SEO), zoekmachine adverteren (SEA) en lead generalisatie. De specialisten van ons online marketing bureau in Limburg hebben meer dan 10 jaar ervaring. Onze experts kunnen je altijd vrijblijvend voorzien van marketing strategieën op maat. Daarnaast werken wij samen met experts op het gebied van programmering, webdesign, display marketing & copywriting om de beste resultaten te behalen voor jouw onderneming!",
-      },
       {
         h: "Hoe gaat B.Analyzed te werk?",
         p: "Als jouw internetbureau in Limburg gaan we meteen aan de slag! We gaan met jou aan tafel om jouw bedrijfsituatie in kaart te brengen door uitvoerig stil te staan bij jouw behaalde resultaten, jouw doelstellingen en verwachtingen.",
@@ -676,7 +672,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         h: "Hoe maakt B.Analyzed het verschil?",
-        p: "Er zijn natuurlijk talloze freelancers of internetmarketing bureau’s in Limburg die in zekere zin hetzelfde doen. Het grote verschil zit hem in het onderscheidende vermogen. Als jouw online marketingbureau in Limburg begrijpen wij dat je bedrijf véél verder gaat dan alleen je website. Bedrijven die hun online marketing uitbesteden aan B.Analyzed kiezen voor kwaliteit en persoonlijkheid. We verdiepen ons niet alleen in de techniek en uitstraling van je website, maar willen ook alles weten over je strategie, je diensten of producten, je klanten, je doelgroep en jouw bedrijf. Wij zien jou namelijk als partner, niet als klant. Jouw succes is ons succes. En vice versa. Wij snappen online marketing. Jij snapt jouw doelgroep. Samen komen we tot een optimaal resultaat voor jouw bedrijf! Wil jij meer weten over onze diensten als online marketingbureau in Limburg? Wil jij je SEO uitbesteden of een online marketing strategie uitzetten? Neem dan contact met ons op voor een vrijblijvend en oriënterend gesprek! Wij helpen je graag verder! Contact Menu reCAPTCHA",
+        p: "Er zijn natuurlijk talloze freelancers of internetmarketing bureau’s in Limburg die in zekere zin hetzelfde doen. Het grote verschil zit hem in het onderscheidende vermogen. Als jouw online marketingbureau in Limburg begrijpen wij dat je bedrijf véél verder gaat dan alleen je website. Bedrijven die hun online marketing uitbesteden aan B.Analyzed kiezen voor kwaliteit en persoonlijkheid. We verdiepen ons niet alleen in de techniek en uitstraling van je website, maar willen ook alles weten over je strategie, je diensten of producten, je klanten, je doelgroep en jouw bedrijf. Wij zien jou namelijk als partner, niet als klant. Jouw succes is ons succes. En vice versa. Wij snappen online marketing. Jij snapt jouw doelgroep. Samen komen we tot een optimaal resultaat voor jouw bedrijf! Wil jij meer weten over onze diensten als online marketingbureau in Limburg? Wil jij je SEO uitbesteden of een online marketing strategie uitzetten? Neem dan contact met ons op voor een vrijblijvend en oriënterend gesprek! Wij helpen je graag verder!",
       },
     ],
     faq: [
@@ -704,7 +700,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     h1: "Kosten online marketing",
     title: "Kosten Online Marketing | B. Analyzed",
     description: "Benieuwd naar de kosten van online marketing? B. Analyzed werkt met transparante pakketten vanaf € 999,- per maand en een uurtarief van € 90,-.",
-    intro: "Uiteraard wordt er vooraf aan ieder project of iedere opdracht het aantal uren begroot. Daarnaast werken wij op basis van doelstellingen zodat marketing een investering is en het jou / jullie bedrijf uiteindelijk meer oplevert. Wij hebben een aantal standaard pakketten en leveren daarnaast ook maatwerk. Bekijk tarieven Offerte aanvragen Offerte aanvragen Offerte aanvragen Offerte aanvragen Offerte aanvragen Offerte aanvragen",
+    intro: "Uiteraard wordt er vooraf aan ieder project of iedere opdracht het aantal uren begroot. Daarnaast werken wij op basis van doelstellingen zodat marketing een investering is en het jou / jullie bedrijf uiteindelijk meer oplevert. Wij hebben een aantal standaard pakketten en leveren daarnaast ook maatwerk. Bekijk tarieven Offerte aanvragen Offerte aanvragen Offerte aanvragen Offerte aanvragen Offerte aanvragen",
     bullets: [
       "Standaardpakketten of volledig maatwerk, altijd vooraf begroot",
       "Elke maand inzicht in resultaten via rapportage en video-uitleg",
@@ -713,19 +709,19 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     sections: [
       {
         h: "Starter",
-        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 5 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (5 linkjes per maand) 1 Google Adwords campagne (max 2 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 3 SEO teksten) Periodieke rapportage Keyword Rankings v.a. € 395,- per maand (3 uur p/m + linkbuilding) Offerte aanvragen",
+        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 5 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (5 linkjes per maand) 1 Google Adwords campagne (max 2 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 3 SEO teksten) Periodieke rapportage Keyword Rankings v.a. € 395,- per maand (3 uur p/m + linkbuilding)",
       },
       {
         h: "Basis",
-        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 5 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (10 linkjes per maand) 1 Google Adwords campagne (max 2 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 5 SEO teksten) Periodieke rapportage Keyword Rankings v.a. € 495,- per maand (4 uur p/m + linkbuilding) Offerte aanvragen",
+        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 5 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (10 linkjes per maand) 1 Google Adwords campagne (max 2 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 5 SEO teksten) Periodieke rapportage Keyword Rankings v.a. € 495,- per maand (4 uur p/m + linkbuilding)",
       },
       {
         h: "Standaard",
-        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 10 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding ( 20 linkjes per maand) 2 Google Adwords campagne (max 4 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 10 SEO teksten) Periodieke rapportage Keyword Rankings Periodieke rapportage Organisch verkeer Periodieke rapportage Technische SEO verbeteringen Periodieke rapportage Online doelen Website adviezen User Experience Conversie optimalisatie advies Gratis ondersteuning v.a. € 695,- per maand (6 uur p/m + linkbuilding) Offerte aanvragen",
+        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 10 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding ( 20 linkjes per maand) 2 Google Adwords campagne (max 4 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 10 SEO teksten) Periodieke rapportage Keyword Rankings Periodieke rapportage Organisch verkeer Periodieke rapportage Technische SEO verbeteringen Periodieke rapportage Online doelen Website adviezen User Experience Conversie optimalisatie advies Gratis ondersteuning v.a. € 695,- per maand (6 uur p/m + linkbuilding)",
       },
       {
         h: "Alles-in-één",
-        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 18 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (40 linkjes per maand) 3 Google Adwords campagne (max 6 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 20 SEO teksten) Periodieke rapportage Keyword Rankings Periodieke rapportage Organisch verkeer Periodieke rapportage Technische SEO verbeteringen Periodieke rapportage Online doelen Website adviezen User Experience Conversie optimalisatie advies Gratis ondersteuning v.a. € 1795,- per maand (20 uur p/m, 5 uur per week + linkbuilding) Offerte aanvragen",
+        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 18 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (40 linkjes per maand) 3 Google Adwords campagne (max 6 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 20 SEO teksten) Periodieke rapportage Keyword Rankings Periodieke rapportage Organisch verkeer Periodieke rapportage Technische SEO verbeteringen Periodieke rapportage Online doelen Website adviezen User Experience Conversie optimalisatie advies Gratis ondersteuning v.a. € 1795,- per maand (20 uur p/m, 5 uur per week + linkbuilding)",
       },
     ],
     faq: [
@@ -753,7 +749,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     h1: "Social pakketten",
     title: "Tarieven Social Media Marketing | B. Analyzed",
     description: "Social media beheer uitbesteden vanaf een paar uur per maand? Bekijk de social media pakketten en tarieven van B. Analyzed, inclusief een audit vooraf.",
-    intro: "1 – 2 berichten per week Max 2 social media kanalen (LinkedIn, Instagram of Facebook) 1 blog of social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 250,- 1 tot 2 berichten per week Offerte aanvragen",
+    intro: "1 – 2 berichten per week Max 2 social media kanalen (LinkedIn, Instagram of Facebook) 1 blog of social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 250,- 1 tot 2 berichten per week",
     bullets: [
       "Werken met KPI's vooraf, zodat je weet waar je aan toe bent",
       "Altijd een audit vooraf om kanalen en prestaties in kaart te brengen",
@@ -762,15 +758,15 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     sections: [
       {
         h: "Basis",
-        p: "3 of 4 berichten per week Max 2 social kanalen 1 blog en social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 350,- 2-3 berichten per week Offerte aanvragen",
+        p: "3 of 4 berichten per week Max 2 social kanalen 1 blog en social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 350,- 2-3 berichten per week",
       },
       {
         h: "Aanbevolen",
-        p: "4 berichten per week 3 social kanalen 1 blog en social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 425,- 4 berichten per week Offerte aanvragen",
+        p: "4 berichten per week 3 social kanalen 1 blog en social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 425,- 4 berichten per week",
       },
       {
         h: "XXL",
-        p: "15 zoektermen Vanaf 50 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links Minimaal 4 artikelen per maand € 650,- Vanaf 50 linkjes per maand (minimale DA 8) Offerte aanvragen Offerte aanvragen",
+        p: "15 zoektermen Vanaf 50 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links Minimaal 4 artikelen per maand € 650,- Vanaf 50 linkjes per maand (minimale DA 8) Offerte aanvragen",
       },
     ],
     faq: [
@@ -798,7 +794,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     h1: "Online marketing kosten",
     title: "Tarieven Linkbuilding | B. Analyzed",
     description: "Linkbuilding uitbesteden? Bekijk de linkbuildingpakketten van B. Analyzed: van 8 tot 50+ kwalitatieve links per maand, met een uurtarief van € 90,-.",
-    intro: "5 zoektermen 8 geplaatste links Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 1 artikel per maand € 125,- 8 linkjes per maand (minimale DA 8) Offerte aanvragen",
+    intro: "5 zoektermen 8 geplaatste links Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 1 artikel per maand € 125,- 8 linkjes per maand (minimale DA 8)",
     bullets: [
       "Pakketten van 8 tot 50+ geplaatste links per maand",
       "Homepage-, partnerpagina- en bedrijvenpagina-links",
@@ -807,15 +803,15 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     sections: [
       {
         h: "Standaard",
-        p: "8 zoektermen 12-15 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 2 artikelen per maand € 250,- 12-15 linkjes per maand (minimale DA 8) Offerte aanvragen",
+        p: "8 zoektermen 12-15 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 2 artikelen per maand € 250,- 12-15 linkjes per maand (minimale DA 8)",
       },
       {
         h: "Aanbevolen",
-        p: "10 zoektermen 25 geplaatste linkjes per maan Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 4 artikelen € 375,- 25 linkjes per maand (minimale DA 8) Offerte aanvragen",
+        p: "10 zoektermen 25 geplaatste linkjes per maan Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 4 artikelen € 375,- 25 linkjes per maand (minimale DA 8)",
       },
       {
         h: "XXL",
-        p: "15 zoektermen Vanaf 50 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links Minimaal 4 artikelen per maand € 650,- Vanaf 50 linkjes per maand (minimale DA 8) Offerte aanvragen",
+        p: "15 zoektermen Vanaf 50 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links Minimaal 4 artikelen per maand € 650,- Vanaf 50 linkjes per maand (minimale DA 8)",
       },
     ],
     faq: [
