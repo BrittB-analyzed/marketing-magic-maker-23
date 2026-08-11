@@ -697,10 +697,10 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
   },
   "kosten-online-marketing": {
     eyebrow: "Tarieven",
-    h1: "Kosten online marketing",
+    h1: "Kosten online marketing: heldere pakketten en tarieven",
     title: "Kosten Online Marketing | B. Analyzed",
     description: "Benieuwd naar de kosten van online marketing? B. Analyzed werkt met transparante pakketten vanaf € 999,- per maand en een uurtarief van € 90,-.",
-    intro: "Uiteraard wordt er vooraf aan ieder project of iedere opdracht het aantal uren begroot. Daarnaast werken wij op basis van doelstellingen zodat marketing een investering is en het jou / jullie bedrijf uiteindelijk meer oplevert. Wij hebben een aantal standaard pakketten en leveren daarnaast ook maatwerk. Bekijk tarieven Offerte aanvragen Offerte aanvragen Offerte aanvragen Offerte aanvragen Offerte aanvragen",
+    intro: "Wij werken op basis van duidelijke afspraken, helderheid en transparantie — ook over de kosten. Ons uurtarief ligt op € 90,- per uur, exclusief btw, ongeacht welke dienst je afneemt.",
     bullets: [
       "Standaardpakketten of volledig maatwerk, altijd vooraf begroot",
       "Elke maand inzicht in resultaten via rapportage en video-uitleg",
@@ -708,20 +708,24 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Starter",
-        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 5 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (5 linkjes per maand) 1 Google Adwords campagne (max 2 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 3 SEO teksten) Periodieke rapportage Keyword Rankings v.a. € 395,- per maand (3 uur p/m + linkbuilding)",
+        h: "Pakketten en diensten op maat",
+        p: "Vooraf begroten we altijd het aantal uren per project of opdracht. We werken op basis van doelstellingen, zodat marketing een investering is die zich terugverdient.",
       },
       {
-        h: "Basis",
-        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 5 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (10 linkjes per maand) 1 Google Adwords campagne (max 2 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 5 SEO teksten) Periodieke rapportage Keyword Rankings v.a. € 495,- per maand (4 uur p/m + linkbuilding)",
+        h: "Van starter tot volledig pakket",
+        p: "Onze pakketten lopen op in omvang: van zoekwoordenonderzoek en een paar SEO-teksten per maand tot uitgebreide linkbuilding, meerdere Google Ads-campagnes en volledige rapportages.",
       },
       {
-        h: "Standaard",
-        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 10 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding ( 20 linkjes per maand) 2 Google Adwords campagne (max 4 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 10 SEO teksten) Periodieke rapportage Keyword Rankings Periodieke rapportage Organisch verkeer Periodieke rapportage Technische SEO verbeteringen Periodieke rapportage Online doelen Website adviezen User Experience Conversie optimalisatie advies Gratis ondersteuning v.a. € 695,- per maand (6 uur p/m + linkbuilding)",
+        h: "Wat kost online marketing bij B. Analyzed?",
+        p: "Een losse audit start vanaf € 599,-. Doorlopende online marketing begeleiding start vanaf € 999,- per maand. Los uurwerk factureren we tegen € 90,- per uur, exclusief btw.",
       },
       {
-        h: "Alles-in-één",
-        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 18 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (40 linkjes per maand) 3 Google Adwords campagne (max 6 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 20 SEO teksten) Periodieke rapportage Keyword Rankings Periodieke rapportage Organisch verkeer Periodieke rapportage Technische SEO verbeteringen Periodieke rapportage Online doelen Website adviezen User Experience Conversie optimalisatie advies Gratis ondersteuning v.a. € 1795,- per maand (20 uur p/m, 5 uur per week + linkbuilding)",
+        h: "Waarom online marketing een investering is",
+        p: "Online marketing kan al voor een relatief laag budget een meetbaar effect en groot bereik opleveren. Wij denken in de breedste zin mee om dat effect te maximaliseren.",
+      },
+      {
+        h: "Transparante werkwijze",
+        p: "Alles wat we doen laten we zien via video-uitleg, zodat je precies weet wat er gebeurt en wat het oplevert. Wij werken net zo lang door tot je meetbaar resultaat boekt.",
       },
     ],
     faq: [
@@ -746,10 +750,10 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
   },
   "tarieven-social-media": {
     eyebrow: "Tarieven",
-    h1: "Social pakketten",
+    h1: "Tarieven social media: pakketten voor elk budget",
     title: "Tarieven Social Media Marketing | B. Analyzed",
     description: "Social media beheer uitbesteden vanaf een paar uur per maand? Bekijk de social media pakketten en tarieven van B. Analyzed, inclusief een audit vooraf.",
-    intro: "1 – 2 berichten per week Max 2 social media kanalen (LinkedIn, Instagram of Facebook) 1 blog of social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 250,- 1 tot 2 berichten per week",
+    intro: "We willen social media beheer voor iedere onderneming mogelijk maken: van ZZP'er tot MKB, met een klein of een groter budget. Vanaf 5 uur per maand is uitbesteden al mogelijk.",
     bullets: [
       "Werken met KPI's vooraf, zodat je weet waar je aan toe bent",
       "Altijd een audit vooraf om kanalen en prestaties in kaart te brengen",
@@ -757,16 +761,24 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Basis",
-        p: "3 of 4 berichten per week Max 2 social kanalen 1 blog en social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 350,- 2-3 berichten per week",
+        h: "Social media pakketten voor elk budget",
+        p: "Of je nu net begint of al actief bent op meerdere kanalen: we bieden pakketten die oplopen in aantal berichten, kanalen en rapportage, zodat er altijd een passende optie is.",
       },
       {
-        h: "Aanbevolen",
-        p: "4 berichten per week 3 social kanalen 1 blog en social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 425,- 4 berichten per week",
+        h: "Altijd een audit vooraf",
+        p: "Voordat we starten brengen we al je kanalen en prestaties in kaart met een audit. Deze eenmalige opstartkosten vallen buiten het abonnement en zorgen voor een scherpe start.",
       },
       {
-        h: "XXL",
-        p: "15 zoektermen Vanaf 50 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links Minimaal 4 artikelen per maand € 650,- Vanaf 50 linkjes per maand (minimale DA 8) Offerte aanvragen",
+        h: "Werken met heldere KPI's",
+        p: "We spreken vooraf duidelijke KPI's af, zodat een goed samenwerkingsproces en heldere verwachtingen centraal staan — geen verrassingen achteraf.",
+      },
+      {
+        h: "Van 1-2 berichten tot een volledig kanaalbeheer",
+        p: "De pakketten variëren van 1 tot 2 berichten per week op maximaal 2 kanalen tot 4 of meer berichten per week op 3 kanalen, inclusief blogs, advertenties en huisstijl-layout.",
+      },
+      {
+        h: "Wat kost social media marketing?",
+        p: "Onze doorlopende social media begeleiding start vanaf € 999,- per maand. Losse werkzaamheden of een audit rekenen we tegen € 90,- per uur.",
       },
     ],
     faq: [
@@ -791,10 +803,10 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
   },
   "tarieven-linkbuilding": {
     eyebrow: "Tarieven",
-    h1: "Online marketing kosten",
+    h1: "Tarieven linkbuilding: sterke backlinks tegen heldere prijzen",
     title: "Tarieven Linkbuilding | B. Analyzed",
     description: "Linkbuilding uitbesteden? Bekijk de linkbuildingpakketten van B. Analyzed: van 8 tot 50+ kwalitatieve links per maand, met een uurtarief van € 90,-.",
-    intro: "5 zoektermen 8 geplaatste links Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 1 artikel per maand € 125,- 8 linkjes per maand (minimale DA 8)",
+    intro: "Linkbuilding blijft een van de belangrijkste factoren voor een sterke Google-ranking. Wij bouwen kwalitatieve links op vanaf Nederlandse IP-adressen, tegen transparante tarieven.",
     bullets: [
       "Pakketten van 8 tot 50+ geplaatste links per maand",
       "Homepage-, partnerpagina- en bedrijvenpagina-links",
@@ -802,16 +814,24 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Standaard",
-        p: "8 zoektermen 12-15 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 2 artikelen per maand € 250,- 12-15 linkjes per maand (minimale DA 8)",
+        h: "Linkbuilding: een blijvende rankingfactor",
+        p: "Links van andere relevante websites gelden voor Google als een aanbeveling en dragen bij aan een hogere positie in de zoekresultaten.",
       },
       {
-        h: "Aanbevolen",
-        p: "10 zoektermen 25 geplaatste linkjes per maan Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 4 artikelen € 375,- 25 linkjes per maand (minimale DA 8)",
+        h: "Van basis tot XXL",
+        p: "Onze pakketten lopen op van 8 links per maand met 1 artikel tot 50 of meer links per maand met minimaal 4 artikelen, altijd gericht op relevante zoektermen voor jouw markt.",
       },
       {
-        h: "XXL",
-        p: "15 zoektermen Vanaf 50 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links Minimaal 4 artikelen per maand € 650,- Vanaf 50 linkjes per maand (minimale DA 8)",
+        h: "Kwalitatieve links, geen shortcuts",
+        p: "We plaatsen links vanaf Nederlandse IP-adressen, met een minimale domeinautoriteit, via homepage-, partnerpagina- en bedrijvenpagina-links — geen risicovolle massaplaatsing.",
+      },
+      {
+        h: "Wat kost linkbuilding?",
+        p: "Onze linkbuildingpakketten zijn onderdeel van een doorlopende SEO-strategie vanaf € 999,- per maand. Losse werkzaamheden rekenen we tegen € 90,- per uur.",
+      },
+      {
+        h: "Transparante werkwijze",
+        p: "We werken op basis van duidelijke afspraken en transparantie over kosten versus werkzaamheden, zodat je precies weet welke links wanneer geplaatst worden.",
       },
     ],
     faq: [
