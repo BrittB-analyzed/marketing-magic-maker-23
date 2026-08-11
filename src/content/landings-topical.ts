@@ -3,12 +3,10 @@ import type { Landing } from "./landings";
 export const TOPICAL_LANDINGS: Record<string, Landing> = {
   "seo-bureau": {
     eyebrow: "SEO",
-    h1: "SEO bureau: structureel meer vindbaarheid en omzet uit Google",
+    h1: "Behaal meer online rendement met een SEO bureau",
     title: "SEO Bureau — Zoekmachineoptimalisatie door B. Analyzed",
-    description:
-      "Op zoek naar een SEO bureau dat écht rendement boekt? B. Analyzed combineert techniek, content en linkbuilding met zichtbaarheid in ChatGPT en Gemini (GEO).",
-    intro:
-      "Zoekmachineoptimalisatie is voor de meeste bedrijven inmiddels de belangrijkste manier om nieuwe klanten te bereiken. Als SEO bureau zorgen wij dat jouw website voldoet aan de regels van Google én steeds vaker terugkomt in AI-antwoorden.",
+    description: "Op zoek naar een SEO bureau dat écht rendement boekt? B. Analyzed combineert techniek, content en linkbuilding met zichtbaarheid in ChatGPT en Gemini (GEO).",
+    intro: "SEO, ofwel zoekmachine optimalisatie, is niet meer weg te denken in deze tijd. Voor veel webwinkel eigenaren, dienstverleners, bloggers en online bureaus is het dé manier om de doelgroep te bereiken en bezoekers op de website te krijgen. Tegenwoordig is de vindbaarheid in Google essentieel voor je online business. Met een SEO expert kun je hoger in de Google ranking komen met jouw website.",
     bullets: [
       "Zoekwoordenonderzoek gericht op woorden die ook echt converteren",
       "Technische SEO, sterke SEO-teksten en een gezond backlinkprofiel",
@@ -16,24 +14,76 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Waarom een SEO bureau inschakelen",
-        p: "Zoekmachineoptimalisatie is een doorlopend proces: er zijn altijd nieuwe potentiële klanten en Google past de algoritmes voortdurend aan. Een SEO bureau zorgt dat je website continu voldoet aan de laatste eisen, zodat je bovenaan blijft staan als iemand naar jouw product of dienst zoekt.",
+        h: "SEO Bureau – het Belang",
+        p: "Zoekmachineoptimalisatie is een doorlopend proces, want er zijn altijd nieuwe potentiële klanten. Daarnaast verandert Google de algoritmen constant zodat je ook op de hoogte moet blijven van deze veranderingen. Als je een SEO bureau inschakelt, ben je er zeker van dat een website volgens alle ‘regels’ van het zoekalgoritme van Google wordt gemaakt. Hoe beter Google jouw website vindt, hoe groter de kans dat je bovenaan in de lijst van suggesties komt te staan als iemand naar jouw product, service of blog-onderwerp zoekt.",
       },
       {
         h: "Het belang van de juiste zoekwoorden",
-        p: "Met gedegen zoekwoordenonderzoek bepalen we op welke termen jouw website beter gevonden moet worden. Die zoekwoorden verwerken we vervolgens in overtuigende SEO-content, zodat je site niet alleen vindbaar is, maar ook converteert.",
+        p: "Om de vindbaarheid van jouw website te vergroten is het gebruik van de juiste zoekwoorden erg belangrijk. Een SEO bureau kan door een gedegen onderzoek bepalen met welke zoekwoorden jouw website beter gevonden wordt. Vervolgens worden de belangrijkste zoekwoorden in de SEO content verwerkt door ervaren en creatieve SEO tekstschrijvers, zodat je website informatief en leesbaar blijft. Immers, het belang van kwalitatieve content op een website wordt door zoekmachines steeds belangrijker gevonden.",
       },
       {
-        h: "Een sterk backlinkprofiel",
-        p: "Links van andere relevante websites gelden voor Google nog altijd als een aanbeveling. Wij bouwen kwalitatieve backlinks op die passen bij jouw markt, zonder risicovolle shortcuts.",
+        h: "Het belang van (back)links",
+        p: "Vervolgens gaat ons full service internet marketing bureau aan de slag met linken van de verschillende pagina’s op jouw website. Daarnaast zorgen we ervoor dat er zoveel mogelijk externe links (backlinks) op andere relevante websites geplaatst worden. Backlinks zijn een links op een andere website die terugverwijzen naar je eigen site. En alhoewel ze zijn minder belangrijk zijn geworden door Google’s complexe algoritmen, dragen ze nog altijd bij aan de sterkte en de waarde van je website. Hoe beter de backlinks, des te hoger je site gerangschikt wordt.",
       },
       {
-        h: "Onze werkwijze: technisch, on-page en strategisch",
-        p: "We starten met een technische analyse en zoekwoordenonderzoek, werken door naar on-page optimalisatie en contentcreatie, en bouwen aan een linkbuildingstrategie. Elke maand krijg je een rapportage met een persoonlijke video-uitleg.",
+        h: "Waarom kiezen voor B. Analyzed?",
+        p: "Meer dan 10 jaar ervaring Aantoonbare Resultaten Transparante werkwijze Beoordeeld met een 9.8 op Google Mijn Bedrijf +50 tevreden klanten gingen jou voor Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI",
       },
       {
-        h: "SEO en GEO gaan hand in hand",
-        p: "Steeds meer mensen stellen hun vraag aan ChatGPT, Gemini of Perplexity in plaats van Google. Wij optimaliseren je content zodat AI-zoekmachines jouw bedrijf als bron gebruiken — naast de klassieke Google-resultaten.",
+        h: "Andere factoren",
+        p: "Zelfs als dit allemaal in orde is, ben je er nog niet; er zijn nog talloze andere factoren die bepalen of je website goed geoptimaliseerd is of dat deze het toch aflegt tegen beter geoptimaliseerde concurrenten. SEO is een gecompliceerd proces zijn en het algoritme van Google verandert ook nog eens continu. Je begrijpt dat het precies volgen van alle veranderingen en het technische werk uitvoeren erg veel tijd kost.",
+      },
+      {
+        h: "SEO bureau – tijd en kosten besparend!",
+        p: "Daarom kiezen steeds meer ondernemers ervoor om hun online marketing uitbesteden aan een SEO bureau: dit scheelt tijd die je goed kan gebruiken voor je onderneming en je bent er zeker van de SEO goed uitgevoerd wordt. Ons internet marketing bedrijf weet als geen ander hoe een website het beste geoptimaliseerd kan worden. Daarnaast weten we alles over de ins en outs van Google en andere zoekmachines zoals Bing en Yahoo. Een SEO bureau kan jouw website dus letterlijk naar een hoger niveau tillen, wat je veel rendement oplevert!",
+      },
+      {
+        h: "SEO Bureau B.Analyzed – Onze werkwijze",
+        p: "Als je je SEO laat uitbesteden aan ons SEO bureau beginnen we met een uitgebreide situatie-analyse. We verrichten een uitvoerig marktonderzoek en bekijken de huidige SEO prestaties. We kijken o.a. naar je website, de prestaties van de concurrenten en de kansen in de markt. Deze SEO audit is de basis voor onze online strategie. Als je een goede ranking wilt is On-page optimalisatie essentieel. Wij zorgen ervoor dat de zoekmachines weten waar de pagina’s over gaan, dat ze relevant zijn zonder over-optimalisatie. Daarnaast werken wij volgens de SEO richtlijnen van Google.",
+      },
+      {
+        h: "Technische SEO",
+        p: "Als jouw SEO technisch niet in orde is dan kan dit van invloed zijn op je rankings en SEO scores. De specialisten van ons zoekmachine optimalisatie bureau scannen en analyseren de website om meer dan 100 belangrijke SEO factoren en lossen de problemen op.",
+      },
+      {
+        h: "Zoekwoorden onderzoek",
+        p: "We gaan ook hierin voor het maximale haalbare resultaat. Met een uitgebreid zoekwoorden onderzoek gaan we op zoek naar transactionele en informatieve zoekwoorden die je potentiële klanten gebruiken. We kijken naar zoekvolumes, zoekwoord moeilijkheidsgraad, relevantie en uiteraard de zoekwoorden van je concurrenten. Uiteraard gaan we zorgen voor een aantal top 3 posities in Google.",
+      },
+      {
+        h: "SEO Teksten",
+        p: "Als je top posities in Google wilt zijn zoekmachine geoptimaliseerde teksten essentieel. Wij zorgen ervoor dat de content op de website aansluit op de wensen en behoeftes van de bezoeker en klant en uiteraard op een manier dat Google weet waar de pagina over gaat en volgens de SEO richtlijnen van Google.",
+      },
+      {
+        h: "SEO strategie",
+        p: "Ons SEO bureau kan je helpen met een goede sitestructuur en de juiste zoekwoorden selectie. Vanuit het zoekwoorden onderzoek wordt de SEO content strategie opgezet. Dat bestaat naast een goede sitestructuur en content ook uit een content strategie met bijvoorbeeld blogartikelen.",
+      },
+      {
+        h: "Sterk backlinkprofiel",
+        p: "Kwalitatieve links naar jouw website vanuit andere relevante websites zorgt voor meer online zichtbaarheid. Met de juiste linkbuilding strategie zorg je voor meer relevante bezoekers en een hogere waarde van je website. Wanner je een SEO pakket bij ons afneemt is het linkbuilding uitbesteden al opgenomen in jouw pakket.",
+      },
+      {
+        h: "B.Analyzed: transparant en werk op maat",
+        p: "Ons zoekmachine optimalisatie bureau zorgt voor op maat gemaakte rapportages. Je krijgt een overzicht van je bezoekers aantallen, rankings van verschillende keywords en toename van het aantal behaalde doelen. Werkzaamheden zijn op maat en de snelheid van het behalen van resultaat verschilt per klant. Uiteraard kunnen we hier een inschatting van maken. Hieronder vind je een case van een klant die zijn SEO uitbesteden overliet aan B.Analyzed en een overzicht van onze SEO werkzaamheden.",
+      },
+      {
+        h: "Onze werkwijze – Uitgelichte case voorbeeld",
+        p: "De opdrachtgever Taxi Venlo en Omstreken is een jong en professioneel taxibedrijf in Venlo en omgeving. Vanuit de standplaats in Venlo, biedt Taxi Venlo door heel Nederland representatief vervoer voor zowel particuliere als zakelijke klanten. Je kunt bij Taxi Venlo en omstreken terecht voor luchthavenvervoer naar onder andere Schiphol, Köln/Bonn, Brussel Airport (Zaventem/Chaleroi) en Düsseldorf. De uitdaging We krijgen de doelstelling om een nummer 1 positie in Google te behalen in zowel mobile search als desktop search met de belangrijkste zoekwoordcombinatie Taxi Venlo. Anno 2020 scoort Taxi Venlo een nummer 1 positie met: Google Adwords (betaalde advertentie) SEO (organische gratis positie in Google) Google Mijn Bedrijf (Google maps vermelding)",
+      },
+      {
+        h: "Onze aanpak",
+        p: "We starten met een oriënterend gesprek met de klant waarin we ingaan op o.a. missie, visie, doelstellingen en doelgroepen van het bedrijf. Vervolgens zorgen diverse website scans en metingen voor een duidelijke situatie-analyse. Aan de hand van een situatie-analyse wordt een plan vaan aanpak gemaakt. Taxi Venlo heeft een doelstelling die ze op zeer korte termijn willen halen. Deze informatie zorgt ervoor dat we direct aan de slag gaan met de quick wins en local SEO. Welke verbeteringen zijn makkelijk en snel aan te pakken en uit te voeren en wat zijn belangrijke rankingsfactoren? Enkele aanpassingen in de HTML titel, Headings en een https certificaat zorgen al na de eerste maand voor een stijging in de organische zoekresultaten.",
+      },
+      {
+        h: "De behaalde resultaten",
+        p: "Kostenbesparing door lagere maandfactuur van Google Adwords Conversie optimalisatie (dus hoger conversiepercentage) door een call-2-action button en snellere laadsnelheden Meer waardevolle relevante links, waardoor overall betere resultaten in Google Betere techniek, snellere website en dus een betere gebruikerservaring op de website",
+      },
+      {
+        h: "Overall verbeterde SEO score",
+        p: "TOP rankings in Google met nummer 1 positie in Google met o.a. belangrijkste trefwoord Taxi Venlo met een bijbehorend zoekvolume van 2900 keer per maand Toename van het aantal nieuwe klanten door online zichtbaarheid in Google",
+      },
+      {
+        h: "B. Analyzed: professioneel & ervaren SEO bureau",
+        p: "B. Analyzed is een zoekmachine optimalisatie bureau dat SEO tot een van zijn expertises mag noemen. Ons team van freelancers hebben een sterk analytisch denkvermogen en helpen jouw bedrijf naar de top van Google te klimmen. In tegenstelling tot veel andere zoekmachine marketing bureaus werkt B. Analyzed niet met langlopende contracten. We zijn een flexibel bureau dat meedenkt met de klant! Iedere maand wordt in overleg bepaald aan welke marketingdienst(en) we aandacht besteden en waar de focus op ligt. Daarnaast zijn we niet alleen een zoekmachine marketing bureau: wij kunnen je ook van dienst zijn met bijvoorbeeld SEA als Google Ads uitbesteden, display marketing, Google Analytics, Conversie optimalisatie, linkbuilding diensten en social media – en email marketing. Als online marketing bureau zijn wij al meerdere jaren actief voor vele tevreden klanten. Wil jij het maximale uit je website halen? Wil je je SEO uitbesteden? Schakel dan B. Analyzed marketing in! B.Analyzed verzorgt de SEO voor MKB en voor zelfstandigen. Wij zijn een professioneel online marketing bureau dat jouw website naar de top van Google brengt. Wij zorgen ervoor dat jouw website hoger in Google komt, meer relevant verkeer krijgt en dat jouw bedrijf uiteindelijk winstgevender wordt!",
       },
     ],
     faq: [
@@ -56,15 +106,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "Tarieven SEO", to: "/tarieven-seo/" },
     ],
   },
-
   "seo-consultant": {
     eyebrow: "SEO",
-    h1: "SEO consultant: onafhankelijk advies dat écht resultaat oplevert",
+    h1: "SEO consultant – Behaal meer online rendement, start vandaag nog!",
     title: "SEO Consultant — Persoonlijk SEO-advies | B. Analyzed",
-    description:
-      "Een SEO consultant inschakelen? B. Analyzed denkt met je mee over doelen, techniek en content en zorgt dat je ook zichtbaar bent in AI-zoekmachines.",
-    intro:
-      "Een SEO consultant helpt je gestructureerd de juiste keuzes te maken: van doelen bepalen tot een concreet actieplan. Wij combineren dat met scherpe rapportages, zodat je precies weet wat je investering oplevert.",
+    description: "Een SEO consultant inschakelen? B. Analyzed denkt met je mee over doelen, techniek en content en zorgt dat je ook zichtbaar bent in AI-zoekmachines.",
+    intro: "Wil je meer bezoekers of conversies via je website? Of heb je hulp nodig bij het vergroten van jouw organische websiteverkeer? Word je minder snel gevonden of staat jouw pagina laag in de Google rankings? Weet je niet wat je moet doen om de rankings te verbeteren? Maak dan eens een afspraak met een SEO consultant. Ons SEO consultancy kan jouw precies vertellen waar de knelpunten liggen en hoe deze op te lossen!",
     bullets: [
       "Samen concrete, meetbare doelen bepalen voor je website",
       "Snellere, gebruiksvriendelijke website en hogere geloofwaardigheid",
@@ -73,23 +120,47 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     sections: [
       {
         h: "Waarom een SEO consultant inschakelen?",
-        p: "Een SEO consultant kijkt objectief naar jouw website en markt, en stelt op basis daarvan een plan op waarmee je stap voor stap hoger in Google komt. Dat scheelt tijd en voorkomt kostbare fouten.",
+        p: "De eerste plek waar men tegenwoordig op zoek gaat naar bedrijven of producten is Google. Dit maakt de zoekmachine één van de belangrijkste plekken om gevonden te worden. Door te scoren binnen Google zorg je al snel voor meer bezoekers en extra conversies. Onze ervaren SEO consultant helpt je om meer conversies en bezoekers te trekken en uiteindelijk je omzet te laten groeien. Samen zorgen we ervoor dat jouw visitekaartje op het internet ook echt gezien gaat worden en gaan we aan de slag om jouw resultaten op het internet te maximaliseren. Beoordeeld met een 9.8 op Google Mijn Bedrijf +50 tevreden klanten gingen jou voor Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI",
       },
       {
         h: "Samen doelen bepalen voor jouw website",
-        p: "Voordat we aan de slag gaan, brengen we samen jouw doelstellingen in kaart: meer leads, meer sales of meer merkbekendheid. Die doelen vormen de basis van de SEO-strategie.",
+        p: "Geen één bedrijf is hetzelfde en daarom heeft iedereen weer andere doelen om te halen. Alleen hoe bepaal je een doelstelling voor de website van je bedrijf? Onze SEO consultant kan je adviseren welke doelen voor jouw bedrijf haalbaar zijn. Samen gaan we kijken wat er voor jouw van belang is om succesvol te zijn op het internet. Dit doen we als eerste door je website vindbaar te maken. Hierbij kijken we eerst hoe je huidige site presteert. We kijken naar de gebruikte zoekwoorden en jouw SEO content. Wat zou er eventueel beter kunnen en waar zouden we aanpassingen in aanbrengen? Vervolgens gaan we over tot een op maat gemaakte SEO strategie voor jouw bedrijf. Zodra jouw bedrijf onze aanbevelingen en optimalisatie heeft toegepast, zal onze SEO consultancy alles controleren om fouten en prestatieproblemen te voorkomen. Daarnaast gaan we verder met het vinden van meer manieren om jouw campagne te ontwikkelen en uit te breiden. We creëren voortdurend nieuwe marketingstrategieën om het verkeer op jouw website en de algehele ROI te verbeteren.",
       },
       {
-        h: "De voordelen van SEO op een rij",
-        p: "Een geoptimaliseerde website is sneller en gebruiksvriendelijker, wekt meer vertrouwen bij bezoekers en trekt bezoekers aan die daadwerkelijk klant willen worden. Dat zorgt voor een blijvende daling van je kosten per acquisitie.",
+        h: "De voordelen van SEO",
+        p: "Zoekmachineoptimalisatie heeft vele voordelen en is wellicht de meest betaalbare en kosteneffectieve vorm van online adverteren, meer dan sociale media of betaalde advertenties. Wanneer goed uitgevoerd, door een ervaren SEO-consultant, zal het zowel de kwaliteit als de kwantiteit van jouw organische verkeer verhogen en jouw brengen op de eerste pagina van Google. Hieronder volgt een kleine opsomming van de voordelen:",
       },
       {
-        h: "Blijvende voordelen, geen tijdelijke boost",
-        p: "In tegenstelling tot advertenties bouwt SEO aan een fundament dat blijft renderen, ook wanneer je het budget verlaagt. Zo speel je op de lange termijn een gelijk speelveld met grotere concurrenten.",
+        h: "Snelle, gebruiksvriendelijke websites",
+        p: "Het lijdt geen twijfel dat gebruikerservaring en gebruikersgedrag tegenwoordig een belangrijke rankingfactor zijn. Bovendien helpt het inbedden van SEO in jouw website bij het creëren van een snelle, robuuste en gebruiksvriendelijke website die hoger scoort op de eerste pagina van zoekmachines. Dit brengt op zijn beurt gekwalificeerde leads en potentiële klanten naar jouw website en stimuleert de conversies.",
       },
       {
-        h: "Ook SEO consultancy voor AI-zichtbaarheid",
-        p: "Naast klassieke Google-posities kijken we ook naar GEO: hoe zorgen we dat ChatGPT, Gemini en Perplexity jouw bedrijf noemen in hun antwoorden? Dat nemen we mee in het adviesplan.",
+        h: "Verhoogde geloofwaardigheid en vertrouwen",
+        p: "Een hoge positie in de zoekresultaten geeft de zoekers aan dat je een belangrijke speler bent in een specifieke branche en vergroot je naamsbekendheid. Omgekeerd gelooft de doelgroep ook (terecht of onterecht) dat hoe lager je in de natuurlijke zoekresultaten staat, hoe minder betrouwbaar je bent.",
+      },
+      {
+        h: "Toename van hooggekwalificeerd verkeer",
+        p: "De doelgroepen van zoekmachines zijn “in de vraag”-modus en vertellen je al waar ze naar op zoek zijn, wat een prachtig aspect is van deze vorm van online marketing. Topposities op de pagina’s met zoekresultaten van zoekmachines worden het vaakst bezocht, dus een hoge positie tot Google kan leiden tot een aanzienlijke toename van het verkeer voor jouw website en meer dus meer (potentiële) klanten.",
+      },
+      {
+        h: "Daling van de kosten per acquisitie",
+        p: "SEO is veel goedkoper dan adverteren om klanten te werven. In feite is een gerichte SEO campagne blijvend en is het de beste vorm van een internet marketing strategie. Het is ook nog eens kostenbesparend omdat de enige kosten die je hebt, de kosten zijn voor het inhuren van een freelance SEO-consultant. Tenzij je ervaring hebt met het coderen van websites en Google-algoritmen, heb je een SEO consultancy nodig om SEO campagnes te formuleren en je rankings te laten groeien.",
+      },
+      {
+        h: "SEO consultant inschakelen heeft blijvende voordelen",
+        p: "SEO is een investering en marketingstrategieën geven geen beter rendement dan dit. Het kost tijd, kennis en inspanning om het van onder de knie te krijgen. Als je het echter goed doet, of uitbesteed aan een freelance SEO consultant kunnen de effecten zich tot ver in de toekomst uitstrekken. De gebruikerservaring en het gebruikersgedrag worden verbeterd en jouw algehele online zichtbaarheid wordt in de goede richting geduwd. Een SEO consultant zorgt er voor dat je goed scoort in de Google rankings wat je in de komende maanden en jaren een toenemende stroom van verkeer en potentiële leads oplevert.",
+      },
+      {
+        h: "Gelijk speelveld",
+        p: "Een gedegen SEO consultant stelt kleinere bedrijven in staat om te concurreren met grote bedrijven en bedrijven. Het is echter niet noodzakelijk het geval dat degene die het meeste uitgeeft, wint, hoewel andere consultants misschien anders vertellen. Met andere woorden, het gebruik van een beetje creativiteit en handigheid kan je een voordeel opleveren ten opzichte van je concurrenten, zelfs als je concurrenten grotere budgetten hebben.",
+      },
+      {
+        h: "Waarom voor B.Analyzed kiezen als jouw SEO consultanty?",
+        p: "Onze SEO consultancy is gericht op het genereren van gekwalificeerde leads via organisch verkeer naar jouw site met hoge conversie percentages. Hierdoor hebben wij een uitstekende staat van dienst in het leveren van resultaten voor klanten in zelfs de meest concurrerende industrieën. Wij verzorgen zoekmachine optimalisatie MKB alsmede voor (kleine) zelfstandigen. Onze SEO consultant richt zich op de doelstellingen van jouw bedrijf en zorgt voor een transparante en een persoonlijke benadering. Met meer dan 10 jaar ervaring als SEO-consultant die zowel grote als kleine bedrijven helpt hun verkeer te vergroten, heeft online marketing bureau B.Analyzed SEO-adviesdiensten ontwikkeld die jouw bedrijf helpen slagen je vindbaarheid te vergroten. Wil je meer weten wat wij voor jou als freelance SEO consultant kunnen betekenen? Wil je je SEO uitbesteden? Of je online marketing uitbesteden? Neem dan contact met ons op voor een vrijblijvend en oriënterend gesprek. Wij brengen je graag (terug) naar de top!",
+      },
+      {
+        h: "Bij +25 klanten werken we wekelijks aan groei",
+        p: "Wij kunnen zelf wel vertellen hoe wij werken en wij kunnen jou de geboekte resultaten laten zien. Misschien ben je ook benieuwd wat klanten van ons vinden. Samen gaan we altijd voor RESULTAAT. Nieuwsgierig hoe? Bekijk onze klantwaarderingen! Je bent bij ons aan het juiste adres wanneer je op zoek bent naar een SEO bureau en zoekt naar SEO Maastricht SEO Rotterdam SEO Venlo Online marketing Venlo SEO Limburg Menu reCAPTCHA",
       },
     ],
     faq: [
@@ -112,15 +183,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "Online marketing strategie", to: "/online-marketing-strategie/" },
     ],
   },
-
   "seo-content": {
     eyebrow: "SEO",
-    h1: "SEO content: teksten die scoren én converteren",
+    h1: "SEO content – verbeter je content strategie!",
     title: "SEO Content laten schrijven | B. Analyzed",
-    description:
-      "Goede SEO content is de basis van elke succesvolle SEO-strategie. B. Analyzed schrijft teksten die gevonden worden in Google én worden aangehaald door AI-zoekmachines.",
-    intro:
-      "SEO is in de kern contentmarketing: zonder relevante, goed geschreven pagina's heeft technische optimalisatie weinig zin. Wij schrijven SEO content die zoekwoorden, leesbaarheid en conversie combineert.",
+    description: "Goede SEO content is de basis van elke succesvolle SEO-strategie. B. Analyzed schrijft teksten die gevonden worden in Google én worden aangehaald door AI-zoekmachines.",
+    intro: "Wat is SEO content precies? Content betreft de inhoud van jouw website: de tekst die je geschreven hebt, afbeeldingen en filmpjes die je toegevoegd hebt… kortom, de informatie die je geeft aan de bezoeker op jouw webpagina. Wanneer deze informatie creatief, interessant of behulpzaam is, bijvoorbeeld omdat het een creatieve blog is over een interessant of populair onderwerp, geeft dit een toegevoegde waarde aan de lezer. Marketeers gebruiken de toegevoegde waarde van deze content om meer mensen te inspireren en uiteindelijk aan te zetten tot conversies in de vorm van het kopen van een product of het invullen van een mailadres (onder andere door content marketing tools in te zetten).",
     bullets: [
       "Content op basis van gedegen zoekwoordenonderzoek",
       "Leesbare, overtuigende teksten die ook echt converteren",
@@ -128,24 +196,28 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "SEO is contentmarketing",
-        p: "Zonder waardevolle content vindt Google weinig reden om je pagina hoog te laten scoren. Contentmarketing en SEO liggen daarom in elkaars verlengde: goede content trekt bezoekers, houdt ze vast en overtuigt ze.",
+        h: "Content marketing",
+        p: "Veel mensen denken dat deze content marketing los staat van SEO en dus een aparte marketingstrategie is, maar eigenlijk werken content marketing en SEO hand in hand. De eerste stap van goede content marketing is namelijk het trekken van veel verkeer naar de website, iets waar SEO voor kan zorgen! SEO-geoptimaliseerde content wordt veel sneller opgepakt door zoekmachines, omdat precies de juiste zoekwoorden op een correcte manier in de tekst verwerkt zijn. Door kwalitatieve SEO content op jouw website te plaatsen zul je dus veel sneller door jouw doelgroep gevonden worden, en zullen uiteindelijk jouw conversies verbeteren.",
       },
       {
         h: "Goede SEO content schrijven",
-        p: "We verwerken de belangrijkste zoekwoorden natuurlijk in de tekst, houden rekening met synoniemen en verwante begrippen, en schrijven in een toon die past bij jouw doelgroep — informatief, maar ook overtuigend.",
+        p: "Wat is goede SEO content? En hoe zorg je er voor dat er kwalitatieve content op jouw webpagina komt te staan? SEO content schrijven van hoge kwaliteit is vaak moeilijker dan wordt gedacht, omdat er veel verschillende aspecten bij komen kijken: ✓ de schrijfstijl moet correct maar creatief zijn, ✓ de informatie moet betrouwbaar en waardevol zijn, ✓ de content moet conversie-verhogend zijn",
       },
       {
-        h: "Technische SEO als basis",
-        p: "Naast de tekst zelf kijken we naar structuur: koppen, interne links, metadata en leesbaarheid. Zo weet Google precies waar jouw pagina over gaat en wanneer hij getoond moet worden.",
+        h: "Technische SEO",
+        p: "De technische kant van SEO (bijvoorbeeld de laadsnelheid van de pagina) moet bij het genereren van content ook in de gaten gehouden worden. Kortom; het (leren) schrijven van goede SEO content kan een tijdrovend, gecompliceerd proces worden, waar drukke ondernemers vaak niet aan toe kunnen komen. Gelukkig kan B.Analyzed als SEO consultant je adviseren over het schrijven van relevante content voor je website. Hierbij houden we niet alleen rekening met de laatste SEO trends, maar ook met conversie verhogende content. Je wilt tenslotte niet alleen gevonden worden op het internet, maar ook conversies boeken via je website om uiteindelijk winst te maken. Wij hebben hier al veel ervaring mee, en aan onze klantwaarderingen kun je zien dat wij al goede resultaten geboekt hebben!",
       },
       {
         h: "Laat je SEO content door een expert schrijven",
-        p: "Onze copywriters combineren SEO-kennis met schrijfervaring, zodat je content niet alleen goed scoort, maar ook prettig leest en vertrouwen wekt bij bezoekers.",
+        p: "Het schrijven van goede content voor je website is vaak lastiger dan je zou denken, en kan veel tijd kosten, Gelukkig kan B.Analyzed als SEO bureau je helpen om de juiste content voor je site te schrijven, wat je veel tijd kan besparen. Hierbij houden wij rekening met de belangrijkste zoekopdrachten op je website, maar ook hoe je meer conversies kan boeken. Bovendien bieden wij een link building pakket aan, waarmee een natuurlijk linkprofiel tussen de verschillende pagina’s op jouw website opgebouwd kan worden. Uiteindelijk moet je website veel meer worden dan een mooi visitekaartje. Het moet de plek worden waar je klanten contact gaan opnemen voor je diensten. Samen gaan we ervoor zorgen dat je omzet gaat groeien met de juiste SEO content.",
       },
       {
         h: "Kwalitatief verkeer naar je website trekken",
-        p: "Het doel is niet zomaar meer bezoekers, maar bezoekers die ook daadwerkelijk klant worden. Daarom schrijven we content die aansluit op de zoekintentie van jouw potentiële klant.",
+        p: "Het primaire doel is om kwalitatief verkeer naar je website te trekken. Dit kan alleen als je content hierop ingespeeld is. Naast content die ervoor zorgt dat bezoekers op je website terecht komen is het belangrijk dat ze tot conversie overgaan. Wij kunnen je website aantrekkelijk maken voor bezoekers, zodat ze uiteindelijk sneller zullen overgaan tot een conversie via de website. Wil je weten wat wij voor jou kunnen doen? Vraag dan de offerte aan. Ben je benieuwd wat ons online marketing bureau voor je kan betekenen? Neem gerust contact met ons op voor een vrijblijvend gesprek over de mogelijkheden en kansen met je huidige content. Hebben wij je interesse gewekt, of heb je nog vragen? Wij horen graag van je!",
+      },
+      {
+        h: "B.Analyzed: een veelzijdig online marketing bureau",
+        p: "Wil je meer weten over B.Analyzed, of zocht je een andere marketingterm? Bezoek hier onze andere pagina’s en ontdek hoe veelzijdig we zijn: SEO specialist SEO expert SEA expert SEO Eindhoven SEO Maastricht SEO Rotterdam SEO Nijmegen SEO partner SEO guru SEO score SEO ranking SEO marketing SEO consultant SEO Venlo Gratis SEO Scan Menu reCAPTCHA",
       },
     ],
     faq: [
@@ -168,15 +240,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "SEO bureau", to: "/seo-bureau/" },
     ],
   },
-
   "seo-expert": {
     eyebrow: "SEO",
-    h1: "SEO expert inschakelen: klim structureel naar de top van Google",
+    h1: "SEO Expert inschakelen om naar de top van Google te klimmen",
     title: "SEO Expert inhuren | B. Analyzed",
-    description:
-      "Een SEO expert weet als geen ander hoe je hoger rankt in Google. B. Analyzed levert bewezen resultaat op techniek, content en linkbuilding — plus zichtbaarheid in AI.",
-    intro:
-      "Een SEO expert is een online marketeer die weet hoe je websites vindbaar maakt met tools als Google Analytics, Search Console en Ahrefs. Onze experts combineren technische kennis met een scherp oog voor content en resultaat.",
+    description: "Een SEO expert weet als geen ander hoe je hoger rankt in Google. B. Analyzed levert bewezen resultaat op techniek, content en linkbuilding — plus zichtbaarheid in AI.",
+    intro: "Het woord SEO is een afkorting van Search Engine Optimalisation of in het Nederlands, zoekmachine optimalisatie. Een SEO expert is een online marketeer die weet hoe websites met relevante en vaak gebruikte zoekopdrachten vindbaar te maken in zoekmachines als Google, Bing en Yahoo door het gebruik van SEO tools als bijvoorbeeld Google Analytics, Search Console en Ahrefs. Dit doet de specialist met behulp van een SEO strategie. De beste SEO specialisten weten goede rankings te behalen in de organische zoekresultaten (niet betaalde zoekresultaten).",
     bullets: [
       "Grondige website-analyse op meer dan 100 SEO-factoren",
       "Zoekwoordenonderzoek naar transactionele en informatieve termen",
@@ -184,24 +253,72 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Wat doet een SEO-specialist?",
-        p: "Een SEO expert zorgt dat je website vindbaar wordt op relevante en veelgebruikte zoekopdrachten in Google, Bing en andere zoekmachines, met behulp van een doordachte SEO-strategie.",
+        h: "Het belang van SEO experts",
+        p: "Elke ondernemer wilt goed vindbaar zijn en zijn of haar website hoger in Google laten ranken. SEO staat voor zoekmachine optimalisatie ofwel search engine optimization en is tegenwoordig niet meer weg te denken als een onderdeel van je online marketing strategie. Als je een geweldig product of een fantastische service aanbiedt, maar je bent niet vindbaar op Google, dan wordt je alsnog niet meegenomen in de aankoopbeslissing. Daardoor ben je dus lang niet zo succesvol als je zou kunnen zijn, simpelweg omdat je doelgroep niet van jouw bestaan weet. Wil je hier verandering in brengen? Onze SEO guru helpt je verder!",
       },
       {
-        h: "Algoritmes bepalen de rankings",
-        p: "Zoekmachines gebruiken meer dan 200 factoren om te bepalen welke pagina's het meest relevant zijn — factoren die continu veranderen. Een goede SEO-expert weet precies hoe hij die factoren op jouw pagina toepast.",
+        h: "Algoritmes bepalen de rankings en SEO scores",
+        p: "Deze zoekmachines gebruiken een wiskundig algoritme om te bepalen welke pagina’s het meest relevant zijn voor bepaalde zoekwoorden. Er zijn inmiddels meer dan 200 factoren die bepalen hoe goed jouw website gevonden wordt in dit algoritme, factoren die ook nog eens continu veranderen. Een goede SEO-specialist weet als geen ander hoe hij of zij die factoren kan doorvoeren op jouw pagina, waardoor deze kwalitatief sterk kan verbeteren!",
       },
       {
         h: "Techniek als basis",
-        p: "Een website moet goed gecodeerd, snel, toegankelijk en veilig zijn. We houden rekening met title tags, headers, schema.org en Google PageSpeed Insights, en lossen technische SEO-problemen structureel op.",
+        p: "Techniek is de basis voor je vindbaarheid in Google. Een website moet tegenwoordig niet alleen goed gecodeerd zijn en goed geïndexeerd worden, maar ook snel, toegankelijk en veilig zijn.Wij houden bijvoorbeeld rekening met title tags, headers, schema.org, en Google PageSpeed Insights. Daarnaast zorgen we voor een goede technische basis voor je vindbaarheid in Google. Als jouw SEO technisch niet in orde is dan kan dit van invloed zijn op je rankings en SEO scores. Onze SEO expert scant en analyseert de website om meer dan 100 belangrijke SEO factoren en lost de problemen op. We gaan hierin voor het maximale haalbare resultaat.",
       },
       {
-        h: "Het belang van linkbuilding",
-        p: "Links van andere relevante sites gelden als aanbeveling voor Google en dragen bij aan de kracht van je website. Onze experts brengen in kaart welke linkmogelijkheden het beste bij jouw site passen.",
+        h: "Zoekwoorden",
+        p: "Om de vindbaarheid van jouw website te vergroten is het gebruik van de juiste zoekwoorden erg belangrijk. Wanneer ondernemers een SEO expert inhuren kan deze door een gedegen zoekwoorden onderzoek bepalen met welke zoekwoorden jouw website beter gevonden wordt. Met een uitgebreid zoekwoorden onderzoek gaan we op zoek naar transactionele en informatieve zoekwoorden die je potentiële klanten gebruiken. We kijken naar zoekvolumes, zoekwoord moeilijkheidsgraad, relevantie en uiteraard de zoekwoorden van je concurrenten.",
       },
       {
-        h: "Wat kost een SEO expert inhuren?",
-        p: "Het uurtarief van een SEO expert ligt doorgaans tussen de € 40,- en € 95,- per uur, afhankelijk van kennis en ervaring. Bij B. Analyzed reken je € 90,- per uur, of vanaf € 999,- per maand voor doorlopende begeleiding.",
+        h: "Relevante content",
+        p: "Vervolgens worden de belangrijkste zoekwoorden in de tekst verwerkt door ervaren en creatieve SEO tekstschrijvers, zodat je website informatief en leesbaar blijft. Immers, het belang van kwalitatieve SEO content op een website wordt door zoekmachines steeds belangrijker gevonden. Bij B.Analyzed zorgen we voor webteksten die niet alleen voor meer bezoekers zorgen, maar ook meer leads en sales. Naast de relevante en waardevolle zoekwoorden houden wij uiteraard ook rekening met het schrijven van synoniemen en latent semantische indexering.",
+      },
+      {
+        h: "Een goede SEO Expert:",
+        p: "✓ Doet een grondige website analyse en geeft verbetervoorstellen voor de structuur ✓ Doet onderzoek naar de beste keywords voor jouw pagina ✓ Weet hoog te ranken met competitieve zoekwoorden ✓ Heeft zowel oog voor de content als voor de technische optimalisatie (technische SEO) ✓ Geeft advies voor het opbouwen van populariteit ✓ Is een Google Analytics specialist ✓ Biedt kwalitatieve linkbuilding bureau diensten aan ✓ Houdt de nieuwste SEO-ontwikkelingen bij in maandelijkse rapportage en optimalisaties ✓ Weet alles over zoekmachine marketing ✓ gebruikt local SEO voor nog betere resultaten",
+      },
+      {
+        h: "Het belang van link building",
+        p: "Tenslotte is het belangrijk dat andere websites verwijzen naar jouw website. Dit kan door middel van links van andere relevante websites naar jouw website. Deze links worden door Google gezien als een aanbeveling en spelen een belangrijke rol in de posities die je pagina krijgt in de zoekresultaten. Deze backlinks zijn links op een andere website die terugverwijzen naar je eigen site. En alhoewel ze minder belangrijk zijn geworden door Google’s complexe algoritmen, dragen ze nog altijd bij aan de sterkte en de waarde van je website. Hoe beter de backlinks, des te hoger je site gerangschikt wordt en des te meer bezoekers de website krijg. Een expert SEO brengt in kaart hoe het gesteld is met de links naar jouw website en naar die van je concurrenten. Vervolgens kijkt hij samen met jou welke link mogelijkheden het beste passen bij je website en hoe deze te behalen zijn. Dit proces wordt ook wel link building genoemd.",
+      },
+      {
+        h: "Andere factoren",
+        p: "Zelfs als dit allemaal in orde is, ben je er nog niet; er zijn nog talloze andere factoren die bepalen of je website goed geoptimaliseerd is of dat deze het toch aflegt tegen beter geoptimaliseerde concurrenten. SEO is een gecompliceerd proces zijn en het algoritme van Google verandert ook nog eens continu. Je begrijpt dat het precies volgen van alle veranderingen en het technische werk uitvoeren erg veel tijd kost. Daarom laten steeds meer ondernemers een SEO expert inhuren. Uiteraard is het belangrijk dat de specialist een goede samenwerking heeft met de opdrachtgevers zodat het maximale resultaat behaald kan worden.",
+      },
+      {
+        h: "Waarom een SEO expert inhuren?",
+        p: "Het doel van zoekmachines als Google is om de meest relevante zoekresultaten te tonen voor een specifieke zoekopdracht. Dit levert veel extra aandacht op zonder dat je daarvoor hoeft te betalen. Tevens is de gemiddelde bezoektijd op de website langer, is het bouncepercentage beter, en is er een hogere conversie wanneer de bezoeker via het gratis zoeknetwerk op de website is gekomen dan wanneer de bezoeker via een advertentie binnenkomt. Het optimaliseren van jouw website kan echter een ingewikkelde zaak worden: het kost veel tijd om alle 200 factoren in het algoritme van de zoekmachines te leren kennen, en daarbij veranderen ze ook nog eens continu. Drukke ondernemers hebben vaak geen tijd om dit zelf op zich te nemen, maar willen natuurlijk wel graag van deze sterke boost voor hun website gebruik maken! Een goede SEO specialist inhuren is daarom de perfecte oplossing: deze expert weet precies hoe jouw website op de juiste manier onder de aandacht komt bij mensen die ook naar je op zoek zijn. Ben je benieuwd naar hoe wij als SEO bureau denken over SEO en hoe we dat kunnen toepassen op jouw website? Neem eens contact met ons op voor een vrijblijvend gesprek. Wij zijn flexibel en denken mee met de klant. Dat betekent dat we op welke manier dan ook (eenmalig, tijdelijk of als SEO consultant op afstand) de online marketing en online prestaties van jouw bedrijf naar een hoger niveau kunnen brengen. Daarrnaast verzorgen wij SEO voor MKB alsmede voor zelfstandigen!",
+      },
+      {
+        h: "Wat kost een SEO specialist inhuren?",
+        p: "Het uurtarief van een SEO consultant ligt tussen de 40 euro en 95 euro per uur. Vaak zit het verschil in de kennis en het niveau van werken. Voor een analyse maken, conclusies trekken en actiepunten uitzetten en je hersenen te gebruiken is meer kennis nodig dan enkel een SEO geoptimaliseerde tekst schrijven. Er zijn ook diverse soorten SEO-ers, de één is goed in techniek, de ander weer in creatief schrijven, de ander weer in creatieve linkbuilding. Wanneer een SEO-er, naast het verhogen van organisch verkeer, ook nog een sterk analytisch denkvermogen heeft, dan ben je bij een van onze specialisten op het juiste adres.",
+      },
+      {
+        h: "Ons team van SEO specialisten",
+        p: "Ons team van online marketeers en WordPress specialisten is een groep van hoogopgeleide professionals in zoekmachineoptimalisatie, met meer dan 10 jaar ervaring. We blijven de trends voor, zodat onze klanten optimale resultaten behalen. Inmiddels zijn al honderden tevreden bedrijven je voorgegaan. We dus hebben keer op keer bewezen dat we goede resultaten behalen! Wil jij: ✓ Jouw doelgroep op een efficiënte manier bereiken? ✓ Bovenaan komen te staan in Google? ✓ Professioneel website advies? ✓ Meer relevant verkeer naar jouw pagina? ✓ Advies en hulp van een ervaren SEO Expert? ✓ En daardoor een hogere omzet draaien? Ben je benieuwd hoe dit zich vertaalt naar jouw specifieke onderneming, en wil je weten wat wij voor jouw website kunnen betekenen? Laat dan eerst een gratis website scan doen!",
+      },
+      {
+        h: "Wie zijn wij?",
+        p: "B. Analyzed is een online marketing bureau dat gespecialiseerd is in online marketing diensten, waaronder zoekmachine optimalisatie SEO en Google Ads (SEA). Door te kiezen voor ons SEO bureau, garanderen wij de meest succesvolle online marketing strategie. Ons team bestaat uit online marketeers, website developers, WP-specialisten, social media experts, content specialisten en programmeurs die iedere dag hard werken aan effectieve online marketing strategieën, met als belangrijkste doel, uiteraard, betere omzetcijfers voor onze klanten.",
+      },
+      {
+        h: "Diverse klanten",
+        p: "Wij helpen kleine, middelgrote en grote B-2-B en B-2-C bedrijven met het verbeteren van hun online marketing resultaten en SEO. Dit doen we door het gebruik van verschillende marketing tools zoals bijvoorbeeld Google Analytics en door het opzetten van verschillende online marketing strategieën die passen bij de doelgroep en doelstellingen van jouw bedrijf.",
+      },
+      {
+        h: "Focus",
+        p: "Onze hoofdfocus is omzetgroei, ongeacht welk soort bedrijf of organisatie. Dit doen wij door iedere situatie apart te bekijken en de juiste marketing kanalen in te zetten. Ambitieuze en gedreven internet experts staan dagelijks klaar om jouw online presentaties te verbeteren. Kennis van zaken, jarenlange ervaring, tevreden klanten, scholing en ontwikkeling zijn belangrijke waarden bij de specialisten van B.Analyzed.",
+      },
+      {
+        h: "B.Analyzed: breed inzetbaar",
+        p: "Daarnaast zijn we niet alleen een zoekmachine marketing bureau: wij kunnen je ook van dienst zijn met bijvoorbeeld Google Ads uitbesteden, Display marketing, Google Analytics, Conversie optimalisatie, en social media – en email marketing. Als online marketing bureau zijn wij al meerdere jaren actief voor vele tevreden klanten.",
+      },
+      {
+        h: "Flexibiliteit",
+        p: "Wij zijn uiterst flexibel en denken mee met elke klant. Dat betekent dat wij op welke manier dan ook (eenmalig, tijdelijk, terugkerend of als consultant op afstand) de online marketing en online prestaties van jouw bedrijf naar een hoger niveau kunnen tillen! Wil je meer weten over de inzetbaarheid van een SEO-specialist? Neem dan contact met ons op voor een vrijblijvend gesprek.",
+      },
+      {
+        h: "Beste advies",
+        p: "Wil jij het maximale uit je website halen? Of je SEO uitbesteden? Schakel dan B.Analyzed marketing in! Wij zijn een professioneel online marketing bureau dat jouw website naar de top van Google brengt. Wij zorgen ervoor dat jouw website hoger in Google komt, meer relevant verkeer krijgt en dat jouw bedrijf uiteindelijk winstgevender wordt! Een SEO specialist inhuren was nog nooit zo gemakkelijk!",
       },
     ],
     faq: [
@@ -224,15 +341,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "SEO voor MKB", to: "/seo-voor-mkb/" },
     ],
   },
-
   "seo-guru": {
     eyebrow: "SEO",
-    h1: "SEO guru: jouw persoonlijke specialist voor zoekmachineoptimalisatie",
+    h1: "SEO guru– Behaal meer online rendement, start vandaag nog!",
     title: "SEO Guru — Persoonlijke SEO-specialist | B. Analyzed",
-    description:
-      "Op zoek naar een SEO guru die écht aantoonbare resultaten boekt? B. Analyzed combineert bewezen SEO-kennis met zichtbaarheid in AI-zoekmachines.",
-    intro:
-      "Iedereen kan zich een 'SEO guru' noemen, maar niet iedereen heeft de ervaring en expertise om ook echt het verschil te maken. Bij B. Analyzed werken specialisten die bewezen resultaten hebben behaald voor tientallen klanten.",
+    description: "Op zoek naar een SEO guru die écht aantoonbare resultaten boekt? B. Analyzed combineert bewezen SEO-kennis met zichtbaarheid in AI-zoekmachines.",
+    intro: "Een SEO guru inhuren voor jouw zoekmachine optimalisatie? Geen probleem! Wij zijn een professioneel online marketing bureau en kunnen jou helpen om online beter gevonden te worden. Samen gaan we aan de slag om jouw website beter vindbaar te maken bij het grote publiek! Dus wil jij: ✓ Scoren op relevante zoekwoorden? ✓ Veel aandacht op van potentiële klanten zonder per klik te betalen? ✓ Je conversies verhogen? ✓ Bovenaan komen te staan in alle relevante zoekmachines? Een echte SEO guru weet precies hoe deze vragen beantwoord worden en hoe jouw website het beste aangepakt kan worden.",
     bullets: [
       "Scoren op relevante zoekwoorden zonder te betalen per klik",
       "Meer dan 100 behaalde nummer 1-posities in Google",
@@ -240,24 +354,24 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Jouw persoonlijke SEO guru",
-        p: "Samen gaan we aan de slag om jouw website beter vindbaar te maken bij het grote publiek: scoren op relevante zoekwoorden, meer aandacht zonder te betalen per klik, en hogere conversies.",
+        h: "Search Engine Optimization (SEO)",
+        p: "SEO staat voor Search Engine Optimization, oftewel zoekmachine optimalisatie. SEO houdt dus in dat een website zo wordt aangepast dat hij volgens de zoekmachines zoals Google van hoge kwaliteit is. De criteria van de zoekmachines voor een goede website worden allemaal nagelopen, wat vervolgens weer voor een hogere ranking in deze zoekmachines zorgt. Deze hogere ranking is ontzettend belangrijk: hoe hoger je scoort in de zoekmachines, hoe meer verkeer je naar je website krijgt, wat uiteraard je conversies en dus je winst flink kan laten stijgen. En dat voor relatief lage kosten! Beoordeeld met een 9.8 op Google Mijn Bedrijf +50 tevreden klanten gingen jou voor Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI",
       },
       {
-        h: "Wat is Search Engine Optimization (SEO)?",
-        p: "SEO houdt in dat een website zo wordt aangepast dat zoekmachines zoals Google hem als hoge kwaliteit beoordelen. Hoe hoger je scoort, hoe meer verkeer, conversies en winst dat oplevert — tegen relatief lage kosten.",
+        h: "Waarom een SEO Guru inhuren?",
+        p: "Het optimaliseren van een website is echter gecompliceerder dan het op het eerste gezicht lijkt. Alleen Google gebruikt al meer dan 200 criteria, die ook nog eens om de paar maanden veranderen en aangepast worden. Het is dus erg moeilijk om altijd op de hoogte te zijn van de talloze verschillende optimalisatie methodes die de website in ranking kunnen laten stijgen. Daarom kan het voor drukke ondernemers een slimme zet zijn om een SEO guru in te huren: dit is een specialist op het gebied van Search Engine Optimization en die als geen ander de ins en outs van de zoekmachine-criteria kent. Een zoekwoorden onderzoek, SEO content verbeteren en SEO teksten laten schrijven zijn een van de vele mogelijkheden. Een professionele SEO guru weet precies hoe jouw website te laten scoren in de Google ranking en kan dit in no-time voor elkaar krijgen! De juiste zoekoptimalisatie methode kan daarom voor een flinke boost zorgen voor jouw onderneming. Wie wilt nou niet nummer 1 in Google ranken?",
       },
       {
-        h: "Waarom een SEO guru inhuren?",
-        p: "Google gebruikt meer dan 200 criteria die ook nog eens regelmatig veranderen. Voor drukke ondernemers is het daarom een slimme zet om een specialist in te schakelen die deze criteria als geen ander kent.",
+        h: "Seo guru bij B.analyzed",
+        p: "Heb jij ook interesse in het verbeteren van jouw website? Zorg er dan wel voor dat je een seo guru benadert die aantoonbare resultaten heeft behaald. Iedereen kan zichzelf een “guru” noemen, maar niet iedereen heeft ook de ervaring en expertise die nodig zijn om écht het verschil te maken. Elke seo guru van B.Analyzed heeft die ervaring en expertise in huis en ze hebben al talloze keren uitmuntende resultaten behaald met zoekmachine optimalisatie MKB en voor zelfstandigen!",
       },
       {
-        h: "Aantoonbare resultaten",
-        p: "Onze klanten worden gemiddeld beoordeeld met een 9,8 op Google Mijn Bedrijf en we behaalden inmiddels meer dan 100 nummer 1-posities in Google — met een gegarandeerd sterke ROI.",
+        h: "B.Analyzed: flexibel en breed inzetbaar",
+        p: "Naast onze werkzaamheden als SEO guru hebben wij de expertise voor nog vele andere diensten in huis. Bedrijven die hun online marketing uitbesteden aan B. Analyzed, kunnen we niet alleen helpen met webpagina’s optimaliseren voor zoekmachines, maar kunnen ook met Google analytics, Google Ads, SEA diensten, conversieratio optimalisatie, social media- en email marketing. Daarnaast bieden we diverse full service online marketing pakketten van hoge kwaliteit aan!",
       },
       {
-        h: "Flexibel en breed inzetbaar",
-        p: "Naast SEO helpen we ook met Google Analytics, Google Ads, conversieoptimalisatie en social- en e-mailmarketing, zodat je bij ons terechtkan voor je hele online marketingstrategie.",
+        h: "B.Analyzed: overal beschikbaar!",
+        p: "Niet alleen wat betreft de diensten die wij aanbieden zijn wij flexibel, maar ook wat betreft de locatie: want of je nou in het noorden van Groningen of in het zuiden van Limburg werkt, of zelfs buiten Nederland behoefte hebt aan onze diensten, wij kunnen je overal helpen! Omdat B.Analyzed op afstand werkt zijn wij overal bereikbaar. Tot nu toe hebben wij al klanten geholpen in onder andere Maastricht, Rotterdam en Nijmegen, maar ook in Ibiza en Thailand. Dus waar je ter wereld je ook bevindt, B.Analyzed is altijd voor jouw bedrijf bereikbaar! Menu reCAPTCHA",
       },
     ],
     faq: [
@@ -280,15 +394,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "SEO voor MKB", to: "/seo-voor-mkb/" },
     ],
   },
-
   "seo-partner": {
     eyebrow: "SEO",
-    h1: "SEO partner: samen bouwen aan structureel meer online resultaat",
+    h1: "SEO uitbesteden aan een SEO partner",
     title: "SEO Partner — SEO uitbesteden aan B. Analyzed",
-    description:
-      "SEO uitbesteden aan een SEO partner die met je meedenkt? B. Analyzed vormt een dreamteam met jouw kennis van je onderneming en onze SEO-expertise.",
-    intro:
-      "Wij noemen onszelf bewust een SEO partner, geen leverancier. Jij weet als geen ander wat jouw bedrijf uniek maakt; wij vullen dat aan met kennis van zoekwoorden, content en linkbuilding.",
+    description: "SEO uitbesteden aan een SEO partner die met je meedenkt? B. Analyzed vormt een dreamteam met jouw kennis van je onderneming en onze SEO-expertise.",
+    intro: "Waarom noemen wij ons een SEO partner? Om alles uit jouw website te halen denken wij dat het erg belangrijk is om samen te werken. Jij, als ondernemer, weet namelijk als geen ander wat jouw bedrijf uniek maakt en waarom jouw product of service toegevoegde waarde heeft voor jouw doelgroep: eigenlijk ben jij dus de expert van jouw eigen onderneming. B.Analyzed, als professioneel online marketing bureau, kan deze expertise heel goed aanvullen met haar kennis op verschillende gebieden, bijvoorbeeld door het plaatsen van backlinks, het verbeteren van je SEO content door een zoekwoorden onderzoek te starten en relevante zoekwoorden te gebruiken in jouw content. Daarnaast weten we precies hoe de unique selling points van jouw bedrijf kunnen worden gebruikt voor succesvolle marketingstrategieën om jouw website te optimaliseren.",
     bullets: [
       "Samenwerking waarin jouw kennis en onze SEO-expertise samenkomen",
       "SEO-uitbesteden bespaart je veel tijd en technisch gedoe",
@@ -296,24 +407,28 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Waarom een SEO-partner inschakelen?",
-        p: "Om alles uit je website te halen is samenwerking essentieel. Jij bent de expert van je eigen onderneming; wij vullen dat aan met kennis van backlinks, SEO content en zoekwoordenonderzoek.",
+        h: "Vorm een dreamteam met B.Analyzed online marketing bureau",
+        p: "Dus wanneer jouw kennis van de onderneming gekoppeld wordt aan onze expertise in SEO en marketing, ontstaat een samenwerkingsverband waar heel veel waardevolle resultaten uit kunnen komen. Zie jij zo’n SEO partner wel zitten? Dan staat B.Analyzed voor je klaar! Wij verzorgen de SEO voor MKB alsmede voor zelfstandigen. > Top bedrijf! Een half jaar geleden begonnen met de samenwerking. Met een mega groot resultaat in ons bedrijf. > > Meer aanvragen. Verbeteringen in onze website. Britt is een echte SEO-specialist!",
       },
       {
-        h: "Vorm een dreamteam met B. Analyzed",
-        p: "Wanneer jouw kennis van de onderneming gekoppeld wordt aan onze expertise in SEO en marketing, ontstaat een samenwerking waar veel waardevolle resultaten uit voortkomen.",
+        h: "Bespaar tijd en vergroot jouw online vindbaarheid met een SEO expert",
+        p: "Wanneer je je SEO laat uitbesteden kun je veel tijd besparen. Search Engine Optimization, ofwel zoekmachine optimalisatie, kan erg technisch en tijdrovend werk zijn. Zoekmachines gebruiken gecompliceerde wiskundige algoritmen met meer dan 200 criteria om te bepalen welke websites bovenaan komen te staan. Het kost al veel tijd om al deze criteria te leren kennen en te begrijpen, en ze veranderen ook nog eens continu. Veel ondernemers hebben geen tijd om zich hier echt in te verdiepen, en daarom kan de SEO uitbesteden een goede zet zijn: een echte SEO expert kent de criteria van de zoekmachines als geen ander en kan de doelen die jij stelt voor je website snel vertalen naar een slimme SEO-strategie. Hierdoor vergroot je je vindbaarheid in de online zoekresultaten!",
       },
       {
-        h: "Bespaar tijd en vergroot je vindbaarheid",
-        p: "Zoekmachines gebruiken gecompliceerde algoritmen met meer dan 200 criteria. Het kost veel tijd om die allemaal te leren kennen — reden genoeg om SEO uit te besteden aan een partner die dit al beheerst.",
+        h: "Meer weten over onze diensten?",
+        p: "Als SEO partner geven wij graag advies over de mogelijkheden voor jouw website. Maar wist je dat we, naast SEO, nog veel meer diensten aanbieden? Zo zijn wij ook SEA specialist, kunnen we jouw conversie verhogen, hebben we veel kennis van Google Analytics, en geven we algemeen website advies. Uiteraard geven we ook extra informatie over onze werkwijze en de kosten om je site te optimaliseren. Wij helpen je graag om jouw website onder de aandacht te brengen bij jouw doelgroep, en kunnen je een mix van onze diensten aanbieden die perfect bij je past. Heb je interesse in ons als SEO partner, of in onze diensten in het algemeen? Neem dan contact met ons op!",
       },
       {
-        h: "Meer dan alleen SEO",
-        p: "Als SEO partner geven we ook advies over Google Ads, conversieoptimalisatie, Google Analytics en algemeen website-advies, zodat je bij ons een passende mix van diensten kunt afnemen.",
+        h: "SEO partner B. Analyzed marketing = locatie onafhankelijk!",
+        p: "Niet alleen wat betreft de diensten die wij aanbieden zijn wij flexibel, maar ook wat betreft de locatie: want of je nou in het noorden van Groningen of in het zuiden van Limburg werkt, of zelfs buiten Nederland behoefte hebt aan onze diensten, wij kunnen je overal helpen! Omdat jouw SEO partner B. Analyzed op afstand werkt zijn wij overal bereikbaar. Tot nu toe hebben wij al klanten geholpen in onder andere Maastricht, Rotterdam en Nijmegen, maar ook in Ibiza en Thailand. Dus waar je ook bent, B. Analyzed marketing is bereikbaar! SEO Eindhoven SEO Nijmegen SEO Rotterdam SEO Maastricht SEO Limburg",
       },
       {
-        h: "Locatieonafhankelijk samenwerken",
-        p: "We werken volledig op afstand samen via heldere rapportages en video-uitleg, waardoor we opdrachtgevers door heel Nederland en België net zo goed kunnen bedienen als in onze eigen regio.",
+        h: "Welke SEO-technieken gebruikt een SEO partner ?",
+        p: "Als MKB’er wil je zeker dat jouw online aanwezigheid optimaal is. Een zoekmachine optimalisatie bureau als B.Analyzed kan daarbij helpen. Door het uitbesteden van SEO aan een SEO-partner krijg jij de juiste seo-strategie om online succes te vieren. Samen stellen we eerst doelen vast, zoals meer relevante bezoekers of een plek in de top van Google’s zoekresultaten. Een zoekwoordenanalyse geeft relevante termen uit jouw branche. Aan de hand van het zoekwoordenonderzoek kunnen we je bestaande content optimaliseren of nieuwe content schrijven. Technische aspecten van je website als de laadsnelheid worden geoptimaliseerd voor gebruikerservaring. Met content marketing, waaronder het creëren en optimaliseren van content voor zoekmachines, bouwen we autoriteit op. Een transparante rapportage geeft maandelijks inzicht in je zoekmachine optimalisatie zodat jij je vindbaarheid en de conversies uit online marketing verder kunt verbeteren. Of je nu een MKB’er of een grotere organisatie bent, onze SEO-specialisten met jaren ervaring helpen je website te optimaliseren voor zoekmachines in 2024. Zoekmachine marketing is meer dan alleen linkbuilding en meta tags. Met ons totaalpakket aan seo-technieken tillen we jouw online zichtbaarheid naar een hoger niveau.",
+      },
+      {
+        h: "Neem contact op met jouw SEO partner voor direct resultaat!",
+        p: "Heb je interesse in ons als SEO partner, of in onze diensten in het algemeen? Neem dan contact met ons op! Menu reCAPTCHA",
       },
     ],
     faq: [
@@ -336,15 +451,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "SEO voor MKB", to: "/seo-voor-mkb/" },
     ],
   },
-
   "seo-score": {
     eyebrow: "SEO",
-    h1: "SEO score: weet precies waar je website staat",
+    h1: "SEO score",
     title: "SEO Score check | B. Analyzed",
-    description:
-      "Wat is jouw SEO score? B. Analyzed brengt de technische en inhoudelijke staat van je website in kaart en geeft een concreet plan van aanpak om te verbeteren.",
-    intro:
-      "Een SEO score geeft je in één oogopslag inzicht in hoe goed jouw website scoort op de belangrijkste rankingfactoren. Wij maken die score inzichtelijk en vertalen 'm naar een concreet verbeterplan.",
+    description: "Wat is jouw SEO score? B. Analyzed brengt de technische en inhoudelijke staat van je website in kaart en geeft een concreet plan van aanpak om te verbeteren.",
+    intro: "De SEO score laat zien hoe jouw website scoort binnen de verschillende zoekmachines. Door deze te berekenen krijg je een duidelijk beeld van wat de mogelijke verbeterpunten zijn. Als ondernemer is het belangrijk om je score in de gaten te houden en hier eventueel aanpassingen op te doen.",
     bullets: [
       "Duidelijk overzicht van sterke en zwakke punten van je website",
       "Concreet plan van aanpak met heldere doelstellingen",
@@ -352,24 +464,36 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Wat is een SEO score?",
-        p: "Je SEO score laat zien hoe goed je website scoort op factoren als techniek, content, snelheid en linkprofiel. Het is de basis om gericht te bepalen waar verbetering het meeste oplevert.",
+        h: "De voordelen van een SEO score check",
+        p: "Alleen Google gebruikt meer dan 200 bekende rangschikking factoren bij het bepalen van de score van jouw website. Met zoveel rangschikking factoren, is het gemakkelijk om overweldigd te raken door het enorme aantal variabelen om bij te houden.Het is dan ook raadzaam om een hiervoor een SEO bureau als B.Analyzed in de arm te nemen. Een SEO score check meet hoe goed jouw website presteert op een aantal belangrijke SEO-factoren, zoals inhoud en technische instellingen. Hoe hoger de score, hoe groter de kans dat jouw pagina’s beter scoren in Google en andere zoekmachines. Hoe beter je scoort, hoe meer organisch verkeer je naar jouw website leidt.",
       },
       {
-        h: "De voordelen van een SEO score check",
-        p: "Met een score check behoud je overzicht: je weet precies welke onderdelen aandacht nodig hebben en welke al goed presteren, in plaats van in het wilde weg te optimaliseren.",
+        h: "Behoud het overzicht",
+        p: "Wij kunnen door het gebruik van een gecombineerde SEO score check op een eenvoudige en transparante manier laten te zien hoe goed jouw website het doet op het gebied van organische zoekprestaties. Scoort de site goed tegenover de concurrentie of kan dit verbeterd worden? Welke zoekwoorden moeten in de content verwerkt worden om een betere zichtbaarheid te creëren?",
       },
       {
         h: "Duidelijk plan van aanpak",
-        p: "Op basis van de score stellen we een concreet plan op: wat pakken we als eerste aan, wat is de verwachte impact, en binnen welke termijn zie je resultaat.",
+        p: "Op basis van deze SEO score maken we een plan van aanpak en brengen we in kaart welke problemen opgelost moeten worden. Samen gaan we ervoor zorgen dat je score verbeterd en dat je beter vindbaar gaat worden op het internet. Een bijkomend voordeel van het bijhouden van je score is dat wij je kunnen helpen bij het formuleren en volgen van een online marketing strategie voor de lange termijn.",
       },
       {
         h: "Heldere doelstellingen",
-        p: "We koppelen de score aan meetbare doelen, zodat je precies weet waar je naartoe werkt en of de genomen stappen ook echt effect hebben.",
+        p: "Door een SEO score te berekenen krijgen we een duidelijk beeld van waar er nog winst te behalen valt. Op basis van deze scoren kunnen we nieuwe doelstellingen bepalen voor je bedrijf. De weg naar een succesvolle zoekmachine marketing begint tenslotte bij het bepalen van een doel. Naar welk doel wil je graag toewerken? Wat wil je op het lange termijn gaan bereiken met je website? Wil je graag meer bezoekers trekken of alleen het aantal conversies verbeteren? Aan de hand van onze check, de SEO score en jouw doelen kunnen we samen de doelstellingen bepalen voor je onderneming.",
+      },
+      {
+        h: "De voordelen van B.Analyzed op een rijtje:",
+        p: "Meer dan 10 jaar ervaring Aantoonbare resultaten Terugkerende SEO opdrachtgevers Gegarandeerd resultaat 55 nummer 1 posities in Google Focus op meer conversies (leads)",
       },
       {
         h: "Gerichte zoekresultaten voor je website",
-        p: "Een hogere SEO score vertaalt zich direct in een betere vindbaarheid: meer relevante bezoekers, meer aanvragen en op termijn meer omzet.",
+        p: "Meer verkeer naar je website is uiteraard fantastisch, maar relevant verkeer is belangrijker. Het is natuurlijk hartstikke leuk dat je meer bezoekers trekt naar je website. Alleen, zijn deze bezoekers ook echt op zoek naar jouw producten of diensten? Het is belangrijk dat het publiek dat je trekt ook echt relevant is voor je bedrijf. Op het lange termijn gaan we ervoor zorgen dat het juiste publiek je website weet te vinden.",
+      },
+      {
+        h: "Hogere vindbaarheid",
+        p: "Samen gaan we ervoor zorgen dat je doelstelling ook echt voor meer conversies gaat zorgen op je website. Het uiteindelijke resultaat van het werken aan een betere score is dat jouw website een hogere zichtbaarheid krijgt op Google en andere zoekmachines. Dit betekent dat meer bezoekers naar jouw site komen en bekend worden met je merk, jouw diensten of producten. Aarzel dus niet en schakel ons online marketing bureau B.Analyzed in voor een check van je SEO score!",
+      },
+      {
+        h: "Waarom kiezen voor B.Analyzed?",
+        p: "Zoekmachine optimalisatie is een doorlopend proces, want er zijn altijd nieuwe potentiële klanten en daarnaast verandert Google de algoritmes om de paar maanden. Met een op maat gemaakte SEO strategie kan jij het maximale uit je website halen. Check je SEO score of laat je SEO uitbesteden aan B.Analyzed en wij zorgen ervoor dat jouw website hoger in Google komt, dat jouw website meer relevant verkeer krijgt en dat jouw bedrijf uiteindelijk winstgevender wordt! Gratis SEO Scan Menu reCAPTCHA",
       },
     ],
     faq: [
@@ -392,15 +516,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "Tarieven SEO", to: "/tarieven-seo/" },
     ],
   },
-
   "online-marketing-bureau-nederland": {
     eyebrow: "Online marketing",
-    h1: "Online marketing bureau Nederland: één partner voor al je digitale groei",
+    h1: "Online marketing bureau Nederland",
     title: "Online Marketing Bureau Nederland | B. Analyzed",
-    description:
-      "B. Analyzed is een online marketing bureau dat door heel Nederland werkt: van SEO en Google Ads tot social media en GEO-zichtbaarheid in AI-zoekmachines.",
-    intro:
-      "Als online marketing bureau helpen wij bedrijven door heel Nederland structureel te groeien: van zoekmachineoptimalisatie tot Google Ads en social media, altijd met heldere rapportages.",
+    description: "B. Analyzed is een online marketing bureau dat door heel Nederland werkt: van SEO en Google Ads tot social media en GEO-zichtbaarheid in AI-zoekmachines.",
+    intro: "Wat is het belang van online marketing? Tegenwoordig speelt de bereidheid om over te gaan tot een aankoop voornamelijk op internet af. Of het nu gaat om adverteren of een betere vindbaarheid van je website, een online marketing strategie is niet meer weg te denken in de bedrijfsvoering.",
     bullets: [
       "Eén aanspreekpunt voor SEO, SEA, social en content",
       "Gedeelde kennis en korte lijnen zonder ruis",
@@ -408,24 +529,40 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Waarom een online marketing bureau inschakelen?",
-        p: "Door de gedeelde kennis van een heel team werk je efficiënter dan met losse freelancers. We nemen je vragen en twijfels weg en werken toe naar concrete, meetbare resultaten.",
+        h: "Gedeelde kennis",
+        p: "Om alles uit jouw website te halen denken wij dat het erg belangrijk is om samen te werken. Jij, als ondernemer, weet namelijk als geen ander wat jouw bedrijf uniek maakt en waarom jouw product of service toegevoegde waarde heeft voor jouw doelgroep: eigenlijk ben jij dus de expert van jouw eigen onderneming. B.Analyze is een online marketing bureau en kan deze expertise heel goed aanvullen met haar kennis op verschillende gebieden. Zoals bijvoorbeeld het verbeteren van je SEO content door een zoekwoorden onderzoek, of door een succesvolle Google Ads campagne op te zetten. Wij weten precies hoe de unique selling points van jouw bedrijf kunnen worden gebruikt voor succesvolle marketingstrategieën en goede zoekmachine optimalisatie.",
       },
       {
-        h: "Hoe gaat B. Analyzed te werk?",
-        p: "We beginnen met het bepalen van je bedrijfssituatie, gevolgd door een website- en concurrentieanalyse. Op basis daarvan bepalen we uitdagingen en kansen en stellen we samen een stappenplan op.",
+        h: "Samenwerking",
+        p: "Dus wanneer jouw kennis van de onderneming gekoppeld wordt aan onze expertise in SEO, SEA en online marketing strategieën, ontstaat een samenwerkingsverband waar heel veel waardevolle resultaten uit kunnen komen. Zie jij zo’n SEO partner wel zitten? Dan staat ons online marketing bureau Nederland, ofwel B.Analyzed, voor je klaar!",
       },
       {
-        h: "Website- en concurrentieanalyse",
-        p: "We brengen in kaart hoe jouw website presteert ten opzichte van de concurrentie, zodat we weten waar de grootste kansen liggen voor snelle en structurele winst.",
+        h: "Hoe gaat B.Analyzed te werk?",
+        p: "Als jouw online marketing bureau Nederland gaan we meteen aan de slag! We gaan met jou aan tafel om jouw bedrijfssituatie in kaart te brengen door uitvoerig stil te staan bij jouw behaalde resultaten, jouw doelstellingen en verwachtingen.",
       },
       {
-        h: "Online marketing bureau door heel Nederland",
-        p: "We werken vanuit Venlo, maar bedienen opdrachtgevers door heel Nederland en België — van ZZP'er tot MKB en internationale e-commerce shops.",
+        h: "De bedrijfssituatie bepalen",
+        p: "In deze eerste fase brengt ons online marketing bedrijf de huidige bedrijfssituatie in kaart. We gaan kijken naar jouw diensten en/of producten, jouw (potentiële) doelgroepen, de huidige marketing mix, de missie en visie van jouw bedrijf, et cetera. Vervolgens bepalen we de korte termijn doelstellingen, en bekijken we welke quick wins we kunnen oppakken. Uiteraard bekijken en bepalen we ook de lange termijn doelstellingen.",
       },
       {
-        h: "Het verschil maken met GEO en SEO",
-        p: "Naast klassieke SEO en SEA kijken we steeds vaker naar GEO: hoe zorg je dat je bedrijf ook wordt genoemd in ChatGPT, Gemini en Perplexity? Dat nemen we standaard mee in onze strategie.",
+        h: "Website- en concurrentie analyse",
+        p: "Daarnaast doen we een 0-meting van de website. Is de website technisch in orde, wat zijn de huidige rankings en hoe ziet het link building profiel eruit? Uiteraard zit linkbuilding uitbesteden ook in ons pakket. Ook maken we een concurrentieanalyse. Wie zijn de concurrenten en wat is het onderscheidend vermogen t.o.v. de concurrenten? Uiteindelijk kijken we met welke aanpassingen we jouw leads en sales kunnen maximaliseren. Deze stappen worden verwerkt in een complete situatie-analyse. Dit verwerken we in een online marketingstrategie.",
+      },
+      {
+        h: "Uitdagingen en kansen bepalen",
+        p: "We bekijken aan de hand van de situatie-analyse welke kansen en uitdagingen er zijn. Welke mix van marketingkanalen gaan we inzetten om de doelgroepen op de juiste momenten te benaderen?",
+      },
+      {
+        h: "Gezamenlijk stappenplan opstellen",
+        p: "Door middel van het bepalen van de doelstellingen (ofwel KPI’s) bepalen we in overleg met elkaar de aanpak en tijdsplanning. We selecteren de marketingkanalen en bepalen samen het marketingbudget. Ook bepalen we de frequentie van rapportages en overleg. Samenwerken met ons als online marketing bureau Nederland levert je de beste resultaten op!",
+      },
+      {
+        h: "Over online marketing bureau Nederland",
+        p: "Online marketing is onze passie. B. Analyzed marketing is een online marketing specialist op het gebied van zoekmachine optimalisatie (SEO), maar ook voor Google Ads uitbesteden en lead generation kun je bij ons terecht. De specialisten van ons online marketing bureau Nederland hebben meer dan 10 jaar ervaring. Een expert kan je altijd vrijblijvend voorzien van consultancy op maat. Om het beste resultaat te behalen werken wij samen met experts op het gebied van programmering, web design, event marketing en SEO tekst schrijvers.",
+      },
+      {
+        h: "Het verschil maken",
+        p: "Er zijn natuurlijk talloze freelancers of online marketing bureau’s die in zekere zin hetzelfde doen. Het grote verschil zit hem in het onderscheidende vermogen. Als online marketing bureau Nederland begrijpen wij dat je bedrijf véél verder gaat dan alleen je website. We verdiepen ons daarom niet alleen in de techniek en uitstraling van je website, maar willen ook alles weten of je strategie, je diensten of producten, je klanten en je doelgroep en over jouw bedrijf. Wij zien jou namelijk als partner, niet als klant. Jouw succes is ons succes. En vice versa. Wij snappen online marketing. Jij snapt jouw doelgroep. Samen komen we tot een optimaal resultaat voor jouw bedrijf. Wil jij meer weten over onze diensten als online marketing bureau Nederland? Wil jij je SEO uitbesteden aan een zoekmachine optimalisatie bureau? Neem dan contact met ons op voor een vrijblijvend en oriënterend gesprek! Wij helpen je graag verder! Bekijk ook eens: SEO Venlo SEO bureau Rotterdam SEO Bureau Maastricht SEO Nijmegen SEO expert Offerte aanvragen Menu reCAPTCHA",
       },
     ],
     faq: [
@@ -448,15 +585,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "Online marketing diensten", to: "/online-marketing/" },
     ],
   },
-
   "online-marketing-venlo": {
     eyebrow: "Online marketing",
-    h1: "Online marketing Venlo: lokale kennis, landelijk resultaat",
+    h1: "Online marketing Venlo – Behaal meer online rendement!",
     title: "Online Marketing Venlo | B. Analyzed",
-    description:
-      "Op zoek naar een online marketingbureau in Venlo? B. Analyzed helpt ondernemers uit Venlo en omgeving met SEO, Google Ads, social media en GEO.",
-    intro:
-      "Als online marketingbureau gevestigd in Venlo kennen we de regio als geen ander. We helpen lokale ondernemers structureel meer bezoekers, leads en omzet te behalen.",
+    description: "Op zoek naar een online marketingbureau in Venlo? B. Analyzed helpt ondernemers uit Venlo en omgeving met SEO, Google Ads, social media en GEO.",
+    intro: "Vaak denken ondernemers nog dat de meeste leads toch uit hun eigen omgeving voortkomen, en dat internet marketing niet nodig is. Online marketing is echter een redelijk goedkope manier om de juiste mensen te bereiken. Online vindbaarheid wordt steeds belangrijker. Je kunt deze werkzaamheden nu eenmaal niet allemaal zelf uitvoeren, het is handig om hier een professioneel kantoor voor in te schakelen.",
     bullets: [
       "Persoonlijk contact, korte lijnen, geen wachttijden",
       "Ervaring met concurrentie uit Nederland én Duitsland",
@@ -464,24 +598,24 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Het zoeken van een marketingbureau in Venlo",
-        p: "Veel Venlose ondernemers zoeken een partij die de lokale markt begrijpt, maar ook landelijk en internationaal kan meedenken. Als bureau uit Venlo combineren wij beide.",
+        h: "Online marketing diensten Venlo nodig?",
+        p: "Voor veel bedrijfseigenaren zal het niet makkelijk zijn om al die online taken goed onder de knie te krijgen. Het is dan ook eenvoudiger om het gewoon uit te besteden aan een bedreven online marketing bureau. Een goed online marketing bureau zal voor jouw organisatie een maatwerk strategie opstellen, door middel van deze strategie weet je gelijk waar de focus op moet gaan liggen. Bij het maken van die strategie worden ook de middelen die je gaat inzetten bepaald. Dit soort werkzaamheden zijn altijd maatwerk, waardoor iedere organisatie, klein of groot, geholpen kan worden door een online marketing bureau in Venlo. . Beoordeeld met een 9.8 op Google Mijn Bedrijf +50 tevreden klanten gingen jou voor Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI",
       },
       {
-        h: "Online marketing diensten in Venlo",
-        p: "Van zoekmachineoptimalisatie en Google Ads tot social media marketing en website-advies: we bieden een compleet pakket dat is toegespitst op jouw doelgroep in Venlo en omgeving.",
+        h: "Online marketing specialisten Venlo",
+        p: "Onze online marketing specialisten helpen je bij het opstellen van een heldere online marketingstrategie. In een kennismakingsgesprek bespreken we waar jouw bedrijf nu staat, maken we een swot-analyse en bekijken we de huidige marketingmix. Waar staan jullie nu en waar willen we naartoe? Daar geeft Analytics een beter beeld van. De huidige kanalen en alle relevante data-bronnen worden geanalyseerd. Dit gebruiken we als vertrekpunt voor het opstellen van de online marketingstrategie. We gaan vervolgens aan de slag met een prognose van de grootte van de potentiële doelgroep(en) op geografisch gebied en maken we meetbare doelstellingen (KPI’s) op. Het aanvalsplan komen we vervolgens bij jou op locatie presenteren.",
       },
       {
-        h: "Online marketingspecialisten uit Venlo",
-        p: "Ons team bestaat uit ervaren specialisten die dagelijks werken aan zichtbaarheid voor ondernemers in Noord-Limburg, met oog voor de grensregio en Duitse concurrentie.",
-      },
-      {
-        h: "Waarom een online marketingbureau in Venlo inschakelen?",
-        p: "Je bespaart tijd, voorkomt kostbare fouten en profiteert van kennis die specifiek is opgebouwd in en rond Venlo — inclusief inzicht in lokale zoekgedrag en concurrentie.",
+        h: "Online marketingbureau Venlo inschakelen?",
+        p: "Heb je geen online marketing bureau in Venlo? B. Analyzed is je graag van dienst vanuit Venlo met jouw online marketing benodigdheden. Want samen vinden we een online marketing strategie die past bij jouw bedrijf. B. Analyzed is namelijk een expert op het vlak van online marketing en zorgen altijd voor resultaat. Wij verzorgen zoekmachine optimalisatie MKB alsmede voor zelfstandigen! Als online marketing bureau bieden wij ook een waaier aan diensten waaronder een website en/of webshop bouwen voor jouw bedrijf, een SEO en SEA-campagne starten, linkbuilding, content marketing, social media marketing, remarketing, Google shopping en display advertising. Om te kunnen selecteren wat jouw bedrijf nodig heeft, zullen we eerst samen in gesprek moeten gaan. Klaar voor een nieuw avontuur? Wij gaan graag in gesprek, zodat we jou de beste opties kunnen voorleggen. Één van B. Analyzed online marketing bureau belangrijkste aandachtspunten is het behouden van lange-termijn relaties met onze klanten. Om die reden willen we hen ten aller tijde op de hoogte houden van wat er gebeurt op hun website. B. Analyzed doet dit door maandelijkse rapporten en adviezen samen te stellen, om aan te tonen hoe dicht onze klanten bij hun vastgelegde doelstellingen staan. Onze marketing experts kunnen dan de kansen, bedreigingen, sterktes en zwaktes van jouw website weergeven. Want we willen dat op alle opportuniteiten ingezet wordt. Verder geven de rapporten ook aan wat er nog veranderd moet worden en wat niet, waardoor jouw bedrijf zijn online-groei kan genereren. Wil je meer weten over ons aanbod, en hoe we jouw online aanwezigheid kunnen vergroten? Neem contact met ons op! Onze experts zijn elke werkdag aanwezig om jou te helpen.",
       },
       {
         h: "Online marketing Venlo is altijd een goede investering",
-        p: "Een goede online-marketingcampagne kan al voor een relatief laag budget een meetbaar effect en groot bereik hebben — zeker in een regio als Venlo waar veel bedrijven nog kansen laten liggen.",
+        p: "Aarzel niet langer en schakel zo snel mogelijk een online marketing bureau uit Venlo in. Wij hopen dat je met onze handvatten snel beland bij een marketingbureau dat perfect aansluit bij jouw wensen. Door middel van een online marketing bureau in Venlo ben je in staat om jouw bedrijf naar het volgende niveau te tillen. Haal jij al resultaat uit jouw online inspanningen maar denk je dat dit nog beter kan? Klik dan op conversie optimalisatie om meer uit je website verkeer uit bijvoorbeeld Venlo te halen. Vergelijk gemakkelijk en vrijblijvend onze professionele en betaalbare online marketing bureau uit Venlo, gespecialiseerd in SEO en Google Ads.",
+      },
+      {
+        h: "Meer weten?",
+        p: "Wil jij weten wat ons internet marketing bureau voor jou kan betekenen? Ben je op zoek naar een SEO specialist of heb je vragen over zoekmachine optimalisatie? Wil jij jouw online campagnes uitbesteden of wil je hulp bij search engine advertising? Wat je vraag ook is, je kan altijd contact opnemen met een van onze specialisten of plan een vrijblijvend gesprek in waarin we samen naar de mogelijkheden voor jouw bedrijf kijken! Je kunt bij ons ook terecht als je op zoek bent naar een SEO bureau Rotterdam of SEO bureau Maastricht. Ongeacht waar je bedrijf zich bevindt, wij kunnen je altijd van dienst zijn! Meer weten? Menu reCAPTCHA",
       },
     ],
     faq: [
@@ -504,15 +638,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "SEO Venlo", to: "/seo-venlo/" },
     ],
   },
-
   "marketingbureau-limburg": {
     eyebrow: "Online marketing",
-    h1: "Marketingbureau Limburg: online groei met regionale kennis",
+    h1: "Behaal meer online rendement met B. Analyzed marketingbureau Limburg",
     title: "Marketingbureau Limburg | B. Analyzed",
-    description:
-      "B. Analyzed is een marketingbureau in Limburg dat ondernemers helpt met SEO, Google Ads en social media, met oog voor de grensregio en AI-zichtbaarheid.",
-    intro:
-      "Als marketingbureau uit Limburg kennen we de regionale markt, de concurrentie over de grens en de kansen die daarbij horen. Wij helpen Limburgse ondernemers structureel online groeien.",
+    description: "B. Analyzed is een marketingbureau in Limburg dat ondernemers helpt met SEO, Google Ads en social media, met oog voor de grensregio en AI-zichtbaarheid.",
+    intro: "Ik wil graagIk wil graag...Een offerte aanvragenEen gratis SEO scan DienstKies een dienst...Online marketingGoogle AdsSEOLinkbuildingSocial media marketingOverige Voornaam \\* Achternaam \\* Telefoonnummer \\* Emailadres \\* Website URL Webpagina URL \\* Zoekwoordcombinatie(s) \\* Toelichting aanvraag \\* GDPR-overeenkomst \\* Bij het indienen van dit formulier ga je automatisch akkoord met ons Privacybeleid. reCAPTCHA Recaptcha requires verification. I'm not a robot reCAPTCHA Go for it",
     bullets: [
       "Regionale kennis van de Limburgse markt en grensregio",
       "0-meting om je startpositie helder in kaart te brengen",
@@ -520,24 +651,32 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Over marketingbureau Limburg",
-        p: "B. Analyzed werkt vanuit Limburg voor ondernemers in de hele provincie: van Venlo tot Maastricht en alles daartussen, inclusief de concurrentie uit België en Duitsland.",
+        h: "Over online marketing bureau Limburg",
+        p: "Online marketing is onze passie. B. Analyzed marketing is een online marketing specialist op het gebied van zoekmachine optimalisatie (SEO), zoekmachine adverteren (SEA) en lead generalisatie. De specialisten van ons online marketing bureau in Limburg hebben meer dan 10 jaar ervaring. Onze experts kunnen je altijd vrijblijvend voorzien van marketing strategieën op maat. Daarnaast werken wij samen met experts op het gebied van programmering, webdesign, display marketing & copywriting om de beste resultaten te behalen voor jouw onderneming!",
       },
       {
-        h: "Hoe gaat B. Analyzed te werk?",
-        p: "We starten met het bepalen van je bedrijfssituatie en voeren een 0-meting uit, zodat we precies weten waar je nu staat voordat we aan de slag gaan.",
+        h: "Hoe gaat B.Analyzed te werk?",
+        p: "Als jouw internetbureau in Limburg gaan we meteen aan de slag! We gaan met jou aan tafel om jouw bedrijfsituatie in kaart te brengen door uitvoerig stil te staan bij jouw behaalde resultaten, jouw doelstellingen en verwachtingen.",
+      },
+      {
+        h: "De bedrijfssituatie bepalen",
+        p: "In deze eerste fase brengt ons marketing bureau in Limburg de huidige bedrijfssituatie in kaart. We gaan kijken naar jouw diensten en/of producten, jouw (potentiële) doelgroepen, de huidige marketingmix, de missie en visie van jouw bedrijf, et cetera. Vervolgens bepalen we de korte termijn doelstellingen, en bekijken we welke quick wins we kunnen oppakken. Uiteraard bekijken en bepalen we ook de lange termijn doelstellingen.",
+      },
+      {
+        h: "0 -meting",
+        p: "Daarnaast doen we een 0-meting van de website. Is de website technisch in orde, wat zijn de huidige rankings en hoe ziet het linkbuilding profiel eruit? Ook maken we een concurrentieanalyse. Wie zijn de concurrenten en wat is het onderscheidend vermogen t.o.v. de concurrenten? Uiteindelijk bekijken we met welke aanpassingen we jouw leads en sales kunnen maximaliseren. Deze stappen worden verwerkt in een complete situatie-analyse. Dit verwerken we in een online marketingstrategie.",
       },
       {
         h: "Uitdagingen en kansen bepalen",
-        p: "Op basis van de 0-meting brengen we kansen en uitdagingen in kaart: waar laat je nu omzet liggen, en welke stappen leveren het snelst resultaat op?",
+        p: "We bekijken aan de hand van de situatie-analyse welke kansen en uitdagingen er zijn. Welke mix van marketingkanalen gaan we inzetten om de doelgroepen op de juiste momenten te benaderen?",
       },
       {
         h: "Gezamenlijk stappenplan opstellen",
-        p: "Samen stellen we een concreet stappenplan op met heldere doelstellingen, zodat je precies weet wat je van ons kunt verwachten en wanneer.",
+        p: "Door middel van het bepalen van de doelstellingen (ofwel KPI’s) bepalen we in overleg met elkaar de aanpak en tijdsplanning. We selecteren de marketingkanalen en bepalen samen het marketingbudget. Ook bepalen we de frequentie van rapportages en overleg. Samenwerken met ons als online marketing bureau Limburg levert je het beste resultaat op!",
       },
       {
-        h: "Hoe maakt B. Analyzed het verschil?",
-        p: "Door regionale kennis te combineren met landelijke SEO- en SEA-expertise en oog te houden voor nieuwe kanalen zoals GEO, blijf je zichtbaar — ook wanneer klanten via AI-zoekmachines zoeken.",
+        h: "Hoe maakt B.Analyzed het verschil?",
+        p: "Er zijn natuurlijk talloze freelancers of internetmarketing bureau’s in Limburg die in zekere zin hetzelfde doen. Het grote verschil zit hem in het onderscheidende vermogen. Als jouw online marketingbureau in Limburg begrijpen wij dat je bedrijf véél verder gaat dan alleen je website. Bedrijven die hun online marketing uitbesteden aan B.Analyzed kiezen voor kwaliteit en persoonlijkheid. We verdiepen ons niet alleen in de techniek en uitstraling van je website, maar willen ook alles weten over je strategie, je diensten of producten, je klanten, je doelgroep en jouw bedrijf. Wij zien jou namelijk als partner, niet als klant. Jouw succes is ons succes. En vice versa. Wij snappen online marketing. Jij snapt jouw doelgroep. Samen komen we tot een optimaal resultaat voor jouw bedrijf! Wil jij meer weten over onze diensten als online marketingbureau in Limburg? Wil jij je SEO uitbesteden of een online marketing strategie uitzetten? Neem dan contact met ons op voor een vrijblijvend en oriënterend gesprek! Wij helpen je graag verder! Contact Menu reCAPTCHA",
       },
     ],
     faq: [
@@ -560,15 +699,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "Online marketing bureau Nederland", to: "/online-marketing-bureau-nederland/" },
     ],
   },
-
   "kosten-online-marketing": {
     eyebrow: "Tarieven",
-    h1: "Kosten online marketing: heldere pakketten en tarieven",
+    h1: "Kosten online marketing",
     title: "Kosten Online Marketing | B. Analyzed",
-    description:
-      "Benieuwd naar de kosten van online marketing? B. Analyzed werkt met transparante pakketten vanaf € 999,- per maand en een uurtarief van € 90,-.",
-    intro:
-      "Wij werken op basis van duidelijke afspraken, helderheid en transparantie — ook over de kosten. Ons uurtarief ligt op € 90,- per uur, exclusief btw, ongeacht welke dienst je afneemt.",
+    description: "Benieuwd naar de kosten van online marketing? B. Analyzed werkt met transparante pakketten vanaf € 999,- per maand en een uurtarief van € 90,-.",
+    intro: "Uiteraard wordt er vooraf aan ieder project of iedere opdracht het aantal uren begroot. Daarnaast werken wij op basis van doelstellingen zodat marketing een investering is en het jou / jullie bedrijf uiteindelijk meer oplevert. Wij hebben een aantal standaard pakketten en leveren daarnaast ook maatwerk. Bekijk tarieven Offerte aanvragen Offerte aanvragen Offerte aanvragen Offerte aanvragen Offerte aanvragen Offerte aanvragen",
     bullets: [
       "Standaardpakketten of volledig maatwerk, altijd vooraf begroot",
       "Elke maand inzicht in resultaten via rapportage en video-uitleg",
@@ -576,24 +712,20 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Pakketten en diensten op maat",
-        p: "Vooraf begroten we altijd het aantal uren per project of opdracht. We werken op basis van doelstellingen, zodat marketing een investering is die zich terugverdient.",
+        h: "Starter",
+        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 5 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (5 linkjes per maand) 1 Google Adwords campagne (max 2 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 3 SEO teksten) Periodieke rapportage Keyword Rankings v.a. € 395,- per maand (3 uur p/m + linkbuilding) Offerte aanvragen",
       },
       {
-        h: "Van starter tot volledig pakket",
-        p: "Onze pakketten lopen op in omvang: van zoekwoordenonderzoek en een paar SEO-teksten per maand tot uitgebreide linkbuilding, meerdere Google Ads-campagnes en volledige rapportages.",
+        h: "Basis",
+        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 5 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (10 linkjes per maand) 1 Google Adwords campagne (max 2 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 5 SEO teksten) Periodieke rapportage Keyword Rankings v.a. € 495,- per maand (4 uur p/m + linkbuilding) Offerte aanvragen",
       },
       {
-        h: "Wat kost online marketing bij B. Analyzed?",
-        p: "Een losse audit start vanaf € 599,-. Doorlopende online marketing begeleiding start vanaf € 999,- per maand. Los uurwerk factureren we tegen € 90,- per uur, exclusief btw.",
+        h: "Standaard",
+        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 10 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding ( 20 linkjes per maand) 2 Google Adwords campagne (max 4 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 10 SEO teksten) Periodieke rapportage Keyword Rankings Periodieke rapportage Organisch verkeer Periodieke rapportage Technische SEO verbeteringen Periodieke rapportage Online doelen Website adviezen User Experience Conversie optimalisatie advies Gratis ondersteuning v.a. € 695,- per maand (6 uur p/m + linkbuilding) Offerte aanvragen",
       },
       {
-        h: "Waarom online marketing een investering is",
-        p: "Online marketing kan al voor een relatief laag budget een meetbaar effect en groot bereik opleveren. Wij denken in de breedste zin mee om dat effect te maximaliseren.",
-      },
-      {
-        h: "Transparante werkwijze",
-        p: "Alles wat we doen laten we zien via video-uitleg, zodat je precies weet wat er gebeurt en wat het oplevert. Wij werken net zo lang door tot je meetbaar resultaat boekt.",
+        h: "Alles-in-één",
+        p: "Zoekwoorden onderzoek Zoekwoorden optimalisatie van 18 trefwoordcombinaties SEO on-page (o.a. HTML titels, Headings, Interne links) SEO Linkbuilding (40 linkjes per maand) 3 Google Adwords campagne (max 6 ad. groepen) Website optimalisatie URL-structuur Technische scan en rapportage SEO copywriting (max 20 SEO teksten) Periodieke rapportage Keyword Rankings Periodieke rapportage Organisch verkeer Periodieke rapportage Technische SEO verbeteringen Periodieke rapportage Online doelen Website adviezen User Experience Conversie optimalisatie advies Gratis ondersteuning v.a. € 1795,- per maand (20 uur p/m, 5 uur per week + linkbuilding) Offerte aanvragen",
       },
     ],
     faq: [
@@ -616,15 +748,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "Tarieven linkbuilding", to: "/tarieven-linkbuilding/" },
     ],
   },
-
   "tarieven-social-media": {
     eyebrow: "Tarieven",
-    h1: "Tarieven social media: pakketten voor elk budget",
+    h1: "Social pakketten",
     title: "Tarieven Social Media Marketing | B. Analyzed",
-    description:
-      "Social media beheer uitbesteden vanaf een paar uur per maand? Bekijk de social media pakketten en tarieven van B. Analyzed, inclusief een audit vooraf.",
-    intro:
-      "We willen social media beheer voor iedere onderneming mogelijk maken: van ZZP'er tot MKB, met een klein of een groter budget. Vanaf 5 uur per maand is uitbesteden al mogelijk.",
+    description: "Social media beheer uitbesteden vanaf een paar uur per maand? Bekijk de social media pakketten en tarieven van B. Analyzed, inclusief een audit vooraf.",
+    intro: "1 – 2 berichten per week Max 2 social media kanalen (LinkedIn, Instagram of Facebook) 1 blog of social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 250,- 1 tot 2 berichten per week Offerte aanvragen",
     bullets: [
       "Werken met KPI's vooraf, zodat je weet waar je aan toe bent",
       "Altijd een audit vooraf om kanalen en prestaties in kaart te brengen",
@@ -632,24 +761,16 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Social media pakketten voor elk budget",
-        p: "Of je nu net begint of al actief bent op meerdere kanalen: we bieden pakketten die oplopen in aantal berichten, kanalen en rapportage, zodat er altijd een passende optie is.",
+        h: "Basis",
+        p: "3 of 4 berichten per week Max 2 social kanalen 1 blog en social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 350,- 2-3 berichten per week Offerte aanvragen",
       },
       {
-        h: "Altijd een audit vooraf",
-        p: "Voordat we starten brengen we al je kanalen en prestaties in kaart met een audit. Deze eenmalige opstartkosten vallen buiten het abonnement en zorgen voor een scherpe start.",
+        h: "Aanbevolen",
+        p: "4 berichten per week 3 social kanalen 1 blog en social advertentie Layout creatie in huisstijl Maandelijkse rapportage € 425,- 4 berichten per week Offerte aanvragen",
       },
       {
-        h: "Werken met heldere KPI's",
-        p: "We spreken vooraf duidelijke KPI's af, zodat een goed samenwerkingsproces en heldere verwachtingen centraal staan — geen verrassingen achteraf.",
-      },
-      {
-        h: "Van 1-2 berichten tot een volledig kanaalbeheer",
-        p: "De pakketten variëren van 1 tot 2 berichten per week op maximaal 2 kanalen tot 4 of meer berichten per week op 3 kanalen, inclusief blogs, advertenties en huisstijl-layout.",
-      },
-      {
-        h: "Wat kost social media marketing?",
-        p: "Onze doorlopende social media begeleiding start vanaf € 999,- per maand. Losse werkzaamheden of een audit rekenen we tegen € 90,- per uur.",
+        h: "XXL",
+        p: "15 zoektermen Vanaf 50 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links Minimaal 4 artikelen per maand € 650,- Vanaf 50 linkjes per maand (minimale DA 8) Offerte aanvragen Offerte aanvragen",
       },
     ],
     faq: [
@@ -672,15 +793,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "Tarieven linkbuilding", to: "/tarieven-linkbuilding/" },
     ],
   },
-
   "tarieven-linkbuilding": {
     eyebrow: "Tarieven",
-    h1: "Tarieven linkbuilding: sterke backlinks tegen heldere prijzen",
+    h1: "Online marketing kosten",
     title: "Tarieven Linkbuilding | B. Analyzed",
-    description:
-      "Linkbuilding uitbesteden? Bekijk de linkbuildingpakketten van B. Analyzed: van 8 tot 50+ kwalitatieve links per maand, met een uurtarief van € 90,-.",
-    intro:
-      "Linkbuilding blijft een van de belangrijkste factoren voor een sterke Google-ranking. Wij bouwen kwalitatieve links op vanaf Nederlandse IP-adressen, tegen transparante tarieven.",
+    description: "Linkbuilding uitbesteden? Bekijk de linkbuildingpakketten van B. Analyzed: van 8 tot 50+ kwalitatieve links per maand, met een uurtarief van € 90,-.",
+    intro: "5 zoektermen 8 geplaatste links Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 1 artikel per maand € 125,- 8 linkjes per maand (minimale DA 8) Offerte aanvragen",
     bullets: [
       "Pakketten van 8 tot 50+ geplaatste links per maand",
       "Homepage-, partnerpagina- en bedrijvenpagina-links",
@@ -688,24 +806,16 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Linkbuilding: een blijvende rankingfactor",
-        p: "Links van andere relevante websites gelden voor Google als een aanbeveling en dragen bij aan een hogere positie in de zoekresultaten.",
+        h: "Standaard",
+        p: "8 zoektermen 12-15 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 2 artikelen per maand € 250,- 12-15 linkjes per maand (minimale DA 8) Offerte aanvragen",
       },
       {
-        h: "Van basis tot XXL",
-        p: "Onze pakketten lopen op van 8 links per maand met 1 artikel tot 50 of meer links per maand met minimaal 4 artikelen, altijd gericht op relevante zoektermen voor jouw markt.",
+        h: "Aanbevolen",
+        p: "10 zoektermen 25 geplaatste linkjes per maan Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links 4 artikelen € 375,- 25 linkjes per maand (minimale DA 8) Offerte aanvragen",
       },
       {
-        h: "Kwalitatieve links, geen shortcuts",
-        p: "We plaatsen links vanaf Nederlandse IP-adressen, met een minimale domeinautoriteit, via homepage-, partnerpagina- en bedrijvenpagina-links — geen risicovolle massaplaatsing.",
-      },
-      {
-        h: "Wat kost linkbuilding?",
-        p: "Onze linkbuildingpakketten zijn onderdeel van een doorlopende SEO-strategie vanaf € 999,- per maand. Losse werkzaamheden rekenen we tegen € 90,- per uur.",
-      },
-      {
-        h: "Transparante werkwijze",
-        p: "We werken op basis van duidelijke afspraken en transparantie over kosten versus werkzaamheden, zodat je precies weet welke links wanneer geplaatst worden.",
+        h: "XXL",
+        p: "15 zoektermen Vanaf 50 linkjes per maand Homepage links Links vanaf Nederlandse IP-adressen Partnerpagina links Startpagina links Bedrijven pagina links Minimaal 4 artikelen per maand € 650,- Vanaf 50 linkjes per maand (minimale DA 8) Offerte aanvragen",
       },
     ],
     faq: [
@@ -728,15 +838,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "Tarieven social media", to: "/tarieven-social-media/" },
     ],
   },
-
   "online-marketing-strategie": {
     eyebrow: "Online marketing",
-    h1: "Online marketing strategie: onze werkwijze naar aantoonbaar resultaat",
+    h1: "Werkwijze",
     title: "Online Marketing Strategie & Werkwijze | B. Analyzed",
-    description:
-      "Benieuwd naar onze werkwijze? B. Analyzed werkt met een heldere online marketing strategie: van onderzoek en doelen tot uitvoering, optimalisatie en GEO.",
-    intro:
-      "Al sinds we actief zijn staat één ding centraal: het online resultaat van onze opdrachtgevers. Voordat we starten stellen we kritische vragen over je onderneming, doelstellingen en samenwerkingsvorm.",
+    description: "Benieuwd naar onze werkwijze? B. Analyzed werkt met een heldere online marketing strategie: van onderzoek en doelen tot uitvoering, optimalisatie en GEO.",
+    intro: "Er zijn een aantal essentiele stappen die we zetten om uiteindelijk de beoogde resultaten te behalen. Wij leggen ze hieronder haarfijn uit. Stap 1",
     bullets: [
       "Grondig onderzoek voordat we een strategie bepalen",
       "Concreet marketingplan met heldere doelen en planning",
@@ -744,24 +851,84 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     ],
     sections: [
       {
-        h: "Onderzoek als startpunt",
-        p: "We beginnen elke strategie met onderzoek naar je onderneming, doelgroep en concurrentie. Hoe meer we weten van je doelgroep, hoe makkelijker we ze kunnen bereiken.",
+        h: "Onderzoek",
+        p: "Voordat we starten met de uitvoering van online marketing staan we stil bij de (online) strategie en bijbehorende stappen. Hierdoor creëren we focus en zetten we een duidelijk pad uit. We starten met het bepalen van jouw belangrijke bedrijfsdoelstellingen. Wat is de omzetprognose? Wat is de gemiddelde waarde per lead of sale? Hoeveel bezoekers, leads en sales hebben we nodig om de doelstellingen te behalen? Wat kunnen we uitgeven per lead of sale? Dit zijn belangrijke vragen die we stellen in dit eerste stadium. Vervolgens stemmen we online doelstellingen af op deze bedrijfsdoelstellingen. We vertalen de algemene bedrijfsdoelstellingen naar online KPI’s als: aantal bezoekers, conversiepercentages, gemiddelde orderwaarden en kosten per sale. Een duidelijke online marketingstrategie stelt alle partijen in staat om hier naar toe te werken én op afgerekend te worden. Zo werken we op een gestructureerde wijze samen naar hetzelfde doel.",
       },
       {
         h: "Marketingstrategie en marketingplanning",
-        p: "Op basis van het onderzoek stellen we een marketingstrategie en -planning op: welke kanalen zetten we in, in welke volgorde, en met welk doel.",
+        p: "Nadat de online doelstellingen SMART zijn geformuleerd en het inzicht in de doelgroep is verkregen is het tijd voor de volgende stap. Het toepassen van een slimme online marketing strategie. In deze fase bepalen we welke kanalen we inzetten om de doelstellingen te behalen. De marketingstrategie wordt vertaald naar een duidelijke marketingplanning en tijdsindicatie. We laten zien wat we gaan doen en wat er verwacht mag worden. Stap 3",
       },
       {
-        h: "Website op orde en testen waar nodig",
-        p: "Voordat we campagnes opstarten, zorgen we dat je website klaar is om bezoekers te ontvangen en om te zetten naar leads of klanten.",
+        h: "Zorg dat de website op orde is en test waar nodig",
+        p: "Voordat we meer relevante bezoekers generen naar jouw website is het belangrijk dat de website of online shop helemaal in orde is. De website moet gebruiksvriendelijk zijn zodat de bezoekers makkelijk door de website heen kunnen navigeren en uiteindelijk moet de website ook technisch in orde zijn. Dat betekent snelle laadtijden en geen errors op de site. Je wilt graag dat je bezoekers daadwerkelijk overgaan tot actie. Dat betekent dat de bezoekers doorklikken naar andere pagina’s en tevens online aankopen doen. Dit zijn allemaal online conversies (ofwel doelen). Help je bezoekers en overtuig je bezoeker om over te gaan tot aankoop.",
       },
       {
-        h: "Inzicht in campagnes en optimaliseren waar nodig",
-        p: "Zodra campagnes live staan, monitoren we de resultaten nauwgezet en optimaliseren we continu op basis van data — niet op aannames.",
+        h: "Inzicht krijgen in de campagnes en optimaliseren waar nodig",
+        p: "Er zijn veel verschillende manieren en kanalen om bezoekers op je website te krijgen. Uiteindelijk ga je bekijken en monitoren welke kanalen het beste presteren en zo weet je precies hoe je marketingmix eruit komt te zien. Doordat alles meetbaar is krijgen we direct inzicht in de prestaties van de campagnes. Hierdoor kunnen we samenwerken en zorgen voor een rendabel online business model met een positieve Return on Investment (ROI). Uit onze jarenlange ervaring is gebleken dat SEO (zoekmachine optimalisatie) en Google Ads (SEE) vaak effectieve kanalen zijn die voor directe resultaten zorgen. Door inzicht en optimalisatie creëren we een doorlopend rendabel online business model dat we kunnen opschalen bij goede resultaten.",
       },
       {
-        h: "GEO als vast onderdeel van de strategie",
-        p: "Naast klassieke online marketing kijken we ook naar zichtbaarheid in AI-zoekmachines zoals ChatGPT, Gemini en Perplexity, zodat je strategie klaar is voor de toekomst.",
+        h: "Diensten",
+        p: "Het mooie aan het vinden van de juiste balans in online marketing activiteiten is dat alles daarna veel minder moeite kost. Alles versterkt elkaar waardoor iedere discipline op zich gemakkelijker zal verbeteren. De perfecte online marketing mix is van essentieel belangrijk voor een goede marketing!",
+      },
+      {
+        h: "Fullservice Online marketing bedrijf",
+        p: "B. Analyzed marketing is een fullservice internet marketing bureau dat ieder bedrijf van A tot Z ontzorgt. Je kunt met jouw bedrijf terecht voor de volgende online marketingdiensten: SEO uitbesteden Google Ads uitbesteden Linkbuilding uitbesteden Social media marketing Google Tag Manager instellen en beheer SEO teksten uitbesteden WordPress website laten bouwen SEO voor MKB Online marketing strategie",
+      },
+      {
+        h: "Online marketing strategie",
+        p: "Met een online marketingstrategie bepaal je de algemene lange termijn online marketing doelstellingen van een onderneming, het plan van aanpak en de toewijzing van de online middelen die nodig zijn om deze doelen te bereiken. Meer informatie SEO uitbesteden",
+      },
+      {
+        h: "SEO uitbesteden",
+        p: "Wil jij jouw website beter vindbaar maken in de organische resultaten van een zoekmachine? Dan is het een slimme zet om SEO uit te besteden aan B. Analyzed. Onze ervaren specialisten zorgen gegarandeerd voor topposities in Google. Meer informatie SEO teksten laten schrijven",
+      },
+      {
+        h: "SEO teksten laten schrijven",
+        p: "Wil jij SEO teksten laten schrijven door een ervaren tekstschrijver die op de hoogte is van alle SEO-criteria? Dan gaan wij graag voor je aan de slag. Wij zijn een professioneel online marketing bureau dat onder meer gespecialiseerd is in SEO teksten schrijven. Meer informatie Local SEO",
+      },
+      {
+        h: "Local SEO",
+        p: "Local SEO is een strategie voor zoekmachineoptimalisatie (SEO) die ervoor zorgt dat jouw bedrijf beter zichtbaar is in lokale zoekresultaten op Google. Elk bedrijf dat een fysieke locatie heeft of een geografisch gebied bedient, kan profiteren van local SEO. Als je op Google zoekt naar belangrijke zoekwoorden met betrekking tot uw bedrijf en er verschijnt een kaart (Google maps) met 3 vermeldingen eronder dan kan local SEO je helpen jouw bedrijf te laten groeien. Meer informatie Linkbuilding uitbesteden",
+      },
+      {
+        h: "Linkbuilding uitbesteden",
+        p: "Linkbuilding uitbesteden bij B. Analyzed marketing. We gaan graag aan de slag voor je! Linkbuilding uitbesteden is eenvoudig bij ons. Tijdens ons linkbuilding traject verzamelen wij alleen links van échte websites. Wij hebben een netwerk van meer dan 2500 relevante websites die jouw website zullen boosten. Meer informatie Google Ads uitbesteden",
+      },
+      {
+        h: "Google Ads uitbesteden",
+        p: "Haal meer uit je marketingbudget met zoekmachine adverteren. Wanneer bedrijven Google Ads uitbesteden behalen ze meer leads, meer conversies en meer omzet. Onze Google Ads specialisten (SEA specialisten) helpen bij het optimaal inrichten van je SEA campagne. Meer online rendement met Google Ads? Laat dan je Google Ads uitbesteden door B. Analyzed. Samen zorgen wij voor een optimaal resultaat! Meer informatie Social media marketing",
+      },
+      {
+        h: "Social media marketing",
+        p: "Ga je voor bereik, engagement en meer zichtbaarheid? Ongeacht je doel: wij maken er een succes van. Met inzet van onze creatieve en innovatieve oplossingen maken wij van jouw social media kanaal outstanding. Wij zorgen voor impact, maken het meetbaar en geven inzicht in de ROI van je social media campagnes, influencer campagnes en social strategie. Are you ready to rumble? Wij wel! Meer informatie Website advies",
+      },
+      {
+        h: "Website advies",
+        p: "Op zoek naar professioneel website-advies omdat je er niet uitkomt met je nieuwe website? Of omdat je hulp nodig hebt bij de keuze van de online marketing kanalen? Heb je advies nodig voor webdesign, web- of SEO-teksten, Google Ads of social media? Wij helpen je graag. Meer informatie Display advertisement",
+      },
+      {
+        h: "Display advertisement",
+        p: "Display advertisement, een op visuele manier gebaseerde manier om jouw merk of product te promoten, verwijst naar advertenties op websites, apps en sociale-mediaplatforms. Met display ads adverteer je bijvoorbeeld in het Google Display Netwerk. Je kunt jouw advertenties vertonen op specifiek gekozen websites. Hierdoor kun je binnen zeer korte tijd een enorm bereik creëren. Meer informatie Emailmarketing",
+      },
+      {
+        h: "Emailmarketing",
+        p: "Veel ondernemers onderschatten de waarde van een gerichte emailmarketing campagne. Waar met name social media vluchtig zijn (niet kijken is berichten of missen) en zoekmachines pas gebruikt worden wanneer men naar iets specifieks op zoek is, bereik je met een e-mailbericht altijd de inbox van de ontvanger! Meer informatie Conversie optimalisatie",
+      },
+      {
+        h: "Conversie optimalisatie",
+        p: "Wil je meer omzet halen uit je website door je bezoekers een optimale merkbeleving te bieden? Zorg er dan voor dat je conversie optimalisatie een structureel onderdeel maakt van jouw digitale strategie. Converteer zoveel mogelijk bezoekers naar leads en sales en schakel ons conversie optimalisatie bureau B. Analyzed in! Meer informatie Google Tag Manager",
+      },
+      {
+        h: "Google Tag Manager",
+        p: "Ben je van plan om Google Tag Manager te implementeren op je website? Bespaar tijd en geld op de lange termijn door Google Tag Manager te gebruiken en goed in te richten. Meer informatie WordPress onderhoud",
+      },
+      {
+        h: "WordPress onderhoud",
+        p: "WordPress onderhoud nodig? Wij werken graag met duidelijke afspraken, helderheid en transparantie. Voor een klein maandelijks bedrag kun je bij ons een WordPress onderhoudsabonnement afnemen. Meer informatie Online marketing uitbesteden",
+      },
+      {
+        h: "Online marketing uitbesteden",
+        p: "Onze online marketing oplossingen brengt jouw bedrijf in contact met potentiële klanten. Wij doen niet aan standaard oplossingen en leveren maatwerk dat past bij ieder bedrijf. Al sinds 2016 maken wij veel bedrijven blij met de online marketing resultaten die wij boeken. Meer informatie",
       },
     ],
     faq: [
@@ -784,15 +951,12 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
     ],
   },
-
   "klantwaarderingen": {
     eyebrow: "Klanten",
     h1: "Klantwaarderingen: wat opdrachtgevers over ons zeggen",
     title: "Klantwaarderingen & Reviews | B. Analyzed",
-    description:
-      "Lees de klantwaarderingen van B. Analyzed: opdrachtgevers over resultaat, samenwerking en de aanpak van ons online marketing bureau.",
-    intro:
-      "Klanttevredenheid staat bij ons voorop. Als dat betekent dat we een stapje extra moeten zetten, dan doen we dat graag. Op deze pagina lees je wat opdrachtgevers over de samenwerking zeggen.",
+    description: "Lees de klantwaarderingen van B. Analyzed: opdrachtgevers over resultaat, samenwerking en de aanpak van ons online marketing bureau.",
+    intro: "Klanttevredenheid staat bij ons voorop. Als dat betekent dat we een stapje extra moeten zetten, dan doen we dat graag. Op deze pagina lees je wat opdrachtgevers over de samenwerking zeggen.",
     bullets: [
       "Meerdere klanten behaalden nummer 1-posities in Google",
       "Veel opdrachtgevers zijn al jarenlang klant bij ons",
