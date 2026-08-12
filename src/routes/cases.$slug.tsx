@@ -50,6 +50,13 @@ function CaseDetail() {
       <Section>
         <div className="grid gap-12 lg:grid-cols-[1.35fr_0.65fr]">
           <article>
+            {study.logo ? (
+              <img
+                src={study.logo}
+                alt={`Logo ${study.client}`}
+                className="mb-6 h-10 w-auto max-w-[180px] object-contain object-left"
+              />
+            ) : null}
             <img
               src={study.image}
               alt={study.imageAlt}
