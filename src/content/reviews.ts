@@ -1,4 +1,10 @@
+import parketreusLogo from "@/assets/logos/parketreus-logo.avif.asset.json";
+import greenEnergyLogo from "@/assets/logos/Greenenergywoodpellets-logo.avif.asset.json";
+import vanOfferbeekLogo from "@/assets/logos/van-offerbeek-logo.avif.asset.json";
+
 export type Review = {
+  logo?: string;
+  logoAlt?: string;
   name: string;
   role?: string;
   title: string;
@@ -8,6 +14,8 @@ export type Review = {
 export const REVIEWS: Review[] = [
   {
     name: "Monique Schoens",
+    logo: parketreusLogo.url,
+    logoAlt: "Logo Parketreus",
     role: "Eigenaresse",
     title: "Verschillende nummer 1 posities behaald!",
     quote: "Voor onze website waren we op zoek naar een betrouwbare partner om meer bezoekers te genereren en een betere vindbaarheid. Dit is gelukt. Dankzij onze samenwerking met B-Analysed is ons bedrijf gegroeid en scoren we middels seo op meerdere zoekwoorden nummer 1 positie. Dank je wel Britt hiervoor 🙂",
@@ -36,6 +44,8 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Hanneke Weerts",
+    logo: greenEnergyLogo.url,
+    logoAlt: "Logo Green Energy Woodpellets",
     title: "Fijne communicatie en onze vindbaarheid is verbeterd!",
     quote: "Britt is erg kundig, ze geeft goed advies en is erg behulpzaam. De vindbaarheid van Green Energy Woodpellets via Google is gestegen met de juiste keywords. Ze helpt waar ze kan en legt alles goed en duidelijk uit. Hierdoor kunnen we ook zelf veel meer doen om de vindbaarheid van onze webshop te blijven verbeteren. Britt blijft het gehele proces alles goed in de gaten houden en ook de communicatie is erg fijn. Goed bereikbaar en korte lijntjes. Aanrader!",
   },
@@ -113,6 +123,8 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Roy van Offerbeek",
+    logo: vanOfferbeekLogo.url,
+    logoAlt: "Logo Van Offerbeek",
     role: "Eigenaar Van Offerbeek en World Of Art",
     title: "Wij scoren al jarenlang in de top 3 met het zoekwoord \"houten wereldkaart\" dankzij Britt van B. Analyzed",
     quote: "De kans is heel groot dat u mij zal vinden via google als u een “houten wereldkaart” wanddecoratie zoekt. Met dank aan Britt Daemen van B-Analyzed.",
