@@ -16,6 +16,11 @@ import nedinsco from "@/assets/logos/nedinsco-logo.png.asset.json";
 import breathwell from "@/assets/logos/breathwell.png.asset.json";
 import dnResearch from "@/assets/logos/dn-research-logo-website.png.asset.json";
 import lookingGood from "@/assets/logos/looking-good-hairtattoo.svg";
+import lustrumfiesta from "@/assets/logos/lustrumfiesta.png.asset.json";
+import ambianceTravel from "@/assets/logos/logo-ambiance-travel.png.asset.json";
+import rijschool4u from "@/assets/logos/rijschool-4U-logo-klein.png.asset.json";
+import mathmike from "@/assets/logos/logo-mathmike.avif.asset.json";
+import campspirit from "@/assets/logos/campspirit.avif.asset.json";
 
 export const CLIENT_LOGOS = [
   { src: parketreus.url, alt: "Logo Parketreus" },
@@ -36,6 +41,11 @@ export const CLIENT_LOGOS = [
   { src: breathwell.url, alt: "Logo Dr. Breathe Well" },
   { src: dnResearch.url, alt: "Logo DN Research" },
   { src: lookingGood, alt: "Logo Looking Good Hairtattoo" },
+  { src: lustrumfiesta.url, alt: "Logo Lustrumfiesta" },
+  { src: ambianceTravel.url, alt: "Logo Ambiance Travel" },
+  { src: rijschool4u.url, alt: "Logo Rijschool 4U" },
+  { src: mathmike.url, alt: "Logo MathMike" },
+  { src: campspirit.url, alt: "Logo Campspirit" },
 ];
 
 export function LogoStrip({ className = "" }: { className?: string }) {
