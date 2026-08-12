@@ -7,6 +7,13 @@ import psychoCare from "@/assets/logos/psychocarevenlo.avif.asset.json";
 import taxiVenlo from "@/assets/logos/venlo-taxi-logo.png.asset.json";
 import vogelvoer from "@/assets/logos/vogelvoerkopenlogo_1.avif.asset.json";
 import bruidsmode from "@/assets/logos/bruidsmode-outlet.jpg.asset.json";
+import tienEuroTaxi from "@/assets/logos/10-euro-taxi.png.asset.json";
+import variva from "@/assets/logos/variva-logo.avif.asset.json";
+import steelgarden from "@/assets/logos/steelgarden-logo.avif.asset.json";
+import tulmans from "@/assets/logos/tulmans-meubelen.png.asset.json";
+import fancom from "@/assets/logos/fancom-logo.png.asset.json";
+import nedinsco from "@/assets/logos/nedinsco-logo.png.asset.json";
+import breathwell from "@/assets/logos/breathwell.png.asset.json";
 
 export const CLIENT_LOGOS = [
   { src: parketreus.url, alt: "Logo Parketreus" },
@@ -18,6 +25,13 @@ export const CLIENT_LOGOS = [
   { src: vanToor.url, alt: "Logo Van Toor Interiors" },
   { src: psychoCare.url, alt: "Logo PsychoCare Venlo" },
   { src: taxiVenlo.url, alt: "Logo Taxi Venlo en Omstreken" },
+  { src: tienEuroTaxi.url, alt: "Logo 10 Euro Taxi" },
+  { src: variva.url, alt: "Logo Variva" },
+  { src: steelgarden.url, alt: "Logo Steelgarden" },
+  { src: tulmans.url, alt: "Logo Tulmans Meubelen" },
+  { src: fancom.url, alt: "Logo Fancom" },
+  { src: nedinsco.url, alt: "Logo Nedinsco Venlo" },
+  { src: breathwell.url, alt: "Logo Dr. Breathe Well" },
 ];
 
 export function LogoStrip({ className = "" }: { className?: string }) {
