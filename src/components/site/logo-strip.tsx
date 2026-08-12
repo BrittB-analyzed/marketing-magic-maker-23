@@ -14,6 +14,8 @@ import tulmans from "@/assets/logos/tulmans-meubelen.png.asset.json";
 import fancom from "@/assets/logos/fancom-logo.png.asset.json";
 import nedinsco from "@/assets/logos/nedinsco-logo.png.asset.json";
 import breathwell from "@/assets/logos/breathwell.png.asset.json";
+import dnResearch from "@/assets/logos/dn-research-logo-website.png.asset.json";
+import lookingGood from "@/assets/logos/looking-good-hairtattoo.svg";
 
 export const CLIENT_LOGOS = [
   { src: parketreus.url, alt: "Logo Parketreus" },
@@ -32,6 +34,8 @@ export const CLIENT_LOGOS = [
   { src: fancom.url, alt: "Logo Fancom" },
   { src: nedinsco.url, alt: "Logo Nedinsco Venlo" },
   { src: breathwell.url, alt: "Logo Dr. Breathe Well" },
+  { src: dnResearch.url, alt: "Logo DN Research" },
+  { src: lookingGood, alt: "Logo Looking Good Hairtattoo" },
 ];
 
 export function LogoStrip({ className = "" }: { className?: string }) {
