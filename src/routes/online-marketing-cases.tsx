@@ -46,9 +46,18 @@ function Cases() {
                 className="aspect-[16/10] w-full object-cover"
               />
               <div className="flex flex-1 flex-col p-7">
-                <span className="w-fit rounded-full bg-brand-sand px-3 py-1 text-xs font-semibold text-brand-muted">
-                  {c.client}
-                </span>
+                {c.logo ? (
+                  <img
+                    src={c.logo}
+                    alt={`Logo ${c.client}`}
+                    loading="lazy"
+                    className="h-8 w-auto max-w-[140px] object-contain object-left"
+                  />
+                ) : (
+                  <span className="w-fit rounded-full bg-brand-sand px-3 py-1 text-xs font-semibold text-brand-muted">
+                    {c.client}
+                  </span>
+                )}
                 <h2 className="mt-4 text-lg font-semibold leading-snug tracking-tight">{c.title}</h2>
                 <p className="mt-2 flex-1 text-sm leading-relaxed text-brand-muted">{c.excerpt}</p>
                 <dl className="mt-5 grid grid-cols-3 gap-3 border-t border-brand-line pt-5">

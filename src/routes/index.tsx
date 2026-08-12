@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { SiteLayout, PHONE, PHONE_HREF, PILLARS, WHATSAPP_HREF } from "@/components/site/site-chrome";
 import { LogoStrip } from "@/components/site/logo-strip";
+import { POST_LIST } from "@/content/blog";
 import { LeadForm } from "@/components/site/lead-form";
 import {
   CtaBand,
@@ -91,6 +92,7 @@ function Home() {
       <Method />
       <PersonalTouch />
       <Testimonials />
+      <BlogTeasers />
       <ScanSection />
       <FaqBlock items={FAQ} />
       <CtaBand />
@@ -99,6 +101,53 @@ function Home() {
 }
 
 function Hero() {
+  return heroInner();
+}
+
+function BlogTeasers() {
+  const posts = POST_LIST.slice(0, 3);
+  return (
+    <Section className="border-y border-brand-line bg-white">
+      <SectionHeading
+        eyebrow="Kennisbank"
+        title="Lees onze laatste artikelen"
+        intro="Praktische stukken over SEO, GEO, Google Ads en conversie-optimalisatie — geschreven voor ondernemers."
+      />
+      <div className="mt-10 grid gap-5 md:grid-cols-3">
+        {posts.map((p) => (
+          <Link
+            key={p.slug}
+            to="/$slug/"
+            params={{ slug: p.slug }}
+            className="flex flex-col overflow-hidden rounded-2xl border border-brand-line bg-white transition-colors hover:border-brand-ink"
+          >
+            {p.image && (
+              <img src={p.image} alt={p.imageAlt ?? p.title} loading="lazy" className="aspect-[16/10] w-full object-cover" />
+            )}
+            <div className="flex flex-1 flex-col p-6">
+              <span className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">{p.tag}</span>
+              <h3 className="mt-3 text-lg font-semibold leading-snug">{p.title}</h3>
+              <p className="mt-2 flex-1 text-sm leading-relaxed text-brand-muted">{p.excerpt}</p>
+              <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold">
+                Lees het artikel <ArrowRight className="size-4 text-brand-red" />
+              </span>
+            </div>
+          </Link>
+        ))}
+      </div>
+      <div className="mt-10 text-center">
+        <Link
+          to="/blog/"
+          className="inline-flex rounded-full bg-brand-green px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
+        >
+          Bekijk alle artikelen
+        </Link>
+      </div>
+    </Section>
+  );
+}
+
+function heroInner() {
   return (
     <div className="border-b border-brand-line bg-white">
       <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20">

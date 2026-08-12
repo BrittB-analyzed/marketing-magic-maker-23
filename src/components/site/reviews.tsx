@@ -44,6 +44,14 @@ export function ReviewsSection({
             key={`${r.name}-${i}`}
             className="flex flex-col rounded-2xl border border-brand-line bg-white p-6"
           >
+            {r.logo ? (
+              <img
+                src={r.logo}
+                alt={r.logoAlt ?? r.name}
+                loading="lazy"
+                className="mb-4 h-8 w-auto max-w-[140px] object-contain object-left"
+              />
+            ) : null}
             <Stars />
             <h3 className="mt-4 text-base font-semibold leading-snug text-brand-ink">{r.title}</h3>
             {r.quote ? (

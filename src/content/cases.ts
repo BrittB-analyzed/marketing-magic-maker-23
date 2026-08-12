@@ -1,3 +1,7 @@
+import logoMeubel from "@/assets/logos/meubeloutletweert-logo.avif.asset.json";
+import logoParketreus from "@/assets/logos/parketreus-logo.avif.asset.json";
+import logoBruidsmode from "@/assets/logos/bruidsmode-outlet.jpg.asset.json";
+import logoVogelvoer from "@/assets/logos/vogelvoerkopenlogo_1.avif.asset.json";
 import heroMeubel from "@/assets/cases/meubeloutletweert.jpg.asset.json";
 import rankingsMeubel from "@/assets/cases/rankings-meubel-outlet.jpg.asset.json";
 import heroVanDaken from "@/assets/cases/dakdekker-van-daken.jpg.asset.json";
@@ -34,6 +38,7 @@ export type CaseBlock = {
 export type CaseStudy = {
   slug: string;
   client: string;
+  logo?: string;
   title: string;
   description: string;
   excerpt: string;
@@ -50,6 +55,7 @@ export const CASES: Record<string, CaseStudy> = {
   "6600x-meubel-outlet-nummer-1-in-google": {
     slug: "6600x-meubel-outlet-nummer-1-in-google",
     client: "Meubel & Outlet Weert",
+    logo: logoMeubel.url,
     title: "6.600x per maand gezocht op meubel outlet en nummer 1 in Google",
     description:
       "Case Meubel & Outlet Weert: van minder dan 500 naar bijna 5.500 organische bezoekers per maand, positie 1 op 'meubel outlet' en 15.000+ klikken in 16 maanden.",
@@ -247,6 +253,7 @@ export const CASES: Record<string, CaseStudy> = {
   parketreus: {
     slug: "parketreus",
     client: "Parketreus",
+    logo: logoParketreus.url,
     title: "Parketreus: regionale SEO die Limburg bereikt én beweegt",
     description:
       "Case Parketreus: 439.000 vertoningen in Google, 4.310 klikken en positie 2 op 'traprenovatie limburg' door lokale SEO en contentmarketing.",
@@ -320,6 +327,7 @@ export const CASES: Record<string, CaseStudy> = {
   "de-bruidsmode-outlet-belgie": {
     slug: "de-bruidsmode-outlet-belgie",
     client: "De Bruidsmode Outlet België",
+    logo: logoBruidsmode.url,
     title: "Verdubbeling van omzet in 1 jaar door SEO en Google Ads",
     description:
       "Case De Bruidsmode Outlet België: +40% organische groei, +126% behaalde doelen en 500% meer afspraakaanvragen door SEO en Google Ads.",
@@ -446,6 +454,7 @@ export const CASES: Record<string, CaseStudy> = {
   "online-transacties-vogelvoerkopen": {
     slug: "online-transacties-vogelvoerkopen",
     client: "Vogelvoerkopen.nl",
+    logo: logoVogelvoer.url,
     title: "Vervijfvoudiging van het aantal online transacties in 9 maanden",
     description:
       "Case Vogelvoerkopen.nl: vijf keer zoveel online transacties in negen maanden door SEO en Google Ads, met top 3-posities op 'vogelvoer kopen'.",
