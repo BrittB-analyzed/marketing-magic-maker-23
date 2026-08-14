@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { SiteLayout, PHONE, PHONE_HREF, PILLARS, WHATSAPP_HREF } from "@/components/site/site-chrome";
 import { LogoStrip } from "@/components/site/logo-strip";
+import { BrandIcon, type BrandIconName } from "@/components/site/brand-icon";
 import { POST_LIST } from "@/content/blog";
 import { LeadForm } from "@/components/site/lead-form";
 import {
