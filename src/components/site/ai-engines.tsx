@@ -37,7 +37,7 @@ export function AiEngineLogos({
           src={e.src}
           alt={`Logo ${e.name}`}
           loading="lazy"
-          className="h-6 w-auto max-w-[120px] object-contain opacity-60 grayscale transition hover:opacity-100 hover:grayscale-0 sm:h-7"
+          className="h-6 w-auto max-w-[120px] object-contain opacity-75 transition hover:opacity-100 sm:h-7"
         />
       ))}
     </div>
