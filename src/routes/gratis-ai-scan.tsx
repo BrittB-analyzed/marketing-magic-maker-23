@@ -3,6 +3,7 @@ import { Bot, Check, Sparkles } from "lucide-react";
 import { SiteLayout } from "@/components/site/site-chrome";
 import { LeadForm } from "@/components/site/lead-form";
 import { Eyebrow, Faq, FaqBlock, Section, faqJsonLd } from "@/components/site/page-bits";
+import { AiEngineLogos } from "@/components/site/ai-engines";
 
 const FAQ: Faq[] = [
   { q: "Wat is een AI-scan precies?", a: "Wij stellen de vragen die jouw klanten stellen aan ChatGPT, Gemini en Perplexity en kijken of jij genoemd wordt — en zo niet, welke concurrent wel." },
@@ -62,6 +63,7 @@ function AiScan() {
             <p className="mt-8 inline-flex items-center gap-2 rounded-full bg-brand-sand px-4 py-2 text-sm font-medium">
               <Bot className="size-4 text-brand-red" /> Binnen 2 werkdagen een persoonlijke video, geen standaardrapport
             </p>
+            <AiEngineLogos className="mt-8 border-t border-brand-line pt-6" label="We checken je zichtbaarheid in:" />
           </div>
           <LeadForm id="ai-scan" />
         </div>
