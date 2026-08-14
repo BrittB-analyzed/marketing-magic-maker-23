@@ -413,7 +413,7 @@ export function PageHero({
   stats = [
     { value: "15", label: "jaar ervaring" },
     { value: "9,8", label: "uit 47 reviews" },
-    { value: "150+", label: "klanten geholpen" },
+    { value: "220+", label: "klanten geholpen" },
   ],
   visual = true,
   variant,
@@ -462,7 +462,7 @@ export function PageHero({
               {stats.map((s) => (
                 <div key={s.label}>
                   <dt className="sr-only">{s.label}</dt>
-                  <dd className="text-2xl font-semibold text-brand-red sm:text-3xl">{s.value}</dd>
+                  <dd className="text-2xl font-semibold text-brand-graphite sm:text-3xl">{s.value}</dd>
                   <p className="mt-1 text-xs leading-snug text-brand-muted">{s.label}</p>
                 </div>
               ))}
