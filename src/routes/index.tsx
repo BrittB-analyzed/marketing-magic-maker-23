@@ -14,6 +14,7 @@ import {
 import { SiteLayout, PHONE, PHONE_HREF, PILLARS, WHATSAPP_HREF } from "@/components/site/site-chrome";
 import { LogoStrip } from "@/components/site/logo-strip";
 import { BrandIcon, type BrandIconName } from "@/components/site/brand-icon";
+import { AiEngineLogos, aiLogo } from "@/components/site/ai-engines";
 import { POST_LIST } from "@/content/blog";
 import { LeadForm } from "@/components/site/lead-form";
 import {
@@ -366,13 +367,22 @@ function Shift() {
             { k: "Perplexity", v: "Aanbevolen worden", d: "In vergelijkingen en aanbiederslijstjes." },
           ].map((item) => (
             <div key={item.k} className="rounded-2xl border border-brand-line bg-white p-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-brand-red">{item.k}</p>
+              {aiLogo(item.k) ? (
+                <img
+                  src={aiLogo(item.k)}
+                  alt={`Logo ${item.k}`}
+                  loading="lazy"
+                  className="h-6 w-auto max-w-[110px] object-contain"
+                />
+              ) : null}
+              <p className="mt-3 text-xs font-semibold uppercase tracking-[0.16em] text-brand-red">{item.k}</p>
               <p className="mt-3 text-lg font-semibold tracking-tight">{item.v}</p>
               <p className="mt-1.5 text-sm leading-relaxed text-brand-muted">{item.d}</p>
             </div>
           ))}
         </div>
       </div>
+      <AiEngineLogos className="mt-12 border-t border-brand-line pt-8" />
     </Section>
   );
 }
