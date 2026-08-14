@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "71e4c36f-bad1-497e-bc60-8432f82ea5dd",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/71e4c36f-bad1-497e-bc60-8432f82ea5dd/rankings-meubel-outlet.jpg",
+  "url": "/assets/cases/rankings-meubel-outlet.jpg",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/71e4c36f-bad1-497e-bc60-8432f82ea5dd/rankings-meubel-outlet.jpg",
   "original_filename": "rankings-meubel-outlet.jpg",
   "size": 150264,
   "content_type": "image/jpeg",
-  "created_at": "2026-08-09T07:17:04Z"
+  "created_at": "2026-08-09T07:17:04Z",
+  "cdn_url": "/__l5e/assets-v1/71e4c36f-bad1-497e-bc60-8432f82ea5dd/rankings-meubel-outlet.jpg"
 }

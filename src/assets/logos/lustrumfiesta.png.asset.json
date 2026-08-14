@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "142c8a13-b5bb-4a6d-8640-75d710216b10",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/142c8a13-b5bb-4a6d-8640-75d710216b10/lustrumfiesta.png",
+  "url": "/assets/logos/lustrumfiesta.png",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/142c8a13-b5bb-4a6d-8640-75d710216b10/lustrumfiesta.png",
   "original_filename": "lustrumfiesta.png",
   "size": 15285,
   "content_type": "image/png",
-  "created_at": "2026-08-12T08:17:10Z"
+  "created_at": "2026-08-12T08:17:10Z",
+  "cdn_url": "/__l5e/assets-v1/142c8a13-b5bb-4a6d-8640-75d710216b10/lustrumfiesta.png"
 }

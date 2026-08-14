@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "d9b4c148-0586-4103-a5a7-c008cd18222b",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/d9b4c148-0586-4103-a5a7-c008cd18222b/van-offerbeek-logo.avif",
+  "url": "/assets/logos/van-offerbeek-logo.avif",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/d9b4c148-0586-4103-a5a7-c008cd18222b/van-offerbeek-logo.avif",
   "original_filename": "van-offerbeek-logo.avif",
   "size": 2670,
   "content_type": "image/avif",
-  "created_at": "2026-08-12T07:13:37Z"
+  "created_at": "2026-08-12T07:13:37Z",
+  "cdn_url": "/__l5e/assets-v1/d9b4c148-0586-4103-a5a7-c008cd18222b/van-offerbeek-logo.avif"
 }

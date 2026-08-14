@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "b1870bb8-b52c-419e-9ab8-6fe912a62bcf",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/b1870bb8-b52c-419e-9ab8-6fe912a62bcf/boxspring-madrid-kopen.jpg",
+  "url": "/assets/cases/boxspring-madrid-kopen.jpg",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/b1870bb8-b52c-419e-9ab8-6fe912a62bcf/boxspring-madrid-kopen.jpg",
   "original_filename": "boxspring-madrid-kopen.jpg",
   "size": 28915,
   "content_type": "image/jpeg",
-  "created_at": "2026-08-09T07:16:45Z"
+  "created_at": "2026-08-09T07:16:45Z",
+  "cdn_url": "/__l5e/assets-v1/b1870bb8-b52c-419e-9ab8-6fe912a62bcf/boxspring-madrid-kopen.jpg"
 }

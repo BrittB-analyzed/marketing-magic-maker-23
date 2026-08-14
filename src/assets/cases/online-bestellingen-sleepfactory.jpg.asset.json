@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "3ac08772-bdf8-4948-8012-53d7f08c821f",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/3ac08772-bdf8-4948-8012-53d7f08c821f/online-bestellingen-sleepfactory.jpg",
+  "url": "/assets/cases/online-bestellingen-sleepfactory.jpg",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/3ac08772-bdf8-4948-8012-53d7f08c821f/online-bestellingen-sleepfactory.jpg",
   "original_filename": "online-bestellingen-sleepfactory.jpg",
   "size": 192869,
   "content_type": "image/jpeg",
-  "created_at": "2026-08-09T07:17:01Z"
+  "created_at": "2026-08-09T07:17:01Z",
+  "cdn_url": "/__l5e/assets-v1/3ac08772-bdf8-4948-8012-53d7f08c821f/online-bestellingen-sleepfactory.jpg"
 }

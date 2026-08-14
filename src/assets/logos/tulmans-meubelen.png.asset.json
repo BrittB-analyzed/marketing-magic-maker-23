@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "4b204338-ba93-42a5-8ce8-83f9428cf16a",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/4b204338-ba93-42a5-8ce8-83f9428cf16a/tulmans-meubelen.png",
+  "url": "/assets/logos/tulmans-meubelen.png",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/4b204338-ba93-42a5-8ce8-83f9428cf16a/tulmans-meubelen.png",
   "original_filename": "tulmans-meubelen.png",
   "size": 9068,
   "content_type": "image/png",
-  "created_at": "2026-08-12T07:16:49Z"
+  "created_at": "2026-08-12T07:16:49Z",
+  "cdn_url": "/__l5e/assets-v1/4b204338-ba93-42a5-8ce8-83f9428cf16a/tulmans-meubelen.png"
 }

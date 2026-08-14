@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "3b544918-ece2-42f3-9c3d-4b4d8d3127cd",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/3b544918-ece2-42f3-9c3d-4b4d8d3127cd/logo-mathmike.avif",
+  "url": "/assets/logos/logo-mathmike.avif",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/3b544918-ece2-42f3-9c3d-4b4d8d3127cd/logo-mathmike.avif",
   "original_filename": "logo-mathmike.avif",
   "size": 9580,
   "content_type": "image/avif",
-  "created_at": "2026-08-12T08:17:39Z"
+  "created_at": "2026-08-12T08:17:39Z",
+  "cdn_url": "/__l5e/assets-v1/3b544918-ece2-42f3-9c3d-4b4d8d3127cd/logo-mathmike.avif"
 }

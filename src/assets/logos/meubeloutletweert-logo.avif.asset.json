@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "a32472ca-5805-4ad8-ac0a-b932b6fcf21c",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/a32472ca-5805-4ad8-ac0a-b932b6fcf21c/meubeloutletweert-logo.avif",
+  "url": "/assets/logos/meubeloutletweert-logo.avif",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/a32472ca-5805-4ad8-ac0a-b932b6fcf21c/meubeloutletweert-logo.avif",
   "original_filename": "meubeloutletweert-logo.avif",
   "size": 2753,
   "content_type": "image/avif",
-  "created_at": "2026-08-12T07:13:26Z"
+  "created_at": "2026-08-12T07:13:26Z",
+  "cdn_url": "/__l5e/assets-v1/a32472ca-5805-4ad8-ac0a-b932b6fcf21c/meubeloutletweert-logo.avif"
 }

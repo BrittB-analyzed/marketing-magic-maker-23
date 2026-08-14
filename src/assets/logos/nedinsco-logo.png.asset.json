@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "81ea76fe-3c6f-4b77-92af-3ca471da26d5",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/81ea76fe-3c6f-4b77-92af-3ca471da26d5/nedinsco-logo.png",
+  "url": "/assets/logos/nedinsco-logo.png",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/81ea76fe-3c6f-4b77-92af-3ca471da26d5/nedinsco-logo.png",
   "original_filename": "nedinsco-logo.png",
   "size": 23019,
   "content_type": "image/png",
-  "created_at": "2026-08-12T07:16:56Z"
+  "created_at": "2026-08-12T07:16:56Z",
+  "cdn_url": "/__l5e/assets-v1/81ea76fe-3c6f-4b77-92af-3ca471da26d5/nedinsco-logo.png"
 }

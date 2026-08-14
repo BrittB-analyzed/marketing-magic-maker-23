@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "e4f8bb61-9d0c-4e30-94f6-f665195d5607",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/e4f8bb61-9d0c-4e30-94f6-f665195d5607/vergelijking-impressies-van-daken.png",
+  "url": "/assets/cases/vergelijking-impressies-van-daken.png",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/e4f8bb61-9d0c-4e30-94f6-f665195d5607/vergelijking-impressies-van-daken.png",
   "original_filename": "vergelijking-impressies-van-daken.png",
   "size": 85503,
   "content_type": "image/png",
-  "created_at": "2026-08-09T07:17:29Z"
+  "created_at": "2026-08-09T07:17:29Z",
+  "cdn_url": "/__l5e/assets-v1/e4f8bb61-9d0c-4e30-94f6-f665195d5607/vergelijking-impressies-van-daken.png"
 }

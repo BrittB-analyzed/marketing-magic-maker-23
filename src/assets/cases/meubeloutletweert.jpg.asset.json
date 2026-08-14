@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "f96c0b94-9789-410c-8641-a316d5c97690",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/f96c0b94-9789-410c-8641-a316d5c97690/meubeloutletweert.jpg",
+  "url": "/assets/cases/meubeloutletweert.jpg",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/f96c0b94-9789-410c-8641-a316d5c97690/meubeloutletweert.jpg",
   "original_filename": "meubeloutletweert.jpg",
   "size": 234566,
   "content_type": "image/jpeg",
-  "created_at": "2026-08-09T07:16:59Z"
+  "created_at": "2026-08-09T07:16:59Z",
+  "cdn_url": "/__l5e/assets-v1/f96c0b94-9789-410c-8641-a316d5c97690/meubeloutletweert.jpg"
 }
