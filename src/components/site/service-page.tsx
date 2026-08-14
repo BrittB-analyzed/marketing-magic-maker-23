@@ -2,6 +2,10 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight, Check } from "lucide-react";
 import { LeadForm } from "./lead-form";
 import { CtaBand, Eyebrow, Faq, FaqBlock, PageHero, Section, SectionHeading } from "./page-bits";
+import { BrandIcon, type BrandIconName } from "./brand-icon";
+
+const FOR_WHO_ICONS: BrandIconName[] = ["keywords", "audit", "groei"];
+const STEP_ICONS: BrandIconName[] = ["kennismaking", "strategie", "uitvoering", "monitoring", "grafiek"];
 
 export type ServicePageProps = {
   eyebrow: string;
@@ -23,9 +27,10 @@ export function ServicePage(props: ServicePageProps) {
       <Section>
         <SectionHeading eyebrow="Voor wie" title="Herken je één van deze situaties?" />
         <div className="mt-10 grid gap-6 md:grid-cols-3">
-          {props.forWho.map((item) => (
+          {props.forWho.map((item, i) => (
             <div key={item.title} className="rounded-2xl border border-brand-line bg-white p-7">
-              <h3 className="text-base font-semibold">{item.title}</h3>
+              <BrandIcon name={FOR_WHO_ICONS[i % FOR_WHO_ICONS.length]} />
+              <h3 className="mt-4 text-base font-semibold">{item.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-brand-muted">{item.body}</p>
             </div>
           ))}
@@ -50,9 +55,7 @@ export function ServicePage(props: ServicePageProps) {
             <ol className="mt-6 space-y-6">
               {props.steps.map((s, i) => (
                 <li key={s.title} className="flex gap-4">
-                  <span className="flex size-8 shrink-0 items-center justify-center rounded-full border border-brand-line text-sm font-semibold">
-                    {i + 1}
-                  </span>
+                  <BrandIcon name={STEP_ICONS[i % STEP_ICONS.length]} size="sm" />
                   <div>
                     <h3 className="text-base font-semibold">{s.title}</h3>
                     <p className="mt-1 text-sm leading-relaxed text-brand-muted">{s.body}</p>
