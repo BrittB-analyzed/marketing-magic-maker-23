@@ -1,4 +1,4 @@
-import type { SVGProps } from "react";
+import type { ReactElement, SVGProps } from "react";
 
 /**
  * Huisstijl-iconenset: lijniconen in merkrood op een witte tegel met rode rand.
@@ -30,7 +30,7 @@ const base = {
   strokeLinejoin: "round",
 } as const;
 
-const GLYPHS: Record<BrandIconName, JSX.Element> = {
+const GLYPHS: Record<BrandIconName, ReactElement> = {
   geo: (
     <>
       <path d="M6 10h24a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H16l-6 5v-5H6a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3Z" transform="translate(4 3)" />
