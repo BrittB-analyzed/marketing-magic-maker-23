@@ -397,6 +397,12 @@ const PILLAR_DETAIL: Record<string, { line: string; items: string[] }> = {
 };
 
 function Pillars() {
+  const PILLAR_ICON: Record<string, BrandIconName> = {
+    SEO: "seo",
+    GEO: "geo",
+    Ads: "groei",
+    CRO: "cro",
+  };
   return (
     <Section className="border-y border-brand-line bg-white">
       <SectionHeading
