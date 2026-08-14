@@ -414,6 +414,7 @@ function Pillars() {
               className="group rounded-2xl border border-brand-line bg-brand-canvas p-8 transition-colors hover:border-brand-ink"
             >
               <div className="flex items-center gap-3">
+                <BrandIcon name={PILLAR_ICON[p.name]} />
                 <h3 className="text-2xl font-semibold tracking-tight">{p.name}</h3>
                 {p.name === "GEO" && (
                   <span className="rounded-full bg-brand-red-soft px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-red">
@@ -514,11 +515,11 @@ function Proof() {
 }
 
 function Method() {
-  const steps = [
-    { t: "Onderzoek", d: "We brengen je markt, concurrentie en huidige zichtbaarheid in kaart — in Google én in AI." },
-    { t: "Strategie", d: "Welke pijlers je nodig hebt, in welke volgorde, met welk budget en welk verwacht rendement." },
-    { t: "Uitvoering", d: "Wij doen het werk. Jij ziet in het dashboard precies wat er wanneer gebeurt." },
-    { t: "Optimalisatie", d: "Elke maand een Loom-video: wat werkte, wat niet, en wat we daarom aanpassen." },
+  const steps: { t: string; d: string; icon: BrandIconName }[] = [
+    { t: "Onderzoek", d: "We brengen je markt, concurrentie en huidige zichtbaarheid in kaart — in Google én in AI.", icon: "audit" },
+    { t: "Strategie", d: "Welke pijlers je nodig hebt, in welke volgorde, met welk budget en welk verwacht rendement.", icon: "strategie" },
+    { t: "Uitvoering", d: "Wij doen het werk. Jij ziet in het dashboard precies wat er wanneer gebeurt.", icon: "uitvoering" },
+    { t: "Optimalisatie", d: "Elke maand een Loom-video: wat werkte, wat niet, en wat we daarom aanpassen.", icon: "monitoring" },
   ];
   return (
     <Section className="border-y border-brand-line bg-white">
@@ -540,8 +541,11 @@ function Method() {
         <ol className="grid gap-5 sm:grid-cols-2">
           {steps.map((s, i) => (
             <li key={s.t} className="rounded-2xl border border-brand-line p-7">
-              <span className="text-sm font-semibold text-brand-red">0{i + 1}</span>
-              <h3 className="mt-3 text-lg font-semibold tracking-tight">{s.t}</h3>
+              <div className="flex items-center justify-between">
+                <BrandIcon name={s.icon} />
+                <span className="text-sm font-semibold text-brand-red">0{i + 1}</span>
+              </div>
+              <h3 className="mt-4 text-lg font-semibold tracking-tight">{s.t}</h3>
               <p className="mt-2 text-sm leading-relaxed text-brand-muted">{s.d}</p>
             </li>
           ))}
