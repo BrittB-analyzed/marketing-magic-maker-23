@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "fab47928-e826-4d6e-a441-d730bc71447d",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/fab47928-e826-4d6e-a441-d730bc71447d/bruidsmode-outlet.jpg",
+  "url": "/assets/logos/bruidsmode-outlet.jpg",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/fab47928-e826-4d6e-a441-d730bc71447d/bruidsmode-outlet.jpg",
   "original_filename": "bruidsmode-outlet.jpg",
   "size": 69484,
   "content_type": "image/jpeg",
-  "created_at": "2026-08-12T07:13:58Z"
+  "created_at": "2026-08-12T07:13:58Z",
+  "cdn_url": "/__l5e/assets-v1/fab47928-e826-4d6e-a441-d730bc71447d/bruidsmode-outlet.jpg"
 }

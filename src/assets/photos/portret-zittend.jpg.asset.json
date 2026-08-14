@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "1bdf2d70-6bc3-4af2-8a85-f56542787969",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/1bdf2d70-6bc3-4af2-8a85-f56542787969/portret-zittend.jpg",
+  "url": "/assets/photos/portret-zittend.jpg",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/1bdf2d70-6bc3-4af2-8a85-f56542787969/portret-zittend.jpg",
   "original_filename": "portret-zittend.jpg",
   "size": 213317,
   "content_type": "image/jpeg",
-  "created_at": "2026-08-06T10:22:50Z"
+  "created_at": "2026-08-06T10:22:50Z",
+  "cdn_url": "/__l5e/assets-v1/1bdf2d70-6bc3-4af2-8a85-f56542787969/portret-zittend.jpg"
 }

@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "1fd7ff63-0a07-41eb-93db-bbfcc6ebedd4",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/1fd7ff63-0a07-41eb-93db-bbfcc6ebedd4/groei-in-zoekwoorden-parketreus.png",
+  "url": "/assets/cases/groei-in-zoekwoorden-parketreus.png",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/1fd7ff63-0a07-41eb-93db-bbfcc6ebedd4/groei-in-zoekwoorden-parketreus.png",
   "original_filename": "groei-in-zoekwoorden-parketreus.png",
   "size": 12300,
   "content_type": "image/png",
-  "created_at": "2026-08-09T07:17:14Z"
+  "created_at": "2026-08-09T07:17:14Z",
+  "cdn_url": "/__l5e/assets-v1/1fd7ff63-0a07-41eb-93db-bbfcc6ebedd4/groei-in-zoekwoorden-parketreus.png"
 }

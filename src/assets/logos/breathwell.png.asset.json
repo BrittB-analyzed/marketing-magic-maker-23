@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "00a5b889-9c81-46fb-b60e-71365cbde394",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/00a5b889-9c81-46fb-b60e-71365cbde394/breathwell.png",
+  "url": "/assets/logos/breathwell.png",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/00a5b889-9c81-46fb-b60e-71365cbde394/breathwell.png",
   "original_filename": "breathwell.png",
   "size": 59115,
   "content_type": "image/png",
-  "created_at": "2026-08-12T07:17:00Z"
+  "created_at": "2026-08-12T07:17:00Z",
+  "cdn_url": "/__l5e/assets-v1/00a5b889-9c81-46fb-b60e-71365cbde394/breathwell.png"
 }

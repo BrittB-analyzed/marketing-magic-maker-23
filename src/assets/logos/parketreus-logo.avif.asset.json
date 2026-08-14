@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "7c5f5e22-04cd-4a59-8a09-38521e7d83e3",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/7c5f5e22-04cd-4a59-8a09-38521e7d83e3/parketreus-logo.avif",
+  "url": "/assets/logos/parketreus-logo.avif",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/7c5f5e22-04cd-4a59-8a09-38521e7d83e3/parketreus-logo.avif",
   "original_filename": "parketreus-logo.avif",
   "size": 16030,
   "content_type": "image/avif",
-  "created_at": "2026-08-12T07:13:19Z"
+  "created_at": "2026-08-12T07:13:19Z",
+  "cdn_url": "/__l5e/assets-v1/7c5f5e22-04cd-4a59-8a09-38521e7d83e3/parketreus-logo.avif"
 }

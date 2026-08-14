@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "d72d9931-2575-471e-8964-5742c3052ad7",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/d72d9931-2575-471e-8964-5742c3052ad7/vantoor-interiors.avif",
+  "url": "/assets/logos/vantoor-interiors.avif",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/d72d9931-2575-471e-8964-5742c3052ad7/vantoor-interiors.avif",
   "original_filename": "vantoor-interiors.avif",
   "size": 3083,
   "content_type": "image/avif",
-  "created_at": "2026-08-12T07:13:41Z"
+  "created_at": "2026-08-12T07:13:41Z",
+  "cdn_url": "/__l5e/assets-v1/d72d9931-2575-471e-8964-5742c3052ad7/vantoor-interiors.avif"
 }

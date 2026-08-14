@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "12a59ee8-39ac-44ee-8ffa-ce7827e066fe",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/12a59ee8-39ac-44ee-8ffa-ce7827e066fe/Online-doelen-bruidsmodeoutlet.jpg",
+  "url": "/assets/cases/Online-doelen-bruidsmodeoutlet.jpg",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/12a59ee8-39ac-44ee-8ffa-ce7827e066fe/Online-doelen-bruidsmodeoutlet.jpg",
   "original_filename": "Online-doelen-bruidsmodeoutlet.jpg",
   "size": 158886,
   "content_type": "image/jpeg",
-  "created_at": "2026-08-09T07:16:35Z"
+  "created_at": "2026-08-09T07:16:35Z",
+  "cdn_url": "/__l5e/assets-v1/12a59ee8-39ac-44ee-8ffa-ce7827e066fe/Online-doelen-bruidsmodeoutlet.jpg"
 }

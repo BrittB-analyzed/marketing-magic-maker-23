@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "f14ee2e2-ced5-45e9-b9cf-df5b78538b2a",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/f14ee2e2-ced5-45e9-b9cf-df5b78538b2a/campspirit.avif",
+  "url": "/assets/logos/campspirit.avif",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/f14ee2e2-ced5-45e9-b9cf-df5b78538b2a/campspirit.avif",
   "original_filename": "campspirit.avif",
   "size": 7919,
   "content_type": "image/avif",
-  "created_at": "2026-08-12T08:17:48Z"
+  "created_at": "2026-08-12T08:17:48Z",
+  "cdn_url": "/__l5e/assets-v1/f14ee2e2-ced5-45e9-b9cf-df5b78538b2a/campspirit.avif"
 }

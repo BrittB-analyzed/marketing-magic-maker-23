@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "6f9cf5b3-109c-4d03-a33c-9d661fdcf70c",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/6f9cf5b3-109c-4d03-a33c-9d661fdcf70c/portret-founder.jpg",
+  "url": "/assets/photos/portret-founder.jpg",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/6f9cf5b3-109c-4d03-a33c-9d661fdcf70c/portret-founder.jpg",
   "original_filename": "portret-founder.jpg",
   "size": 206249,
   "content_type": "image/jpeg",
-  "created_at": "2026-08-06T10:22:38Z"
+  "created_at": "2026-08-06T10:22:38Z",
+  "cdn_url": "/__l5e/assets-v1/6f9cf5b3-109c-4d03-a33c-9d661fdcf70c/portret-founder.jpg"
 }

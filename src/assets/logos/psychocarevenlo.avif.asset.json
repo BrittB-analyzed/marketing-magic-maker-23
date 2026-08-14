@@ -2,10 +2,11 @@
   "version": 1,
   "asset_id": "a3734142-d1fe-490a-b2cb-e18c46a267a9",
   "project_id": "ce7b695a-c956-44db-93e5-b9a20665a527",
-  "url": "/__l5e/assets-v1/a3734142-d1fe-490a-b2cb-e18c46a267a9/psychocarevenlo.avif",
+  "url": "/assets/logos/psychocarevenlo.avif",
   "r2_key": "a/v1/ce7b695a-c956-44db-93e5-b9a20665a527/a3734142-d1fe-490a-b2cb-e18c46a267a9/psychocarevenlo.avif",
   "original_filename": "psychocarevenlo.avif",
   "size": 1874,
   "content_type": "image/avif",
-  "created_at": "2026-08-12T07:13:45Z"
+  "created_at": "2026-08-12T07:13:45Z",
+  "cdn_url": "/__l5e/assets-v1/a3734142-d1fe-490a-b2cb-e18c46a267a9/psychocarevenlo.avif"
 }
