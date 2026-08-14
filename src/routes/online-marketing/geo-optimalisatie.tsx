@@ -11,6 +11,7 @@ import {
   faqJsonLd,
 } from "@/components/site/page-bits";
 import { LeadForm } from "@/components/site/lead-form";
+import { AiEngineLogos } from "@/components/site/ai-engines";
 
 const FAQ: Faq[] = [
   {
@@ -79,6 +80,7 @@ function GeoPage() {
           leverancier of welke oplossing ze moeten kiezen. Wij leggen vast waar je vandaag genoemd
           wordt, en werken van daaruit.
         </p>
+        <AiEngineLogos className="mt-10 border-t border-brand-line pt-8" label="AI-zoekmachines die we monitoren:" />
       </Section>
 
       <Section className="border-y border-brand-line bg-white">
