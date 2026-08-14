@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight, Check } from "lucide-react";
 import { SiteLayout } from "./site-chrome";
 import { CtaBand, Faq, FaqBlock, PageHero, Section, SectionHeading, faqJsonLd } from "./page-bits";
+import { BrandIcon } from "./brand-icon";
 
 export type SupportPageSection = { title: string; body: string };
 
@@ -43,7 +44,8 @@ export function SupportPage({
             </ul>
           </div>
           <div className="rounded-2xl border border-brand-line bg-white p-8">
-            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">
+            <BrandIcon name="strategie" />
+            <p className="mt-4 text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">
               Hoort bij pijler {pillar}
             </p>
             <p className="mt-4 text-base leading-relaxed text-brand-muted">{pillarNote}</p>
@@ -56,9 +58,13 @@ export function SupportPage({
       {sections && sections.length > 0 && (
         <Section className="border-t border-brand-line bg-white">
           <div className="grid gap-10 md:grid-cols-2">
-            {sections.map((s) => (
+            {sections.map((s, i) => (
               <div key={s.title}>
-                <h3 className="text-lg font-semibold tracking-tight">{s.title}</h3>
+                <BrandIcon
+                  name={(["content", "technisch", "linkbuilding", "monitoring"] as const)[i % 4]}
+                  size="sm"
+                />
+                <h3 className="mt-3 text-lg font-semibold tracking-tight">{s.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-brand-muted">{s.body}</p>
               </div>
             ))}
