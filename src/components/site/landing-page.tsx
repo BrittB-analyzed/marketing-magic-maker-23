@@ -2,7 +2,10 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight, Check } from "lucide-react";
 import { SiteLayout } from "./site-chrome";
 import { CtaBand, FaqBlock, PageHero, Section, SectionHeading, faqJsonLd } from "./page-bits";
+import { BrandIcon, type BrandIconName } from "./brand-icon";
 import type { Landing } from "@/content/landings";
+
+const SECTION_ICONS: BrandIconName[] = ["seo", "geo", "keywords", "content", "linkbuilding", "grafiek"];
 
 export function landingHead(data: Landing) {
   return {
@@ -25,15 +28,19 @@ export function LandingPage({ data }: { data: Landing }) {
       <Section>
         <div className="grid gap-12 lg:grid-cols-[1.3fr_0.7fr]">
           <div className="space-y-10">
-            {data.sections.map((s) => (
-              <div key={s.h}>
-                <h2 className="text-2xl font-semibold tracking-tight">{s.h}</h2>
-                <p className="mt-3 text-base leading-relaxed text-brand-muted">{s.p}</p>
+            {data.sections.map((s, i) => (
+              <div key={s.h} className="flex gap-5">
+                <BrandIcon name={SECTION_ICONS[i % SECTION_ICONS.length]} className="mt-1" />
+                <div>
+                  <h2 className="text-2xl font-semibold tracking-tight">{s.h}</h2>
+                  <p className="mt-3 text-base leading-relaxed text-brand-muted">{s.p}</p>
+                </div>
               </div>
             ))}
           </div>
           <aside className="h-fit rounded-2xl border border-brand-line bg-white p-8">
-            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">
+            <BrandIcon name="strategie" size="sm" />
+            <p className="mt-3 text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">
               Waarom B. Analyzed
             </p>
             <ul className="mt-5 space-y-3">
