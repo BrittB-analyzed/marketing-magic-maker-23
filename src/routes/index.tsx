@@ -14,6 +14,7 @@ import {
 import { SiteLayout, PHONE, PHONE_HREF, PILLARS, WHATSAPP_HREF } from "@/components/site/site-chrome";
 import { LogoStrip } from "@/components/site/logo-strip";
 import { BrandIcon, type BrandIconName } from "@/components/site/brand-icon";
+import { AiEngineLogos, aiLogo } from "@/components/site/ai-engines";
 import { POST_LIST } from "@/content/blog";
 import { LeadForm } from "@/components/site/lead-form";
 import {
