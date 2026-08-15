@@ -54,7 +54,7 @@ export function TrustLine() {
               <Star key={i} className="size-4 fill-brand-star text-brand-star" strokeWidth={0} />
             ))}
           </span>
-          <span className="font-semibold text-brand-ink">
+          <span className="font-semibold text-brand-ink" suppressHydrationWarning>
             Beoordeeld met een 9,8 — {REVIEW_COUNT} reviews
           </span>
         </a>
