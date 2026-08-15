@@ -35,7 +35,7 @@ export const submitLead = createServerFn({ method: "POST" })
       ["Focus", data.focus],
       ["Formulier", data.source],
       ["Status", data.stage === "complete" ? "Volledig ingevuld" : "Stap 1 (nog niet afgerond)"],
-    ].filter(([, v]) => v);
+    ].filter((r): r is [string, string] => Boolean(r[1]));
 
     const html = `<h2>Nieuwe scanaanvraag via b-analyzed.com</h2><table cellpadding="6" style="border-collapse:collapse">${rows
       .map(
