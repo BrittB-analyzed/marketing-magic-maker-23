@@ -19,7 +19,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2024-04-18",
   "tag": "AI & SEO",
   "excerpt": "AI is geen losse tool meer binnen SEO, maar een fundamenteel onderdeel van hoe we zoekgedrag analyseren en content maken.",
-  "image": "/__l5e/assets-v1/9a23ad77-fc80-4806-bb0f-8af28a55b6c5/ai-in-seo-de-toekomst-van-zoekmachineoptimalisatie.jpg",
+  "image": "/assets/blog/ai-in-seo-de-toekomst-van-zoekmachineoptimalisatie.jpg",
   "imageAlt": "Illustratie van kunstmatige intelligentie in SEO",
   "sections": [
     {
@@ -59,7 +59,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2024-05-14",
   "tag": "Case",
   "excerpt": "Een praktijkvoorbeeld: wat NLP-optimalisatie in de praktijk wel en niet oplevert voor je posities.",
-  "image": "/__l5e/assets-v1/c1bd1a33-07c6-4e03-86da-6a4fcf82d8f6/het-gebruik-nlp-in-seo-met-ai-tools-als-neuronwriter-een-casestudy.jpg",
+  "image": "/assets/blog/het-gebruik-nlp-in-seo-met-ai-tools-als-neuronwriter-een-casestudy.jpg",
   "imageAlt": "NLP en AI-tools voor SEO-content",
   "sections": [
     {
@@ -95,7 +95,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2024-12-10",
   "tag": "GEO",
   "excerpt": "SearchGPT beantwoordt vragen direct met bronnen erbij. Wie niet als bron wordt gebruikt, bestaat online niet meer voor deze gebruiker.",
-  "image": "/__l5e/assets-v1/edb8988d-3c19-4625-8349-569d6e268193/searchgpt.jpg",
+  "image": "/assets/blog/searchgpt.jpg",
   "imageAlt": "SearchGPT zoekmachine van OpenAI",
   "sections": [
     {
@@ -127,7 +127,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2025-07-22",
   "tag": "GEO",
   "excerpt": "Perplexity geeft een direct antwoord met bronvermeldingen. Wie daar niet tussen staat, mist een groeiend deel van het zoekverkeer.",
-  "image": "/__l5e/assets-v1/c73c1c06-0fc9-4fb0-9ab6-934fffcc2dc1/ranken-in-perplexity.jpg",
+  "image": "/assets/blog/ranken-in-perplexity.jpg",
   "imageAlt": "Perplexity AI zoekresultaten",
   "sections": [
     {
@@ -159,7 +159,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2025-08-19",
   "tag": "GEO",
   "excerpt": "AI Mode beantwoordt complexe zoekopdrachten volledig binnen Google zelf. Klikken worden schaarser, zichtbaarheid in het antwoord wordt cruciaal.",
-  "image": "/__l5e/assets-v1/5bb25c18-5ea4-4e1f-bea1-78e47fd2b2ed/google-ai-mode.jpg",
+  "image": "/assets/blog/google-ai-mode.jpg",
   "imageAlt": "Google AI Mode zoekresultaat",
   "sections": [
     {
@@ -191,7 +191,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2026-06-15",
   "tag": "GEO",
   "excerpt": "Schrijven voor AI is niet schrijven mét AI. Dit zijn de regels die bepalen of jouw tekst wordt overgenomen als antwoord.",
-  "image": "/__l5e/assets-v1/4ca9ce5a-2fa0-4533-9e1c-5b5ecf9e3d42/content-schrijven-voor-ai.jpg",
+  "image": "/assets/blog/content-schrijven-voor-ai.jpg",
   "imageAlt": "Content schrijven voor AI-zoekmachines",
   "sections": [
     {
@@ -227,7 +227,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2025-09-30",
   "tag": "AI & SEO",
   "excerpt": "AI versnelt veel SEO-werk, maar niet elk onderdeel van het vak. Dit is waar automatisering wel en niet verstandig is.",
-  "image": "/__l5e/assets-v1/b8b65d73-67b0-4562-be48-ba4734dfeca7/seo-taken-en-ai.jpg",
+  "image": "/assets/blog/seo-taken-en-ai.jpg",
   "imageAlt": "SEO-taken en kunstmatige intelligentie",
   "sections": [
     {
@@ -263,7 +263,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2025-11-12",
   "tag": "SEO",
   "excerpt": "Bij alle aandacht voor AI-zoekmachines vergeten veel bedrijven dat de basis van SEO grotendeels overeind blijft.",
-  "image": "/__l5e/assets-v1/7caa0357-05a4-46a4-a4be-65c0415af9dc/wat-blijft-er-in-2026-hetzelfde-op-seo-gebied.jpg",
+  "image": "/assets/blog/wat-blijft-er-in-2026-hetzelfde-op-seo-gebied.jpg",
   "imageAlt": "SEO-fundamenten die blijven werken",
   "sections": [
     {
@@ -299,7 +299,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2026-03-05",
   "tag": "Local SEO",
   "excerpt": "Lokaal winnen is nog steeds het snelste rendement voor MKB-bedrijven met een duidelijk werkgebied.",
-  "image": "/__l5e/assets-v1/06141aea-3164-4a1f-ba1c-61ad7c148b02/de-beste-local-strategie-voor-2026.jpg",
+  "image": "/assets/blog/de-beste-local-strategie-voor-2026.jpg",
   "imageAlt": "Local SEO strategie 2026",
   "sections": [
     {
@@ -335,7 +335,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2022-01-19",
   "tag": "Local SEO",
   "excerpt": "Lokaal gevonden worden begint bij een paar fundamentele keuzes die veel bedrijven onbewust overslaan.",
-  "image": "/__l5e/assets-v1/27d17479-e5c8-41eb-bf41-03388555326e/lokale-seo-wat-moet-je-weten-2.jpg",
+  "image": "/assets/blog/lokale-seo-wat-moet-je-weten-2.jpg",
   "imageAlt": "Lokale SEO basisprincipes",
   "sections": [
     {
@@ -367,7 +367,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2023-05-08",
   "tag": "Local SEO",
   "excerpt": "Lokale landingspagina's werken alleen als ze inhoudelijk verschillen. Dit zijn de acht regels die dat waarborgen.",
-  "image": "/__l5e/assets-v1/14951aef-96c7-4066-bf42-ef052461fd7e/lokale-zoekoptimalisatie-per-landingspagina-8-best-practices.jpg",
+  "image": "/assets/blog/lokale-zoekoptimalisatie-per-landingspagina-8-best-practices.jpg",
   "imageAlt": "Lokale landingspagina optimalisatie",
   "sections": [
     {
@@ -411,7 +411,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2021-01-25",
   "tag": "Local SEO",
   "excerpt": "Een compleet en actief bedrijfsprofiel is de snelste weg naar een betere plek in het lokale zoekresultaat.",
-  "image": "/__l5e/assets-v1/94b69444-1c23-478f-ac42-fa934766b85d/hoog-in-google-mijn-bedrijf-ranken.jpg",
+  "image": "/assets/blog/hoog-in-google-mijn-bedrijf-ranken.jpg",
   "imageAlt": "Google Mijn Bedrijf ranken",
   "sections": [
     {
@@ -447,7 +447,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2023-05-24",
   "tag": "Linkbuilding",
   "excerpt": "De meeste linkbuildingtrajecten falen niet door gebrek aan inspanning, maar door een verkeerde aanpak.",
-  "image": "/__l5e/assets-v1/75314dde-d498-43ce-9c73-b76f697d1d99/waarom-falen-de-meeste-merken-in-linkbuilding-top-5-fouten-die-je-moet-vermijden.jpg",
+  "image": "/assets/blog/waarom-falen-de-meeste-merken-in-linkbuilding-top-5-fouten-die-je-moet-vermijden.jpg",
   "imageAlt": "Fouten bij linkbuilding voorkomen",
   "sections": [
     {
@@ -479,7 +479,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2024-12-18",
   "tag": "Linkbuilding",
   "excerpt": "Slechts één website ter wereld heeft een Domain Rating van 100. Dat maakt duidelijk hoe competitief linkbuilding is.",
-  "image": "/__l5e/assets-v1/3b605755-10e0-417a-abaf-4296a22c47df/belang-domain-rating.jpg",
+  "image": "/assets/blog/belang-domain-rating.jpg",
   "imageAlt": "Domain Rating uitgelegd",
   "sections": [
     {
@@ -511,7 +511,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2021-02-16",
   "tag": "Case",
   "excerpt": "Niet het aantal links, maar de juiste links op het juiste moment maakte in deze case het verschil.",
-  "image": "/__l5e/assets-v1/d3fbb275-29f4-41ef-a22e-48c4a751732a/1-positie-in-google-door-backlinks.jpg",
+  "image": "/assets/blog/1-positie-in-google-door-backlinks.jpg",
   "imageAlt": "Backlinks en Google positie 1",
   "sections": [
     {
@@ -543,7 +543,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2025-02-11",
   "tag": "Technische SEO",
   "excerpt": "Zonder een technisch gezonde website blijft zelfs de beste content onder haar niveau presteren.",
-  "image": "/__l5e/assets-v1/5e1623c1-7e12-41a0-8c3b-479c96854310/technische-seo.jpg",
+  "image": "/assets/blog/technische-seo.jpg",
   "imageAlt": "Technische SEO fundamenten",
   "sections": [
     {
@@ -579,7 +579,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2025-07-09",
   "tag": "Technische SEO",
   "excerpt": "Schema markup vertaalt je content naar taal die machines direct begrijpen, wat je kansen op rich snippets vergroot.",
-  "image": "/__l5e/assets-v1/bfbce3e8-6845-4149-8b0b-c4381801f0f6/wat-is-schema-markup.jpg",
+  "image": "/assets/blog/wat-is-schema-markup.jpg",
   "imageAlt": "Schema markup en structured data",
   "sections": [
     {
@@ -611,7 +611,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2025-03-27",
   "tag": "Technische SEO",
   "excerpt": "Een rommelige sitestructuur kost je posities voordat er ook maar naar content wordt gekeken.",
-  "image": "/__l5e/assets-v1/1d6940cd-6a8d-4b72-9bae-61d3eae2e82b/gids-voor-een-goede-sitestructuur.jpg",
+  "image": "/assets/blog/gids-voor-een-goede-sitestructuur.jpg",
   "imageAlt": "Goede sitestructuur voor SEO",
   "sections": [
     {
@@ -647,7 +647,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2025-04-30",
   "tag": "SEO",
   "excerpt": "Minder kliks per zoekopdracht betekent niet minder kansen, maar wel een andere strategie.",
-  "image": "/__l5e/assets-v1/30ff3d5b-80e5-4940-82e1-56e3ab207ff4/seo-verkeer-2025.jpg",
+  "image": "/assets/blog/seo-verkeer-2025.jpg",
   "imageAlt": "SEO-verkeer trends 2025",
   "sections": [
     {
@@ -679,7 +679,7 @@ export const POSTS: Record<string, Post> = {
   "date": "2025-06-24",
   "tag": "Google Ads",
   "excerpt": "De beste Ads-specialisten onderscheiden zich niet door geheime trucs, maar door consequente discipline.",
-  "image": "/__l5e/assets-v1/90e1f20c-0be0-4cbf-accd-9850e7ab381f/wat-top-ads-specialisten-doen.jpg",
+  "image": "/assets/blog/wat-top-ads-specialisten-doen.jpg",
   "imageAlt": "Google Ads specialist aan het werk",
   "sections": [
     {
