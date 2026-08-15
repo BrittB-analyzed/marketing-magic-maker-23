@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { ClientOnly } from "@tanstack/react-router";
+import { useServerFn } from "@tanstack/react-start";
 import { ArrowRight, Check, Lock } from "lucide-react";
 import brittPortret from "@/assets/photos/britt-portret.jpg.asset.json";
+import { submitLead } from "@/lib/api/lead.functions";
 
 const inputClass =
   "w-full rounded-xl border border-brand-line bg-white px-4 py-3 text-sm text-brand-ink outline-none transition-colors placeholder:text-brand-muted/70 focus:border-brand-ink";
@@ -76,16 +78,40 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
   const [phone, setPhone] = useState("");
   const [focus, setFocus] = useState("");
   const [honeypot, setHoneypot] = useState("");
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState("");
+  const send = useServerFn(submitLead);
+
+  const sendLead = async (stage: "partial" | "complete") => {
+    setSending(true);
+    setError("");
+    try {
+      const res = await send({
+        data: { website, email, name, phone, focus, stage, source: id, honeypot },
+      });
+      if (!res.ok) {
+        setError(res.error ?? "Verzenden mislukt.");
+        return false;
+      }
+      return true;
+    } catch {
+      setError("Verzenden mislukt. Probeer het later opnieuw.");
+      return false;
+    } finally {
+      setSending(false);
+    }
+  };
 
   return (
     <div id={id} className="rounded-2xl border border-brand-line bg-white p-6 shadow-[0_1px_2px_rgba(20,24,31,0.04)] sm:p-8">
       {step === 1 && (
         <form
           className="space-y-4"
-          onSubmit={(e) => {
+          onSubmit={async (e) => {
             e.preventDefault();
             if (honeypot) return;
-            setStep(2);
+            const ok = await sendLead("partial");
+            if (ok) setStep(2);
           }}
         >
           <FormPortrait>
@@ -131,10 +157,12 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
           />
           <button
             type="submit"
-            className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
+            disabled={sending}
+            className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark disabled:opacity-60"
           >
-            Start mijn gratis scan <ArrowRight className="size-4" />
+            {sending ? "Versturen…" : "Start mijn gratis scan"} <ArrowRight className="size-4" />
           </button>
+          {error && <p className="text-center text-xs text-brand-red">{error}</p>}
           <p className="flex items-center justify-center gap-1.5 text-xs text-brand-muted">
             <Lock className="size-3.5" /> Geen verkooppraatjes. Je gegevens blijven bij ons.
           </p>
@@ -144,9 +172,10 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
       {step === 2 && (
         <form
           className="space-y-4"
-          onSubmit={(e) => {
+          onSubmit={async (e) => {
             e.preventDefault();
-            setStep(3);
+            const ok = await sendLead("complete");
+            if (ok) setStep(3);
           }}
         >
           <div>
@@ -195,10 +224,12 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
           </label>
           <button
             type="submit"
-            className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark"
+            disabled={sending}
+            className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark disabled:opacity-60"
           >
-            Aanvraag afronden <ArrowRight className="size-4" />
+            {sending ? "Versturen…" : "Aanvraag afronden"} <ArrowRight className="size-4" />
           </button>
+          {error && <p className="text-center text-xs text-brand-red">{error}</p>}
         </form>
       )}
 
