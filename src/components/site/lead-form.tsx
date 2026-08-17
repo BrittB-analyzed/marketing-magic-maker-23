@@ -85,10 +85,23 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
   const sendLead = async (stage: "partial" | "complete") => {
     setSending(true);
     setError("");
+    const payload = { website, email, name, phone, focus, stage, source: id, honeypot };
     try {
-      const res = await send({
-        data: { website, email, name, phone, focus, stage, source: id, honeypot },
-      });
+      // Static hosting (Hostinger): PHP endpoint. Falls back to the server
+      // function when the PHP endpoint is not present (Lovable hosting).
+      let res: { ok: boolean; error?: string } | null = null;
+      try {
+        const php = await fetch("/api/send-lead.php", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+        const text = await php.text();
+        if (text.trim().startsWith("{")) res = JSON.parse(text) as { ok: boolean; error?: string };
+      } catch {
+        res = null;
+      }
+      if (!res) res = await send({ data: payload });
       if (!res.ok) {
         setError(res.error ?? "Verzenden mislukt.");
         return false;
