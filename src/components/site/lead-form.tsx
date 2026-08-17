@@ -86,21 +86,30 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
     setSending(true);
     setError("");
     const payload = { website, email, name, phone, focus, stage, source: id, honeypot };
-    try {
-      // Static hosting (Hostinger): PHP endpoint. Falls back to the server
-      // function when the PHP endpoint is not present (Lovable hosting).
-      let res: { ok: boolean; error?: string } | null = null;
+    const postJson = async (url: string) => {
       try {
-        const php = await fetch("/api/send-lead.php", {
+        const r = await fetch(url, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),
         });
-        const text = await php.text();
-        if (text.trim().startsWith("{")) res = JSON.parse(text) as { ok: boolean; error?: string };
+        const text = await r.text();
+        if (!text.trim().startsWith("{")) return null;
+        const parsed = JSON.parse(text) as { ok: boolean; error?: string };
+        return parsed.ok ? parsed : null;
       } catch {
-        res = null;
+        return null;
       }
+    };
+    try {
+      // 1) same-origin API route (Lovable hosting)
+      // 2) PHP endpoint (Hostinger static hosting)
+      // 3) cross-origin Lovable endpoint (Hostinger without working PHP)
+      // 4) server function
+      let res: { ok: boolean; error?: string } | null =
+        (await postJson("/api/public/lead")) ??
+        (await postJson("/api/send-lead.php")) ??
+        (await postJson(FALLBACK_LEAD_ENDPOINT));
       if (!res) res = await send({ data: payload });
       if (!res.ok) {
         setError(res.error ?? "Verzenden mislukt.");
