@@ -245,9 +245,9 @@ export function Header() {
                 loading="lazy"
                 decoding="async"
               />
-              <span className="leading-tight">
-                <span className="block text-[11px] text-brand-muted">Je vaste specialist</span>
-                <span className="block text-xs font-semibold text-brand-ink">Even sparren?</span>
+              <span className="leading-tight" suppressHydrationWarning>
+                <span className="block text-[11px] text-brand-muted" suppressHydrationWarning>Je vaste specialist</span>
+                <span className="block text-xs font-semibold text-brand-ink" suppressHydrationWarning>Even sparren?</span>
               </span>
             </a>
             <Link
