@@ -8,6 +8,10 @@ import { submitLead } from "@/lib/api/lead.functions";
 const inputClass =
   "w-full rounded-xl border border-brand-line bg-white px-4 py-3 text-sm text-brand-ink outline-none transition-colors placeholder:text-brand-muted/70 focus:border-brand-ink";
 
+/** Stable Lovable deployment endpoint, used when the site is hosted elsewhere. */
+const FALLBACK_LEAD_ENDPOINT =
+  "https://project--ce7b695a-c956-44db-93e5-b9a20665a527.lovable.app/api/public/lead";
+
 export function FormPortrait({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex items-start gap-4">
