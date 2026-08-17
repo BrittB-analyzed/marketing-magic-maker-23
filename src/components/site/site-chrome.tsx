@@ -63,7 +63,7 @@ export function TrustLine() {
             <Check className="size-3.5" strokeWidth={3} />1 vast aanspreekpunt
           </span>
           {["15 jaar ervaring", "Aantoonbare resultaten", "Transparante werkwijze"].map((t) => (
-            <span key={t} className="flex items-center gap-1.5 font-medium">
+            <span key={t} className="flex items-center gap-1.5 font-medium" suppressHydrationWarning>
               <Check className="size-4 text-brand-green" strokeWidth={3} />
               {t}
             </span>

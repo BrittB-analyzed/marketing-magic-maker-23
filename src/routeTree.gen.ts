@@ -74,6 +74,7 @@ import { Route as OnlineMarketingDisplayAdvertisementRouteImport } from './route
 import { Route as OnlineMarketingConversieOptimalisatieRouteImport } from './routes/online-marketing/conversie-optimalisatie'
 import { Route as KennisbankGeoRouteImport } from './routes/kennisbank.geo'
 import { Route as CasesSlugRouteImport } from './routes/cases.$slug'
+import { Route as ApiPublicLeadRouteImport } from './routes/api/public/lead'
 
 const ZoekenRoute = ZoekenRouteImport.update({
   id: '/zoeken',
@@ -419,6 +420,11 @@ const CasesSlugRoute = CasesSlugRouteImport.update({
   path: '/cases/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicLeadRoute = ApiPublicLeadRouteImport.update({
+  id: '/api/public/lead',
+  path: '/api/public/lead',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -486,6 +492,7 @@ export interface FileRoutesByFullPath {
   '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
   '/kennisbank/': typeof KennisbankIndexRoute
   '/online-marketing/': typeof OnlineMarketingIndexRoute
+  '/api/public/lead': typeof ApiPublicLeadRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -553,6 +560,7 @@ export interface FileRoutesByTo {
   '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
   '/kennisbank': typeof KennisbankIndexRoute
   '/online-marketing': typeof OnlineMarketingIndexRoute
+  '/api/public/lead': typeof ApiPublicLeadRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -621,6 +629,7 @@ export interface FileRoutesById {
   '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
   '/kennisbank/': typeof KennisbankIndexRoute
   '/online-marketing/': typeof OnlineMarketingIndexRoute
+  '/api/public/lead': typeof ApiPublicLeadRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -690,6 +699,7 @@ export interface FileRouteTypes {
     | '/online-marketing/wordpress-onderhoud'
     | '/kennisbank/'
     | '/online-marketing/'
+    | '/api/public/lead'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -757,6 +767,7 @@ export interface FileRouteTypes {
     | '/online-marketing/wordpress-onderhoud'
     | '/kennisbank'
     | '/online-marketing'
+    | '/api/public/lead'
   id:
     | '__root__'
     | '/'
@@ -824,6 +835,7 @@ export interface FileRouteTypes {
     | '/online-marketing/wordpress-onderhoud'
     | '/kennisbank/'
     | '/online-marketing/'
+    | '/api/public/lead'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -892,6 +904,7 @@ export interface RootRouteChildren {
   OnlineMarketingWordpressOnderhoudRoute: typeof OnlineMarketingWordpressOnderhoudRoute
   KennisbankIndexRoute: typeof KennisbankIndexRoute
   OnlineMarketingIndexRoute: typeof OnlineMarketingIndexRoute
+  ApiPublicLeadRoute: typeof ApiPublicLeadRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -1351,6 +1364,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CasesSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/lead': {
+      id: '/api/public/lead'
+      path: '/api/public/lead'
+      fullPath: '/api/public/lead'
+      preLoaderRoute: typeof ApiPublicLeadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -1430,6 +1450,7 @@ const rootRouteChildren: RootRouteChildren = {
     OnlineMarketingWordpressOnderhoudRoute,
   KennisbankIndexRoute: KennisbankIndexRoute,
   OnlineMarketingIndexRoute: OnlineMarketingIndexRoute,
+  ApiPublicLeadRoute: ApiPublicLeadRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -8,6 +8,10 @@ import { submitLead } from "@/lib/api/lead.functions";
 const inputClass =
   "w-full rounded-xl border border-brand-line bg-white px-4 py-3 text-sm text-brand-ink outline-none transition-colors placeholder:text-brand-muted/70 focus:border-brand-ink";
 
+/** Stable Lovable deployment endpoint, used when the site is hosted elsewhere. */
+const FALLBACK_LEAD_ENDPOINT =
+  "https://project--ce7b695a-c956-44db-93e5-b9a20665a527.lovable.app/api/public/lead";
+
 export function FormPortrait({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex items-start gap-4">
@@ -86,21 +90,30 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
     setSending(true);
     setError("");
     const payload = { website, email, name, phone, focus, stage, source: id, honeypot };
-    try {
-      // Static hosting (Hostinger): PHP endpoint. Falls back to the server
-      // function when the PHP endpoint is not present (Lovable hosting).
-      let res: { ok: boolean; error?: string } | null = null;
+    const postJson = async (url: string) => {
       try {
-        const php = await fetch("/api/send-lead.php", {
+        const r = await fetch(url, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),
         });
-        const text = await php.text();
-        if (text.trim().startsWith("{")) res = JSON.parse(text) as { ok: boolean; error?: string };
+        const text = await r.text();
+        if (!text.trim().startsWith("{")) return null;
+        const parsed = JSON.parse(text) as { ok: boolean; error?: string };
+        return parsed.ok ? parsed : null;
       } catch {
-        res = null;
+        return null;
       }
+    };
+    try {
+      // 1) same-origin API route (Lovable hosting)
+      // 2) PHP endpoint (Hostinger static hosting)
+      // 3) cross-origin Lovable endpoint (Hostinger without working PHP)
+      // 4) server function
+      let res: { ok: boolean; error?: string } | null =
+        (await postJson("/api/public/lead")) ??
+        (await postJson("/api/send-lead.php")) ??
+        (await postJson(FALLBACK_LEAD_ENDPOINT));
       if (!res) res = await send({ data: payload });
       if (!res.ok) {
         setError(res.error ?? "Verzenden mislukt.");
