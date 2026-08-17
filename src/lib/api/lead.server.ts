@@ -52,8 +52,7 @@ export async function sendLeadEmail(data: LeadInput): Promise<LeadResult> {
       "X-Connection-Api-Key": resendKey,
     },
     body: JSON.stringify({
-      from: // Must be a domain verified in Resend; b-analyzed.com is not verified there yet.
-      process.env["LEAD_FROM_EMAIL"] ?? "B. Analyzed <noreply@expose-your-brand.com>",
+      from: process.env["LEAD_FROM_EMAIL"] ?? "B. Analyzed <info@b-analyzed.com>",
       to: ["info@b-analyzed.com"],
       reply_to: data.email,
       subject: `Nieuwe SEO & GEO-scan aanvraag — ${data.website}`,
