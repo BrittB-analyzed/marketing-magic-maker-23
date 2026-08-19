@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import { FormPortrait } from "@/components/site/lead-form";
+import { LeadForm } from "@/components/site/lead-form";
 import {
   ArrowRight,
   Check,
@@ -204,44 +204,7 @@ function Hero() {
 function HeroForm() {
   return (
     <div id="hero-form" className="relative">
-      <div className="rounded-2xl bg-white p-7 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.15)] ring-1 ring-zinc-200/70 md:p-8">
-        <FormPortrait>
-          <div className="mb-1 text-xs font-semibold uppercase tracking-wider text-brand-red">
-            Gratis &amp; vrijblijvend
-          </div>
-          <h2 className="mb-2 text-2xl font-bold leading-tight text-brand-ink">
-            Vraag je gratis SEO &amp; GEO-scan aan
-          </h2>
-          <p className="text-sm text-zinc-500">
-            Binnen 24 uur ontvang je een persoonlijke SEO &amp; GEO-analyse van Britt, inclusief
-            AI-visibility check.
-          </p>
-        </FormPortrait>
-        <div className="mb-6" />
-        <form onSubmit={(e) => e.preventDefault()} className="space-y-3">
-          <div className="grid grid-cols-2 gap-3">
-            <Field label="Voornaam" placeholder="Jan" />
-            <Field label="Achternaam" placeholder="Jansen" />
-          </div>
-          <Field label="E-mailadres" type="email" placeholder="jan@bedrijf.nl" />
-          <Field label="Telefoonnummer" type="tel" placeholder="06 12345678" />
-          <Field label="Website URL" type="url" placeholder="www.jouwwebsite.nl" />
-          <button
-            type="submit"
-            className="mt-2 inline-flex h-12 w-full items-center justify-center gap-2 rounded-md bg-brand-green text-base font-semibold text-white ring-1 ring-brand-green/30 transition hover:brightness-110"
-          >
-            Vraag gratis SEO &amp; GEO-scan aan
-            <ArrowRight className="size-4" />
-          </button>
-          <p className="pt-1 text-center text-[11px] text-zinc-400">
-            Door te versturen ga je akkoord met ons{" "}
-            <a href="#" className="underline">
-              privacybeleid
-            </a>
-            .
-          </p>
-        </form>
-      </div>
+      <LeadForm id="seo-voor-mkb-hero" />
       <div className="absolute -top-3 -right-3 hidden rotate-3 rounded-md bg-brand-green px-3 py-2 text-xs font-semibold text-white shadow-lg md:block">
         <span className="mr-1 text-brand-green">●</span>
         Reactie binnen 24u
@@ -670,53 +633,13 @@ function CTA() {
                 ))}
               </ul>
             </div>
-            <form
-              onSubmit={(e) => e.preventDefault()}
-              className="space-y-4 rounded-2xl border border-brand-line bg-white p-8 text-brand-ink shadow-xl"
-            >
-              <Field label="Bedrijfsnaam" placeholder="B. Analyzed BV" />
-              <Field label="Website URL" type="url" placeholder="www.jouwwebsite.nl" />
-              <div className="grid grid-cols-2 gap-4">
-                <Field label="Naam" placeholder="Jan Jansen" />
-                <Field label="Telefoon" type="tel" placeholder="06 12345678" />
-              </div>
-              <button
-                type="submit"
-                className="mt-2 h-12 w-full rounded-md bg-brand-green font-medium text-white transition hover:brightness-110"
-              >
-                Vraag gratis SEO &amp; GEO scan aan
-              </button>
-              <p className="text-center text-[10px] text-brand-muted">
-                100% vrijblijvend · Binnen 24 uur antwoord
-              </p>
-            </form>
+            <LeadForm id="seo-voor-mkb-cta" compact />
           </div>
           <div className="absolute -top-24 -right-24 size-96 rounded-full bg-brand-red/10 blur-3xl" />
           <div className="absolute -bottom-24 -left-24 size-96 rounded-full bg-brand-green/10 blur-3xl" />
         </div>
       </div>
     </section>
-  );
-}
-
-function Field({
-  label,
-  type = "text",
-  placeholder,
-}: {
-  label: string;
-  type?: string;
-  placeholder?: string;
-}) {
-  return (
-    <div>
-      <label className="mb-1 block font-mono text-[10px] uppercase text-zinc-400">{label}</label>
-      <input
-        type={type}
-        placeholder={placeholder}
-        className="w-full rounded-md border border-zinc-200 bg-zinc-50 px-4 py-3 text-sm outline-none transition focus:ring-1 focus:ring-brand-red/50"
-      />
-    </div>
   );
 }
 
