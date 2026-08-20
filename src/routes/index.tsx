@@ -260,43 +260,6 @@ function BigStats() {
   );
 }
 
-const RESULT_CARDS = [
-  { label: "Nummer 1-posities", value: "1.500+", note: "Behaald in Google voor onze klanten", wide: true },
-  { label: "Linkbuilding netwerk", value: "3.500+", note: null, wide: false },
-  { label: "Jaar ervaring", value: "15", note: null, wide: false, accent: true },
-];
-
-function ResultCards() {
-  return (
-    <Section id="resultaten" className="border-y border-brand-line bg-brand-sand">
-      <div className="grid gap-4 md:grid-cols-4">
-        {RESULT_CARDS.map((s) => (
-          <div
-            key={s.label}
-            className={`flex h-48 flex-col justify-between rounded-2xl border p-8 md:h-64 ${
-              s.accent
-                ? "border-brand-red bg-brand-red text-white"
-                : "border-brand-line bg-white text-brand-ink"
-            } ${s.wide ? "md:col-span-2" : ""}`}
-          >
-            <div
-              className={`text-sm font-semibold uppercase tracking-[0.14em] ${
-                s.accent ? "opacity-80" : "text-brand-red"
-              }`}
-            >
-              {s.label}
-            </div>
-            <div>
-              <div className="mb-2 text-5xl font-semibold tracking-tight">{s.value}</div>
-              {s.note && <p className="text-sm text-brand-muted">{s.note}</p>}
-            </div>
-          </div>
-        ))}
-      </div>
-    </Section>
-  );
-}
-
 function DashboardShowcase() {
   return (
     <Section className="border-y border-brand-line bg-brand-sand">
