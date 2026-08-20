@@ -164,9 +164,9 @@ function heroInner() {
             <span className="text-brand-red">Meer aanvragen.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-brand-muted">
-            B. Analyzed is hét datagedreven full service online marketingbureau dat al behoorlijk wat
-            klanten blij heeft gemaakt. Onafhankelijk, persoonlijk en transparant — en we werken net
-            zo lang door tot jij meetbaar resultaat boekt.
+            Eén aanspreekpunt. Eén verantwoordelijke voor jouw groei. Bij B. Analyzed praat je niet
+            met een team, maar met de persoon die je cijfers kent en er haar naam aan verbindt.
+            Datagedreven, onafhankelijk, transparant, en we stoppen pas bij meetbaar resultaat.
           </p>
           <ul className="mt-8 space-y-3">
             {[
@@ -226,10 +226,14 @@ function HeroForm() {
 }
 
 const BIG_STATS = [
-  { value: "386", label: "nummer 1-posities behaald voor klanten in Google" },
-  { value: "+25", label: "SEO-opdrachtgevers met minimaal 150% organische groei in 1 jaar" },
-  { value: "+50", label: "tevreden SEO-klanten met minimaal 300% groei in organisch verkeer" },
-  { value: "15", label: "jaar ervaring in SEO, GEO, Ads en conversie-optimalisatie" },
+  { value: "+1500", label: "nummer 1-posities behaald in Google" },
+  { value: "+75", label: "tevreden opdrachtgevers met sterke ROI" },
+  {
+    value: "+15",
+    label: "jaar ervaring in SEO, GEO, Ads, CRO en UX-vriendelijke websites en shops bouwen",
+  },
+  { value: "+3500", label: "sites voor linkbuilding" },
+  { value: "+10", label: "jaar succesvol remote ondernemen" },
 ];
 
 function BigStats() {
@@ -237,13 +241,13 @@ function BigStats() {
     <Section>
       <div className="max-w-2xl">
         <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-          Waarom SEO &amp; GEO geen optie meer is voor het MKB.
+          Gegarandeerd resultaat met SEO &amp; GEO voor het MKB.
         </h2>
       </div>
-      <div className="mt-12 grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4">
+      <div className="mt-12 grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-5">
         {BIG_STATS.map((s) => (
-          <div key={s.label}>
-            <div className="mb-2 text-5xl font-semibold tracking-tight text-brand-red md:text-6xl">
+          <div key={s.label} className="rounded-2xl border border-brand-line bg-white p-6">
+            <div className="mb-2 text-4xl font-semibold tracking-tight text-brand-red md:text-5xl">
               {s.value}
             </div>
             <p className="max-w-[26ch] text-sm leading-relaxed text-brand-muted">{s.label}</p>
@@ -255,8 +259,8 @@ function BigStats() {
 }
 
 const RESULT_CARDS = [
-  { label: "Nummer 1-posities", value: "386", note: "Behaald in Google voor onze klanten", wide: true },
-  { label: "Linkbuilding netwerk", value: "2.500+", note: null, wide: false },
+  { label: "Nummer 1-posities", value: "1.500+", note: "Behaald in Google voor onze klanten", wide: true },
+  { label: "Linkbuilding netwerk", value: "3.500+", note: null, wide: false },
   { label: "Jaar ervaring", value: "15", note: null, wide: false, accent: true },
 ];
 
@@ -351,12 +355,12 @@ function Shift() {
           <SectionHeading
             eyebrow="De verschuiving"
             title="Ranken alleen is niet meer genoeg"
-            intro="Steeds meer zoekopdrachten eindigen zonder klik: AI geeft het antwoord direct. Sta je niet in dat antwoord, dan besta je voor die zoeker niet — ook al sta je op één in Google."
+            intro="Steeds meer zoekopdrachten eindigen zonder klik: AI geeft het antwoord direct. Sta je niet in dat antwoord, dan besta je voor die zoeker niet, ook al sta je op één in Google."
           />
           <p className="mt-6 max-w-xl text-base leading-relaxed text-brand-muted">
             Daarom werken wij met vier pijlers in plaats van dertien losse diensten. SEO en GEO zorgen
             dat je gevonden én genoemd wordt, Ads koopt het verkeer dat vandaag moet converteren, en
-            CRO zorgt dat je van dat verkeer ook echt iets terugziet.
+            CRO zorgt dat je van dat verkeer ook echt iets terugziet in de cijfers.
           </p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
@@ -393,11 +397,11 @@ const PILLAR_DETAIL: Record<string, { line: string; items: string[] }> = {
     items: ["Technische fundering en Core Web Vitals", "Contentclusters op koopintentie", "Autoriteit en linkbuilding"],
   },
   GEO: {
-    line: "Genoemd worden in ChatGPT, Gemini, Perplexity en AI Overviews.",
+    line: "Genoemd worden in ChatGPT, Claude en AI Overviews.",
     items: ["Citeerbare contentstructuur", "Schema-markup en entiteitsopbouw", "Monitoring van AI-vermeldingen"],
   },
   Ads: {
-    line: "Verkeer kopen dat vandaag al converteert, zonder budget te verbranden.",
+    line: "Verkeer kopen dat vandaag al rendeert.",
     items: ["Search- en Performance Max-campagnes", "Zoekterm- en biedstrategie", "Wekelijkse optimalisatie"],
   },
   CRO: {
