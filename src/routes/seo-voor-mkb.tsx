@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
+import { BEDRIJFSCIJFERS, ERVARING_TEKST } from "@/data/bedrijfscijfers";
 import { LeadForm } from "@/components/site/lead-form";
 import {
   ArrowRight,
@@ -79,7 +80,7 @@ function TrustBar() {
         <div className="flex items-center gap-6 text-zinc-600">
           <span className="flex items-center gap-1.5">
             <Check className="size-3.5 text-brand-green" strokeWidth={3} />
-            15 jaar ervaring
+            {ERVARING_TEKST}
           </span>
           <span className="flex items-center gap-1.5">
             <Check className="size-3.5 text-brand-green" strokeWidth={3} />
@@ -160,7 +161,8 @@ function Hero() {
             </h1>
             <p className="mb-8 max-w-[52ch] text-pretty text-lg leading-relaxed text-zinc-600">
               B. Analyzed brengt MKB-bedrijven op pagina 1 van Google én in AI-zoekmachines
-              met een data-gedreven SEO &amp; GEO-aanpak. ${BEDRIJFSCIJFERS.jarenErvaring} jaar ervaring, ${BEDRIJFSCIJFERS.aantalKlanten} klanten, ${BEDRIJFSCIJFERS.reviewScore}/10 beoordeeld.
+              met een data-gedreven SEO &amp; GEO-aanpak. {BEDRIJFSCIJFERS.jarenErvaring} jaar
+              ervaring, {BEDRIJFSCIJFERS.aantalKlanten} klanten, {BEDRIJFSCIJFERS.reviewScore}/10 beoordeeld.
             </p>
             <ul className="mb-10 space-y-3">
               {[
