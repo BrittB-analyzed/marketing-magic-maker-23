@@ -1,16 +1,19 @@
 import chatgpt from "@/assets/ai/chatgpt.png.asset.json";
 import claude from "@/assets/ai/claude.svg";
 import gemini from "@/assets/ai/gemini.svg";
+import google from "@/assets/ai/google.png.asset.json";
 import perplexity from "@/assets/ai/perplexity.svg";
 import grok from "@/assets/ai/grok.svg";
 
 export const AI_ENGINES = [
+  { name: "Google", src: google.url, href: "https://www.google.com/" },
   { name: "ChatGPT", src: chatgpt.url, href: "https://chatgpt.com/" },
   { name: "Gemini", src: gemini, href: "https://gemini.google.com/" },
   { name: "Perplexity", src: perplexity, href: "https://www.perplexity.ai/" },
   { name: "Claude", src: claude, href: "https://claude.ai/" },
   { name: "Grok", src: grok, href: "https://grok.com/" },
 ] as const;
+
 
 export function aiHref(name: string) {
   const key = name.toLowerCase();
