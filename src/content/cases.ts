@@ -87,7 +87,7 @@ export const CASES: Record<string, CaseStudy> = {
       {
         h: "De uitdaging",
         ps: [
-          "Toen Meubel Outlet Weert bij ons aanklopte was het probleem helder: de website werd simpelweg niet gevonden. Het organisch zoekverkeer lag op een dieptepunt — minder dan 500 bezoekers per maand — en er was geen structureel inzicht in wat wel en niet werkte.",
+          "Toen Meubel Outlet Weert bij ons aanklopte was het probleem helder: de website werd simpelweg niet gevonden. Het organisch zoekverkeer lag op een dieptepunt, minder dan 500 bezoekers per maand, en er was geen structureel inzicht in wat wel en niet werkte.",
           "Tegelijkertijd liep er een Google Ads-campagne die veel meer kon opleveren dan ze deed. Kortom: er lag een hoop potentieel te wachten om benut te worden.",
         ],
       },
@@ -95,7 +95,7 @@ export const CASES: Record<string, CaseStudy> = {
         h: "Wat we hebben gedaan",
         ps: [
           "We startten met een grondige analyse van de website, het zoekgedrag in de regio en de concurrentie. Op basis daarvan rolden we een gerichte SEO-strategie uit.",
-          "Een belangrijk onderdeel was het optimaliseren van de belangrijkste categoriepagina's — woonmeubelen, banken, relaxstoelen, eetkamerstoelen en design meubels. Die pagina's zijn herschreven, technisch verbeterd en afgestemd op de zoektermen die er echt toe doen.",
+          "Een belangrijk onderdeel was het optimaliseren van de belangrijkste categoriepagina's, woonmeubelen, banken, relaxstoelen, eetkamerstoelen en design meubels. Die pagina's zijn herschreven, technisch verbeterd en afgestemd op de zoektermen die er echt toe doen.",
           "Daarnaast lanceerden we een blog om ook op informatieve zoekopdrachten gevonden te worden. Artikelen over kleine ruimtes inrichten en meubelzaken in Limburg trekken inmiddels honderden extra bezoekers per maand. De showroompagina is opnieuw ingericht zodat bezoekers een goed beeld krijgen van wat ze in Weert kunnen verwachten.",
           "Tegelijkertijd hebben we de Google Ads-campagnes opnieuw opgezet: minder budget naar brede zoekopdrachten, meer naar merkgerichte, productgerichte en lokale campagnes die de showroom vullen. Als laatste is Google Analytics 4 correct ingericht, zodat precies duidelijk is welk kanaal wat oplevert.",
         ],
@@ -150,7 +150,7 @@ export const CASES: Record<string, CaseStudy> = {
       {
         h: "De uitdaging",
         ps: [
-          "Toen Van Daken eind 2024 bij ons aanklopte, was de online aanwezigheid nog beperkt. Lokaal waren ze bekend, maar uit de eerste analyse bleek dat ze op slechts zes zoekwoorden op positie 1 stonden — waaronder 'daklekkage rotterdam', 'dakdekker amsterdam oost' en twee merkgerichte zoekopdrachten.",
+          "Toen Van Daken eind 2024 bij ons aanklopte, was de online aanwezigheid nog beperkt. Lokaal waren ze bekend, maar uit de eerste analyse bleek dat ze op slechts zes zoekwoorden op positie 1 stonden, waaronder 'daklekkage rotterdam', 'dakdekker amsterdam oost' en twee merkgerichte zoekopdrachten.",
           "Voor een bedrijf met landelijke ambities en hoogwaardige service was dat een gemiste kans. De wens: structureel meer organisch verkeer, beter gevonden worden op relevante zoektermen en daarmee meer offerteaanvragen.",
         ],
       },
@@ -172,7 +172,7 @@ export const CASES: Record<string, CaseStudy> = {
       {
         ps: [
           "Ook het aantal vertoningen nam sterk toe. Van januari tot maart 2025 werd de website 95.600 keer vertoond in de zoekresultaten; van april tot juni 2025 was dat 179.000 keer, een groei van 87% in organische zichtbaarheid.",
-          "De doorklikratio daalde licht van 0,5% naar 0,3% — een gebruikelijk effect wanneer het bereik zich uitbreidt naar bredere zoektermen. Het vergrote bereik legt een stevige basis voor verdere optimalisatie en conversieverhoging in de volgende fase.",
+          "De doorklikratio daalde licht van 0,5% naar 0,3%, een gebruikelijk effect wanneer het bereik zich uitbreidt naar bredere zoektermen. Het vergrote bereik legt een stevige basis voor verdere optimalisatie en conversieverhoging in de volgende fase.",
         ],
         image: imprVanDaken.url,
         imageAlt: "Vergelijking van vertoningen van Van Daken in Google",

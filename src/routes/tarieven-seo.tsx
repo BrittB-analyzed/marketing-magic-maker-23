@@ -67,13 +67,13 @@ const PLANS = [
 export const Route = createFileRoute("/tarieven-seo")({
   head: () => ({
     meta: [
-      { title: "Tarieven SEO & GEO — transparant vanaf € 599,- | B. Analyzed" },
+      { title: "Tarieven SEO & GEO: transparant vanaf € 599,- | B. Analyzed" },
       {
         name: "description",
         content:
           "Wat kost SEO en GEO? Uitgebreide audit vanaf € 599,-, doorlopend SEO- & GEO-pakket vanaf € 999,- per maand. Altijd een vaste prijs vooraf.",
       },
-      { property: "og:title", content: "Tarieven SEO & GEO — transparant vanaf € 599,-" },
+      { property: "og:title", content: "Tarieven SEO & GEO: transparant vanaf € 599,-" },
       { property: "og:description", content: "Heldere prijzen: gratis quick scan, audit vanaf € 599,-, pakket vanaf € 999,- per maand." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -130,7 +130,7 @@ function Tarieven() {
           ))}
         </div>
         <p className="mt-8 text-sm text-brand-muted">
-          Alle bedragen zijn exclusief btw. Vanaf € 999,- per maand combineren we SEO, GEO, Ads en CRO — je kiest zelf uit diverse diensten. Los maatwerk factureren we tegen € 90,- per uur. Werken we samen? Dan gaan we net zo lang door tot je meetbaar resultaat boekt.
+          Alle bedragen zijn exclusief btw. Vanaf € 999,- per maand combineren we SEO, GEO, Ads en CRO, je kiest zelf uit diverse diensten. Los maatwerk factureren we tegen € 90,- per uur. Werken we samen? Dan gaan we net zo lang door tot je meetbaar resultaat boekt.
         </p>
       </Section>
       <Section className="bg-brand-sand">
@@ -162,7 +162,7 @@ function Tarieven() {
           />
         </div>
         <p className="mt-6 text-sm text-brand-muted">
-          Bedragen exclusief btw en indicatief. Bij ons weet je vooraf exact wat je betaalt — geen nacalculatie.
+          Bedragen exclusief btw en indicatief. Bij ons weet je vooraf exact wat je betaalt, geen nacalculatie.
         </p>
       </Section>
       <FaqBlock items={FAQ} title="Over onze tarieven" />

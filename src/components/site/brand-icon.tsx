@@ -152,7 +152,7 @@ export function BrandGlyph({ name, ...props }: { name: BrandIconName } & PathPro
   );
 }
 
-/** Icoon in een witte tegel met rode rand — de standaard toepassing op de site. */
+/** Icoon in een witte tegel met rode rand, de standaard toepassing op de site. */
 export function BrandIcon({
   name,
   size = "md",

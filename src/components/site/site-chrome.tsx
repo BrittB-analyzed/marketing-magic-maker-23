@@ -25,7 +25,7 @@ export const PILLARS = [
 
 export function Logo({ compact = false }: { compact?: boolean }) {
   return (
-    <Link to="/" className="flex items-center" aria-label="B. Analyzed marketing — home">
+    <Link to="/" className="flex items-center" aria-label="B. Analyzed marketing, home">
       <img
         src={logoUrl}
         alt="B. Analyzed marketing"
@@ -488,7 +488,7 @@ export function Footer() {
       <div className="border-t border-brand-line">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-6 text-xs text-brand-muted md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} B. Analyzed · KVK 61944351 · BTW NL001846301B46</p>
-          <p>Venlo, Limburg — actief in Nederland en België</p>
+          <p>Venlo, Limburg, actief in Nederland en België</p>
         </div>
       </div>
     </footer>

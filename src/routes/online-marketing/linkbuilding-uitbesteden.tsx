@@ -25,16 +25,16 @@ const FAQ = [
   },
   {
     q: "Hoe bepalen jullie welk linkbuilding pakket het beste past?",
-    a: "Dat hangt af van je budget, je doelstellingen en je huidige linkprofiel. We bespreken eerst je situatie en wensen, brengen je huidige linkprofiel in kaart en stellen op basis daarvan de meest effectieve linkbuilding strategie samen — op maat, niet uit een standaard schap.",
+    a: "Dat hangt af van je budget, je doelstellingen en je huidige linkprofiel. We bespreken eerst je situatie en wensen, brengen je huidige linkprofiel in kaart en stellen op basis daarvan de meest effectieve linkbuilding strategie samen, op maat, niet uit een standaard schap.",
   },
 ];
 
 export const Route = createFileRoute("/online-marketing/linkbuilding-uitbesteden")({
   head: () => ({
     meta: [
-      { title: "Linkbuilding uitbesteden — een natuurlijk linkprofiel | B. Analyzed" },
+      { title: "Linkbuilding uitbesteden: een natuurlijk linkprofiel | B. Analyzed" },
       { name: "description", content: "Linkbuilding uitbesteden vanaf 2 uur per maand: relevante backlinks, natuurlijk linkprofiel en maandelijkse rapportage. Uurtarief € 90,-." },
-      { property: "og:title", content: "Linkbuilding uitbesteden — een natuurlijk linkprofiel" },
+      { property: "og:title", content: "Linkbuilding uitbesteden: een natuurlijk linkprofiel" },
       { property: "og:description", content: "Relevante links en vermeldingen in plaats van massaproductie." },
       { property: "og:type", content: "article" },
       { name: "twitter:card", content: "summary" },
@@ -45,7 +45,7 @@ export const Route = createFileRoute("/online-marketing/linkbuilding-uitbesteden
     <SupportPage
       eyebrow="Ondersteunende dienst"
       title="Linkbuilding uitbesteden: een natuurlijk linkprofiel dat blijft renderen"
-      intro="Kwalitatieve linkbuilding is onmisbaar voor een goedlopende website. Wij bouwen sinds 2009 aan linkprofielen die zowel Google als AI-modellen als bewijs van autoriteit herkennen — zonder linkspam."
+      intro="Kwalitatieve linkbuilding is onmisbaar voor een goedlopende website. Wij bouwen sinds 2009 aan linkprofielen die zowel Google als AI-modellen als bewijs van autoriteit herkennen, zonder linkspam."
       points={[
         "Linkprofielanalyse: wat heb je, wat mist er, wat is risicovol",
         "Externe links op relevante websites met een goede autoriteit binnen jouw branche",
@@ -65,7 +65,7 @@ export const Route = createFileRoute("/online-marketing/linkbuilding-uitbesteden
         },
         {
           title: "Van basis- tot XXL-pakket",
-          body: "Onze pakketten variëren van een basispakket met circa 8 geplaatste links en 1 artikel per maand tot een XXL-pakket vanaf 50 linkjes per maand met minimaal 4 artikelen. Hoe uitgebreider het pakket, hoe meer kwalitatieve backlinks en zoektermen je meekrijgt — altijd met een minimale domeinautoriteit als kwaliteitsgrens.",
+          body: "Onze pakketten variëren van een basispakket met circa 8 geplaatste links en 1 artikel per maand tot een XXL-pakket vanaf 50 linkjes per maand met minimaal 4 artikelen. Hoe uitgebreider het pakket, hoe meer kwalitatieve backlinks en zoektermen je meekrijgt, altijd met een minimale domeinautoriteit als kwaliteitsgrens.",
         },
         {
           title: "Linkbuilding zonder vaste contracten",

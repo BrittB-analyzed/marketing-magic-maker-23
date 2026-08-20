@@ -6,7 +6,7 @@ import { faqJsonLd } from "@/components/site/page-bits";
 const FAQ = [
   {
     q: "Wat kost Google Ads uitbesteden?",
-    a: "Een audit van je huidige account start vanaf € 599,-. Doorlopend beheer, inclusief SEO en GEO, combineren we vanaf € 999,- per maand. Je advertentiebudget betaal je rechtstreeks aan Google, in je eigen account — nooit aan ons. Ads uitbesteden bij een Google Ads bureau hoeft dus niet duur te zijn, maar wel transparant.",
+    a: "Een audit van je huidige account start vanaf € 599,-. Doorlopend beheer, inclusief SEO en GEO, combineren we vanaf € 999,- per maand. Je advertentiebudget betaal je rechtstreeks aan Google, in je eigen account, nooit aan ons. Ads uitbesteden bij een Google Ads bureau hoeft dus niet duur te zijn, maar wel transparant.",
   },
   {
     q: "Wanneer is het slim om een ads expert in te huren?",
@@ -22,7 +22,7 @@ const FAQ = [
   },
   {
     q: "Wie is eigenaar van het advertentieaccount?",
-    a: "Jij. We werken altijd in jouw eigen Google Ads-account, koppelen dit aan Analytics en Google Places en Google Shopping waar nodig, en je blijft eigenaar — ook als de samenwerking ooit stopt. Zo blijf je onafhankelijk van welk Google Ads bureau je ook kiest.",
+    a: "Jij. We werken altijd in jouw eigen Google Ads-account, koppelen dit aan Analytics en Google Places en Google Shopping waar nodig, en je blijft eigenaar, ook als de samenwerking ooit stopt. Zo blijf je onafhankelijk van welk Google Ads bureau je ook kiest.",
   },
   {
     q: "Kan ik ook met een klein budget adverteren?",

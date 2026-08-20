@@ -24,13 +24,13 @@ import dashboardImage from "@/assets/seo-dashboard.jpg";
 export const Route = createFileRoute("/seo-voor-mkb")({
   head: () => ({
     meta: [
-      { title: "SEO & GEO voor MKB — Meetbaar resultaat | B. Analyzed" },
+      { title: "SEO & GEO voor MKB: Meetbaar resultaat | B. Analyzed" },
       {
         name: "description",
         content:
           "Data-gedreven SEO & GEO (AI Visibility) voor MKB-ondernemers. Domineer Google én AI-zoekmachines met een gratis scan, helder rapport en bewezen resultaat. 9.8/10 klantbeoordeling.",
       },
-      { property: "og:title", content: "SEO & GEO voor MKB — Meetbaar resultaat | B. Analyzed" },
+      { property: "og:title", content: "SEO & GEO voor MKB: Meetbaar resultaat | B. Analyzed" },
       {
         property: "og:description",
         content:
@@ -419,7 +419,7 @@ function DashboardShowcase() {
           </h2>
           <p className="mb-8 max-w-md text-zinc-300">
             Geen vage PDF-rapportjes. Jij krijgt een live dashboard waarin je
-            precies ziet welke euro's rendement opleveren — wanneer jij wilt.
+            precies ziet welke euro's rendement opleveren, wanneer jij wilt.
           </p>
           <ul className="space-y-3 text-sm">
             {[
@@ -472,7 +472,7 @@ function Guarantee() {
               Je verdient je investering terug. <span className="text-brand-red">Gegarandeerd.</span>
             </h2>
             <p className="max-w-md text-pretty text-zinc-600">
-              Wij werken net zo lang door totdat je meetbaar resultaat boekt. Geen resultaat? Dan stoppen wij pas als jij tevreden bent — dat is onze werkwijze.
+              Wij werken net zo lang door totdat je meetbaar resultaat boekt. Geen resultaat? Dan stoppen wij pas als jij tevreden bent, dat is onze werkwijze.
             </p>
           </div>
           <div className="space-y-4">
@@ -554,7 +554,7 @@ const faqs = [
   },
   {
     q: "Wat is GEO en waarom is het belangrijk?",
-    a: "GEO (Generative Engine Optimization) zorgt ervoor dat jouw bedrijf wordt genoemd in antwoorden van AI-tools zoals ChatGPT, Perplexity en Google AI Overviews. Steeds meer mensen zoeken via AI — wij zorgen dat jij daar zichtbaar bent.",
+    a: "GEO (Generative Engine Optimization) zorgt ervoor dat jouw bedrijf wordt genoemd in antwoorden van AI-tools zoals ChatGPT, Perplexity en Google AI Overviews. Steeds meer mensen zoeken via AI, wij zorgen dat jij daar zichtbaar bent.",
   },
   {
     q: "Wat kost een SEO & GEO-traject bij B. Analyzed?",
@@ -562,7 +562,7 @@ const faqs = [
   },
   {
     q: "Werken jullie ook voor mijn branche?",
-    a: "We werken met 220+ MKB-bedrijven in uiteenlopende sectoren — van e-commerce tot lokale dienstverleners en B2B SaaS.",
+    a: "We werken met 220+ MKB-bedrijven in uiteenlopende sectoren, van e-commerce tot lokale dienstverleners en B2B SaaS.",
   },
   {
     q: "Zit ik vast aan een lang contract?",
@@ -654,7 +654,7 @@ function Footer() {
           <span className="text-xs font-semibold uppercase tracking-tight">Analyzed</span>
         </div>
         <p className="font-mono text-xs text-zinc-400">
-          © {new Date().getFullYear()} B. Analyzed — Focus op resultaat.
+          © {new Date().getFullYear()} B. Analyzed, Focus op resultaat.
         </p>
         <div className="flex gap-6">
           <a href="#" className="text-xs text-zinc-500 transition-colors hover:text-zinc-900">

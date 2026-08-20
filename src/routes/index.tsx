@@ -63,13 +63,13 @@ const FAQ: Faq[] = [
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "B. Analyzed — Gevonden in Google, genoemd in AI" },
+      { title: "B. Analyzed: Gevonden in Google, genoemd in AI" },
       {
         name: "description",
         content:
           "Online marketingbureau voor het MKB. SEO, GEO, Ads en CRO in één verhaal: gevonden worden in Google, genoemd worden in AI en bezoekers omzetten in aanvragen.",
       },
-      { property: "og:title", content: "B. Analyzed — Gevonden in Google, genoemd in AI" },
+      { property: "og:title", content: "B. Analyzed: Gevonden in Google, genoemd in AI" },
       {
         property: "og:description",
         content:
@@ -271,7 +271,7 @@ function DashboardShowcase() {
           </h2>
           <p className="mt-5 max-w-md text-base leading-relaxed text-brand-muted">
             Geen vage PDF-rapportjes. Jij krijgt een live dashboard waarin je precies ziet welke
-            euro's rendement opleveren — wanneer jij wilt.
+            euro's rendement opleveren, wanneer jij wilt.
           </p>
           <ul className="mt-8 space-y-3 text-sm">
             {[
@@ -425,7 +425,7 @@ function Pillars() {
         })}
       </div>
       <p className="mt-8 text-sm text-brand-muted">
-        Ook mogelijk: social media, e-mailmarketing, GTM en meer —{" "}
+        Ook mogelijk: social media, e-mailmarketing, GTM en meer,{" "}
         <Link to="/online-marketing/" className="font-semibold text-brand-ink underline underline-offset-4">
           bekijk alle diensten
         </Link>
@@ -509,7 +509,7 @@ function Proof() {
 
 function Method() {
   const steps: { t: string; d: string; icon: BrandIconName }[] = [
-    { t: "Onderzoek", d: "We brengen je markt, concurrentie en huidige zichtbaarheid in kaart — in Google én in AI.", icon: "audit" },
+    { t: "Onderzoek", d: "We brengen je markt, concurrentie en huidige zichtbaarheid in kaart, in Google én in AI.", icon: "audit" },
     { t: "Strategie", d: "Welke pijlers je nodig hebt, in welke volgorde, met welk budget en welk verwacht rendement.", icon: "strategie" },
     { t: "Uitvoering", d: "Wij doen het werk. Jij ziet in het dashboard precies wat er wanneer gebeurt.", icon: "uitvoering" },
     { t: "Optimalisatie", d: "Elke maand een Loom-video: wat werkte, wat niet, en wat we daarom aanpassen.", icon: "monitoring" },
@@ -556,7 +556,7 @@ function PersonalTouch() {
           <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-brand-line sm:aspect-[3/4]">
             <img
               src={portretBuiten.url}
-              alt="Sanne van B. Analyzed — online marketing specialist"
+              alt="Sanne van B. Analyzed, online marketing specialist"
               className="h-full w-full object-cover"
               loading="lazy"
               decoding="async"

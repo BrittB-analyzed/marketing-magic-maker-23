@@ -4,7 +4,7 @@ import { SiteLayout } from "@/components/site/site-chrome";
 import { CtaBand, Faq, FaqBlock, PageHero, Section, SectionHeading, faqJsonLd } from "@/components/site/page-bits";
 
 const FAQ: Faq[] = [
-  { q: "Is GEO iets anders dan SEO?", a: "Deels. De basis — goede techniek, duidelijke content en betrouwbare vermeldingen — is hetzelfde. GEO voegt daaraan toe dat je content citeerbaar moet zijn: kort, feitelijk en gestructureerd." },
+  { q: "Is GEO iets anders dan SEO?", a: "Deels. De basis, goede techniek, duidelijke content en betrouwbare vermeldingen, is hetzelfde. GEO voegt daaraan toe dat je content citeerbaar moet zijn: kort, feitelijk en gestructureerd." },
   { q: "Kan ik GEO meten?", a: "Ja. Wij monitoren maandelijks een vaste set vragen in ChatGPT, Gemini en Perplexity en houden bij hoe vaak jij en je concurrenten genoemd worden." },
   { q: "Heeft GEO zin voor een lokaal bedrijf?", a: "Zeker. AI-antwoorden op vragen als 'goede installateur in Venlo' leunen sterk op je bedrijfsprofiel, reviews en lokale vermeldingen." },
 ];

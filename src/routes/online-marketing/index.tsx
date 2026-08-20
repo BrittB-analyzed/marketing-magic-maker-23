@@ -95,7 +95,7 @@ function Diensten() {
           </div>
           <div className="rounded-2xl border border-brand-line p-7">
             <h3 className="text-base font-semibold">Transparante samenwerking</h3>
-            <p className="mt-2 text-sm leading-relaxed text-brand-muted">Ons team werkt nauw samen en houdt je precies op de hoogte van wat we voor je doen — geen black box.</p>
+            <p className="mt-2 text-sm leading-relaxed text-brand-muted">Ons team werkt nauw samen en houdt je precies op de hoogte van wat we voor je doen, geen black box.</p>
           </div>
           <div className="rounded-2xl border border-brand-line p-7">
             <h3 className="text-base font-semibold">No cure – no pay</h3>

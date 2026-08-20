@@ -208,7 +208,7 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
             </p>
             <h2 className="mt-1 text-xl font-semibold tracking-tight">Nog even scherpstellen</h2>
             <p className="mt-1 text-sm text-brand-muted">
-              Zo maken we de scan specifiek voor jouw situatie. Overslaan mag — je aanvraag staat al klaar.
+              Zo maken we de scan specifiek voor jouw situatie. Overslaan mag, je aanvraag staat al klaar.
             </p>
           </div>
           <label className="block">

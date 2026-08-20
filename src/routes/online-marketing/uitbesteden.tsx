@@ -7,7 +7,7 @@ const FAQ = [
   { q: "Welke online marketing diensten bieden jullie aan?", a: "Onder meer zoekmachineoptimalisatie (SEO), Google Ads, linkbuilding, e-mailmarketing, conversieratio-optimalisatie (CRO) en social media marketing. We bepalen aan de hand van een analyse van je bedrijf, doelgroep en doelstellingen welke mix het meest oplevert." },
   { q: "Wat is een full service internet marketing plan?", a: "Dat is een allesomvattend pakket waarin we alle voor jouw bedrijf relevante marketingdiensten combineren: van webdesign en SEO tot SEA, e-mail- en social media marketing. We stellen een op maat gemaakte strategie op en passen die aan op wat jij wel en niet nodig hebt." },
   { q: "Voor welk type bedrijf werkt een full service plan?", a: "Voor elke website en branche: een e-commercesite, een B2B-website gericht op leadgeneratie of een andere website. Het plan bevat alles om meer bezoekers aan te trekken, meer conversies te behalen en je website gebruiksvriendelijker te maken." },
-  { q: "Werken jullie met langlopende contracten?", a: "Nee. We geloven in een op maat gemaakte, transparante aanpak zonder overbodige onderdelen — dat houdt onze dienstverlening kosteneffectief en jouw marketingbudget op schema. We bieden bovendien een no cure - no pay garantie." },
+  { q: "Werken jullie met langlopende contracten?", a: "Nee. We geloven in een op maat gemaakte, transparante aanpak zonder overbodige onderdelen, dat houdt onze dienstverlening kosteneffectief en jouw marketingbudget op schema. We bieden bovendien een no cure - no pay garantie." },
 ];
 
 export const Route = createFileRoute("/online-marketing/uitbesteden")({
@@ -38,7 +38,7 @@ export const Route = createFileRoute("/online-marketing/uitbesteden")({
       sections={[
         {
           title: "Waarom online marketing uitbesteden?",
-          body: "Bedrijven die hun online marketing uitbesteden bepalen samen met ons welke diensten het beste aansluiten bij hun doelgroep en doelstellingen. Omdat de online wereld continu verandert, is diepgaande kennis van elke discipline nodig om optimaal resultaat te behalen — tijd en expertise die uitbesteden je bespaart.",
+          body: "Bedrijven die hun online marketing uitbesteden bepalen samen met ons welke diensten het beste aansluiten bij hun doelgroep en doelstellingen. Omdat de online wereld continu verandert, is diepgaande kennis van elke discipline nodig om optimaal resultaat te behalen, tijd en expertise die uitbesteden je bespaart.",
         },
         {
           title: "Een breed palet aan diensten",
@@ -50,7 +50,7 @@ export const Route = createFileRoute("/online-marketing/uitbesteden")({
         },
         {
           title: "Altijd een op maat gerichte service",
-          body: "Heb je niet alles nodig wat we hebben genoemd? Geen probleem: we passen het plan aan op jouw specifieke behoeften. Zo blijft onze dienstverlening kosteneffectief en jouw marketingbudget op schema — mét een no cure - no pay garantie op resultaat.",
+          body: "Heb je niet alles nodig wat we hebben genoemd? Geen probleem: we passen het plan aan op jouw specifieke behoeften. Zo blijft onze dienstverlening kosteneffectief en jouw marketingbudget op schema, mét een no cure - no pay garantie op resultaat.",
         },
       ]}
       pillar="SEO"
