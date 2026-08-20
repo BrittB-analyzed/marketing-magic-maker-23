@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute } from "@tanstack/react-router";
 import { SupportPage } from "@/components/site/support-page";
 import { faqJsonLd } from "@/components/site/page-bits";
@@ -31,14 +32,7 @@ const FAQ = [
 
 export const Route = createFileRoute("/online-marketing/linkbuilding-uitbesteden")({
   head: () => ({
-    meta: [
-      { title: "Linkbuilding uitbesteden: een natuurlijk linkprofiel | B. Analyzed" },
-      { name: "description", content: "Linkbuilding uitbesteden vanaf 2 uur per maand: relevante backlinks, natuurlijk linkprofiel en maandelijkse rapportage. Uurtarief € 90,-." },
-      { property: "og:title", content: "Linkbuilding uitbesteden: een natuurlijk linkprofiel" },
-      { property: "og:description", content: "Relevante links en vermeldingen in plaats van massaproductie." },
-      { property: "og:type", content: "article" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMeta('/online-marketing/linkbuilding-uitbesteden/', { ogType: 'article', twitterCard: 'summary' }),
     scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
   }),
   component: () => (

@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/site-chrome";
 import { ServicePage } from "@/components/site/service-page";
@@ -32,21 +33,7 @@ const FAQ = [
 
 export const Route = createFileRoute("/online-marketing/google-ads-uitbesteden")({
   head: () => ({
-    meta: [
-      { title: "Google Ads uitbesteden | Ads expert inhuren | Google Ads bureau | B. Analyzed" },
-      {
-        name: "description",
-        content:
-          "Wil je ads uitbesteden? Als Google Ads bureau en Google Premium Partner helpen wij je campagnes converteren. Ads expert inhuren vanaf € 999,- p/m. Jouw eigen account, volledige transparantie.",
-      },
-      { property: "og:title", content: "Google Ads uitbesteden | Ads expert inhuren | Google Ads bureau" },
-      {
-        property: "og:description",
-        content: "Wil je ads uitbesteden? Wij zijn een Google Ads bureau dat campagnes laat converteren. Ads expert inhuren met meetbare resultaten.",
-      },
-      { property: "og:type", content: "article" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMeta('/online-marketing/google-ads-uitbesteden/', { ogType: 'article', twitterCard: 'summary' }),
     scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
   }),
   component: () => (

@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
   ArrowRight,
@@ -63,22 +64,7 @@ const FAQ: Faq[] = [
 
 export const Route = createFileRoute("/")({
   head: () => ({
-    meta: [
-      { title: "B. Analyzed: Gevonden in Google, genoemd in AI" },
-      {
-        name: "description",
-        content:
-          "Online marketingbureau voor het MKB. SEO, GEO, Ads en CRO in één verhaal: gevonden worden in Google, genoemd worden in AI en bezoekers omzetten in aanvragen.",
-      },
-      { property: "og:title", content: "B. Analyzed: Gevonden in Google, genoemd in AI" },
-      {
-        property: "og:description",
-        content:
-          "SEO, GEO, Ads en CRO voor het MKB. Vraag je gratis SEO & GEO-scan aan en krijg een persoonlijke video-analyse.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
+    meta: seoMeta('/', { ogType: 'website', twitterCard: 'summary_large_image' }),
     scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
   }),
   component: Home,

@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/site-chrome";
 import { ServicePage } from "@/components/site/service-page";
@@ -20,21 +21,7 @@ const FAQ = [
 
 export const Route = createFileRoute("/online-marketing/conversie-optimalisatie")({
   head: () => ({
-    meta: [
-      { title: "Conversie-optimalisatie (CRO) voor het MKB | B. Analyzed" },
-      {
-        name: "description",
-        content:
-          "Meer aanvragen uit het verkeer dat je al hebt. Conversie-optimalisatie met analyse, A/B-tests en formulieren die wél werken.",
-      },
-      { property: "og:title", content: "Conversie-optimalisatie (CRO) voor het MKB" },
-      {
-        property: "og:description",
-        content: "Meer aanvragen uit hetzelfde verkeer. Analyse, tests en formulieren die converteren.",
-      },
-      { property: "og:type", content: "article" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMeta('/online-marketing/conversie-optimalisatie/', { ogType: 'article', twitterCard: 'summary' }),
     scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
   }),
   component: () => (

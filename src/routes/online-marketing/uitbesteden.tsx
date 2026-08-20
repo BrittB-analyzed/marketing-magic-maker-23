@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute } from "@tanstack/react-router";
 import { SupportPage } from "@/components/site/support-page";
 import { faqJsonLd } from "@/components/site/page-bits";
@@ -12,14 +13,7 @@ const FAQ = [
 
 export const Route = createFileRoute("/online-marketing/uitbesteden")({
   head: () => ({
-    meta: [
-      { title: "Online marketing uitbesteden | B. Analyzed" },
-      { name: "description", content: "Online marketing uitbesteden aan een vast team: SEO, Ads, linkbuilding, e-mailmarketing en CRO onder één dak, met een full service plan op maat." },
-      { property: "og:title", content: "Online marketing uitbesteden" },
-      { property: "og:description", content: "Online marketing uitbesteden aan een vast team, met een op maat gemaakt full service plan." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMeta('/online-marketing/uitbesteden/', { ogType: 'article', twitterCard: 'summary' }),
     scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
   }),
   component: () => (

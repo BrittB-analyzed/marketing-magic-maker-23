@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute } from "@tanstack/react-router";
 import { SupportPage } from "@/components/site/support-page";
 import { faqJsonLd } from "@/components/site/page-bits";
@@ -12,14 +13,7 @@ const FAQ = [
 
 export const Route = createFileRoute("/online-marketing/seo-teksten-laten-schrijven")({
   head: () => ({
-    meta: [
-      { title: "SEO-teksten laten schrijven | B. Analyzed" },
-      { name: "description", content: "SEO-teksten laten schrijven door ervaren tekstschrijvers: zoekwoordenonderzoek, strategie en pakkende teksten die Google én AI-zoekmachines gebruiken." },
-      { property: "og:title", content: "SEO-teksten laten schrijven" },
-      { property: "og:description", content: "SEO-teksten laten schrijven voor je website: onderzocht, leesbaar en geschreven zodat Google én AI-zoekmachines je content gebruiken." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMeta('/online-marketing/seo-teksten-laten-schrijven/', { ogType: 'article', twitterCard: 'summary' }),
     scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
   }),
   component: () => (

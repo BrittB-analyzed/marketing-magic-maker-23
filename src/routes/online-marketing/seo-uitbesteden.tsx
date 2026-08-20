@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/site-chrome";
 import { ServicePage } from "@/components/site/service-page";
@@ -24,21 +25,7 @@ const FAQ = [
 
 export const Route = createFileRoute("/online-marketing/seo-uitbesteden")({
   head: () => ({
-    meta: [
-      { title: "SEO uitbesteden aan een bureau dat het uitlegt | B. Analyzed" },
-      {
-        name: "description",
-        content:
-          "SEO uitbesteden voor het MKB: technische fundering, content op koopintentie en autoriteit. Vaste specialist, maandelijkse video-rapportage, vanaf € 999,- per maand.",
-      },
-      { property: "og:title", content: "SEO uitbesteden aan een bureau dat het uitlegt" },
-      {
-        property: "og:description",
-        content: "Structurele groei in organisch verkeer, met een vaste specialist en maandelijkse Loom-video.",
-      },
-      { property: "og:type", content: "article" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMeta('/online-marketing/seo-uitbesteden/', { ogType: 'article', twitterCard: 'summary' }),
     scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
   }),
   component: () => (
