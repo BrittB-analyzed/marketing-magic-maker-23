@@ -315,6 +315,78 @@ function LocalVisual() {
   );
 }
 
+function ContentVisual() {
+  return (
+    <VisualFrame label="Content & autoriteit · productie">
+      <div className="space-y-2">
+        {[
+          { t: "SEO-teksten geschreven", v: "18 / maand" },
+          { t: "Nieuwe verwijzende domeinen", v: "+24" },
+          { t: "Social posts gepland", v: "32" },
+          { t: "Nieuwsbrieven verstuurd", v: "4" },
+        ].map((r) => (
+          <div
+            key={r.t}
+            className="flex items-center justify-between rounded-xl border border-brand-line px-3 py-2.5"
+          >
+            <p className="text-sm text-brand-ink">{r.t}</p>
+            <p className="text-sm font-semibold text-brand-green">{r.v}</p>
+          </div>
+        ))}
+      </div>
+      <div className="grid grid-cols-3 gap-2">
+        {[
+          { v: "+64%", n: "zoekwoorden in top 10" },
+          { v: "+38%", n: "gemiddelde leestijd" },
+          { v: "+21%", n: "aanvragen uit content" },
+        ].map((s) => (
+          <div key={s.n} className="rounded-xl bg-brand-canvas p-3">
+            <p className="text-sm font-semibold text-brand-green">{s.v}</p>
+            <p className="mt-1 text-[11px] leading-snug text-brand-muted">{s.n}</p>
+          </div>
+        ))}
+      </div>
+    </VisualFrame>
+  );
+}
+
+function TechVisual() {
+  return (
+    <VisualFrame label="Website & tracking · status">
+      <div className="space-y-2">
+        {[
+          { t: "Website live gezet", v: "3 dagen" },
+          { t: "Conversiemetingen actief", v: "7 / 7" },
+          { t: "Core Web Vitals", v: "goed" },
+          { t: "Updates & back-ups", v: "wekelijks" },
+        ].map((r) => (
+          <div
+            key={r.t}
+            className="flex items-center justify-between rounded-xl border border-brand-line px-3 py-2.5"
+          >
+            <p className="text-sm text-brand-ink">{r.t}</p>
+            <span className="flex items-center gap-1.5 text-sm font-semibold text-brand-green">
+              <BadgeCheck className="size-4" /> {r.v}
+            </span>
+          </div>
+        ))}
+      </div>
+      <div className="grid grid-cols-3 gap-2">
+        {[
+          { v: "0,9s", n: "laadtijd mobiel" },
+          { v: "100%", n: "events gemeten" },
+          { v: "€ 499", n: "vanafprijs website" },
+        ].map((s) => (
+          <div key={s.n} className="rounded-xl bg-brand-canvas p-3">
+            <p className="text-sm font-semibold text-brand-green">{s.v}</p>
+            <p className="mt-1 text-[11px] leading-snug text-brand-muted">{s.n}</p>
+          </div>
+        ))}
+      </div>
+    </VisualFrame>
+  );
+}
+
 export function HeroVisual({
   variant = "seo",
   query = "seo uitbesteden",
