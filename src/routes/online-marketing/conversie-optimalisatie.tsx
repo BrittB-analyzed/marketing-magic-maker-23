@@ -10,7 +10,7 @@ const FAQ = [
   },
   {
     q: "Heb ik genoeg bezoekers voor CRO?",
-    a: "Voor betrouwbare A/B-tests heb je volume nodig. Heb je dat nog niet, dan starten we met kwalitatieve analyse: sessieopnames, formulieranalyse en gebruikersfeedback. Dat levert vaak al de grootste winst op.",
+    a: "Voor betrouwbare A/B-tests heb je volume nodig. Heb je dat nog niet, dan starten we met kwalitatieve analyse: sessieopnames in Microsoft Clarity, formulieranalyse en gebruikersfeedback. Dat levert vaak al de grootste winst op.",
   },
   {
     q: "Wat levert CRO op?",
@@ -50,14 +50,14 @@ export const Route = createFileRoute("/online-marketing/conversie-optimalisatie"
         ]}
         deliverables={[
           "Conversie-audit van je belangrijkste paden",
-          "Sessieopnames en heatmaps op de pagina's die ertoe doen",
+          "Sessieopnames en heatmaps via Microsoft Clarity op de pagina's die ertoe doen",
           "Herontwerp van formulieren naar stapsgewijze varianten",
           "A/B-tests met een vooraf vastgesteld succescriterium",
           "Correcte doelmeting in GA4 en Tag Manager",
           "Maandelijkse rapportage op conversieratio en leadkwaliteit",
         ]}
         steps={[
-          { title: "Onderzoek", body: "Data-analyse plus kwalitatief onderzoek: waar haken mensen af en waarom." },
+          { title: "Onderzoek", body: "Data-analyse in GA4 en Microsoft Clarity plus kwalitatief onderzoek: waar haken mensen af en waarom." },
           { title: "Strategie", body: "Hypotheses op volgorde van verwachte impact en benodigde inspanning." },
           { title: "Uitvoering", body: "Aanpassingen live zetten of testen, afhankelijk van je volume." },
           { title: "Optimalisatie", body: "Wat wint, blijft staan. Wat verliest, leert ons iets voor de volgende test." },

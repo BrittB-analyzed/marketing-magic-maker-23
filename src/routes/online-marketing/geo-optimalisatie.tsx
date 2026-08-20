@@ -64,7 +64,7 @@ function GeoPage() {
     <SiteLayout>
       <PageHero
         eyebrow="GEO — nieuw"
-        title="GEO-optimalisatie: genoemd worden in ChatGPT, Gemini en AI Overviews"
+        title="GEO-optimalisatie: genoemd worden in ChatGPT, Claude en AI Overviews"
         intro="GEO is het optimaliseren van je website zodat AI-systemen jouw bedrijf noemen en citeren in hun antwoorden. Waar SEO zorgt dat je gevonden wordt, zorgt GEO dat je genoemd wordt op het moment dat er geen klik meer plaatsvindt."
         ctaLabel="Vraag de gratis AI-scan aan"
       />
@@ -76,7 +76,7 @@ function GeoPage() {
           intro="Als AI het antwoord direct geeft, verdwijnt de klik naar jouw site — maar niet de aankoopbeslissing. Wie in dat antwoord genoemd wordt, wint de opdracht. Wie er niet in staat, bestaat voor die zoeker niet."
         />
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-brand-muted">
-          Dit gaat niet over de toekomst. Je klanten vragen nu al aan ChatGPT welk bureau, welke
+          Dit gaat niet over de toekomst. Je klanten vragen nu al aan ChatGPT of Claude welk bureau, welke
           leverancier of welke oplossing ze moeten kiezen. Wij leggen vast waar je vandaag genoemd
           wordt, en werken van daaruit.
         </p>
