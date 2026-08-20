@@ -8,13 +8,13 @@ import portretStoer from "@/assets/photos/portret-stoer.jpg.asset.json";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — zullen we samen online groeien? | B. Analyzed" },
+      { title: "Contact: zullen we samen online groeien? | B. Analyzed" },
       {
         name: "description",
         content:
           "Neem contact op met B. Analyzed. Bel, WhatsApp of vraag een persoonlijk adviesgesprek aan over SEO, GEO, Ads en CRO voor jouw bedrijf.",
       },
-      { property: "og:title", content: "Contact — zullen we samen online groeien?" },
+      { property: "og:title", content: "Contact: zullen we samen online groeien?" },
       { property: "og:description", content: "Bel, WhatsApp of plan een persoonlijk adviesgesprek." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -42,7 +42,7 @@ function Contact() {
             <div className="mt-10 overflow-hidden rounded-2xl bg-brand-line">
               <img
                 src={portretStoer.url}
-                alt="Britt Daemen — jouw vaste aanspreekpunt bij B. Analyzed"
+                alt="Britt Daemen, jouw vaste aanspreekpunt bij B. Analyzed"
                 className="aspect-[4/3] w-full object-cover object-[center_20%]"
                 loading="lazy"
                 decoding="async"

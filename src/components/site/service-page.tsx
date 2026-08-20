@@ -17,6 +17,7 @@ export type ServicePageProps = {
   connection: string;
   price: { from: string; note: string };
   faq: Faq[];
+  related?: { label: string; to: string }[];
 };
 
 export function ServicePage(props: ServicePageProps) {
@@ -84,6 +85,25 @@ export function ServicePage(props: ServicePageProps) {
                 Bekijk alle tarieven <ArrowRight className="size-4 text-brand-red" />
               </Link>
             </div>
+            {props.related && props.related.length > 0 && (
+              <div className="mt-8">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-muted">
+                  Verder lezen
+                </p>
+                <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+                  {props.related.map((r) => (
+                    <li key={r.to}>
+                      <Link
+                        to={r.to}
+                        className="inline-flex items-center gap-1.5 text-sm font-medium hover:text-brand-red"
+                      >
+                        {r.label} <ArrowRight className="size-3.5 text-brand-red" />
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
           <LeadForm id="scan" />
         </div>

@@ -6,7 +6,7 @@ import { faqJsonLd } from "@/components/site/page-bits";
 const FAQ = [
   {
     q: "Wat kost Google Ads uitbesteden?",
-    a: "Een audit van je huidige account start vanaf € 599,-. Doorlopend beheer, inclusief SEO en GEO, combineren we vanaf € 999,- per maand. Je advertentiebudget betaal je rechtstreeks aan Google, in je eigen account — nooit aan ons. Ads uitbesteden bij een Google Ads bureau hoeft dus niet duur te zijn, maar wel transparant.",
+    a: "Een audit van je huidige account start vanaf € 599,-. Doorlopend beheer, inclusief SEO en GEO, combineren we vanaf € 999,- per maand. Je advertentiebudget betaal je rechtstreeks aan Google, in je eigen account, nooit aan ons. Ads uitbesteden bij een Google Ads bureau hoeft dus niet duur te zijn, maar wel transparant.",
   },
   {
     q: "Wanneer is het slim om een ads expert in te huren?",
@@ -22,7 +22,7 @@ const FAQ = [
   },
   {
     q: "Wie is eigenaar van het advertentieaccount?",
-    a: "Jij. We werken altijd in jouw eigen Google Ads-account, koppelen dit aan Analytics en Google Places en Google Shopping waar nodig, en je blijft eigenaar — ook als de samenwerking ooit stopt. Zo blijf je onafhankelijk van welk Google Ads bureau je ook kiest.",
+    a: "Jij. We werken altijd in jouw eigen Google Ads-account, koppelen dit aan Analytics en Google Places en Google Shopping waar nodig, en je blijft eigenaar, ook als de samenwerking ooit stopt. Zo blijf je onafhankelijk van welk Google Ads bureau je ook kiest.",
   },
   {
     q: "Kan ik ook met een klein budget adverteren?",
@@ -76,6 +76,12 @@ export const Route = createFileRoute("/online-marketing/google-ads-uitbesteden")
         ]}
         connection="Ads levert binnen weken de zoektermdata waar SEO en GEO maanden over doen. Wat in advertenties aantoonbaar converteert, gebruiken we in de organische strategie. CRO maakt vervolgens elke euro advertentiebudget meer waard door meer bezoekers om te zetten in aanvragen."
         price={{ from: "Audit vanaf € 599,- · doorlopend vanaf € 999,- per maand", note: "Exclusief advertentiebudget, dat je rechtstreeks aan Google betaalt. Je adverteert in je eigen account en blijft daar altijd eigenaar van." }}
+        related={[
+          { label: "Conversie-optimalisatie", to: "/online-marketing/conversie-optimalisatie/" },
+          { label: "Google Tag Manager inrichten", to: "/online-marketing/google-tag-manager-inrichten/" },
+          { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
+          { label: "Display advertising", to: "/online-marketing/display-advertisement/" },
+        ]}
         faq={FAQ}
       />
     </SiteLayout>

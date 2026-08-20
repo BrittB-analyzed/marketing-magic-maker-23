@@ -6,10 +6,10 @@ import { Eyebrow, Faq, FaqBlock, Section, faqJsonLd } from "@/components/site/pa
 import { AiEngineLogos } from "@/components/site/ai-engines";
 
 const FAQ: Faq[] = [
-  { q: "Wat is een AI-scan precies?", a: "Wij stellen de vragen die jouw klanten stellen aan ChatGPT, Gemini en Perplexity en kijken of jij genoemd wordt — en zo niet, welke concurrent wel." },
+  { q: "Wat is een AI-scan precies?", a: "Wij stellen de vragen die jouw klanten stellen aan ChatGPT, Gemini en Perplexity en kijken of jij genoemd wordt, en zo niet, welke concurrent wel." },
   { q: "Waarom is dit nu belangrijk?", a: "Een groeiend deel van de zoekopdrachten eindigt in een AI-antwoord zonder klik. Word je daar niet genoemd, dan verdwijn je uit beeld terwijl je Google-posities gelijk blijven." },
   { q: "Wat kost het?", a: "De AI-scan is gratis en vrijblijvend. Je ontvangt binnen twee werkdagen een korte video met de bevindingen." },
-  { q: "Wat kan ik met de uitkomst?", a: "Je krijgt drie concrete verbeterpunten. Die kun je zelf oppakken of samen met ons uitvoeren — beide is prima." },
+  { q: "Wat kan ik met de uitkomst?", a: "Je krijgt drie concrete verbeterpunten. Die kun je zelf oppakken of samen met ons uitvoeren, beide is prima." },
 ];
 
 const CHECKS = [

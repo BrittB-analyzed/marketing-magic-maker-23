@@ -57,7 +57,7 @@ export const Route = createFileRoute("/online-marketing/local-seo")({
         },
         {
           title: "SiL: service op locatie",
-          body: "De basis van local SEO is simpel: maak een lijst van alle diensten die je aanbiedt en van de locaties die je bedient, en combineer ze tot een reeks kansrijke zoekwoorden. Denk aan 'loodgieter Nijmegen' of 'nood loodgieter Nijmegen' — precies de termen die mensen intypen.",
+          body: "De basis van local SEO is simpel: maak een lijst van alle diensten die je aanbiedt en van de locaties die je bedient, en combineer ze tot een reeks kansrijke zoekwoorden. Denk aan 'loodgieter Nijmegen' of 'nood loodgieter Nijmegen', precies de termen die mensen intypen.",
         },
         {
           title: "Paginaoptimalisatie per locatie",

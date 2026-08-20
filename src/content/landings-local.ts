@@ -4,7 +4,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-venlo": {
     eyebrow: "Local SEO",
     h1: "SEO Venlo – behaal meer online rendement met een SEO specialist!",
-    title: "SEO Venlo — SEO-bureau voor Noord-Limburg | B. Analyzed",
+    title: "SEO Venlo: SEO-bureau voor Noord-Limburg | B. Analyzed",
     description: "SEO Venlo nodig? Meer zichtbaarheid, top 3-posities in Google en meer leads. Ook zichtbaar in ChatGPT en Gemini. Audit vanaf € 599,-.",
     intro: "De afkorting SEO staat voor Search Engine Optimization of in het Nederlands, zoekmachine optimalisatie. Een SEO expert, SEO specialist of SEO consultant is een online marketeer die weet hoe die websites beter vindbaar maken in zoekmachines als Google en Bing door het gebruik van de juiste zoektermen. Er zijn inmiddels meer dan 200 factoren die bepalen hoe goed jouw website gevonden wordt. Door de juiste strategische keuzes te maken laat een SEO specialist jouw website hoger scoren in de zoekmachines. Hierdoor trekt jouw website of webshop meer relevante bezoekers aan, en loop je voor op je concurrenten. Met SEO Venlo vergroot je jouw online succes!",
     bullets: [
@@ -110,7 +110,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-maastricht": {
     eyebrow: "Local SEO",
     h1: "SEO Maastricht \\| Op zoek naar een SEO specialist of bureau?",
-    title: "SEO Maastricht — SEO-bureau Zuid-Limburg | B. Analyzed",
+    title: "SEO Maastricht: SEO-bureau Zuid-Limburg | B. Analyzed",
     description: "SEO in Maastricht? Meer zichtbaarheid, meer bezoekers en meer leads. Ook zichtbaar in AI-zoekmachines. SEO-audit vanaf € 599,-.",
     intro: "Wil je beter gevonden worden in Google? Je conversies verhogen of bovenaan komen te staan in alle relevante zoekmachines? Meer relevant verkeer op je website? Verhoog je zichtbaarheid, online autoriteit en bezoekersaantallen door het gebruik van SEO in Maastricht! Ons SEO bureau Maastricht kan je hierin uitgebreid begeleiden en adviseren. B. Analyzed marketing is een gecertificeerd SEO bureau in Maastricht en omstreken en heeft ruime ervaring en expertise in zoekmachine optimalisatie. Als S EO specialist Maastricht helpen wij kleine, middelgrote en grote B-2-B en B-2-C bedrijven aan topposities en een hogere online vindbaarheid in Google! Beoordeeld met een 9.8 op Google Mijn Bedrijf +50 tevreden klanten gingen jou voor Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI",
     bullets: [
@@ -180,7 +180,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-nijmegen": {
     eyebrow: "Local SEO",
     h1: "Behaal meer online rendement met SEO Nijmegen",
-    title: "SEO Nijmegen — SEO-bureau Gelderland | B. Analyzed",
+    title: "SEO Nijmegen: SEO-bureau Gelderland | B. Analyzed",
     description: "SEO in Nijmegen nodig? Meer zichtbaarheid, meer bezoekers en meer leads via Google én AI-zoekmachines. Audit vanaf € 599,-.",
     intro: "Je wilt beter gevonden wilt worden, je wilt je conversies verhogen en bovenaan komen te staan in alle relevante zoekmachines. Je wilt meer relevant verkeer op je website, en meer naamsbekendheid. Klinkt dit je bekend in de oren? Maak dan gebruik van Seo Nijmegen en verhoog je online vindbaarheid en bezoekers! B. Analyzed marketing is een gecertificeerd online marketing bedrijf en heeft jarenlange ervaring en expertise in zoekmachine optimalisatie en andere online marketing werkzaamheden. Wij staan garant voor een prettige samenwerking en een heldere en fijne communicatie. Als SEO specialist Nijmegen helpen wij kleine, middelgrote en grote B-2-B en B-2-C bedrijven aan een grotere online vindbaarheid en een top 3 positie in Google! Lees hier meer over SEO voor MKB! Beoordeeld met een 9.8 op Google Mijn Bedrijf +50 tevreden klanten gingen jou voor Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI",
     bullets: [
@@ -274,7 +274,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-rotterdam": {
     eyebrow: "Local SEO",
     h1: "SEO Bureau Rotterdam: Jouw SEO specialist voor online succes",
-    title: "SEO Rotterdam — SEO-bureau haven- en logistiekstad | B. Analyzed",
+    title: "SEO Rotterdam: SEO-bureau haven- en logistiekstad | B. Analyzed",
     description: "SEO Rotterdam: meer zichtbaarheid, meer bezoekers en meer leads via Google én AI-zoekmachines. SEO-audit vanaf € 599,-.",
     intro: "B.Analyzed is een gecertificeerd SEO bureau met ruime ervaring en expertise in zoekmachine optimalisatie. Als SEO specialist helpen we kleine, middelgrote en grote B2B en B2C bedrijven aan topposities en een hogere online vindbaarheid in Google. We zijn trots op onze uitstekende beoordeling van 9.8 op Google Mijn Bedrijf en hebben al meer dan 150 tevreden klanten mogen helpen. Met meer dan 1000 nummer 1 posities in Google garanderen we je een geweldige ROI voor je investering in SEO.",
     bullets: [
@@ -356,7 +356,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-eindhoven": {
     eyebrow: "Local SEO",
     h1: "SEO Eindhoven – Behaal meer online rendement, start vandaag nog!",
-    title: "SEO Eindhoven — SEO-bureau voor tech en industrie | B. Analyzed",
+    title: "SEO Eindhoven: SEO-bureau voor tech en industrie | B. Analyzed",
     description: "SEO in Eindhoven? Meer zichtbaarheid voor tech- en maakbedrijven, meer leads via Google én AI. SEO-audit vanaf € 599,-.",
     intro: "Je wilt beter gevonden wilt worden, je wilt je conversies verhogen en bovenaan komen te staan in alle relevante zoekmachines. Je wilt meer relevant verkeer op je website, en meer naamsbekendheid. Klinkt dit je bekend in de oren? Maak dan gebruik van Seo in Eindhoven en laat je SEO uitbesteden. Hierdoor verhoog je je zichtbaarheid en bezoekers!",
     bullets: [
@@ -446,7 +446,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-roermond": {
     eyebrow: "Local SEO",
     h1: "SEO Roermond, meer online rendement met een SEO specialist!",
-    title: "SEO Roermond — SEO-bureau voor retail en outlet | B. Analyzed",
+    title: "SEO Roermond: SEO-bureau voor retail en outlet | B. Analyzed",
     description: "SEO in Roermond? Meer vindbaarheid, top 3-posities in Google en meer leads/sales. Ook zichtbaar in AI. Audit vanaf € 599,-.",
     intro: "SEO staat voor Search Engine Optimization, oftewel zoekmachineoptimalisatie. Een SEO expert weet hoe websites beter vindbaar gemaakt kunnen worden in zoekmachines zoals Google en Bing door het gebruik van de juiste zoektermen. Meer dan 200 factoren bepalen hoe goed jouw website gevonden wordt. Met de juiste strategische keuzes zorgt een SEO specialist ervoor dat jouw website hoger scoort in de zoekmachines, wat meer relevante bezoekers en een voorsprong op je concurrenten oplevert. Met SEO Roermond vergroot je jouw online succes!",
     bullets: [
@@ -556,7 +556,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-venray": {
     eyebrow: "Local SEO",
     h1: "SEO Venray – meer online rendement!",
-    title: "SEO Venray — SEO-specialist Noord-Limburg | B. Analyzed",
+    title: "SEO Venray: SEO-specialist Noord-Limburg | B. Analyzed",
     description: "SEO specialist in de regio Venray nodig? Meer vindbaarheid, nummer 1-posities en meer leads. Audit vanaf € 599,-.",
     intro: "Waarschijnlijk ben je op deze site terecht gekomen toen je in het Google zoeknetwerk gezocht hebt naar SEO in Venray, SEO bureau Venray of SEO bureau Venray. SEO, ofwel zoekmachine optimalisatie is niet meer weg te denken anno 2022. Voor veel webwinkel eigenaren, dienstverleners, bloggers en online bureaus is online marketing dé manier om de doelgroep te bereiken en bezoekers naar de website te krijgen. Met een digitale marketingstrategie en zoekmachine optimalisatie vergroot je je online vindbaarheid, scoor je hoger in Google en trek je een constante stroom van bezoekers naar je website! Wil je voor jouw bedrijf gratis scan aanvragen? Dat kan! Doe de gratis SEO scan bij ons SEO bureau in Venray, en zie meteen hoe jouw bedrijf ervoor staat! opdrachtgevers beoordelen ons met een 9.8 op Google Mijn Bedrijf Super transparante en persoonlijke werkwijze +50 tevreden klanten kozen voor SEO in Venlo Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI Meer dan 12 jaar ervaring",
     bullets: [
@@ -614,7 +614,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-horst": {
     eyebrow: "Local SEO",
     h1: "SEO Horst– meer online rendement met een SEO specialist in Horst!",
-    title: "SEO Horst — SEO-specialist Greenport regio | B. Analyzed",
+    title: "SEO Horst: SEO-specialist Greenport regio | B. Analyzed",
     description: "SEO specialist in Horst nodig? Meerdere nummer 1-posities in Google, meer bezoekers en meer leads. Audit vanaf € 599,-.",
     intro: "Waarschijnlijk ben je op deze site terecht gekomen toen je in het Google zoeknetwerk gezocht hebt naar SEO in Horst SEO bureau Horst of SEO bureau Horst. SEO, ofwel zoekmachine optimalisatie is niet meer weg te denken anno 2024 Voor veel webshopeigenaren, lokale bedrijven, dienstverleners, bloggers en online bureaus is online marketing dé manier om de doelgroep te bereiken en bezoekers naar de website te krijgen. Met een digitale marketingstrategie en zoekmachine optimalisatie vergroot je je online vindbaarheid, scoor je hoger in Google en trek je een constante stroom van bezoekers naar je website! Wil je voor jouw bedrijf gratis scan aanvragen? Dat kan! Doe de gratis SEO scan bij ons SEO bureau in Horst, en zie meteen hoe jouw bedrijf ervoor staat! opdrachtgevers beoordelen ons met een 9.8 op Google Mijn Bedrijf Super transparante en persoonlijke werkwijze +50 tevreden klanten kozen voor SEO in Venlo Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI Meer dan 12 jaar ervaring",
     bullets: [
@@ -672,7 +672,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-belfeld": {
     eyebrow: "Local SEO",
     h1: "SEO Belfeld– meer online rendement met een online specialist !",
-    title: "SEO Belfeld — SEO-specialist regio Venlo | B. Analyzed",
+    title: "SEO Belfeld: SEO-specialist regio Venlo | B. Analyzed",
     description: "SEO specialist in Belfeld nodig? Meerdere top 3-posities in Google en Bing, meer bezoekers en leads. Audit vanaf € 599,-.",
     intro: "In 2024 is SEO, oftewel zoekmachineoptimalisatie, onmisbaar geworden. Voor veel MKB bedrijven, lokale restaurants en online bureaus is online marketing dé manier om de juiste doelgroep te bereiken en meer bezoekers naar hun website te trekken. Met een doordachte digitale marketingstrategie en effectieve zoekmachineoptimalisatie vergroot je je online zichtbaarheid, behaal je hogere posities in Google en zorg je voor een continue stroom van websitebezoekers. Benieuwd hoe jullie website momenteel scoort in Google? Vraag nu een gratis SEO-scan aan en scoor in de regio, landelijk of internationaal! opdrachtgevers beoordelen ons met een 9.8 op Google Mijn Bedrijf Super transparante en persoonlijke werkwijze +60 tevreden klanten kozen voor o.a. SEO Limburg en SEO Venlo Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI Meer dan 12 jaar ervaring",
     bullets: [
@@ -730,7 +730,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-grubbenvorst": {
     eyebrow: "Local SEO",
     h1: "SEO Grubbenvorst– meer online rendement met een SEO specialist in Horst!",
-    title: "SEO Grubbenvorst — SEO-specialist Greenport | B. Analyzed",
+    title: "SEO Grubbenvorst: SEO-specialist Greenport | B. Analyzed",
     description: "SEO specialist in de regio Grubbenvorst nodig? Meerdere top 3-posities, meer bezoekers en leads. Audit vanaf € 599,-.",
     intro: "In 2024 is SEO, oftewel zoekmachineoptimalisatie, onmisbaar geworden. Voor veel webshopeigenaren, lokale bedrijven, dienstverleners, bloggers en online bureaus is online marketing dé manier om de juiste doelgroep te bereiken en meer bezoekers naar hun website te trekken. Met een doordachte digitale marketingstrategie en effectieve zoekmachineoptimalisatie vergroot je je online zichtbaarheid, behaal je hogere posities in Google en zorg je voor een continue stroom van websitebezoekers. Benieuwd hoe jouw bedrijf ervoor staat? Vraag nu een gratis SEO-scan aan bij ons SEO-bureau in Grubbenvorst en ontdek direct waar je kansen liggen! opdrachtgevers beoordelen ons met een 9.8 op Google Mijn Bedrijf Super transparante en persoonlijke werkwijze +60 tevreden klanten kozen voor o.a. SEO Limburg en SEO Venlo Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI Meer dan 12 jaar ervaring",
     bullets: [
@@ -788,7 +788,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-arcen": {
     eyebrow: "Local SEO",
     h1: "SEO Arcen: Meer Online Rendement Met Een Specialist!",
-    title: "SEO Arcen — SEO-specialist recreatie en toerisme | B. Analyzed",
+    title: "SEO Arcen: SEO-specialist recreatie en toerisme | B. Analyzed",
     description: "SEO Arcen: meer online vindbaarheid, top 3-posities en meer leads/sales voor recreatie en lokale bedrijven. Audit vanaf € 599,-.",
     intro: "SEO staat voor Search Engine Optimization, oftewel zoekmachine optimalisatie. Een SEO expert, specialist of SEO consultant is een online marketeer die weet hoe websites beter vindbaar gemaakt kunnen worden in zoekmachines zoals Google en Bing door het gebruik van de juiste zoektermen. Er zijn meer dan 200 factoren die bepalen hoe goed jouw website gevonden wordt. Door de juiste strategische keuzes te maken, zorgt een SEO specialist ervoor dat jouw website hoger scoort in de zoekmachines. Hierdoor trekt jouw website of webshop meer relevante bezoekers aan en loop je voor op je concurrenten. Met SEO Arcen vergroot je jouw online succes!",
     bullets: [
@@ -886,7 +886,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-ibiza": {
     eyebrow: "Local SEO",
     h1: "SEO Ibiza – Behaal meer online rendement!",
-    title: "SEO Ibiza — SEO voor toerisme en verhuurbedrijven | B. Analyzed",
+    title: "SEO Ibiza: SEO voor toerisme en verhuurbedrijven | B. Analyzed",
     description: "SEO voor bedrijven op Ibiza: meer zichtbaarheid, top 3-posities in Google en meer leads. Ook zichtbaar in AI. Audit vanaf € 599,-.",
     intro: "Waarschijnlijk ben je op deze site terecht gekomen toen je in het Google zoeknetwerk gezocht hebt naar SEO Ibiza, SEO specialist Ibiza, SEO bureau Ibiza of vindbaarheid Ibiza. Voor veel webwinkel eigenaren, dienstverleners, bloggers en online bureaus is SEO dé manier om de doelgroep te bereiken en bezoekers naar de website te krijgen. Ben je niet vindbaar of vind je prospect niet datgene waar hij of zij naar opzoek is, wordt je niet meegenomen in de overweging of aankoopbeslissing. Naast dat je daardoor potentiële klanten misloopt, loop je ook nog eens het risico van reputatieschade omdat je niet vindbaar bent. Daarom is een gerichte online marketing strategie onmisbaar voor elk bedrijf! Beoordeeld met een 9.8 op Google Mijn Bedrijf +50 tevreden klanten gingen jou voor Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI",
     bullets: [
@@ -944,7 +944,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-limburg": {
     eyebrow: "Local SEO",
     h1: "SEO Limburg: Dé seo specialist voor jouw website vind je hier!",
-    title: "SEO Limburg — SEO-bureau voor de hele provincie | B. Analyzed",
+    title: "SEO Limburg: SEO-bureau voor de hele provincie | B. Analyzed",
     description: "SEO in Limburg nodig? Meer zichtbaarheid, top 3-posities in Google en meer leads. Ook zichtbaar in AI. Audit vanaf € 599,-.",
     intro: "Het woord SEO staat voor search engine optimisation of in het Nederlands, zoekmachine optimalisatie. Een SEO expert, SEO specialist of SEO consultant is een marketeer die weet hoe je websites met relevante zoekwoorden hoger in Google laat ranken. Er zijn inmiddels meer dan 200 factoren die bepalen hoe goed jouw website gevonden wordt.",
     bullets: [

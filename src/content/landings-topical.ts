@@ -4,7 +4,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
   "seo-bureau": {
     eyebrow: "SEO",
     h1: "Behaal meer online rendement met een SEO bureau",
-    title: "SEO Bureau — Zoekmachineoptimalisatie door B. Analyzed",
+    title: "SEO Bureau: Zoekmachineoptimalisatie door B. Analyzed",
     description: "Op zoek naar een SEO bureau dat écht rendement boekt? B. Analyzed combineert techniek, content en linkbuilding met zichtbaarheid in ChatGPT en Gemini (GEO).",
     intro: "SEO, ofwel zoekmachine optimalisatie, is niet meer weg te denken in deze tijd. Voor veel webwinkel eigenaren, dienstverleners, bloggers en online bureaus is het dé manier om de doelgroep te bereiken en bezoekers op de website te krijgen. Tegenwoordig is de vindbaarheid in Google essentieel voor je online business. Met een SEO expert kun je hoger in de Google ranking komen met jouw website.",
     bullets: [
@@ -109,7 +109,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
   "seo-consultant": {
     eyebrow: "SEO",
     h1: "SEO consultant – Behaal meer online rendement, start vandaag nog!",
-    title: "SEO Consultant — Persoonlijk SEO-advies | B. Analyzed",
+    title: "SEO Consultant: Persoonlijk SEO-advies | B. Analyzed",
     description: "Een SEO consultant inschakelen? B. Analyzed denkt met je mee over doelen, techniek en content en zorgt dat je ook zichtbaar bent in AI-zoekmachines.",
     intro: "Wil je meer bezoekers of conversies via je website? Of heb je hulp nodig bij het vergroten van jouw organische websiteverkeer? Word je minder snel gevonden of staat jouw pagina laag in de Google rankings? Weet je niet wat je moet doen om de rankings te verbeteren? Maak dan eens een afspraak met een SEO consultant. Ons SEO consultancy kan jouw precies vertellen waar de knelpunten liggen en hoe deze op te lossen!",
     bullets: [
@@ -174,7 +174,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         q: "Werken jullie met een vast contract?",
-        a: "We werken maandelijks opzegbaar. We geloven in resultaat boeken, niet in je vastzetten — en we werken net zo lang door tot je dat resultaat ook echt ziet.",
+        a: "We werken maandelijks opzegbaar. We geloven in resultaat boeken, niet in je vastzetten, en we werken net zo lang door tot je dat resultaat ook echt ziet.",
       },
     ],
     related: [
@@ -244,7 +244,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     eyebrow: "SEO",
     h1: "SEO Expert inschakelen om naar de top van Google te klimmen",
     title: "SEO Expert inhuren | B. Analyzed",
-    description: "Een SEO expert weet als geen ander hoe je hoger rankt in Google. B. Analyzed levert bewezen resultaat op techniek, content en linkbuilding — plus zichtbaarheid in AI.",
+    description: "Een SEO expert weet als geen ander hoe je hoger rankt in Google. B. Analyzed levert bewezen resultaat op techniek, content en linkbuilding, plus zichtbaarheid in AI.",
     intro: "Het woord SEO is een afkorting van Search Engine Optimalisation of in het Nederlands, zoekmachine optimalisatie. Een SEO expert is een online marketeer die weet hoe websites met relevante en vaak gebruikte zoekopdrachten vindbaar te maken in zoekmachines als Google, Bing en Yahoo door het gebruik van SEO tools als bijvoorbeeld Google Analytics, Search Console en Ahrefs. Dit doet de specialist met behulp van een SEO strategie. De beste SEO specialisten weten goede rankings te behalen in de organische zoekresultaten (niet betaalde zoekresultaten).",
     bullets: [
       "Grondige website-analyse op meer dan 100 SEO-factoren",
@@ -344,7 +344,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
   "seo-guru": {
     eyebrow: "SEO",
     h1: "SEO guru– Behaal meer online rendement, start vandaag nog!",
-    title: "SEO Guru — Persoonlijke SEO-specialist | B. Analyzed",
+    title: "SEO Guru: Persoonlijke SEO-specialist | B. Analyzed",
     description: "Op zoek naar een SEO guru die écht aantoonbare resultaten boekt? B. Analyzed combineert bewezen SEO-kennis met zichtbaarheid in AI-zoekmachines.",
     intro: "Een SEO guru inhuren voor jouw zoekmachine optimalisatie? Geen probleem! Wij zijn een professioneel online marketing bureau en kunnen jou helpen om online beter gevonden te worden. Samen gaan we aan de slag om jouw website beter vindbaar te maken bij het grote publiek! Dus wil jij: ✓ Scoren op relevante zoekwoorden? ✓ Veel aandacht op van potentiële klanten zonder per klik te betalen? ✓ Je conversies verhogen? ✓ Bovenaan komen te staan in alle relevante zoekmachines? Een echte SEO guru weet precies hoe deze vragen beantwoord worden en hoe jouw website het beste aangepakt kan worden.",
     bullets: [
@@ -397,7 +397,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
   "seo-partner": {
     eyebrow: "SEO",
     h1: "SEO uitbesteden aan een SEO partner",
-    title: "SEO Partner — SEO uitbesteden aan B. Analyzed",
+    title: "SEO Partner: SEO uitbesteden aan B. Analyzed",
     description: "SEO uitbesteden aan een SEO partner die met je meedenkt? B. Analyzed vormt een dreamteam met jouw kennis van je onderneming en onze SEO-expertise.",
     intro: "Waarom noemen wij ons een SEO partner? Om alles uit jouw website te halen denken wij dat het erg belangrijk is om samen te werken. Jij, als ondernemer, weet namelijk als geen ander wat jouw bedrijf uniek maakt en waarom jouw product of service toegevoegde waarde heeft voor jouw doelgroep: eigenlijk ben jij dus de expert van jouw eigen onderneming. B.Analyzed, als professioneel online marketing bureau, kan deze expertise heel goed aanvullen met haar kennis op verschillende gebieden, bijvoorbeeld door het plaatsen van backlinks, het verbeteren van je SEO content door een zoekwoorden onderzoek te starten en relevante zoekwoorden te gebruiken in jouw content. Daarnaast weten we precies hoe de unique selling points van jouw bedrijf kunnen worden gebruikt voor succesvolle marketingstrategieën om jouw website te optimaliseren.",
     bullets: [
@@ -629,7 +629,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         q: "Welke diensten bieden jullie in Venlo aan?",
-        a: "SEO, Google Ads, social media marketing, e-mailmarketing, website-advies en meer — volledig op maat van jouw bedrijf.",
+        a: "SEO, Google Ads, social media marketing, e-mailmarketing, website-advies en meer, volledig op maat van jouw bedrijf.",
       },
     ],
     related: [
@@ -686,7 +686,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         q: "Wat is een 0-meting precies?",
-        a: "Een 0-meting brengt je huidige situatie in kaart — posities, verkeer en conversies — zodat we later objectief kunnen laten zien welke vooruitgang is geboekt.",
+        a: "Een 0-meting brengt je huidige situatie in kaart, posities, verkeer en conversies, zodat we later objectief kunnen laten zien welke vooruitgang is geboekt.",
       },
     ],
     related: [
@@ -700,7 +700,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
     h1: "Kosten online marketing: heldere pakketten en tarieven",
     title: "Kosten Online Marketing | B. Analyzed",
     description: "Benieuwd naar de kosten van online marketing? B. Analyzed werkt met transparante pakketten vanaf € 999,- per maand en een uurtarief van € 90,-.",
-    intro: "Wij werken op basis van duidelijke afspraken, helderheid en transparantie — ook over de kosten. Ons uurtarief ligt op € 90,- per uur, exclusief btw, ongeacht welke dienst je afneemt.",
+    intro: "Wij werken op basis van duidelijke afspraken, helderheid en transparantie, ook over de kosten. Ons uurtarief ligt op € 90,- per uur, exclusief btw, ongeacht welke dienst je afneemt.",
     bullets: [
       "Standaardpakketten of volledig maatwerk, altijd vooraf begroot",
       "Elke maand inzicht in resultaten via rapportage en video-uitleg",
@@ -770,7 +770,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         h: "Werken met heldere KPI's",
-        p: "We spreken vooraf duidelijke KPI's af, zodat een goed samenwerkingsproces en heldere verwachtingen centraal staan — geen verrassingen achteraf.",
+        p: "We spreken vooraf duidelijke KPI's af, zodat een goed samenwerkingsproces en heldere verwachtingen centraal staan, geen verrassingen achteraf.",
       },
       {
         h: "Van 1-2 berichten tot een volledig kanaalbeheer",
@@ -823,7 +823,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         h: "Kwalitatieve links, geen shortcuts",
-        p: "We plaatsen links vanaf Nederlandse IP-adressen, met een minimale domeinautoriteit, via homepage-, partnerpagina- en bedrijvenpagina-links — geen risicovolle massaplaatsing.",
+        p: "We plaatsen links vanaf Nederlandse IP-adressen, met een minimale domeinautoriteit, via homepage-, partnerpagina- en bedrijvenpagina-links, geen risicovolle massaplaatsing.",
       },
       {
         h: "Wat kost linkbuilding?",
@@ -989,7 +989,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
       },
       {
         h: "Jarenlange samenwerkingen",
-        p: "De meeste opdrachtgevers zijn al jarenlang klant bij ons — een teken dat we niet alleen kortetermijnresultaat boeken, maar ook op de lange termijn blijven leveren.",
+        p: "De meeste opdrachtgevers zijn al jarenlang klant bij ons, een teken dat we niet alleen kortetermijnresultaat boeken, maar ook op de lange termijn blijven leveren.",
       },
       {
         h: "Transparante werkwijze met video-uitleg",

@@ -16,7 +16,7 @@ export const Route = createFileRoute("/online-marketing/wordpress-onderhoud")({
       { title: "WordPress onderhoud: snel, veilig en vindbaar | B. Analyzed" },
       { name: "description", content: "WordPress onderhoud voor MKB-websites: dagelijkse back-ups, updates, malwarecontrole en snelheidsoptimalisatie zodat je SEO-fundering intact blijft." },
       { property: "og:title", content: "WordPress onderhoud: snel, veilig en vindbaar" },
-      { property: "og:description", content: "Updates, back-ups en snelheid — zodat je vindbaarheid geen schade oploopt." },
+      { property: "og:description", content: "Updates, back-ups en snelheid, zodat je vindbaarheid geen schade oploopt." },
       { property: "og:type", content: "article" },
       { name: "twitter:card", content: "summary" },
     ],

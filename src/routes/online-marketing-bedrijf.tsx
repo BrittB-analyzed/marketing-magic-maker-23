@@ -33,7 +33,7 @@ function OverOns() {
       <PageHero
         eyebrow="Over ons"
         title="Hey hallo, wij zijn een online marketing bedrijf"
-        intro="Maar dan anders. Ons team bestaat uit online vakidioten die blij worden van de digitale wereld en work from anywhere — B. Analyzed runt het bedrijf volledig remote, wereldwijd."
+        intro="Maar dan anders. Ons team bestaat uit online vakidioten die blij worden van de digitale wereld en work from anywhere, B. Analyzed runt het bedrijf volledig remote, wereldwijd."
       />
       <Section className="bg-brand-canvas">
         <FounderCard />
@@ -55,7 +55,7 @@ function OverOns() {
                 Manager, SEO-teksten, WordPress-websites en SEO voor MKB.
               </p>
               <p>
-                Omdat we remote werken hebben we geen hoge bedrijfspandkosten — dat vertaalt zich naar
+                Omdat we remote werken hebben we geen hoge bedrijfspandkosten, dat vertaalt zich naar
                 scherpe prijzen en kennis die altijd en overal voor jou beschikbaar is. En we geloven in
                 wij en samen: we werken net zo lang door tot jij een gegarandeerd mooi, meetbaar
                 resultaat boekt.
@@ -82,7 +82,7 @@ function OverOns() {
             <div className="overflow-hidden rounded-2xl bg-brand-line">
               <img
                 src={portretFounder.url}
-                alt="Britt Daemen — oprichter van B. Analyzed"
+                alt="Britt Daemen, oprichter van B. Analyzed"
                 className="h-64 w-full object-cover"
                 loading="lazy"
                 decoding="async"
@@ -104,11 +104,11 @@ function OverOns() {
         <SectionHeading eyebrow="Onze voordelen" title="Waarom bedrijven voor B. Analyzed kiezen" intro="Wij hanteren een transparante en persoonlijke werkwijze. Resultaatgericht werken staat hierin voorop!" />
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            ["15 jaar ervaring", "B. Analyzed bestaat al meer dan 15 jaar op het gebied van online marketing — daar zijn we trots op."],
+            ["15 jaar ervaring", "B. Analyzed bestaat al meer dan 15 jaar op het gebied van online marketing, daar zijn we trots op."],
             ["Transparante werkwijze", "Alles wat we doen laten we zien via Loom-video's, zodat je precies weet wat er gebeurt."],
             ["Aantoonbare resultaten", "Met tools en screenshots van website statistieken laten we onze cases zien waar we trots op zijn."],
             ["Gegarandeerde top 10 posities", "In Google. Alleen de eerste pagina telt en dat weten wij als geen ander."],
-            ["Trouwe opdrachtgevers", "Klanten waar wij al jaren voor werken — het bewijs dat wat we doen, we goed doen."],
+            ["Trouwe opdrachtgevers", "Klanten waar wij al jaren voor werken, het bewijs dat wat we doen, we goed doen."],
             ["Verbeterd ROI", "Dat is waar het uiteindelijk om draait. Dit presenteren wij graag."],
           ].map(([t, d]) => (
             <div key={t} className="rounded-2xl border border-brand-line bg-brand-canvas p-6">

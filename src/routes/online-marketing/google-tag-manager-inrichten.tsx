@@ -12,9 +12,9 @@ const FAQ = [
 export const Route = createFileRoute("/online-marketing/google-tag-manager-inrichten")({
   head: () => ({
     meta: [
-      { title: "Google Tag Manager inrichten — meting die klopt | B. Analyzed" },
+      { title: "Google Tag Manager inrichten: meting die klopt | B. Analyzed" },
       { name: "description", content: "Google Tag Manager en GA4 correct inrichten: conversiemeting, consent mode v2 en data waar je beslissingen op kunt baseren. Vanaf € 599,-." },
-      { property: "og:title", content: "Google Tag Manager inrichten — meting die klopt" },
+      { property: "og:title", content: "Google Tag Manager inrichten: meting die klopt" },
       { property: "og:description", content: "Zonder betrouwbare meting is elke marketingbeslissing een gok." },
       { property: "og:type", content: "article" },
       { name: "twitter:card", content: "summary" },

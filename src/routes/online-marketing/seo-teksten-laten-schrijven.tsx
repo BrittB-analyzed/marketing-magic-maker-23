@@ -26,7 +26,7 @@ export const Route = createFileRoute("/online-marketing/seo-teksten-laten-schrij
     <SupportPage
       eyebrow="Ondersteunende dienst"
       title="SEO-teksten laten schrijven die ook door AI worden geciteerd"
-      intro="Bij B. Analyzed werken we met ervaren SEO-tekstschrijvers met een passie voor unieke, pakkende teksten waarmee je je onderscheidt van de concurrent — of het nu om een blog, landingspagina of productbeschrijving gaat."
+      intro="Bij B. Analyzed werken we met ervaren SEO-tekstschrijvers met een passie voor unieke, pakkende teksten waarmee je je onderscheidt van de concurrent, of het nu om een blog, landingspagina of productbeschrijving gaat."
       points={[
         "Zoekwoord- en vraagonderzoek per pagina, zodat we weten wat je klant echt intypt",
         "Teksten met een duidelijk antwoord bovenaan: goed voor de lezer en voor AI-zoekmachines",
@@ -46,7 +46,7 @@ export const Route = createFileRoute("/online-marketing/seo-teksten-laten-schrij
         },
         {
           title: "Hoge kwaliteit is meer dan keywords",
-          body: "Hoge kwaliteit betekent dat teksten niet alleen aan de SEO-criteria voldoen, maar ook inhoudelijk kloppen en grammaticaal correct zijn. De tekst moet prettig leesbaar zijn en interessant genoeg om de lezer vast te houden — daarom laten steeds meer ondernemers hun teksten schrijven door ervaren SEO-copywriters.",
+          body: "Hoge kwaliteit betekent dat teksten niet alleen aan de SEO-criteria voldoen, maar ook inhoudelijk kloppen en grammaticaal correct zijn. De tekst moet prettig leesbaar zijn en interessant genoeg om de lezer vast te houden, daarom laten steeds meer ondernemers hun teksten schrijven door ervaren SEO-copywriters.",
         },
         {
           title: "Ons stappenplan",

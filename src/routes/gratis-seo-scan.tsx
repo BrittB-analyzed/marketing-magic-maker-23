@@ -54,7 +54,7 @@ function ScanPage() {
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-brand-muted">
               Kom binnen 30 dagen hoger in Google, behaal binnen 9 maanden topposities en verhoog je
-              online rendement. Start vandaag onze 100% gratis en vrijblijvende websitescan — je
+              online rendement. Start vandaag onze 100% gratis en vrijblijvende websitescan, je
               verbindt je aan niets.
             </p>
             <ul className="mt-8 space-y-3 text-sm text-brand-muted">

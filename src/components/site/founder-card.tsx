@@ -17,7 +17,7 @@ export function FounderCard() {
         <div className="relative shrink-0">
           <img
             src={portret.url}
-            alt="Britt Daemen — oprichter van B. Analyzed"
+            alt="Britt Daemen, oprichter van B. Analyzed"
             width={112}
             height={112}
             className="size-28 rounded-full object-cover ring-4 ring-white shadow-lg"
