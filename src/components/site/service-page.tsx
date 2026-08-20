@@ -17,6 +17,7 @@ export type ServicePageProps = {
   connection: string;
   price: { from: string; note: string };
   faq: Faq[];
+  related?: { label: string; to: string }[];
 };
 
 export function ServicePage(props: ServicePageProps) {
