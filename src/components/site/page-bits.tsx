@@ -1,3 +1,4 @@
+import { BEDRIJFSCIJFERS } from "@/data/bedrijfscijfers";
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import {
@@ -450,7 +451,7 @@ export function HeroVisual({
           <div className="rounded-2xl border border-brand-line bg-brand-canvas p-4">
             <p className="text-xs font-semibold uppercase tracking-wide text-brand-muted">Google topposities</p>
             <div className="mt-2 flex items-baseline gap-2">
-              <span className="text-3xl font-semibold text-brand-green">5.000+</span>
+              <span className="text-3xl font-semibold text-brand-green">{BEDRIJFSCIJFERS.nummerEenPosities}</span>
               <span className="text-sm font-medium text-brand-ink">nummer 1 posities behaald</span>
             </div>
             <div className="mt-3 flex items-center gap-2" aria-hidden="true">
@@ -467,7 +468,7 @@ export function HeroVisual({
           <div className="rounded-2xl border border-brand-line bg-brand-canvas p-4">
             <p className="text-xs font-semibold uppercase tracking-wide text-brand-muted">Conversiegroei</p>
             <div className="mt-2 flex items-baseline gap-2">
-              <span className="text-3xl font-semibold text-brand-green">+500%</span>
+              <span className="text-3xl font-semibold text-brand-green">{BEDRIJFSCIJFERS.gemiddeldeGroei}</span>
               <span className="text-sm font-medium text-brand-ink">leads & sales</span>
             </div>
             <p className="mt-1 text-xs text-brand-muted">Gemiddeld door SEO, GEO, Ads en CRO</p>
@@ -492,9 +493,9 @@ export function PageHero({
   intro,
   ctaLabel = "Vraag je gratis scan aan",
   stats = [
-    { value: "15", label: "jaar ervaring" },
-    { value: "9,8", label: "uit 47 reviews" },
-    { value: "220+", label: "klanten geholpen" },
+    { value: String(BEDRIJFSCIJFERS.jarenErvaring), label: "jaar ervaring" },
+    { value: BEDRIJFSCIJFERS.reviewScore, label: `uit ${BEDRIJFSCIJFERS.aantalReviews} reviews` },
+    { value: BEDRIJFSCIJFERS.aantalKlanten, label: "klanten geholpen" },
   ],
   visual = true,
   variant,
