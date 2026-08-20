@@ -463,13 +463,19 @@ export function PageHero({
           </div>
           {stats.length > 0 && (
             <dl className="mt-10 grid max-w-lg grid-cols-3 gap-6 border-t border-brand-line pt-6">
-              {stats.map((s) => (
-                <div key={s.label}>
-                  <dt className="sr-only">{s.label}</dt>
-                  <dd className="text-2xl font-semibold text-brand-graphite sm:text-3xl">{s.value}</dd>
-                  <p className="mt-1 text-xs leading-snug text-brand-muted">{s.label}</p>
-                </div>
-              ))}
+              {stats.map((s, i) => {
+                const Icon = [Award, Star, Users][i % 3];
+                return (
+                  <div key={s.label}>
+                    <dt className="sr-only">{s.label}</dt>
+                    <dd className="flex items-center gap-2 text-2xl font-semibold text-brand-green sm:text-3xl">
+                      <Icon className="size-5 shrink-0 text-brand-green" strokeWidth={2.2} aria-hidden="true" />
+                      {s.value}
+                    </dd>
+                    <p className="mt-1 text-xs font-medium leading-snug text-brand-green">{s.label}</p>
+                  </div>
+                );
+              })}
             </dl>
           )}
         </div>
