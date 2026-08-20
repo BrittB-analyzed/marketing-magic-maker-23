@@ -62,13 +62,16 @@ export function SectionHeading({
 
 const HERO_BARS = [18, 24, 21, 32, 38, 34, 48, 56, 52, 68, 79, 96];
 
-export type HeroVariant = "seo" | "geo" | "ads" | "cro" | "local";
+export type HeroVariant = "seo" | "geo" | "ads" | "cro" | "local" | "content" | "tech";
 
 export function deriveHeroVariant(text: string): HeroVariant {
   const t = text.toLowerCase();
   if (/\bgeo\b|ai-?zichtbaar|ai zoek|generative|chatgpt/.test(t)) return "geo";
   if (/\bads\b|adverte|sea\b|google ads|display/.test(t)) return "ads";
-  if (/cro\b|conversie|website advies|e-?mail|nieuwsbrief/.test(t)) return "cro";
+  if (/tag manager|gtm|tracking|wordpress|onderhoud|website laten bouwen|webshop|hosting|snelheid/.test(t))
+    return "tech";
+  if (/cro\b|conversie|website advies/.test(t)) return "cro";
+  if (/tekst|content|copy|blog|linkbuilding|social media|e-?mail|nieuwsbrief/.test(t)) return "content";
   if (/lokale|local seo|venlo|roermond|maastricht|nijmegen|limburg|arcen|horst|venray|belfeld|grubbenvorst|eindhoven|rotterdam|ibiza|regio/.test(t))
     return "local";
   return "seo";
@@ -402,6 +405,8 @@ export function HeroVisual({
   if (variant === "ads") return <AdsVisual />;
   if (variant === "cro") return <CroVisual />;
   if (variant === "local") return <LocalVisual />;
+  if (variant === "content") return <ContentVisual />;
+  if (variant === "tech") return <TechVisual />;
   return (
     <div className="relative">
       <div
