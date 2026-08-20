@@ -160,7 +160,7 @@ function Hero() {
             </h1>
             <p className="mb-8 max-w-[52ch] text-pretty text-lg leading-relaxed text-zinc-600">
               B. Analyzed brengt MKB-bedrijven op pagina 1 van Google én in AI-zoekmachines
-              met een data-gedreven SEO &amp; GEO-aanpak. 15 jaar ervaring, 220+ klanten, 9.8/10 beoordeeld.
+              met een data-gedreven SEO &amp; GEO-aanpak. ${BEDRIJFSCIJFERS.jarenErvaring} jaar ervaring, ${BEDRIJFSCIJFERS.aantalKlanten} klanten, ${BEDRIJFSCIJFERS.reviewScore}/10 beoordeeld.
             </p>
             <ul className="mb-10 space-y-3">
               {[
@@ -227,7 +227,7 @@ function ClientLogos() {
     <section className="border-y border-zinc-200/70 bg-white/60 py-10">
       <div className="mx-auto max-w-7xl px-6">
         <p className="mb-6 text-center font-mono text-[11px] uppercase tracking-[0.2em] text-zinc-400">
-          Vertrouwd door 220+ MKB-ondernemers
+          Vertrouwd door {BEDRIJFSCIJFERS.aantalKlanten} MKB-ondernemers
         </p>
         <div className="grid grid-cols-2 items-center gap-x-8 gap-y-6 opacity-70 md:grid-cols-6">
           {clientLogos.map((c) => (
@@ -280,7 +280,7 @@ function BigStats() {
 const stats = [
   { label: "Keyword Density", value: "1.4k+", note: "Top 3 posities behaald voor MKB'ers", wide: true },
   { label: "ROI Gemiddelde", value: "12x", note: null, wide: false },
-  { label: "Klanten", value: "220+", note: null, wide: false, accent: true },
+  { label: "Klanten", value: BEDRIJFSCIJFERS.aantalKlanten, note: null, wide: false, accent: true },
 ];
 
 function Results() {
@@ -562,7 +562,7 @@ const faqs = [
   },
   {
     q: "Werken jullie ook voor mijn branche?",
-    a: "We werken met 220+ MKB-bedrijven in uiteenlopende sectoren, van e-commerce tot lokale dienstverleners en B2B SaaS.",
+    a: "We werken met veel MKB-bedrijven in uiteenlopende sectoren, van e-commerce tot lokale dienstverleners en B2B SaaS.",
   },
   {
     q: "Zit ik vast aan een lang contract?",
