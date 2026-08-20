@@ -73,7 +73,7 @@ function GeoPage() {
         <SectionHeading
           eyebrow="Waarom nu"
           title="Een groeiend deel van het zoekverkeer eindigt zonder klik"
-          intro="Als AI het antwoord direct geeft, verdwijnt de klik naar jouw site — maar niet de aankoopbeslissing. Wie in dat antwoord genoemd wordt, wint de opdracht. Wie er niet in staat, bestaat voor die zoeker niet."
+          intro="Als AI het antwoord direct geeft, verdwijnt de klik naar jouw site. Echter win je het wel met de aankoopbeslissing. Wie in dat antwoord genoemd wordt, wint de opdracht. Wie er niet in staat, bestaat voor die zoeker niet."
         />
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-brand-muted">
           Dit gaat niet over de toekomst. Je klanten vragen nu al aan ChatGPT of Claude welk bureau, welke
@@ -140,13 +140,13 @@ function GeoPage() {
       <Section className="border-y border-brand-line bg-brand-sand">
         <SectionHeading
           eyebrow="Eerlijk"
-          title="Wat GEO nog niet is"
+          title="GEO, nieuw vakgebied"
           intro="GEO is een jong vakgebied. De meetmethodes zijn in ontwikkeling en niemand kan een plek in een AI-antwoord garanderen."
         />
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-brand-muted">
-          Wat wel vaststaat: de technieken die je citeerbaar maken — heldere structuur, verifieerbare
-          feiten, schema en autoriteit — maken je site ook beter voor Google en voor je bezoeker. Je
-          investering is dus niet weg als het landschap verschuift.
+          Wat wel vaststaat: de technieken die je citeerbaar maken zoals heldere structuur, verifieerbare
+          feiten, schema en autoriteit. Deze onderdelen maken je site ook beter voor Google en voor je
+          bezoeker. Je investering is dus niet weg als het landschap verschuift.
         </p>
         <Link
           to="/kennisbank/"

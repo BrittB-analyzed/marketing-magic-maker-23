@@ -27,7 +27,7 @@ function Blog() {
       <PageHero
         eyebrow="Blog"
         title="Artikelen over vindbaarheid in Google en in AI"
-        intro="Praktische stukken over SEO, GEO, Ads en CRO. Geschreven voor ondernemers, niet voor collega-marketeers."
+        intro="Praktische stukken over website lanceringen, SEO, GEO, Google Ads en conversie-optimalisatie, geschreven voor ondernemers."
       />
       <Section>
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
