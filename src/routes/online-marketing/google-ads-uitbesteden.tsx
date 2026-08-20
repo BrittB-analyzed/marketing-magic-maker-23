@@ -56,8 +56,8 @@ export const Route = createFileRoute("/online-marketing/google-ads-uitbesteden")
         title="Google Ads uitbesteden: een ads expert inhuren die campagnes laat converteren"
         intro="Ads uitbesteden betekent bij ons: geen klikken kopen, maar aanvragen genereren. Als Google Premium Partner en Google Ads bureau bouwen en beheren wij Search-, Shopping- en Display-campagnes op scherpe koopintentie. Een ads expert inhuren bij B. Analyzed betekent wekelijkse optimalisatie, heldere rapportages en campagnes die je investering terugverdienen."
         forWho={[
-          { title: "Je hebt nú omzet nodig", body: "SEO en GEO bouwen op, maar je agenda moet volgende maand vol. Ads uitbesteden geeft directe zichtbaarheid." },
-          { title: "Je budget verdwijnt", body: "Je adverteert wel via Google Ads, maar niemand kan uitleggen wat het echt oplevert. Tijd om een ads expert in te huren." },
+          { title: "Je hebt nú omzet nodig", body: "SEO en GEO bouwen op, maar je agenda moet volgende maand vol. Ads uitbesteden kan voor direct resultaat zorgen." },
+          { title: "Je budget verdwijnt", body: "Je adverteert wel via Google Ads, maar niemand kan uitleggen wat het echt oplevert. De juiste tracking is van essentieel belang. Tijd om een ads expert in te huren." },
           { title: "Je wilt zekerheid", body: "Je wilt weten op welke zoektermen mensen daadwerkelijk kopen, voordat je verder investeert in een Google Ads bureau." },
         ]}
         deliverables={[

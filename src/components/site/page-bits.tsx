@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import {
   ArrowRight,
+  Award,
   BadgeCheck,
   Bot,
   MapPin,
@@ -11,7 +12,9 @@ import {
   Plus,
   Search,
   Sparkles,
+  Star,
   TrendingUp,
+  Users,
 } from "lucide-react";
 import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "./site-chrome";
 import { LeadForm } from "./lead-form";
@@ -59,13 +62,16 @@ export function SectionHeading({
 
 const HERO_BARS = [18, 24, 21, 32, 38, 34, 48, 56, 52, 68, 79, 96];
 
-export type HeroVariant = "seo" | "geo" | "ads" | "cro" | "local";
+export type HeroVariant = "seo" | "geo" | "ads" | "cro" | "local" | "content" | "tech";
 
 export function deriveHeroVariant(text: string): HeroVariant {
   const t = text.toLowerCase();
   if (/\bgeo\b|ai-?zichtbaar|ai zoek|generative|chatgpt/.test(t)) return "geo";
   if (/\bads\b|adverte|sea\b|google ads|display/.test(t)) return "ads";
-  if (/cro\b|conversie|website advies|e-?mail|nieuwsbrief/.test(t)) return "cro";
+  if (/tag manager|gtm|tracking|wordpress|onderhoud|website laten bouwen|webshop|hosting|snelheid/.test(t))
+    return "tech";
+  if (/cro\b|conversie|website advies/.test(t)) return "cro";
+  if (/tekst|content|copy|blog|linkbuilding|social media|e-?mail|nieuwsbrief/.test(t)) return "content";
   if (/lokale|local seo|venlo|roermond|maastricht|nijmegen|limburg|arcen|horst|venray|belfeld|grubbenvorst|eindhoven|rotterdam|ibiza|regio/.test(t))
     return "local";
   return "seo";
@@ -312,6 +318,78 @@ function LocalVisual() {
   );
 }
 
+function ContentVisual() {
+  return (
+    <VisualFrame label="Content & autoriteit · productie">
+      <div className="space-y-2">
+        {[
+          { t: "SEO-teksten geschreven", v: "18 / maand" },
+          { t: "Nieuwe verwijzende domeinen", v: "+24" },
+          { t: "Social posts gepland", v: "32" },
+          { t: "Nieuwsbrieven verstuurd", v: "4" },
+        ].map((r) => (
+          <div
+            key={r.t}
+            className="flex items-center justify-between rounded-xl border border-brand-line px-3 py-2.5"
+          >
+            <p className="text-sm text-brand-ink">{r.t}</p>
+            <p className="text-sm font-semibold text-brand-green">{r.v}</p>
+          </div>
+        ))}
+      </div>
+      <div className="grid grid-cols-3 gap-2">
+        {[
+          { v: "+64%", n: "zoekwoorden in top 10" },
+          { v: "+38%", n: "gemiddelde leestijd" },
+          { v: "+21%", n: "aanvragen uit content" },
+        ].map((s) => (
+          <div key={s.n} className="rounded-xl bg-brand-canvas p-3">
+            <p className="text-sm font-semibold text-brand-green">{s.v}</p>
+            <p className="mt-1 text-[11px] leading-snug text-brand-muted">{s.n}</p>
+          </div>
+        ))}
+      </div>
+    </VisualFrame>
+  );
+}
+
+function TechVisual() {
+  return (
+    <VisualFrame label="Website & tracking · status">
+      <div className="space-y-2">
+        {[
+          { t: "Website live gezet", v: "3 dagen" },
+          { t: "Conversiemetingen actief", v: "7 / 7" },
+          { t: "Core Web Vitals", v: "goed" },
+          { t: "Updates & back-ups", v: "wekelijks" },
+        ].map((r) => (
+          <div
+            key={r.t}
+            className="flex items-center justify-between rounded-xl border border-brand-line px-3 py-2.5"
+          >
+            <p className="text-sm text-brand-ink">{r.t}</p>
+            <span className="flex items-center gap-1.5 text-sm font-semibold text-brand-green">
+              <BadgeCheck className="size-4" /> {r.v}
+            </span>
+          </div>
+        ))}
+      </div>
+      <div className="grid grid-cols-3 gap-2">
+        {[
+          { v: "0,9s", n: "laadtijd mobiel" },
+          { v: "100%", n: "events gemeten" },
+          { v: "€ 499", n: "vanafprijs website" },
+        ].map((s) => (
+          <div key={s.n} className="rounded-xl bg-brand-canvas p-3">
+            <p className="text-sm font-semibold text-brand-green">{s.v}</p>
+            <p className="mt-1 text-[11px] leading-snug text-brand-muted">{s.n}</p>
+          </div>
+        ))}
+      </div>
+    </VisualFrame>
+  );
+}
+
 export function HeroVisual({
   variant = "seo",
   query = "seo uitbesteden",
@@ -327,6 +405,8 @@ export function HeroVisual({
   if (variant === "ads") return <AdsVisual />;
   if (variant === "cro") return <CroVisual />;
   if (variant === "local") return <LocalVisual />;
+  if (variant === "content") return <ContentVisual />;
+  if (variant === "tech") return <TechVisual />;
   return (
     <div className="relative">
       <div
@@ -460,13 +540,19 @@ export function PageHero({
           </div>
           {stats.length > 0 && (
             <dl className="mt-10 grid max-w-lg grid-cols-3 gap-6 border-t border-brand-line pt-6">
-              {stats.map((s) => (
-                <div key={s.label}>
-                  <dt className="sr-only">{s.label}</dt>
-                  <dd className="text-2xl font-semibold text-brand-graphite sm:text-3xl">{s.value}</dd>
-                  <p className="mt-1 text-xs leading-snug text-brand-muted">{s.label}</p>
-                </div>
-              ))}
+              {stats.map((s, i) => {
+                const Icon = [Award, Star, Users][i % 3];
+                return (
+                  <div key={s.label}>
+                    <dt className="sr-only">{s.label}</dt>
+                    <dd className="flex items-center gap-2 text-2xl font-semibold text-brand-green sm:text-3xl">
+                      <Icon className="size-5 shrink-0 text-brand-green" strokeWidth={2.2} aria-hidden="true" />
+                      {s.value}
+                    </dd>
+                    <p className="mt-1 text-xs font-medium leading-snug text-brand-green">{s.label}</p>
+                  </div>
+                );
+              })}
             </dl>
           )}
         </div>
