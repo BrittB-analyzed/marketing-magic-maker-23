@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "./site-chrome";
 import { LeadForm } from "./lead-form";
+import brittPortret from "@/assets/photos/britt-portret.jpg.asset.json";
 
 export function Section({
   children,
@@ -482,8 +483,36 @@ export function FaqBlock({ items, title = "Veelgestelde vragen" }: { items: Faq[
   return (
     <Section className="border-t border-brand-line bg-white">
       <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
-        <SectionHeading eyebrow="FAQ" title={title} />
+        <div>
+          <SectionHeading eyebrow="FAQ" title={title} />
+          <div className="mt-8 flex items-center gap-4">
+            <img
+              src={brittPortret.url}
+              alt="Britt Daemen, oprichter van B. Analyzed"
+              width={176}
+              height={176}
+              loading="lazy"
+              decoding="async"
+              className="size-24 rounded-full object-cover ring-4 ring-brand-green/20 sm:size-28"
+            />
+            <div>
+              <p className="text-base font-semibold text-brand-ink">Britt Daemen</p>
+              <p className="mt-1 text-sm leading-relaxed text-brand-muted">
+                Staat jouw vraag er niet bij? Bel of mail gerust, je krijgt altijd antwoord van mij
+                persoonlijk.
+              </p>
+              <a href={PHONE_HREF} className="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-brand-ink">
+                <Phone className="size-4 text-brand-green" /> {PHONE}
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="divide-y divide-brand-line border-y border-brand-line">
+          <script
+            type="application/ld+json"
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{ __html: faqJsonLd(items) }}
+          />
           {items.map((item, i) => (
             <div key={item.q}>
               <button
@@ -523,7 +552,7 @@ export function faqJsonLd(items: Faq[]) {
 }
 
 export function CtaBand({
-  title = "Wil je weten hoe zichtbaar je nu bent — in Google én in AI?",
+  title = "Wil je weten hoe zichtbaar je nu bent, in Google én in AI?",
   intro = "Vraag de gratis scan aan. Je krijgt een persoonlijke video-analyse met de drie dingen die op jouw site het meeste opleveren.",
 }: {
   title?: string;

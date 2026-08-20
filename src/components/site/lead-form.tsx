@@ -45,8 +45,7 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
           <FormPortrait>
             <h2 className="text-xl font-semibold tracking-tight">Vraag je gratis SEO &amp; GEO-scan aan</h2>
             <p className="mt-1 text-sm text-brand-muted">
-              Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse van Britt —
-              geen automatisch rapport.
+              Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse van Britt.
             </p>
           </FormPortrait>
           <div className="mt-4 h-10 animate-pulse rounded-xl bg-brand-sand" />
@@ -143,8 +142,7 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
           <FormPortrait>
             <h2 className="text-xl font-semibold tracking-tight">Vraag je gratis SEO &amp; GEO-scan aan</h2>
             <p className="mt-1 text-sm text-brand-muted">
-              Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse van Britt —
-              geen automatisch rapport.
+              Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse van Britt.
             </p>
           </FormPortrait>
           <label className="block">

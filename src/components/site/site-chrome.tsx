@@ -75,6 +75,7 @@ export function TrustLine() {
 }
 
 const SUPPORT_LINKS = [
+  { label: "Website laten bouwen", to: "/online-marketing/website-advies/" },
   { label: "Social media marketing", to: "/online-marketing/social-media-marketing/" },
   { label: "E-mailmarketing", to: "/online-marketing/emailmarketing/" },
   { label: "Google Tag Manager", to: "/online-marketing/google-tag-manager-inrichten/" },
@@ -140,10 +141,22 @@ export function Header() {
                                   nieuw
                                 </span>
                               )}
-                              <span className="text-xs font-normal text-brand-muted">— {p.claim}</span>
+                              <span className="text-xs font-normal text-brand-muted">{p.claim}</span>
                             </Link>
                           </li>
                         ))}
+                        <li>
+                          <Link
+                            to="/online-marketing/website-advies/"
+                            onClick={() => setServices(false)}
+                            className="flex items-center gap-1.5 text-sm font-medium text-brand-ink hover:text-brand-red"
+                          >
+                            Website laten bouwen
+                            <span className="text-xs font-normal text-brand-muted">
+                              In 3 dagen live vanaf € 499,-
+                            </span>
+                          </Link>
+                        </li>
                       </ul>
                     </div>
                     <div>
@@ -379,7 +392,7 @@ export function Footer() {
             {PILLARS.map((p) => (
               <li key={p.to}>
                 <Link to={p.to} className="hover:text-brand-ink">
-                  {p.name} — {p.claim}
+                  {p.name} · {p.claim}
                 </Link>
               </li>
             ))}

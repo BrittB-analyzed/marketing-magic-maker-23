@@ -31,9 +31,9 @@ export function FounderCard() {
             SEO · GEO · Ads · CRO
           </p>
           <p className="mt-3 max-w-lg text-base leading-relaxed text-brand-muted">
-            15 jaar online marketing. Ik help MKB-bedrijven in Nederland en België om meer
-            omzet uit hun website te halen — met SEO, GEO, Google Ads en conversieoptimalisatie.
-            Eén vast aanspreekpunt en meetbaar resultaat staan voorop.
+            15 jaar online marketing. Ik help interieurzaken en vooral MKB-bedrijven in Nederland en
+            buitenland om meer omzet uit hun website te halen met SEO, GEO, Google Ads en
+            conversieoptimalisatie (CRO). Eén vast aanspreekpunt en meetbaar resultaat staan voorop.
           </p>
         </div>
       </div>

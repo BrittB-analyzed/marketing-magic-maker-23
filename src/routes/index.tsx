@@ -29,11 +29,14 @@ import {
 import portretBuiten from "@/assets/photos/portret-buiten.jpg.asset.json";
 import aanHetWerk from "@/assets/photos/aan-het-werk.jpg.asset.json";
 import dashboardImage from "@/assets/seo-dashboard.jpg";
+import logoMeubelOutlet from "@/assets/logos/meubeloutletweert-logo.avif.asset.json";
+import logoParketreus from "@/assets/logos/parketreus-logo.avif.asset.json";
+import logoVogelvoer from "@/assets/logos/vogelvoerkopenlogo_1.avif.asset.json";
 
 const FAQ: Faq[] = [
   {
     q: "Wat kost SEO en GEO bij B. Analyzed?",
-    a: "Een uitgebreide audit start vanaf € 599,- en een doorlopend SEO- & GEO-pakket vanaf € 999,- per maand, met diverse diensten om uit te kiezen. Losse werkzaamheden factureren we tegen € 90,- per uur. Wat je precies betaalt hangt af van je markt en concurrentie — we werken net zo lang door tot je meetbaar resultaat boekt.",
+    a: "Een uitgebreide audit start vanaf € 599,- en een doorlopend SEO- & GEO-pakket vanaf € 999,- per maand, met diverse diensten om uit te kiezen. Losse werkzaamheden factureren we tegen € 90,- per uur. Wat je precies betaalt hangt af van je markt en concurrentie, we werken net zo lang door tot je meetbaar resultaat boekt.",
   },
   {
     q: "Hoe lang duurt het voordat ik resultaat zie?",
@@ -45,7 +48,7 @@ const FAQ: Faq[] = [
   },
   {
     q: "Wat is GEO precies en heb ik dat nodig?",
-    a: "GEO staat voor Generative Engine Optimization: zorgen dat jouw bedrijf genoemd en geciteerd wordt in antwoorden van ChatGPT, Gemini, Perplexity en Google AI Overviews. Je hebt het nodig zodra jouw doelgroep vragen stelt aan AI in plaats van aan Google — en dat gebeurt nu al. GEO komt naast SEO, niet in plaats daarvan.",
+    a: "GEO staat voor Generative Engine Optimization: zorgen dat jouw bedrijf genoemd en geciteerd wordt in antwoorden van ChatGPT, Gemini, Perplexity en Google AI Overviews. Je hebt het nodig zodra jouw doelgroep vragen stelt aan AI in plaats van aan Google, en dat gebeurt nu al. GEO komt naast SEO, niet in plaats daarvan.",
   },
   {
     q: "Wie doet het werk?",
@@ -53,7 +56,7 @@ const FAQ: Faq[] = [
   },
   {
     q: "Hoe rapporteren jullie?",
-    a: "Elke maand krijg je een Loom-video waarin we je dashboard doorlopen: wat we hebben gedaan, wat het opleverde en wat er de komende maand gebeurt. Het dashboard staat 24/7 voor je open.",
+    a: "Elke maand krijg je een Loom-video waarin we je live dashboard doorlopen: wat hebben we gedaan, wat leverde het op en wat er de komende maand gebeurt. Het dashboard staat 24/7 voor je open.",
   },
 ];
 
@@ -113,7 +116,7 @@ function BlogTeasers() {
       <SectionHeading
         eyebrow="Kennisbank"
         title="Lees onze laatste artikelen"
-        intro="Praktische stukken over SEO, GEO, Google Ads en conversie-optimalisatie — geschreven voor ondernemers."
+        intro="Praktische stukken over website lanceringen, SEO, GEO, Google Ads en conversie-optimalisatie, geschreven voor ondernemers."
       />
       <div className="mt-10 grid gap-5 md:grid-cols-3">
         {posts.map((p) => (
@@ -164,9 +167,9 @@ function heroInner() {
             <span className="text-brand-red">Meer aanvragen.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-brand-muted">
-            B. Analyzed is hét datagedreven full service online marketingbureau dat al behoorlijk wat
-            klanten blij heeft gemaakt. Onafhankelijk, persoonlijk en transparant — en we werken net
-            zo lang door tot jij meetbaar resultaat boekt.
+            Eén aanspreekpunt. Eén verantwoordelijke voor jouw groei. Bij B. Analyzed praat je niet
+            met een team, maar met de persoon die je cijfers kent en er haar naam aan verbindt.
+            Datagedreven, onafhankelijk, transparant, en we stoppen pas bij meetbaar resultaat.
           </p>
           <ul className="mt-8 space-y-3">
             {[
@@ -226,10 +229,14 @@ function HeroForm() {
 }
 
 const BIG_STATS = [
-  { value: "386", label: "nummer 1-posities behaald voor klanten in Google" },
-  { value: "+25", label: "SEO-opdrachtgevers met minimaal 150% organische groei in 1 jaar" },
-  { value: "+50", label: "tevreden SEO-klanten met minimaal 300% groei in organisch verkeer" },
-  { value: "15", label: "jaar ervaring in SEO, GEO, Ads en conversie-optimalisatie" },
+  { value: "+1500", label: "nummer 1-posities behaald in Google" },
+  { value: "+75", label: "tevreden opdrachtgevers met sterke ROI" },
+  {
+    value: "+15",
+    label: "jaar ervaring in SEO, GEO, Ads, CRO en UX-vriendelijke websites en shops bouwen",
+  },
+  { value: "+3500", label: "sites voor linkbuilding" },
+  { value: "+10", label: "jaar succesvol remote ondernemen" },
 ];
 
 function BigStats() {
@@ -237,13 +244,13 @@ function BigStats() {
     <Section>
       <div className="max-w-2xl">
         <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-          Waarom SEO &amp; GEO geen optie meer is voor het MKB.
+          Gegarandeerd resultaat met SEO &amp; GEO voor het MKB.
         </h2>
       </div>
-      <div className="mt-12 grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4">
+      <div className="mt-12 grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-5">
         {BIG_STATS.map((s) => (
-          <div key={s.label}>
-            <div className="mb-2 text-5xl font-semibold tracking-tight text-brand-red md:text-6xl">
+          <div key={s.label} className="rounded-2xl border border-brand-line bg-white p-6">
+            <div className="mb-2 text-4xl font-semibold tracking-tight text-brand-red md:text-5xl">
               {s.value}
             </div>
             <p className="max-w-[26ch] text-sm leading-relaxed text-brand-muted">{s.label}</p>
@@ -255,8 +262,8 @@ function BigStats() {
 }
 
 const RESULT_CARDS = [
-  { label: "Nummer 1-posities", value: "386", note: "Behaald in Google voor onze klanten", wide: true },
-  { label: "Linkbuilding netwerk", value: "2.500+", note: null, wide: false },
+  { label: "Nummer 1-posities", value: "1.500+", note: "Behaald in Google voor onze klanten", wide: true },
+  { label: "Linkbuilding netwerk", value: "3.500+", note: null, wide: false },
   { label: "Jaar ervaring", value: "15", note: null, wide: false, accent: true },
 ];
 
@@ -351,12 +358,12 @@ function Shift() {
           <SectionHeading
             eyebrow="De verschuiving"
             title="Ranken alleen is niet meer genoeg"
-            intro="Steeds meer zoekopdrachten eindigen zonder klik: AI geeft het antwoord direct. Sta je niet in dat antwoord, dan besta je voor die zoeker niet — ook al sta je op één in Google."
+            intro="Steeds meer zoekopdrachten eindigen zonder klik: AI geeft het antwoord direct. Sta je niet in dat antwoord, dan besta je voor die zoeker niet, ook al sta je op één in Google."
           />
           <p className="mt-6 max-w-xl text-base leading-relaxed text-brand-muted">
             Daarom werken wij met vier pijlers in plaats van dertien losse diensten. SEO en GEO zorgen
             dat je gevonden én genoemd wordt, Ads koopt het verkeer dat vandaag moet converteren, en
-            CRO zorgt dat je van dat verkeer ook echt iets terugziet.
+            CRO zorgt dat je van dat verkeer ook echt iets terugziet in de cijfers.
           </p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
@@ -393,11 +400,11 @@ const PILLAR_DETAIL: Record<string, { line: string; items: string[] }> = {
     items: ["Technische fundering en Core Web Vitals", "Contentclusters op koopintentie", "Autoriteit en linkbuilding"],
   },
   GEO: {
-    line: "Genoemd worden in ChatGPT, Gemini, Perplexity en AI Overviews.",
+    line: "Genoemd worden in ChatGPT, Claude en AI Overviews.",
     items: ["Citeerbare contentstructuur", "Schema-markup en entiteitsopbouw", "Monitoring van AI-vermeldingen"],
   },
   Ads: {
-    line: "Verkeer kopen dat vandaag al converteert, zonder budget te verbranden.",
+    line: "Verkeer kopen dat vandaag al rendeert.",
     items: ["Search- en Performance Max-campagnes", "Zoekterm- en biedstrategie", "Wekelijkse optimalisatie"],
   },
   CRO: {
@@ -470,10 +477,10 @@ function Proof() {
     <Section>
       <SectionHeading
         eyebrow="Bewijs"
-        title="Twee cases, met de cijfers erbij"
+        title="Drie cases, met cijfers erbij"
         intro="Startsituatie, ingreep, resultaat en periode. Zonder screenshot van het dashboard vertellen we het niet."
       />
-      <div className="mt-12 grid gap-6 lg:grid-cols-2">
+      <div className="mt-12 grid gap-6 lg:grid-cols-3">
         {[
           {
             slug: "6600x-meubel-outlet-nummer-1-in-google",
@@ -484,12 +491,20 @@ function Proof() {
             result: "+680% organisch verkeer naar bijna 5.500 bezoekers/maand en positie 1 op 'meubel outlet'.",
           },
           {
-            slug: "meer-omzet-sleep-factory-bv",
-            tag: "Sleep Factory BV",
-            title: "800% groei in het aantal online transacties",
-            start: "Beperkt organisch en betaald verkeer voor de boxspring-webshop.",
-            action: "SEO- en Google Ads-strategie gericht op termen als 'goedkope boxspring'.",
-            result: "800% meer online transacties in 1,5 jaar, top 5-posities en 3.000+ bezoekers per maand.",
+            slug: "parketreus",
+            tag: "Parketreus",
+            title: "439.000 vertoningen met regionale SEO in Limburg",
+            start: "Nauwelijks zichtbaar op lokale koopgerichte termen in Limburg.",
+            action: "Lokale SEO, technische verbeteringen en contentmarketing per werkgebied.",
+            result: "439.000 vertoningen, 4.310 klikken en positie 18 → 2 op 'traprenovatie limburg'.",
+          },
+          {
+            slug: "online-transacties-vogelvoerkopen",
+            tag: "Vogelvoerkopen.nl",
+            title: "Vijf keer zoveel online transacties in negen maanden",
+            start: "Weinig online omzet en beperkte zichtbaarheid op 'vogelvoer kopen'.",
+            action: "SEO en Google Ads gecombineerd op koopgerichte zoektermen.",
+            result: "5x meer online transacties en stabiele top 3-posities in negen maanden.",
           },
         ].map((c) => (
           <Link
@@ -601,35 +616,39 @@ function PersonalTouch() {
             title="Geen accountmanager. Wel een vaste specialist."
             intro="Je belt, mailt en spart met de persoon die je strategie bedenkt én uitvoert. Dat scheelt gedoe, misverstanden en een hoop uren."
           />
-          <div className="mt-8 space-y-4 text-base leading-relaxed text-brand-muted">
+          <div className="mt-6 space-y-6 text-base leading-relaxed text-brand-muted">
             <p>
-              In 2014 startte Britt Daemen als freelance marketeer onder de naam B. Analyzed
-              marketing, met SEO en Google Ads als specialisme. Inmiddels runt ze met een team van
-              freelancers wereldwijd een fullservice online marketingbureau dat ieder bedrijf van A
-              tot Z ontzorgt.
+              In 2014 startte Britt Daemen als marketeer onder de naam B. Analyzed marketing, met SEO
+              en Google Ads als specialisme. Inmiddels runt ze met een team van freelancers wereldwijd
+              een fullservice online marketingbureau dat MKB-bedrijven ontzorgt van A tot Z.
             </p>
             <p>
               We werken niet met pakketjes, junior-medewerkers of mooie praatjes. Wel met eerlijk
               advies, duidelijke afspraken en maandelijkse Loom-video's waarin je zelf ziet wat er
-              gebeurt — tot je meetbaar resultaat boekt.
+              gebeurt en je meetbaar resultaat boekt.
             </p>
           </div>
-          <div className="mt-8 grid gap-4 sm:grid-cols-2">
-            {[
-              ["15 jaar ervaring", "Sinds 2014 actief als online marketingbureau."],
-              ["Transparante werkwijze", "Alles laten we zien via Loom-video's."],
-              ["Gegarandeerde top 10", "Alleen de eerste pagina van Google telt."],
-              ["Trouwe opdrachtgevers", "Klanten waar we al jaren voor werken."],
-            ].map(([t, d]) => (
-              <div key={t} className="rounded-2xl border border-brand-line bg-white p-5">
-                <h3 className="text-sm font-semibold text-brand-ink">{t}</h3>
-                <p className="mt-1 text-sm leading-relaxed text-brand-muted">{d}</p>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            {(
+              [
+                ["15 jaar ervaring", "Sinds 2014 actief als online marketingbureau.", "strategie"],
+                ["Transparante werkwijze", "Alles laten we zien via Loom-video's.", "monitoring"],
+                ["Gegarandeerde top 10", "Alleen de eerste pagina van Google telt.", "groei"],
+                ["Trouwe opdrachtgevers", "Klanten waar we al jaren voor werken.", "kennismaking"],
+              ] as [string, string, BrandIconName][]
+            ).map(([t, d, icon]) => (
+              <div key={t} className="flex gap-4 rounded-2xl border border-brand-line bg-white p-5">
+                <BrandIcon name={icon} size="sm" />
+                <div>
+                  <h3 className="text-base font-semibold text-brand-ink">{t}</h3>
+                  <p className="mt-1 text-base leading-relaxed text-brand-muted">{d}</p>
+                </div>
               </div>
             ))}
           </div>
           <Link
             to="/online-marketing-bedrijf/"
-            className="mt-8 inline-flex items-center gap-2 text-sm font-semibold underline underline-offset-4"
+            className="mt-6 inline-flex items-center gap-2 text-base font-semibold underline underline-offset-4"
           >
             Meer over ons <ArrowRight className="size-4 text-brand-red" />
           </Link>
@@ -642,9 +661,9 @@ function PersonalTouch() {
 function Testimonials() {
   const quotes = [
     {
-      q: "Britt denkt out of the box en kan mij ook enorm motiveren door te pakken. In 1,5 jaar tijd beschik ik over meer kennis over mijn bedrijf en heb ik er een hoop mooie opdrachten aan over gehouden.",
-      n: "Kevin Jaspers",
-      r: "Eigenaar",
+      q: "Onze website werd nauwelijks gevonden. Inmiddels staan we op nummer 1 op 'meubel outlet' en komen er dagelijks nieuwe klanten via Google binnen.",
+      n: "Meubel & Outlet Weert",
+      r: "Opdrachtgever",
     },
     {
       q: "Sterke groei door de inspanningen van Britt.",
@@ -660,6 +679,21 @@ function Testimonials() {
   return (
     <Section>
       <SectionHeading eyebrow="Klanten" title="Beoordeeld met een 9,8" />
+      <div className="mt-8 flex flex-wrap items-center gap-8">
+        {[
+          { src: logoMeubelOutlet.url, alt: "Logo Meubel & Outlet Weert" },
+          { src: logoParketreus.url, alt: "Logo Parketreus" },
+          { src: logoVogelvoer.url, alt: "Logo Vogelvoerkopen.nl" },
+        ].map((l) => (
+          <img
+            key={l.alt}
+            src={l.src}
+            alt={l.alt}
+            loading="lazy"
+            className="h-10 w-auto max-w-[140px] object-contain opacity-80"
+          />
+        ))}
+      </div>
       <div className="mt-10 grid gap-6 md:grid-cols-3">
         {quotes.map((t) => (
           <figure key={t.q} className="rounded-2xl border border-brand-line bg-white p-7">
