@@ -33,7 +33,7 @@ import dashboardImage from "@/assets/seo-dashboard.jpg";
 const FAQ: Faq[] = [
   {
     q: "Wat kost SEO en GEO bij B. Analyzed?",
-    a: "Een uitgebreide audit start vanaf € 599,- en een doorlopend SEO- & GEO-pakket vanaf € 999,- per maand, met diverse diensten om uit te kiezen. Losse werkzaamheden factureren we tegen € 90,- per uur. Wat je precies betaalt hangt af van je markt en concurrentie — we werken net zo lang door tot je meetbaar resultaat boekt.",
+    a: "Een uitgebreide audit start vanaf € 599,- en een doorlopend SEO- & GEO-pakket vanaf € 999,- per maand, met diverse diensten om uit te kiezen. Losse werkzaamheden factureren we tegen € 90,- per uur. Wat je precies betaalt hangt af van je markt en concurrentie, we werken net zo lang door tot je meetbaar resultaat boekt.",
   },
   {
     q: "Hoe lang duurt het voordat ik resultaat zie?",
@@ -45,7 +45,7 @@ const FAQ: Faq[] = [
   },
   {
     q: "Wat is GEO precies en heb ik dat nodig?",
-    a: "GEO staat voor Generative Engine Optimization: zorgen dat jouw bedrijf genoemd en geciteerd wordt in antwoorden van ChatGPT, Gemini, Perplexity en Google AI Overviews. Je hebt het nodig zodra jouw doelgroep vragen stelt aan AI in plaats van aan Google — en dat gebeurt nu al. GEO komt naast SEO, niet in plaats daarvan.",
+    a: "GEO staat voor Generative Engine Optimization: zorgen dat jouw bedrijf genoemd en geciteerd wordt in antwoorden van ChatGPT, Gemini, Perplexity en Google AI Overviews. Je hebt het nodig zodra jouw doelgroep vragen stelt aan AI in plaats van aan Google, en dat gebeurt nu al. GEO komt naast SEO, niet in plaats daarvan.",
   },
   {
     q: "Wie doet het werk?",
@@ -53,7 +53,7 @@ const FAQ: Faq[] = [
   },
   {
     q: "Hoe rapporteren jullie?",
-    a: "Elke maand krijg je een Loom-video waarin we je dashboard doorlopen: wat we hebben gedaan, wat het opleverde en wat er de komende maand gebeurt. Het dashboard staat 24/7 voor je open.",
+    a: "Elke maand krijg je een Loom-video waarin we je live dashboard doorlopen: wat hebben we gedaan, wat leverde het op en wat er de komende maand gebeurt. Het dashboard staat 24/7 voor je open.",
   },
 ];
 
@@ -113,7 +113,7 @@ function BlogTeasers() {
       <SectionHeading
         eyebrow="Kennisbank"
         title="Lees onze laatste artikelen"
-        intro="Praktische stukken over SEO, GEO, Google Ads en conversie-optimalisatie — geschreven voor ondernemers."
+        intro="Praktische stukken over website lanceringen, SEO, GEO, Google Ads en conversie-optimalisatie, geschreven voor ondernemers."
       />
       <div className="mt-10 grid gap-5 md:grid-cols-3">
         {posts.map((p) => (
