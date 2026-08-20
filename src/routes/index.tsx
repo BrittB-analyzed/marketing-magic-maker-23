@@ -16,6 +16,7 @@ import { LogoStrip } from "@/components/site/logo-strip";
 import { BrandIcon, type BrandIconName } from "@/components/site/brand-icon";
 import { AiEngineLogos, aiLogo } from "@/components/site/ai-engines";
 import { POST_LIST } from "@/content/blog";
+import { BEDRIJFSCIJFERS, ERVARING_TEKST } from "@/data/bedrijfscijfers";
 import { LeadForm } from "@/components/site/lead-form";
 import {
   CtaBand,
@@ -202,7 +203,7 @@ function heroInner() {
               ))}
             </span>
             <p className="text-sm text-brand-muted">
-              <span className="font-semibold text-brand-ink">9,8</span> gemiddeld · 47 reviews
+              <span className="font-semibold text-brand-ink">{BEDRIJFSCIJFERS.reviewScore}</span> gemiddeld · {BEDRIJFSCIJFERS.aantalReviews} reviews
             </p>
           </div>
           </div>
@@ -221,20 +222,20 @@ function HeroForm() {
       </div>
       <div className="absolute -right-3 -top-3 hidden rotate-3 rounded-md bg-brand-sand px-3 py-2 text-xs font-semibold text-brand-ink shadow-lg ring-1 ring-brand-line md:block">
         <span className="mr-1 text-brand-green">●</span>
-        Reactie binnen 24u
+        Reactie {BEDRIJFSCIJFERS.reactietijd}
       </div>
     </div>
   );
 }
 
 const BIG_STATS = [
-  { value: "+1500", label: "nummer 1-posities behaald in Google" },
-  { value: "+75", label: "tevreden opdrachtgevers met sterke ROI" },
+  { value: BEDRIJFSCIJFERS.nummerEenPosities, label: "nummer 1-posities behaald in Google" },
+  { value: BEDRIJFSCIJFERS.aantalKlanten, label: "tevreden opdrachtgevers met sterke ROI" },
   {
-    value: "+15",
+    value: `+${BEDRIJFSCIJFERS.jarenErvaring}`,
     label: "jaar ervaring in SEO, GEO, Ads, CRO en UX-vriendelijke websites en shops bouwen",
   },
-  { value: "+3500", label: "sites voor linkbuilding" },
+  { value: BEDRIJFSCIJFERS.linkbuildingNetwerk, label: "sites voor linkbuilding" },
   { value: "+10", label: "jaar succesvol remote ondernemen" },
 ];
 
@@ -593,7 +594,7 @@ function PersonalTouch() {
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             {(
               [
-                ["15 jaar ervaring", "Sinds 2014 actief als online marketingbureau.", "strategie"],
+                [ERVARING_TEKST, "Sinds 2014 actief als online marketingbureau.", "strategie"],
                 ["Transparante werkwijze", "Alles laten we zien via Loom-video's.", "monitoring"],
                 ["Gegarandeerde top 10", "Alleen de eerste pagina van Google telt.", "groei"],
                 ["Trouwe opdrachtgevers", "Klanten waar we al jaren voor werken.", "kennismaking"],
@@ -643,7 +644,7 @@ function Testimonials() {
   ];
   return (
     <Section>
-      <SectionHeading eyebrow="Klanten" title="Beoordeeld met een 9,8" />
+      <SectionHeading eyebrow="Klanten" title={`Beoordeeld met een ${BEDRIJFSCIJFERS.reviewScore}`} />
       <div className="mt-10 grid gap-6 md:grid-cols-3">
         {quotes.map((t) => (
           <figure key={t.q} className="flex flex-col rounded-2xl border border-brand-line bg-white p-7">

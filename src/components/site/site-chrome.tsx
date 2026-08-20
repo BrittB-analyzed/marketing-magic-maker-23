@@ -11,6 +11,7 @@ import {
   REVIEWS_HREF,
   WHATSAPP_HREF,
 } from "@/lib/site-config";
+import { BEDRIJFSCIJFERS, ERVARING_TEKST } from "@/data/bedrijfscijfers";
 import { FounderCard } from "@/components/site/founder-card";
 
 export { EMAIL, PHONE, PHONE_HREF, REVIEW_COUNT, REVIEWS_HREF, WHATSAPP_HREF };
@@ -66,7 +67,7 @@ export function TrustLine() {
           href={REVIEWS_HREF}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={`Beoordeeld met een 9,8 gemiddeld uit ${REVIEW_COUNT} Google reviews`}
+          aria-label={`Beoordeeld met een ${BEDRIJFSCIJFERS.reviewScore} gemiddeld uit ${REVIEW_COUNT} Google reviews`}
           className="flex items-center gap-2 rounded-full bg-white px-3 py-1.5 shadow-sm ring-1 ring-brand-line transition-shadow hover:shadow-md"
         >
           <GoogleG className="size-4" />
@@ -76,7 +77,7 @@ export function TrustLine() {
             ))}
           </span>
           <span className="text-sm font-bold text-brand-ink" suppressHydrationWarning>
-            9,8 gemiddeld
+            {BEDRIJFSCIJFERS.reviewScore} gemiddeld
           </span>
           <span className="text-xs font-medium text-brand-muted" suppressHydrationWarning>
             · {REVIEW_COUNT} reviews
@@ -86,7 +87,7 @@ export function TrustLine() {
           <span className="flex items-center gap-1.5 rounded-full bg-brand-green px-3 py-1 text-xs font-bold uppercase tracking-wide text-white" suppressHydrationWarning>
             <Check className="size-3.5" strokeWidth={3} />1 vast aanspreekpunt
           </span>
-          {["15 jaar ervaring", "Aantoonbare resultaten", "Transparante werkwijze"].map((t) => (
+          {[ERVARING_TEKST, "Aantoonbare resultaten", "Transparante werkwijze"].map((t) => (
             <span key={t} className="flex items-center gap-1.5 font-medium" suppressHydrationWarning>
               <Check className="size-4 text-brand-green" strokeWidth={3} />
               {t}
