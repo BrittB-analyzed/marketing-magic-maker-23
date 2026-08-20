@@ -89,7 +89,6 @@ function Home() {
       <Hero />
       <LogoStrip />
       <BigStats />
-      <ResultCards />
       <Shift />
       <Pillars />
       <Proof />
