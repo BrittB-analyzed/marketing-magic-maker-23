@@ -626,39 +626,27 @@ function Testimonials() {
       q: "Onze website werd nauwelijks gevonden. Inmiddels staan we op nummer 1 op 'meubel outlet' en komen er dagelijks nieuwe klanten via Google binnen.",
       n: "Meubel & Outlet Weert",
       r: "Opdrachtgever",
+      logo: { src: logoMeubelOutlet.url, alt: "Logo Meubel & Outlet Weert" },
     },
     {
       q: "Sterke groei door de inspanningen van Britt.",
       n: "Ron Thielen",
-      r: "Opdrachtgever",
+      r: "Opdrachtgever Vogelvoerkopen.nl",
+      logo: { src: logoVogelvoer.url, alt: "Logo Vogelvoerkopen.nl" },
     },
     {
-      q: "Britt is betrokken en heeft veel kennis.",
-      n: "Wesley Kissen",
-      r: "Eigenaar Steel Garden",
+      q: "Voor onze website waren we op zoek naar een betrouwbare partner om meer bezoekers te genereren en een betere vindbaarheid. Dit is gelukt. Dankzij onze samenwerking met B-Analysed is ons bedrijf gegroeid en scoren we middels seo op meerdere zoekwoorden nummer 1 positie. Dank je wel Britt hiervoor 🙂",
+      n: "Monique Schoens",
+      r: "Eigenaar Parketreus",
+      logo: { src: logoParketreus.url, alt: "Logo Parketreus" },
     },
   ];
   return (
     <Section>
       <SectionHeading eyebrow="Klanten" title="Beoordeeld met een 9,8" />
-      <div className="mt-8 flex flex-wrap items-center gap-8">
-        {[
-          { src: logoMeubelOutlet.url, alt: "Logo Meubel & Outlet Weert" },
-          { src: logoParketreus.url, alt: "Logo Parketreus" },
-          { src: logoVogelvoer.url, alt: "Logo Vogelvoerkopen.nl" },
-        ].map((l) => (
-          <img
-            key={l.alt}
-            src={l.src}
-            alt={l.alt}
-            loading="lazy"
-            className="h-10 w-auto max-w-[140px] object-contain opacity-80"
-          />
-        ))}
-      </div>
       <div className="mt-10 grid gap-6 md:grid-cols-3">
         {quotes.map((t) => (
-          <figure key={t.q} className="rounded-2xl border border-brand-line bg-white p-7">
+          <figure key={t.q} className="flex flex-col rounded-2xl border border-brand-line bg-white p-7">
             <span className="flex" aria-hidden="true">
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star key={i} className="size-4 fill-brand-star text-brand-star" strokeWidth={0} />
@@ -668,12 +656,21 @@ function Testimonials() {
             <figcaption className="mt-5 text-sm text-brand-muted">
               <span className="font-semibold text-brand-ink">{t.n}</span> · {t.r}
             </figcaption>
+            <div className="mt-6 border-t border-brand-line pt-5">
+              <img
+                src={t.logo.src}
+                alt={t.logo.alt}
+                loading="lazy"
+                className="h-10 w-auto max-w-[160px] object-contain opacity-90"
+              />
+            </div>
           </figure>
         ))}
       </div>
     </Section>
   );
 }
+
 
 function ScanSection() {
   return (
