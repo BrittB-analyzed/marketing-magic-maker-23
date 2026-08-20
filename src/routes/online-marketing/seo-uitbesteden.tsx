@@ -50,7 +50,7 @@ export const Route = createFileRoute("/online-marketing/seo-uitbesteden")({
         forWho={[
           { title: "Je staat stil in Google", body: "Je website is jaren geleden gebouwd en levert nauwelijks aanvragen op." },
           { title: "Je betaalt alles via Ads", body: "Elke lead kost geld. Je wilt een basis die ook zonder advertentiebudget doorloopt." },
-          { title: "Je vorige bureau bleef vaag", body: "Rapporten vol grafieken, maar niemand die uitlegt wat er nu eigenlijk gebeurd is." },
+          { title: "Je vorige bureau bleef vaag", body: "Automatische rapporten vol grafieken, maar niemand die uitlegt wat het betekent." },
         ]}
         deliverables={[
           "Technische audit en fixes: snelheid, indexatie, Core Web Vitals",
