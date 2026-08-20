@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/site/site-chrome";
@@ -38,22 +39,7 @@ const FAQ: Faq[] = [
 
 export const Route = createFileRoute("/online-marketing/geo-optimalisatie")({
   head: () => ({
-    meta: [
-      { title: "GEO-optimalisatie: genoemd worden in ChatGPT & AI | B. Analyzed" },
-      {
-        name: "description",
-        content:
-          "GEO (Generative Engine Optimization) zorgt dat jouw bedrijf genoemd en geciteerd wordt in ChatGPT, Gemini, Perplexity en Google AI Overviews. Zo pakken wij het aan en zo meten we het.",
-      },
-      { property: "og:title", content: "GEO-optimalisatie: genoemd worden in ChatGPT & AI" },
-      {
-        property: "og:description",
-        content:
-          "Zichtbaar zijn waar geen klik meer is. Concrete GEO-aanpak, meetbaar gemaakt met prompt-monitoring.",
-      },
-      { property: "og:type", content: "article" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMeta('/online-marketing/geo-optimalisatie/', { ogType: 'article', twitterCard: 'summary' }),
     scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
   }),
   component: GeoPage,

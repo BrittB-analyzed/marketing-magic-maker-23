@@ -1,3 +1,4 @@
+import { seoMetaWithFallback } from "@/data/seo-meta";
 import { SiteLayout } from "./site-chrome";
 import { PageHero, Section } from "./page-bits";
 
@@ -35,15 +36,8 @@ export function TextPage({
   );
 }
 
-export function textHead(title: string, description: string) {
+export function textHead(title: string, description: string, path?: string) {
   return () => ({
-    meta: [
-      { title: `${title} | B. Analyzed` },
-      { name: "description", content: description },
-      { property: "og:title", content: title },
-      { property: "og:description", content: description },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMetaWithFallback(path ?? "", `${title} | B. Analyzed`, description),
   });
 }

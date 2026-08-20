@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute } from "@tanstack/react-router";
 import { SupportPage } from "@/components/site/support-page";
 import { faqJsonLd } from "@/components/site/page-bits";
@@ -12,14 +13,7 @@ const FAQ = [
 
 export const Route = createFileRoute("/online-marketing/emailmarketing")({
   head: () => ({
-    meta: [
-      { title: "Emailmarketing: rendement uit je bestaande lijst | B. Analyzed" },
-      { name: "description", content: "Emailmarketing met een ROI tot 1:42: automatisering, segmentatie en A/B-testing die van bezoekers klanten maken. Doorlopend vanaf € 999,- p/m." },
-      { property: "og:title", content: "Emailmarketing: rendement uit je bestaande lijst" },
-      { property: "og:description", content: "Automatische opvolging en nieuwsbrieven die aantoonbaar omzet opleveren." },
-      { property: "og:type", content: "article" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMeta('/online-marketing/emailmarketing/', { ogType: 'article', twitterCard: 'summary' }),
     scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
   }),
   component: () => (

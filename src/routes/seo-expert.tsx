@@ -5,6 +5,6 @@ import { LANDINGS } from "@/content/landings";
 const data = LANDINGS["seo-expert"]!;
 
 export const Route = createFileRoute("/seo-expert")({
-  head: () => landingHead(data),
+  head: () => landingHead(data, "/seo-expert/"),
   component: () => <LandingPage data={data} />,
 });

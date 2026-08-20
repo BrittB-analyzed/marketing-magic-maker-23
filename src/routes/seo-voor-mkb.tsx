@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { BEDRIJFSCIJFERS, ERVARING_TEKST } from "@/data/bedrijfscijfers";
@@ -24,21 +25,7 @@ import dashboardImage from "@/assets/seo-dashboard.jpg";
 
 export const Route = createFileRoute("/seo-voor-mkb")({
   head: () => ({
-    meta: [
-      { title: "SEO & GEO voor MKB: Meetbaar resultaat | B. Analyzed" },
-      {
-        name: "description",
-        content:
-          "Data-gedreven SEO & GEO (AI Visibility) voor MKB-ondernemers. Domineer Google én AI-zoekmachines met een gratis scan, helder rapport en bewezen resultaat. 9.8/10 klantbeoordeling.",
-      },
-      { property: "og:title", content: "SEO & GEO voor MKB: Meetbaar resultaat | B. Analyzed" },
-      {
-        property: "og:description",
-        content:
-          "Data-gedreven SEO & GEO voor MKB. Vraag binnen 60 seconden je gratis SEO & GEO-rapport aan.",
-      },
-      { property: "og:type", content: "website" },
-    ],
+    meta: seoMeta('/seo-voor-mkb/', { ogType: 'website', twitterCard: 'summary' }),
   }),
   component: Index,
 });

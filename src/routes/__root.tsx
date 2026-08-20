@@ -1,3 +1,4 @@
+import { SITE_AUTHOR, TWITTER_SITE } from "@/data/seo-meta";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
@@ -77,14 +78,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Online Marketingbureau Limburg | SEO, GEO, Ads & CRO" },
+      {
+        name: "description",
+        content:
+          "Online marketingbureau uit Limburg. 15 jaar ervaring, 9,8 uit 47 reviews en een vast aanspreekpunt in plaats van een accountmanager. Vraag je gratis scan aan.",
+      },
+      { name: "author", content: SITE_AUTHOR },
+      { property: "og:title", content: "Online Marketingbureau Limburg | SEO, GEO, Ads & CRO" },
+      {
+        property: "og:description",
+        content:
+          "Online marketingbureau uit Limburg. 15 jaar ervaring, 9,8 uit 47 reviews en een vast aanspreekpunt in plaats van een accountmanager. Vraag je gratis scan aan.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: TWITTER_SITE },
     ],
     links: [
       {

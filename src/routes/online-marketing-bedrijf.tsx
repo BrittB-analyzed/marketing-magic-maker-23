@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/site/site-chrome";
@@ -11,18 +12,7 @@ import portretZittend from "@/assets/photos/portret-zittend.jpg.asset.json";
 
 export const Route = createFileRoute("/online-marketing-bedrijf")({
   head: () => ({
-    meta: [
-      { title: "Hey hallo, wij zijn een online marketing bedrijf | B. Analyzed" },
-      {
-        name: "description",
-        content:
-          "B. Analyzed is in 2014 gestart door Britt Daemen en is uitgegroeid tot een fullservice online marketingbureau met freelancers wereldwijd. 15 jaar ervaring in SEO, GEO, Ads en meer.",
-      },
-      { property: "og:title", content: "Hey hallo, wij zijn een online marketing bedrijf" },
-      { property: "og:description", content: "Remote team van online vakidioten. Transparant, persoonlijk en gericht op meetbaar resultaat." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMeta('/online-marketing-bedrijf/', { ogType: 'website', twitterCard: 'summary' }),
   }),
   component: OverOns,
 });

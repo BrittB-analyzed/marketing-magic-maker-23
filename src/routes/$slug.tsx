@@ -3,6 +3,7 @@ import { ArrowLeft, Search } from "lucide-react";
 import { SiteLayout } from "@/components/site/site-chrome";
 import { CtaBand, PageHero, Section } from "@/components/site/page-bits";
 import { POSTS, POST_LIST, type PostSection } from "@/content/blog";
+import { seoMetaWithFallback } from "@/data/seo-meta";
 
 export const Route = createFileRoute("/$slug")({
   loader: ({ params }) => {
@@ -16,14 +17,9 @@ export const Route = createFileRoute("/$slug")({
     }
     const { post } = loaderData;
     return {
-      meta: [
-        { title: `${post.title} | B. Analyzed` },
-        { name: "description", content: post.description },
-        { property: "og:title", content: post.title },
-        { property: "og:description", content: post.description },
-        { property: "og:type", content: "article" },
-        { name: "twitter:card", content: "summary" },
-      ],
+      meta: seoMetaWithFallback(`/${post.slug}/`, `${post.title} | B. Analyzed`, post.description, {
+        ogType: "article",
+      }),
       scripts: [
         {
           type: "application/ld+json",

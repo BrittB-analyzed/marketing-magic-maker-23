@@ -1,3 +1,4 @@
+import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Check } from "lucide-react";
 import { SiteLayout } from "@/components/site/site-chrome";
@@ -66,18 +67,7 @@ const PLANS = [
 
 export const Route = createFileRoute("/tarieven-seo")({
   head: () => ({
-    meta: [
-      { title: "Tarieven SEO & GEO: transparant vanaf € 599,- | B. Analyzed" },
-      {
-        name: "description",
-        content:
-          "Wat kost SEO en GEO? Uitgebreide audit vanaf € 599,-, doorlopend SEO- & GEO-pakket vanaf € 999,- per maand. Altijd een vaste prijs vooraf.",
-      },
-      { property: "og:title", content: "Tarieven SEO & GEO: transparant vanaf € 599,-" },
-      { property: "og:description", content: "Heldere prijzen: gratis quick scan, audit vanaf € 599,-, pakket vanaf € 999,- per maand." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMeta('/tarieven-seo/', { ogType: 'website', twitterCard: 'summary' }),
     scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
   }),
   component: Tarieven,
