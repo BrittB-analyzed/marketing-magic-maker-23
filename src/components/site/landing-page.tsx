@@ -4,19 +4,13 @@ import { SiteLayout } from "./site-chrome";
 import { CtaBand, FaqBlock, PageHero, Section, SectionHeading, faqJsonLd } from "./page-bits";
 import { BrandIcon, type BrandIconName } from "./brand-icon";
 import type { Landing } from "@/content/landings";
+import { seoMetaWithFallback } from "@/data/seo-meta";
 
 const SECTION_ICONS: BrandIconName[] = ["seo", "geo", "keywords", "content", "linkbuilding", "grafiek"];
 
-export function landingHead(data: Landing) {
+export function landingHead(data: Landing, path?: string) {
   return {
-    meta: [
-      { title: data.title },
-      { name: "description", content: data.description },
-      { property: "og:title", content: data.title },
-      { property: "og:description", content: data.description },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-    ],
+    meta: seoMetaWithFallback(path ?? "", data.title, data.description),
     scripts: [{ type: "application/ld+json", children: faqJsonLd(data.faq) }],
   };
 }
