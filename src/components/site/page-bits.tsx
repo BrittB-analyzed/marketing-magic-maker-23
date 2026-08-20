@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import {
   ArrowRight,
+  Award,
   BadgeCheck,
   Bot,
   MapPin,
@@ -11,7 +12,9 @@ import {
   Plus,
   Search,
   Sparkles,
+  Star,
   TrendingUp,
+  Users,
 } from "lucide-react";
 import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "./site-chrome";
 import { LeadForm } from "./lead-form";
