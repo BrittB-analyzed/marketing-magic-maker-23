@@ -74,6 +74,12 @@ export const Route = createFileRoute("/online-marketing/seo-uitbesteden")({
           { label: "Linkbuilding uitbesteden", to: "/online-marketing/linkbuilding-uitbesteden/" },
           { label: "SEO-teksten laten schrijven", to: "/online-marketing/seo-teksten-laten-schrijven/" },
         ]}
+        related={[
+          { label: "GEO: zichtbaar in AI", to: "/online-marketing/geo-optimalisatie/" },
+          { label: "Local SEO", to: "/online-marketing/local-seo/" },
+          { label: "Linkbuilding uitbesteden", to: "/online-marketing/linkbuilding-uitbesteden/" },
+          { label: "SEO-teksten laten schrijven", to: "/online-marketing/seo-teksten-laten-schrijven/" },
+        ]}
         faq={FAQ}
       />
     </SiteLayout>

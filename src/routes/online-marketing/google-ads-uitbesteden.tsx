@@ -76,6 +76,12 @@ export const Route = createFileRoute("/online-marketing/google-ads-uitbesteden")
         ]}
         connection="Ads levert binnen weken de zoektermdata waar SEO en GEO maanden over doen. Wat in advertenties aantoonbaar converteert, gebruiken we in de organische strategie. CRO maakt vervolgens elke euro advertentiebudget meer waard door meer bezoekers om te zetten in aanvragen."
         price={{ from: "Audit vanaf € 599,- · doorlopend vanaf € 999,- per maand", note: "Exclusief advertentiebudget, dat je rechtstreeks aan Google betaalt. Je adverteert in je eigen account en blijft daar altijd eigenaar van." }}
+        related={[
+          { label: "Conversie-optimalisatie", to: "/online-marketing/conversie-optimalisatie/" },
+          { label: "Google Tag Manager inrichten", to: "/online-marketing/google-tag-manager-inrichten/" },
+          { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
+          { label: "Display advertising", to: "/online-marketing/display-advertisement/" },
+        ]}
         faq={FAQ}
       />
     </SiteLayout>
