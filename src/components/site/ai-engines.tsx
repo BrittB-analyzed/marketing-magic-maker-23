@@ -33,7 +33,7 @@ export function AiEngineLogos({
   className?: string;
 }) {
   return (
-    <div className={`flex flex-wrap items-center gap-x-8 gap-y-4 ${className}`}>
+    <div className={`flex flex-wrap items-center gap-x-6 gap-y-3 ${className}`}>
       {label ? (
         <span className="text-xs font-semibold uppercase tracking-[0.16em] text-brand-muted">
           {label}
@@ -46,13 +46,13 @@ export function AiEngineLogos({
           target="_blank"
           rel="noopener noreferrer nofollow"
           aria-label={`Ga naar ${e.name}`}
-          className="flex h-8 w-[120px] items-center justify-center"
+          className="flex h-8 w-[112px] items-center justify-center"
         >
           <img
             src={e.src}
             alt={`Logo ${e.name}`}
             loading="lazy"
-            className="max-h-7 w-auto max-w-[120px] object-contain opacity-75 transition hover:opacity-100"
+            className="max-h-6 w-auto max-w-[112px] object-contain opacity-75 transition hover:opacity-100"
           />
         </a>
       ))}
