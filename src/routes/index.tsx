@@ -29,6 +29,9 @@ import {
 import portretBuiten from "@/assets/photos/portret-buiten.jpg.asset.json";
 import aanHetWerk from "@/assets/photos/aan-het-werk.jpg.asset.json";
 import dashboardImage from "@/assets/seo-dashboard.jpg";
+import logoMeubelOutlet from "@/assets/logos/meubeloutletweert-logo.avif.asset.json";
+import logoParketreus from "@/assets/logos/parketreus-logo.avif.asset.json";
+import logoVogelvoer from "@/assets/logos/vogelvoerkopenlogo_1.avif.asset.json";
 
 const FAQ: Faq[] = [
   {
