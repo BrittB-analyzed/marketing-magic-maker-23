@@ -63,17 +63,16 @@ export function TrustLine() {
           href={REVIEWS_HREF}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={`Beoordeeld met een 9,8 uit ${REVIEW_COUNT} Google reviews`}
+          aria-label={`Beoordeeld met een 9,8 gemiddeld uit ${REVIEW_COUNT} Google reviews`}
           className="flex items-center gap-2 rounded-full bg-white px-3 py-1.5 shadow-sm ring-1 ring-brand-line transition-shadow hover:shadow-md"
         >
-          <GoogleG className="size-4" />
-          <span className="text-sm font-bold text-brand-ink" suppressHydrationWarning>
-            9,8
-          </span>
           <span className="flex" aria-hidden="true">
             {Array.from({ length: 5 }).map((_, i) => (
               <Star key={i} className="size-3.5 fill-brand-star text-brand-star" strokeWidth={0} />
             ))}
+          </span>
+          <span className="text-sm font-bold text-brand-ink" suppressHydrationWarning>
+            9,8 gemiddeld
           </span>
           <span className="text-xs font-medium text-brand-muted" suppressHydrationWarning>
             · {REVIEW_COUNT} reviews
