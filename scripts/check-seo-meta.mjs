@@ -29,9 +29,13 @@ walk("src");
 
 const problems = [];
 
-const titleRe = /(?:^|[{,\s])"?title"?:\s*(["'])((?:\\.|(?!\1)[^\\])*)\1/g;
+const titleObjRe = /\{\s*title:\s*(["'])((?:\\.|(?!\1)[^\\])*)\1\s*\}/g;
+const contentTitleRe = /(?:^|\n)\s*"?title"?:\s*(["'])((?:\\.|(?!\1)[^\\])*)\1/g;
 const descRe =
-  /(?:name:\s*"description",\s*content:|"?description"?:|property:\s*"og:description",\s*content:)\s*(["'])((?:\\.|(?!\1)[^\\])*)\1/g;
+  /(?:name:\s*"description",\s*content:|property:\s*"og:description",\s*content:|(?:^|\n)\s*"?description"?:)\s*(["'])((?:\\.|(?!\1)[^\\])*)\1/g;
+
+// Bestanden waarvan de title/description-velden rechtstreeks in <head> terechtkomen.
+const CONTENT_FILES = /src[\\/]content[\\/](landings|landings-local|landings-topical|blog)\.ts$/;
 
 function lineOf(source, index) {
   return source.slice(0, index).split("\n").length;
@@ -39,10 +43,14 @@ function lineOf(source, index) {
 
 for (const file of files) {
   const src = readFileSync(file, "utf8");
-  for (const [re, max, kind] of [
-    [titleRe, TITLE_MAX, "title"],
+  const isContent = CONTENT_FILES.test(file);
+  const isContentDir = /src[\\/]content[\\/]/.test(file);
+  if (isContentDir && !isContent) continue;
+  const checks = [
+    [isContent ? contentTitleRe : titleObjRe, TITLE_MAX, "title"],
     [descRe, DESC_MAX, "meta description"],
-  ]) {
+  ];
+  for (const [re, max, kind] of checks) {
     re.lastIndex = 0;
     let m;
     while ((m = re.exec(src))) {
