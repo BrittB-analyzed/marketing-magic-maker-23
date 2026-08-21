@@ -50,7 +50,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Afbeeldingen nalopen op alt-teksten en bestandsgrootte hoort bij de technische SEO in ons pakket.",
     },
     gerelateerd: ["headings", "html-titel", "structured-data"],
-    publicatie: "2026-09-18",
+    publicatie: "2026-08-21",
   },
 
   headings: {
@@ -94,7 +94,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Wij bouwen teksten op vraagkoppen, zodat Google én AI-antwoordmachines het juiste stuk kunnen overnemen.",
     },
     gerelateerd: ["html-titel", "alt-tag", "seo-copywriter"],
-    publicatie: "2026-09-18",
+    publicatie: "2026-08-21",
   },
 
   "html-titel": {
@@ -138,7 +138,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Titels en omschrijvingen die kliks winnen horen standaard bij elke tekst die we opleveren.",
     },
     gerelateerd: ["meta-description", "headings", "ctr"],
-    publicatie: "2026-09-18",
+    publicatie: "2026-08-21",
   },
 
   "meta-description": {
@@ -182,7 +182,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Elke tekst die we opleveren komt met een titel en omschrijving die op de klik zijn geschreven.",
     },
     gerelateerd: ["html-titel", "ctr", "seo-copywriter"],
-    publicatie: "2026-09-25",
+    publicatie: "2026-08-21",
   },
 
   anchortekst: {
@@ -226,7 +226,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Wij sturen op een natuurlijke verdeling van linkteksten, niet op zoveel mogelijk zoekwoorden in de link.",
     },
     gerelateerd: ["interne-links", "backlinks", "alt-tag"],
-    publicatie: "2026-09-25",
+    publicatie: "2026-08-21",
   },
 
   "interne-links": {
@@ -270,7 +270,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "De interne linkstructuur is een vaste maandelijkse taak bij ons, geen eenmalige opschoonactie.",
     },
     gerelateerd: ["anchortekst", "backlinks", "bovenaan-in-google"],
-    publicatie: "2026-09-25",
+    publicatie: "2026-08-21",
   },
 
   backlinks: {
@@ -314,7 +314,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Wij werken met Nederlandse sites die zelf bezoekers hebben, niet met linknetwerken.",
     },
     gerelateerd: ["anchortekst", "interne-links", "zoekmachine-optimalisatie-seo"],
-    publicatie: "2026-10-02",
+    publicatie: "2026-08-21",
   },
 
   "robots-txt-bestand": {
@@ -358,7 +358,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Crawl- en indexeringsinstellingen controleren we bij elke migratie en bij elke maandelijkse ronde.",
     },
     gerelateerd: ["indexeren-betekenis", "google-search-console", "staging"],
-    publicatie: "2026-10-02",
+    publicatie: "2026-08-21",
   },
 
   "structured-data": {
@@ -402,7 +402,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Schema-markup is een van de bouwstenen die je pagina citeerbaar maken voor AI-antwoordmachines.",
     },
     gerelateerd: ["google-search-console", "alt-tag", "bovenaan-in-google"],
-    publicatie: "2026-10-02",
+    publicatie: "2026-08-21",
   },
 
   zoekwoorden: {
@@ -446,7 +446,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Een zoekwoordenonderzoek met volume, moeilijkheidsgraad en intentie zit standaard in het adviesrapport.",
     },
     gerelateerd: ["zoekmachine-optimalisatie-seo", "google-search-console", "bovenaan-in-google"],
-    publicatie: "2026-10-09",
+    publicatie: "2026-08-21",
   },
 
   "zoekmachine-optimalisatie-seo": {
@@ -490,7 +490,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Eén vaste specialist die de strategie bedenkt en ook zelf uitvoert, vanaf € 999,- per maand.",
     },
     gerelateerd: ["zoekwoorden", "bovenaan-in-google", "zoekmachine-marketing"],
-    publicatie: "2026-10-09",
+    publicatie: "2026-08-21",
   },
 
   "google-search-console": {
@@ -534,7 +534,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Wij werken in jouw eigen Search Console-account, zodat je altijd zelf bij je data kunt.",
     },
     gerelateerd: ["indexeren-betekenis", "google-analytics", "robots-txt-bestand"],
-    publicatie: "2026-10-09",
+    publicatie: "2026-08-21",
   },
 
   "google-analytics": {
@@ -578,7 +578,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Meting die klopt is de voorwaarde voor elke beslissing daarna. Wij richten hem in en controleren hem.",
     },
     gerelateerd: ["google-search-console", "conversie", "ctr"],
-    publicatie: "2026-10-16",
+    publicatie: "2026-08-21",
   },
 
   conversie: {
@@ -622,7 +622,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Meer aanvragen uit hetzelfde verkeer, met een vaste testvolgorde en vooraf afgesproken succescriteria.",
     },
     gerelateerd: ["ctr", "landingspagina", "user-experience"],
-    publicatie: "2026-10-16",
+    publicatie: "2026-08-21",
   },
 
   "user-experience": {
@@ -666,7 +666,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Een snelle, duidelijke site die op mobiel werkt, in plaats van een site die alleen op een grote monitor mooi is.",
     },
     gerelateerd: ["conversie", "kiss-principe", "landingspagina"],
-    publicatie: "2026-10-16",
+    publicatie: "2026-08-21",
   },
 
   google: {
@@ -710,7 +710,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Techniek, content en autoriteit in één doorlopend traject, plus zichtbaarheid in de AI-antwoorden van Google.",
     },
     gerelateerd: ["bing", "indexeren-betekenis", "bovenaan-in-google"],
-    publicatie: "2026-10-23",
+    publicatie: "2026-08-21",
   },
 
   bing: {
@@ -754,7 +754,7 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Wij controleren of AI-crawlers je site mogen lezen en monitoren of je in de antwoorden wordt genoemd.",
     },
     gerelateerd: ["google", "yahoo-discovery", "indexeren-betekenis"],
-    publicatie: "2026-10-23",
+    publicatie: "2026-08-21",
   },
 
   "yahoo-discovery": {
@@ -794,6 +794,6 @@ export const KENNISBANK_SEO: Record<string, KennisbankTerm> = {
       note: "Vermeldingen in gidsen en platforms leveren zowel aanvragen als autoriteit op. Wij zetten ze goed neer.",
     },
     gerelateerd: ["bing", "google", "citymarketing"],
-    publicatie: "2026-10-23",
+    publicatie: "2026-08-21",
   },
 };

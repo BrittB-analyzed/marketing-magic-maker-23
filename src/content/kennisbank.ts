@@ -217,7 +217,7 @@ const KENNISBANK_BASIS: Record<string, KennisbankTerm> = {
       note: "Techniek, content en autoriteit in één doorlopend traject, met maandelijks inzicht in wat er beweegt.",
     },
     gerelateerd: ["indexeren-betekenis", "ctr", "seo-copywriter"],
-    publicatie: "2026-08-28",
+    publicatie: "2026-08-21",
   },
 
   "sea-scan": {
@@ -261,7 +261,7 @@ const KENNISBANK_BASIS: Record<string, KennisbankTerm> = {
       note: "Na de scan kun je de verbeterpunten zelf doorvoeren, of het beheer bij ons neerleggen.",
     },
     gerelateerd: ["ctr", "bovenaan-in-google", "see-think-do-care"],
-    publicatie: "2026-08-28",
+    publicatie: "2026-08-21",
   },
 
   staging: {
@@ -301,7 +301,7 @@ const KENNISBANK_BASIS: Record<string, KennisbankTerm> = {
       note: "Updates draaien wij eerst op staging en pas daarna live, met een back-up als terugvaloptie.",
     },
     gerelateerd: ["webmaster", "indexeren-betekenis", "bovenaan-in-google"],
-    publicatie: "2026-08-28",
+    publicatie: "2026-08-21",
   },
 
   "wat-is-copywriting": {
@@ -345,7 +345,7 @@ const KENNISBANK_BASIS: Record<string, KennisbankTerm> = {
       note: "Teksten met een doel, geschreven op de zoekvraag van je klant en tegen een vaste prijs per tekst.",
     },
     gerelateerd: ["seo-copywriter", "merkpositionering", "kiss-principe"],
-    publicatie: "2026-09-04",
+    publicatie: "2026-08-21",
   },
 
   merkpositionering: {
@@ -389,7 +389,7 @@ const KENNISBANK_BASIS: Record<string, KennisbankTerm> = {
       note: "We beginnen elk traject met de vraag waarom iemand voor jou kiest, want daar hangt de rest van het plan aan.",
     },
     gerelateerd: ["see-think-do-care", "wat-is-copywriting", "kiss-principe"],
-    publicatie: "2026-09-04",
+    publicatie: "2026-08-21",
   },
 
   "opt-in": {
@@ -433,7 +433,7 @@ const KENNISBANK_BASIS: Record<string, KennisbankTerm> = {
       note: "Inschrijfformulieren, bevestigingsflow en een lijst die aantoonbaar in orde is, ingericht en bijgehouden.",
     },
     gerelateerd: ["see-think-do-care", "ctr", "wat-is-copywriting"],
-    publicatie: "2026-09-04",
+    publicatie: "2026-08-21",
   },
 
   "see-think-do-care": {
@@ -477,7 +477,7 @@ const KENNISBANK_BASIS: Record<string, KennisbankTerm> = {
       note: "We verdelen je kanalen en budget over de vier fases, met per fase een eigen doel en meetlat.",
     },
     gerelateerd: ["merkpositionering", "opt-in", "ctr"],
-    publicatie: "2026-09-11",
+    publicatie: "2026-08-21",
   },
 
   "kiss-principe": {
@@ -518,7 +518,7 @@ const KENNISBANK_BASIS: Record<string, KennisbankTerm> = {
       note: "Formulieren korter maken en keuzes wegnemen is meestal de grootste enkele winst op een MKB-site.",
     },
     gerelateerd: ["wat-is-copywriting", "merkpositionering", "ctr"],
-    publicatie: "2026-09-11",
+    publicatie: "2026-08-21",
   },
 
   webmaster: {
@@ -562,7 +562,7 @@ const KENNISBANK_BASIS: Record<string, KennisbankTerm> = {
       note: "Updates, back-ups, beveiliging en monitoring, met vaste maandprijs en herstel binnen bereik.",
     },
     gerelateerd: ["staging", "indexeren-betekenis", "bovenaan-in-google"],
-    publicatie: "2026-09-11",
+    publicatie: "2026-08-21",
   },
 };
 

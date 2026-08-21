@@ -49,7 +49,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "Je adverteert in je eigen account en blijft daar eigenaar van. Wij optimaliseren wekelijks.",
     },
     gerelateerd: ["zoekmachine-marketing", "ctr", "sea-scan"],
-    publicatie: "2026-10-30",
+    publicatie: "2026-08-21",
   },
 
   "zoekmachine-marketing": {
@@ -93,7 +93,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "Beide kanten van hetzelfde zoekresultaat vanuit één plan, met een rekenvoorbeeld van de budgetverdeling.",
     },
     gerelateerd: ["google-ads", "zoekmachine-optimalisatie-seo", "internet-marketing"],
-    publicatie: "2026-10-30",
+    publicatie: "2026-08-21",
   },
 
   "internet-marketing": {
@@ -137,7 +137,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "Vier pijlers in één plan, vanaf € 999,- per maand, met één vast aanspreekpunt in plaats van een accountmanager.",
     },
     gerelateerd: ["zoekmachine-marketing", "content-marketing", "see-think-do-care"],
-    publicatie: "2026-10-30",
+    publicatie: "2026-08-21",
   },
 
   "content-marketing": {
@@ -181,7 +181,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "Teksten op de zoekvraag van je klant, tegen een vaste prijs per tekst afgesproken vooraf.",
     },
     gerelateerd: ["wat-is-copywriting", "seo-copywriter", "advertorial"],
-    publicatie: "2026-11-06",
+    publicatie: "2026-08-21",
   },
 
   "e-mailmarketing": {
@@ -225,7 +225,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "Campagnes, automations en een lijst die aantoonbaar in orde is, ingericht en bijgehouden.",
     },
     gerelateerd: ["opt-in", "wat-is-marketing-automation", "direct-marketing"],
-    publicatie: "2026-11-06",
+    publicatie: "2026-08-21",
   },
 
   advertorial: {
@@ -269,7 +269,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "Wij kijken per publicatie of hij bereik oplevert, autoriteit, of allebei. Dat scheelt in wat je ervoor betaalt.",
     },
     gerelateerd: ["content-marketing", "print-marketing", "wat-is-copywriting"],
-    publicatie: "2026-11-06",
+    publicatie: "2026-08-21",
   },
 
   landingspagina: {
@@ -313,7 +313,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "Wij testen landingspagina's op de volgorde van bewijs, prijs en formulier, met een vast succescriterium vooraf.",
     },
     gerelateerd: ["salespagina", "conversie", "user-experience"],
-    publicatie: "2026-11-13",
+    publicatie: "2026-08-21",
   },
 
   salespagina: {
@@ -357,7 +357,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "We testen welke bezwaren je expliciet moet weerleggen en waar het bewijs het beste staat.",
     },
     gerelateerd: ["landingspagina", "wat-is-copywriting", "conversie"],
-    publicatie: "2026-11-13",
+    publicatie: "2026-08-21",
   },
 
   "affiliate-marketing": {
@@ -401,7 +401,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "We beoordelen per kanaal of het bij je marge en je verkoopproces past, voordat je erin investeert.",
     },
     gerelateerd: ["internet-marketing", "conversie", "direct-marketing"],
-    publicatie: "2026-11-13",
+    publicatie: "2026-08-21",
   },
 
   "direct-marketing": {
@@ -445,7 +445,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "De digitale variant van direct marketing, met meting die laat zien wat elke campagne opleverde.",
     },
     gerelateerd: ["e-mailmarketing", "opt-in", "print-marketing"],
-    publicatie: "2026-11-20",
+    publicatie: "2026-08-21",
   },
 
   "print-marketing": {
@@ -489,7 +489,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "We kijken per kanaal wat een aanvraag kost, zodat print en online op dezelfde meetlat liggen.",
     },
     gerelateerd: ["direct-marketing", "citymarketing", "advertorial"],
-    publicatie: "2026-11-20",
+    publicatie: "2026-08-21",
   },
 
   citymarketing: {
@@ -529,7 +529,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "Zichtbaar in het lokale zoekresultaat en op de kaart, zodat regionale vraag ook bij jou uitkomt.",
     },
     gerelateerd: ["print-marketing", "yahoo-discovery", "merkpositionering"],
-    publicatie: "2026-11-20",
+    publicatie: "2026-08-21",
   },
 
   "wat-is-marketing-automation": {
@@ -573,7 +573,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "We beginnen met de flows die het meest opleveren en breiden pas uit als het volume dat rechtvaardigt.",
     },
     gerelateerd: ["e-mailmarketing", "opt-in", "see-think-do-care"],
-    publicatie: "2026-11-27",
+    publicatie: "2026-08-21",
   },
 
   "cms-content-management-systeem": {
@@ -617,7 +617,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "We kiezen het systeem op basis van wat je zelf wilt kunnen aanpassen, niet op basis van wat wij makkelijk vinden.",
     },
     gerelateerd: ["wordpress", "joomla", "webmaster"],
-    publicatie: "2026-11-27",
+    publicatie: "2026-08-21",
   },
 
   wordpress: {
@@ -661,7 +661,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "Updates eerst op staging, back-up vooraf, en monitoring zodat je het merkt voordat je klanten het merken.",
     },
     gerelateerd: ["cms-content-management-systeem", "staging", "webmaster"],
-    publicatie: "2026-11-27",
+    publicatie: "2026-08-21",
   },
 
   joomla: {
@@ -705,7 +705,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "Bij een migratie plannen we de redirects vóór de livegang, zodat je posities meeverhuizen.",
     },
     gerelateerd: ["cms-content-management-systeem", "wordpress", "magento"],
-    publicatie: "2026-12-04",
+    publicatie: "2026-08-21",
   },
 
   magento: {
@@ -749,7 +749,7 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "Bij webshops beginnen we bij filter-URL's, canonicals en laadtijd. Daar zit vrijwel altijd de eerste winst.",
     },
     gerelateerd: ["prestashop", "cms-content-management-systeem", "conversie"],
-    publicatie: "2026-12-04",
+    publicatie: "2026-08-21",
   },
 
   prestashop: {
@@ -793,6 +793,6 @@ export const KENNISBANK_MARKETING: Record<string, KennisbankTerm> = {
       note: "We kiezen het platform op je assortiment en je eigen technische ruimte, niet op wat er in de mode is.",
     },
     gerelateerd: ["magento", "cms-content-management-systeem", "wordpress"],
-    publicatie: "2026-12-04",
+    publicatie: "2026-08-21",
   },
 };
