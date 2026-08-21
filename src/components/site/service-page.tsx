@@ -18,6 +18,8 @@ export type ServicePageProps = {
   price: { from: string; note: string };
   faq: Faq[];
   related?: { label: string; to: string }[];
+  /** Extra inhoudelijke secties, gerenderd tussen het aanbod en de FAQ. */
+  extra?: React.ReactNode;
 };
 
 export function ServicePage(props: ServicePageProps) {
@@ -108,6 +110,8 @@ export function ServicePage(props: ServicePageProps) {
           <LeadForm id="scan" />
         </div>
       </Section>
+
+      {props.extra}
 
       <FaqBlock items={props.faq} />
       <CtaBand />

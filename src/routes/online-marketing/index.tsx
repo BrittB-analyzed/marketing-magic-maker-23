@@ -1,7 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { SiteLayout, PILLARS } from "@/components/site/site-chrome";
-import { CtaBand, FaqBlock, PageHero, Section, SectionHeading } from "@/components/site/page-bits";
+import { CtaBand, FaqBlock, PageHero, RelatedLinks, Section, SectionHeading } from "@/components/site/page-bits";
+import { OVERIGE_LINKS, SEO_ROL_LINKS } from "@/data/interne-links";
 import { faqJsonLd } from "@/components/site/page-bits";
 
 const SUPPORT = [
@@ -121,6 +122,18 @@ function Diensten() {
           ))}
         </div>
       </Section>
+      <RelatedLinks
+        title="Zoekmachineoptimalisatie: kies je instap"
+        items={[
+          {
+            label: "SEO en SEA combineren",
+            to: "/online-marketing/seo-en-sea/",
+            note: "Hoe organisch en betaald verkeer elkaar versterken, met een budgetverdeling.",
+          },
+          ...SEO_ROL_LINKS.slice(0, 5),
+        ]}
+      />
+      <RelatedLinks className="bg-white" title="Verder op de site" items={OVERIGE_LINKS} />
       <FaqBlock items={FAQ} />
       <CtaBand />
     </SiteLayout>

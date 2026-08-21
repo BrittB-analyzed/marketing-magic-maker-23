@@ -5,6 +5,7 @@ import {
   Link,
   createRootRouteWithContext,
   useRouter,
+  useRouterState,
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
@@ -12,6 +13,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { canonicalUrl } from "../lib/canonical";
 
 function NotFoundComponent() {
   return (
@@ -116,10 +118,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 });
 
 function RootShell({ children }: { children: ReactNode }) {
+  // Self-referencing canonical voor elke pagina, op basis van het huidige pad.
+  // Eén plek in plaats van per route, zodat geen enkele pagina hem kan missen.
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+
   return (
-    <html lang="en">
+    <html lang="nl">
       <head>
         <HeadContent />
+        <link rel="canonical" href={canonicalUrl(pathname)} />
       </head>
       <body>
         {children}

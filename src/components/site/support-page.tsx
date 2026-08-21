@@ -16,6 +16,7 @@ export function SupportPage({
   pillarNote,
   sections,
   faq,
+  extra,
 }: {
   eyebrow: string;
   title: string;
@@ -26,6 +27,8 @@ export function SupportPage({
   pillarNote: string;
   sections?: SupportPageSection[];
   faq?: Faq[];
+  /** Extra secties, gerenderd tussen de inhoud en de FAQ. */
+  extra?: React.ReactNode;
 }) {
   return (
     <SiteLayout>
@@ -71,6 +74,7 @@ export function SupportPage({
           </div>
         </Section>
       )}
+      {extra}
       {faq && faq.length > 0 && <FaqBlock items={faq} />}
       <CtaBand />
     </SiteLayout>

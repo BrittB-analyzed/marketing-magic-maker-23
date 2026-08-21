@@ -1,7 +1,8 @@
 import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute } from "@tanstack/react-router";
 import { SupportPage } from "@/components/site/support-page";
-import { faqJsonLd } from "@/components/site/page-bits";
+import { RelatedLinks, faqJsonLd } from "@/components/site/page-bits";
+import { LINKBUILDING_REGIO_LINKS } from "@/data/interne-links";
 
 const FAQ = [
   {
@@ -66,6 +67,13 @@ export const Route = createFileRoute("/online-marketing/linkbuilding-uitbesteden
           body: "B. Analyzed werkt niet met langlopende contracten. We zijn een flexibel online marketingbureau uit Venlo dat meedenkt: iedere maand bepalen we samen aan welke dienst aandacht wordt besteed. Je hoeft geen extra pakket af te nemen om van onze andere diensten gebruik te maken.",
         },
       ]}
+      extra={
+        <RelatedLinks
+          className="bg-white"
+          title="Linkbuilding in jouw regio"
+          items={LINKBUILDING_REGIO_LINKS}
+        />
+      }
       pillar="SEO"
       pillarTo="/online-marketing/seo-uitbesteden"
       pillarNote="Linkbuilding werkt alleen bovenop een goede technische en inhoudelijke basis. Daarom hangt het onder de SEO-pijler. Een audit start vanaf € 599,-, doorlopende linkbuilding vanaf € 999,- per maand of ons uurtarief van € 90,-."

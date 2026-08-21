@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SupportPage } from "@/components/site/support-page";
-import { faqJsonLd } from "@/components/site/page-bits";
+import { RelatedLinks, faqJsonLd } from "@/components/site/page-bits";
+import { REGIO_LINKS } from "@/data/interne-links";
 
 const FAQ = [
   {
@@ -68,6 +69,13 @@ export const Route = createFileRoute("/online-marketing/local-seo")({
           body: "Voor moderne local SEO tellen ook structured data met reviews, actieve inzet van social media om je bedrijf te promoten en het gebruik van reviewplatforms zoals Tripadvisor mee. Samen zorgen deze signalen ervoor dat je vaker en hoger verschijnt in lokale zoekresultaten.",
         },
       ]}
+      extra={
+        <RelatedLinks
+          className="bg-white"
+          title="Local SEO per plaats en regio"
+          items={REGIO_LINKS}
+        />
+      }
       pillar="SEO"
       pillarTo="/online-marketing/seo-uitbesteden"
       pillarNote="Local SEO is een onderdeel van de SEO-pijler. Zit je in een regionale markt, dan begint je groei hier. Een audit start vanaf € 599,-, doorlopende begeleiding vanaf € 999,- per maand, en we werken door tot je meetbaar resultaat ziet."

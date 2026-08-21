@@ -2,7 +2,8 @@ import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/site-chrome";
 import { ServicePage } from "@/components/site/service-page";
-import { faqJsonLd } from "@/components/site/page-bits";
+import { RelatedLinks, faqJsonLd } from "@/components/site/page-bits";
+import { KENNISBANK_SEO_LINKS, SEO_ROL_LINKS } from "@/data/interne-links";
 
 const FAQ = [
   {
@@ -60,7 +61,19 @@ export const Route = createFileRoute("/online-marketing/seo-uitbesteden")({
           { label: "Local SEO", to: "/online-marketing/local-seo/" },
           { label: "Linkbuilding uitbesteden", to: "/online-marketing/linkbuilding-uitbesteden/" },
           { label: "SEO-teksten laten schrijven", to: "/online-marketing/seo-teksten-laten-schrijven/" },
+          { label: "SEO en SEA combineren", to: "/online-marketing/seo-en-sea/" },
+          { label: "Wat SEO kost per maand", to: "/tarieven-seo/" },
         ]}
+        extra={
+          <>
+            <RelatedLinks
+              className="bg-white"
+              title="Zoek je een specialist, een bureau of alleen advies?"
+              items={SEO_ROL_LINKS}
+            />
+            <RelatedLinks title="Begrippen uit de kennisbank" items={KENNISBANK_SEO_LINKS} />
+          </>
+        }
         faq={FAQ}
       />
     </SiteLayout>

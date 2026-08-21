@@ -462,15 +462,16 @@ export const CASES: Record<string, CaseStudy> = {
       "Vijf keer zoveel online transacties in negen maanden, met stabiele top 3-posities op 'vogelvoer kopen' en 'pindaslinger'.",
     image: heroVogel.url,
     imageAlt: "Pindaslinger van Vogelvoerkopen.nl",
-    services: ["SEO", "Google Ads"],
+    services: ["SEO", "Google Ads", "CRO"],
     period: "9 maanden",
     highlights: [
       { label: "Online transacties", value: "5x" },
+      { label: "Conversiepercentage", value: "+10%" },
       { label: "Posities", value: "top 3" },
-      { label: "Doel", value: "2+ orders per dag" },
     ],
     summary: [
       "Vervijfvoudiging van het aantal online transacties in negen maanden",
+      "Conversiepercentage met 10% verhoogd door optimalisatie van de productpagina's",
       "Stabiele top 3-posities op 'vogelvoer kopen', 'vogelvoer' en 'pindaslinger'",
       "Doelstelling van minimaal twee transacties per dag ruimschoots behaald",
     ],
@@ -488,6 +489,14 @@ export const CASES: Record<string, CaseStudy> = {
         ],
         image: kwVogel.url,
         imageAlt: "Keywordposities van Vogelvoerkopen.nl",
+      },
+      {
+        h: "Meer omzet uit hetzelfde verkeer",
+        ps: [
+          "Meer bezoekers is maar de helft van het werk. Toen het verkeer eenmaal groeide, hebben we ons op de productpagina's gericht: de plek waar de bezoeker beslist of hij bestelt of wegklikt.",
+          "We hebben de productinformatie hoger op de pagina gezet, de verzendkosten en levertijd direct zichtbaar gemaakt in plaats van pas in de afrekenstap, en het aantal stappen naar de winkelwagen verkleind. Ook zijn de productfoto's en de omschrijvingen consistenter gemaakt, zodat bezoekers niet hoefden te zoeken naar wat ze precies kregen.",
+          "Het conversiepercentage steeg daardoor met 10%. Dat komt bovenop de groei uit SEO en Google Ads: dezelfde bezoekersaantallen leverden simpelweg meer bestellingen op, zonder extra advertentiebudget.",
+        ],
       },
     ],
   },

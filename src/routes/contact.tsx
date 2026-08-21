@@ -2,7 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Mail, MessageSquare, Phone } from "lucide-react";
 import { SiteLayout, EMAIL, PHONE, PHONE_HREF, WHATSAPP_HREF } from "@/components/site/site-chrome";
 import { LeadForm } from "@/components/site/lead-form";
-import { Eyebrow, Section } from "@/components/site/page-bits";
+import { Eyebrow, RelatedLinks, Section } from "@/components/site/page-bits";
+import { DIENST_LINKS, OVERIGE_LINKS } from "@/data/interne-links";
 import portretStoer from "@/assets/photos/portret-stoer.jpg.asset.json";
 
 export const Route = createFileRoute("/contact")({
@@ -71,6 +72,8 @@ function Contact() {
           <LeadForm id="contact-form" />
         </div>
       </Section>
+      <RelatedLinks className="bg-white" title="Waar wil je meer over weten?" items={OVERIGE_LINKS} />
+      <RelatedLinks title="Onze diensten" items={DIENST_LINKS} />
     </SiteLayout>
   );
 }

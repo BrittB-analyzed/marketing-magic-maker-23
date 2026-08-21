@@ -5,6 +5,7 @@ import {
   ArrowRight,
   Award,
   BadgeCheck,
+  Check,
   Bot,
   MapPin,
   Minus,
@@ -594,12 +595,10 @@ export function FaqBlock({ items, title = "Veelgestelde vragen" }: { items: Faq[
             </div>
           </div>
         </div>
+        {/* Het FAQPage-schema staat in de `head` van de route zelf. Hier geen
+            tweede JSON-LD-blok renderen: twee FAQPage-objecten op één pagina
+            leveren dubbele markup op. */}
         <div className="divide-y divide-brand-line border-y border-brand-line">
-          <script
-            type="application/ld+json"
-            // eslint-disable-next-line react/no-danger
-            dangerouslySetInnerHTML={{ __html: faqJsonLd(items) }}
-          />
           {items.map((item, i) => (
             <div key={item.q}>
               <button
@@ -669,5 +668,219 @@ export function CtaBand({
         <LeadForm id="cta-scan" compact />
       </div>
     </section>
+  );
+}
+/**
+ * Tabel voor vergelijkingen, benchmarks en prijsoverzichten. Scrollt horizontaal
+ * mee op mobiel, zodat brede tabellen de pagina niet oprekken.
+ */
+export function DataTable({
+  caption,
+  head,
+  rows,
+  highlightRow,
+  footnote,
+}: {
+  caption?: string;
+  head: string[];
+  rows: string[][];
+  highlightRow?: number;
+  footnote?: string;
+}) {
+  return (
+    <div className="overflow-hidden rounded-2xl border border-brand-line bg-white">
+      {caption && (
+        <div className="border-b border-brand-line px-6 py-4 text-xs font-semibold uppercase tracking-[0.16em] text-brand-muted">
+          {caption}
+        </div>
+      )}
+      <div className="overflow-x-auto">
+        <table className="w-full border-collapse text-left text-sm">
+          <thead>
+            <tr className="bg-brand-sand/60">
+              {head.map((h) => (
+                <th key={h} scope="col" className="px-6 py-3 font-semibold text-brand-ink">
+                  {h}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((r, i) => (
+              <tr
+                key={r[0]}
+                className={`border-t border-brand-line ${i === highlightRow ? "bg-brand-green/10" : ""}`}
+              >
+                {r.map((cell, j) => (
+                  <td
+                    key={cell + j}
+                    className={`px-6 py-4 ${j === 0 ? "font-medium text-brand-ink" : "text-brand-muted"}`}
+                  >
+                    {cell}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      {footnote && (
+        <p className="border-t border-brand-line px-6 py-4 text-xs leading-relaxed text-brand-muted">
+          {footnote}
+        </p>
+      )}
+    </div>
+  );
+}
+
+/**
+ * Eén inhoudelijk blok onder een H2. `answer` is het directe antwoord van 40 tot
+ * 60 woorden dat meteen onder de kop staat: dat is de passage die Google en
+ * AI-antwoordmachines als los citaat kunnen overnemen.
+ */
+export type ContentBlock = {
+  h: string;
+  answer?: string;
+  paragraphs?: string[];
+  bullets?: string[];
+  steps?: { title: string; body: string }[];
+  table?: {
+    caption?: string;
+    head: string[];
+    rows: string[][];
+    highlightRow?: number;
+    footnote?: string;
+  };
+  note?: string;
+  /** Verwijzing naar de case waar het cijfer in de note vandaan komt. */
+  caseLink?: { label: string; slug: string };
+};
+
+function ContentBlockBody({ block }: { block: ContentBlock }) {
+  return (
+    <div>
+      <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">{block.h}</h2>
+      {block.answer && (
+        <p className="mt-4 text-lg leading-relaxed text-brand-ink">{block.answer}</p>
+      )}
+      {block.paragraphs?.map((p) => (
+        <p key={p.slice(0, 40)} className="mt-4 text-base leading-relaxed text-brand-muted">
+          {p}
+        </p>
+      ))}
+      {block.bullets && (
+        <ul className="mt-5 space-y-3">
+          {block.bullets.map((b) => (
+            <li key={b} className="flex gap-3 text-base leading-relaxed text-brand-muted">
+              <Check className="mt-1 size-4 shrink-0 text-brand-green" strokeWidth={2.5} />
+              {b}
+            </li>
+          ))}
+        </ul>
+      )}
+      {block.steps && (
+        <ol className="mt-6 space-y-5">
+          {block.steps.map((s, i) => (
+            <li key={s.title} className="flex gap-4">
+              <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-brand-sand text-sm font-semibold text-brand-ink">
+                {i + 1}
+              </span>
+              <div>
+                <h3 className="text-base font-semibold">{s.title}</h3>
+                <p className="mt-1 text-base leading-relaxed text-brand-muted">{s.body}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      )}
+      {block.table && (
+        <div className="mt-6">
+          <DataTable {...block.table} />
+        </div>
+      )}
+      {block.note && (
+        <div className="mt-5 rounded-2xl border border-brand-line bg-brand-sand p-5">
+          <p className="text-sm leading-relaxed text-brand-muted">{block.note}</p>
+          {block.caseLink && (
+            <Link
+              to="/cases/$slug/"
+              params={{ slug: block.caseLink.slug }}
+              className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-ink hover:text-brand-red"
+            >
+              {block.caseLink.label} <ArrowRight className="size-3.5 text-brand-red" />
+            </Link>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/**
+ * Reeks H2-blokken in één sectie. Gebruikt op pagina's die een zoekvraag
+ * uitputtend beantwoorden in plaats van alleen een dienst aanprijzen.
+ */
+export function ContentSections({
+  blocks,
+  eyebrow,
+  title,
+  intro,
+  className = "",
+  id,
+}: {
+  blocks: ContentBlock[];
+  eyebrow?: string;
+  title?: string;
+  intro?: string;
+  className?: string;
+  id?: string;
+}) {
+  return (
+    <Section id={id} className={className}>
+      {title && <SectionHeading eyebrow={eyebrow} title={title} intro={intro} />}
+      <div className={`max-w-3xl space-y-12 ${title ? "mt-12" : ""}`}>
+        {blocks.map((b) => (
+          <ContentBlockBody key={b.h} block={b} />
+        ))}
+      </div>
+    </Section>
+  );
+}
+
+/**
+ * Blok met interne links onderaan een pagina. Ankertekst is altijd beschrijvend
+ * en bevat het doelzoekwoord: "lees meer" en "klik hier" geven Google geen
+ * enkel signaal over waar de link heen gaat.
+ */
+export function RelatedLinks({
+  items,
+  title = "Verder lezen",
+  className = "",
+}: {
+  items: { label: string; to: string; note?: string }[];
+  title?: string;
+  className?: string;
+}) {
+  if (items.length === 0) return null;
+  return (
+    <Section className={`border-t border-brand-line ${className}`}>
+      <SectionHeading eyebrow="Interne links" title={title} />
+      <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {items.map((r) => (
+          <li key={r.to}>
+            <Link
+              to={r.to}
+              className="group flex h-full flex-col rounded-2xl border border-brand-line bg-white p-6 transition-colors hover:border-brand-ink"
+            >
+              <span className="inline-flex items-center gap-2 text-base font-semibold text-brand-ink">
+                {r.label}
+                <ArrowRight className="size-4 text-brand-red transition-transform group-hover:translate-x-1" />
+              </span>
+              {r.note && <span className="mt-2 text-sm leading-relaxed text-brand-muted">{r.note}</span>}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </Section>
   );
 }

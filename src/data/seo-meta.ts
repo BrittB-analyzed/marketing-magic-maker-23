@@ -62,12 +62,12 @@ export const SEO_META: Record<string, SeoEntry> = {
     description: "SEO uitbesteden aan een bureau met 15 jaar ervaring en een 9,8 uit 47 reviews. Een vast aanspreekpunt, maandelijkse video en een vaste prijs vanaf 999 euro.",
   },
   "/online-marketing/google-ads-uitbesteden/": {
-    title: "Google Ads Uitbesteden | Premium Partner, 9,8 score",
-    description: "Google Ads uitbesteden aan een Google Premium Partner met 15 jaar ervaring. Je adverteert in je eigen account, met wekelijkse optimalisatie. Vanaf 999 euro.",
+    title: "Google Ads Specialist Inhuren of Ads Uitbesteden",
+    description: "Google Ads uitbesteden aan een vaste Google Ads-specialist. Adwords-campagnes wekelijks geoptimaliseerd in je eigen account. Audit vanaf 599 euro per keer.",
   },
   "/online-marketing/conversie-optimalisatie/": {
     title: "Conversie Optimalisatie Bureau | Meer uit je verkeer",
-    description: "Conversie-optimalisatie voor het MKB: A/B-tests, analyse van je conversiepaden en meetbare doelen. 15 jaar ervaring en een 9,8 uit 47 reviews. Vraag je scan aan",
+    description: "Conversie optimalisatie bureau voor het MKB: zo bereken je je conversiepercentage, welke tests je in welke volgorde doet en wat het oplevert. Audit vanaf 599.",
   },
   "/online-marketing/geo-optimalisatie/": {
     title: "GEO Optimalisatie | Genoemd worden in ChatGPT & AI",
@@ -110,8 +110,20 @@ export const SEO_META: Record<string, SeoEntry> = {
     description: "B. Analyzed is opgericht door Britt Daemen, 15 jaar actief in SEO en Google Ads. Geen accountmanager maar een vaste specialist. Beoordeeld met een 9,8.",
   },
   "/tarieven-seo/": {
-    title: "Tarieven SEO | Audit vanaf 599, pakket vanaf 999 euro",
-    description: "Wat kost SEO bij B. Analyzed? Een uitgebreide audit vanaf 599 euro, een doorlopend SEO- en GEO-pakket vanaf 999 euro en losse uren voor 90 euro per uur.",
+    title: "SEO Kosten en Tarieven | Audit 599, pakket 999 euro",
+    description: "Wat kost SEO? Audit vanaf 599 euro, doorlopend pakket vanaf 999 euro per maand, losse uren 90 euro. Plus wat je bij welk budget realistisch mag verwachten.",
+  },
+  "/online-marketing/seo-advies/": {
+    title: "SEO Advies | Concreet plan zonder maandverplichting",
+    description: "SEO-advies zonder verplicht maandpakket: een eenmalige analyse met een actielijst die je zelf kunt uitvoeren. Vanaf 599 euro, binnen tien werkdagen klaar.",
+  },
+  "/online-marketing/zoekmachine-optimalisatie-specialist/": {
+    title: "Zoekmachine Optimalisatie Specialist | 9,8 uit 47",
+    description: "Een zoekmachine optimalisatie specialist die je strategie bedenkt en zelf uitvoert. 15 jaar ervaring, 9,8 uit 47 reviews. Audit vanaf 599 euro, eenmalig.",
+  },
+  "/online-marketing/seo-en-sea/": {
+    title: "SEO en SEA | Zo versterken ze elkaar in je budget",
+    description: "SEO en SEA samen inzetten levert meer op dan apart. Vergelijkingstabel, rekenvoorbeeld van de budgetverdeling en uitleg over zoekmachineadverteren.",
   },
   "/top-20-gratis-online-bedrijvengidsen-van-nederland-2/": {
     title: "20 Gratis Online Bedrijvengidsen in Nederland (2026)",

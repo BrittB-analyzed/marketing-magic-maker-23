@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/site-chrome";
-import { CtaBand, Faq, FaqBlock, PageHero, faqJsonLd } from "@/components/site/page-bits";
+import { CtaBand, Faq, FaqBlock, PageHero, RelatedLinks, faqJsonLd } from "@/components/site/page-bits";
+import { DIENST_LINKS, OVERIGE_LINKS, SEO_ROL_LINKS } from "@/data/interne-links";
 
 const FAQ: Faq[] = [
   { q: "Waarom online marketing?", a: "In een wereld die constant in beweging is, speelt online marketing een steeds grotere rol. Een goede online marketingcampagne kan al voor een laag tarief een meetbaar effect en groot bereik hebben. Wij denken in de breedste zin mee aan het behalen van online resultaat." },
@@ -35,6 +36,9 @@ export const Route = createFileRoute("/veelgestelde-vragen")({
         intro="Staat je vraag er niet bij? Stuur een WhatsApp-bericht of bel ons, je krijgt gewoon een mens aan de lijn."
       />
       <FaqBlock items={FAQ} />
+      <RelatedLinks title="Meer over zoekmachineoptimalisatie" items={SEO_ROL_LINKS} />
+      <RelatedLinks className="bg-white" title="Verder op de site" items={OVERIGE_LINKS} />
+      <RelatedLinks title="Onze diensten" items={DIENST_LINKS} />
       <CtaBand />
     </SiteLayout>
   ),

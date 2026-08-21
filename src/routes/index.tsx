@@ -326,7 +326,8 @@ function Shift() {
               {aiLogo(item.k) ? (
                 <img
                   src={aiLogo(item.k)}
-                  alt={`Logo ${item.k}`}
+                  alt=""
+                  aria-hidden="true"
                   loading="lazy"
                   className="h-6 w-auto max-w-[110px] object-contain"
                 />

@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
 
+# Interne zoekresultaten horen niet in de index
+Disallow: /zoeken
+
+
 # AI-crawlers expliciet toegestaan (GEO)
 User-agent: GPTBot
 Allow: /
@@ -25,3 +29,5 @@ Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
+
+Sitemap: https://b-analyzed.com/sitemap.xml

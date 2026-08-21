@@ -23,8 +23,12 @@
 - /online-marketing/seo-uitbesteden/: SEO uitbesteden.
 - /online-marketing/geo-optimalisatie/: GEO en zichtbaarheid in AI-antwoorden.
 - /online-marketing/google-ads-uitbesteden/: Google Ads.
-- /online-marketing/conversie-optimalisatie/: CRO.
-- /tarieven-seo/: tarieven.
+- /online-marketing/conversie-optimalisatie/: CRO, inclusief hoe je een conversiepercentage berekent.
+- /online-marketing/seo-en-sea/: SEO en SEA combineren, met budgetverdeling.
+- /online-marketing/seo-advies/: eenmalig SEO-advies zonder maandverplichting.
+- /online-marketing/zoekmachine-optimalisatie-specialist/: de Nederlandstalige instap op SEO.
+- /tarieven-seo/: wat SEO kost, met wat je per budget mag verwachten.
+- /kennisbank/: alfabetisch register met SEO-, Ads- en CRO-begrippen.
 - /online-marketing-cases/: cases.
 - /gratis-seo-scan/: gratis SEO- & GEO-scan aanvragen.
 - /contact/: contactgegevens.

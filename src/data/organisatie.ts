@@ -6,7 +6,13 @@
 import { BEDRIJFSCIJFERS } from "./bedrijfscijfers";
 import { EMAIL, PHONE_HREF } from "@/lib/site-config";
 
-export const SITE_URL = "https://www.b-analyzed.com";
+/**
+ * Canonieke host. Bewust zonder www: het Let's Encrypt-certificaat op de
+ * server dekt alleen b-analyzed.com, waardoor https://www.b-analyzed.com een
+ * certificaatfout geeft en dus onbereikbaar is. Zet dit pas terug naar www
+ * zodra het certificaat ook www dekt en www 301'st naar de gekozen variant.
+ */
+export const SITE_URL = "https://b-analyzed.com";
 
 export const ORGANISATIE = {
   naam: "B. Analyzed Marketing",

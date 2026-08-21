@@ -3,6 +3,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { BEDRIJFSCIJFERS, ERVARING_TEKST } from "@/data/bedrijfscijfers";
 import { LeadForm } from "@/components/site/lead-form";
+import { RelatedLinks } from "@/components/site/page-bits";
+import { OVERIGE_LINKS, SEO_ROL_LINKS } from "@/data/interne-links";
 import {
   ArrowRight,
   Check,
@@ -45,6 +47,8 @@ function Index() {
       <Guarantee />
       <Cases />
       <FAQ />
+      <RelatedLinks title="Meer over zoekmachineoptimalisatie" items={SEO_ROL_LINKS} />
+      <RelatedLinks className="bg-white" title="Verder op de site" items={OVERIGE_LINKS} />
       <CTA />
       <Footer />
       <StickyMobileCTA />

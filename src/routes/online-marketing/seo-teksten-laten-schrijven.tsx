@@ -1,7 +1,8 @@
 import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute } from "@tanstack/react-router";
 import { SupportPage } from "@/components/site/support-page";
-import { faqJsonLd } from "@/components/site/page-bits";
+import { RelatedLinks, faqJsonLd } from "@/components/site/page-bits";
+import { KENNISBANK_CONTENT_LINKS } from "@/data/interne-links";
 
 const FAQ = [
   { q: "Wat zijn SEO-teksten precies?", a: "SEO-teksten zijn teksten waarbij niet alleen naar vorm en inhoud wordt gekeken, maar ook naar de indeling, het gebruik van de juiste zoekwoorden en de frequentie waarmee die zoekwoorden voorkomen. Het is een leesbare, informatieve beschrijving die potentiële klanten verleidt om te kopen." },
@@ -47,6 +48,13 @@ export const Route = createFileRoute("/online-marketing/seo-teksten-laten-schrij
           body: "We starten met een inventarisatie van je diensten, doelgroep en eerdere ervaring met SEO-teksten. Daarna volgt optioneel een zoekwoordenonderzoek, stellen we de SEO-strategie op (welke zoekwoorden, hoeveel pagina's, welke oplevertijd) en gaan onze tekstschrijvers aan de slag met teksten die aansluiten op jouw wensen en doelgroep.",
         },
       ]}
+      extra={
+        <RelatedLinks
+          className="bg-white"
+          title="Begrippen uit de kennisbank"
+          items={KENNISBANK_CONTENT_LINKS}
+        />
+      }
       pillar="SEO"
       pillarTo="/online-marketing/seo-uitbesteden"
       pillarNote="Content is de motor onder je SEO. Zonder goede teksten helpen techniek en links maar beperkt. Een audit start vanaf € 599,-, doorlopende contentproductie vanaf € 999,- per maand of tegen ons uurtarief van € 90,-."

@@ -15,7 +15,7 @@ export function landingHead(data: Landing, path?: string) {
   };
 }
 
-export function LandingPage({ data }: { data: Landing }) {
+export function LandingPage({ data, extra }: { data: Landing; extra?: React.ReactNode }) {
   return (
     <SiteLayout>
       <PageHero eyebrow={data.eyebrow} title={data.h1} intro={data.intro} />
@@ -62,6 +62,7 @@ export function LandingPage({ data }: { data: Landing }) {
           </aside>
         </div>
       </Section>
+      {extra}
       <FaqBlock items={data.faq} />
       <CtaBand />
     </SiteLayout>

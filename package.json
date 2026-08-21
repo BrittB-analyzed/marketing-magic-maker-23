@@ -5,12 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "node scripts/check-seo-meta.mjs && vite build",
-    "build:dev": "node scripts/check-seo-meta.mjs && vite build --mode development",
+    "build": "node scripts/check-seo-meta.mjs && node scripts/generate-sitemap.mjs && vite build",
+    "build:dev": "node scripts/check-seo-meta.mjs && node scripts/generate-sitemap.mjs && vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
     "check:seo": "node scripts/check-seo-meta.mjs --strict",
+    "check:links": "node scripts/interne-links.mjs",
+    "check:kennisbank": "node scripts/check-kennisbank.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
     "export:assets": "node scripts/export-assets.mjs"
   },
   "dependencies": {
