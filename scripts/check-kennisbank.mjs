@@ -10,7 +10,8 @@
  */
 import { readFileSync } from "node:fs";
 
-const src = readFileSync("src/content/kennisbank.ts", "utf8");
+const BESTANDEN = ["kennisbank.ts", "kennisbank-seo.ts", "kennisbank-marketing.ts"];
+const src = BESTANDEN.map((naam) => readFileSync(`src/content/${naam}`, "utf8")).join("\n");
 const woorden = (t) => (t.match(/[\p{L}\p{N}'\u2019-]+/gu) ?? []).length;
 
 /** Alle tekstwaarden binnen een blok, dus alles wat op de pagina zichtbaar wordt. */

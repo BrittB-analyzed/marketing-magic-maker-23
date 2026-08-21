@@ -40,7 +40,10 @@ export type KennisbankTerm = {
   publicatie: string;
 };
 
-export const KENNISBANK: Record<string, KennisbankTerm> = {
+import { KENNISBANK_SEO } from "./kennisbank-seo";
+import { KENNISBANK_MARKETING } from "./kennisbank-marketing";
+
+const KENNISBANK_BASIS: Record<string, KennisbankTerm> = {
   "indexeren-betekenis": {
     slug: "indexeren-betekenis",
     term: "Indexeren",
@@ -561,6 +564,51 @@ export const KENNISBANK: Record<string, KennisbankTerm> = {
     gerelateerd: ["staging", "indexeren-betekenis", "bovenaan-in-google"],
     publicatie: "2026-09-11",
   },
+};
+
+/**
+ * Oude kennisbank-URL's die naar een ander begrip of naar een dienstpagina
+ * wijzen. Op de vorige site bestonden voor sommige begrippen twee slugs met
+ * vrijwel dezelfde tekst. Die zijn samengevoegd tot een pagina; de overige
+ * slug krijgt een 301 zodat bestaande links blijven werken.
+ */
+export const KENNISBANK_REDIRECTS: Record<string, string> = {
+  // Dezelfde tekst stond onder twee slugs.
+  "meta-beschrijving": "/kennisbank/meta-description/",
+  "google-the-one-finding": "/kennisbank/google/",
+  "anchor-tekst": "/kennisbank/anchortekst/",
+  "click-through-rate-ctr": "/kennisbank/ctr/",
+  "contentmarketing": "/kennisbank/content-marketing/",
+  "content-management-systeem": "/kennisbank/cms-content-management-systeem/",
+  "google-2": "/kennisbank/google/",
+  "joomla-2": "/kennisbank/joomla/",
+  "joomla-cms-kennisbank": "/kennisbank/joomla/",
+  "kennisbank-magento-cms": "/kennisbank/magento/",
+  "kennisbank-prestashop": "/kennisbank/prestashop/",
+  "kennisbank-prestashop-2": "/kennisbank/prestashop/",
+  "yahoo": "/kennisbank/yahoo-discovery/",
+  "zoekmachine-optimalisatie": "/kennisbank/zoekmachine-optimalisatie-seo/",
+  "zoekwoorden-onderzoek": "/kennisbank/zoekwoorden/",
+  "html-code": "/kennisbank/structured-data/",
+  "klikken": "/kennisbank/ctr/",
+  "vertoningen": "/kennisbank/ctr/",
+  "google-adwords": "/kennisbank/google-ads/",
+  "keywords": "/kennisbank/zoekwoorden/",
+  // Samengevoegd met een begrip dat de vraag beter dekt.
+  "copywriting": "/kennisbank/wat-is-copywriting/",
+  "marketing-automation-software": "/kennisbank/wat-is-marketing-automation/",
+  // Deze onderwerpen hebben inmiddels een volwaardige dienstpagina.
+  "conversie-optimalisatie": "/online-marketing/conversie-optimalisatie/",
+  "google-mijn-bedrijf": "/online-marketing/local-seo/",
+  "google-mijn-bedrijf-kennisbank": "/online-marketing/local-seo/",
+  "social-media-marketing": "/online-marketing/social-media-marketing/",
+};
+
+/** Basisset plus de begrippen die van de oude site zijn teruggezet. */
+export const KENNISBANK: Record<string, KennisbankTerm> = {
+  ...KENNISBANK_BASIS,
+  ...KENNISBANK_SEO,
+  ...KENNISBANK_MARKETING,
 };
 
 /** Alle begrippen, alfabetisch op registerlabel. */

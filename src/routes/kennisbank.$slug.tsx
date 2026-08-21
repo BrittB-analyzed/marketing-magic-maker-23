@@ -1,12 +1,20 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, Link, notFound, redirect } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/site/site-chrome";
 import { CtaBand, PageHero, Section, SectionHeading } from "@/components/site/page-bits";
-import { KENNISBANK, isGepubliceerd } from "@/content/kennisbank";
+import { KENNISBANK, KENNISBANK_REDIRECTS, isGepubliceerd } from "@/content/kennisbank";
 import { AUTEUR } from "@/data/organisatie";
 import { articleSchema, breadcrumbSchema, faqSchema, graph } from "@/lib/schema";
 
 export const Route = createFileRoute("/kennisbank/$slug")({
+  // Oude slugs van de vorige site die zijn samengevoegd met een ander begrip,
+  // krijgen een 301 in plaats van een 404. Zie KENNISBANK_REDIRECTS.
+  beforeLoad: ({ params }) => {
+    const naar = KENNISBANK_REDIRECTS[params.slug];
+    // `href` bepaalt de Location-header; `to` is in de typing verplicht maar
+    // kan hier geen literal zijn, omdat het doel uit een tabel komt.
+    if (naar) throw redirect({ href: naar, to: naar as "/", statusCode: 301 });
+  },
   loader: ({ params }) => {
     const term = KENNISBANK[params.slug];
     if (!term) throw notFound();

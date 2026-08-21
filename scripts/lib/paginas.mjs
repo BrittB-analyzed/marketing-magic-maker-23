@@ -95,7 +95,9 @@ export function verzamelPaginas(root = process.cwd(), nu = new Date()) {
 
   // Kennisbankbegrippen, alleen de begrippen waarvan de publicatiedatum is bereikt
   const kbBestand = join(root, "src", "content", "kennisbank.ts");
-  const kbSrc = readFileSync(kbBestand, "utf8");
+  const kbSrc = ["kennisbank.ts", "kennisbank-seo.ts", "kennisbank-marketing.ts"]
+    .map((naam) => readFileSync(join(root, "src", "content", naam), "utf8"))
+    .join("\n");
   const kbAlle = [...kbSrc.matchAll(/slug:\s*"([^"]+)",[\s\S]*?publicatie:\s*"([^"]+)"/g)].map((m) => ({
     slug: m[1],
     publicatie: m[2],
