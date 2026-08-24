@@ -216,10 +216,17 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
             <input className={inputClass} value={name} onChange={(e) => setName(e.target.value)} placeholder="Voornaam Achternaam" data-lpignore="true" />
           </label>
           <label className="block">
-            <span className="mb-1.5 block text-xs font-semibold text-brand-ink">
-              Telefoon <span className="font-normal text-brand-muted">(optioneel)</span>
-            </span>
-            <input className={inputClass} value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="06 12 34 56 78" data-lpignore="true" />
+            <span className="mb-1.5 block text-xs font-semibold text-brand-ink">Telefoon</span>
+            <input
+              className={inputClass}
+              type="tel"
+              inputMode="tel"
+              required
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
+              placeholder="06 12 34 56 78"
+              data-lpignore="true"
+            />
           </label>
           <fieldset>
             <legend className="mb-1.5 block text-xs font-semibold text-brand-ink">
