@@ -9,11 +9,20 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
-import { useEffect, type ReactNode } from "react";
+import { useEffect, useRef, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { canonicalUrl } from "../lib/canonical";
+
+const GTM_ID = "GTM-N9JCGMN";
+
+declare global {
+  interface Window {
+    dataLayer: Record<string, unknown>[];
+    __gtmInit?: number;
+  }
+}
 
 function NotFoundComponent() {
   return (
@@ -122,13 +131,52 @@ function RootShell({ children }: { children: ReactNode }) {
   // Eén plek in plaats van per route, zodat geen enkele pagina hem kan missen.
   const pathname = useRouterState({ select: (s) => s.location.pathname });
 
+  // De GTM-snippet vuurt alleen bij de eerste laadbeurt. Dit is een SPA, dus
+  // duwen we bij elke volgende routewissel zelf een virtuele pageview in de
+  // dataLayer. De eerste render slaan we over: die telt GTM al als gtm.js.
+  const isFirstRender = useRef(true);
+  useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "pageview",
+      page_path: pathname,
+      page_location: window.location.href,
+      page_title: document.title,
+    });
+  }, [pathname]);
+
   return (
     <html lang="nl">
       <head>
         <HeadContent />
         <link rel="canonical" href={canonicalUrl(pathname)} />
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){if(w.__gtmInit)return;w.__gtmInit=1;w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');`,
+          }}
+        />
+        {/* End Google Tag Manager */}
       </head>
       <body>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+        {/* End Google Tag Manager (noscript) */}
         {children}
         <Scripts />
       </body>
