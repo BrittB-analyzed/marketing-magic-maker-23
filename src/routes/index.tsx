@@ -206,9 +206,13 @@ function HeroForm() {
       <div className="rounded-2xl border border-brand-line bg-white p-3 shadow-[0_30px_80px_-30px_rgba(20,24,31,0.25)]">
         <LeadForm id="hero-form" compact />
       </div>
-      <div className="absolute -right-3 -top-3 hidden rotate-3 rounded-md bg-brand-sand px-3 py-2 text-xs font-semibold text-brand-ink shadow-lg ring-1 ring-brand-line md:block">
+      <div className="absolute -right-3 -top-3 hidden max-w-[14rem] rotate-3 rounded-md bg-brand-sand px-3 py-2 text-xs font-semibold text-brand-ink shadow-lg ring-1 ring-brand-line md:block">
         <span className="mr-1 text-brand-green">●</span>
         Reactie {BEDRIJFSCIJFERS.reactietijd}
+        <span className="mt-1 flex items-start gap-1 font-medium text-brand-muted">
+          <span className="text-brand-green">●</span>
+          Gratis persoonlijke analyse binnen 48 uur
+        </span>
       </div>
     </div>
   );

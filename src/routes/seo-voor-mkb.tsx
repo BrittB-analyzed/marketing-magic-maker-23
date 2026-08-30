@@ -198,9 +198,13 @@ function HeroForm() {
   return (
     <div id="hero-form" className="relative">
       <LeadForm id="seo-voor-mkb-hero" />
-      <div className="absolute -top-3 -right-3 hidden rotate-3 rounded-md bg-brand-green px-3 py-2 text-xs font-semibold text-white shadow-lg md:block">
+      <div className="absolute -top-3 -right-3 hidden max-w-[14rem] rotate-3 rounded-md bg-brand-green px-3 py-2 text-xs font-semibold text-white shadow-lg md:block">
         <span className="mr-1 text-brand-green">●</span>
         Reactie binnen 24u
+        <span className="mt-1 flex items-start gap-1 font-medium text-white/90">
+          <span>●</span>
+          Gratis persoonlijke analyse binnen 48 uur
+        </span>
       </div>
     </div>
   );
