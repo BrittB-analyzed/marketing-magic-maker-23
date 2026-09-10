@@ -102,9 +102,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
-      { label: "SEO Limburg", to: "/seo-limburg/" },
-      { label: "Gratis SEO-scan", to: "/gratis-seo-scan/" },
+      { label: "SEO Blerick voor Venlo-West", to: "/seo-blerick/" },
+      { label: "Online marketing bureau Venlo", to: "/online-marketing-venlo/" },
+      { label: "SEO Nijmegen", to: "/seo-nijmegen/" },
+      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
     ],
   },
   "seo-maastricht": {
@@ -172,9 +173,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
-      { label: "SEO Limburg", to: "/seo-limburg/" },
-      { label: "Linkbuilding uitbesteden Maastricht", to: "/linkbuilding-uitbesteden-maastricht/" },
+      { label: "SEO Rotterdam voor haven en logistiek", to: "/seo-rotterdam/" },
+      { label: "SEO Eindhoven voor tech en industrie", to: "/seo-eindhoven/" },
+      { label: "Linkbuilding uitbesteden in Maastricht", to: "/linkbuilding-uitbesteden-maastricht/" },
+      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
     ],
   },
   "seo-nijmegen": {
@@ -562,9 +564,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
+      { label: "Online marketing bureau Venray", to: "/online-marketing-venray/" },
+      { label: "SEO Blerick voor Venlo-West", to: "/seo-blerick/" },
       { label: "SEO Limburg", to: "/seo-limburg/" },
-      { label: "Gratis SEO-scan", to: "/gratis-seo-scan/" },
+      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
     ],
   },
   "seo-horst": {
@@ -892,9 +895,9 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
-      { label: "GEO-optimalisatie", to: "/online-marketing/geo-optimalisatie/" },
-      { label: "Gratis SEO-scan", to: "/gratis-seo-scan/" },
+      { label: "SEO Rotterdam voor haven en logistiek", to: "/seo-rotterdam/" },
+      { label: "SEO Eindhoven voor tech en industrie", to: "/seo-eindhoven/" },
+      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
     ],
   },
   "seo-limburg": {
@@ -1010,9 +1013,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
+      { label: "SEO Eindhoven voor tech en industrie", to: "/seo-eindhoven/" },
+      { label: "SEO Rotterdam voor haven en logistiek", to: "/seo-rotterdam/" },
+      { label: "SEO Nijmegen", to: "/seo-nijmegen/" },
       { label: "Marketingbureau Limburg", to: "/marketingbureau-limburg/" },
-      { label: "SEO Venlo", to: "/seo-venlo/" },
     ],
   },
   "linkbuilding-uitbesteden-venlo": {
@@ -1345,4 +1349,152 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       { label: "Tarieven linkbuilding", to: "/tarieven-linkbuilding/" },
     ],
   },
+  "seo-blerick": {
+    eyebrow: "Local SEO",
+    h1: "SEO Blerick: gevonden worden aan de westkant van Venlo",
+    title: "SEO Blerick | Lokale SEO-specialist in Venlo-West",
+    description:
+      "SEO voor bedrijven in Blerick en Venlo-West. Audit vanaf 599 euro, doorlopend vanaf 999 euro per maand. Een vaste specialist uit de regio, 9,8 uit 47 reviews.",
+    intro:
+      "Blerick is onderdeel van Venlo, maar in Google is het een eigen zoekwoord. Mensen die hier een leverancier zoeken, tikken de wijknaam in en niet de gemeente. Wie alleen op Venlo optimaliseert, mist die groep volledig, terwijl de concurrentie op de Blerickse zoekopdrachten een fractie is van die op de stad.",
+    bullets: [
+      "Een vaste specialist uit de regio, geen accountmanager op afstand",
+      "Uitgebreide audit vanaf 599 euro, doorlopend pakket vanaf 999 euro per maand",
+      "Ook zichtbaar in het lokale pakket en op Google Maps",
+      "Elke maand een korte video met wat er is gebeurd en wat het deed",
+    ],
+    sections: [
+      {
+        h: "Wat kost SEO in Blerick?",
+        p: "Een uitgebreide audit start bij 599 euro eenmalig: technische analyse, zoekwoordenonderzoek, een vergelijking met de bedrijven die nu boven je staan en een actielijst op volgorde van impact. Doorlopend werk start bij 999 euro per maand, losse uren tegen 90 euro. Je krijgt vooraf een vaste maandprijs en nooit een nacalculatie. Voor een lokaal bedrijf met een overzichtelijk aanbod is het instappakket in de praktijk vaak ruim genoeg om structureel te groeien, juist omdat de concurrentie op wijkniveau beperkt is.",
+      },
+      {
+        h: "Waarom een aparte pagina voor Blerick zin heeft",
+        p: "Google behandelt Blerick als een eigen locatie. Zoek je vanuit Blerick naar een dienstverlener, dan krijg je andere bedrijven te zien dan iemand die vanuit Venlo-centrum of Tegelen zoekt, ook zonder dat de wijknaam in de zoekopdracht staat. Daar komt bij dat mensen hier gewoon Blerick intikken: bij een aannemer, kapper of installateur in de buurt is dat de meest natuurlijke formulering. Het volume is kleiner dan bij Venlo, maar de intentie is scherper en de concurrentie beduidend lager. Voor de meeste lokale bedrijven levert dat sneller aanvragen op dan meevechten om de stadstermen.",
+      },
+      {
+        h: "Blerick, Venlo en de rest van de gemeente",
+        p: "Een goede lokale strategie zet Blerick niet los van Venlo, maar ernaast. Je hoofdpagina mikt op de gemeente, de wijkpagina op de directe omgeving, en ze verwijzen naar elkaar zodat Google begrijpt dat het om hetzelfde bedrijf en hetzelfde werkgebied gaat. Datzelfde geldt voor Tegelen, Belfeld, Arcen en Grubbenvorst: elk een eigen zoekopdracht, samen een dekkend net over Noord-Limburg. Werk je vanuit Blerick en bedien je de hele gemeente, kijk dan ook naar de bredere pagina over SEO in Venlo.",
+      },
+      {
+        h: "Je Google Bedrijfsprofiel bepaalt het lokale pakket",
+        p: "Bij een wijkgerichte zoekopdracht toont Google bovenaan een kaart met drie bedrijven. Daartussen staan levert in de praktijk meer aanvragen op dan drie plekken stijgen in de gewone resultaten. Wat dat bepaalt: de juiste hoofdcategorie, complete openingstijden en contactgegevens, actuele foto's en vooral reviews, waarbij het niet alleen om het aantal gaat maar ook om hoe recent ze zijn en of je erop reageert. Voor een bedrijf met een fysieke vestiging in Blerick is dit vrijwel altijd het onderdeel met de snelste winst, en het is werk dat je grotendeels zelf kunt doen.",
+      },
+      {
+        h: "Hoe we te werk gaan",
+        p: "We beginnen met een nulmeting: waar sta je nu in Google en in AI-antwoorden, en wat doen de bedrijven die boven je staan anders? Daarna volgt een plan met een volgorde, waarin het werk met de meeste impact bovenaan staat. In de uitvoering komt de techniek eerst, want een pagina die niet goed geïndexeerd wordt kan nergens op ranken. Dan de content: pagina's die de zoekvraag net niet goed genoeg beantwoorden, herschreven zodat het antwoord in de eerste honderd woorden staat. Autoriteit komt daarna, en niet andersom.",
+      },
+      {
+        h: "Een bureau uit de regio, geen callcenter",
+        p: "Wij zitten in Arcen, op een kwartier rijden van Blerick. Dat is geen verkooppraatje maar praktisch: we kennen de regio, we weten welke bedrijven hier actief zijn en we kunnen langskomen als dat helpt. Je hebt één vast aanspreekpunt, dezelfde persoon die de strategie bedenkt en de wijzigingen doorvoert. Elke maand krijg je een korte video waarin je ziet wat er is gedaan, wat het opleverde en wat er de volgende maand gebeurt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Heeft een aparte Blerick-pagina wel zin naast een Venlo-pagina?",
+        a: "Ja, mits ze inhoudelijk verschillen. Blerick is voor Google een eigen locatie met eigen zoekopdrachten en veel minder concurrentie. Twee pagina's met dezelfde tekst en alleen een andere plaatsnaam werken juist averechts; twee pagina's met eigen inhoud vullen elkaar aan.",
+      },
+      {
+        q: "Wat kost SEO voor een lokaal bedrijf in Blerick?",
+        a: "Een eenmalige audit vanaf 599 euro, doorlopend werk vanaf 999 euro per maand en losse uren voor 90 euro. Voor een bedrijf dat vooral in de eigen wijk en gemeente actief is, is het instappakket meestal genoeg om structureel te groeien.",
+      },
+      {
+        q: "Hoe snel zie ik resultaat op lokale zoekwoorden?",
+        a: "Op wijkgerichte zoekopdrachten met beperkte concurrentie zie je vaak binnen twee tot vier maanden beweging. Meetbaar meer aanvragen komen meestal tussen maand zes en twaalf. Dat gaat sneller dan op stads- of landelijke termen, simpelweg omdat er minder tegenstand is.",
+      },
+      {
+        q: "Moet ik ook aan mijn Google Bedrijfsprofiel werken?",
+        a: "Voor lokale zoekopdrachten is dat vaak het onderdeel met de snelste winst. In het kaartblok bovenaan staan maar drie bedrijven, en daartussen komen levert doorgaans meer op dan drie plekken stijgen in de gewone resultaten. We pakken het standaard mee.",
+      },
+      {
+        q: "Werken jullie ook voor bedrijven in Tegelen of Venlo-centrum?",
+        a: "Ja, we bedienen de hele gemeente Venlo en de rest van Noord-Limburg. Per plaats kijken we of een eigen pagina zinvol is of dat je beter meelift op een bredere pagina. Dat hangt af van het zoekvolume en van hoeveel concurrentie er op die plaatsnaam staat.",
+      },
+      {
+        q: "Blijf ik eigenaar van mijn eigen accounts?",
+        a: "Altijd. We werken in jouw eigen Google Analytics, Search Console en Bedrijfsprofiel, en je houdt volledige toegang tot je data, ook als de samenwerking ooit stopt. Dat is bij ons een harde voorwaarde en geen extra service waar je om moet vragen.",
+      },
+    ],
+    related: [
+      { label: "SEO Venlo voor de hele gemeente", to: "/seo-venlo/" },
+      { label: "Online marketing bureau Venlo", to: "/online-marketing-venlo/" },
+      { label: "Local SEO voor je werkgebied", to: "/online-marketing/local-seo/" },
+      { label: "Wat SEO kost per maand", to: "/tarieven-seo/" },
+    ],
+  },
+
+  "online-marketing-venray": {
+    eyebrow: "Online marketing",
+    h1: "Online marketing bureau Venray: SEO, Ads en conversie",
+    title: "Online Marketing Bureau Venray | Vaste specialist",
+    description:
+      "Online marketing bureau voor Venray en Noord-Limburg. SEO, Google Ads en conversie in één plan, vanaf 999 euro per maand. Een vast aanspreekpunt, 9,8 score.",
+    intro:
+      "Online marketing in Venray draait zelden om één kanaal. De meeste bedrijven hier hebben zowel lokale klanten als een landelijke of Duitse markt, en die twee vragen om een verschillende aanpak. Wij combineren SEO, Google Ads en conversie-optimalisatie in één plan, zodat je niet drie leveranciers hebt die elkaars werk niet zien.",
+    bullets: [
+      "SEO, GEO, Google Ads en conversie in één plan vanaf 999 euro per maand",
+      "Eén vaste specialist die de strategie bedenkt en ook zelf uitvoert",
+      "Uit de regio: gevestigd in Arcen, op een half uur van Venray",
+      "Elke maand een korte video met wat er is gebeurd en wat het deed",
+    ],
+    sections: [
+      {
+        h: "Wat kost online marketing in Venray?",
+        p: "Een doorlopend pakket start bij 999 euro per maand. Daarin combineren we SEO, zichtbaarheid in AI-antwoorden, Google Ads en conversie-optimalisatie, en je kiest zelf welke onderdelen het zwaarst wegen. Wil je eerst weten waar je staat, dan kost een uitgebreide audit 599 euro eenmalig en krijg je een actielijst die je ook zelf kunt uitvoeren. Los maatwerk rekenen we af tegen 90 euro per uur. Je advertentiebudget staat daar volledig los van en betaal je rechtstreeks aan Google, in je eigen account.",
+      },
+      {
+        h: "De Venrayse markt vraagt om twee sporen",
+        p: "Venray heeft een opvallend gemengd bedrijfsleven: zorg en dienstverlening, agrarische bedrijven en tuinbouw, maakindustrie en logistiek op De Blakt en Smakterheide, plus een levendige detailhandel in het centrum. Dat betekent in de praktijk twee sporen. Voor de lokale kant tellen plaatsgebonden zoekopdrachten en je Google Bedrijfsprofiel; daar win je met een compleet profiel en actuele reviews. Voor de landelijke of Duitse kant tellen juist de specialistische zoekwoorden waar weinig volume op zit maar waar één aanvraag veel waard is. Beide sporen tegelijk bedienen kan, mits je ze niet op dezelfde pagina probeert te proppen.",
+      },
+      {
+        h: "Vier pijlers in plaats van dertien losse diensten",
+        p: "SEO zorgt dat je gevonden wordt in de onbetaalde zoekresultaten. GEO zorgt dat je genoemd wordt in de antwoorden van ChatGPT, Gemini en Google zelf, een groeiend deel van het zoekgedrag. Ads koopt het verkeer dat vandaag moet converteren en levert binnen weken de zoektermdata waar SEO maanden over doet. En conversie-optimalisatie zorgt dat je van al dat verkeer ook daadwerkelijk aanvragen terugziet. Welke pijler het zwaarst weegt, hangt af van waar je groei nu vastloopt, en dat is de eerste vraag die we stellen.",
+      },
+      {
+        h: "Hoe we te werk gaan",
+        p: "We beginnen met een gesprek over wat je groei nu in de weg zit, gevolgd door een nulmeting van je posities, je techniek en je concurrentie. Daaruit volgt een plan met een volgorde, waarin het werk met de meeste impact bovenaan staat. Er start niets zonder jouw akkoord. Tijdens de uitvoering krijg je elke maand een korte video waarin je ziet wat er is gedaan, wat het opleverde en wat er daarna gebeurt. Blijven resultaten uit, dan veranderen we van aanpak zonder extra kosten.",
+      },
+      {
+        h: "Lokale zichtbaarheid in en om Venray",
+        p: "Google toont sterk gelokaliseerde resultaten. Wie in Venray zoekt naar een leverancier krijgt andere bedrijven te zien dan iemand in Horst of Boxmeer, ook zonder plaatsnaam in de zoekopdracht. Voor bedrijven met een vestiging of een afgebakend werkgebied betekent dat: je Google Bedrijfsprofiel is minstens zo belangrijk als je website. Daarnaast tellen de omliggende plaatsen mee. Oostrum, Leunen, Ysselsteyn, Merselo en Wanssum leveren samen vaak meer aanvragen op dan Venray alleen, mits je er content voor hebt die die zoekopdrachten daadwerkelijk beantwoordt.",
+      },
+      {
+        h: "Een bureau uit de regio",
+        p: "Wij zitten in Arcen, een half uur rijden van Venray. Je hebt geen accountmanager maar één vaste specialist, dezelfde persoon die de strategie bedenkt en de wijzigingen doorvoert. Dat scheelt doorlooptijd en voorkomt dat afspraken onderweg sneuvelen. Wil je alleen aan je vindbaarheid in Google werken en de rest laten liggen, kijk dan naar de pagina over SEO in Venray; wil je alle kanalen in één plan, dan is dit het startpunt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wat kost een online marketing bureau in Venray?",
+        a: "Bij ons vanaf 999 euro per maand voor een doorlopend pakket waarin SEO, GEO, Ads en conversie zijn gecombineerd. Een eenmalige audit kost 599 euro en losse uren 90 euro. Je advertentiebudget betaal je zelf rechtstreeks aan Google, in je eigen account.",
+      },
+      {
+        q: "Kan ik ook alleen SEO of alleen Google Ads afnemen?",
+        a: "Ja. Binnen het pakket kies je zelf welke onderdelen het zwaarst wegen. Heb je vandaag omzet nodig, dan ligt het accent op Ads. Wil je structureel groeien zonder kosten per klik, dan op SEO. In de praktijk werken die twee het best naast elkaar.",
+      },
+      {
+        q: "Wat is het verschil met de pagina over SEO Venray?",
+        a: "Die pagina gaat alleen over vindbaarheid in de onbetaalde zoekresultaten. Deze pagina gaat over het geheel: SEO, zichtbaarheid in AI-antwoorden, advertenties en conversie in één plan met één aanspreekpunt en één rapportage.",
+      },
+      {
+        q: "Hoe snel zie ik resultaat?",
+        a: "Google Ads levert binnen dagen de eerste klikken en binnen weken bruikbare conversiedata. SEO laat na twee tot drie maanden beweging zien en levert meestal tussen maand zes en twaalf meetbaar meer aanvragen op. Dat verschil in tempo is precies waarom de combinatie werkt.",
+      },
+      {
+        q: "Werken jullie ook voor bedrijven die naar Duitsland leveren?",
+        a: "Ja. Noord-Limburg zit dicht op de Duitse grens en veel bedrijven hier hebben klanten aan beide kanten. We kijken dan per markt naar het zoekgedrag, want de formuleringen en de concurrentie verschillen sterk tussen Nederlandse en Duitse zoekopdrachten.",
+      },
+      {
+        q: "Blijf ik eigenaar van mijn accounts?",
+        a: "Altijd. We werken in jouw eigen Google Analytics, Search Console, Bedrijfsprofiel en advertentieaccount, en je houdt volledige toegang tot je data, ook als de samenwerking ooit stopt. Dat is bij ons een harde voorwaarde, geen extra service.",
+      },
+    ],
+    related: [
+      { label: "SEO Venray voor lokale vindbaarheid", to: "/seo-venray/" },
+      { label: "Online marketing uitbesteden", to: "/online-marketing/uitbesteden/" },
+      { label: "Google Ads uitbesteden", to: "/online-marketing/google-ads-uitbesteden/" },
+      { label: "Wat SEO kost per maand", to: "/tarieven-seo/" },
+    ],
+  },
+
 };

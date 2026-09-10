@@ -30,9 +30,11 @@ import { Route as OnlineMarketingBureauNederlandRouteImport } from './routes/onl
 import { Route as OnlineMarketingCasesRouteImport } from './routes/online-marketing-cases'
 import { Route as OnlineMarketingStrategieRouteImport } from './routes/online-marketing-strategie'
 import { Route as OnlineMarketingVenloRouteImport } from './routes/online-marketing-venlo'
+import { Route as OnlineMarketingVenrayRouteImport } from './routes/online-marketing-venray'
 import { Route as PrivacybeleidRouteImport } from './routes/privacybeleid'
 import { Route as SeoArcenRouteImport } from './routes/seo-arcen'
 import { Route as SeoBelfeldRouteImport } from './routes/seo-belfeld'
+import { Route as SeoBlerickRouteImport } from './routes/seo-blerick'
 import { Route as SeoBureauRouteImport } from './routes/seo-bureau'
 import { Route as SeoConsultantRouteImport } from './routes/seo-consultant'
 import { Route as SeoContentRouteImport } from './routes/seo-content'
@@ -195,6 +197,11 @@ const OnlineMarketingVenloRoute = OnlineMarketingVenloRouteImport.update({
   path: '/online-marketing-venlo',
   getParentRoute: () => rootRouteImport,
 } as any)
+const OnlineMarketingVenrayRoute = OnlineMarketingVenrayRouteImport.update({
+  id: '/online-marketing-venray',
+  path: '/online-marketing-venray',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PrivacybeleidRoute = PrivacybeleidRouteImport.update({
   id: '/privacybeleid',
   path: '/privacybeleid',
@@ -208,6 +215,11 @@ const SeoArcenRoute = SeoArcenRouteImport.update({
 const SeoBelfeldRoute = SeoBelfeldRouteImport.update({
   id: '/seo-belfeld',
   path: '/seo-belfeld',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoBlerickRoute = SeoBlerickRouteImport.update({
+  id: '/seo-blerick',
+  path: '/seo-blerick',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SeoBureauRoute = SeoBureauRouteImport.update({
@@ -503,9 +515,11 @@ export interface FileRoutesByFullPath {
   '/online-marketing-cases': typeof OnlineMarketingCasesRoute
   '/online-marketing-strategie': typeof OnlineMarketingStrategieRoute
   '/online-marketing-venlo': typeof OnlineMarketingVenloRoute
+  '/online-marketing-venray': typeof OnlineMarketingVenrayRoute
   '/privacybeleid': typeof PrivacybeleidRoute
   '/seo-arcen': typeof SeoArcenRoute
   '/seo-belfeld': typeof SeoBelfeldRoute
+  '/seo-blerick': typeof SeoBlerickRoute
   '/seo-bureau': typeof SeoBureauRoute
   '/seo-consultant': typeof SeoConsultantRoute
   '/seo-content': typeof SeoContentRoute
@@ -579,9 +593,11 @@ export interface FileRoutesByTo {
   '/online-marketing-cases': typeof OnlineMarketingCasesRoute
   '/online-marketing-strategie': typeof OnlineMarketingStrategieRoute
   '/online-marketing-venlo': typeof OnlineMarketingVenloRoute
+  '/online-marketing-venray': typeof OnlineMarketingVenrayRoute
   '/privacybeleid': typeof PrivacybeleidRoute
   '/seo-arcen': typeof SeoArcenRoute
   '/seo-belfeld': typeof SeoBelfeldRoute
+  '/seo-blerick': typeof SeoBlerickRoute
   '/seo-bureau': typeof SeoBureauRoute
   '/seo-consultant': typeof SeoConsultantRoute
   '/seo-content': typeof SeoContentRoute
@@ -656,9 +672,11 @@ export interface FileRoutesById {
   '/online-marketing-cases': typeof OnlineMarketingCasesRoute
   '/online-marketing-strategie': typeof OnlineMarketingStrategieRoute
   '/online-marketing-venlo': typeof OnlineMarketingVenloRoute
+  '/online-marketing-venray': typeof OnlineMarketingVenrayRoute
   '/privacybeleid': typeof PrivacybeleidRoute
   '/seo-arcen': typeof SeoArcenRoute
   '/seo-belfeld': typeof SeoBelfeldRoute
+  '/seo-blerick': typeof SeoBlerickRoute
   '/seo-bureau': typeof SeoBureauRoute
   '/seo-consultant': typeof SeoConsultantRoute
   '/seo-content': typeof SeoContentRoute
@@ -734,9 +752,11 @@ export interface FileRouteTypes {
     | '/online-marketing-cases'
     | '/online-marketing-strategie'
     | '/online-marketing-venlo'
+    | '/online-marketing-venray'
     | '/privacybeleid'
     | '/seo-arcen'
     | '/seo-belfeld'
+    | '/seo-blerick'
     | '/seo-bureau'
     | '/seo-consultant'
     | '/seo-content'
@@ -810,9 +830,11 @@ export interface FileRouteTypes {
     | '/online-marketing-cases'
     | '/online-marketing-strategie'
     | '/online-marketing-venlo'
+    | '/online-marketing-venray'
     | '/privacybeleid'
     | '/seo-arcen'
     | '/seo-belfeld'
+    | '/seo-blerick'
     | '/seo-bureau'
     | '/seo-consultant'
     | '/seo-content'
@@ -886,9 +908,11 @@ export interface FileRouteTypes {
     | '/online-marketing-cases'
     | '/online-marketing-strategie'
     | '/online-marketing-venlo'
+    | '/online-marketing-venray'
     | '/privacybeleid'
     | '/seo-arcen'
     | '/seo-belfeld'
+    | '/seo-blerick'
     | '/seo-bureau'
     | '/seo-consultant'
     | '/seo-content'
@@ -963,9 +987,11 @@ export interface RootRouteChildren {
   OnlineMarketingCasesRoute: typeof OnlineMarketingCasesRoute
   OnlineMarketingStrategieRoute: typeof OnlineMarketingStrategieRoute
   OnlineMarketingVenloRoute: typeof OnlineMarketingVenloRoute
+  OnlineMarketingVenrayRoute: typeof OnlineMarketingVenrayRoute
   PrivacybeleidRoute: typeof PrivacybeleidRoute
   SeoArcenRoute: typeof SeoArcenRoute
   SeoBelfeldRoute: typeof SeoBelfeldRoute
+  SeoBlerickRoute: typeof SeoBlerickRoute
   SeoBureauRoute: typeof SeoBureauRoute
   SeoConsultantRoute: typeof SeoConsultantRoute
   SeoContentRoute: typeof SeoContentRoute
@@ -1167,6 +1193,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OnlineMarketingVenloRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/online-marketing-venray': {
+      id: '/online-marketing-venray'
+      path: '/online-marketing-venray'
+      fullPath: '/online-marketing-venray'
+      preLoaderRoute: typeof OnlineMarketingVenrayRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/privacybeleid': {
       id: '/privacybeleid'
       path: '/privacybeleid'
@@ -1186,6 +1219,13 @@ declare module '@tanstack/react-router' {
       path: '/seo-belfeld'
       fullPath: '/seo-belfeld'
       preLoaderRoute: typeof SeoBelfeldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-blerick': {
+      id: '/seo-blerick'
+      path: '/seo-blerick'
+      fullPath: '/seo-blerick'
+      preLoaderRoute: typeof SeoBlerickRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/seo-bureau': {
@@ -1565,9 +1605,11 @@ const rootRouteChildren: RootRouteChildren = {
   OnlineMarketingCasesRoute: OnlineMarketingCasesRoute,
   OnlineMarketingStrategieRoute: OnlineMarketingStrategieRoute,
   OnlineMarketingVenloRoute: OnlineMarketingVenloRoute,
+  OnlineMarketingVenrayRoute: OnlineMarketingVenrayRoute,
   PrivacybeleidRoute: PrivacybeleidRoute,
   SeoArcenRoute: SeoArcenRoute,
   SeoBelfeldRoute: SeoBelfeldRoute,
+  SeoBlerickRoute: SeoBlerickRoute,
   SeoBureauRoute: SeoBureauRoute,
   SeoConsultantRoute: SeoConsultantRoute,
   SeoContentRoute: SeoContentRoute,

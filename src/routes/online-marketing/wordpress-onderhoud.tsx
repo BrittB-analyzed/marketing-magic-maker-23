@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SupportPage } from "@/components/site/support-page";
-import { faqJsonLd } from "@/components/site/page-bits";
+import { RelatedLinks, faqJsonLd } from "@/components/site/page-bits";
+import { KENNISBANK_CMS_LINKS } from "@/data/interne-links";
 
 const FAQ = [
   { q: "Wat houdt jullie WordPress-onderhoud in?", a: "Afhankelijk van het pakket verzorgen we periodieke backups, updates van WordPress, plugins en thema's, klantenservice bij problemen, database-opschoning, malwarecontrole en spamverwijdering. Alles gericht op een veilige, snelle en up-to-date website." },
@@ -53,6 +54,9 @@ export const Route = createFileRoute("/online-marketing/wordpress-onderhoud")({
           body: "We verhogen de snelheid van je website zodat de gebruikservaring en je posities in Google goed blijven, en we beveiligen je site tegen hackers en aanvallers. Updates van WordPress, thema's en plugins controleren we telkens op een correcte werking van de website.",
         },
       ]}
+      extra={
+        <RelatedLinks className="bg-white" title="Begrippen uit de kennisbank" items={KENNISBANK_CMS_LINKS} />
+      }
       pillar="SEO"
       pillarTo="/online-marketing/seo-uitbesteden"
       pillarNote="Techniek en snelheid zijn onderdeel van je SEO-fundering. Verwaarloos je dat, dan zakken je posities. Onderhoudsabonnementen zijn er al vanaf een klein maandbedrag; grotere technische trajecten starten vanaf € 599,-."

@@ -588,7 +588,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
   "online-marketing-venlo": {
     eyebrow: "Online marketing",
     h1: "Online marketing Venlo – Behaal meer online rendement!",
-    title: "Online Marketing Venlo | B. Analyzed",
+    title: "Online Marketing Bureau Venlo | Vaste specialist",
     description: "Op zoek naar een online marketingbureau in Venlo? B. Analyzed helpt ondernemers uit Venlo en omgeving met SEO, Google Ads, social media en GEO.",
     intro: "Vaak denken ondernemers nog dat de meeste leads toch uit hun eigen omgeving voortkomen, en dat internet marketing niet nodig is. Online marketing is echter een redelijk goedkope manier om de juiste mensen te bereiken. Online vindbaarheid wordt steeds belangrijker. Je kunt deze werkzaamheden nu eenmaal niet allemaal zelf uitvoeren, het is handig om hier een professioneel kantoor voor in te schakelen.",
     bullets: [
@@ -641,7 +641,7 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
   "marketingbureau-limburg": {
     eyebrow: "Online marketing",
     h1: "Behaal meer online rendement met B. Analyzed marketingbureau Limburg",
-    title: "Marketingbureau Limburg | B. Analyzed",
+    title: "Marketingbureau Limburg | Online marketing voor MKB",
     description: "B. Analyzed is een marketingbureau in Limburg dat ondernemers helpt met SEO, Google Ads en social media, met oog voor de grensregio en AI-zichtbaarheid.",
     intro: "Online marketing is onze passie. B. Analyzed marketing is een online marketing specialist op het gebied van zoekmachine optimalisatie (SEO), zoekmachine adverteren (SEA) en lead generalisatie. De specialisten van ons online marketing bureau in Limburg hebben meer dan 10 jaar ervaring. Onze experts kunnen je altijd vrijblijvend voorzien van marketing strategieën op maat. Daarnaast werken wij samen met experts op het gebied van programmering, webdesign, display marketing & copywriting om de beste resultaten te behalen voor jouw onderneming!",
     bullets: [
