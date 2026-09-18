@@ -96,6 +96,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Online marketingbureau uit Limburg. 15 jaar ervaring, 9,8 uit 47 reviews en een vast aanspreekpunt in plaats van een accountmanager. Vraag je gratis scan aan.",
       },
       { name: "author", content: SITE_AUTHOR },
+      {
+        name: "google-site-verification",
+        content: "q992TZh6g7IULRiqyK48dYp0IRU3huQz2xbKYPVC56Y",
+      },
       { property: "og:title", content: "Online Marketingbureau Limburg | SEO, GEO, Ads & CRO" },
       {
         property: "og:description",
