@@ -61,7 +61,22 @@ export function ReviewsSection({
             ) : null}
             <figcaption className="mt-5 border-t border-brand-line pt-4 text-sm">
               <span className="font-semibold text-brand-ink">{r.name}</span>
-              {r.role ? <span className="block text-brand-muted">{r.role}</span> : null}
+              {r.role ? (
+                <span className="block text-brand-muted">
+                  {r.url ? (
+                    <a
+                      href={r.url}
+                      target="_blank"
+                      rel="noopener"
+                      className="underline underline-offset-2 hover:text-brand-green"
+                    >
+                      {r.role}
+                    </a>
+                  ) : (
+                    r.role
+                  )}
+                </span>
+              ) : null}
             </figcaption>
           </figure>
         ))}

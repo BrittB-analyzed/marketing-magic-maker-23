@@ -7,11 +7,19 @@ export type Review = {
   logoAlt?: string;
   name: string;
   role?: string;
+  url?: string;
   title: string;
   quote?: string;
 };
 
 export const REVIEWS: Review[] = [
+  {
+    name: "Patrick Trump",
+    role: "Drumcafe.nl",
+    url: "https://www.drumcafe.nl/",
+    title: "Prettige samenwerking",
+    quote: "Prettige samenwerking, korte lijntjes en erg betrokken bij mijn bedrijf.",
+  },
   {
     name: "Monique Schoens",
     logo: parketreusLogo.url,
