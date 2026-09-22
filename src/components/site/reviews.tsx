@@ -61,21 +61,16 @@ export function ReviewsSection({
             ) : null}
             <figcaption className="mt-5 border-t border-brand-line pt-4 text-sm">
               <span className="font-semibold text-brand-ink">{r.name}</span>
-              {r.role ? (
-                <span className="block text-brand-muted">
-                  {r.url ? (
-                    <a
-                      href={r.url}
-                      target="_blank"
-                      rel="noopener"
-                      className="underline underline-offset-2 hover:text-brand-green"
-                    >
-                      {r.role}
-                    </a>
-                  ) : (
-                    r.role
-                  )}
-                </span>
+              {r.role ? <span className="block text-brand-muted">{r.role}</span> : null}
+              {r.url ? (
+                <a
+                  href={r.url}
+                  target="_blank"
+                  rel="noopener"
+                  className="mt-1 inline-block text-brand-green underline underline-offset-2 hover:text-brand-green-dark"
+                >
+                  {new URL(r.url).hostname.replace(/^www\./, "")}
+                </a>
               ) : null}
             </figcaption>
           </figure>
