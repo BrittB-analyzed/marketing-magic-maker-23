@@ -76,6 +76,7 @@ for (const f of CHROME_FILES) {
 
 const blogPaden = [...paginas.values()].filter((p) => p.soort === "blog").map((p) => p.pad);
 const kbPaden = [...paginas.values()].filter((p) => p.soort === "kennisbank").map((p) => p.pad);
+const casePaden = [...paginas.values()].filter((p) => p.soort === "case").map((p) => p.pad);
 
 // Links uit routebestanden. Een template-link als to="/$slug/" wordt in de
 // praktijk uitgerold over de hele collectie en telt dus als een link naar elke
@@ -90,6 +91,15 @@ for (const f of routeFiles) {
   }
   if (/to="\/\$slug\/"/.test(src)) for (const b of blogPaden) voegToe(pad, b);
   if (/to="\/kennisbank\/\$slug\/"/.test(src)) for (const k of kbPaden) voegToe(pad, k);
+  if (/to="\/cases\/\$slug\/"/.test(src)) for (const c of casePaden) voegToe(pad, c);
+}
+
+// De casepagina zelf toont onderaan de andere cases.
+{
+  const src = readFileSync(join(ROOT, "src", "routes", "cases.$slug.tsx"), "utf8");
+  if (/to="\/cases\/\$slug\/"/.test(src)) {
+    for (const van of casePaden) for (const naar of casePaden) voegToe(van, naar);
+  }
 }
 
 // De artikelpagina toont een "meer lezen"-lijst naar de andere artikelen.

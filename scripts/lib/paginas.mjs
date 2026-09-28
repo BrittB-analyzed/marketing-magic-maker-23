@@ -93,6 +93,14 @@ export function verzamelPaginas(root = process.cwd(), nu = new Date()) {
     });
   }
 
+  // Cases draaien op de dynamische route /cases/$slug
+  const caseBestand = join(root, "src", "content", "cases.ts");
+  const caseSrc = readFileSync(caseBestand, "utf8");
+  for (const m of caseSrc.matchAll(/^ {4}slug:\s*"([^"]+)",$/gm)) {
+    const pad = `/cases/${m[1]}/`;
+    paginas.set(pad, { pad, bestand: relative(root, caseBestand), soort: "case" });
+  }
+
   // Kennisbankbegrippen, alleen de begrippen waarvan de publicatiedatum is bereikt
   const kbBestand = join(root, "src", "content", "kennisbank.ts");
   const kbSrc = ["kennisbank.ts", "kennisbank-seo.ts", "kennisbank-marketing.ts"]

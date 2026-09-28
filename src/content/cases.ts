@@ -3,6 +3,7 @@ import logoParketreus from "@/assets/logos/parketreus-logo.avif.asset.json";
 import logoBruidsmode from "@/assets/logos/bruidsmode-outlet.jpg.asset.json";
 import logoVogelvoer from "@/assets/logos/vogelvoerkopenlogo_1.avif.asset.json";
 import logo10euro from "@/assets/logos/10-euro-taxi.png.asset.json";
+import logoVenloTaxi from "@/assets/logos/venlo-taxi-logo.png.asset.json";
 import heroMeubel from "@/assets/cases/meubeloutletweert.jpg.asset.json";
 import rankingsMeubel from "@/assets/cases/rankings-meubel-outlet.jpg.asset.json";
 import heroVanDaken from "@/assets/cases/dakdekker-van-daken.jpg.asset.json";
@@ -779,9 +780,88 @@ export const CASES: Record<string, CaseStudy> = {
       },
     ],
   },
+
+  "venlo-taxi-negen-jaar-nummer-1": {
+    slug: "venlo-taxi-negen-jaar-nummer-1",
+    client: "Venlo Taxi",
+    logo: logoVenloTaxi.url,
+    title: "Negen jaar lang nummer 1 op taxi venlo",
+    description:
+      "Case Venlo Taxi: binnen een jaar van positie 3 naar positie 1 op 'taxi venlo', en die plek negen jaar lang vastgehouden. Inclusief een nieuwe site met ritcalculatie.",
+    excerpt:
+      "Nummer 1 worden is één ding. Het negen jaar blijven is een ander vak. Van positie 3 naar 1 in twaalf maanden, en sindsdien niet meer weggeweest.",
+    services: ["SEO", "Local SEO", "Website", "Content"],
+    period: "2017 – heden",
+    highlights: [
+      { label: "'taxi venlo'", value: "9 jaar positie 1" },
+      { label: "Zoekwoorden in top 5", value: "26 → 106" },
+      { label: "Gerankte zoekwoorden", value: "344 → 1.270" },
+    ],
+    summary: [
+      "Van positie 3 naar positie 1 op 'taxi venlo' binnen twaalf maanden",
+      "Die eerste positie sindsdien onafgebroken vastgehouden",
+      "In de meetdata onafgebroken positie 1 van januari 2021 tot juni 2026: 203 wekelijkse metingen",
+      "Zoekwoorden in de top 5: van 26 naar 106",
+      "Totaal gerankte zoekwoorden: van 344 naar 1.270",
+      "Nieuwe website met ritcalculatie: direct een prijs in plaats van een offerteaanvraag",
+    ],
+    blocks: [
+      {
+        h: "Over de klant",
+        ps: [
+          "Venlo Taxi rijdt personenvervoer in Venlo en de wijde omgeving: ritten binnen de stad, luchthavenvervoer naar Düsseldorf en Weeze, en zakelijk vervoer. Een bedrijf dat het volledig moet hebben van mensen die op dit moment een taxi nodig hebben.",
+          "In die markt bestaat geen overwegingsfase. Iemand zoekt, kijkt naar het eerste resultaat en belt. Wie tweede staat, krijgt een fractie. Wie derde staat, wordt zelden gebeld.",
+        ],
+      },
+      {
+        h: "De uitdaging",
+        ps: [
+          "Bij de start stond Venlo Taxi op positie 3 voor 'taxi venlo'. Dat is precies de vervelendste plek die er is: zichtbaar genoeg om te denken dat het goed gaat, te laag om er iets aan te hebben. Twee concurrenten vingen samen het overgrote deel van de telefoontjes af.",
+          "Het doel was daarom niet 'hoger in Google'. Het doel was die eerste plek, en daarna het lastigere deel: hem houden terwijl concurrenten en Google zelf blijven bewegen.",
+        ],
+      },
+      {
+        h: "Wat we hebben gedaan",
+        ps: [
+          "Het eerste jaar ging over het winnen van de positie. De site is opgebouwd rond de zoekopdrachten waarmee mensen in deze regio daadwerkelijk zoeken: taxi venlo, taxicentrale venlo, taxi blerick, taxi tegelen, en de luchthavenritten naar Düsseldorf en Weeze. Elke rit en elke plaats kreeg een eigen pagina met echte informatie, niet dezelfde tekst met een andere plaatsnaam erin.",
+          "Daarnaast is er een nieuwe website gebouwd met een ritcalculatie erin. Dat is de belangrijkste conversiebeslissing van het hele traject: wie een taxi zoekt, wil een prijs zien, geen offerteformulier. De calculator geeft direct een bedrag, waardoor de bezoeker niet wegklikt naar een concurrent die zijn tarieven wél toont.",
+          "Het Google Bedrijfsprofiel is compleet gemaakt en compleet gehouden, want bij lokale zoekopdrachten staat het kaartresultaat boven de gewone resultaten. Wie daar niet in staat, mist het grootste deel van de klikken, hoe goed de website ook is.",
+        ],
+      },
+      {
+        h: "Het moeilijke deel: negen jaar vasthouden",
+        ps: [
+          "Nummer 1 worden is een project. Nummer 1 blijven is onderhoud, en dat is waar de meeste trajecten stukgaan. In negen jaar heeft Google zijn zoekresultaten meermaals ingrijpend verbouwd, zijn er kaartresultaten en AI-antwoorden bij gekomen, en hebben concurrenten hun eigen sites vernieuwd.",
+          "In de meetdata is dat goed te zien. Van januari 2021 tot juni 2026 registreerde SE Ranking bij 203 opeenvolgende wekelijkse metingen positie 1 voor 'taxi venlo', met één enkele uitschieter. Dat is geen toevalstreffer maar het gevolg van elke maand dezelfde ronde: techniek nalopen, content actueel houden, het bedrijfsprofiel bijwerken en reageren zodra er iets in de zoekresultaten verschuift.",
+        ],
+      },
+      {
+        h: "Wat er eromheen groeide",
+        ps: [
+          "Een eerste positie op één zoekwoord is kwetsbaar. Daarom is de zichtbaarheid in de jaren daarna verbreed naar de rest van de regio en naar de luchthavenritten, zodat het bedrijf niet afhankelijk is van één zoekopdracht.",
+          "Het totale aantal zoekwoorden waarop de site gevonden wordt groeide van driehonderdvierenveertig naar twaalfhonderdzeventig. Het aantal zoekwoorden in de top 5 ging van zesentwintig naar honderdzes. Daarmee komt er verkeer binnen op tientallen ritten en plaatsen naast de kernterm.",
+        ],
+        bullets: [
+          "'taxi venlo': van positie 3 naar 1, en negen jaar behouden",
+          "Zoekwoorden in top 1–5: van 26 naar 106",
+          "Gerankte zoekwoorden totaal: van 344 naar 1.270",
+          "Eigen pagina's voor Blerick, Tegelen, Panningen en de luchthavenritten",
+          "Ritcalculatie op de site: direct een prijs in plaats van een aanvraag",
+        ],
+      },
+      {
+        h: "Wat deze case laat zien",
+        ps: [
+          "De meeste SEO-verhalen gaan over groei in het eerste jaar. Dit verhaal gaat over de acht jaar daarna. Een eerste positie is geen bezit maar een abonnement: je betaalt hem met onderhoud, en zodra je stopt, komt er iemand anders staan.",
+          "Dat is ook de reden dat wij liever doorlopend werken dan in projecten. Niet omdat er elke maand iets spectaculairs gebeurt, maar omdat het opmerken van een verschuiving in week één goedkoper is dan hem repareren in maand zes.",
+        ],
+      },
+    ],
+  },
 };
 
 export const CASE_LIST: CaseStudy[] = [
+  CASES["venlo-taxi-negen-jaar-nummer-1"],
   CASES["steinbrueckner-truckwash-top-5"],
   CASES["med4u-mediation-van-16-naar-1"],
   CASES["6600x-meubel-outlet-nummer-1-in-google"],
