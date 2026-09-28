@@ -46,7 +46,7 @@ function routePathVan(bestand) {
 const gedeeldeSets = new Map();
 {
   const src = readFileSync(join(ROOT, "src", "data", "interne-links.ts"), "utf8");
-  const namen = [...src.matchAll(/export const ([A-Z_]+):\s*InterneLink\[\]\s*=\s*\[/g)];
+  const namen = [...src.matchAll(/export const ([A-Z_]+):\s*(?:InterneLink\[\]|Record<string, InterneLink>)\s*=\s*[[{]/g)];
   for (let i = 0; i < namen.length; i++) {
     const start = namen[i].index;
     const end = i + 1 < namen.length ? namen[i + 1].index : src.length;
@@ -94,11 +94,19 @@ for (const f of routeFiles) {
   if (/to="\/cases\/\$slug\/"/.test(src)) for (const c of casePaden) voegToe(pad, c);
 }
 
-// De casepagina zelf toont onderaan de andere cases.
+// Elke casepagina deelt hetzelfde routebestand: de links daarin (andere cases,
+// de dienstpagina's uit CASE_DIENST_LINKS en de vervolgstappen) staan dus op
+// alle cases. Het bestand zelf is een dynamische route en wordt in de lus
+// hierboven overgeslagen, vandaar deze aparte afhandeling.
 {
   const src = readFileSync(join(ROOT, "src", "routes", "cases.$slug.tsx"), "utf8");
-  if (/to="\/cases\/\$slug\/"/.test(src)) {
-    for (const van of casePaden) for (const naar of casePaden) voegToe(van, naar);
+  const vaste = [...extractLinks(src)];
+  for (const [naam, paden] of gedeeldeSets) {
+    if (new RegExp(`\\b${naam}\\b`).test(src)) vaste.push(...paden);
+  }
+  for (const van of casePaden) {
+    for (const l of vaste) voegToe(van, l);
+    if (/to="\/cases\/\$slug\/"/.test(src)) for (const naar of casePaden) voegToe(van, naar);
   }
 }
 

@@ -1,4 +1,5 @@
 import { SITE_AUTHOR, TWITTER_SITE } from "@/data/seo-meta";
+import { SOCIAL_IMAGE } from "@/data/organisatie";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
@@ -107,7 +108,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Online marketingbureau uit Limburg. 15 jaar ervaring, 9,8 uit 47 reviews en een vast aanspreekpunt in plaats van een accountmanager. Vraag je gratis scan aan.",
       },
       { property: "og:type", content: "website" },
+      // Standaardbeeld voor gedeelde links. Pagina's met een eigen afbeelding
+      // overschrijven dit in hun eigen head.
+      { property: "og:image", content: SOCIAL_IMAGE },
+      { property: "og:locale", content: "nl_NL" },
+      { property: "og:site_name", content: "B. Analyzed" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:image", content: SOCIAL_IMAGE },
       { name: "twitter:site", content: TWITTER_SITE },
     ],
     links: [

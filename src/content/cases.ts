@@ -52,6 +52,8 @@ export type CaseStudy = {
   imageAlt?: string;
   services: string[];
   period: string;
+  /** Publicatiedatum van de case, voor de datums in de Article-markup. */
+  datum?: string;
   highlights: { label: string; value: string }[];
   summary: string[];
   blocks: CaseBlock[];
@@ -517,6 +519,7 @@ export const CASES: Record<string, CaseStudy> = {
       "Twintig zoekopdrachten per maand, en een orderwaarde van meer dan € 75.000,-. In twaalf maanden van één naar achtentwintig zoekwoorden in de top 5, en nummer 1 op vrijwel elke term die telt.",
     services: ["SEO", "Technische SEO", "Content", "GEO"],
     period: "januari 2025 – januari 2026",
+    datum: "2026-09-28",
     highlights: [
       { label: "Zoekwoorden in top 5", value: "1 → 28" },
       { label: "Organisch verkeer", value: "+733%" },
@@ -595,6 +598,7 @@ export const CASES: Record<string, CaseStudy> = {
       "Een mediationpraktijk die online nauwelijks bestond. Twee jaar later: nummer 1 op het belangrijkste zoekwoord van de regio en tweeëntwintig keer zoveel organisch verkeer.",
     services: ["SEO", "Content", "Local SEO", "GEO"],
     period: "februari 2024 – februari 2026",
+    datum: "2026-09-28",
     highlights: [
       { label: "Organisch verkeer", value: "4 → 89 p/m" },
       { label: "mediation asten", value: "positie 16 → 1" },
@@ -664,6 +668,7 @@ export const CASES: Record<string, CaseStudy> = {
       "Eén zoekwoord bepaalt in deze markt vrijwel de hele vraag. Taxicentrale Veghel pakte het, en houdt sindsdien 86% van alle klikken die erop vallen.",
     services: ["SEO", "Local SEO", "Content"],
     period: "januari 2023 – mei 2024",
+    datum: "2026-09-28",
     highlights: [
       { label: "'taxi veghel'", value: "positie 1" },
       { label: "Aandeel van alle klikken", value: "86%" },
@@ -733,6 +738,7 @@ export const CASES: Record<string, CaseStudy> = {
       "In een stad waar prijs het zoekwoord is, wonnen we de drie zoekopdrachten die daar allemaal over gaan. Plus vijfhonderd extra zoekwoorden eromheen.",
     services: ["SEO", "Local SEO", "Content"],
     period: "januari 2023 – januari 2025",
+    datum: "2026-09-28",
     highlights: [
       { label: "Zoekwoorden in top 5", value: "88 → 114" },
       { label: "Nummer 1-posities", value: "3 kernzoekwoorden" },
@@ -794,6 +800,7 @@ export const CASES: Record<string, CaseStudy> = {
       "Nummer 1 worden is één ding. Het negen jaar blijven is een ander vak. Van positie 3 naar 1 in twaalf maanden, en sindsdien niet meer weggeweest.",
     services: ["SEO", "Local SEO", "Website", "Content"],
     period: "2017 – heden",
+    datum: "2026-09-28",
     highlights: [
       { label: "'taxi venlo'", value: "9 jaar positie 1" },
       { label: "Zoekwoorden in top 5", value: "26 → 106" },
@@ -871,6 +878,7 @@ export const CASES: Record<string, CaseStudy> = {
       "Wanddecoratie is een markt zonder merkvoorkeur: mensen zoeken op het product, niet op de winkel. Vier jaar later staat World of Art op nummer 1 op zes van die productzoekwoorden.",
     services: ["SEO", "Content", "E-commerce SEO"],
     period: "januari 2021 – december 2024",
+    datum: "2026-09-28",
     highlights: [
       { label: "Nummer 1-posities", value: "6 zoekwoorden" },
       { label: "Zoekwoorden in top 5", value: "58 → 209" },
