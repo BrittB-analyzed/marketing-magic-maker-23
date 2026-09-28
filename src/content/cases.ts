@@ -514,19 +514,20 @@ export const CASES: Record<string, CaseStudy> = {
     description:
       "Case Steinbrückner: in twaalf maanden van 1 naar 28 zoekwoorden in de top 5, acht nummer 1-posities op truckwash-installaties en 733% meer organisch verkeer.",
     excerpt:
-      "Een B2B-markt met kleine zoekvolumes en grote orders. In twaalf maanden van één naar achtentwintig zoekwoorden in de top 5, en nummer 1 op vrijwel elke term die telt.",
+      "Twintig zoekopdrachten per maand, en een orderwaarde van meer dan € 75.000,-. In twaalf maanden van één naar achtentwintig zoekwoorden in de top 5, en nummer 1 op vrijwel elke term die telt.",
     services: ["SEO", "Technische SEO", "Content", "GEO"],
     period: "januari 2025 – januari 2026",
     highlights: [
       { label: "Zoekwoorden in top 5", value: "1 → 28" },
       { label: "Organisch verkeer", value: "+733%" },
-      { label: "Auditscore", value: "89/100" },
+      { label: "Orderwaarde per installatie", value: "€ 75.000+" },
     ],
     summary: [
       "Zoekwoorden in de top 5: van 1 naar 28 in twaalf maanden",
       "Totaal gerankte zoekwoorden: van 65 naar 348 (+435%)",
       "Geschat organisch verkeer: van 6 naar 50 bezoekers per maand (+733%)",
       "Nummer 1 op acht commerciële zoekwoorden rond truckwash-installaties",
+      "Eén order in deze markt vertegenwoordigt een waarde van meer dan € 75.000,-",
       "Geciteerd als bron in Google's AI Overview op meerdere zoekopdrachten",
       "Technische auditscore 89 van 100, met 4 fouten op 40 pagina's",
     ],
@@ -535,7 +536,8 @@ export const CASES: Record<string, CaseStudy> = {
         h: "Over de klant",
         ps: [
           "Steinbrückner Nederland levert wasinstallaties voor vrachtwagens: vaste wasstraten, mobiele truckwash-units en borstelsystemen voor bedrijfsvoertuigen. De klanten zijn transportbedrijven, logistieke dienstverleners en wagenparkbeheerders.",
-          "Dat is een markt met een ongemakkelijke eigenschap voor wie naar zoekvolumes kijkt: op de belangrijkste zoekwoorden wordt twintig tot dertig keer per maand gezocht. Geen enkel bureau wordt daar enthousiast van, tot je doorrekent wat één installatie oplevert. [INVULLEN: gemiddelde orderwaarde van een truckwash-installatie bij Steinbrückner.]",
+          "Dat is een markt met een ongemakkelijke eigenschap voor wie naar zoekvolumes kijkt: op de belangrijkste zoekwoorden wordt twintig tot dertig keer per maand gezocht. Geen enkel bureau wordt daar enthousiast van, tot je doorrekent wat er achter zo'n zoekopdracht zit. Eén installatie vertegenwoordigt bij Steinbrückner een orderwaarde van meer dan € 75.000,-.",
+          "Daarmee kantelt de hele rekensom. Twintig zoekopdrachten per maand zijn tweehonderdveertig per jaar. Wie daar één klant uit haalt, heeft het volledige SEO-traject een veelvoud terugverdiend. Zoekvolume zegt in deze markt niets; orderwaarde zegt alles.",
         ],
       },
       {
