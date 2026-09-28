@@ -858,10 +858,87 @@ export const CASES: Record<string, CaseStudy> = {
       },
     ],
   },
+
+  "world-of-art-wereldkaarten": {
+    slug: "world-of-art-wereldkaarten",
+    client: "World of Art",
+    title: "Zes nummer 1-posities in een markt waar niemand op merknaam zoekt",
+    description:
+      "Case World of Art: vier jaar lang de metalen wereldkaarten volledig gewonnen, en meevechten om de top 3 op zoekwoorden met duizend zoekopdrachten per maand.",
+    excerpt:
+      "Wanddecoratie is een markt zonder merkvoorkeur: mensen zoeken op het product, niet op de winkel. Vier jaar later staat World of Art op nummer 1 op zes van die productzoekwoorden.",
+    services: ["SEO", "Content", "E-commerce SEO"],
+    period: "januari 2021 – december 2024",
+    highlights: [
+      { label: "Nummer 1-posities", value: "6 zoekwoorden" },
+      { label: "Zoekwoorden in top 5", value: "58 → 209" },
+      { label: "Meetpunten", value: "204 metingen" },
+    ],
+    summary: [
+      "Zes zoekwoorden op positie 1, waaronder 'wereldkaart metaal' (170 zoekopdrachten per maand)",
+      "Top 3 op 'houten wereldkaart' en 'wereldkaart hout', beide 1.000 zoekopdrachten per maand",
+      "Zoekwoorden in de top 5 domeinbreed: van 58 naar 209 op het hoogtepunt",
+      "Elk van de vijftien kernzoekwoorden stond op enig moment in de top 5",
+      "Vier jaar onafgebroken gemeten: 204 wekelijkse metingen tussen januari 2021 en december 2024",
+    ],
+    blocks: [
+      {
+        h: "Over de klant",
+        ps: [
+          "World of Art verkoopt wanddecoratie: wereldkaarten en landkaarten uitgevoerd in hout en in metaal, in verschillende afwerkingen van koper tot brons. Een webshop in een markt waar vrijwel niemand op merknaam zoekt.",
+          "Dat is bepalend voor de hele strategie. Wie een houten wereldkaart aan de muur wil, tikt 'houten wereldkaart' in en kiest uit wat er staat. Er is geen winkel waar men naartoe gaat en geen merk dat men zoekt. De zoekresultatenpagina ís de etalage, en je positie daarin is je aandeel in de markt.",
+        ],
+      },
+      {
+        h: "De uitdaging",
+        ps: [
+          "In januari 2021 stond de webshop op geen enkel kernzoekwoord op de eerste plek. Op de twee zoekopdrachten die de markt dragen, 'houten wereldkaart' en 'wereldkaart hout' met elk duizend zoekopdrachten per maand, stond World of Art op positie 4 en 6. Dat is de onderkant van pagina één: zichtbaar, maar met een fractie van de klikken die naar de top 3 gaan.",
+          "Tegelijk lag er een kans die de concurrentie liet liggen. De metaalvarianten, wereldkaart metaal, wereldkaart koper, wereldkaart brons, wereldkaart zilver, hadden lagere volumes maar ook nauwelijks serieuze tegenstand. Precies het soort zoekwoorden waarop je eerst kunt winnen voordat je het zware gevecht aangaat.",
+        ],
+      },
+      {
+        h: "Wat we hebben gedaan",
+        ps: [
+          "We zijn begonnen bij de metaalkant. Elke uitvoering kreeg een eigen pagina met een eigen zoekvraag: niet één categoriepagina voor 'metalen wereldkaarten' met varianten eronder, maar aparte pagina's voor koper, brons, zilver en metaal, elk met eigen foto's, eigen maten en eigen tekst.",
+          "Dat is meer werk dan één pagina, en het is de reden dat concurrenten het niet deden. Het effect was direct: op de metaalzoekwoorden schoof World of Art binnen afzienbare tijd naar de eerste plek en bleef daar.",
+          "Pas daarna is de houtkant aangepakt, waar de concurrentie een stuk zwaarder is. Daar ging het niet om nieuwe pagina's maar om de bestaande pagina's beter maken dan die van de concurrent: productinformatie hoger op de pagina, maatvoering en houtsoort expliciet benoemd, en de vragen beantwoord die mensen bij zo'n aankoop stellen. Ophangen, formaat, onderhoud.",
+        ],
+      },
+      {
+        h: "De resultaten",
+        ps: [
+          "Aan het eind van de meetperiode stond World of Art op positie 1 voor wereldkaart metaal, wereldkaart koper, wereldkaart brons en wereldkaart metaal muur, en op positie 2 voor metalen wereldkaart en luxe houten wereldkaart. De metaalcategorie was daarmee vrijwel volledig gewonnen.",
+          "Op de zware houtzoekwoorden is de positie verbeterd naar de top 3 en top 5: 'houten wereldkaart' van 4 naar 3, 'wereldkaart hout' van 6 naar 5, met positie 1 respectievelijk 2 als beste gemeten stand. Domeinbreed groeide het aantal zoekwoorden in de top 5 van achtenvijftig naar tweehonderdnegen op het hoogtepunt.",
+        ],
+        bullets: [
+          "'wereldkaart metaal' (170 p/m): van positie 4 naar 1",
+          "'wereldkaart koper' en 'wereldkaart brons': positie 1, vier jaar vastgehouden",
+          "'wereldkaart metaal muur' (20 p/m): van positie 4 naar 1",
+          "'metalen wereldkaart' (140 p/m): positie 2, met 1 als beste stand",
+          "'houten wereldkaart' (1.000 p/m): van positie 4 naar 3",
+          "'wereldkaart hout' (1.000 p/m): van positie 6 naar 5",
+        ],
+      },
+      {
+        h: "Wat deze case laat zien",
+        ps: [
+          "De volgorde was hier belangrijker dan de inspanning. Door eerst de categorie te winnen waar de concurrentie zwak was, bouwde de webshop autoriteit op het onderwerp wereldkaarten op. Die autoriteit maakte het daarna makkelijker om mee te doen op de zoekwoorden waar wel om gevochten wordt.",
+          "Andersom beginnen is de meest gemaakte fout in e-commerce SEO: maandenlang beuken op het zoekwoord met het hoogste volume, terwijl de makkelijke categorie ernaast onaangeroerd blijft liggen.",
+        ],
+      },
+      {
+        h: "Onderbouwing",
+        ps: [
+          "Alle posities in deze case komen uit de positiemeting van vijftien kernzoekwoorden, wekelijks gemeten tussen 5 januari 2021 en 3 december 2024. Dat zijn 204 meetmomenten per zoekwoord, geregistreerd op Google Nederland met Limburg als locatie.",
+        ],
+      },
+    ],
+  },
 };
 
 export const CASE_LIST: CaseStudy[] = [
   CASES["venlo-taxi-negen-jaar-nummer-1"],
+  CASES["world-of-art-wereldkaarten"],
   CASES["steinbrueckner-truckwash-top-5"],
   CASES["med4u-mediation-van-16-naar-1"],
   CASES["6600x-meubel-outlet-nummer-1-in-google"],
