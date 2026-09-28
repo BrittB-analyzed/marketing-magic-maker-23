@@ -57,12 +57,24 @@ function CaseDetail() {
                 className="mb-6 h-10 w-auto max-w-[180px] object-contain object-left"
               />
             ) : null}
-            <img
-              src={study.image}
-              alt={study.imageAlt}
-              loading="lazy"
-              className="aspect-[16/9] w-full rounded-2xl border border-brand-line object-cover"
-            />
+            {study.image ? (
+              <img
+                src={study.image}
+                alt={study.imageAlt ?? study.client}
+                loading="lazy"
+                className="aspect-[16/9] w-full rounded-2xl border border-brand-line object-cover"
+              />
+            ) : (
+              // Nog geen beeldmateriaal: open dan met de cijfers, niet met een gat.
+              <div className="grid gap-6 rounded-2xl border border-brand-line bg-brand-sand p-8 sm:grid-cols-3">
+                {study.highlights.map((h) => (
+                  <div key={h.label}>
+                    <p className="text-3xl font-semibold tracking-tight text-brand-green">{h.value}</p>
+                    <p className="mt-1 text-sm leading-snug text-brand-muted">{h.label}</p>
+                  </div>
+                ))}
+              </div>
+            )}
             <div className="mt-10 space-y-8">
               {study.blocks.map((b: CaseBlock, i: number) => (
                 <div key={i}>

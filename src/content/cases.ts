@@ -2,6 +2,7 @@ import logoMeubel from "@/assets/logos/meubeloutletweert-logo.avif.asset.json";
 import logoParketreus from "@/assets/logos/parketreus-logo.avif.asset.json";
 import logoBruidsmode from "@/assets/logos/bruidsmode-outlet.jpg.asset.json";
 import logoVogelvoer from "@/assets/logos/vogelvoerkopenlogo_1.avif.asset.json";
+import logo10euro from "@/assets/logos/10-euro-taxi.png.asset.json";
 import heroMeubel from "@/assets/cases/meubeloutletweert.jpg.asset.json";
 import rankingsMeubel from "@/assets/cases/rankings-meubel-outlet.jpg.asset.json";
 import heroVanDaken from "@/assets/cases/dakdekker-van-daken.jpg.asset.json";
@@ -42,8 +43,12 @@ export type CaseStudy = {
   title: string;
   description: string;
   excerpt: string;
-  image: string;
-  imageAlt: string;
+  /**
+   * Hero-afbeelding. Ontbreekt die, dan tonen de casepagina en het overzicht
+   * de highlights als opener in plaats van een gebroken afbeelding.
+   */
+  image?: string;
+  imageAlt?: string;
   services: string[];
   period: string;
   highlights: { label: string; value: string }[];
@@ -500,9 +505,285 @@ export const CASES: Record<string, CaseStudy> = {
       },
     ],
   },
+
+  "steinbrueckner-truckwash-top-5": {
+    slug: "steinbrueckner-truckwash-top-5",
+    client: "Steinbrückner Nederland",
+    title: "Van 1 naar 28 zoekwoorden in de top 5 in twaalf maanden",
+    description:
+      "Case Steinbrückner: in twaalf maanden van 1 naar 28 zoekwoorden in de top 5, acht nummer 1-posities op truckwash-installaties en 733% meer organisch verkeer.",
+    excerpt:
+      "Een B2B-markt met kleine zoekvolumes en grote orders. In twaalf maanden van één naar achtentwintig zoekwoorden in de top 5, en nummer 1 op vrijwel elke term die telt.",
+    services: ["SEO", "Technische SEO", "Content", "GEO"],
+    period: "januari 2025 – januari 2026",
+    highlights: [
+      { label: "Zoekwoorden in top 5", value: "1 → 28" },
+      { label: "Organisch verkeer", value: "+733%" },
+      { label: "Auditscore", value: "89/100" },
+    ],
+    summary: [
+      "Zoekwoorden in de top 5: van 1 naar 28 in twaalf maanden",
+      "Totaal gerankte zoekwoorden: van 65 naar 348 (+435%)",
+      "Geschat organisch verkeer: van 6 naar 50 bezoekers per maand (+733%)",
+      "Nummer 1 op acht commerciële zoekwoorden rond truckwash-installaties",
+      "Geciteerd als bron in Google's AI Overview op meerdere zoekopdrachten",
+      "Technische auditscore 89 van 100, met 4 fouten op 40 pagina's",
+    ],
+    blocks: [
+      {
+        h: "Over de klant",
+        ps: [
+          "Steinbrückner Nederland levert wasinstallaties voor vrachtwagens: vaste wasstraten, mobiele truckwash-units en borstelsystemen voor bedrijfsvoertuigen. De klanten zijn transportbedrijven, logistieke dienstverleners en wagenparkbeheerders.",
+          "Dat is een markt met een ongemakkelijke eigenschap voor wie naar zoekvolumes kijkt: op de belangrijkste zoekwoorden wordt twintig tot dertig keer per maand gezocht. Geen enkel bureau wordt daar enthousiast van, tot je doorrekent wat één installatie oplevert. [INVULLEN: gemiddelde orderwaarde van een truckwash-installatie bij Steinbrückner.]",
+        ],
+      },
+      {
+        h: "De uitdaging",
+        ps: [
+          "In januari 2025 stond de website op precies één zoekwoord in de top 5 en op vierenzestig andere ergens daarachter. Het geschatte organische verkeer lag op zes bezoekers per maand. Voor een bedrijf dat zijn omzet uit een handvol grote orders haalt, betekende dat: wie niet toevallig de merknaam kende, kwam er nooit.",
+          "De onderliggende oorzaak was niet technisch maar structureel. De site had wel pagina's, maar geen pagina die één specifieke zoekvraag volledig beantwoordde. Wie zocht op 'truckwash installatie' kwam op een algemene productpagina die ook over borstels en over mobiele units ging, en dus over geen van drieën overtuigend was.",
+        ],
+      },
+      {
+        h: "Wat we hebben gedaan",
+        ps: [
+          "We zijn begonnen met het uit elkaar trekken van de zoekvragen. Elk onderwerp kreeg een eigen pagina met een eigen belofte: truckwash-installatie, wasstraat kopen, mobiele truckwash, wasstraat voor vrachtwagens, bedrijfsvoertuigreiniging. Niet vijf varianten van dezelfde tekst, maar vijf pagina's die elk een andere aankoopvraag beantwoorden.",
+          "Elke pagina opent met het antwoord in de eerste alinea, gevolgd door de bijvragen als koppen: wat kost het, wat is het verschil met een vaste wasstraat, hoeveel ruimte heb je nodig, hoe lang duurt de installatie. Dat is dezelfde opbouw die een verkoopgesprek heeft, en precies de opbouw waar zowel Google als AI-antwoordmachines een los citaat uit kunnen halen.",
+          "Daarnaast is de technische basis opgeruimd: indexering, laadtijd, interne links van de sterke pagina's naar de pagina's die net buiten bereik stonden, en schema-markup zodat machines konden lezen wat er op de pagina stond.",
+        ],
+      },
+      {
+        h: "De resultaten",
+        ps: [
+          "Twaalf maanden later stonden er achtentwintig zoekwoorden in de top 5 en negentien in de top 6 tot 10. Het totale aantal zoekwoorden waarop de site gevonden wordt groeide van vijfenzestig naar driehonderdachtenveertig, een toename van 435%. Het geschatte organische verkeer ging van zes naar vijftig bezoekers per maand.",
+          "Belangrijker dan de aantallen is wélke posities het zijn. Steinbrückner staat op nummer 1 op truckwash installatie, wasinstallatie vrachtwagen, vrachtwagen wasstraat kopen, mobiele truckwash installatie, truckwash installaties, truckwash te koop, wasstraat installatie kopen en truck wash for sale. Dat is vrijwel de complete set zoekopdrachten waarmee een koper in deze markt zoekt.",
+        ],
+        bullets: [
+          "Zoekwoorden in top 1–5: van 1 naar 28",
+          "Zoekwoorden in top 6–10: van 4 naar 19",
+          "Gerankte zoekwoorden totaal: van 65 naar 348",
+          "Geschat organisch verkeer: van 6 naar 50 per maand",
+          "Geschatte waarde van dat verkeer: van € 1,50 naar € 25,74 per maand",
+        ],
+      },
+      {
+        h: "Ook genoemd in AI-antwoorden",
+        ps: [
+          "Op zoekopdrachten als 'truckwash installatie', 'wasinstallatie vrachtwagen' en 'truckwash te koop' wordt Steinbrückner inmiddels geciteerd in de AI Overview van Google: het samengevatte antwoord bovenaan de zoekresultaten, met bronvermelding.",
+          "Dat is geen toeval en ook geen aparte dienst. Het is het gevolg van dezelfde keuze als hierboven: een pagina die de vraag in één afgebakende alinea beantwoordt, is een pagina die een AI-systeem kan overnemen. Wie zijn antwoord pas in alinea vijf geeft, komt er niet in.",
+        ],
+      },
+      {
+        h: "De technische basis",
+        ps: [
+          "Bij de laatste audit scoorde de site 89 van de 100, met vier fouten op veertig gecrawlde pagina's. Dat is geen doel op zich, maar het is wel de voorwaarde: een pagina die niet goed geïndexeerd wordt, kan nergens op ranken, hoe goed de tekst ook is.",
+        ],
+      },
+    ],
+  },
+
+  "med4u-mediation-van-16-naar-1": {
+    slug: "med4u-mediation-van-16-naar-1",
+    client: "Med4U mediation",
+    title: "Van positie 16 naar 1, en 22 keer zoveel organisch verkeer",
+    description:
+      "Case Med4U: in twee jaar van 4 naar 89 organische bezoekers per maand, nummer 1 op mediation asten en geciteerd in Google's AI Overview.",
+    excerpt:
+      "Een mediationpraktijk die online nauwelijks bestond. Twee jaar later: nummer 1 op het belangrijkste zoekwoord van de regio en tweeëntwintig keer zoveel organisch verkeer.",
+    services: ["SEO", "Content", "Local SEO", "GEO"],
+    period: "februari 2024 – februari 2026",
+    highlights: [
+      { label: "Organisch verkeer", value: "4 → 89 p/m" },
+      { label: "mediation asten", value: "positie 16 → 1" },
+      { label: "Zoekwoorden in top 10", value: "24 → 49" },
+    ],
+    summary: [
+      "Geschat organisch verkeer: van 4 naar 89 bezoekers per maand",
+      "Nummer 1 op 'mediation asten' (170 zoekopdrachten per maand), van positie 16",
+      "Zoekwoorden in de top 10: van 24 naar 49",
+      "Totaal gerankte zoekwoorden: van 247 naar 743 (+201%)",
+      "Geschatte waarde van het organische verkeer: van € 2 naar € 191 per maand",
+      "Geciteerd in Google's AI Overview op meerdere inhoudelijke zoekvragen",
+    ],
+    blocks: [
+      {
+        h: "Over de klant",
+        ps: [
+          "Med4U is een mediationpraktijk die werkt in de regio Asten, Someren en de wijde omgeving daaromheen. Het werk bestaat uit scheidingsbemiddeling, arbeidsmediation en conflictbegeleiding: dienstverlening waarbij mensen pas gaan zoeken op het moment dat het echt nodig is.",
+          "Dat maakt de zoekvraag klein maar loodzwaar. Iemand die zoekt op 'mediation asten' heeft geen informatiebehoefte, die heeft een probleem. Wie op dat moment niet bovenaan staat, bestaat niet.",
+        ],
+      },
+      {
+        h: "De uitdaging",
+        ps: [
+          "In februari 2024 stond Med4U op positie 16 voor het belangrijkste lokale zoekwoord. Het geschatte organische verkeer lag op vier bezoekers per maand. Er stonden wel tweehonderdzevenenveertig zoekwoorden geregistreerd, maar het overgrote deel daarvan stond op pagina twee, drie of verder: zichtbaar in een rapport, onzichtbaar voor een klant.",
+          "Tegelijk was er wél inhoud. De praktijk schreef al over de onderwerpen waar mensen middenin een scheiding mee zitten. Die content stond alleen zo op de site dat noch een zoeker, noch Google er goed uit kon halen welke vraag er nu precies beantwoord werd.",
+        ],
+      },
+      {
+        h: "Wat we hebben gedaan",
+        ps: [
+          "We hebben de site langs twee sporen aangepakt. Het eerste spoor is lokaal: een heldere plaatsstructuur voor Asten, Someren en de omliggende gemeenten, met per plaats een pagina die daadwerkelijk iets zegt over die plaats in plaats van dezelfde tekst met een andere plaatsnaam. Daarnaast het Google Bedrijfsprofiel op orde, want bij deze zoekvraag verschijnt vrijwel altijd een kaartresultaat boven de gewone resultaten.",
+          "Het tweede spoor is inhoudelijk. De bestaande artikelen zijn herschreven rond de vragen die mensen letterlijk intikken: wat kost mediation, wat is het uurtarief van een mediator, hoe verdeel je de inboedel, wat is de gemiddelde waarde van een inboedel bij een scheiding. Elke vraag kreeg zijn eigen kop met het antwoord er direct onder.",
+          "Dat laatste is het deel dat het meeste heeft opgeleverd, en het is ook het minst spectaculaire werk: geen nieuwe site, geen campagne, maar bestaande kennis zo opschrijven dat hij vindbaar wordt.",
+        ],
+      },
+      {
+        h: "De resultaten",
+        ps: [
+          "Twee jaar later staat Med4U op nummer 1 voor 'mediation asten', het zoekwoord waarmee het traject begon op positie 16. Ook op 'mediation someren' staat de praktijk eerste. Het geschatte organische verkeer groeide van vier naar negenentachtig bezoekers per maand: een vertwintigvoudiging.",
+          "Het aantal zoekwoorden in de top 10 ging van vierentwintig naar negenenveertig, en het totale aantal zoekwoorden waarop de site gevonden wordt van tweehonderdzevenenveertig naar zevenhonderddrieënveertig. De geschatte waarde van dat verkeer, oftewel wat je ervoor zou betalen via advertenties, liep op van twee euro naar honderdeenennegentig euro per maand.",
+        ],
+        bullets: [
+          "'mediation asten' (170 p/m): van positie 16 naar 1",
+          "'mediation someren' (50 p/m): positie 1",
+          "Geschat organisch verkeer: van 4 naar 89 per maand",
+          "Zoekwoorden in top 1–5: van 13 naar 29",
+          "Gerankte zoekwoorden totaal: van 247 naar 743",
+        ],
+      },
+      {
+        h: "De artikelen die AI overneemt",
+        ps: [
+          "Op zoekvragen als 'verdelen inboedel', 'gemiddelde waarde inboedel bij scheiding' en 'uurtarief mediator' wordt Med4U geciteerd in de AI Overview van Google. Dat zijn geen commerciële zoekwoorden, maar ze doen precies wat content hoort te doen: iemand die midden in een scheiding zit, komt de praktijk tegen op het moment dat hij een vraag heeft, en niet pas op het moment dat hij een mediator zoekt.",
+        ],
+      },
+    ],
+  },
+
+  "taxicentrale-veghel-nummer-1": {
+    slug: "taxicentrale-veghel-nummer-1",
+    client: "Taxicentrale Veghel",
+    title: "Nummer 1 op taxi veghel, goed voor 86% van alle klikken",
+    description:
+      "Case Taxicentrale Veghel: nummer 1 op taxi veghel en vier verwante zoekwoorden, met 86% van alle klikken op de belangrijkste term van de regio.",
+    excerpt:
+      "Eén zoekwoord bepaalt in deze markt vrijwel de hele vraag. Taxicentrale Veghel pakte het, en houdt sindsdien 86% van alle klikken die erop vallen.",
+    services: ["SEO", "Local SEO", "Content"],
+    period: "januari 2023 – mei 2024",
+    highlights: [
+      { label: "'taxi veghel'", value: "positie 1" },
+      { label: "Aandeel van alle klikken", value: "86%" },
+      { label: "Organisch verkeer", value: "+136%" },
+    ],
+    summary: [
+      "Nummer 1 op 'taxi veghel' (480 zoekopdrachten per maand)",
+      "86% van alle klikken op dat zoekwoord komt bij Taxicentrale Veghel terecht",
+      "Ook nummer 1 op taxibedrijf veghel, veghel taxi, taxi centrale veghel en taxicentrale veghel",
+      "Geschat organisch verkeer: van 22 naar 52 bezoekers per maand (+136%)",
+      "Gerankte zoekwoorden: van 15 naar 34",
+      "Piek in het najaar van 2023: een verkeerswaarde van ruim € 110 per maand",
+    ],
+    blocks: [
+      {
+        h: "Over de klant",
+        ps: [
+          "Taxicentrale Veghel rijdt personenvervoer, zakelijk vervoer en luchthavenritten in Veghel en omgeving. Een lokale dienstverlener in een markt waarin de klantvraag zich concentreert op een handvol zoekopdrachten.",
+        ],
+      },
+      {
+        h: "De uitdaging",
+        ps: [
+          "In januari 2023 stond de site op vijftien zoekwoorden, waarvan zeven in de top 5. Het geschatte organische verkeer lag op tweeëntwintig bezoekers per maand. Het probleem was niet dat er niets stond, maar dat de site nauwelijks bereik had buiten de eigen bedrijfsnaam.",
+          "In deze branche is dat een reëel omzetprobleem. Wie een taxi nodig heeft, zoekt, kijkt naar de eerste twee resultaten en belt. De derde plek levert een fractie op van wat de eerste oplevert, en de tweede pagina levert niets op.",
+        ],
+      },
+      {
+        h: "Wat we hebben gedaan",
+        ps: [
+          "De aanpak was smal en diep in plaats van breed. In plaats van tientallen pagina's voor tientallen zoekwoorden, hebben we de site laten winnen op de zoekopdracht die er in deze markt het meest toe doet: 'taxi veghel', met vierhonderdtachtig zoekopdrachten per maand.",
+          "Dat betekende de homepage volledig op die zoekvraag inrichten, de dienstpagina's voor luchthavenvervoer en zakelijk vervoer daaronder hangen, en het Google Bedrijfsprofiel zo compleet maken dat de centrale ook in het kaartresultaat bovenaan verschijnt. Bij lokale zoekopdrachten staan die kaartresultaten boven de gewone resultaten, dus wie daar niet in staat, mist het grootste deel van de klikken.",
+        ],
+      },
+      {
+        h: "De resultaten",
+        ps: [
+          "Taxicentrale Veghel staat op nummer 1 voor 'taxi veghel' en vangt daarmee 86% van alle klikken op die zoekopdracht. Dat cijfer is de kern van deze case: het gaat niet om zichtbaarheid maar om marktaandeel op de zoekopdracht die de hele lokale vraag draagt.",
+          "Daarnaast staat de centrale eerste op taxibedrijf veghel, veghel taxi, taxi centrale veghel en taxicentrale veghel, en in de top 3 op zakelijk vervoer veghel en luchthaven taxi veghel. Het geschatte organische verkeer groeide in de periode van tweeëntwintig naar tweeënvijftig bezoekers per maand, met een piek in het najaar van 2023 waarin het verkeer een geschatte advertentiewaarde van ruim honderdtien euro per maand vertegenwoordigde.",
+        ],
+        bullets: [
+          "'taxi veghel' (480 p/m): positie 1, met 86% van alle klikken",
+          "'taxibedrijf veghel', 'veghel taxi', 'taxi centrale veghel': positie 1",
+          "'zakelijk vervoer veghel': positie 3 · 'luchthaven taxi veghel': positie 2",
+          "Geschat organisch verkeer: van 22 naar 52 per maand",
+          "Gerankte zoekwoorden: van 15 naar 34",
+        ],
+      },
+      {
+        h: "Wat deze case laat zien",
+        ps: [
+          "Niet elke markt vraagt om honderden zoekwoorden. In een lokale dienstverlening met één dominante zoekopdracht is het verstandiger om die ene opdracht volledig te winnen dan om breed zichtbaar te worden op termen die niemand intikt.",
+          "Dat maakt het traject ook goedkoper. Er hoefde geen contentfabriek te draaien; er moest één pagina beter zijn dan die van de concurrent, en één bedrijfsprofiel completer.",
+        ],
+      },
+    ],
+  },
+
+  "10-euro-taxi-den-bosch": {
+    slug: "10-euro-taxi-den-bosch",
+    client: "10 Euro Taxi",
+    logo: logo10euro.url,
+    title: "Drie nummer 1-posities op de zoekwoorden die Den Bosch bepalen",
+    description:
+      "Case 10 Euro Taxi: nummer 1 op goedkope taxi den bosch en twee verwante termen, met een groei van 88 naar 114 zoekwoorden in de top 5.",
+    excerpt:
+      "In een stad waar prijs het zoekwoord is, wonnen we de drie zoekopdrachten die daar allemaal over gaan. Plus vijfhonderd extra zoekwoorden eromheen.",
+    services: ["SEO", "Local SEO", "Content"],
+    period: "januari 2023 – januari 2025",
+    highlights: [
+      { label: "Zoekwoorden in top 5", value: "88 → 114" },
+      { label: "Nummer 1-posities", value: "3 kernzoekwoorden" },
+      { label: "Gerankte zoekwoorden", value: "1.471 → 2.001" },
+    ],
+    summary: [
+      "Nummer 1 op 'goedkope taxi den bosch', 'taxi den bosch goedkoop' en 'goedkoopste taxi den bosch'",
+      "Zoekwoorden in de top 5: van 88 naar 114",
+      "Totaal gerankte zoekwoorden: van 1.471 naar 2.001 (+36%)",
+      "Positie 3 op 'taxi vught' en 'vught taxi' (320 zoekopdrachten per maand)",
+      "Zichtbaar in het kaartresultaat op de belangrijkste lokale zoekopdrachten",
+    ],
+    blocks: [
+      {
+        h: "Over de klant",
+        ps: [
+          "10 Euro Taxi rijdt personenvervoer in 's-Hertogenbosch en de omliggende gemeenten, met een propositie die in de naam zit: een vaste, lage ritprijs. Dat is een scherpe positionering, en het is precies de positionering waar de lokale zoekvraag ook om draait.",
+        ],
+      },
+      {
+        h: "De uitdaging",
+        ps: [
+          "Bij de start in januari 2023 stond de site al op ruim veertienhonderd zoekwoorden, waarvan achtentachtig in de top 5. Er was dus een fundament. Wat ontbrak was dominantie op de zoekopdrachten waar de propositie van het bedrijf letterlijk over gaat: de varianten rond 'goedkope taxi den bosch'.",
+          "Dat is een herkenbaar patroon bij sites die organisch gegroeid zijn. Er staat veel, er rankt veel, maar juist op de handvol termen met de scherpste koopintentie staat de concurrent boven je.",
+        ],
+      },
+      {
+        h: "Wat we hebben gedaan",
+        ps: [
+          "We zijn begonnen bij de prijszoekwoorden. Er kwam een pagina die expliciet over goedkoop taxivervoer in Den Bosch gaat, met de tarieven zichtbaar op de pagina in plaats van achter een aanvraagformulier. Dat is in deze markt het verschil: wie op prijs zoekt, wil een bedrag zien, geen offerteknop.",
+          "Daarnaast is de plaatsstructuur uitgebreid naar de omliggende gemeenten, met per plaats een pagina die de rit vanaf die plaats beschrijft in plaats van dezelfde tekst met een andere plaatsnaam. Vught is daarvan het duidelijkste voorbeeld: een aparte pagina voor een zoekopdracht met driehonderdtwintig zoekopdrachten per maand.",
+        ],
+      },
+      {
+        h: "De resultaten",
+        ps: [
+          "In januari 2025 stond 10 Euro Taxi op nummer 1 voor goedkope taxi den bosch, taxi den bosch goedkoop en goedkoopste taxi den bosch, alle drie met honderdveertig zoekopdrachten per maand. Dat is de volledige set prijsgerelateerde zoekopdrachten voor de stad.",
+          "Het aantal zoekwoorden in de top 5 groeide van achtentachtig naar honderdveertien, en het totale aantal zoekwoorden waarop de site gevonden wordt van veertienhonderdeenenzeventig naar tweeduizendeen. Op 'taxi vught' en 'vught taxi', samen goed voor driehonderdtwintig zoekopdrachten per maand, staat de site op positie 3.",
+        ],
+        bullets: [
+          "'goedkope taxi den bosch' (140 p/m): positie 1",
+          "'taxi den bosch goedkoop' (140 p/m): positie 1",
+          "'goedkoopste taxi den bosch' (140 p/m): positie 1",
+          "'taxi vught' en 'vught taxi' (320 p/m): positie 3",
+          "Zoekwoorden in top 1–5: van 88 naar 114",
+        ],
+      },
+    ],
+  },
 };
 
 export const CASE_LIST: CaseStudy[] = [
+  CASES["steinbrueckner-truckwash-top-5"],
+  CASES["med4u-mediation-van-16-naar-1"],
   CASES["6600x-meubel-outlet-nummer-1-in-google"],
   CASES["van-daken"],
   CASES["dn-research"],
@@ -510,4 +791,6 @@ export const CASE_LIST: CaseStudy[] = [
   CASES["de-bruidsmode-outlet-belgie"],
   CASES["meer-omzet-sleep-factory-bv"],
   CASES["online-transacties-vogelvoerkopen"],
+  CASES["taxicentrale-veghel-nummer-1"],
+  CASES["10-euro-taxi-den-bosch"],
 ];
