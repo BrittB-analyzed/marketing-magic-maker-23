@@ -10,7 +10,7 @@ export const BEDRIJFSCIJFERS = {
   /** Gemiddelde Google-reviewscore, als weergavetekst. */
   reviewScore: "9,8",
   /** Aantal Google reviews. */
-  aantalReviews: 47,
+  aantalReviews: 48,
   /** Aantal klanten dat we geholpen hebben. TEGENSTRIJDIG, zie CONFLICTEN. */
   aantalKlanten: "+75",
   /** Behaalde nummer 1-posities in Google. TEGENSTRIJDIG, zie CONFLICTEN. */

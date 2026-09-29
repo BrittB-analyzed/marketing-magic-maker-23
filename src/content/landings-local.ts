@@ -182,7 +182,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-nijmegen": {
     eyebrow: "Local SEO",
     h1: "SEO Nijmegen: hoger in Google in Gelderland",
-    title: "SEO Nijmegen | Vaste SEO-specialist, 9,8 uit 47",
+    title: "SEO Nijmegen | Vaste SEO-specialist, 9,8 uit 48",
     description:
       "SEO-bureau voor Nijmegen en omgeving. Audit vanaf 599 euro, doorlopend vanaf 999 euro per maand. Een vast aanspreekpunt en 15 jaar ervaring.",
     intro:
@@ -256,9 +256,9 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   "seo-rotterdam": {
     eyebrow: "Local SEO",
     h1: "SEO Rotterdam: een vaste specialist voor Rotterdamse bedrijven",
-    title: "SEO Rotterdam | Vaste specialist, 9,8 uit 47 reviews",
+    title: "SEO Rotterdam | Vaste specialist, 9,8 uit 48 reviews",
     description:
-      "SEO-bureau voor Rotterdam. Audit vanaf 599 euro, doorlopend vanaf 999 euro per maand. Een vaste specialist, geen accountmanager. 9,8 uit 47 reviews.",
+      "SEO-bureau voor Rotterdam. Audit vanaf 599 euro, doorlopend vanaf 999 euro per maand. Een vaste specialist, geen accountmanager. 9,8 uit 48 reviews.",
     intro:
       "SEO in Rotterdam betekent concurreren in een van de drukste zoekmarkten van Nederland. Waar een lokale zoekopdracht in een dorp na drie maanden te winnen is, staan hier tientallen bureaus, aannemers en dienstverleners op dezelfde term. Dat vraagt om scherpere keuzes: niet zo breed mogelijk mikken, maar winnen op de zoekopdrachten waar je klanten daadwerkelijk mee zoeken.",
     bullets: [
@@ -1354,7 +1354,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
     h1: "SEO Blerick: gevonden worden aan de westkant van Venlo",
     title: "SEO Blerick | Lokale SEO-specialist in Venlo-West",
     description:
-      "SEO voor bedrijven in Blerick en Venlo-West. Audit vanaf 599 euro, doorlopend vanaf 999 euro per maand. Een vaste specialist uit de regio, 9,8 uit 47 reviews.",
+      "SEO voor bedrijven in Blerick en Venlo-West. Audit vanaf 599 euro, doorlopend vanaf 999 euro per maand. Een vaste specialist uit de regio, 9,8 uit 48 reviews.",
     intro:
       "Blerick is onderdeel van Venlo, maar in Google is het een eigen zoekwoord. Mensen die hier een leverancier zoeken, tikken de wijknaam in en niet de gemeente. Wie alleen op Venlo optimaliseert, mist die groep volledig, terwijl de concurrentie op de Blerickse zoekopdrachten een fractie is van die op de stad.",
     bullets: [

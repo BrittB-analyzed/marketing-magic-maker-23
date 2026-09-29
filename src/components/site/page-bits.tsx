@@ -282,7 +282,7 @@ function LocalVisual() {
 
       <div className="space-y-2">
         {[
-          { n: "B. Analyzed Marketing", r: "9,8 · 47 reviews", top: true },
+          { n: "B. Analyzed Marketing", r: "9,8 · 48 reviews", top: true },
           { n: "Bureau uit de regio", r: "8,4 · 12 reviews" },
           { n: "Landelijk bureau", r: "8,1 · 31 reviews" },
         ].map((b, i) => (
