@@ -90,22 +90,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Online Marketingbureau Limburg | SEO, GEO, Ads & CRO" },
+      { title: "Online Marketing Bureau voor het MKB | SEO, GEO & Ads" },
       {
         name: "description",
         content:
-          "Online marketingbureau uit Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt in plaats van een accountmanager. Vraag je gratis scan aan.",
+          "Online marketingbureau voor het MKB, gevestigd in Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
       },
       { name: "author", content: SITE_AUTHOR },
       {
         name: "google-site-verification",
         content: "q992TZh6g7IULRiqyK48dYp0IRU3huQz2xbKYPVC56Y",
       },
-      { property: "og:title", content: "Online Marketingbureau Limburg | SEO, GEO, Ads & CRO" },
+      { property: "og:title", content: "Online Marketing Bureau voor het MKB | SEO, GEO & Ads" },
       {
         property: "og:description",
         content:
-          "Online marketingbureau uit Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt in plaats van een accountmanager. Vraag je gratis scan aan.",
+          "Online marketingbureau voor het MKB, gevestigd in Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
       },
       { property: "og:type", content: "website" },
       // Standaardbeeld voor gedeelde links. Pagina's met een eigen afbeelding

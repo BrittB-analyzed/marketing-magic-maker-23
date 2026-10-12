@@ -1,0 +1,17 @@
+{
+  "name": "la-duna-tarifa",
+  "private": true,
+  "type": "module",
+  "description": "Website La Duna Tarifa (tarifawindsurfing.es + .com) – statische generator, preview via Lovable",
+  "scripts": {
+    "dev": "node src/build.mjs --preview --out .preview && vite",
+    "build": "node src/build.mjs --preview --out dist",
+    "build:dev": "node src/build.mjs --preview --out dist",
+    "build:prod": "node src/build.mjs",
+    "preview": "vite preview",
+    "images": "python process-images.py"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

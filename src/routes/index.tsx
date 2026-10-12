@@ -24,6 +24,7 @@ import {
   Eyebrow,
   Faq,
   FaqBlock,
+  RelatedLinks,
   Section,
   SectionHeading,
   faqJsonLd,
@@ -85,6 +86,26 @@ function Home() {
       <Testimonials />
       <BlogTeasers />
       <ScanSection />
+      <RelatedLinks
+        title="Online marketing in jouw regio"
+        items={[
+          {
+            label: "Online marketing bureau Venlo",
+            to: "/online-marketing-venlo/",
+            note: "SEO, Google Ads en conversie voor ondernemers in Venlo en omgeving.",
+          },
+          {
+            label: "Online marketing bureau Limburg",
+            to: "/marketingbureau-limburg/",
+            note: "Van Venlo tot Maastricht, met per werkgebied een eigen aanpak.",
+          },
+          {
+            label: "SEO Venlo",
+            to: "/seo-venlo/",
+            note: "Alleen je organische posities, zonder advertentiebudget.",
+          },
+        ]}
+      />
       <FaqBlock items={FAQ} />
       <CtaBand />
     </SiteLayout>

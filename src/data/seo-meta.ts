@@ -14,8 +14,8 @@ export const TWITTER_SITE = "@b_analyzed";
  */
 export const SEO_META: Record<string, SeoEntry> = {
   "/": {
-    title: "Online Marketingbureau Limburg | SEO, GEO, Ads & CRO",
-    description: "Online marketingbureau uit Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt in plaats van een accountmanager. Vraag je gratis scan aan.",
+    title: "Online Marketing Bureau voor het MKB | SEO, GEO & Ads",
+    description: "Online marketingbureau voor het MKB, gevestigd in Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
   },
   "/seo-limburg/": {
     title: "SEO Limburg | SEO specialist met een 9,8 uit 48 reviews",
@@ -42,7 +42,7 @@ export const SEO_META: Record<string, SeoEntry> = {
     description: "SEO-bureau in Maastricht met 15 jaar ervaring en een 9,8 uit 48 reviews. Geen accountmanager maar een vaste specialist die je strategie bedenkt en uitvoert.",
   },
   "/marketingbureau-limburg/": {
-    title: "Marketingbureau Limburg | 15 jaar ervaring, 9,8 score",
+    title: "Online Marketing Bureau Limburg | 9,8 uit 48 reviews",
     description: "Marketingbureau in Limburg voor SEO, Google Ads en conversie-optimalisatie. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je scan aan.",
   },
   "/online-marketing-venlo/": {
