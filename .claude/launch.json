@@ -68,6 +68,18 @@
         "klantwerk/steinbrueckner/nieuwe-site"
       ],
       "port": 4333
+    },
+    {
+      "name": "ninapurafilms",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4334",
+        "--directory",
+        "klantwerk/ninapurafilms/nieuwe-site"
+      ],
+      "port": 4334
     }
   ]
 }
