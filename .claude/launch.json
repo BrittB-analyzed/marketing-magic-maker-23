@@ -56,6 +56,18 @@
         "klantwerk/partycreations/nieuwe-site"
       ],
       "port": 4332
+    },
+    {
+      "name": "steinbrueckner",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4333",
+        "--directory",
+        "klantwerk/steinbrueckner/nieuwe-site"
+      ],
+      "port": 4333
     }
   ]
 }
