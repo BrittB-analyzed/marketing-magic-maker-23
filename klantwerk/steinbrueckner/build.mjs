@@ -3,6 +3,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { sprite, icon, H3, TRUST } from './icons.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 const out = join(root, 'nieuwe-site');
@@ -99,6 +100,9 @@ for (const p of pages) {
   // Extra schema per pagina staat in de bron tussen <!--ld ... ld-->
   const extra = [...body.matchAll(/<!--ld([\s\S]*?)ld-->/g)].map(m => m[1].trim());
   body = body.replace(/<!--ld[\s\S]*?ld-->\s*/g, '').replace('{{crumbs}}', crumbHtml(p));
+  // Iconen bij koppen en kerncijfers (centraal beheerd in icons.mjs)
+  body = body.replace(/<h3>(.*?)<\/h3>/g, (m, txt) => H3[txt] ? icon(H3[txt]) + m : m)
+    .replace(/<div><strong>(.*?)<\/strong>/g, (m, txt) => TRUST[txt] ? `<div>${icon(TRUST[txt])}<strong>${txt}</strong>` : m);
   const lds = [org, crumbLd(p), faqLd(body)]
     .filter(Boolean).map(o => JSON.stringify(o, null, 1)).concat(extra);
   const html = `<!doctype html>
@@ -125,6 +129,7 @@ for (const p of pages) {
 ${lds.map(l => `<script type="application/ld+json">\n${l}\n</script>`).join('\n')}
 </head>
 <body>
+${sprite}
 
 <div class="topbar">
   <div class="wrap">

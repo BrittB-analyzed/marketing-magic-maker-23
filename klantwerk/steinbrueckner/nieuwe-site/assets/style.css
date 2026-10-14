@@ -260,3 +260,62 @@ body.show-cro [data-cro]{outline:2px dashed #ff9f1a;outline-offset:3px;position:
 }
 .grid-contact{grid-template-columns:1.4fr 1fr}
 @media (max-width:720px){.grid-contact{grid-template-columns:1fr}}
+
+/* ===== Rustiger ontwerp + iconen (v2) ===== */
+:root{--line:#eceef2;--soft:#f6f7f9;--tint:#faf6f8;--shadow:0 4px 18px rgba(18,20,24,.06)}
+body{line-height:1.7}
+section{padding:96px 0}
+h2{font-size:clamp(1.7rem,3vw,2.35rem)}
+.lead{font-size:1.1rem}
+.eyebrow{font-size:.78rem;letter-spacing:.1em;display:inline-flex;align-items:center;gap:10px}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--mag);border-radius:2px}
+.center .eyebrow{justify-content:center}
+.tint{background:var(--tint)}
+.ic{display:inline-grid;place-items:center;width:46px;height:46px;border-radius:12px;background:var(--mag-soft);color:var(--mag);margin-bottom:14px;flex:none}
+.ic svg{width:23px;height:23px}
+.dark .ic,.calc .ic{background:rgba(255,79,167,.14);color:#ff4fa7}
+/* Kerncijfers: icoon naast het getal, geen scheidingslijnen */
+.trustbar{background:#fff;border-bottom:1px solid var(--line)}
+.trustbar div{border-right:0;display:grid;grid-template-columns:auto 1fr;column-gap:12px;text-align:left;align-items:center;padding:26px 14px}
+.trustbar .ic{grid-row:span 2;margin:0;width:42px;height:42px;border-radius:50%}
+.trustbar strong{font-size:1.45rem}
+.trustbar span:not(.ic){font-size:.82rem;line-height:1.3}
+/* Kaarten en kenmerken: zachter, meer lucht */
+.card{border-color:var(--line);border-radius:14px}
+.card .body{padding:26px}
+.card .body p,.feat p,.steps p,#waarom p{color:var(--muted);font-size:.97rem}
+.feat{gap:24px}
+.feat div{background:var(--soft);border:0;border-radius:14px;padding:28px}
+.soft .feat div,.soft .card{background:#fff}
+#waarom .grid-3{gap:24px}
+#waarom .grid-3>div{background:#fff;border-radius:14px;padding:28px;box-shadow:var(--shadow)}
+#waarom h3{font-size:1.25rem}
+/* Stappen: icoon voorop, nummer klein */
+.steps li{position:relative;border-top:0;box-shadow:var(--shadow);border-radius:14px;padding:28px}
+.steps li::before{position:absolute;top:22px;right:24px;font-size:.95rem;color:#c3c7cf;margin:0}
+/* Check-lijsten met rustige ronde vinkjes */
+.hero-checks li,.solution li{list-style:none;display:flex;gap:12px;align-items:flex-start}
+.hero-checks li::before,.solution li::before{content:"";flex:none;width:20px;height:20px;margin-top:4px;margin-right:0;background:currentColor;color:#ff4fa7;
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='m9 12 2 2 4-4'/%3E%3C/svg%3E") center/contain no-repeat;
+          mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='m9 12 2 2 4-4'/%3E%3C/svg%3E") center/contain no-repeat}
+#voordelen .hero-checks li::before,.contact-side .hero-checks li::before,.solution li::before{color:var(--mag)}
+.solution li{border-bottom:0;padding:5px 0}
+.fit{background:var(--tint)}
+.options li{background:#fff;border-color:var(--line)}
+.options li::before{content:"✓";color:var(--mag);margin-right:8px;font-weight:600}
+/* Hero iets rustiger */
+.hero{padding:120px 0 100px}
+.hero::before{background:linear-gradient(90deg,rgba(10,11,14,.88) 0%,rgba(10,11,14,.6) 55%,rgba(10,11,14,.15) 100%)}
+.hero.small{padding:84px 0 72px}
+.clients span{color:#b0b5be;font-size:1.15rem}
+.contact-side .box .ic{margin-bottom:10px}
+.specs th,.specs td,.compare th,.compare td{border-color:var(--line)}
+@media (max-width:720px){
+  section{padding:64px 0}
+  .trustbar div{padding:18px 10px}
+  .trustbar .ic{width:36px;height:36px}
+}
+.logo span,.header-cta .btn{white-space:nowrap}
+@media (max-width:1380px){.header-cta .tel{display:none}nav.main a{padding:10px 9px}}
+@media (min-width:1181px) and (max-width:1280px){.logo small{display:none}}
+@media (max-width:720px){.logo small{display:none}}
