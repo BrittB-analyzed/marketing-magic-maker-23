@@ -122,4 +122,5 @@ ${footer(p)}
 copyFileSync(join(root, 'site.css'), join(out, 'site.css'));
 writeFileSync(join(out, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
 writeFileSync(join(out, 'netlify.toml'), '[[headers]]\n  for = "/*"\n  [headers.values]\n    X-Robots-Tag = "noindex, nofollow"\n');
+writeFileSync(join(out, '_headers'), '/*\n  X-Robots-Tag: noindex, nofollow\n');
 console.log(`${pages.length} pagina's gebouwd in ${out}`);
