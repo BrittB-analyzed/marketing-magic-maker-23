@@ -107,3 +107,15 @@
     });
   }
 })();
+
+// Click-to-load YouTube (privacyvriendelijk, geen cookies tot de klik)
+document.querySelectorAll('[data-yt]').forEach(el => el.addEventListener('click', e => {
+  e.preventDefault();
+  const f = document.createElement('iframe');
+  f.src = `https://www.youtube-nocookie.com/embed/${el.dataset.yt}?autoplay=1&rel=0`;
+  f.title = el.getAttribute('aria-label') || 'Video';
+  f.allow = 'autoplay; encrypted-media; picture-in-picture';
+  f.allowFullscreen = true;
+  f.style.cssText = 'width:100%;aspect-ratio:16/9;border:0;border-radius:var(--radius);display:block';
+  el.replaceWith(f);
+}));
