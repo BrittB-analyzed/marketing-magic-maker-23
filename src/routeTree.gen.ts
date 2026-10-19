@@ -9,329 +9,89 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as ZoekenRouteImport } from './routes/zoeken'
-import { Route as WatKostEenWebsiteLatenBouwenRouteImport } from './routes/wat-kost-een-website-laten-bouwen'
-import { Route as VeelgesteldeVragenRouteImport } from './routes/veelgestelde-vragen'
-import { Route as Top20GratisOnlineBedrijvengidsenVanNederland2RouteImport } from './routes/top-20-gratis-online-bedrijvengidsen-van-nederland-2'
-import { Route as Top10ZoekmachinesInNederlandWelkeZoekmachinesHebbenHetGrootsteMarktaandeelRouteImport } from './routes/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel'
-import { Route as TarievenSocialMediaRouteImport } from './routes/tarieven-social-media'
-import { Route as TarievenSeoRouteImport } from './routes/tarieven-seo'
-import { Route as TarievenLinkbuildingRouteImport } from './routes/tarieven-linkbuilding'
-import { Route as SeoVoorMkbRouteImport } from './routes/seo-voor-mkb'
-import { Route as SeoVenrayRouteImport } from './routes/seo-venray'
-import { Route as SeoVenloRouteImport } from './routes/seo-venlo'
-import { Route as SeoScoreRouteImport } from './routes/seo-score'
-import { Route as SeoRotterdamRouteImport } from './routes/seo-rotterdam'
-import { Route as SeoRoermondRouteImport } from './routes/seo-roermond'
-import { Route as SeoPartnerRouteImport } from './routes/seo-partner'
-import { Route as SeoNijmegenRouteImport } from './routes/seo-nijmegen'
-import { Route as SeoMaastrichtRouteImport } from './routes/seo-maastricht'
-import { Route as SeoLimburgRouteImport } from './routes/seo-limburg'
-import { Route as SeoIbizaRouteImport } from './routes/seo-ibiza'
-import { Route as SeoHorstRouteImport } from './routes/seo-horst'
-import { Route as SeoGuruRouteImport } from './routes/seo-guru'
-import { Route as SeoGrubbenvorstRouteImport } from './routes/seo-grubbenvorst'
-import { Route as SeoExpertRouteImport } from './routes/seo-expert'
-import { Route as SeoEindhovenRouteImport } from './routes/seo-eindhoven'
-import { Route as SeoContentRouteImport } from './routes/seo-content'
-import { Route as SeoConsultantRouteImport } from './routes/seo-consultant'
-import { Route as SeoBureauRouteImport } from './routes/seo-bureau'
-import { Route as SeoBelfeldRouteImport } from './routes/seo-belfeld'
-import { Route as SeoArcenRouteImport } from './routes/seo-arcen'
-import { Route as PrivacybeleidRouteImport } from './routes/privacybeleid'
-import { Route as OnlineMarketingVenloRouteImport } from './routes/online-marketing-venlo'
-import { Route as OnlineMarketingStrategieRouteImport } from './routes/online-marketing-strategie'
-import { Route as OnlineMarketingCasesRouteImport } from './routes/online-marketing-cases'
-import { Route as OnlineMarketingBureauNederlandRouteImport } from './routes/online-marketing-bureau-nederland'
-import { Route as OnlineMarketingBedrijfRouteImport } from './routes/online-marketing-bedrijf'
-import { Route as OmnichannelMarketingRouteImport } from './routes/omnichannel-marketing'
-import { Route as NieuwsbriefRouteImport } from './routes/nieuwsbrief'
-import { Route as MarketingbureauLimburgRouteImport } from './routes/marketingbureau-limburg'
-import { Route as LinkbuildingUitbestedenVenloRouteImport } from './routes/linkbuilding-uitbesteden-venlo'
-import { Route as LinkbuildingUitbestedenNijmegenRouteImport } from './routes/linkbuilding-uitbesteden-nijmegen'
-import { Route as LinkbuildingUitbestedenMaastrichtRouteImport } from './routes/linkbuilding-uitbesteden-maastricht'
-import { Route as KostenOnlineMarketingRouteImport } from './routes/kosten-online-marketing'
-import { Route as KlantwaarderingenRouteImport } from './routes/klantwaarderingen'
-import { Route as GratisSeoScanRouteImport } from './routes/gratis-seo-scan'
-import { Route as GratisAiScanRouteImport } from './routes/gratis-ai-scan'
-import { Route as DisclaimerRouteImport } from './routes/disclaimer'
-import { Route as ContactRouteImport } from './routes/contact'
-import { Route as BlogRouteImport } from './routes/blog'
-import { Route as AlgemeneVoorwaardenOnlineMarketingRouteImport } from './routes/algemene-voorwaarden-online-marketing'
-import { Route as SlugRouteImport } from './routes/$slug'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as OnlineMarketingIndexRouteImport } from './routes/online-marketing/index'
-import { Route as KennisbankIndexRouteImport } from './routes/kennisbank.index'
-import { Route as OnlineMarketingZoekmachineOptimalisatieSpecialistRouteImport } from './routes/online-marketing/zoekmachine-optimalisatie-specialist'
-import { Route as OnlineMarketingWordpressOnderhoudRouteImport } from './routes/online-marketing/wordpress-onderhoud'
-import { Route as OnlineMarketingWebsiteAdviesRouteImport } from './routes/online-marketing/website-advies'
-import { Route as OnlineMarketingUitbestedenRouteImport } from './routes/online-marketing/uitbesteden'
-import { Route as OnlineMarketingSocialMediaMarketingRouteImport } from './routes/online-marketing/social-media-marketing'
-import { Route as OnlineMarketingSeoUitbestedenRouteImport } from './routes/online-marketing/seo-uitbesteden'
-import { Route as OnlineMarketingSeoTekstenLatenSchrijvenRouteImport } from './routes/online-marketing/seo-teksten-laten-schrijven'
-import { Route as OnlineMarketingSeoEnSeaRouteImport } from './routes/online-marketing/seo-en-sea'
-import { Route as OnlineMarketingSeoAdviesRouteImport } from './routes/online-marketing/seo-advies'
-import { Route as OnlineMarketingLocalSeoRouteImport } from './routes/online-marketing/local-seo'
-import { Route as OnlineMarketingLinkbuildingUitbestedenRouteImport } from './routes/online-marketing/linkbuilding-uitbesteden'
-import { Route as OnlineMarketingGoogleTagManagerInrichtenRouteImport } from './routes/online-marketing/google-tag-manager-inrichten'
-import { Route as OnlineMarketingGoogleAdsUitbestedenRouteImport } from './routes/online-marketing/google-ads-uitbesteden'
-import { Route as OnlineMarketingGeoOptimalisatieRouteImport } from './routes/online-marketing/geo-optimalisatie'
-import { Route as OnlineMarketingEmailmarketingRouteImport } from './routes/online-marketing/emailmarketing'
-import { Route as OnlineMarketingDisplayAdvertisementRouteImport } from './routes/online-marketing/display-advertisement'
-import { Route as OnlineMarketingConversieOptimalisatieRouteImport } from './routes/online-marketing/conversie-optimalisatie'
-import { Route as KennisbankGeoRouteImport } from './routes/kennisbank.geo'
-import { Route as KennisbankSlugRouteImport } from './routes/kennisbank.$slug'
+import { Route as SlugRouteImport } from './routes/$slug'
+import { Route as AlgemeneVoorwaardenOnlineMarketingRouteImport } from './routes/algemene-voorwaarden-online-marketing'
+import { Route as BlogRouteImport } from './routes/blog'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as DisclaimerRouteImport } from './routes/disclaimer'
+import { Route as GratisAiScanRouteImport } from './routes/gratis-ai-scan'
+import { Route as GratisSeoScanRouteImport } from './routes/gratis-seo-scan'
+import { Route as KlantwaarderingenRouteImport } from './routes/klantwaarderingen'
+import { Route as KostenOnlineMarketingRouteImport } from './routes/kosten-online-marketing'
+import { Route as LinkbuildingUitbestedenMaastrichtRouteImport } from './routes/linkbuilding-uitbesteden-maastricht'
+import { Route as LinkbuildingUitbestedenNijmegenRouteImport } from './routes/linkbuilding-uitbesteden-nijmegen'
+import { Route as LinkbuildingUitbestedenVenloRouteImport } from './routes/linkbuilding-uitbesteden-venlo'
+import { Route as MarketingbureauLimburgRouteImport } from './routes/marketingbureau-limburg'
+import { Route as NieuwsbriefRouteImport } from './routes/nieuwsbrief'
+import { Route as OmnichannelMarketingRouteImport } from './routes/omnichannel-marketing'
+import { Route as OnlineMarketingBedrijfRouteImport } from './routes/online-marketing-bedrijf'
+import { Route as OnlineMarketingBureauNederlandRouteImport } from './routes/online-marketing-bureau-nederland'
+import { Route as OnlineMarketingCasesRouteImport } from './routes/online-marketing-cases'
+import { Route as OnlineMarketingStrategieRouteImport } from './routes/online-marketing-strategie'
+import { Route as OnlineMarketingVenloRouteImport } from './routes/online-marketing-venlo'
+import { Route as PrivacybeleidRouteImport } from './routes/privacybeleid'
+import { Route as SeoArcenRouteImport } from './routes/seo-arcen'
+import { Route as SeoBelfeldRouteImport } from './routes/seo-belfeld'
+import { Route as SeoBureauRouteImport } from './routes/seo-bureau'
+import { Route as SeoConsultantRouteImport } from './routes/seo-consultant'
+import { Route as SeoContentRouteImport } from './routes/seo-content'
+import { Route as SeoEindhovenRouteImport } from './routes/seo-eindhoven'
+import { Route as SeoExpertRouteImport } from './routes/seo-expert'
+import { Route as SeoGrubbenvorstRouteImport } from './routes/seo-grubbenvorst'
+import { Route as SeoGuruRouteImport } from './routes/seo-guru'
+import { Route as SeoHorstRouteImport } from './routes/seo-horst'
+import { Route as SeoIbizaRouteImport } from './routes/seo-ibiza'
+import { Route as SeoLimburgRouteImport } from './routes/seo-limburg'
+import { Route as SeoMaastrichtRouteImport } from './routes/seo-maastricht'
+import { Route as SeoNijmegenRouteImport } from './routes/seo-nijmegen'
+import { Route as SeoPartnerRouteImport } from './routes/seo-partner'
+import { Route as SeoRoermondRouteImport } from './routes/seo-roermond'
+import { Route as SeoRotterdamRouteImport } from './routes/seo-rotterdam'
+import { Route as SeoScoreRouteImport } from './routes/seo-score'
+import { Route as SeoVenloRouteImport } from './routes/seo-venlo'
+import { Route as SeoVenrayRouteImport } from './routes/seo-venray'
+import { Route as SeoVoorMkbRouteImport } from './routes/seo-voor-mkb'
+import { Route as TarievenLinkbuildingRouteImport } from './routes/tarieven-linkbuilding'
+import { Route as TarievenSeoRouteImport } from './routes/tarieven-seo'
+import { Route as TarievenSocialMediaRouteImport } from './routes/tarieven-social-media'
+import { Route as Top10ZoekmachinesInNederlandWelkeZoekmachinesHebbenHetGrootsteMarktaandeelRouteImport } from './routes/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel'
+import { Route as Top20GratisOnlineBedrijvengidsenVanNederland2RouteImport } from './routes/top-20-gratis-online-bedrijvengidsen-van-nederland-2'
+import { Route as VeelgesteldeVragenRouteImport } from './routes/veelgestelde-vragen'
+import { Route as WatKostEenWebsiteLatenBouwenRouteImport } from './routes/wat-kost-een-website-laten-bouwen'
+import { Route as ZoekenRouteImport } from './routes/zoeken'
 import { Route as CasesSlugRouteImport } from './routes/cases.$slug'
+import { Route as KennisbankIndexRouteImport } from './routes/kennisbank.index'
+import { Route as KennisbankSlugRouteImport } from './routes/kennisbank.$slug'
+import { Route as KennisbankGeoRouteImport } from './routes/kennisbank.geo'
+import { Route as OnlineMarketingIndexRouteImport } from './routes/online-marketing/index'
+import { Route as OnlineMarketingConversieOptimalisatieRouteImport } from './routes/online-marketing/conversie-optimalisatie'
+import { Route as OnlineMarketingDisplayAdvertisementRouteImport } from './routes/online-marketing/display-advertisement'
+import { Route as OnlineMarketingEmailmarketingRouteImport } from './routes/online-marketing/emailmarketing'
+import { Route as OnlineMarketingGeoOptimalisatieRouteImport } from './routes/online-marketing/geo-optimalisatie'
+import { Route as OnlineMarketingGoogleAdsUitbestedenRouteImport } from './routes/online-marketing/google-ads-uitbesteden'
+import { Route as OnlineMarketingGoogleTagManagerInrichtenRouteImport } from './routes/online-marketing/google-tag-manager-inrichten'
+import { Route as OnlineMarketingLinkbuildingUitbestedenRouteImport } from './routes/online-marketing/linkbuilding-uitbesteden'
+import { Route as OnlineMarketingLocalSeoRouteImport } from './routes/online-marketing/local-seo'
+import { Route as OnlineMarketingSeoAdviesRouteImport } from './routes/online-marketing/seo-advies'
+import { Route as OnlineMarketingSeoEnSeaRouteImport } from './routes/online-marketing/seo-en-sea'
+import { Route as OnlineMarketingSeoTekstenLatenSchrijvenRouteImport } from './routes/online-marketing/seo-teksten-laten-schrijven'
+import { Route as OnlineMarketingSeoUitbestedenRouteImport } from './routes/online-marketing/seo-uitbesteden'
+import { Route as OnlineMarketingSocialMediaMarketingRouteImport } from './routes/online-marketing/social-media-marketing'
+import { Route as OnlineMarketingUitbestedenRouteImport } from './routes/online-marketing/uitbesteden'
+import { Route as OnlineMarketingWebsiteAdviesRouteImport } from './routes/online-marketing/website-advies'
+import { Route as OnlineMarketingWordpressOnderhoudRouteImport } from './routes/online-marketing/wordpress-onderhoud'
+import { Route as OnlineMarketingZoekmachineOptimalisatieSpecialistRouteImport } from './routes/online-marketing/zoekmachine-optimalisatie-specialist'
 import { Route as ApiPublicLeadRouteImport } from './routes/api/public/lead'
 
-const ZoekenRoute = ZoekenRouteImport.update({
-  id: '/zoeken',
-  path: '/zoeken',
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const WatKostEenWebsiteLatenBouwenRoute =
-  WatKostEenWebsiteLatenBouwenRouteImport.update({
-    id: '/wat-kost-een-website-laten-bouwen',
-    path: '/wat-kost-een-website-laten-bouwen',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const VeelgesteldeVragenRoute = VeelgesteldeVragenRouteImport.update({
-  id: '/veelgestelde-vragen',
-  path: '/veelgestelde-vragen',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const Top20GratisOnlineBedrijvengidsenVanNederland2Route =
-  Top20GratisOnlineBedrijvengidsenVanNederland2RouteImport.update({
-    id: '/top-20-gratis-online-bedrijvengidsen-van-nederland-2',
-    path: '/top-20-gratis-online-bedrijvengidsen-van-nederland-2',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const Top10ZoekmachinesInNederlandWelkeZoekmachinesHebbenHetGrootsteMarktaandeelRoute =
-  Top10ZoekmachinesInNederlandWelkeZoekmachinesHebbenHetGrootsteMarktaandeelRouteImport.update(
-    {
-      id: '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel',
-      path: '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel',
-      getParentRoute: () => rootRouteImport,
-    } as any,
-  )
-const TarievenSocialMediaRoute = TarievenSocialMediaRouteImport.update({
-  id: '/tarieven-social-media',
-  path: '/tarieven-social-media',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const TarievenSeoRoute = TarievenSeoRouteImport.update({
-  id: '/tarieven-seo',
-  path: '/tarieven-seo',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const TarievenLinkbuildingRoute = TarievenLinkbuildingRouteImport.update({
-  id: '/tarieven-linkbuilding',
-  path: '/tarieven-linkbuilding',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoVoorMkbRoute = SeoVoorMkbRouteImport.update({
-  id: '/seo-voor-mkb',
-  path: '/seo-voor-mkb',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoVenrayRoute = SeoVenrayRouteImport.update({
-  id: '/seo-venray',
-  path: '/seo-venray',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoVenloRoute = SeoVenloRouteImport.update({
-  id: '/seo-venlo',
-  path: '/seo-venlo',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoScoreRoute = SeoScoreRouteImport.update({
-  id: '/seo-score',
-  path: '/seo-score',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoRotterdamRoute = SeoRotterdamRouteImport.update({
-  id: '/seo-rotterdam',
-  path: '/seo-rotterdam',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoRoermondRoute = SeoRoermondRouteImport.update({
-  id: '/seo-roermond',
-  path: '/seo-roermond',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoPartnerRoute = SeoPartnerRouteImport.update({
-  id: '/seo-partner',
-  path: '/seo-partner',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoNijmegenRoute = SeoNijmegenRouteImport.update({
-  id: '/seo-nijmegen',
-  path: '/seo-nijmegen',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoMaastrichtRoute = SeoMaastrichtRouteImport.update({
-  id: '/seo-maastricht',
-  path: '/seo-maastricht',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoLimburgRoute = SeoLimburgRouteImport.update({
-  id: '/seo-limburg',
-  path: '/seo-limburg',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoIbizaRoute = SeoIbizaRouteImport.update({
-  id: '/seo-ibiza',
-  path: '/seo-ibiza',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoHorstRoute = SeoHorstRouteImport.update({
-  id: '/seo-horst',
-  path: '/seo-horst',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoGuruRoute = SeoGuruRouteImport.update({
-  id: '/seo-guru',
-  path: '/seo-guru',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoGrubbenvorstRoute = SeoGrubbenvorstRouteImport.update({
-  id: '/seo-grubbenvorst',
-  path: '/seo-grubbenvorst',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoExpertRoute = SeoExpertRouteImport.update({
-  id: '/seo-expert',
-  path: '/seo-expert',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoEindhovenRoute = SeoEindhovenRouteImport.update({
-  id: '/seo-eindhoven',
-  path: '/seo-eindhoven',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoContentRoute = SeoContentRouteImport.update({
-  id: '/seo-content',
-  path: '/seo-content',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoConsultantRoute = SeoConsultantRouteImport.update({
-  id: '/seo-consultant',
-  path: '/seo-consultant',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoBureauRoute = SeoBureauRouteImport.update({
-  id: '/seo-bureau',
-  path: '/seo-bureau',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoBelfeldRoute = SeoBelfeldRouteImport.update({
-  id: '/seo-belfeld',
-  path: '/seo-belfeld',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoArcenRoute = SeoArcenRouteImport.update({
-  id: '/seo-arcen',
-  path: '/seo-arcen',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PrivacybeleidRoute = PrivacybeleidRouteImport.update({
-  id: '/privacybeleid',
-  path: '/privacybeleid',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const OnlineMarketingVenloRoute = OnlineMarketingVenloRouteImport.update({
-  id: '/online-marketing-venlo',
-  path: '/online-marketing-venlo',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const OnlineMarketingStrategieRoute =
-  OnlineMarketingStrategieRouteImport.update({
-    id: '/online-marketing-strategie',
-    path: '/online-marketing-strategie',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingCasesRoute = OnlineMarketingCasesRouteImport.update({
-  id: '/online-marketing-cases',
-  path: '/online-marketing-cases',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const OnlineMarketingBureauNederlandRoute =
-  OnlineMarketingBureauNederlandRouteImport.update({
-    id: '/online-marketing-bureau-nederland',
-    path: '/online-marketing-bureau-nederland',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingBedrijfRoute = OnlineMarketingBedrijfRouteImport.update({
-  id: '/online-marketing-bedrijf',
-  path: '/online-marketing-bedrijf',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const OmnichannelMarketingRoute = OmnichannelMarketingRouteImport.update({
-  id: '/omnichannel-marketing',
-  path: '/omnichannel-marketing',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const NieuwsbriefRoute = NieuwsbriefRouteImport.update({
-  id: '/nieuwsbrief',
-  path: '/nieuwsbrief',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const MarketingbureauLimburgRoute = MarketingbureauLimburgRouteImport.update({
-  id: '/marketingbureau-limburg',
-  path: '/marketingbureau-limburg',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const LinkbuildingUitbestedenVenloRoute =
-  LinkbuildingUitbestedenVenloRouteImport.update({
-    id: '/linkbuilding-uitbesteden-venlo',
-    path: '/linkbuilding-uitbesteden-venlo',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const LinkbuildingUitbestedenNijmegenRoute =
-  LinkbuildingUitbestedenNijmegenRouteImport.update({
-    id: '/linkbuilding-uitbesteden-nijmegen',
-    path: '/linkbuilding-uitbesteden-nijmegen',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const LinkbuildingUitbestedenMaastrichtRoute =
-  LinkbuildingUitbestedenMaastrichtRouteImport.update({
-    id: '/linkbuilding-uitbesteden-maastricht',
-    path: '/linkbuilding-uitbesteden-maastricht',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const KostenOnlineMarketingRoute = KostenOnlineMarketingRouteImport.update({
-  id: '/kosten-online-marketing',
-  path: '/kosten-online-marketing',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const KlantwaarderingenRoute = KlantwaarderingenRouteImport.update({
-  id: '/klantwaarderingen',
-  path: '/klantwaarderingen',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const GratisSeoScanRoute = GratisSeoScanRouteImport.update({
-  id: '/gratis-seo-scan',
-  path: '/gratis-seo-scan',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const GratisAiScanRoute = GratisAiScanRouteImport.update({
-  id: '/gratis-ai-scan',
-  path: '/gratis-ai-scan',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const DisclaimerRoute = DisclaimerRouteImport.update({
-  id: '/disclaimer',
-  path: '/disclaimer',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ContactRoute = ContactRouteImport.update({
-  id: '/contact',
-  path: '/contact',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const BlogRoute = BlogRouteImport.update({
-  id: '/blog',
-  path: '/blog',
+const SlugRoute = SlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AlgemeneVoorwaardenOnlineMarketingRoute =
@@ -340,19 +100,259 @@ const AlgemeneVoorwaardenOnlineMarketingRoute =
     path: '/algemene-voorwaarden-online-marketing',
     getParentRoute: () => rootRouteImport,
   } as any)
-const SlugRoute = SlugRouteImport.update({
-  id: '/$slug',
-  path: '/$slug',
+const BlogRoute = BlogRouteImport.update({
+  id: '/blog',
+  path: '/blog',
   getParentRoute: () => rootRouteImport,
 } as any)
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
-const OnlineMarketingIndexRoute = OnlineMarketingIndexRouteImport.update({
-  id: '/online-marketing/',
-  path: '/online-marketing/',
+const DisclaimerRoute = DisclaimerRouteImport.update({
+  id: '/disclaimer',
+  path: '/disclaimer',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GratisAiScanRoute = GratisAiScanRouteImport.update({
+  id: '/gratis-ai-scan',
+  path: '/gratis-ai-scan',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GratisSeoScanRoute = GratisSeoScanRouteImport.update({
+  id: '/gratis-seo-scan',
+  path: '/gratis-seo-scan',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KlantwaarderingenRoute = KlantwaarderingenRouteImport.update({
+  id: '/klantwaarderingen',
+  path: '/klantwaarderingen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KostenOnlineMarketingRoute = KostenOnlineMarketingRouteImport.update({
+  id: '/kosten-online-marketing',
+  path: '/kosten-online-marketing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LinkbuildingUitbestedenMaastrichtRoute =
+  LinkbuildingUitbestedenMaastrichtRouteImport.update({
+    id: '/linkbuilding-uitbesteden-maastricht',
+    path: '/linkbuilding-uitbesteden-maastricht',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const LinkbuildingUitbestedenNijmegenRoute =
+  LinkbuildingUitbestedenNijmegenRouteImport.update({
+    id: '/linkbuilding-uitbesteden-nijmegen',
+    path: '/linkbuilding-uitbesteden-nijmegen',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const LinkbuildingUitbestedenVenloRoute =
+  LinkbuildingUitbestedenVenloRouteImport.update({
+    id: '/linkbuilding-uitbesteden-venlo',
+    path: '/linkbuilding-uitbesteden-venlo',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const MarketingbureauLimburgRoute = MarketingbureauLimburgRouteImport.update({
+  id: '/marketingbureau-limburg',
+  path: '/marketingbureau-limburg',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NieuwsbriefRoute = NieuwsbriefRouteImport.update({
+  id: '/nieuwsbrief',
+  path: '/nieuwsbrief',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OmnichannelMarketingRoute = OmnichannelMarketingRouteImport.update({
+  id: '/omnichannel-marketing',
+  path: '/omnichannel-marketing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OnlineMarketingBedrijfRoute = OnlineMarketingBedrijfRouteImport.update({
+  id: '/online-marketing-bedrijf',
+  path: '/online-marketing-bedrijf',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OnlineMarketingBureauNederlandRoute =
+  OnlineMarketingBureauNederlandRouteImport.update({
+    id: '/online-marketing-bureau-nederland',
+    path: '/online-marketing-bureau-nederland',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingCasesRoute = OnlineMarketingCasesRouteImport.update({
+  id: '/online-marketing-cases',
+  path: '/online-marketing-cases',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OnlineMarketingStrategieRoute =
+  OnlineMarketingStrategieRouteImport.update({
+    id: '/online-marketing-strategie',
+    path: '/online-marketing-strategie',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingVenloRoute = OnlineMarketingVenloRouteImport.update({
+  id: '/online-marketing-venlo',
+  path: '/online-marketing-venlo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacybeleidRoute = PrivacybeleidRouteImport.update({
+  id: '/privacybeleid',
+  path: '/privacybeleid',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoArcenRoute = SeoArcenRouteImport.update({
+  id: '/seo-arcen',
+  path: '/seo-arcen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoBelfeldRoute = SeoBelfeldRouteImport.update({
+  id: '/seo-belfeld',
+  path: '/seo-belfeld',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoBureauRoute = SeoBureauRouteImport.update({
+  id: '/seo-bureau',
+  path: '/seo-bureau',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoConsultantRoute = SeoConsultantRouteImport.update({
+  id: '/seo-consultant',
+  path: '/seo-consultant',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoContentRoute = SeoContentRouteImport.update({
+  id: '/seo-content',
+  path: '/seo-content',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoEindhovenRoute = SeoEindhovenRouteImport.update({
+  id: '/seo-eindhoven',
+  path: '/seo-eindhoven',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoExpertRoute = SeoExpertRouteImport.update({
+  id: '/seo-expert',
+  path: '/seo-expert',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoGrubbenvorstRoute = SeoGrubbenvorstRouteImport.update({
+  id: '/seo-grubbenvorst',
+  path: '/seo-grubbenvorst',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoGuruRoute = SeoGuruRouteImport.update({
+  id: '/seo-guru',
+  path: '/seo-guru',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoHorstRoute = SeoHorstRouteImport.update({
+  id: '/seo-horst',
+  path: '/seo-horst',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoIbizaRoute = SeoIbizaRouteImport.update({
+  id: '/seo-ibiza',
+  path: '/seo-ibiza',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoLimburgRoute = SeoLimburgRouteImport.update({
+  id: '/seo-limburg',
+  path: '/seo-limburg',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoMaastrichtRoute = SeoMaastrichtRouteImport.update({
+  id: '/seo-maastricht',
+  path: '/seo-maastricht',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoNijmegenRoute = SeoNijmegenRouteImport.update({
+  id: '/seo-nijmegen',
+  path: '/seo-nijmegen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoPartnerRoute = SeoPartnerRouteImport.update({
+  id: '/seo-partner',
+  path: '/seo-partner',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoRoermondRoute = SeoRoermondRouteImport.update({
+  id: '/seo-roermond',
+  path: '/seo-roermond',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoRotterdamRoute = SeoRotterdamRouteImport.update({
+  id: '/seo-rotterdam',
+  path: '/seo-rotterdam',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoScoreRoute = SeoScoreRouteImport.update({
+  id: '/seo-score',
+  path: '/seo-score',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoVenloRoute = SeoVenloRouteImport.update({
+  id: '/seo-venlo',
+  path: '/seo-venlo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoVenrayRoute = SeoVenrayRouteImport.update({
+  id: '/seo-venray',
+  path: '/seo-venray',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoVoorMkbRoute = SeoVoorMkbRouteImport.update({
+  id: '/seo-voor-mkb',
+  path: '/seo-voor-mkb',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TarievenLinkbuildingRoute = TarievenLinkbuildingRouteImport.update({
+  id: '/tarieven-linkbuilding',
+  path: '/tarieven-linkbuilding',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TarievenSeoRoute = TarievenSeoRouteImport.update({
+  id: '/tarieven-seo',
+  path: '/tarieven-seo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TarievenSocialMediaRoute = TarievenSocialMediaRouteImport.update({
+  id: '/tarieven-social-media',
+  path: '/tarieven-social-media',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const Top10ZoekmachinesInNederlandWelkeZoekmachinesHebbenHetGrootsteMarktaandeelRoute =
+  Top10ZoekmachinesInNederlandWelkeZoekmachinesHebbenHetGrootsteMarktaandeelRouteImport.update(
+    {
+      id: '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel',
+      path: '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
+const Top20GratisOnlineBedrijvengidsenVanNederland2Route =
+  Top20GratisOnlineBedrijvengidsenVanNederland2RouteImport.update({
+    id: '/top-20-gratis-online-bedrijvengidsen-van-nederland-2',
+    path: '/top-20-gratis-online-bedrijvengidsen-van-nederland-2',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const VeelgesteldeVragenRoute = VeelgesteldeVragenRouteImport.update({
+  id: '/veelgestelde-vragen',
+  path: '/veelgestelde-vragen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WatKostEenWebsiteLatenBouwenRoute =
+  WatKostEenWebsiteLatenBouwenRouteImport.update({
+    id: '/wat-kost-een-website-laten-bouwen',
+    path: '/wat-kost-een-website-laten-bouwen',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ZoekenRoute = ZoekenRouteImport.update({
+  id: '/zoeken',
+  path: '/zoeken',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CasesSlugRoute = CasesSlugRouteImport.update({
+  id: '/cases/$slug',
+  path: '/cases/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const KennisbankIndexRoute = KennisbankIndexRouteImport.update({
@@ -360,92 +360,25 @@ const KennisbankIndexRoute = KennisbankIndexRouteImport.update({
   path: '/kennisbank/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const OnlineMarketingZoekmachineOptimalisatieSpecialistRoute =
-  OnlineMarketingZoekmachineOptimalisatieSpecialistRouteImport.update({
-    id: '/online-marketing/zoekmachine-optimalisatie-specialist',
-    path: '/online-marketing/zoekmachine-optimalisatie-specialist',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingWordpressOnderhoudRoute =
-  OnlineMarketingWordpressOnderhoudRouteImport.update({
-    id: '/online-marketing/wordpress-onderhoud',
-    path: '/online-marketing/wordpress-onderhoud',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingWebsiteAdviesRoute =
-  OnlineMarketingWebsiteAdviesRouteImport.update({
-    id: '/online-marketing/website-advies',
-    path: '/online-marketing/website-advies',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingUitbestedenRoute =
-  OnlineMarketingUitbestedenRouteImport.update({
-    id: '/online-marketing/uitbesteden',
-    path: '/online-marketing/uitbesteden',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingSocialMediaMarketingRoute =
-  OnlineMarketingSocialMediaMarketingRouteImport.update({
-    id: '/online-marketing/social-media-marketing',
-    path: '/online-marketing/social-media-marketing',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingSeoUitbestedenRoute =
-  OnlineMarketingSeoUitbestedenRouteImport.update({
-    id: '/online-marketing/seo-uitbesteden',
-    path: '/online-marketing/seo-uitbesteden',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingSeoTekstenLatenSchrijvenRoute =
-  OnlineMarketingSeoTekstenLatenSchrijvenRouteImport.update({
-    id: '/online-marketing/seo-teksten-laten-schrijven',
-    path: '/online-marketing/seo-teksten-laten-schrijven',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingSeoEnSeaRoute = OnlineMarketingSeoEnSeaRouteImport.update({
-  id: '/online-marketing/seo-en-sea',
-  path: '/online-marketing/seo-en-sea',
+const KennisbankSlugRoute = KennisbankSlugRouteImport.update({
+  id: '/kennisbank/$slug',
+  path: '/kennisbank/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
-const OnlineMarketingSeoAdviesRoute =
-  OnlineMarketingSeoAdviesRouteImport.update({
-    id: '/online-marketing/seo-advies',
-    path: '/online-marketing/seo-advies',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingLocalSeoRoute = OnlineMarketingLocalSeoRouteImport.update({
-  id: '/online-marketing/local-seo',
-  path: '/online-marketing/local-seo',
+const KennisbankGeoRoute = KennisbankGeoRouteImport.update({
+  id: '/kennisbank/geo',
+  path: '/kennisbank/geo',
   getParentRoute: () => rootRouteImport,
 } as any)
-const OnlineMarketingLinkbuildingUitbestedenRoute =
-  OnlineMarketingLinkbuildingUitbestedenRouteImport.update({
-    id: '/online-marketing/linkbuilding-uitbesteden',
-    path: '/online-marketing/linkbuilding-uitbesteden',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingGoogleTagManagerInrichtenRoute =
-  OnlineMarketingGoogleTagManagerInrichtenRouteImport.update({
-    id: '/online-marketing/google-tag-manager-inrichten',
-    path: '/online-marketing/google-tag-manager-inrichten',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingGoogleAdsUitbestedenRoute =
-  OnlineMarketingGoogleAdsUitbestedenRouteImport.update({
-    id: '/online-marketing/google-ads-uitbesteden',
-    path: '/online-marketing/google-ads-uitbesteden',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingGeoOptimalisatieRoute =
-  OnlineMarketingGeoOptimalisatieRouteImport.update({
-    id: '/online-marketing/geo-optimalisatie',
-    path: '/online-marketing/geo-optimalisatie',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const OnlineMarketingEmailmarketingRoute =
-  OnlineMarketingEmailmarketingRouteImport.update({
-    id: '/online-marketing/emailmarketing',
-    path: '/online-marketing/emailmarketing',
+const OnlineMarketingIndexRoute = OnlineMarketingIndexRouteImport.update({
+  id: '/online-marketing/',
+  path: '/online-marketing/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OnlineMarketingConversieOptimalisatieRoute =
+  OnlineMarketingConversieOptimalisatieRouteImport.update({
+    id: '/online-marketing/conversie-optimalisatie',
+    path: '/online-marketing/conversie-optimalisatie',
     getParentRoute: () => rootRouteImport,
   } as any)
 const OnlineMarketingDisplayAdvertisementRoute =
@@ -454,27 +387,94 @@ const OnlineMarketingDisplayAdvertisementRoute =
     path: '/online-marketing/display-advertisement',
     getParentRoute: () => rootRouteImport,
   } as any)
-const OnlineMarketingConversieOptimalisatieRoute =
-  OnlineMarketingConversieOptimalisatieRouteImport.update({
-    id: '/online-marketing/conversie-optimalisatie',
-    path: '/online-marketing/conversie-optimalisatie',
+const OnlineMarketingEmailmarketingRoute =
+  OnlineMarketingEmailmarketingRouteImport.update({
+    id: '/online-marketing/emailmarketing',
+    path: '/online-marketing/emailmarketing',
     getParentRoute: () => rootRouteImport,
   } as any)
-const KennisbankGeoRoute = KennisbankGeoRouteImport.update({
-  id: '/kennisbank/geo',
-  path: '/kennisbank/geo',
+const OnlineMarketingGeoOptimalisatieRoute =
+  OnlineMarketingGeoOptimalisatieRouteImport.update({
+    id: '/online-marketing/geo-optimalisatie',
+    path: '/online-marketing/geo-optimalisatie',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingGoogleAdsUitbestedenRoute =
+  OnlineMarketingGoogleAdsUitbestedenRouteImport.update({
+    id: '/online-marketing/google-ads-uitbesteden',
+    path: '/online-marketing/google-ads-uitbesteden',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingGoogleTagManagerInrichtenRoute =
+  OnlineMarketingGoogleTagManagerInrichtenRouteImport.update({
+    id: '/online-marketing/google-tag-manager-inrichten',
+    path: '/online-marketing/google-tag-manager-inrichten',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingLinkbuildingUitbestedenRoute =
+  OnlineMarketingLinkbuildingUitbestedenRouteImport.update({
+    id: '/online-marketing/linkbuilding-uitbesteden',
+    path: '/online-marketing/linkbuilding-uitbesteden',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingLocalSeoRoute = OnlineMarketingLocalSeoRouteImport.update({
+  id: '/online-marketing/local-seo',
+  path: '/online-marketing/local-seo',
   getParentRoute: () => rootRouteImport,
 } as any)
-const KennisbankSlugRoute = KennisbankSlugRouteImport.update({
-  id: '/kennisbank/$slug',
-  path: '/kennisbank/$slug',
+const OnlineMarketingSeoAdviesRoute =
+  OnlineMarketingSeoAdviesRouteImport.update({
+    id: '/online-marketing/seo-advies',
+    path: '/online-marketing/seo-advies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingSeoEnSeaRoute = OnlineMarketingSeoEnSeaRouteImport.update({
+  id: '/online-marketing/seo-en-sea',
+  path: '/online-marketing/seo-en-sea',
   getParentRoute: () => rootRouteImport,
 } as any)
-const CasesSlugRoute = CasesSlugRouteImport.update({
-  id: '/cases/$slug',
-  path: '/cases/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
+const OnlineMarketingSeoTekstenLatenSchrijvenRoute =
+  OnlineMarketingSeoTekstenLatenSchrijvenRouteImport.update({
+    id: '/online-marketing/seo-teksten-laten-schrijven',
+    path: '/online-marketing/seo-teksten-laten-schrijven',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingSeoUitbestedenRoute =
+  OnlineMarketingSeoUitbestedenRouteImport.update({
+    id: '/online-marketing/seo-uitbesteden',
+    path: '/online-marketing/seo-uitbesteden',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingSocialMediaMarketingRoute =
+  OnlineMarketingSocialMediaMarketingRouteImport.update({
+    id: '/online-marketing/social-media-marketing',
+    path: '/online-marketing/social-media-marketing',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingUitbestedenRoute =
+  OnlineMarketingUitbestedenRouteImport.update({
+    id: '/online-marketing/uitbesteden',
+    path: '/online-marketing/uitbesteden',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingWebsiteAdviesRoute =
+  OnlineMarketingWebsiteAdviesRouteImport.update({
+    id: '/online-marketing/website-advies',
+    path: '/online-marketing/website-advies',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingWordpressOnderhoudRoute =
+  OnlineMarketingWordpressOnderhoudRouteImport.update({
+    id: '/online-marketing/wordpress-onderhoud',
+    path: '/online-marketing/wordpress-onderhoud',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlineMarketingZoekmachineOptimalisatieSpecialistRoute =
+  OnlineMarketingZoekmachineOptimalisatieSpecialistRouteImport.update({
+    id: '/online-marketing/zoekmachine-optimalisatie-specialist',
+    path: '/online-marketing/zoekmachine-optimalisatie-specialist',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const ApiPublicLeadRoute = ApiPublicLeadRouteImport.update({
   id: '/api/public/lead',
   path: '/api/public/lead',
@@ -1020,347 +1020,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/zoeken': {
-      id: '/zoeken'
-      path: '/zoeken'
-      fullPath: '/zoeken'
-      preLoaderRoute: typeof ZoekenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/wat-kost-een-website-laten-bouwen': {
-      id: '/wat-kost-een-website-laten-bouwen'
-      path: '/wat-kost-een-website-laten-bouwen'
-      fullPath: '/wat-kost-een-website-laten-bouwen'
-      preLoaderRoute: typeof WatKostEenWebsiteLatenBouwenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/veelgestelde-vragen': {
-      id: '/veelgestelde-vragen'
-      path: '/veelgestelde-vragen'
-      fullPath: '/veelgestelde-vragen'
-      preLoaderRoute: typeof VeelgesteldeVragenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/top-20-gratis-online-bedrijvengidsen-van-nederland-2': {
-      id: '/top-20-gratis-online-bedrijvengidsen-van-nederland-2'
-      path: '/top-20-gratis-online-bedrijvengidsen-van-nederland-2'
-      fullPath: '/top-20-gratis-online-bedrijvengidsen-van-nederland-2'
-      preLoaderRoute: typeof Top20GratisOnlineBedrijvengidsenVanNederland2RouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel': {
-      id: '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel'
-      path: '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel'
-      fullPath: '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel'
-      preLoaderRoute: typeof Top10ZoekmachinesInNederlandWelkeZoekmachinesHebbenHetGrootsteMarktaandeelRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/tarieven-social-media': {
-      id: '/tarieven-social-media'
-      path: '/tarieven-social-media'
-      fullPath: '/tarieven-social-media'
-      preLoaderRoute: typeof TarievenSocialMediaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/tarieven-seo': {
-      id: '/tarieven-seo'
-      path: '/tarieven-seo'
-      fullPath: '/tarieven-seo'
-      preLoaderRoute: typeof TarievenSeoRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/tarieven-linkbuilding': {
-      id: '/tarieven-linkbuilding'
-      path: '/tarieven-linkbuilding'
-      fullPath: '/tarieven-linkbuilding'
-      preLoaderRoute: typeof TarievenLinkbuildingRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-voor-mkb': {
-      id: '/seo-voor-mkb'
-      path: '/seo-voor-mkb'
-      fullPath: '/seo-voor-mkb'
-      preLoaderRoute: typeof SeoVoorMkbRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-venray': {
-      id: '/seo-venray'
-      path: '/seo-venray'
-      fullPath: '/seo-venray'
-      preLoaderRoute: typeof SeoVenrayRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-venlo': {
-      id: '/seo-venlo'
-      path: '/seo-venlo'
-      fullPath: '/seo-venlo'
-      preLoaderRoute: typeof SeoVenloRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-score': {
-      id: '/seo-score'
-      path: '/seo-score'
-      fullPath: '/seo-score'
-      preLoaderRoute: typeof SeoScoreRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-rotterdam': {
-      id: '/seo-rotterdam'
-      path: '/seo-rotterdam'
-      fullPath: '/seo-rotterdam'
-      preLoaderRoute: typeof SeoRotterdamRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-roermond': {
-      id: '/seo-roermond'
-      path: '/seo-roermond'
-      fullPath: '/seo-roermond'
-      preLoaderRoute: typeof SeoRoermondRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-partner': {
-      id: '/seo-partner'
-      path: '/seo-partner'
-      fullPath: '/seo-partner'
-      preLoaderRoute: typeof SeoPartnerRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-nijmegen': {
-      id: '/seo-nijmegen'
-      path: '/seo-nijmegen'
-      fullPath: '/seo-nijmegen'
-      preLoaderRoute: typeof SeoNijmegenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-maastricht': {
-      id: '/seo-maastricht'
-      path: '/seo-maastricht'
-      fullPath: '/seo-maastricht'
-      preLoaderRoute: typeof SeoMaastrichtRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-limburg': {
-      id: '/seo-limburg'
-      path: '/seo-limburg'
-      fullPath: '/seo-limburg'
-      preLoaderRoute: typeof SeoLimburgRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-ibiza': {
-      id: '/seo-ibiza'
-      path: '/seo-ibiza'
-      fullPath: '/seo-ibiza'
-      preLoaderRoute: typeof SeoIbizaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-horst': {
-      id: '/seo-horst'
-      path: '/seo-horst'
-      fullPath: '/seo-horst'
-      preLoaderRoute: typeof SeoHorstRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-guru': {
-      id: '/seo-guru'
-      path: '/seo-guru'
-      fullPath: '/seo-guru'
-      preLoaderRoute: typeof SeoGuruRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-grubbenvorst': {
-      id: '/seo-grubbenvorst'
-      path: '/seo-grubbenvorst'
-      fullPath: '/seo-grubbenvorst'
-      preLoaderRoute: typeof SeoGrubbenvorstRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-expert': {
-      id: '/seo-expert'
-      path: '/seo-expert'
-      fullPath: '/seo-expert'
-      preLoaderRoute: typeof SeoExpertRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-eindhoven': {
-      id: '/seo-eindhoven'
-      path: '/seo-eindhoven'
-      fullPath: '/seo-eindhoven'
-      preLoaderRoute: typeof SeoEindhovenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-content': {
-      id: '/seo-content'
-      path: '/seo-content'
-      fullPath: '/seo-content'
-      preLoaderRoute: typeof SeoContentRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-consultant': {
-      id: '/seo-consultant'
-      path: '/seo-consultant'
-      fullPath: '/seo-consultant'
-      preLoaderRoute: typeof SeoConsultantRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-bureau': {
-      id: '/seo-bureau'
-      path: '/seo-bureau'
-      fullPath: '/seo-bureau'
-      preLoaderRoute: typeof SeoBureauRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-belfeld': {
-      id: '/seo-belfeld'
-      path: '/seo-belfeld'
-      fullPath: '/seo-belfeld'
-      preLoaderRoute: typeof SeoBelfeldRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/seo-arcen': {
-      id: '/seo-arcen'
-      path: '/seo-arcen'
-      fullPath: '/seo-arcen'
-      preLoaderRoute: typeof SeoArcenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/privacybeleid': {
-      id: '/privacybeleid'
-      path: '/privacybeleid'
-      fullPath: '/privacybeleid'
-      preLoaderRoute: typeof PrivacybeleidRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing-venlo': {
-      id: '/online-marketing-venlo'
-      path: '/online-marketing-venlo'
-      fullPath: '/online-marketing-venlo'
-      preLoaderRoute: typeof OnlineMarketingVenloRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing-strategie': {
-      id: '/online-marketing-strategie'
-      path: '/online-marketing-strategie'
-      fullPath: '/online-marketing-strategie'
-      preLoaderRoute: typeof OnlineMarketingStrategieRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing-cases': {
-      id: '/online-marketing-cases'
-      path: '/online-marketing-cases'
-      fullPath: '/online-marketing-cases'
-      preLoaderRoute: typeof OnlineMarketingCasesRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing-bureau-nederland': {
-      id: '/online-marketing-bureau-nederland'
-      path: '/online-marketing-bureau-nederland'
-      fullPath: '/online-marketing-bureau-nederland'
-      preLoaderRoute: typeof OnlineMarketingBureauNederlandRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing-bedrijf': {
-      id: '/online-marketing-bedrijf'
-      path: '/online-marketing-bedrijf'
-      fullPath: '/online-marketing-bedrijf'
-      preLoaderRoute: typeof OnlineMarketingBedrijfRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/omnichannel-marketing': {
-      id: '/omnichannel-marketing'
-      path: '/omnichannel-marketing'
-      fullPath: '/omnichannel-marketing'
-      preLoaderRoute: typeof OmnichannelMarketingRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/nieuwsbrief': {
-      id: '/nieuwsbrief'
-      path: '/nieuwsbrief'
-      fullPath: '/nieuwsbrief'
-      preLoaderRoute: typeof NieuwsbriefRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/marketingbureau-limburg': {
-      id: '/marketingbureau-limburg'
-      path: '/marketingbureau-limburg'
-      fullPath: '/marketingbureau-limburg'
-      preLoaderRoute: typeof MarketingbureauLimburgRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/linkbuilding-uitbesteden-venlo': {
-      id: '/linkbuilding-uitbesteden-venlo'
-      path: '/linkbuilding-uitbesteden-venlo'
-      fullPath: '/linkbuilding-uitbesteden-venlo'
-      preLoaderRoute: typeof LinkbuildingUitbestedenVenloRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/linkbuilding-uitbesteden-nijmegen': {
-      id: '/linkbuilding-uitbesteden-nijmegen'
-      path: '/linkbuilding-uitbesteden-nijmegen'
-      fullPath: '/linkbuilding-uitbesteden-nijmegen'
-      preLoaderRoute: typeof LinkbuildingUitbestedenNijmegenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/linkbuilding-uitbesteden-maastricht': {
-      id: '/linkbuilding-uitbesteden-maastricht'
-      path: '/linkbuilding-uitbesteden-maastricht'
-      fullPath: '/linkbuilding-uitbesteden-maastricht'
-      preLoaderRoute: typeof LinkbuildingUitbestedenMaastrichtRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/kosten-online-marketing': {
-      id: '/kosten-online-marketing'
-      path: '/kosten-online-marketing'
-      fullPath: '/kosten-online-marketing'
-      preLoaderRoute: typeof KostenOnlineMarketingRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/klantwaarderingen': {
-      id: '/klantwaarderingen'
-      path: '/klantwaarderingen'
-      fullPath: '/klantwaarderingen'
-      preLoaderRoute: typeof KlantwaarderingenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/gratis-seo-scan': {
-      id: '/gratis-seo-scan'
-      path: '/gratis-seo-scan'
-      fullPath: '/gratis-seo-scan'
-      preLoaderRoute: typeof GratisSeoScanRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/gratis-ai-scan': {
-      id: '/gratis-ai-scan'
-      path: '/gratis-ai-scan'
-      fullPath: '/gratis-ai-scan'
-      preLoaderRoute: typeof GratisAiScanRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/disclaimer': {
-      id: '/disclaimer'
-      path: '/disclaimer'
-      fullPath: '/disclaimer'
-      preLoaderRoute: typeof DisclaimerRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/contact': {
-      id: '/contact'
-      path: '/contact'
-      fullPath: '/contact'
-      preLoaderRoute: typeof ContactRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/blog': {
-      id: '/blog'
-      path: '/blog'
-      fullPath: '/blog'
-      preLoaderRoute: typeof BlogRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/algemene-voorwaarden-online-marketing': {
-      id: '/algemene-voorwaarden-online-marketing'
-      path: '/algemene-voorwaarden-online-marketing'
-      fullPath: '/algemene-voorwaarden-online-marketing'
-      preLoaderRoute: typeof AlgemeneVoorwaardenOnlineMarketingRouteImport
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/$slug': {
@@ -1370,18 +1034,354 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SlugRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
+    '/algemene-voorwaarden-online-marketing': {
+      id: '/algemene-voorwaarden-online-marketing'
+      path: '/algemene-voorwaarden-online-marketing'
+      fullPath: '/algemene-voorwaarden-online-marketing'
+      preLoaderRoute: typeof AlgemeneVoorwaardenOnlineMarketingRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/online-marketing/': {
-      id: '/online-marketing/'
-      path: '/online-marketing'
-      fullPath: '/online-marketing/'
-      preLoaderRoute: typeof OnlineMarketingIndexRouteImport
+    '/blog': {
+      id: '/blog'
+      path: '/blog'
+      fullPath: '/blog'
+      preLoaderRoute: typeof BlogRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/disclaimer': {
+      id: '/disclaimer'
+      path: '/disclaimer'
+      fullPath: '/disclaimer'
+      preLoaderRoute: typeof DisclaimerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gratis-ai-scan': {
+      id: '/gratis-ai-scan'
+      path: '/gratis-ai-scan'
+      fullPath: '/gratis-ai-scan'
+      preLoaderRoute: typeof GratisAiScanRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gratis-seo-scan': {
+      id: '/gratis-seo-scan'
+      path: '/gratis-seo-scan'
+      fullPath: '/gratis-seo-scan'
+      preLoaderRoute: typeof GratisSeoScanRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/klantwaarderingen': {
+      id: '/klantwaarderingen'
+      path: '/klantwaarderingen'
+      fullPath: '/klantwaarderingen'
+      preLoaderRoute: typeof KlantwaarderingenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/kosten-online-marketing': {
+      id: '/kosten-online-marketing'
+      path: '/kosten-online-marketing'
+      fullPath: '/kosten-online-marketing'
+      preLoaderRoute: typeof KostenOnlineMarketingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/linkbuilding-uitbesteden-maastricht': {
+      id: '/linkbuilding-uitbesteden-maastricht'
+      path: '/linkbuilding-uitbesteden-maastricht'
+      fullPath: '/linkbuilding-uitbesteden-maastricht'
+      preLoaderRoute: typeof LinkbuildingUitbestedenMaastrichtRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/linkbuilding-uitbesteden-nijmegen': {
+      id: '/linkbuilding-uitbesteden-nijmegen'
+      path: '/linkbuilding-uitbesteden-nijmegen'
+      fullPath: '/linkbuilding-uitbesteden-nijmegen'
+      preLoaderRoute: typeof LinkbuildingUitbestedenNijmegenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/linkbuilding-uitbesteden-venlo': {
+      id: '/linkbuilding-uitbesteden-venlo'
+      path: '/linkbuilding-uitbesteden-venlo'
+      fullPath: '/linkbuilding-uitbesteden-venlo'
+      preLoaderRoute: typeof LinkbuildingUitbestedenVenloRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/marketingbureau-limburg': {
+      id: '/marketingbureau-limburg'
+      path: '/marketingbureau-limburg'
+      fullPath: '/marketingbureau-limburg'
+      preLoaderRoute: typeof MarketingbureauLimburgRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nieuwsbrief': {
+      id: '/nieuwsbrief'
+      path: '/nieuwsbrief'
+      fullPath: '/nieuwsbrief'
+      preLoaderRoute: typeof NieuwsbriefRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/omnichannel-marketing': {
+      id: '/omnichannel-marketing'
+      path: '/omnichannel-marketing'
+      fullPath: '/omnichannel-marketing'
+      preLoaderRoute: typeof OmnichannelMarketingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing-bedrijf': {
+      id: '/online-marketing-bedrijf'
+      path: '/online-marketing-bedrijf'
+      fullPath: '/online-marketing-bedrijf'
+      preLoaderRoute: typeof OnlineMarketingBedrijfRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing-bureau-nederland': {
+      id: '/online-marketing-bureau-nederland'
+      path: '/online-marketing-bureau-nederland'
+      fullPath: '/online-marketing-bureau-nederland'
+      preLoaderRoute: typeof OnlineMarketingBureauNederlandRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing-cases': {
+      id: '/online-marketing-cases'
+      path: '/online-marketing-cases'
+      fullPath: '/online-marketing-cases'
+      preLoaderRoute: typeof OnlineMarketingCasesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing-strategie': {
+      id: '/online-marketing-strategie'
+      path: '/online-marketing-strategie'
+      fullPath: '/online-marketing-strategie'
+      preLoaderRoute: typeof OnlineMarketingStrategieRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing-venlo': {
+      id: '/online-marketing-venlo'
+      path: '/online-marketing-venlo'
+      fullPath: '/online-marketing-venlo'
+      preLoaderRoute: typeof OnlineMarketingVenloRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacybeleid': {
+      id: '/privacybeleid'
+      path: '/privacybeleid'
+      fullPath: '/privacybeleid'
+      preLoaderRoute: typeof PrivacybeleidRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-arcen': {
+      id: '/seo-arcen'
+      path: '/seo-arcen'
+      fullPath: '/seo-arcen'
+      preLoaderRoute: typeof SeoArcenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-belfeld': {
+      id: '/seo-belfeld'
+      path: '/seo-belfeld'
+      fullPath: '/seo-belfeld'
+      preLoaderRoute: typeof SeoBelfeldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-bureau': {
+      id: '/seo-bureau'
+      path: '/seo-bureau'
+      fullPath: '/seo-bureau'
+      preLoaderRoute: typeof SeoBureauRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-consultant': {
+      id: '/seo-consultant'
+      path: '/seo-consultant'
+      fullPath: '/seo-consultant'
+      preLoaderRoute: typeof SeoConsultantRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-content': {
+      id: '/seo-content'
+      path: '/seo-content'
+      fullPath: '/seo-content'
+      preLoaderRoute: typeof SeoContentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-eindhoven': {
+      id: '/seo-eindhoven'
+      path: '/seo-eindhoven'
+      fullPath: '/seo-eindhoven'
+      preLoaderRoute: typeof SeoEindhovenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-expert': {
+      id: '/seo-expert'
+      path: '/seo-expert'
+      fullPath: '/seo-expert'
+      preLoaderRoute: typeof SeoExpertRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-grubbenvorst': {
+      id: '/seo-grubbenvorst'
+      path: '/seo-grubbenvorst'
+      fullPath: '/seo-grubbenvorst'
+      preLoaderRoute: typeof SeoGrubbenvorstRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-guru': {
+      id: '/seo-guru'
+      path: '/seo-guru'
+      fullPath: '/seo-guru'
+      preLoaderRoute: typeof SeoGuruRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-horst': {
+      id: '/seo-horst'
+      path: '/seo-horst'
+      fullPath: '/seo-horst'
+      preLoaderRoute: typeof SeoHorstRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-ibiza': {
+      id: '/seo-ibiza'
+      path: '/seo-ibiza'
+      fullPath: '/seo-ibiza'
+      preLoaderRoute: typeof SeoIbizaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-limburg': {
+      id: '/seo-limburg'
+      path: '/seo-limburg'
+      fullPath: '/seo-limburg'
+      preLoaderRoute: typeof SeoLimburgRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-maastricht': {
+      id: '/seo-maastricht'
+      path: '/seo-maastricht'
+      fullPath: '/seo-maastricht'
+      preLoaderRoute: typeof SeoMaastrichtRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-nijmegen': {
+      id: '/seo-nijmegen'
+      path: '/seo-nijmegen'
+      fullPath: '/seo-nijmegen'
+      preLoaderRoute: typeof SeoNijmegenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-partner': {
+      id: '/seo-partner'
+      path: '/seo-partner'
+      fullPath: '/seo-partner'
+      preLoaderRoute: typeof SeoPartnerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-roermond': {
+      id: '/seo-roermond'
+      path: '/seo-roermond'
+      fullPath: '/seo-roermond'
+      preLoaderRoute: typeof SeoRoermondRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-rotterdam': {
+      id: '/seo-rotterdam'
+      path: '/seo-rotterdam'
+      fullPath: '/seo-rotterdam'
+      preLoaderRoute: typeof SeoRotterdamRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-score': {
+      id: '/seo-score'
+      path: '/seo-score'
+      fullPath: '/seo-score'
+      preLoaderRoute: typeof SeoScoreRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-venlo': {
+      id: '/seo-venlo'
+      path: '/seo-venlo'
+      fullPath: '/seo-venlo'
+      preLoaderRoute: typeof SeoVenloRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-venray': {
+      id: '/seo-venray'
+      path: '/seo-venray'
+      fullPath: '/seo-venray'
+      preLoaderRoute: typeof SeoVenrayRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/seo-voor-mkb': {
+      id: '/seo-voor-mkb'
+      path: '/seo-voor-mkb'
+      fullPath: '/seo-voor-mkb'
+      preLoaderRoute: typeof SeoVoorMkbRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tarieven-linkbuilding': {
+      id: '/tarieven-linkbuilding'
+      path: '/tarieven-linkbuilding'
+      fullPath: '/tarieven-linkbuilding'
+      preLoaderRoute: typeof TarievenLinkbuildingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tarieven-seo': {
+      id: '/tarieven-seo'
+      path: '/tarieven-seo'
+      fullPath: '/tarieven-seo'
+      preLoaderRoute: typeof TarievenSeoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tarieven-social-media': {
+      id: '/tarieven-social-media'
+      path: '/tarieven-social-media'
+      fullPath: '/tarieven-social-media'
+      preLoaderRoute: typeof TarievenSocialMediaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel': {
+      id: '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel'
+      path: '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel'
+      fullPath: '/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel'
+      preLoaderRoute: typeof Top10ZoekmachinesInNederlandWelkeZoekmachinesHebbenHetGrootsteMarktaandeelRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/top-20-gratis-online-bedrijvengidsen-van-nederland-2': {
+      id: '/top-20-gratis-online-bedrijvengidsen-van-nederland-2'
+      path: '/top-20-gratis-online-bedrijvengidsen-van-nederland-2'
+      fullPath: '/top-20-gratis-online-bedrijvengidsen-van-nederland-2'
+      preLoaderRoute: typeof Top20GratisOnlineBedrijvengidsenVanNederland2RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/veelgestelde-vragen': {
+      id: '/veelgestelde-vragen'
+      path: '/veelgestelde-vragen'
+      fullPath: '/veelgestelde-vragen'
+      preLoaderRoute: typeof VeelgesteldeVragenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/wat-kost-een-website-laten-bouwen': {
+      id: '/wat-kost-een-website-laten-bouwen'
+      path: '/wat-kost-een-website-laten-bouwen'
+      fullPath: '/wat-kost-een-website-laten-bouwen'
+      preLoaderRoute: typeof WatKostEenWebsiteLatenBouwenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/zoeken': {
+      id: '/zoeken'
+      path: '/zoeken'
+      fullPath: '/zoeken'
+      preLoaderRoute: typeof ZoekenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cases/$slug': {
+      id: '/cases/$slug'
+      path: '/cases/$slug'
+      fullPath: '/cases/$slug'
+      preLoaderRoute: typeof CasesSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/kennisbank/': {
@@ -1391,123 +1391,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KennisbankIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/online-marketing/zoekmachine-optimalisatie-specialist': {
-      id: '/online-marketing/zoekmachine-optimalisatie-specialist'
-      path: '/online-marketing/zoekmachine-optimalisatie-specialist'
-      fullPath: '/online-marketing/zoekmachine-optimalisatie-specialist'
-      preLoaderRoute: typeof OnlineMarketingZoekmachineOptimalisatieSpecialistRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/wordpress-onderhoud': {
-      id: '/online-marketing/wordpress-onderhoud'
-      path: '/online-marketing/wordpress-onderhoud'
-      fullPath: '/online-marketing/wordpress-onderhoud'
-      preLoaderRoute: typeof OnlineMarketingWordpressOnderhoudRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/website-advies': {
-      id: '/online-marketing/website-advies'
-      path: '/online-marketing/website-advies'
-      fullPath: '/online-marketing/website-advies'
-      preLoaderRoute: typeof OnlineMarketingWebsiteAdviesRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/uitbesteden': {
-      id: '/online-marketing/uitbesteden'
-      path: '/online-marketing/uitbesteden'
-      fullPath: '/online-marketing/uitbesteden'
-      preLoaderRoute: typeof OnlineMarketingUitbestedenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/social-media-marketing': {
-      id: '/online-marketing/social-media-marketing'
-      path: '/online-marketing/social-media-marketing'
-      fullPath: '/online-marketing/social-media-marketing'
-      preLoaderRoute: typeof OnlineMarketingSocialMediaMarketingRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/seo-uitbesteden': {
-      id: '/online-marketing/seo-uitbesteden'
-      path: '/online-marketing/seo-uitbesteden'
-      fullPath: '/online-marketing/seo-uitbesteden'
-      preLoaderRoute: typeof OnlineMarketingSeoUitbestedenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/seo-teksten-laten-schrijven': {
-      id: '/online-marketing/seo-teksten-laten-schrijven'
-      path: '/online-marketing/seo-teksten-laten-schrijven'
-      fullPath: '/online-marketing/seo-teksten-laten-schrijven'
-      preLoaderRoute: typeof OnlineMarketingSeoTekstenLatenSchrijvenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/seo-en-sea': {
-      id: '/online-marketing/seo-en-sea'
-      path: '/online-marketing/seo-en-sea'
-      fullPath: '/online-marketing/seo-en-sea'
-      preLoaderRoute: typeof OnlineMarketingSeoEnSeaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/seo-advies': {
-      id: '/online-marketing/seo-advies'
-      path: '/online-marketing/seo-advies'
-      fullPath: '/online-marketing/seo-advies'
-      preLoaderRoute: typeof OnlineMarketingSeoAdviesRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/local-seo': {
-      id: '/online-marketing/local-seo'
-      path: '/online-marketing/local-seo'
-      fullPath: '/online-marketing/local-seo'
-      preLoaderRoute: typeof OnlineMarketingLocalSeoRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/linkbuilding-uitbesteden': {
-      id: '/online-marketing/linkbuilding-uitbesteden'
-      path: '/online-marketing/linkbuilding-uitbesteden'
-      fullPath: '/online-marketing/linkbuilding-uitbesteden'
-      preLoaderRoute: typeof OnlineMarketingLinkbuildingUitbestedenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/google-tag-manager-inrichten': {
-      id: '/online-marketing/google-tag-manager-inrichten'
-      path: '/online-marketing/google-tag-manager-inrichten'
-      fullPath: '/online-marketing/google-tag-manager-inrichten'
-      preLoaderRoute: typeof OnlineMarketingGoogleTagManagerInrichtenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/google-ads-uitbesteden': {
-      id: '/online-marketing/google-ads-uitbesteden'
-      path: '/online-marketing/google-ads-uitbesteden'
-      fullPath: '/online-marketing/google-ads-uitbesteden'
-      preLoaderRoute: typeof OnlineMarketingGoogleAdsUitbestedenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/geo-optimalisatie': {
-      id: '/online-marketing/geo-optimalisatie'
-      path: '/online-marketing/geo-optimalisatie'
-      fullPath: '/online-marketing/geo-optimalisatie'
-      preLoaderRoute: typeof OnlineMarketingGeoOptimalisatieRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/emailmarketing': {
-      id: '/online-marketing/emailmarketing'
-      path: '/online-marketing/emailmarketing'
-      fullPath: '/online-marketing/emailmarketing'
-      preLoaderRoute: typeof OnlineMarketingEmailmarketingRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/display-advertisement': {
-      id: '/online-marketing/display-advertisement'
-      path: '/online-marketing/display-advertisement'
-      fullPath: '/online-marketing/display-advertisement'
-      preLoaderRoute: typeof OnlineMarketingDisplayAdvertisementRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/online-marketing/conversie-optimalisatie': {
-      id: '/online-marketing/conversie-optimalisatie'
-      path: '/online-marketing/conversie-optimalisatie'
-      fullPath: '/online-marketing/conversie-optimalisatie'
-      preLoaderRoute: typeof OnlineMarketingConversieOptimalisatieRouteImport
+    '/kennisbank/$slug': {
+      id: '/kennisbank/$slug'
+      path: '/kennisbank/$slug'
+      fullPath: '/kennisbank/$slug'
+      preLoaderRoute: typeof KennisbankSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/kennisbank/geo': {
@@ -1517,18 +1405,130 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KennisbankGeoRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/kennisbank/$slug': {
-      id: '/kennisbank/$slug'
-      path: '/kennisbank/$slug'
-      fullPath: '/kennisbank/$slug'
-      preLoaderRoute: typeof KennisbankSlugRouteImport
+    '/online-marketing/': {
+      id: '/online-marketing/'
+      path: '/online-marketing'
+      fullPath: '/online-marketing/'
+      preLoaderRoute: typeof OnlineMarketingIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/cases/$slug': {
-      id: '/cases/$slug'
-      path: '/cases/$slug'
-      fullPath: '/cases/$slug'
-      preLoaderRoute: typeof CasesSlugRouteImport
+    '/online-marketing/conversie-optimalisatie': {
+      id: '/online-marketing/conversie-optimalisatie'
+      path: '/online-marketing/conversie-optimalisatie'
+      fullPath: '/online-marketing/conversie-optimalisatie'
+      preLoaderRoute: typeof OnlineMarketingConversieOptimalisatieRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/display-advertisement': {
+      id: '/online-marketing/display-advertisement'
+      path: '/online-marketing/display-advertisement'
+      fullPath: '/online-marketing/display-advertisement'
+      preLoaderRoute: typeof OnlineMarketingDisplayAdvertisementRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/emailmarketing': {
+      id: '/online-marketing/emailmarketing'
+      path: '/online-marketing/emailmarketing'
+      fullPath: '/online-marketing/emailmarketing'
+      preLoaderRoute: typeof OnlineMarketingEmailmarketingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/geo-optimalisatie': {
+      id: '/online-marketing/geo-optimalisatie'
+      path: '/online-marketing/geo-optimalisatie'
+      fullPath: '/online-marketing/geo-optimalisatie'
+      preLoaderRoute: typeof OnlineMarketingGeoOptimalisatieRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/google-ads-uitbesteden': {
+      id: '/online-marketing/google-ads-uitbesteden'
+      path: '/online-marketing/google-ads-uitbesteden'
+      fullPath: '/online-marketing/google-ads-uitbesteden'
+      preLoaderRoute: typeof OnlineMarketingGoogleAdsUitbestedenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/google-tag-manager-inrichten': {
+      id: '/online-marketing/google-tag-manager-inrichten'
+      path: '/online-marketing/google-tag-manager-inrichten'
+      fullPath: '/online-marketing/google-tag-manager-inrichten'
+      preLoaderRoute: typeof OnlineMarketingGoogleTagManagerInrichtenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/linkbuilding-uitbesteden': {
+      id: '/online-marketing/linkbuilding-uitbesteden'
+      path: '/online-marketing/linkbuilding-uitbesteden'
+      fullPath: '/online-marketing/linkbuilding-uitbesteden'
+      preLoaderRoute: typeof OnlineMarketingLinkbuildingUitbestedenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/local-seo': {
+      id: '/online-marketing/local-seo'
+      path: '/online-marketing/local-seo'
+      fullPath: '/online-marketing/local-seo'
+      preLoaderRoute: typeof OnlineMarketingLocalSeoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/seo-advies': {
+      id: '/online-marketing/seo-advies'
+      path: '/online-marketing/seo-advies'
+      fullPath: '/online-marketing/seo-advies'
+      preLoaderRoute: typeof OnlineMarketingSeoAdviesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/seo-en-sea': {
+      id: '/online-marketing/seo-en-sea'
+      path: '/online-marketing/seo-en-sea'
+      fullPath: '/online-marketing/seo-en-sea'
+      preLoaderRoute: typeof OnlineMarketingSeoEnSeaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/seo-teksten-laten-schrijven': {
+      id: '/online-marketing/seo-teksten-laten-schrijven'
+      path: '/online-marketing/seo-teksten-laten-schrijven'
+      fullPath: '/online-marketing/seo-teksten-laten-schrijven'
+      preLoaderRoute: typeof OnlineMarketingSeoTekstenLatenSchrijvenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/seo-uitbesteden': {
+      id: '/online-marketing/seo-uitbesteden'
+      path: '/online-marketing/seo-uitbesteden'
+      fullPath: '/online-marketing/seo-uitbesteden'
+      preLoaderRoute: typeof OnlineMarketingSeoUitbestedenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/social-media-marketing': {
+      id: '/online-marketing/social-media-marketing'
+      path: '/online-marketing/social-media-marketing'
+      fullPath: '/online-marketing/social-media-marketing'
+      preLoaderRoute: typeof OnlineMarketingSocialMediaMarketingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/uitbesteden': {
+      id: '/online-marketing/uitbesteden'
+      path: '/online-marketing/uitbesteden'
+      fullPath: '/online-marketing/uitbesteden'
+      preLoaderRoute: typeof OnlineMarketingUitbestedenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/website-advies': {
+      id: '/online-marketing/website-advies'
+      path: '/online-marketing/website-advies'
+      fullPath: '/online-marketing/website-advies'
+      preLoaderRoute: typeof OnlineMarketingWebsiteAdviesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/wordpress-onderhoud': {
+      id: '/online-marketing/wordpress-onderhoud'
+      path: '/online-marketing/wordpress-onderhoud'
+      fullPath: '/online-marketing/wordpress-onderhoud'
+      preLoaderRoute: typeof OnlineMarketingWordpressOnderhoudRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-marketing/zoekmachine-optimalisatie-specialist': {
+      id: '/online-marketing/zoekmachine-optimalisatie-specialist'
+      path: '/online-marketing/zoekmachine-optimalisatie-specialist'
+      fullPath: '/online-marketing/zoekmachine-optimalisatie-specialist'
+      preLoaderRoute: typeof OnlineMarketingZoekmachineOptimalisatieSpecialistRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/api/public/lead': {
