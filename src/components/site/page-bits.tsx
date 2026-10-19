@@ -1,5 +1,6 @@
 import { BEDRIJFSCIJFERS } from "@/data/bedrijfscijfers";
-import { Link } from "@tanstack/react-router";
+import { Link, useRouterState } from "@tanstack/react-router";
+import { aeoFor } from "@/content/aeo";
 import { useState } from "react";
 import {
   ArrowRight,
