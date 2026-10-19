@@ -26,12 +26,6 @@ export const REGIO_LINKS: InterneLink[] = [
   { label: "SEO Eindhoven", to: "/seo-eindhoven/", note: "Tech, industrie en Brainport." },
   { label: "SEO Rotterdam", to: "/seo-rotterdam/", note: "Haven, logistiek en dienstverlening." },
   { label: "SEO Ibiza", to: "/seo-ibiza/", note: "Toerisme en verhuurbedrijven op het eiland." },
-  { label: "SEO Blerick", to: "/seo-blerick/", note: "Venlo-West en de bedrijventerreinen." },
-  {
-    label: "Online marketing bureau Venray",
-    to: "/online-marketing-venray/",
-    note: "SEO, Ads en conversie voor Noord-Limburg.",
-  },
   {
     label: "Online marketing Venlo",
     to: "/online-marketing-venlo/",
@@ -172,10 +166,6 @@ export const OVERIGE_LINKS: InterneLink[] = [
  * waardevol zodra het begrip live gaat.
  */
 export const KENNISBANK_SEO_LINKS: InterneLink[] = [
-  { label: "Zoekwoorden: short tail en long tail", to: "/kennisbank/zoekwoorden/", note: "Waarom zoekintentie zwaarder weegt dan volume." },
-  { label: "Meta description schrijven", to: "/kennisbank/meta-description/", note: "Geen rankingfactor, wel bepalend voor je kliks." },
-  { label: "Structured data en rich results", to: "/kennisbank/structured-data/", note: "Je pagina uitleggen aan zoekmachines en AI." },
-  { label: "Robots.txt instellen", to: "/kennisbank/robots-txt-bestand/", note: "Wat zoekmachines wel en niet mogen bekijken." },
   {
     label: "Indexeren: betekenis en waarom het telt",
     to: "/kennisbank/indexeren-betekenis/",
@@ -199,9 +189,6 @@ export const KENNISBANK_SEO_LINKS: InterneLink[] = [
 ];
 
 export const KENNISBANK_ADS_LINKS: InterneLink[] = [
-  { label: "Google Ads: hoe de veiling werkt", to: "/kennisbank/google-ads/", note: "Waarom twee adverteerders een andere prijs betalen." },
-  { label: "Google Analytics inrichten", to: "/kennisbank/google-analytics/", note: "Wat bezoekers op je site doen, en wat je meet." },
-  { label: "Affiliate marketing: betalen per resultaat", to: "/kennisbank/affiliate-marketing/", note: "Wanneer het past bij je marge." },
   {
     label: "CTR: wat is een goede click-through rate?",
     to: "/kennisbank/ctr/",
@@ -220,9 +207,6 @@ export const KENNISBANK_ADS_LINKS: InterneLink[] = [
 ];
 
 export const KENNISBANK_CONTENT_LINKS: InterneLink[] = [
-  { label: "Salespagina opbouwen", to: "/kennisbank/salespagina/", note: "Eén pagina die het hele verkoopgesprek voert." },
-  { label: "Wat is marketing automation?", to: "/kennisbank/wat-is-marketing-automation/", note: "Terugkerend werk automatiseren, en wanneer het te vroeg is." },
-  { label: "Affiliate marketing: betalen per resultaat", to: "/kennisbank/affiliate-marketing/", note: "Partners belonen per verkoop of lead." },
   {
     label: "Wat is copywriting?",
     to: "/kennisbank/wat-is-copywriting/",
@@ -301,117 +285,3 @@ export const DIENST_LINKS: InterneLink[] = [
     note: "SEO-, Ads- en CRO-begrippen in gewone taal.",
   },
 ]
-
-/** CMS- en webshopbegrippen, voor de pagina's over website en onderhoud. */
-export const KENNISBANK_CMS_LINKS: InterneLink[] = [
-  { label: "Wat is een CMS?", to: "/kennisbank/cms-content-management-systeem/", note: "Je website beheren zonder programmeerkennis." },
-  { label: "WordPress: voordelen en onderhoud", to: "/kennisbank/wordpress/", note: "Het meest gebruikte CMS, en de valkuilen." },
-  { label: "Joomla als CMS", to: "/kennisbank/joomla/", note: "Waar het sterk in is en wanneer je overstapt." },
-  { label: "Magento voor grotere webshops", to: "/kennisbank/magento/", note: "Wanneer het past en wanneer het te zwaar is." },
-  { label: "PrestaShop voor het middensegment", to: "/kennisbank/prestashop/", note: "Zelf hosten, zelf beheren." },
-  { label: "Staging: testen voordat je live gaat", to: "/kennisbank/staging/", note: "Hoe je voorkomt dat een update je posities kost." },
-]
-
-/**
- * Koppelt de diensten die in een case genoemd worden aan de bijbehorende
- * dienstpagina. Zo krijgt elke casepagina contextuele links naar de pagina's
- * die geld moeten opleveren, met ankertekst die het doelzoekwoord bevat.
- *
- * De sleutel is exact de tekst uit het `services`-veld in src/content/cases.ts.
- */
-export const CASE_DIENST_LINKS: Record<string, InterneLink> = {
-  SEO: {
-    label: "SEO uitbesteden aan een vaste specialist",
-    to: "/online-marketing/seo-uitbesteden/",
-    note: "Techniek, content en autoriteit in één doorlopend traject.",
-  },
-  "Technische SEO": {
-    label: "Technische SEO en indexering op orde",
-    to: "/online-marketing/seo-uitbesteden/",
-    note: "De laag waar alles op rust: crawlbaarheid, laadtijd en indexering.",
-  },
-  "E-commerce SEO": {
-    label: "SEO voor webshops",
-    to: "/online-marketing/seo-uitbesteden/",
-    note: "Categorie- en productpagina's die gevonden worden én verkopen.",
-  },
-  "Internationale SEO": {
-    label: "SEO uitbesteden voor meerdere markten",
-    to: "/online-marketing/seo-uitbesteden/",
-    note: "Eén strategie over meerdere landen en talen.",
-  },
-  GEO: {
-    label: "Genoemd worden in AI-antwoorden",
-    to: "/online-marketing/geo-optimalisatie/",
-    note: "Zichtbaar in ChatGPT, Gemini en de AI Overviews van Google.",
-  },
-  "Google Ads": {
-    label: "Google Ads uitbesteden",
-    to: "/online-marketing/google-ads-uitbesteden/",
-    note: "Campagnes die aanvragen opleveren in plaats van klikken.",
-  },
-  CRO: {
-    label: "Conversie-optimalisatie",
-    to: "/online-marketing/conversie-optimalisatie/",
-    note: "Meer aanvragen uit het verkeer dat je al hebt.",
-  },
-  "Local SEO": {
-    label: "Local SEO voor je werkgebied",
-    to: "/online-marketing/local-seo/",
-    note: "Zichtbaar in het lokale zoekresultaat en op de kaart.",
-  },
-  "Lokale SEO": {
-    label: "Local SEO voor je werkgebied",
-    to: "/online-marketing/local-seo/",
-    note: "Zichtbaar in het lokale zoekresultaat en op de kaart.",
-  },
-  "Lokale landingspagina's": {
-    label: "Lokale landingspagina's laten maken",
-    to: "/online-marketing/local-seo/",
-    note: "Een pagina per plaats die inhoudelijk verschilt, geen kopie.",
-  },
-  Content: {
-    label: "SEO-teksten laten schrijven",
-    to: "/online-marketing/seo-teksten-laten-schrijven/",
-    note: "Teksten die scoren in Google en geciteerd worden door AI.",
-  },
-  Linkbuilding: {
-    label: "Linkbuilding uitbesteden",
-    to: "/online-marketing/linkbuilding-uitbesteden/",
-    note: "Autoriteit opbouwen met links die je ook zonder Google zou willen.",
-  },
-  "Social media": {
-    label: "Social media marketing",
-    to: "/online-marketing/social-media-marketing/",
-    note: "Bereik dat je andere kanalen versterkt.",
-  },
-  Website: {
-    label: "Website laten bouwen",
-    to: "/online-marketing/website-advies/",
-    note: "Snel, duidelijk en gebouwd om aanvragen op te leveren.",
-  },
-  GA4: {
-    label: "Google Tag Manager en GA4 inrichten",
-    to: "/online-marketing/google-tag-manager-inrichten/",
-    note: "Meting die klopt, want anders stuur je op ruis.",
-  },
-};
-
-/** Vaste vervolgstappen onderaan elke case. */
-export const CASE_VERVOLG_LINKS: InterneLink[] = [
-  {
-    label: "Wat SEO kost per maand",
-    to: "/tarieven-seo/",
-    note: "Audit vanaf € 599,-, doorlopend vanaf € 999,- per maand.",
-  },
-  {
-    label: "Gratis SEO- en GEO-scan aanvragen",
-    to: "/gratis-seo-scan/",
-    note: "Binnen twee werkdagen een video met je drie grootste blokkades.",
-  },
-  {
-    label: "Alle online marketingdiensten",
-    to: "/online-marketing/",
-    note: "De vier pijlers en wat er omheen hangt.",
-  },
-];

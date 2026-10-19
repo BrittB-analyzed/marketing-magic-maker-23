@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://b-analyzed.com/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/"/>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -37,78 +31,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://b-analyzed.com/cases/10-euro-taxi-den-bosch/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/6600x-meubel-outlet-nummer-1-in-google/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/de-bruidsmode-outlet-belgie/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/dn-research/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/med4u-mediation-van-16-naar-1/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/meer-omzet-sleep-factory-bv/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/online-transacties-vogelvoerkopen/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/parketreus/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/steinbrueckner-truckwash-top-5/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/taxicentrale-veghel-nummer-1/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/van-daken/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/venlo-taxi-negen-jaar-nummer-1/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/cases/world-of-art-wereldkaarten/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://b-analyzed.com/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/contact/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/contact/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/contact/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/contact/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/contact/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/contact/"/>
     <lastmod>2026-08-21</lastmod>
     <priority>0.8</priority>
   </url>
@@ -128,127 +51,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://b-analyzed.com/en/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/"/>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/en/about/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing-bedrijf/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing-bedrijf/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing-bedrijf/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/about/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/about/"/>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/en/case-studies/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing-cases/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing-cases/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing-cases/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/case-studies/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/case-studies/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/case-studies/"/>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/en/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/contact/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/contact/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/contact/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/contact/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/contact/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/contact/"/>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/en/free-scan/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/gratis-seo-scan/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/gratis-seo-scan/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/gratis-seo-scan/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/free-scan/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/free-scan/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/free-scan/"/>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/en/pricing/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/tarieven-seo/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/tarieven-seo/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/tarieven-seo/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/pricing/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/pricing/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/pricing/"/>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/en/services/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/services/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/services/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/services/"/>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/en/services/conversion-optimisation/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing/conversie-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing/conversie-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing/conversie-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/services/conversion-optimisation/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/services/conversion-optimisation/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/services/conversion-optimisation/"/>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/en/services/geo/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing/geo-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing/geo-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing/geo-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/services/geo/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/services/geo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/services/geo/"/>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/en/services/google-ads/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing/google-ads-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing/google-ads-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing/google-ads-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/services/google-ads/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/services/google-ads/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/services/google-ads/"/>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/en/services/seo/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing/seo-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing/seo-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing/seo-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/services/seo/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/services/seo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/services/seo/"/>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://b-analyzed.com/gids-voor-een-goede-sitestructuur/</loc>
     <lastmod>2025-03-27</lastmod>
     <priority>0.5</priority>
@@ -265,12 +67,6 @@
   </url>
   <url>
     <loc>https://b-analyzed.com/gratis-seo-scan/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/gratis-seo-scan/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/gratis-seo-scan/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/gratis-seo-scan/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/free-scan/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/free-scan/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/free-scan/"/>
     <lastmod>2026-08-20</lastmod>
     <priority>0.8</priority>
   </url>
@@ -581,12 +377,6 @@
   </url>
   <url>
     <loc>https://b-analyzed.com/online-marketing-bedrijf/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing-bedrijf/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing-bedrijf/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing-bedrijf/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/about/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/about/"/>
     <lastmod>2026-08-20</lastmod>
     <priority>0.8</priority>
   </url>
@@ -597,13 +387,7 @@
   </url>
   <url>
     <loc>https://b-analyzed.com/online-marketing-cases/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing-cases/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing-cases/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing-cases/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/case-studies/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/case-studies/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/case-studies/"/>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -617,29 +401,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://b-analyzed.com/online-marketing-venray/</loc>
-    <lastmod>2026-09-10</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://b-analyzed.com/online-marketing/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/services/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/services/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/services/"/>
     <lastmod>2026-08-21</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://b-analyzed.com/online-marketing/conversie-optimalisatie/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing/conversie-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing/conversie-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing/conversie-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/services/conversion-optimisation/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/services/conversion-optimisation/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/services/conversion-optimisation/"/>
     <lastmod>2026-08-21</lastmod>
     <priority>0.7</priority>
   </url>
@@ -655,23 +422,11 @@
   </url>
   <url>
     <loc>https://b-analyzed.com/online-marketing/geo-optimalisatie/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing/geo-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing/geo-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing/geo-optimalisatie/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/services/geo/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/services/geo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/services/geo/"/>
     <lastmod>2026-08-20</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://b-analyzed.com/online-marketing/google-ads-uitbesteden/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing/google-ads-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing/google-ads-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing/google-ads-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/services/google-ads/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/services/google-ads/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/services/google-ads/"/>
     <lastmod>2026-08-21</lastmod>
     <priority>0.7</priority>
   </url>
@@ -707,12 +462,6 @@
   </url>
   <url>
     <loc>https://b-analyzed.com/online-marketing/seo-uitbesteden/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/online-marketing/seo-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/online-marketing/seo-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/online-marketing/seo-uitbesteden/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/services/seo/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/services/seo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/services/seo/"/>
     <lastmod>2026-08-21</lastmod>
     <priority>0.7</priority>
   </url>
@@ -733,7 +482,7 @@
   </url>
   <url>
     <loc>https://b-analyzed.com/online-marketing/wordpress-onderhoud/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -764,11 +513,6 @@
   <url>
     <loc>https://b-analyzed.com/seo-belfeld/</loc>
     <lastmod>2026-08-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://b-analyzed.com/seo-blerick/</loc>
-    <lastmod>2026-09-10</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -873,7 +617,7 @@
   </url>
   <url>
     <loc>https://b-analyzed.com/seo-voor-mkb/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -883,12 +627,6 @@
   </url>
   <url>
     <loc>https://b-analyzed.com/tarieven-seo/</loc>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://b-analyzed.com/tarieven-seo/"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://b-analyzed.com/tarieven-seo/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://b-analyzed.com/tarieven-seo/"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://b-analyzed.com/en/pricing/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://b-analyzed.com/en/pricing/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://b-analyzed.com/en/pricing/"/>
     <lastmod>2026-08-21</lastmod>
     <priority>0.8</priority>
   </url>

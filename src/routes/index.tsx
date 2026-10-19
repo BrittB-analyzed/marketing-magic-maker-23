@@ -1,3 +1,4 @@
+import { graph, localBusinessSchema, organizationSchema } from "@/lib/schema";
 import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
@@ -24,7 +25,6 @@ import {
   Eyebrow,
   Faq,
   FaqBlock,
-  RelatedLinks,
   Section,
   SectionHeading,
   faqJsonLd,
@@ -66,7 +66,10 @@ const FAQ: Faq[] = [
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: seoMeta('/', { ogType: 'website', twitterCard: 'summary_large_image' }),
-    scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
+    scripts: [
+      { type: "application/ld+json", children: faqJsonLd(FAQ) },
+      { type: "application/ld+json", children: graph(organizationSchema(), localBusinessSchema()) },
+    ],
   }),
   component: Home,
 });
@@ -86,26 +89,6 @@ function Home() {
       <Testimonials />
       <BlogTeasers />
       <ScanSection />
-      <RelatedLinks
-        title="Online marketing in jouw regio"
-        items={[
-          {
-            label: "Online marketing bureau Venlo",
-            to: "/online-marketing-venlo/",
-            note: "SEO, Google Ads en conversie voor ondernemers in Venlo en omgeving.",
-          },
-          {
-            label: "Online marketing bureau Limburg",
-            to: "/marketingbureau-limburg/",
-            note: "Van Venlo tot Maastricht, met per werkgebied een eigen aanpak.",
-          },
-          {
-            label: "SEO Venlo",
-            to: "/seo-venlo/",
-            note: "Alleen je organische posities, zonder advertentiebudget.",
-          },
-        ]}
-      />
       <FaqBlock items={FAQ} />
       <CtaBand />
     </SiteLayout>

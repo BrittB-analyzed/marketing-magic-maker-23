@@ -1,3 +1,4 @@
+import { AeoBlocks } from "@/components/site/aeo";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/site/site-chrome";
@@ -49,6 +50,7 @@ export const Route = createFileRoute("/kennisbank/geo")({
           Bekijk onze GEO-dienstverlening <ArrowRight className="size-4 text-brand-red" />
         </Link>
       </Section>
+      <AeoBlocks />
       <FaqBlock items={FAQ} />
       <CtaBand />
     </SiteLayout>

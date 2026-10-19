@@ -39,13 +39,6 @@ export const ORGANISATIE = {
   ],
 } as const;
 
-/**
- * Afbeelding voor og:image en twitter:image als een pagina geen eigen beeld
- * heeft. Bewust een JPG en geen SVG: Facebook, LinkedIn en X renderen SVG niet,
- * waardoor een gedeelde link anders zonder voorvertoning verschijnt.
- */
-export const SOCIAL_IMAGE = `${SITE_URL}/assets/photos/aan-het-werk.jpg`;
-
 export const AUTEUR = {
   naam: "Britt Daemen",
   functie: "Oprichter en SEO- & GEO-specialist bij B. Analyzed",

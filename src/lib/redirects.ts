@@ -1,55 +1,31 @@
 /**
- * Permanente doorverwijzingen van oude URL's naar hun huidige pagina.
+ * Permanente doorverwijzingen van de oude WordPress-URL's naar de inhoudelijk
+ * dichtstbijzijnde pagina op deze site.
  *
- * De oude WordPress-site gebruikte een /nl/-voorvoegsel en een aantal pagina's
- * die nu anders heten. Die URL's hebben nog links van andere sites, dus ze
- * mogen geen 404 geven: elke link die doodloopt, is weggegooide autoriteit.
+ * Regel: nooit naar de homepage doorverwijzen. Google behandelt een redirect
+ * naar een pagina zonder inhoudelijke overlap als een soft 404 en laat de
+ * opgebouwde posities dan alsnog vallen. Elke regel hieronder gaat daarom naar
+ * een pagina die dezelfde zoekvraag beantwoordt als de oude URL.
  *
- * Sleutels zijn paden mét sluitende slash en in kleine letters.
+ * Deze tabel is de administratie. De redirect zelf staat in het gelijknamige
+ * routebestand in src/routes/, zodat TypeScript controleert dat het doelpad
+ * ook echt bestaat. src/lib/site-map.ts sluit deze paden uit van de sitemap.
  */
-const REDIRECTS: Record<string, string> = {
-  // Oude taalmap
-  "/nl/": "/",
-  "/nl/seo-bureau/": "/seo-bureau/",
-  "/nl/seo-expert/": "/seo-expert/",
-  "/nl/seo-consultant/": "/seo-consultant/",
-  "/nl/seo-limburg/": "/seo-limburg/",
-  "/nl/seo-venlo/": "/seo-venlo/",
-  "/nl/online-marketing-venlo/": "/online-marketing-venlo/",
-  "/nl/online-marketing-limburg/": "/marketingbureau-limburg/",
-  "/nl/seo-specialist/": "/online-marketing/zoekmachine-optimalisatie-specialist/",
-  "/nl/sea-specialist/": "/online-marketing/google-ads-uitbesteden/",
-  "/nl/linkbuilding-uitbesteden/": "/online-marketing/linkbuilding-uitbesteden/",
-  "/nl/freelance-online-marketeer/": "/seo-consultant/",
-  "/nl/seo-specialist-werkt-graag-met-wordpress/": "/online-marketing/wordpress-onderhoud/",
-  "/nl/het-belang-van-een-natuurlijk-linkprofiel/": "/kennisbank/backlinks/",
-
-  // Pagina's die onder een andere naam terugkwamen
-  "/seo-specialist/": "/online-marketing/zoekmachine-optimalisatie-specialist/",
-  "/sea-specialist/": "/online-marketing/google-ads-uitbesteden/",
-  "/linkbuilding-uitbesteden/": "/online-marketing/linkbuilding-uitbesteden/",
-  "/online-marketing-limburg/": "/marketingbureau-limburg/",
-  "/internet-marketing-bureau/": "/online-marketing-bedrijf/",
-  "/marketing-automation-software/": "/kennisbank/wat-is-marketing-automation/",
-  "/google-reviews-niet-zichtbaar/": "/hoog-in-google-mijn-bedrijf-ranken/",
-  "/zoekcampagnes-optimaliseren-in-adwords-hoe-doe-je-dat/":
-    "/online-marketing/google-ads-uitbesteden/",
-  "/blog-online-marketeer/": "/blog/",
-
-  // Oude scanpagina's
-  "/seo-scan/": "/gratis-seo-scan/",
-  "/seo-ranking-check/": "/gratis-seo-scan/",
-  "/technische-seo-scan/": "/gratis-seo-scan/",
+export const OUDE_URLS: Record<string, { naar: string; reden: string }> = {
+  "/omnichannel-marketing/": {
+    naar: "/online-marketing-strategie/",
+    reden: "Omnichannel gaat over het samenspel tussen kanalen: dat is de strategiepagina.",
+  },
+  "/top-10-zoekmachines-in-nederland-welke-zoekmachines-hebben-het-grootste-marktaandeel/": {
+    naar: "/online-marketing/geo-optimalisatie/",
+    reden: "Overzicht van zoekmachines en marktaandeel, inclusief de AI-zoekmachines.",
+  },
+  "/top-20-gratis-online-bedrijvengidsen-van-nederland-2/": {
+    naar: "/online-marketing/local-seo/",
+    reden: "Bedrijvengidsen zijn vermeldingen (citations) en horen bij local SEO.",
+  },
+  "/wat-kost-een-website-laten-bouwen/": {
+    naar: "/online-marketing/website-advies/",
+    reden: "De kosten van een website laten bouwen staan op de websitepagina.",
+  },
 };
-
-/**
- * Geeft het nieuwe pad terug voor een oude URL, of null als er niets
- * doorverwezen hoeft te worden. Zoekopdrachten in de URL blijven staan.
- */
-export function findRedirect(url: URL): string | null {
-  const path = url.pathname.toLowerCase();
-  const withSlash = path.endsWith("/") ? path : `${path}/`;
-  const target = REDIRECTS[withSlash];
-  if (!target) return null;
-  return `${target}${url.search}`;
-}

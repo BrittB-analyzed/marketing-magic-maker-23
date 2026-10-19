@@ -1,3 +1,4 @@
+import { AeoBlocks } from "@/components/site/aeo";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { ArrowRight, Search } from "lucide-react";
@@ -211,6 +212,7 @@ function Kennisbank() {
         </ul>
       </Section>
 
+      <AeoBlocks hasFaq={false} />
       <CtaBand />
     </SiteLayout>
   );

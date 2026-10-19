@@ -6,4 +6,4 @@ export const WHATSAPP_HREF = "https://wa.me/31681953999";
 export const EMAIL = "info@b-analyzed.com";
 export const REVIEWS_HREF =
   "https://www.google.com/search?q=b+analyzed+marketing#lrd=0x0:0x0,1,,,";
-export const REVIEW_COUNT = 48;
+export const REVIEW_COUNT = 47;

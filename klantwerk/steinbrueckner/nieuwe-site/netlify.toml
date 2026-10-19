@@ -1,8 +1,0 @@
-# Prototype voor de klant: wel openbaar te bekijken, niet indexeren
-[build]
-  publish = "."
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Robots-Tag = "noindex, nofollow"

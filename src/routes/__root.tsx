@@ -1,5 +1,4 @@
 import { SITE_AUTHOR, TWITTER_SITE } from "@/data/seo-meta";
-import { SOCIAL_IMAGE } from "@/data/organisatie";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
@@ -15,7 +14,6 @@ import { useEffect, useRef, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { canonicalUrl } from "../lib/canonical";
-import { hreflangLinks, localeVanPad } from "../lib/i18n";
 
 const GTM_ID = "GTM-N9JCGMN";
 
@@ -91,31 +89,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Online Marketing Bureau voor het MKB | SEO, GEO & Ads" },
+      { title: "Online Marketingbureau Limburg | SEO, GEO, Ads & CRO" },
       {
         name: "description",
         content:
-          "Online marketingbureau voor het MKB, gevestigd in Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
+          "Online marketingbureau uit Limburg. 15 jaar ervaring, 9,8 uit 47 reviews en een vast aanspreekpunt in plaats van een accountmanager. Vraag je gratis scan aan.",
       },
       { name: "author", content: SITE_AUTHOR },
-      {
-        name: "google-site-verification",
-        content: "q992TZh6g7IULRiqyK48dYp0IRU3huQz2xbKYPVC56Y",
-      },
-      { property: "og:title", content: "Online Marketing Bureau voor het MKB | SEO, GEO & Ads" },
+      { property: "og:title", content: "Online Marketingbureau Limburg | SEO, GEO, Ads & CRO" },
       {
         property: "og:description",
         content:
-          "Online marketingbureau voor het MKB, gevestigd in Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
+          "Online marketingbureau uit Limburg. 15 jaar ervaring, 9,8 uit 47 reviews en een vast aanspreekpunt in plaats van een accountmanager. Vraag je gratis scan aan.",
       },
       { property: "og:type", content: "website" },
-      // Standaardbeeld voor gedeelde links. Pagina's met een eigen afbeelding
-      // overschrijven dit in hun eigen head.
-      { property: "og:image", content: SOCIAL_IMAGE },
-      { property: "og:locale", content: "nl_NL" },
-      { property: "og:site_name", content: "B. Analyzed" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:image", content: SOCIAL_IMAGE },
       { name: "twitter:site", content: TWITTER_SITE },
     ],
     links: [
@@ -161,20 +149,11 @@ function RootShell({ children }: { children: ReactNode }) {
     });
   }, [pathname]);
 
-  // De taal van de pagina volgt uit het pad: alles onder /en/ is Engels.
-  const locale = localeVanPad(pathname);
-  const alternates = hreflangLinks(pathname);
-
   return (
-    <html lang={locale === "en" ? "en-GB" : "nl"}>
+    <html lang="nl">
       <head>
         <HeadContent />
         <link rel="canonical" href={canonicalUrl(pathname)} />
-        {/* hreflang alleen op pagina's die daadwerkelijk een tegenhanger
-            hebben. Zie src/lib/i18n.ts voor de motivatie. */}
-        {alternates.map((a) => (
-          <link key={a.hreflang} rel="alternate" hrefLang={a.hreflang} href={a.href} />
-        ))}
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{

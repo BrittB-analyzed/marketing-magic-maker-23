@@ -14,40 +14,40 @@ export const TWITTER_SITE = "@b_analyzed";
  */
 export const SEO_META: Record<string, SeoEntry> = {
   "/": {
-    title: "Online Marketing Bureau voor het MKB | SEO, GEO & Ads",
-    description: "Online marketingbureau voor het MKB, gevestigd in Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
+    title: "Online Marketingbureau Limburg | SEO, GEO, Ads & CRO",
+    description: "Online marketingbureau uit Limburg. 15 jaar ervaring, 9,8 uit 47 reviews en een vast aanspreekpunt in plaats van een accountmanager. Vraag je gratis scan aan.",
   },
   "/seo-limburg/": {
-    title: "SEO Limburg | SEO specialist met een 9,8 uit 48 reviews",
-    description: "SEO-specialist in Limburg met 15 jaar ervaring en een 9,8 uit 48 reviews. Een vast aanspreekpunt en elke maand een video met wat er is gebeurd en wat het deed.",
+    title: "SEO Limburg | SEO specialist met een 9,8 uit 47 reviews",
+    description: "SEO-specialist in Limburg met 15 jaar ervaring en een 9,8 uit 47 reviews. Een vast aanspreekpunt en elke maand een video met wat er is gebeurd en wat het deed.",
   },
   "/seo-venlo/": {
     title: "SEO Venlo | Vaste SEO-specialist, beoordeeld met 9,8",
-    description: "SEO in Venlo door Britt Daemen: 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Uitgebreide audit vanaf 599 euro, doorlopend vanaf 999 euro.",
+    description: "SEO in Venlo door Britt Daemen: 15 jaar ervaring, 9,8 uit 47 reviews en een vast aanspreekpunt. Uitgebreide audit vanaf 599 euro, doorlopend vanaf 999 euro.",
   },
   "/seo-eindhoven/": {
     title: "SEO Eindhoven | SEO-bureau met 15 jaar ervaring in SEO",
-    description: "SEO-bureau voor ondernemers in Eindhoven. 15 jaar ervaring, 9,8 uit 48 reviews en een vaste specialist die je strategie zelf bedenkt en ook zelf uitvoert.",
+    description: "SEO-bureau voor ondernemers in Eindhoven. 15 jaar ervaring, 9,8 uit 47 reviews en een vaste specialist die je strategie zelf bedenkt en ook zelf uitvoert.",
   },
   "/seo-rotterdam/": {
     title: "SEO Bureau Rotterdam | 15 jaar ervaring, 9,8 score",
-    description: "SEO-bureau voor Rotterdamse ondernemers. Een vaste specialist, maandelijkse video-rapportage en 15 jaar ervaring. Beoordeeld met een 9,8 uit 48 reviews.",
+    description: "SEO-bureau voor Rotterdamse ondernemers. Een vaste specialist, maandelijkse video-rapportage en 15 jaar ervaring. Beoordeeld met een 9,8 uit 47 reviews.",
   },
   "/seo-nijmegen/": {
-    title: "SEO Nijmegen | SEO-specialist met 9,8 uit 48 reviews",
+    title: "SEO Nijmegen | SEO-specialist met 9,8 uit 47 reviews",
     description: "SEO in Nijmegen met een vast aanspreekpunt en 15 jaar ervaring. Elke maand een video waarin je ziet wat er is gedaan en wat het opleverde. Audit vanaf 599 euro.",
   },
   "/seo-maastricht/": {
     title: "SEO Bureau Maastricht | Vaste specialist, 9,8 score",
-    description: "SEO-bureau in Maastricht met 15 jaar ervaring en een 9,8 uit 48 reviews. Geen accountmanager maar een vaste specialist die je strategie bedenkt en uitvoert.",
+    description: "SEO-bureau in Maastricht met 15 jaar ervaring en een 9,8 uit 47 reviews. Geen accountmanager maar een vaste specialist die je strategie bedenkt en uitvoert.",
   },
   "/marketingbureau-limburg/": {
-    title: "Online Marketing Bureau Limburg | 9,8 uit 48 reviews",
-    description: "Marketingbureau in Limburg voor SEO, Google Ads en conversie-optimalisatie. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je scan aan.",
+    title: "Marketingbureau Limburg | 15 jaar ervaring, 9,8 score",
+    description: "Marketingbureau in Limburg voor SEO, Google Ads en conversie-optimalisatie. 15 jaar ervaring, 9,8 uit 47 reviews en een vast aanspreekpunt. Vraag je scan aan.",
   },
   "/online-marketing-venlo/": {
     title: "Online Marketing Bureau Venlo | SEO, Google Ads & CRO",
-    description: "Online marketingbureau in Venlo met 15 jaar ervaring en een 9,8 uit 48 reviews. SEO, Google Ads en CRO bij een vast aanspreekpunt, vanaf 999 euro per maand.",
+    description: "Online marketingbureau in Venlo met 15 jaar ervaring en een 9,8 uit 47 reviews. SEO, Google Ads en CRO bij een vast aanspreekpunt, vanaf 999 euro per maand.",
   },
   "/seo-voor-mkb/": {
     title: "SEO voor MKB | Meer aanvragen uit Google en uit AI",
@@ -55,11 +55,11 @@ export const SEO_META: Record<string, SeoEntry> = {
   },
   "/seo-expert/": {
     title: "SEO Expert Inhuren | 15 jaar ervaring, 9,8 uit reviews",
-    description: "Een SEO-expert inhuren die je strategie bedenkt en ook zelf uitvoert. 15 jaar ervaring, 9,8 uit 48 reviews en elke maand een video met wat er is gebeurd.",
+    description: "Een SEO-expert inhuren die je strategie bedenkt en ook zelf uitvoert. 15 jaar ervaring, 9,8 uit 47 reviews en elke maand een video met wat er is gebeurd.",
   },
   "/online-marketing/seo-uitbesteden/": {
-    title: "SEO Uitbesteden | Vaste specialist, 9,8 uit 48 reviews",
-    description: "SEO uitbesteden aan een bureau met 15 jaar ervaring en een 9,8 uit 48 reviews. Een vast aanspreekpunt, maandelijkse video en een vaste prijs vanaf 999 euro.",
+    title: "SEO Uitbesteden | Vaste specialist, 9,8 uit 47 reviews",
+    description: "SEO uitbesteden aan een bureau met 15 jaar ervaring en een 9,8 uit 47 reviews. Een vast aanspreekpunt, maandelijkse video en een vaste prijs vanaf 999 euro.",
   },
   "/online-marketing/google-ads-uitbesteden/": {
     title: "Google Ads Specialist Inhuren of Ads Uitbesteden",
@@ -118,8 +118,8 @@ export const SEO_META: Record<string, SeoEntry> = {
     description: "SEO-advies zonder verplicht maandpakket: een eenmalige analyse met een actielijst die je zelf kunt uitvoeren. Vanaf 599 euro, binnen tien werkdagen klaar.",
   },
   "/online-marketing/zoekmachine-optimalisatie-specialist/": {
-    title: "Zoekmachine Optimalisatie Specialist | 9,8 uit 48",
-    description: "Een zoekmachine optimalisatie specialist die je strategie bedenkt en zelf uitvoert. 15 jaar ervaring, 9,8 uit 48 reviews. Audit vanaf 599 euro, eenmalig.",
+    title: "Zoekmachine Optimalisatie Specialist | 9,8 uit 47",
+    description: "Een zoekmachine optimalisatie specialist die je strategie bedenkt en zelf uitvoert. 15 jaar ervaring, 9,8 uit 47 reviews. Audit vanaf 599 euro, eenmalig.",
   },
   "/online-marketing/seo-en-sea/": {
     title: "SEO en SEA | Zo versterken ze elkaar in je budget",
@@ -128,62 +128,6 @@ export const SEO_META: Record<string, SeoEntry> = {
   "/top-20-gratis-online-bedrijvengidsen-van-nederland-2/": {
     title: "20 Gratis Online Bedrijvengidsen in Nederland (2026)",
     description: "Een overzicht van 20 Nederlandse bedrijvengidsen waar je je bedrijf gratis kunt vermelden, met per gids wat de vermelding oplevert voor je lokale vindbaarheid.",
-  },
-  // --- Engelse sectie (/en/). Brits Engels, Europese targeting. ---
-  "/en/": {
-    title: "Dutch SEO & GEO Agency for Europe | B. Analyzed",
-    description:
-      "An SEO, GEO and Google Ads agency from the Netherlands, working across Europe. 15 years of experience, rated 9.8, one fixed point of contact.",
-  },
-  "/en/services/": {
-    title: "Our Services | SEO, GEO, Google Ads and CRO",
-    description:
-      "Four pillars instead of thirteen separate services: SEO, GEO, Google Ads and conversion optimisation. What each one does and when it pays off.",
-  },
-  "/en/services/seo/": {
-    title: "SEO Services | Get Found in Google Across Europe",
-    description:
-      "SEO services from a Dutch agency working across Europe. Technical SEO, content and authority in one plan. Audit from 599 euro, ongoing from 999.",
-  },
-  "/en/services/geo/": {
-    title: "GEO | Get Cited in ChatGPT, Gemini and AI Answers",
-    description:
-      "Generative engine optimisation: get your brand named and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews, not just ranked in Google.",
-  },
-  "/en/services/google-ads/": {
-    title: "Google Ads Management | A Specialist, Not a Bot",
-    description:
-      "Google Ads managed by one specialist who optimises weekly. You keep ownership of your account. Audit from 599 euro, ongoing from 999 a month.",
-  },
-  "/en/services/conversion-optimisation/": {
-    title: "Conversion Optimisation | More From the Same Traffic",
-    description:
-      "Conversion optimisation for SMEs: how to calculate your conversion rate, which tests to run in which order, and what it costs. Audit from 599 euro.",
-  },
-  "/en/pricing/": {
-    title: "Pricing | Audit 599 Euro, Ongoing From 999 a Month",
-    description:
-      "What SEO costs at B. Analyzed: a one-off audit from 599 euro, an ongoing SEO and GEO package from 999 euro a month, and loose hours at 90 euro.",
-  },
-  "/en/about/": {
-    title: "About B. Analyzed | Britt Daemen, Your Specialist",
-    description:
-      "B. Analyzed was founded by Britt Daemen, 15 years in SEO and Google Ads. No account manager, one fixed specialist. Rated 9.8 out of 48 reviews.",
-  },
-  "/en/case-studies/": {
-    title: "Case Studies | Real Numbers From Real Clients",
-    description:
-      "Case studies with verifiable numbers: rankings, organic traffic and conversion. Including a nine-year number one and a 733% rise in organic traffic.",
-  },
-  "/en/contact/": {
-    title: "Contact | Speak to Britt Daemen Directly",
-    description:
-      "Get in touch with B. Analyzed in Venlo, the Netherlands. Call, email or WhatsApp. You always speak to the specialist who does the work.",
-  },
-  "/en/free-scan/": {
-    title: "Free SEO & GEO Scan | Personal Video Analysis",
-    description:
-      "Request a free scan of your visibility in Google and in AI answers. You get a personal video analysis within two working days. No obligation.",
   },
 };
 
