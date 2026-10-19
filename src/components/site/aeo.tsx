@@ -4,13 +4,11 @@
  * antwoorden, stappenlijsten, vergelijkingstabellen en een auteursregel.
  */
 
-import { Link, useRouterState } from "@tanstack/react-router";
-import { aeoFor } from "@/content/aeo";
-import { breadcrumbSchema, graph, serviceSchema } from "@/lib/schema";
+import { Link } from "@tanstack/react-router";
 import { ArrowRight, Check } from "lucide-react";
 import { AUTEUR } from "@/data/organisatie";
 import brittPortret from "@/assets/photos/britt-portret.jpg.asset.json";
-import { FaqBlock, Section, SectionHeading } from "./page-bits";
+import { Section, SectionHeading } from "./page-bits";
 
 export type QaItem = { q: string; a: string };
 export type Comparison = {
@@ -172,43 +170,5 @@ export function AuthorLine({ updated }: { updated?: string }) {
         </p>
       </div>
     </div>
-  );
-}
-
-/**
- * Rendert alle AEO-onderdelen voor de huidige pagina op basis van het pad:
- * vraagkoppen, vergelijkingstabel, stappen + opsomming, extra FAQ, schema
- * (Service + BreadcrumbList) en de auteursregel.
- */
-export function AeoBlocks({ hasFaq = true, showAuthor = true }: { hasFaq?: boolean; showAuthor?: boolean }) {
-  const pathname = useRouterState({ select: (s) => s.location.pathname });
-  const entry = aeoFor(pathname);
-  if (!entry) return showAuthor ? <AuthorLine /> : null;
-  const path = pathname.endsWith("/") ? pathname : `${pathname}/`;
-  const crumbs = [{ name: "Home", path: "/" }];
-  if (path.startsWith("/online-marketing/") && path !== "/online-marketing/")
-    crumbs.push({ name: "Online marketing", path: "/online-marketing/" });
-  if (path.startsWith("/kennisbank/") && path !== "/kennisbank/")
-    crumbs.push({ name: "Kennisbank", path: "/kennisbank/" });
-  crumbs.push({ name: entry.breadcrumb ?? entry.serviceName ?? "Pagina", path });
-  const nodes: object[] = [breadcrumbSchema(crumbs)];
-  if (entry.serviceName)
-    nodes.push(serviceSchema({ name: entry.serviceName, description: entry.definition, path }));
-  return (
-    <>
-      <JsonLd json={graph(...nodes)} />
-      <QaSection items={entry.qa} />
-      {entry.comparison && <ComparisonTable data={entry.comparison} />}
-      {(entry.steps || entry.bullets) && (
-        <Section>
-          <div className="grid gap-12 lg:grid-cols-2">
-            {entry.steps && <StepsList title={entry.steps.title} intro={entry.steps.intro} steps={entry.steps.items} />}
-            {entry.bullets && <CheckList title={entry.bullets.title} items={entry.bullets.items} />}
-          </div>
-        </Section>
-      )}
-      {!hasFaq && entry.faq && <FaqBlock items={entry.faq} />}
-      {showAuthor && <AuthorLine />}
-    </>
   );
 }

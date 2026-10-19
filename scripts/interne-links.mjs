@@ -25,6 +25,7 @@ const asJson = process.argv.includes("--json");
 /** Bestanden waarvan de links op élke pagina staan. */
 const CHROME_FILES = [
   join("src", "components", "site", "site-chrome.tsx"),
+  join("src", "components", "site", "site-chrome-en.tsx"),
   join("src", "components", "site", "page-bits.tsx"),
   join("src", "components", "site", "lead-form.tsx"),
   join("src", "components", "site", "founder-card.tsx"),
@@ -46,7 +47,7 @@ function routePathVan(bestand) {
 const gedeeldeSets = new Map();
 {
   const src = readFileSync(join(ROOT, "src", "data", "interne-links.ts"), "utf8");
-  const namen = [...src.matchAll(/export const ([A-Z_]+):\s*InterneLink\[\]\s*=\s*\[/g)];
+  const namen = [...src.matchAll(/export const ([A-Z_]+):\s*(?:InterneLink\[\]|Record<string, InterneLink>)\s*=\s*[[{]/g)];
   for (let i = 0; i < namen.length; i++) {
     const start = namen[i].index;
     const end = i + 1 < namen.length ? namen[i + 1].index : src.length;
@@ -76,6 +77,7 @@ for (const f of CHROME_FILES) {
 
 const blogPaden = [...paginas.values()].filter((p) => p.soort === "blog").map((p) => p.pad);
 const kbPaden = [...paginas.values()].filter((p) => p.soort === "kennisbank").map((p) => p.pad);
+const casePaden = [...paginas.values()].filter((p) => p.soort === "case").map((p) => p.pad);
 
 // Links uit routebestanden. Een template-link als to="/$slug/" wordt in de
 // praktijk uitgerold over de hele collectie en telt dus als een link naar elke
@@ -90,6 +92,23 @@ for (const f of routeFiles) {
   }
   if (/to="\/\$slug\/"/.test(src)) for (const b of blogPaden) voegToe(pad, b);
   if (/to="\/kennisbank\/\$slug\/"/.test(src)) for (const k of kbPaden) voegToe(pad, k);
+  if (/to="\/cases\/\$slug\/"/.test(src)) for (const c of casePaden) voegToe(pad, c);
+}
+
+// Elke casepagina deelt hetzelfde routebestand: de links daarin (andere cases,
+// de dienstpagina's uit CASE_DIENST_LINKS en de vervolgstappen) staan dus op
+// alle cases. Het bestand zelf is een dynamische route en wordt in de lus
+// hierboven overgeslagen, vandaar deze aparte afhandeling.
+{
+  const src = readFileSync(join(ROOT, "src", "routes", "cases.$slug.tsx"), "utf8");
+  const vaste = [...extractLinks(src)];
+  for (const [naam, paden] of gedeeldeSets) {
+    if (new RegExp(`\\b${naam}\\b`).test(src)) vaste.push(...paden);
+  }
+  for (const van of casePaden) {
+    for (const l of vaste) voegToe(van, l);
+    if (/to="\/cases\/\$slug\/"/.test(src)) for (const naar of casePaden) voegToe(van, naar);
+  }
 }
 
 // De artikelpagina toont een "meer lezen"-lijst naar de andere artikelen.

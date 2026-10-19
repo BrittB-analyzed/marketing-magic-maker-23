@@ -102,9 +102,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
-      { label: "SEO Limburg", to: "/seo-limburg/" },
-      { label: "Gratis SEO-scan", to: "/gratis-seo-scan/" },
+      { label: "SEO Blerick voor Venlo-West", to: "/seo-blerick/" },
+      { label: "Online marketing bureau Venlo", to: "/online-marketing-venlo/" },
+      { label: "SEO Nijmegen", to: "/seo-nijmegen/" },
+      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
     ],
   },
   "seo-maastricht": {
@@ -172,277 +173,234 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
-      { label: "SEO Limburg", to: "/seo-limburg/" },
-      { label: "Linkbuilding uitbesteden Maastricht", to: "/linkbuilding-uitbesteden-maastricht/" },
+      { label: "SEO Rotterdam voor haven en logistiek", to: "/seo-rotterdam/" },
+      { label: "SEO Eindhoven voor tech en industrie", to: "/seo-eindhoven/" },
+      { label: "Linkbuilding uitbesteden in Maastricht", to: "/linkbuilding-uitbesteden-maastricht/" },
+      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
     ],
   },
   "seo-nijmegen": {
     eyebrow: "Local SEO",
-    h1: "Behaal meer online rendement met SEO Nijmegen",
-    title: "SEO Nijmegen: SEO-bureau Gelderland | B. Analyzed",
-    description: "SEO in Nijmegen nodig? Meer zichtbaarheid, meer bezoekers en meer leads via Google én AI-zoekmachines. Audit vanaf € 599,-.",
-    intro: "Je wilt beter gevonden wilt worden, je wilt je conversies verhogen en bovenaan komen te staan in alle relevante zoekmachines. Je wilt meer relevant verkeer op je website, en meer naamsbekendheid. Klinkt dit je bekend in de oren? Maak dan gebruik van Seo Nijmegen en verhoog je online vindbaarheid en bezoekers! B. Analyzed marketing is een gecertificeerd online marketing bedrijf en heeft jarenlange ervaring en expertise in zoekmachine optimalisatie en andere online marketing werkzaamheden. Wij staan garant voor een prettige samenwerking en een heldere en fijne communicatie. Als SEO specialist Nijmegen helpen wij kleine, middelgrote en grote B-2-B en B-2-C bedrijven aan een grotere online vindbaarheid en een top 3 positie in Google! Lees hier meer over SEO voor MKB! Beoordeeld met een 9.8 op Google Mijn Bedrijf +50 tevreden klanten gingen jou voor Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI",
+    h1: "SEO Nijmegen: hoger in Google in Gelderland",
+    title: "SEO Nijmegen | Vaste SEO-specialist, 9,8 uit 48",
+    description:
+      "SEO-bureau voor Nijmegen en omgeving. Audit vanaf 599 euro, doorlopend vanaf 999 euro per maand. Een vast aanspreekpunt en 15 jaar ervaring.",
+    intro:
+      "SEO in Nijmegen draait om lokale koopintentie. Wie hier zoekt naar een dienstverlener, zoekt bijna altijd met een plaatsnaam of vanuit de stad zelf, en Google toont dan sterk gelokaliseerde resultaten. Dat maakt de opgave overzichtelijker dan in de Randstad: je hoeft niet landelijk te winnen, je hoeft te winnen in je eigen werkgebied.",
     bullets: [
-      "Vergroot je zichtbaarheid in de organische zoekresultaten",
-      "Krijg meer relevante bezoekers naar je site",
-      "Vergroot je aantal leads en online sales",
-      "GEO: zichtbaar als bron in ChatGPT, Gemini en Perplexity",
+      "Een vaste specialist die je strategie bedenkt en ook zelf uitvoert",
+      "Uitgebreide audit vanaf 599 euro, doorlopend pakket vanaf 999 euro per maand",
+      "Elke maand een korte video met wat er is gebeurd en wat het deed",
+      "Ook zichtbaar in ChatGPT, Gemini en de AI-antwoorden van Google",
     ],
     sections: [
       {
-        h: "Wat is het belang van SEO?",
-        p: "SEO staat voor Search Engine Optimization, oftewel zoekmachine optimalisatie. SEO houdt dus in dat een website zo wordt aangepast dat hij door de zoekmachines zoals Google van hoge kwaliteit bevonden. Google kijkt namelijk niet alleen waarop jouw doelgroep zoekt, maar ook of jouw bedrijf kwalitatieve content biedt op jouw website. Wanneer we rekening houden met SEO factoren als geoptimaliseerde content (bijvoorbeeld door het gebruik van de juiste informatie en trefwoorden waarop zoekt en het plaatsen van extra links) zal Google de waarde van jouw website hoger schalen. Google komt dan tot de conclusie dat de vindbaarheid van jouw website omhoog kan, waardoor je beter gaat ranken.",
+        h: "Wat kost SEO in Nijmegen?",
+        p: "Een uitgebreide audit start bij 599 euro eenmalig: technische analyse, zoekwoordenonderzoek, een vergelijking met de bedrijven die nu boven je staan, een nulmeting van je zichtbaarheid in AI-antwoorden en een actielijst op volgorde van impact. Doorlopend werk start bij 999 euro per maand, losse uren tegen 90 euro. Je krijgt vooraf een vaste maandprijs en nooit een nacalculatie. Voor een lokale dienstverlener met een overzichtelijk aanbod is het instappakket in de praktijk vaak genoeg om structureel te groeien.",
       },
       {
-        h: "SEO Nijmegen uitbesteden",
-        p: "Bedrijven die hun SEO uitbesteden aan een SEO specialist zijn verzekerd van online groei. We brengen jouw online prestaties in kaart en gaan ervoor zorgen dat je met de juiste SEO strategie jouw online prestaties op de korte- en lange termijn met stappen omhoog gaan. Uiteraard zullen we ook rekening houden met de lange- en korte termijn doelstellingen van jouw bedrijf. Onze SEO specialisten in Nijmegen en omstreken lopen namelijk alle criteria van de zoekmachines voor een goede website na, zodat we jouw website beter vindbaar maken, wat vervolgens weer voor een hogere ranking in deze zoekmachines zorgt. Deze hogere ranking is ontzettend belangrijk: hoe hoger je scoort in de zoekmachines, hoe groter de vindbaarheid van jouw website. Hierdoor trekt je website meer bezoekers aan wat uiteraard je conversies en dus je winst, flink kan laten stijgen. En dat voor relatief lage kosten!",
+        h: "Lokale zoekopdrachten winnen in en om Nijmegen",
+        p: "De sleutel zit in de combinatie van dienst en locatie. Iemand die zoekt op loodgieter Nijmegen of tandarts Nijmegen-Oost heeft een concreet probleem en wil binnen een dag geholpen worden. Die zoekopdrachten hebben een fractie van het volume van een breed woord, maar een veelvoud van de conversie. We maken daarom een lijst van al je diensten en al je werkgebieden, combineren die tot kansrijke zoekwoorden en bouwen daar de pagina's op. Ook de omliggende plaatsen tellen mee: Beuningen, Wijchen, Malden en Elst leveren samen vaak meer aanvragen op dan de stad alleen.",
       },
       {
-        h: "SEO Nijmegen: Hoe werkt dat?",
-        p: "Search Engine Optimization (SEO) houdt in dat een website volgens alle ‘regels’ van het zoekalgoritme van Google wordt gemaakt. Het begint met een duidelijke situatie-analyse. Binnen ons online marketing bureau doen onze SEO specialisten in Nijmegen uitgebreid marktonderzoek en bekijken de huidige SEO prestaties. Zo wordt er o.a. gekeken naar verschillende aspecten van je website, de prestaties van de concurrenten en de kansen in de markt. Wij luisteren goed naar jouw targets en nemen die mee in onze SEO audit. Deze SEO audit is de basis voor een gerichte SEO strategie die gaat zorgen voor hogere posities in de zoekmachines.",
+        h: "Je Google Bedrijfsprofiel bepaalt het lokale pakket",
+        p: "Voor lokale zoekopdrachten toont Google bovenaan een kaart met drie bedrijven. Daar staan of niet staan maakt in de praktijk meer verschil dan drie plekken stijgen in de gewone resultaten. Wat dat bepaalt: de juiste hoofdcategorie, complete openingstijden en contactgegevens, actuele foto's, en vooral reviews. Niet alleen het aantal en het gemiddelde, maar ook hoe recent ze zijn en of je erop reageert. Dat is werk dat je grotendeels zelf kunt doen, en we leggen het je uit in plaats van het als black box te verkopen.",
       },
       {
-        h: "Het belang van een zoekwoorden onderzoek",
-        p: "Met een uitgebreid zoekwoorden onderzoek gaan we op zoek naar transactionele en relevante zoekwoorden die je potentiële klanten gebruiken. We kijken naar zoekvolumes, zoekwoord moeilijkheidsgraad, relevantie en uiteraard de zoekwoorden van je concurrenten.",
+        h: "Hoe we te werk gaan",
+        p: "We beginnen met een nulmeting: waar sta je nu, en wat doen de drie bedrijven die boven je staan anders? Daarna een plan met een volgorde, waarin het werk met de meeste impact bovenaan staat. In de uitvoering komt de techniek eerst, want een pagina die niet goed geïndexeerd wordt kan nergens op ranken. Dan de content: bestaande pagina's die de zoekvraag net niet goed genoeg beantwoorden, herschreven zodat het antwoord in de eerste honderd woorden staat. Autoriteit komt daarna, en niet andersom.",
       },
       {
-        h: "Verschillende soorten zoekwoorden",
-        p: "We maken gebruik van lage volume zoekwoorden met weinig concurrentie, maar ook van hoge volume zoekwoorden.Door het gebruik van de juiste zoekwoorden en relevante informatie op je website, kunnen onze SEO specialisten in Nijmegen ervoor zorgen dat jij nieuwe klanten en nieuwe website bezoekers trekt doordat jouw website hoger scoort in de algemene zoekresultaten.",
+        h: "Autoriteit opbouwen in de regio",
+        p: "Voor lokale SEO wegen regionale verwijzingen zwaarder dan je zou verwachten. Een vermelding op een Nijmeegs ondernemersplatform, een branchevereniging waar je bij aangesloten bent of een lokale nieuwssite telt in het lokale zoekresultaat vaak meer dan een landelijke link met een hogere autoriteit. Wij bouwen dat gericht op in plaats van willekeurig links in te kopen. Wil je alleen dat onderdeel uitbesteden, dan kan dat los: bekijk de pagina over linkbuilding in Nijmegen.",
       },
       {
-        h: "Het belang van sterke (back) links",
-        p: "Interne links op jouw website en kwalitatieve links naar jouw website vanuit andere relevante websites zorgt ook voor meer online zichtbaarheid. Als je kiest voor zoekmachine optimalisatie in Nijmegen ben je verzekerd van de juiste linkbuilding strategie en doen onze SEO experts jouw linkbuilding (de interne- en externe links) in orde maken. Doordat de jarenlange ervaring van ons SEO- en linkbuilding bureau zorgen we voor meer relevante bezoekers en een hogere waarde van je website. De volgende stap naar online succes!",
-      },
-      {
-        h: "Het belang van technische SEO en onderhoud",
-        p: "Ook als jouw SEO technisch niet in orde is dan kan dit van invloed zijn op je rankings en SEO scores. Als je SEO Nijmegen toepast wordt jouw website gescand en geanalyseerd op meer dan 100 belangrijke SEO factoren en lossen wij de problemen op. Dit is met name interessant als je een al wat oudere website hebt. Als bijvoorbeeld jouw pagina’s te langzaam laden heb je de kans dat potentiële klanten jouw website verlaten voordat ze tot een conversie overgaan. Je wilt natuurlijk dat jouw website bezoekers op de belangrijke pagina’s niet wegklikken omdat het laden te lang duurt. Onze SEO specialist MKB in Nijmegen kan jouw website optimaliseren en de laadsnelheid vergroten.",
-      },
-      {
-        h: "Het belang van on-page SEO",
-        p: "Als je een goede ranking wilt is On-page optimalisatie essentieel. Wij zorgen ervoor dat de zoekmachines weten waar de pagina’s over gaan, dat ze relevant zijn zonder over-optimalisatie. Daarnaast zorgen wij ervoor dat de content op de website aansluit op de wensen en behoeftes van de bezoeker en klant. Uiteraard werken wij volgens de SEO richtlijnen van Google. Als je kiest voor SEO Nijmegen kunnen wij je helpen met een goede sitestructuur en de juiste zoekwoorden selectie.",
-      },
-      {
-        h: "Het belang van lokale SEO",
-        p: "Voor lokale bedrijven is local SEO ook erg interessant. Als jouw website goed ingericht is en de tools van Google goed worden ingezet, dan is de kans ook groter dat de website meer naar voren in de lokale zoekresultaten komt met lokale zoekopdrachten.",
-      },
-      {
-        h: "Lokale SEO, wat is dat?",
-        p: "Wat is lokale SEO? Lokale SEO verwijst naar het proces van het ‘optimaliseren’ van je website om meer klanten aan te trekken uit relevante lokale zoekopdrachten. Deze zoekopdrachten vinden plaats op Google en andere zoekmachines. Lokale SEO zorgt er simpelweg voor dat jouw bedrijf of pagina gevonden kan worden in zoekopdrachten met een lokaal karakter. Denk bijvoorbeeld aan de lokale vindbaarheid op zoektermen als “SEO specialist Nijmegen”, “Nijmegen zoekmachine optimalisatie” of “SEO Nijmegen”. Zelfs wanneer de plaatsnaam niet in de zoekopdracht voorkomt, zal Google een aantal lokale SEO-resultaten laten zien van bedrijven in de regio ten opzichte van de locatie waar jij je op dat moment bevindt. Lokale SEO kan dus een enorm verschil maken voor je lokale vindbaarheid. En wij kunnen jou daarmee helpen!",
-      },
-      {
-        h: "Local SEO, hoe werkt het?",
-        p: "De zoekresultaten in Google waren in het verleden gericht op landelijk zoekgedrag. Als iemand bijvoorbeeld zocht naar een “SEO specialist” dan waren de resultaten overal hetzelfde. Zocht je in Nijmegen naar een SEO expert, dan kreeg je dezelfde resultaten te zien als in Maastricht. Natuurlijk kon je ook zoeken op “SEO specialist Nijmegen” en dan waren de resultaten anders. Maar sinds een paar jaar heeft Google de lokale zoekresultaten anders ingericht. Als je nu zoekt op “SEO specialist” in Nijmegen dan zijn de resultaten anders dan de resultaten in Maastricht bijvoorbeeld.",
-      },
-      {
-        h: "Andere factoren",
-        p: "Zelfs als dit allemaal in orde is, ben je er nog niet; er zijn nog talloze andere factoren die bepalen of je website goed geoptimaliseerd is of dat deze het toch aflegt tegen beter geoptimaliseerde concurrenten. SEO is een gecompliceerd proces zijn en het algoritme van Google verandert ook nog eens continu. Je begrijpt dat het precies volgen van alle veranderingen en het technische werk uitvoeren erg veel tijd kost.",
-      },
-      {
-        h: "Waarom kiezen voor SEO Nijmegen?",
-        p: "Steeds meer ondernemers kiezen ervoor om hun SEO in Nijmegen uit te besteden. Bedrijven die hun online marketing en SEO Nijmegen uitbesteden houden tijd over die je goed kan gebruiken voor het runnen van jouw bedrijf. Daarnaast ben je er zeker van dat de SEO goed uitgevoerd wordt. Onze SEO specialist in Nijmegen weet als geen ander hoe jouw website het beste geoptimaliseerd kan worden en weet alles over de ins en outs van Google en andere zoekmachines zoals Bing en Firefox. Als je kiest voor de online marketing diensten van ons SEO Nijmegen wordt jouw website dus letterlijk naar een hoger niveau getild, wat je veel rendement oplevert!",
-      },
-      {
-        h: "B. Analyzed: professioneel & ervaren SEO bureau",
-        p: "B. Analyzed is een online marketing bureau dat gespecialiseerd is onder andere SEO en Google Ads (SEA). Wanneer je je SEO laat uitbesteden aan B.Analyzed, garanderen wij de meest succesvolle strategie voor SEO Nijmegen. Ons team bestaat uit online marketeers, website developers, WP-specialisten, social media experts, content specialisten en programmeurs die iedere dag hard werken aan effectieve online marketing strategieën, met als primair doel, uiteraard, betere omzetcijfers voor onze klanten.",
-      },
-      {
-        h: "SEO voor elke onderneming",
-        p: "Wij helpen kleine, middelgrote en grote B-2-B en B-2-C bedrijven met het verbeteren van hun online marketing resultaten en zoekmachine optimalisatie in Nijmegen. Dit doen we door het gebruik van verschillende marketing tools zoals bijvoorbeeld Google Analytics en door het opzetten van verschillende online marketing strategieën die passen bij de doelgroep en doelstellingen van jouw bedrijf.",
+        h: "Werken op afstand, met een vast gezicht",
+        p: "Wij zitten in Venlo en werken door heel Nederland en België. Het traject gaat op afstand: analyse, uitvoering en een maandelijkse videorapportage waarin je ziet wat er is gedaan en wat het opleverde. Je hebt geen accountmanager maar één vaste specialist, dezelfde persoon die de strategie bedenkt en de wijzigingen doorvoert. Dat scheelt doorlooptijd en voorkomt dat afspraken onderweg sneuvelen.",
       },
     ],
     faq: [
       {
-        q: "Hoe snel zie ik resultaat met SEO in Nijmegen?",
-        a: "Kleine verbeteringen zijn vaak binnen enkele weken merkbaar. Voor stabiele posities op competitieve zoekwoorden reken je op drie tot zes maanden.",
+        q: "Werken jullie ook buiten Limburg?",
+        a: "Ja. We werken door heel Nederland en België, volledig op afstand. Voor klanten in Nijmegen en omgeving verandert dat niets aan de aanpak of aan de prijs, alleen aan hoe vaak we elkaar fysiek zien. Wil je een keer aan tafel, dan plannen we dat in.",
       },
       {
-        q: "Werken jullie ook samen met bedrijven buiten Nijmegen?",
-        a: "Ja, we werken door heel Nederland en België. Nijmegen is een van onze vaste werkgebieden.",
+        q: "Hoe lang duurt het voordat ik resultaat zie?",
+        a: "Op lokale zoekwoorden met beperkte concurrentie zie je vaak binnen twee tot vier maanden beweging. Meetbaar meer aanvragen komen meestal tussen maand zes en twaalf. Dat gaat sneller dan op landelijke termen, omdat je concurrentieveld kleiner is.",
       },
       {
-        q: "Wat kost SEO in Nijmegen?",
-        a: "Een audit start vanaf € 599,-. Doorlopende SEO-begeleiding start vanaf € 999,- per maand. Losse uren factureren we tegen € 90,- per uur.",
+        q: "Wat kost een SEO-specialist in Nijmegen?",
+        a: "Bij ons vanaf 999 euro per maand voor doorlopend werk, 599 euro voor een eenmalige audit en 90 euro per uur voor los maatwerk. In de markt loopt het uurtarief uiteen van ongeveer 75 euro bij een freelancer tot 200 euro bij een grote agency.",
+      },
+      {
+        q: "Moet ik ook aan mijn Google Bedrijfsprofiel werken?",
+        a: "Voor lokale zoekopdrachten is dat vaak het onderdeel met de snelste winst. In het lokale pakket bovenaan staan drie bedrijven, en daar tussen komen levert doorgaans meer op dan drie plekken stijgen in de gewone resultaten. We pakken het standaard mee in het traject.",
+      },
+      {
+        q: "Kan ik ook alleen advies afnemen?",
+        a: "Ja. Het adviesrapport is een afgerond product met een analyse en een actielijst die je zelf of met je eigen team uitvoert. Er zit geen maandverplichting aan vast, en kies je binnen drie maanden alsnog voor begeleiding, dan verrekenen we het adviesbedrag.",
+      },
+      {
+        q: "Blijf ik eigenaar van mijn accounts?",
+        a: "Altijd. We werken in jouw eigen Google Analytics, Search Console en Bedrijfsprofiel, en je houdt volledige toegang tot je data, ook als de samenwerking ooit stopt. Dat is bij ons een harde voorwaarde en geen extra service.",
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
-      { label: "Linkbuilding uitbesteden Nijmegen", to: "/linkbuilding-uitbesteden-nijmegen/" },
-      { label: "Gratis SEO-scan", to: "/gratis-seo-scan/" },
+      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
+      { label: "Linkbuilding uitbesteden in Nijmegen", to: "/linkbuilding-uitbesteden-nijmegen/" },
+      { label: "Local SEO voor je werkgebied", to: "/online-marketing/local-seo/" },
+      { label: "Wat SEO kost per maand", to: "/tarieven-seo/" },
     ],
   },
+
   "seo-rotterdam": {
     eyebrow: "Local SEO",
-    h1: "SEO Bureau Rotterdam: Jouw SEO specialist voor online succes",
-    title: "SEO Rotterdam: SEO-bureau haven- en logistiekstad | B. Analyzed",
-    description: "SEO Rotterdam: meer zichtbaarheid, meer bezoekers en meer leads via Google én AI-zoekmachines. SEO-audit vanaf € 599,-.",
-    intro: "B.Analyzed is een gecertificeerd SEO bureau met ruime ervaring en expertise in zoekmachine optimalisatie. Als SEO specialist helpen we kleine, middelgrote en grote B2B en B2C bedrijven aan topposities en een hogere online vindbaarheid in Google. We zijn trots op onze uitstekende beoordeling van 9.8 op Google Mijn Bedrijf en hebben al meer dan 150 tevreden klanten mogen helpen. Met meer dan 1000 nummer 1 posities in Google garanderen we je een geweldige ROI voor je investering in SEO.",
+    h1: "SEO Rotterdam: een vaste specialist voor Rotterdamse bedrijven",
+    title: "SEO Rotterdam | Vaste specialist, 9,8 uit 48 reviews",
+    description:
+      "SEO-bureau voor Rotterdam. Audit vanaf 599 euro, doorlopend vanaf 999 euro per maand. Een vaste specialist, geen accountmanager. 9,8 uit 48 reviews.",
+    intro:
+      "SEO in Rotterdam betekent concurreren in een van de drukste zoekmarkten van Nederland. Waar een lokale zoekopdracht in een dorp na drie maanden te winnen is, staan hier tientallen bureaus, aannemers en dienstverleners op dezelfde term. Dat vraagt om scherpere keuzes: niet zo breed mogelijk mikken, maar winnen op de zoekopdrachten waar je klanten daadwerkelijk mee zoeken.",
     bullets: [
-      "Vergroot je zichtbaarheid in een competitieve, grootstedelijke markt",
-      "Krijg meer relevante bezoekers naar je site",
-      "Vergroot je aantal leads en online sales",
-      "GEO: word genoemd in ChatGPT, Gemini en Perplexity",
+      "Een vaste specialist die je strategie bedenkt en ook zelf uitvoert",
+      "Uitgebreide audit vanaf 599 euro, doorlopend pakket vanaf 999 euro per maand",
+      "Elke maand een korte video met wat er is gebeurd en wat het deed",
+      "Ook zichtbaar in ChatGPT, Gemini en de AI-antwoorden van Google",
     ],
     sections: [
       {
-        h: "Wat kun je van onze SEO Rotterdam verwachten?",
-        p: "Bij B.Analyzed werk je samen met een gespecialiseerd team van ervaren SEO-specialisten. Dit team bestaat uit technische SEO experts, copywriters, linkbuilders en SEO strategen. Je hebt altijd één aanspreekpunt, terwijl het hele team nauw samenwerkt om de beste resultaten voor jouw bedrijf te behalen. We nemen de volledige SEO-strategie voor je uit handen en stellen een op maat gemaakt plan van aanpak op, afgestemd op jouw specifieke doelstellingen en wensen. We gaan net zolang door totdat het gewenste resultaat is behaald. We hebben al talloze klanten geholpen om organisch te groeien en hun online zichtbaarheid aanzienlijk te verbeteren. Door samen te werken met ons gespecialiseerde team, kun je erop vertrouwen dat jouw website geoptimaliseerd wordt voor duurzaam succes in de zoekresultaten. Ons SEO bureau Rotterdam neemt de volledige SEO-uitvoering voor onze rekening, zodat jij je kunt focussen op je kernactiviteiten.",
+        h: "Wat kost SEO in Rotterdam?",
+        p: "Een uitgebreide audit kost vanaf 599 euro eenmalig. Daarin zitten de technische analyse, het zoekwoordenonderzoek, een vergelijking met de bedrijven die nu boven je staan en een actielijst op volgorde van impact. Wil je dat wij het werk ook uitvoeren, dan start een doorlopend SEO- en GEO-pakket vanaf 999 euro per maand. Losse uren rekenen we af tegen 90 euro. Je krijgt vooraf een vaste maandprijs, er volgt nooit een nacalculatie. In Rotterdam ligt de concurrentie op de meeste zoekwoorden hoger dan in de regio, wat betekent dat je doorgaans meer maanden nodig hebt voor hetzelfde resultaat, niet dat het uurtarief anders is.",
       },
       {
-        h: "Waarom is SEO uitbesteden aan een specialist belangrijk?",
-        p: "SEO, oftewel zoekmachine optimalisatie, is cruciaal voor je online succes. Het houdt in dat je website zo wordt aangepast dat zoekmachines zoals Google hem als kwalitatief hoogwaardig beschouwen. Ons SEO bureau in Rotterdam loopt de criteria van de zoekmachines voor een goede website na, wat vervolgens voor een hogere ranking zorgt. Deze hogere ranking is ontzettend belangrijk: hoe hoger je scoort in de zoekmachines, hoe meer verkeer je naar je website krijgt. Bedrijven die SEO uitbesteden in Rotterdam zien dan ook hun conversies en dus hun winst flink stijgen, en dat voor relatief lage kosten! Beoordeeld met een 9.8 op Google Mijn Bedrijf +50 tevreden klanten gingen jou voor Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI",
+        h: "Waarom Rotterdamse bedrijven een andere aanpak nodig hebben",
+        p: "De Rotterdamse markt is breder en zakelijker dan de meeste regio's waarin wij werken. Haven en logistiek, bouw en installatie, zakelijke dienstverlening en een grote groep specialistische MKB-bedrijven: stuk voor stuk markten waarin de beslissing niet in een middag valt en waarin meerdere mensen meekijken. Dat verandert de zoekwoordstrategie. Een breed woord als seo bureau rotterdam levert veel vertoningen op en weinig aanvragen, terwijl een specifieke zoekopdracht met dienst en doelgroep erin veel minder volume heeft maar wel de telefoon laat rinkelen. Wij kiezen bewust voor die tweede groep, en bouwen de brede termen daarna op.",
       },
       {
-        h: "Hoe werkt SEO in Rotterdam?",
-        p: "We beginnen met een grondige analyse van je website om te bepalen wat er verbeterd kan worden. We onderzoeken de huidige situatie, identificeren quick wins en stellen lange termijn doelstellingen vast. We kijken naar je doelgroepen en bepalen waar ze zich bevinden. We beslissen of we ons richten op specifieke zoekwoorden met weinig concurrentie, op hoge volumes, of een combinatie van beide. Aan de hand van deze analyse geven we verbetervoorstellen voor de structuur en content van je website. Onze aanpak omvat ook technische optimalisatie, zoals het verbeteren van de laadsnelheid van je webpagina’s, waardoor potentiële klanten langer op jouw website blijven. We geven advies over het opbouwen van populariteit en het belang van linkbuilding. Bovendien houden we je op de hoogte van de nieuwste SEO-ontwikkelingen via maandelijkse rapportages.",
+        h: "Case: Van Daken, dakdekker met vestiging in Rotterdam",
+        p: "Van Daken Vastgoedonderhoud is een dakdekkersbedrijf met vestigingen in Amsterdam en Rotterdam. In zes maanden groeide het aantal nummer 1-posities van 6 naar meer dan 15 en stegen de vertoningen in Google met 87 procent, goed voor 179.000 vertoningen in een kwartaal. De aanpak bestond uit lokale landingspagina's per werkgebied, technische SEO en gerichte linkbuilding. Dat is precies het type bedrijf waarvoor lokale SEO in Rotterdam werkt: een concrete dienst, een afgebakend werkgebied en klanten die met spoed zoeken.",
       },
       {
-        h: "Hoe gaan wij als SEO bureau in Rotterdam te werk?",
-        p: "We beginnen met een uitgebreid zoekwoordenonderzoek. Dit is de eerste en belangrijkste stap bij SEO. Hiermee bepalen we op welke zoekwoorden je website moet ranken. We zoeken naar zoekwoorden die relevant zijn voor je business én waarvan we verwachten dat ze goed zullen converteren in sales of leads. We kijken ook naar het zoekvolume en de concurrentie op deze zoekwoorden. Vervolgens voeren we een technische analyse uit, vergelijkbaar met een APK voor je website. We controleren website snelheden, foutieve links, indexatie van juiste pagina’s, het robots.txt bestand en meer. We optimaliseren je on-page SEO door te zorgen dat je pagina’s de juiste informatie bevatten voor de bezoeker en alle mogelijke vragen beantwoorden. We zorgen dat alle pagina’s voorzien zijn van de juiste HTML titels, meta beschrijvingen, headings en interne links.",
+        h: "Hoe we te werk gaan",
+        p: "We beginnen met een nulmeting: waar sta je nu in Google en in AI-antwoorden, en wat doen de drie bedrijven die boven je staan anders? Daarna volgt een plan met een volgorde, waarin het werk met de meeste impact bovenaan staat. Pas als dat plan er ligt, gaan we uitvoeren. Techniek eerst, want een pagina die niet goed geïndexeerd wordt kan nergens op ranken. Dan de content: bestaande pagina's die de zoekvraag net niet goed genoeg beantwoorden, herschreven zodat het antwoord in de eerste honderd woorden staat. En pas daarna autoriteit, want links naar een pagina die de vraag niet beantwoordt zijn weggegooid geld.",
       },
       {
-        h: "Wij brengen jouw SEO strategie in kaart",
-        p: "Na deze analyse stellen we een SEO strategie op. We bepalen welke zoekwoorden bij welke URL of pagina horen, creëren nieuwe landingspagina’s waar nodig en bepalen welke technische aanpassingen gedaan moeten worden. Voor de nieuwe trefwoorden gaan we jouw bestaande content optimaliseren en nieuwe content creëren. Dit kunnen landingspagina’s zijn, maar ook blogartikelen of video’s. Tot slot zetten we een effectieve linkbuilding strategie op. Het verkrijgen van goede backlinks is een essentieel onderdeel van effectieve SEO. Als professioneel online marketing bureau Rotterdam zorgen we op verschillende manieren voor kwalitatieve backlinks door gedegen netwerkopbouw en outreach.",
+        h: "Lokale zichtbaarheid in Rotterdam",
+        p: "Google toont in een stad als Rotterdam sterk gelokaliseerde resultaten. Iemand die in Kralingen zoekt krijgt andere bedrijven te zien dan iemand in Hoogvliet, ook zonder dat de wijknaam in de zoekopdracht staat. Voor bedrijven met een fysieke vestiging of een afgebakend werkgebied betekent dat: je Google Bedrijfsprofiel is minstens zo belangrijk als je website. Categorieën, foto's, openingstijden, reviews en actieve updates bepalen samen of je in het lokale pakket verschijnt. Dat onderdeel pakken we standaard mee, ook als je verder alleen aan je website werkt.",
       },
       {
-        h: "Wat voor bedrijven in Rotterdam hebben baat bij SEO?",
-        p: "We helpen kleine, middelgrote en grote B2B en B2C bedrijven met het verbeteren van hun online marketing resultaten en SEO in Rotterdam. Dit doen we door het gebruik van verschillende marketing tools zoals Google Analytics en door het opzetten van verschillende online marketing strategieën die passen bij de doelgroep en doelstellingen van jouw bedrijf. Onze hoofdfocus is omzetgroei, ongeacht welk soort bedrijf of organisatie. We bekijken iedere situatie apart en zetten de juiste marketingkanalen in. Onze ambitieuze en gedreven SEO experts staan dagelijks klaar om jouw online presentatie te verbeteren. Kennis van zaken, jarenlange ervaring, tevreden klanten, scholing en ontwikkeling zijn belangrijke waarden voor onze specialisten. We zijn uiterst flexibel en denken met elke klant mee. Of je nu eenmalig, tijdelijk, terugkerend of als consultant op afstand ondersteuning nodig hebt, we kunnen de online marketing en online prestaties van jouw bedrijf naar een hoger niveau tillen!",
-      },
-      {
-        h: "Hier is jouw SEO specialist Rotterdam!",
-        p: "B.Analyzed is een online marketing bureau gespecialiseerd in online marketing, waaronder zoekmachine optimalisatie en Google Ads (SEA). Door te kiezen voor ons SEO bureau in Rotterdam, garanderen we je de meest succesvolle strategie voor SEO in Rotterdam. Ons team bestaat uit online marketeers, website developers, WP-specialisten, social media-experts, content specialisten en programmeurs die iedere dag hard werken aan effectieve online marketing strategieën, met als belangrijkste doel betere omzetcijfers voor onze klanten.",
-      },
-      {
-        h: "Wil je met jouw bedrijf een \\#1 positie in Google?",
-        p: "Klaar om jouw online aanwezigheid naar een hoger niveau te tillen? Als hét SEO bureau in Rotterdam staan we klaar om jouw bedrijf te laten scoren in de digitale wereld. Laat B.Analyzed je helpen om hoger in Google te komen en je doelgroep effectief te bereiken. Met onze expertise in SEO en Google Ads optimalisatie Rotterdam, zorgen we ervoor dat jouw bedrijf opvalt in het drukke online landschap!",
-      },
-      {
-        h: "Vraag een gratis SEO scan aan",
-        p: "Wil je weten hoe je website scoort op belangrijke SEO-factoren? Doe dan nu de gratis SEO-scan van B.Analyzed. Onze experts analyseren jouw website en geven je inzicht in de verbeterpunten op het gebied van optimaliseren, content en linkbuilding. Deze scan is de eerste stap naar een succesvolle SEO strategie voor jouw bedrijf.",
-      },
-      {
-        h: "Inzicht in verbeterpunten",
-        p: "Aan de hand van de resultaten kunnen we vervolgens een op maat gemaakte aanpak opstellen, zodat je website hoger in Google komt te staan en meer relevante bezoekers trekt. Wij weten precies hoe we jouw website moeten optimaliseren om beter te scoren in de concurrenten.",
-      },
-      {
-        h: "Eerste stap naar succes",
-        p: "De gratis SEO-scan is de eerste stap naar meer online succes voor jouw bedrijf. Doordat we inzicht geven in de technische, inhoudelijke en linkbuilding-verbeterpunten, kun je daarna gericht aan de slag om je SEO prestaties te verbeteren.",
-      },
-      {
-        h: "Aan de slag met SEO in Rotterdam",
-        p: "Wil je meer weten over de inzetbaarheid van SEO en SEA voor jouw bedrijf in Rotterdam en omgeving? Of wil je je SEO uitbesteden? Neem dan contact met ons op voor een vrijblijvend gesprek! Wij bieden onze diensten aan door heel Nederland. Wil jij hoog scoren in de organische zoekresultaten?",
+        h: "Werken op afstand, met een vast gezicht",
+        p: "Wij zitten in Venlo en werken door heel Nederland en België. Het traject gaat volledig op afstand: analyse, uitvoering en een maandelijkse videorapportage waarin je ziet wat er is gedaan en wat het opleverde. Je hebt geen accountmanager maar één vaste specialist, dezelfde persoon die de strategie bedenkt en de wijzigingen doorvoert. Dat scheelt doorlooptijd en het voorkomt dat afspraken onderweg sneuvelen. Wil je liever aan tafel, dan kan dat; we plannen dan een keer per kwartaal een bezoek in plaats van elke maand.",
       },
     ],
     faq: [
       {
-        q: "Kan SEO opboksen tegen grote, landelijke concurrenten in Rotterdam?",
-        a: "Ja, door scherp te kiezen op welke zoekwoorden en pagina's je wél kunt winnen, in plaats van breed te concurreren op alles tegelijk.",
+        q: "Werken jullie ook voor bedrijven buiten Limburg?",
+        a: "Ja. We werken door heel Nederland en België, volledig op afstand. Analyse, uitvoering en rapportage gaan via videobellen en een online dashboard. Voor Rotterdamse klanten verandert dat niets aan de aanpak, alleen aan hoe vaak we elkaar fysiek zien.",
       },
       {
-        q: "Hoe snel zie ik resultaat?",
-        a: "Lokale verbeteringen zijn vaak snel zichtbaar, voor competitieve zoekwoorden reken je op drie tot zes maanden.",
+        q: "Hoe lang duurt het voordat ik resultaat zie in Rotterdam?",
+        a: "De eerste beweging in je posities zie je meestal na twee tot drie maanden, meetbaar meer aanvragen tussen maand zes en twaalf. In Rotterdam ligt dat door de hogere concurrentie vaak aan de bovenkant van die bandbreedte. Bij een sterk afgebakende dienst of wijk kan het sneller.",
       },
       {
-        q: "Wat kost SEO in Rotterdam?",
-        a: "Een audit start vanaf € 599,-. Doorlopende begeleiding start vanaf € 999,- per maand, uurwerk tegen € 90,- per uur.",
+        q: "Wat kost een SEO-specialist in Rotterdam?",
+        a: "Bij ons vanaf 999 euro per maand voor doorlopend werk, 599 euro voor een eenmalige audit en 90 euro per uur voor los maatwerk. In de markt loopt het uurtarief uiteen van ongeveer 75 euro bij een freelancer tot 200 euro bij een grote agency.",
+      },
+      {
+        q: "Kan ik ook alleen advies krijgen?",
+        a: "Ja. Het adviesrapport is een afgerond product: je krijgt de analyse en de actielijst en voert die zelf of met je eigen team uit. Er zit geen verplichting tot een maandpakket aan vast. Kies je later alsnog voor begeleiding, dan verrekenen we het adviesbedrag.",
+      },
+      {
+        q: "Geven jullie garantie op een positie?",
+        a: "Nee, en wie dat wel doet verkoopt je een zoekwoord dat vrijwel niemand intikt. Wat we wel doen: vooraf afspreken welke zoekwoorden ertoe doen, maandelijks laten zien wat er beweegt, en bijsturen zonder extra kosten als resultaten uitblijven.",
+      },
+      {
+        q: "Blijf ik eigenaar van mijn eigen accounts?",
+        a: "Altijd. We werken in jouw eigen Google Analytics, Search Console en advertentieaccount. Je houdt volledige toegang tot je eigen data, ook als de samenwerking ooit stopt. Dat is voor ons een harde voorwaarde, geen extra service.",
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
-      { label: "GEO-optimalisatie", to: "/online-marketing/geo-optimalisatie/" },
-      { label: "Gratis SEO-scan", to: "/gratis-seo-scan/" },
+      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
+      { label: "Wat SEO kost per maand", to: "/tarieven-seo/" },
+      { label: "Local SEO voor je werkgebied", to: "/online-marketing/local-seo/" },
+      { label: "SEO Nijmegen", to: "/seo-nijmegen/" },
     ],
   },
+
   "seo-eindhoven": {
     eyebrow: "Local SEO",
-    h1: "SEO Eindhoven – Behaal meer online rendement, start vandaag nog!",
-    title: "SEO Eindhoven: SEO-bureau voor tech en industrie | B. Analyzed",
-    description: "SEO in Eindhoven? Meer zichtbaarheid voor tech- en maakbedrijven, meer leads via Google én AI. SEO-audit vanaf € 599,-.",
-    intro: "Je wilt beter gevonden wilt worden, je wilt je conversies verhogen en bovenaan komen te staan in alle relevante zoekmachines. Je wilt meer relevant verkeer op je website, en meer naamsbekendheid. Klinkt dit je bekend in de oren? Maak dan gebruik van Seo in Eindhoven en laat je SEO uitbesteden. Hierdoor verhoog je je zichtbaarheid en bezoekers!",
+    h1: "SEO Eindhoven: gevonden worden in de Brainport-regio",
+    title: "SEO Eindhoven | Vaste SEO-specialist, 9,8 score",
+    description:
+      "SEO-bureau voor Eindhoven en de Brainport-regio. Audit vanaf 599 euro, doorlopend vanaf 999 euro per maand. Een vaste specialist met 15 jaar ervaring.",
+    intro:
+      "SEO in Eindhoven speelt zich af in een markt die er anders uitziet dan de meeste. Veel technische bedrijven, veel B2B en veel beslissingen waar maanden overheen gaan en meerdere mensen bij betrokken zijn. Dat vraagt om andere zoekwoorden en andere content dan een webshop of een lokale dienstverlener nodig heeft, en dat is precies waar de meeste algemene SEO-aanpakken vastlopen.",
     bullets: [
-      "Vergroot je zichtbaarheid in een technisch georiënteerde markt",
-      "Krijg meer relevante bezoekers naar je site",
-      "Vergroot je aantal leads en online sales",
-      "GEO: zichtbaar als bron in ChatGPT, Gemini en Perplexity",
+      "Een vaste specialist die je strategie bedenkt en ook zelf uitvoert",
+      "Uitgebreide audit vanaf 599 euro, doorlopend pakket vanaf 999 euro per maand",
+      "Ervaring met technische en B2B-markten, niet alleen met webshops",
+      "Ook zichtbaar in ChatGPT, Gemini en de AI-antwoorden van Google",
     ],
     sections: [
       {
-        h: "SEO Eindhoven – Wat is het belang?",
-        p: "Stel je hebt een onderneming in Eindhoven en je wilt je bereik vergroten. Je wilt meer verkeer naar je website en meer conversies. Maar als je je bedrijf googelt, vindt je jezelf pas op de vijfde pagina. Dat kan anders! Door een SEO specialist in Eindhoven in te schakelen vergroot je de vindbaarheid van jouw website. Jouw website en SEO content wordt zo aangepast door onze SEO specialist in Eindhoven, dat hij door de zoekmachines zoals Google van hoge kwaliteit bevonden wordt.",
+        h: "Wat kost SEO in Eindhoven?",
+        p: "Een uitgebreide audit start bij 599 euro eenmalig: technische analyse, zoekwoordenonderzoek, een vergelijking met de bedrijven die boven je staan, een nulmeting van je zichtbaarheid in AI-antwoorden en een actielijst op volgorde van impact. Doorlopend werk start bij 999 euro per maand, losse uren rekenen we af tegen 90 euro. Je krijgt vooraf een vaste maandprijs. Wat de prijs bepaalt is niet je vestigingsplaats maar de omvang van je site, de hoeveelheid content die gemaakt moet worden en hoe sterk de concurrentie in jouw zoekwoorden is.",
       },
       {
-        h: "Hogere ranking",
-        p: "Hierdoor krijg je een hogere ranking in de zoekresultaten van Google. Deze hogere ranking is ontzettend belangrijk: hoe hoger je scoort in de zoekmachines, hoe meer verkeer je naar je website krijgt, wat uiteraard je conversies en dus je winst flink kan laten stijgen. Zonder SEO is het erg moeilijk om die doelgroep te bereiken die jij op je website wilt hebben. Kies voor zoekmachine optimalisatie in Eindhoven en boek online succes! Beoordeeld met een 9.8 op Google Mijn Bedrijf +50 tevreden klanten gingen jou voor Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI",
+        h: "Waarom B2B-SEO in Eindhoven anders werkt",
+        p: "In een technische of zakelijke markt zoekt niemand op koop nu. Er wordt gezocht op een probleem, op een specificatie, op een vergelijking tussen twee oplossingen. De zoekvolumes zijn laag en de concurrentie op die specifieke termen is vaak verrassend klein, terwijl één aanvraag een veelvoud waard is van wat een webshopbestelling opbrengt. Dat betekent dat een zoekwoord met vijftig zoekopdrachten per maand hier waardevoller kan zijn dan een breed woord met vijfduizend. We kiezen de zoekwoorden dus op waarde per aanvraag, niet op volume.",
       },
       {
-        h: "SEO Eindhoven: Hoe werkt dat?",
-        p: "Search Engine Optimalisation (SEO) houdt in dat een website volgens alle ‘regels’ van het zoekalgoritme van Google wordt gemaakt. Het begint met een duidelijke situatie-analyse. Onze SEO specialist in Eindhoven doet uitgebreid marktonderzoek en bekijkt de huidige SEO prestaties. Zo wordt er o.a. gekeken naar je website, de prestaties van de concurrenten en de kansen in de markt. De SEO audit is de basis voor een gerichte SEO strategie.",
+        h: "Content die een technische koper serieus neemt",
+        p: "Het grootste risico in deze markt is te oppervlakkig schrijven. Een inkoper of technicus die op een specificatie zoekt, prikt binnen twee alinea's door een tekst heen die alleen maar zoekwoorden bevat. Wat wel werkt: de vraag beantwoorden in de eerste honderd woorden, de bijvragen als koppen eronder zetten en concreet worden over cijfers, toleranties, levertijden en prijsindicaties. Diezelfde structuur zorgt er bovendien voor dat AI-antwoordmachines je pagina als los blok kunnen citeren, en dat is in technische markten een groeiend deel van het zoekgedrag.",
       },
       {
-        h: "Het belang van zoekwoorden",
-        p: "Met een uitgebreid zoekwoorden onderzoek gaan we op zoek naar transactionele en informatieve zoekwoorden die je potentiële klanten gebruiken. We kijken naar zoekvolumes, zoekwoord moeilijkheidsgraad, relevantie en uiteraard de zoekwoorden van je concurrenten. We maken gebruik van lage volume zoekwoorden met weinig concurrentie, maar ook van hoge volume zoekwoorden. Door beide zoektermen te combineren wanneer we je SEO teksten laten schrijven, zorgt onze SEO specialist in Eindhoven voor relevant verkeer naar je website.",
+        h: "Hoe we te werk gaan",
+        p: "We beginnen met een nulmeting van je posities, je techniek, je content en je concurrentie. Daaruit volgt een plan met een volgorde, waarin het werk met de meeste impact bovenaan staat. De uitvoering gaat in dezelfde volgorde: eerst de techniek, want een pagina die niet goed geïndexeerd wordt kan nergens op ranken, dan de content en pas daarna autoriteit. Elke maand krijg je een korte video waarin je ziet wat er is gedaan, wat het opleverde en wat er de volgende maand gebeurt. Geen dashboard met dertig grafieken die niemand leest.",
       },
       {
-        h: "Het belang van sterke (back) links",
-        p: "Interne links op jouw website en kwalitatieve links naar jouw website vanuit andere relevante websites zorgt ook voor meer online zichtbaarheid. Als je kiest voor zoekmachine optimalisatie in Eindhoven ben je verzekerd van de juiste linkbuilding strategie en zorg je voor meer relevante bezoekers en een hogere waarde van je website.",
+        h: "Lokale zichtbaarheid rond Eindhoven",
+        p: "Ook in een B2B-markt speelt locatie mee. Google toont sterk gelokaliseerde resultaten, en bedrijven die een leverancier in de buurt zoeken, zoeken letterlijk met de plaatsnaam erbij. Voor bedrijven met een vestiging of showroom in de regio is het Google Bedrijfsprofiel daarom minstens zo belangrijk als de website zelf: categorieën, foto's, openingstijden en reviews bepalen samen of je in het lokale pakket verschijnt. Dat onderdeel nemen we standaard mee, net als de vermeldingen in branchegidsen die zowel aanvragen als autoriteit opleveren.",
       },
       {
-        h: "Het belang van technisch onderhoud",
-        p: "Ook als jouw SEO technisch niet in orde is dan kan dit van invloed zijn op je rankings en SEO scores. Als je SEO in Eindhoven toepast wordt jouw website gescand en geanalyseerd op meer dan 100 belangrijke SEO factoren en lossen wij de problemen op. Als bijvoorbeeld jouw pagina’s te langzaam laden heb je de kans dat potentiële klanten jouw website verlaten voordat ze tot een conversie overgaan. Onze SEO specialist in Eindhoven kan jouw website optimaliseren en de laadsnelheid vergroten.",
-      },
-      {
-        h: "Het belang van on-page SEO",
-        p: "Als je een goede ranking wilt is On-page optimalisatie essentieel. Wij zorgen ervoor dat de zoekmachines weten waar de pagina’s over gaan, dat ze relevant zijn zonder over-optimalisatie. Daarnaast zorgen wij ervoor dat de content op de website aansluit op de wensen en behoeftes van de bezoeker en klant. Wij werken volgens de SEO richtlijnen van Google. Als je kiest voor SEO in Eindhoven kunnen wij je helpen met een goede sitestructuur en de juiste zoekwoorden selectie.",
-      },
-      {
-        h: "Andere factoren",
-        p: "Zelfs als dit allemaal in orde is, ben je er nog niet; er zijn nog talloze andere factoren die bepalen of je website goed geoptimaliseerd is of dat deze het toch aflegt tegen beter geoptimaliseerde concurrenten. SEO is een gecompliceerd proces zijn en het algoritme van Google verandert ook nog eens continu. Je begrijpt dat het precies volgen van alle veranderingen en het technische werk uitvoeren erg veel tijd kost.",
-      },
-      {
-        h: "Waarom kiezen voor SEO Eindhoven?",
-        p: "Daarom kiezen steeds meer ondernemers ervoor om hun SEO in Eindhoven uit te besteden. Dit scheelt tijd die je goed kan gebruiken voor je onderneming en je bent er zeker van de SEO goed uitgevoerd wordt. Onze SEO specialist MKB in Eindhoven weet als geen ander hoe jouw website het beste geoptimaliseerd kan worden en weet alles over de ins en outs van Google en andere zoekmachines zoals Bing en Yahoo. Als je kiest voor SEO in Eindhoven wordt jouw website dus letterlijk naar een hoger niveau getild, wat je veel rendement oplevert!",
-      },
-      {
-        h: "B. Analyzed: professioneel & ervaren SEO bureau",
-        p: "B. Analyzed is een online marketing bureau dat gespecialiseerd is in online marketing, waaronder SEO en Google Ads (SEA). Door te kiezen voor B.Analyzed, garanderen wij de meest succesvolle strategie voor SEO in Eindhoven. Ons team bestaat uit online marketeers, website developers, WP-specialisten, social media experts, content specialisten en programmeurs die iedere dag hard werken aan effectieve online marketing strategieën, met als primaire doel, uiteraard, betere omzetcijfers voor onze klanten. Wij helpen kleine, middelgrote en grote B-2-B en B-2-C bedrijven met het verbeteren van hun online marketing resultaten en SEO in Eindhoven. Dit doen we door het gebruik van verschillende marketing tools zoals bijvoorbeeld Google Analytics en door het opzetten van verschillende online marketing strategieën die passen bij de doelgroep en doelstellingen van jouw bedrijf.",
-      },
-      {
-        h: "Flexibiliteit en hoge inzetbaarheid",
-        p: "In tegenstelling tot veel andere online marketing bureaus werkt B. Analyzed niet met langlopende contracten. We zijn een flexibel bureau dat meedenkt met de klant! Iedere maand wordt in overleg bepaald aan welke marketingdienst(en) we aandacht besteden en waar de focus op ligt. Daarnaast werken met op maat gemaakte rapportages. Je krijgt een overzicht van je bezoekers aantallen, rankings van verschillende keywords en toename van het aantal behaalde doelen. Werkzaamheden zijn op maat en de snelheid van het behalen van resultaat verschilt per klant. Uiteraard kunnen we hier voor jou een inschatting van maken.",
-      },
-      {
-        h: "Andere expertises",
-        p: "Daarnaast zijn we niet alleen een zoekmachine marketing bureau: wij kunnen je ook van dienst zijn met bijvoorbeeld SEA, Google Ads, Display marketing, Google Analytics, Conversie optimalisatie, linkbuilding diensten en social media – en email marketing. Als online marketing bureau zijn wij al meerdere jaren actief voor vele tevreden klanten.",
-      },
-      {
-        h: "Met B. Analyzed kies je voor gegarandeerd resultaat!",
-        p: "Zoekmachine optimalisatie is een doorlopend proces, want er zijn altijd nieuwe potentiële klanten en daarnaast verandert Google de algoritmes om de paar maanden. Met een op maat gemaakte online marketing strategie kan jij het maximale uit je website halen. Schakel daarom B. Analyzed in! Wij verzorgen jouw SEO in Eindhoven en zorgen dat jouw website hoger in Google komt, dat jouw website meer relevant verkeer krijgt en dat jouw bedrijf uiteindelijk winstgevender wordt! Zoals je ziet, SEO in Eindhoven was nog nooit zo gemakkelijk!",
-      },
-      {
-        h: "De voordelen van B.Analyzed op een rijtje:",
-        p: "Meer dan 10 jaar ervaring Aantoonbare resultaten Terugkerende SEO opdrachtgevers Gegarandeerd resultaat 55 nummer 1 posities in Google Focus op meer conversies (leads) SEO door heel Nederland B.Analyzed verricht niet alleen zoekmachine optimalisatie in Eindhoven, maar door heel Nederland! Wij werken op afstand en zijn dus overal beschikbaar! Bekijk ook eens de volgende pagina’s: SEO Venlo SEO Nijmegen SEO Rotterdam SEO Maastricht SEO Limburg ★★★★★ 9,8 van 10 op basis van 31 beoordelingen op Facebook & Google My Business",
+        h: "Werken op afstand, met een vast gezicht",
+        p: "Wij zitten in Venlo, op een uur rijden van Eindhoven, en werken door heel Nederland en België. Het traject gaat op afstand: analyse, uitvoering en een maandelijkse videorapportage. Je hebt geen accountmanager maar één vaste specialist, dezelfde persoon die de strategie bedenkt en de wijzigingen doorvoert. Wil je een keer aan tafel om de strategie door te nemen, dan is dat geen probleem.",
       },
     ],
     faq: [
       {
-        q: "Werkt SEO ook voor technische, nichebedrijven in Eindhoven?",
-        a: "Juist voor niches met specifieke zoektermen is SEO effectief: minder concurrentie en zoekers met een concrete koopintentie.",
+        q: "Werken jullie ook voor technische en B2B-bedrijven?",
+        a: "Ja, en dat is een wezenlijk ander traject dan SEO voor een webshop. De zoekvolumes zijn lager, de beslistrajecten langer en de waarde per aanvraag hoger. We sturen daarom op kwaliteit van de aanvragen en niet op bezoekersaantallen, en dat spreken we vooraf af.",
       },
       {
-        q: "Hoe snel zie ik resultaat?",
-        a: "Lokale verbeteringen zie je vaak binnen enkele weken, voor structurele groei reken je op drie tot zes maanden.",
+        q: "Hoe lang duurt het voordat ik resultaat zie?",
+        a: "De eerste beweging in je posities zie je meestal na twee tot drie maanden, meetbaar meer aanvragen tussen maand zes en twaalf. In nichemarkten met weinig concurrentie kan dat sneller gaan, omdat er minder sterke pagina's zijn die je moet passeren.",
       },
       {
         q: "Wat kost SEO in Eindhoven?",
-        a: "Een audit start vanaf € 599,-. Doorlopende SEO-begeleiding start vanaf € 999,- per maand, uurwerk tegen € 90,- per uur.",
+        a: "Bij ons vanaf 999 euro per maand voor doorlopend werk, 599 euro voor een eenmalige audit en 90 euro per uur voor los maatwerk. De vestigingsplaats verandert de prijs niet; de omvang van je site en de concurrentie in je zoekwoorden wel.",
+      },
+      {
+        q: "Kan ik ook alleen een advies afnemen?",
+        a: "Ja. Het adviesrapport is een afgerond product met een analyse en een actielijst die je zelf of met je eigen marketeer uitvoert. Er zit geen maandverplichting aan vast. Kies je binnen drie maanden alsnog voor begeleiding, dan verrekenen we het adviesbedrag met de eerste factuur.",
+      },
+      {
+        q: "Doen jullie ook Google Ads erbij?",
+        a: "Ja, en in een nieuwe markt is dat vaak de verstandigste start. Advertenties leveren binnen weken de zoektermdata die laat zien op welke exacte formuleringen mensen aanvragen doen. Die woorden sturen vervolgens welke pagina's we als eerste herschrijven.",
+      },
+      {
+        q: "Blijf ik eigenaar van mijn accounts?",
+        a: "Altijd. We werken in jouw eigen Google Analytics, Search Console en advertentieaccount, en je houdt volledige toegang tot je data, ook als de samenwerking stopt. Dat is een harde voorwaarde bij ons, geen extra service waar je om moet vragen.",
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
-      { label: "GEO-optimalisatie", to: "/online-marketing/geo-optimalisatie/" },
-      { label: "Kennisbank GEO", to: "/kennisbank/geo/" },
+      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
+      { label: "Wat SEO kost per maand", to: "/tarieven-seo/" },
+      { label: "SEO en SEA combineren", to: "/online-marketing/seo-en-sea/" },
+      { label: "SEO voor MKB-bedrijven", to: "/seo-voor-mkb/" },
     ],
   },
+
   "seo-roermond": {
     eyebrow: "Local SEO",
     h1: "SEO Roermond, meer online rendement met een SEO specialist!",
@@ -606,9 +564,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
+      { label: "Online marketing bureau Venray", to: "/online-marketing-venray/" },
+      { label: "SEO Blerick voor Venlo-West", to: "/seo-blerick/" },
       { label: "SEO Limburg", to: "/seo-limburg/" },
-      { label: "Gratis SEO-scan", to: "/gratis-seo-scan/" },
+      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
     ],
   },
   "seo-horst": {
@@ -936,9 +895,9 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
-      { label: "GEO-optimalisatie", to: "/online-marketing/geo-optimalisatie/" },
-      { label: "Gratis SEO-scan", to: "/gratis-seo-scan/" },
+      { label: "SEO Rotterdam voor haven en logistiek", to: "/seo-rotterdam/" },
+      { label: "SEO Eindhoven voor tech en industrie", to: "/seo-eindhoven/" },
+      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
     ],
   },
   "seo-limburg": {
@@ -1054,9 +1013,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
-      { label: "SEO uitbesteden", to: "/online-marketing/seo-uitbesteden/" },
+      { label: "SEO Eindhoven voor tech en industrie", to: "/seo-eindhoven/" },
+      { label: "SEO Rotterdam voor haven en logistiek", to: "/seo-rotterdam/" },
+      { label: "SEO Nijmegen", to: "/seo-nijmegen/" },
       { label: "Marketingbureau Limburg", to: "/marketingbureau-limburg/" },
-      { label: "SEO Venlo", to: "/seo-venlo/" },
     ],
   },
   "linkbuilding-uitbesteden-venlo": {
@@ -1389,4 +1349,152 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       { label: "Tarieven linkbuilding", to: "/tarieven-linkbuilding/" },
     ],
   },
+  "seo-blerick": {
+    eyebrow: "Local SEO",
+    h1: "SEO Blerick: gevonden worden aan de westkant van Venlo",
+    title: "SEO Blerick | Lokale SEO-specialist in Venlo-West",
+    description:
+      "SEO voor bedrijven in Blerick en Venlo-West. Audit vanaf 599 euro, doorlopend vanaf 999 euro per maand. Een vaste specialist uit de regio, 9,8 uit 48 reviews.",
+    intro:
+      "Blerick is onderdeel van Venlo, maar in Google is het een eigen zoekwoord. Mensen die hier een leverancier zoeken, tikken de wijknaam in en niet de gemeente. Wie alleen op Venlo optimaliseert, mist die groep volledig, terwijl de concurrentie op de Blerickse zoekopdrachten een fractie is van die op de stad.",
+    bullets: [
+      "Een vaste specialist uit de regio, geen accountmanager op afstand",
+      "Uitgebreide audit vanaf 599 euro, doorlopend pakket vanaf 999 euro per maand",
+      "Ook zichtbaar in het lokale pakket en op Google Maps",
+      "Elke maand een korte video met wat er is gebeurd en wat het deed",
+    ],
+    sections: [
+      {
+        h: "Wat kost SEO in Blerick?",
+        p: "Een uitgebreide audit start bij 599 euro eenmalig: technische analyse, zoekwoordenonderzoek, een vergelijking met de bedrijven die nu boven je staan en een actielijst op volgorde van impact. Doorlopend werk start bij 999 euro per maand, losse uren tegen 90 euro. Je krijgt vooraf een vaste maandprijs en nooit een nacalculatie. Voor een lokaal bedrijf met een overzichtelijk aanbod is het instappakket in de praktijk vaak ruim genoeg om structureel te groeien, juist omdat de concurrentie op wijkniveau beperkt is.",
+      },
+      {
+        h: "Waarom een aparte pagina voor Blerick zin heeft",
+        p: "Google behandelt Blerick als een eigen locatie. Zoek je vanuit Blerick naar een dienstverlener, dan krijg je andere bedrijven te zien dan iemand die vanuit Venlo-centrum of Tegelen zoekt, ook zonder dat de wijknaam in de zoekopdracht staat. Daar komt bij dat mensen hier gewoon Blerick intikken: bij een aannemer, kapper of installateur in de buurt is dat de meest natuurlijke formulering. Het volume is kleiner dan bij Venlo, maar de intentie is scherper en de concurrentie beduidend lager. Voor de meeste lokale bedrijven levert dat sneller aanvragen op dan meevechten om de stadstermen.",
+      },
+      {
+        h: "Blerick, Venlo en de rest van de gemeente",
+        p: "Een goede lokale strategie zet Blerick niet los van Venlo, maar ernaast. Je hoofdpagina mikt op de gemeente, de wijkpagina op de directe omgeving, en ze verwijzen naar elkaar zodat Google begrijpt dat het om hetzelfde bedrijf en hetzelfde werkgebied gaat. Datzelfde geldt voor Tegelen, Belfeld, Arcen en Grubbenvorst: elk een eigen zoekopdracht, samen een dekkend net over Noord-Limburg. Werk je vanuit Blerick en bedien je de hele gemeente, kijk dan ook naar de bredere pagina over SEO in Venlo.",
+      },
+      {
+        h: "Je Google Bedrijfsprofiel bepaalt het lokale pakket",
+        p: "Bij een wijkgerichte zoekopdracht toont Google bovenaan een kaart met drie bedrijven. Daartussen staan levert in de praktijk meer aanvragen op dan drie plekken stijgen in de gewone resultaten. Wat dat bepaalt: de juiste hoofdcategorie, complete openingstijden en contactgegevens, actuele foto's en vooral reviews, waarbij het niet alleen om het aantal gaat maar ook om hoe recent ze zijn en of je erop reageert. Voor een bedrijf met een fysieke vestiging in Blerick is dit vrijwel altijd het onderdeel met de snelste winst, en het is werk dat je grotendeels zelf kunt doen.",
+      },
+      {
+        h: "Hoe we te werk gaan",
+        p: "We beginnen met een nulmeting: waar sta je nu in Google en in AI-antwoorden, en wat doen de bedrijven die boven je staan anders? Daarna volgt een plan met een volgorde, waarin het werk met de meeste impact bovenaan staat. In de uitvoering komt de techniek eerst, want een pagina die niet goed geïndexeerd wordt kan nergens op ranken. Dan de content: pagina's die de zoekvraag net niet goed genoeg beantwoorden, herschreven zodat het antwoord in de eerste honderd woorden staat. Autoriteit komt daarna, en niet andersom.",
+      },
+      {
+        h: "Een bureau uit de regio, geen callcenter",
+        p: "Wij zitten in Arcen, op een kwartier rijden van Blerick. Dat is geen verkooppraatje maar praktisch: we kennen de regio, we weten welke bedrijven hier actief zijn en we kunnen langskomen als dat helpt. Je hebt één vast aanspreekpunt, dezelfde persoon die de strategie bedenkt en de wijzigingen doorvoert. Elke maand krijg je een korte video waarin je ziet wat er is gedaan, wat het opleverde en wat er de volgende maand gebeurt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Heeft een aparte Blerick-pagina wel zin naast een Venlo-pagina?",
+        a: "Ja, mits ze inhoudelijk verschillen. Blerick is voor Google een eigen locatie met eigen zoekopdrachten en veel minder concurrentie. Twee pagina's met dezelfde tekst en alleen een andere plaatsnaam werken juist averechts; twee pagina's met eigen inhoud vullen elkaar aan.",
+      },
+      {
+        q: "Wat kost SEO voor een lokaal bedrijf in Blerick?",
+        a: "Een eenmalige audit vanaf 599 euro, doorlopend werk vanaf 999 euro per maand en losse uren voor 90 euro. Voor een bedrijf dat vooral in de eigen wijk en gemeente actief is, is het instappakket meestal genoeg om structureel te groeien.",
+      },
+      {
+        q: "Hoe snel zie ik resultaat op lokale zoekwoorden?",
+        a: "Op wijkgerichte zoekopdrachten met beperkte concurrentie zie je vaak binnen twee tot vier maanden beweging. Meetbaar meer aanvragen komen meestal tussen maand zes en twaalf. Dat gaat sneller dan op stads- of landelijke termen, simpelweg omdat er minder tegenstand is.",
+      },
+      {
+        q: "Moet ik ook aan mijn Google Bedrijfsprofiel werken?",
+        a: "Voor lokale zoekopdrachten is dat vaak het onderdeel met de snelste winst. In het kaartblok bovenaan staan maar drie bedrijven, en daartussen komen levert doorgaans meer op dan drie plekken stijgen in de gewone resultaten. We pakken het standaard mee.",
+      },
+      {
+        q: "Werken jullie ook voor bedrijven in Tegelen of Venlo-centrum?",
+        a: "Ja, we bedienen de hele gemeente Venlo en de rest van Noord-Limburg. Per plaats kijken we of een eigen pagina zinvol is of dat je beter meelift op een bredere pagina. Dat hangt af van het zoekvolume en van hoeveel concurrentie er op die plaatsnaam staat.",
+      },
+      {
+        q: "Blijf ik eigenaar van mijn eigen accounts?",
+        a: "Altijd. We werken in jouw eigen Google Analytics, Search Console en Bedrijfsprofiel, en je houdt volledige toegang tot je data, ook als de samenwerking ooit stopt. Dat is bij ons een harde voorwaarde en geen extra service waar je om moet vragen.",
+      },
+    ],
+    related: [
+      { label: "SEO Venlo voor de hele gemeente", to: "/seo-venlo/" },
+      { label: "Online marketing bureau Venlo", to: "/online-marketing-venlo/" },
+      { label: "Local SEO voor je werkgebied", to: "/online-marketing/local-seo/" },
+      { label: "Wat SEO kost per maand", to: "/tarieven-seo/" },
+    ],
+  },
+
+  "online-marketing-venray": {
+    eyebrow: "Online marketing",
+    h1: "Online marketing bureau Venray: SEO, Ads en conversie",
+    title: "Online Marketing Bureau Venray | Vaste specialist",
+    description:
+      "Online marketing bureau voor Venray en Noord-Limburg. SEO, Google Ads en conversie in één plan, vanaf 999 euro per maand. Een vast aanspreekpunt, 9,8 score.",
+    intro:
+      "Online marketing in Venray draait zelden om één kanaal. De meeste bedrijven hier hebben zowel lokale klanten als een landelijke of Duitse markt, en die twee vragen om een verschillende aanpak. Wij combineren SEO, Google Ads en conversie-optimalisatie in één plan, zodat je niet drie leveranciers hebt die elkaars werk niet zien.",
+    bullets: [
+      "SEO, GEO, Google Ads en conversie in één plan vanaf 999 euro per maand",
+      "Eén vaste specialist die de strategie bedenkt en ook zelf uitvoert",
+      "Uit de regio: gevestigd in Arcen, op een half uur van Venray",
+      "Elke maand een korte video met wat er is gebeurd en wat het deed",
+    ],
+    sections: [
+      {
+        h: "Wat kost online marketing in Venray?",
+        p: "Een doorlopend pakket start bij 999 euro per maand. Daarin combineren we SEO, zichtbaarheid in AI-antwoorden, Google Ads en conversie-optimalisatie, en je kiest zelf welke onderdelen het zwaarst wegen. Wil je eerst weten waar je staat, dan kost een uitgebreide audit 599 euro eenmalig en krijg je een actielijst die je ook zelf kunt uitvoeren. Los maatwerk rekenen we af tegen 90 euro per uur. Je advertentiebudget staat daar volledig los van en betaal je rechtstreeks aan Google, in je eigen account.",
+      },
+      {
+        h: "De Venrayse markt vraagt om twee sporen",
+        p: "Venray heeft een opvallend gemengd bedrijfsleven: zorg en dienstverlening, agrarische bedrijven en tuinbouw, maakindustrie en logistiek op De Blakt en Smakterheide, plus een levendige detailhandel in het centrum. Dat betekent in de praktijk twee sporen. Voor de lokale kant tellen plaatsgebonden zoekopdrachten en je Google Bedrijfsprofiel; daar win je met een compleet profiel en actuele reviews. Voor de landelijke of Duitse kant tellen juist de specialistische zoekwoorden waar weinig volume op zit maar waar één aanvraag veel waard is. Beide sporen tegelijk bedienen kan, mits je ze niet op dezelfde pagina probeert te proppen.",
+      },
+      {
+        h: "Vier pijlers in plaats van dertien losse diensten",
+        p: "SEO zorgt dat je gevonden wordt in de onbetaalde zoekresultaten. GEO zorgt dat je genoemd wordt in de antwoorden van ChatGPT, Gemini en Google zelf, een groeiend deel van het zoekgedrag. Ads koopt het verkeer dat vandaag moet converteren en levert binnen weken de zoektermdata waar SEO maanden over doet. En conversie-optimalisatie zorgt dat je van al dat verkeer ook daadwerkelijk aanvragen terugziet. Welke pijler het zwaarst weegt, hangt af van waar je groei nu vastloopt, en dat is de eerste vraag die we stellen.",
+      },
+      {
+        h: "Hoe we te werk gaan",
+        p: "We beginnen met een gesprek over wat je groei nu in de weg zit, gevolgd door een nulmeting van je posities, je techniek en je concurrentie. Daaruit volgt een plan met een volgorde, waarin het werk met de meeste impact bovenaan staat. Er start niets zonder jouw akkoord. Tijdens de uitvoering krijg je elke maand een korte video waarin je ziet wat er is gedaan, wat het opleverde en wat er daarna gebeurt. Blijven resultaten uit, dan veranderen we van aanpak zonder extra kosten.",
+      },
+      {
+        h: "Lokale zichtbaarheid in en om Venray",
+        p: "Google toont sterk gelokaliseerde resultaten. Wie in Venray zoekt naar een leverancier krijgt andere bedrijven te zien dan iemand in Horst of Boxmeer, ook zonder plaatsnaam in de zoekopdracht. Voor bedrijven met een vestiging of een afgebakend werkgebied betekent dat: je Google Bedrijfsprofiel is minstens zo belangrijk als je website. Daarnaast tellen de omliggende plaatsen mee. Oostrum, Leunen, Ysselsteyn, Merselo en Wanssum leveren samen vaak meer aanvragen op dan Venray alleen, mits je er content voor hebt die die zoekopdrachten daadwerkelijk beantwoordt.",
+      },
+      {
+        h: "Een bureau uit de regio",
+        p: "Wij zitten in Arcen, een half uur rijden van Venray. Je hebt geen accountmanager maar één vaste specialist, dezelfde persoon die de strategie bedenkt en de wijzigingen doorvoert. Dat scheelt doorlooptijd en voorkomt dat afspraken onderweg sneuvelen. Wil je alleen aan je vindbaarheid in Google werken en de rest laten liggen, kijk dan naar de pagina over SEO in Venray; wil je alle kanalen in één plan, dan is dit het startpunt.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wat kost een online marketing bureau in Venray?",
+        a: "Bij ons vanaf 999 euro per maand voor een doorlopend pakket waarin SEO, GEO, Ads en conversie zijn gecombineerd. Een eenmalige audit kost 599 euro en losse uren 90 euro. Je advertentiebudget betaal je zelf rechtstreeks aan Google, in je eigen account.",
+      },
+      {
+        q: "Kan ik ook alleen SEO of alleen Google Ads afnemen?",
+        a: "Ja. Binnen het pakket kies je zelf welke onderdelen het zwaarst wegen. Heb je vandaag omzet nodig, dan ligt het accent op Ads. Wil je structureel groeien zonder kosten per klik, dan op SEO. In de praktijk werken die twee het best naast elkaar.",
+      },
+      {
+        q: "Wat is het verschil met de pagina over SEO Venray?",
+        a: "Die pagina gaat alleen over vindbaarheid in de onbetaalde zoekresultaten. Deze pagina gaat over het geheel: SEO, zichtbaarheid in AI-antwoorden, advertenties en conversie in één plan met één aanspreekpunt en één rapportage.",
+      },
+      {
+        q: "Hoe snel zie ik resultaat?",
+        a: "Google Ads levert binnen dagen de eerste klikken en binnen weken bruikbare conversiedata. SEO laat na twee tot drie maanden beweging zien en levert meestal tussen maand zes en twaalf meetbaar meer aanvragen op. Dat verschil in tempo is precies waarom de combinatie werkt.",
+      },
+      {
+        q: "Werken jullie ook voor bedrijven die naar Duitsland leveren?",
+        a: "Ja. Noord-Limburg zit dicht op de Duitse grens en veel bedrijven hier hebben klanten aan beide kanten. We kijken dan per markt naar het zoekgedrag, want de formuleringen en de concurrentie verschillen sterk tussen Nederlandse en Duitse zoekopdrachten.",
+      },
+      {
+        q: "Blijf ik eigenaar van mijn accounts?",
+        a: "Altijd. We werken in jouw eigen Google Analytics, Search Console, Bedrijfsprofiel en advertentieaccount, en je houdt volledige toegang tot je data, ook als de samenwerking ooit stopt. Dat is bij ons een harde voorwaarde, geen extra service.",
+      },
+    ],
+    related: [
+      { label: "SEO Venray voor lokale vindbaarheid", to: "/seo-venray/" },
+      { label: "Online marketing uitbesteden", to: "/online-marketing/uitbesteden/" },
+      { label: "Google Ads uitbesteden", to: "/online-marketing/google-ads-uitbesteden/" },
+      { label: "Wat SEO kost per maand", to: "/tarieven-seo/" },
+    ],
+  },
+
 };

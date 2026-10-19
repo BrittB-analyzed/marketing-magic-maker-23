@@ -4,6 +4,7 @@ import { useServerFn } from "@tanstack/react-start";
 import { ArrowRight, Check, Lock } from "lucide-react";
 import brittPortret from "@/assets/photos/britt-portret.jpg.asset.json";
 import { submitLead } from "@/lib/api/lead.functions";
+import type { Locale } from "@/lib/i18n";
 
 const inputClass =
   "w-full rounded-xl border border-brand-line bg-white px-4 py-3 text-sm text-brand-ink outline-none transition-colors placeholder:text-brand-muted/70 focus:border-brand-ink";
@@ -11,6 +12,79 @@ const inputClass =
 /** Stable Lovable deployment endpoint, used when the site is hosted elsewhere. */
 const FALLBACK_LEAD_ENDPOINT =
   "https://project--ce7b695a-c956-44db-93e5-b9a20665a527.lovable.app/api/public/lead";
+
+/**
+ * Alle zichtbare tekst van het formulier, per taal. Eén formulier en één
+ * endpoint; alleen de labels verschillen. De Engelse teksten zijn in Brits
+ * Engels geschreven, net als de rest van de /en/-sectie.
+ */
+const TEKSTEN = {
+  nl: {
+    titel: "Vraag je gratis SEO & GEO-scan aan",
+    intro: "Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse van Britt.",
+    website: "Website",
+    websitePlaceholder: "jouwbedrijf.nl",
+    email: "E-mailadres",
+    emailPlaceholder: "jan@bedrijf.nl",
+    versturen: "Versturen…",
+    start: "Start mijn gratis scan",
+    privacy: "Geen verkooppraatjes. Je gegevens blijven bij ons.",
+    stapOntvangen: "Stap 1 ontvangen ✓",
+    stap2Titel: "Nog even scherpstellen",
+    stap2Intro: "Zo maken we de scan specifiek voor jouw situatie. Overslaan mag, je aanvraag staat al klaar.",
+    naam: "Naam",
+    naamPlaceholder: "Voornaam Achternaam",
+    telefoon: "Telefoon",
+    telefoonPlaceholder: "06 12 34 56 78",
+    focusVraag: "Waar wil je vooral op focussen?",
+    focusOpties: ["SEO", "GEO", "Ads", "CRO", "Weet ik nog niet"],
+    akkoord: "Ik ga ermee akkoord dat B. Analyzed contact met mij opneemt over deze scan.",
+    afronden: "Aanvraag afronden",
+    klaarTitel: "Je scan staat in de wacht",
+    klaarIntro:
+      "Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse van je vindbaarheid in Google én in AI-antwoorden.",
+    fout: "Verzenden mislukt.",
+    foutLater: "Verzenden mislukt. Probeer het later opnieuw.",
+    bullets: [
+      "Persoonlijke video-analyse, geen PDF-generator",
+      "Zichtbaarheid in Google én in ChatGPT, Gemini en AI Overviews",
+      "Concrete actiepunten die je ook zonder ons kunt uitvoeren",
+    ],
+  },
+  en: {
+    titel: "Request your free SEO & GEO scan",
+    intro: "Two fields. You'll get a personal video analysis from Britt within two working days.",
+    website: "Website",
+    websitePlaceholder: "yourcompany.com",
+    email: "Email address",
+    emailPlaceholder: "you@company.com",
+    versturen: "Sending…",
+    start: "Start my free scan",
+    privacy: "No sales pitch. Your details stay with us.",
+    stapOntvangen: "Step 1 received ✓",
+    stap2Titel: "A few more details",
+    stap2Intro:
+      "This lets us make the scan specific to your situation. Skipping is fine, your request is already with us.",
+    naam: "Name",
+    naamPlaceholder: "First name Last name",
+    telefoon: "Phone",
+    telefoonPlaceholder: "+44 7700 900000",
+    focusVraag: "What would you like us to focus on?",
+    focusOpties: ["SEO", "GEO", "Ads", "CRO", "Not sure yet"],
+    akkoord: "I agree that B. Analyzed may contact me about this scan.",
+    afronden: "Complete my request",
+    klaarTitel: "Your scan is queued",
+    klaarIntro:
+      "You'll receive a personal video analysis of your visibility in Google and in AI answers within two working days.",
+    fout: "Could not send.",
+    foutLater: "Could not send. Please try again later.",
+    bullets: [
+      "A personal video analysis, not a generated PDF",
+      "Visibility in Google and in ChatGPT, Gemini and AI Overviews",
+      "Concrete actions you can carry out without us",
+    ],
+  },
+} as const;
 
 export function FormPortrait({ children }: { children: React.ReactNode }) {
   return (
@@ -33,7 +107,16 @@ export function FormPortrait({ children }: { children: React.ReactNode }) {
  * Two-step lead form. Step 1 captures the lead (URL + e-mail).
  * Step 2 enriches it; dropping out after step 1 still leaves a usable lead.
  */
-export function LeadForm({ id = "scan", compact = false }: { id?: string; compact?: boolean }) {
+export function LeadForm({
+  id = "scan",
+  compact = false,
+  locale = "nl",
+}: {
+  id?: string;
+  compact?: boolean;
+  locale?: Locale;
+}) {
+  const t = TEKSTEN[locale];
   return (
     <ClientOnly
       fallback={
@@ -43,21 +126,15 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
           aria-busy="true"
         >
           <FormPortrait>
-            <h2 className="text-xl font-semibold tracking-tight">Vraag je gratis SEO &amp; GEO-scan aan</h2>
-            <p className="mt-1 text-sm text-brand-muted">
-              Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse van Britt.
-            </p>
+            <h2 className="text-xl font-semibold tracking-tight">{t.titel}</h2>
+            <p className="mt-1 text-sm text-brand-muted">{t.intro}</p>
           </FormPortrait>
           <div className="mt-4 h-10 animate-pulse rounded-xl bg-brand-sand" />
           <div className="mt-3 h-10 animate-pulse rounded-xl bg-brand-sand" />
           <div className="mt-4 h-11 animate-pulse rounded-full bg-brand-green/20" />
           {!compact && (
             <ul className="mt-6 space-y-2 border-t border-brand-line pt-5 text-sm text-brand-muted">
-              {[
-                "Persoonlijke video-analyse, geen PDF-generator",
-                "Zichtbaarheid in Google én in ChatGPT, Gemini en AI Overviews",
-                "Concrete actiepunten die je ook zonder ons kunt uitvoeren",
-              ].map((item) => (
+              {t.bullets.map((item) => (
                 <li key={item} className="flex gap-2">
                   <Check className="mt-0.5 size-4 shrink-0 text-brand-green" strokeWidth={2.5} />
                   {item}
@@ -68,12 +145,13 @@ export function LeadForm({ id = "scan", compact = false }: { id?: string; compac
         </div>
       }
     >
-      <LeadFormInner id={id} compact={compact} />
+      <LeadFormInner id={id} compact={compact} locale={locale} />
     </ClientOnly>
   );
 }
 
-function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
+function LeadFormInner({ id, compact, locale }: { id: string; compact: boolean; locale: Locale }) {
+  const t = TEKSTEN[locale];
   const [step, setStep] = useState<1 | 2 | 3>(1);
   const [website, setWebsite] = useState("");
   const [email, setEmail] = useState("");
@@ -88,7 +166,8 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
   const sendLead = async (stage: "partial" | "complete") => {
     setSending(true);
     setError("");
-    const payload = { website, email, name, phone, focus, stage, source: id, honeypot };
+    // `locale` gaat mee, zodat een aanvraag uit de Engelse sectie herkenbaar is.
+    const payload = { website, email, name, phone, focus, stage, source: id, honeypot, locale };
     const postJson = async (url: string) => {
       try {
         const r = await fetch(url, {
@@ -115,12 +194,12 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
         (await postJson(FALLBACK_LEAD_ENDPOINT));
       if (!res) res = await send({ data: payload });
       if (!res.ok) {
-        setError(res.error ?? "Verzenden mislukt.");
+        setError(res.error ?? t.fout);
         return false;
       }
       return true;
     } catch {
-      setError("Verzenden mislukt. Probeer het later opnieuw.");
+      setError(t.foutLater);
       return false;
     } finally {
       setSending(false);
@@ -140,30 +219,28 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
           }}
         >
           <FormPortrait>
-            <h2 className="text-xl font-semibold tracking-tight">Vraag je gratis SEO &amp; GEO-scan aan</h2>
-            <p className="mt-1 text-sm text-brand-muted">
-              Twee velden. Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse van Britt.
-            </p>
+            <h2 className="text-xl font-semibold tracking-tight">{t.titel}</h2>
+            <p className="mt-1 text-sm text-brand-muted">{t.intro}</p>
           </FormPortrait>
           <label className="block">
-            <span className="mb-1.5 block text-xs font-semibold text-brand-ink">Website</span>
+            <span className="mb-1.5 block text-xs font-semibold text-brand-ink">{t.website}</span>
             <input
               className={inputClass}
               type="text"
               required
-              placeholder="jouwbedrijf.nl"
+              placeholder={t.websitePlaceholder}
               value={website}
               onChange={(e) => setWebsite(e.target.value)}
               data-lpignore="true"
             />
           </label>
           <label className="block">
-            <span className="mb-1.5 block text-xs font-semibold text-brand-ink">E-mailadres</span>
+            <span className="mb-1.5 block text-xs font-semibold text-brand-ink">{t.email}</span>
             <input
               className={inputClass}
               type="email"
               required
-              placeholder="jan@bedrijf.nl"
+              placeholder={t.emailPlaceholder}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               data-lpignore="true"
@@ -184,11 +261,11 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
             disabled={sending}
             className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark disabled:opacity-60"
           >
-            {sending ? "Versturen…" : "Start mijn gratis scan"} <ArrowRight className="size-4" />
+            {sending ? t.versturen : t.start} <ArrowRight className="size-4" />
           </button>
           {error && <p className="text-center text-xs text-brand-red">{error}</p>}
           <p className="flex items-center justify-center gap-1.5 text-xs text-brand-muted">
-            <Lock className="size-3.5" /> Geen verkooppraatjes. Je gegevens blijven bij ons.
+            <Lock className="size-3.5" /> {t.privacy}
           </p>
         </form>
       )}
@@ -203,20 +280,22 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
           }}
         >
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wide text-brand-green">
-              Stap 1 ontvangen ✓
-            </p>
-            <h2 className="mt-1 text-xl font-semibold tracking-tight">Nog even scherpstellen</h2>
-            <p className="mt-1 text-sm text-brand-muted">
-              Zo maken we de scan specifiek voor jouw situatie. Overslaan mag, je aanvraag staat al klaar.
-            </p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-brand-green">{t.stapOntvangen}</p>
+            <h2 className="mt-1 text-xl font-semibold tracking-tight">{t.stap2Titel}</h2>
+            <p className="mt-1 text-sm text-brand-muted">{t.stap2Intro}</p>
           </div>
           <label className="block">
-            <span className="mb-1.5 block text-xs font-semibold text-brand-ink">Naam</span>
-            <input className={inputClass} value={name} onChange={(e) => setName(e.target.value)} placeholder="Voornaam Achternaam" data-lpignore="true" />
+            <span className="mb-1.5 block text-xs font-semibold text-brand-ink">{t.naam}</span>
+            <input
+              className={inputClass}
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              placeholder={t.naamPlaceholder}
+              data-lpignore="true"
+            />
           </label>
           <label className="block">
-            <span className="mb-1.5 block text-xs font-semibold text-brand-ink">Telefoon</span>
+            <span className="mb-1.5 block text-xs font-semibold text-brand-ink">{t.telefoon}</span>
             <input
               className={inputClass}
               type="tel"
@@ -224,16 +303,14 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
               required
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              placeholder="06 12 34 56 78"
+              placeholder={t.telefoonPlaceholder}
               data-lpignore="true"
             />
           </label>
           <fieldset>
-            <legend className="mb-1.5 block text-xs font-semibold text-brand-ink">
-              Waar wil je vooral op focussen?
-            </legend>
+            <legend className="mb-1.5 block text-xs font-semibold text-brand-ink">{t.focusVraag}</legend>
             <div className="flex flex-wrap gap-2">
-              {["SEO", "GEO", "Ads", "CRO", "Weet ik nog niet"].map((option) => (
+              {t.focusOpties.map((option) => (
                 <button
                   type="button"
                   key={option}
@@ -251,14 +328,14 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
           </fieldset>
           <label className="flex items-start gap-2 text-xs text-brand-muted">
             <input type="checkbox" required className="mt-0.5 size-4 rounded border-brand-line" data-lpignore="true" />
-            Ik ga ermee akkoord dat B. Analyzed contact met mij opneemt over deze scan.
+            {t.akkoord}
           </label>
           <button
             type="submit"
             disabled={sending}
             className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-green px-5 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-green-dark disabled:opacity-60"
           >
-            {sending ? "Versturen…" : "Aanvraag afronden"} <ArrowRight className="size-4" />
+            {sending ? t.versturen : t.afronden} <ArrowRight className="size-4" />
           </button>
           {error && <p className="text-center text-xs text-brand-red">{error}</p>}
         </form>
@@ -269,21 +346,14 @@ function LeadFormInner({ id, compact }: { id: string; compact: boolean }) {
           <span className="mx-auto flex size-12 items-center justify-center rounded-full bg-brand-green-soft text-brand-green">
             <Check className="size-6" strokeWidth={2.5} />
           </span>
-          <h2 className="mt-4 text-xl font-semibold tracking-tight">Je scan staat in de wacht</h2>
-          <p className="mt-2 text-sm text-brand-muted">
-            Je ontvangt binnen 2 werkdagen een persoonlijke video-analyse van je vindbaarheid in
-            Google én in AI-antwoorden.
-          </p>
+          <h2 className="mt-4 text-xl font-semibold tracking-tight">{t.klaarTitel}</h2>
+          <p className="mt-2 text-sm text-brand-muted">{t.klaarIntro}</p>
         </div>
       )}
 
       {!compact && step !== 3 && (
         <ul className="mt-6 space-y-2 border-t border-brand-line pt-5 text-sm text-brand-muted">
-          {[
-            "Persoonlijke video-analyse, geen PDF-generator",
-            "Zichtbaarheid in Google én in ChatGPT, Gemini en AI Overviews",
-            "Concrete actiepunten die je ook zonder ons kunt uitvoeren",
-          ].map((item) => (
+          {t.bullets.map((item) => (
             <li key={item} className="flex gap-2">
               <Check className="mt-0.5 size-4 shrink-0 text-brand-green" strokeWidth={2.5} />
               {item}

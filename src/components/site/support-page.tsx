@@ -1,4 +1,3 @@
-import { AeoBlocks } from "./aeo";
 import { Link } from "@tanstack/react-router";
 import { ArrowRight, Check } from "lucide-react";
 import { SiteLayout } from "./site-chrome";
@@ -76,7 +75,6 @@ export function SupportPage({
         </Section>
       )}
       {extra}
-      <AeoBlocks hasFaq={!!faq && faq.length > 0} />
       {faq && faq.length > 0 && <FaqBlock items={faq} />}
       <CtaBand />
     </SiteLayout>

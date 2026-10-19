@@ -39,12 +39,22 @@ function Cases() {
               params={{ slug: c.slug }}
               className="group flex flex-col overflow-hidden rounded-2xl border border-brand-line bg-white transition-colors hover:border-brand-ink"
             >
-              <img
-                src={c.image}
-                alt={c.imageAlt}
-                loading="lazy"
-                className="aspect-[16/10] w-full object-cover"
-              />
+              {c.image ? (
+                <img
+                  src={c.image}
+                  alt={c.imageAlt ?? c.client}
+                  loading="lazy"
+                  className="aspect-[16/10] w-full object-cover"
+                />
+              ) : (
+                // Nog geen beeldmateriaal: toon het sterkste cijfer als opener.
+                <div className="flex aspect-[16/10] w-full flex-col items-center justify-center bg-brand-sand px-6 text-center">
+                  <p className="text-4xl font-semibold tracking-tight text-brand-green">
+                    {c.highlights[0]?.value}
+                  </p>
+                  <p className="mt-2 text-sm leading-snug text-brand-muted">{c.highlights[0]?.label}</p>
+                </div>
+              )}
               <div className="flex flex-1 flex-col p-7">
                 {c.logo ? (
                   <img

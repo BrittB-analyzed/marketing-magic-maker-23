@@ -1,5 +1,10 @@
 import parketreusLogo from "@/assets/logos/parketreus-logo.avif.asset.json";
 import greenEnergyLogo from "@/assets/logos/Greenenergywoodpellets-logo.avif.asset.json";
+import steelGardenLogo from "@/assets/logos/steelgarden-logo.avif.asset.json";
+import vanToorLogo from "@/assets/logos/vantoor-interiors.avif.asset.json";
+import vogelvoerLogo from "@/assets/logos/vogelvoerkopenlogo_1.avif.asset.json";
+import bruidsmodeLogo from "@/assets/logos/bruidsmode-outlet.jpg.asset.json";
+import tienEuroTaxiLogo from "@/assets/logos/10-euro-taxi.png.asset.json";
 import vanOfferbeekLogo from "@/assets/logos/van-offerbeek-logo.avif.asset.json";
 
 export type Review = {
@@ -7,13 +12,23 @@ export type Review = {
   logoAlt?: string;
   name: string;
   role?: string;
+  url?: string;
   title: string;
   quote?: string;
 };
 
 export const REVIEWS: Review[] = [
   {
+    name: "Patrick Trump",
+    url: "https://www.drumcafe.nl/",
+    logo: "/assets/logos/drumcafe-logo.svg",
+    logoAlt: "Logo Drum Cafe",
+    title: "Prettige samenwerking",
+    quote: "Prettige samenwerking, korte lijntjes en erg betrokken bij mijn bedrijf.",
+  },
+  {
     name: "Monique Schoens",
+    url: "https://parketreus.nl/",
     logo: parketreusLogo.url,
     logoAlt: "Logo Parketreus",
     role: "Eigenaresse",
@@ -44,6 +59,7 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Hanneke Weerts",
+    url: "https://www.greenenergywoodpellets.com/",
     logo: greenEnergyLogo.url,
     logoAlt: "Logo Green Energy Woodpellets",
     title: "Fijne communicatie en onze vindbaarheid is verbeterd!",
@@ -61,12 +77,18 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Miriam Direks",
+    url: "https://euro-hubner.nl/",
+    logo: "/assets/logos/euro-hubner-logo.svg",
+    logoAlt: "Logo Euro Hübner",
     role: "CEO",
     title: "Teamwork makes the dream work!",
     quote: "I was very lucky to start a great assignment together with Britt: creating a new, modern and fresh look for our website www.euro-hubner.nl, so that it would meet all our requirements and expectations. Project management (Website Launch) We started from scratch with the construction, readability, findability and writing of engaging, catchy texts and it was in the meantime very important not to lose sight of the usability. Britt did a fantastic job in this, both in communicating with the website builders and in providing ideas about implementations that I did not know existed. With a sharp eye, she also monitored the technical side of the website (loading speed, structure, visibility etc.) SEO After setting up the frame of our website, Britt was an indispensable factor in the SEO implementation. By creating short, clear URLs and guiding us on how to fill the text blocks with the right key-words, our site scores very well in the ranking. Google ADS After the website launch, Britt also fine-tuned our Google ADS campaigns. We are already noticing a strong increase in the number of requests we receive. And that is exactly what we want! Collaboration Aside from her expertise, professionalism and specialism, I got to know Britt as super enthusiastic, honest, critical where necessary, helpful and very, very pleasant person to work with! So, can I recommend Britt? Without hesitation: Yes,….. 100%",
   },
   {
     name: "Joep",
+    url: "https://www.ldhmoda.nl/",
+    logo: "/assets/logos/ldhmoda-logo.png",
+    logoAlt: "Logo LDH Moda",
     role: "Eigenaar LDH Moda",
     title: "Top SEO specialist",
   },
@@ -105,12 +127,18 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Wesley Kissen",
+    url: "https://www.steelgarden.nl/",
+    logo: steelGardenLogo.url,
+    logoAlt: "Logo Steel Garden",
     role: "Eigenaar Steel Garden",
     title: "Top bedrijf",
     quote: "Een half jaar geleden begonnen met de samenwerking. Met een mega groot resultaat in ons bedrijf. Meer aanvragen. Verbeteringen in onze website. Britt is een echte SEO-specialist!",
   },
   {
     name: "Tatijana",
+    url: "https://jananails.nl/",
+    logo: "/assets/logos/jananails-logo.svg",
+    logoAlt: "Logo Jana Nails",
     role: "Eigenaresse Jana Nails",
     title: "Ten eerste wil ik de kwaliteit van de dienstverlening benadrukken. B-analyzed heeft bewezen over diepgaande kennis en expertise te beschikken op het gebied van online marketing.",
     quote: "Ik wil graag mijn ervaring delen over de professionele diensten van b-analyzed op het gebied van online marketing en vindbaarheid. Na een prettige samenwerking met het team van b-analyzed, kan ik met volle overtuiging zeggen dat zij een uitstekende partner zijn om uw online aanwezigheid te optimaliseren. Ten eerste wil ik de kwaliteit van de dienstverlening benadrukken. B-analyzed heeft bewezen over diepgaande kennis en expertise te beschikken op het gebied van online marketing. Hun team van professionals heeft de vaardigheden om uw online strategie te analyseren en te verbeteren, met als resultaat een verhoogde vindbaarheid en zichtbaarheid voor uw bedrijf. De aangeleverde tekstreview was van uitstekende kwaliteit, goed gestructureerd en in overeenstemming met mijn wensen. Wat de samenwerking met b-analyzed extra aangenaam maakte, was de open communicatie en de betrokkenheid van het team. Ze waren altijd bereid om mijn vragen te beantwoorden en mijn input serieus te nemen. Ze namen de tijd om mijn doelen en behoeften te begrijpen, en werkten nauw met mij samen om een effectieve strategie te ontwikkelen die past bij mijn bedrijf. De transparantie en heldere communicatie maakten de hele ervaring zeer positief. Bovendien was ik onder de indruk van de resultaten die b-analyzed heeft weten te behalen. Dankzij hun expertise en inzet heb ik een significante verbetering gezien in de vindbaarheid van mijn bedrijf op verschillende online platforms. Dit heeft geleid tot een stijging van het aantal bezoekers op mijn website en uiteindelijk tot een grotere klantenkring. Ik ben meer dan tevreden met de behaalde resultaten. Al met al kan ik b-analyzed ten zeerste aanbevelen aan iedereen die zijn online marketing en vindbaarheid wil verbeteren. Hun professionele aanpak, uitstekende service en prettige samenwerking hebben mij overtuigd van hun toegevoegde waarde. Aarzel niet om contact op te nemen met b-analyzed als u op zoek bent naar een betrouwbare partner om uw online aanwezigheid te versterken. Warme groet, Tatijana van Jana Nails, nagelgroothandel",
@@ -123,6 +151,7 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Roy van Offerbeek",
+    url: "https://www.worldofart.nl/",
     logo: vanOfferbeekLogo.url,
     logoAlt: "Logo Van Offerbeek",
     role: "Eigenaar Van Offerbeek en World Of Art",
@@ -131,6 +160,9 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Lorenzo",
+    url: "https://zwembad-online.nl/",
+    logo: "/assets/logos/zwembad-online-logo.png",
+    logoAlt: "Logo Zwembad-online.nl",
     role: "Eigenaar Zwembad-online.nl",
     title: "Mooi om te zien hoe snel we stijgen in Google met relevante keywords",
   },
@@ -142,6 +174,9 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Mohsinne",
+    url: "https://www.10eurotaxi.nl/",
+    logo: tienEuroTaxiLogo.url,
+    logoAlt: "Logo 10 Euro Taxi",
     role: "Eigenaar 10 Euro Taxi",
     title: "Aanzienlijk meer bezoekers op onze website",
     quote: "Door de SEO inspanningen van B. Analyzed zijn we in een korte tijd flink gestegen in de zoekresultaten met taxi Den Bosch en luchthaven taxi en hebben daardoor aanzienlijk meer bezoekers op onze site. Wij zijn tevreden met Britt van B. Analyzed marketing.",
@@ -154,12 +189,16 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Linda S",
+    url: "https://hondnet.nl/",
     role: "Eigenaar Hondnet.nl",
     title: "Britt heeft veel kennis van SEO",
     quote: "Wij hebben Britt van B. Analyzed ingehuurd om te helpen onze zichtbaarheid online te vergroten, en we zijn erg blij met de resultaten. In een korte tijd heeft ze ons geholpen om aanzienlijk te stijgen in de resultaten van zoekmachines, wat heeft geresulteerd in meer bezoekers naar onze site. Britt heeft veel kennis van SEO en is in staat geweest om effectief strategieën te implementeren die ons betere resultaten hebben opgeleverd dan we ooit zelf hadden kunnen bereiken. Ze is ook altijd beschikbaar om vragen te beantwoorden en ons te helpen problemen op te lossen die we mogelijk hebben. We zouden Britt ten zeerste aanbevelen aan iedereen die zijn online aanwezigheid wil verbeteren.",
   },
   {
     name: "Andy",
+    url: "https://www.janiceofficial.com/",
+    logo: "/assets/logos/janice-logo.webp",
+    logoAlt: "Logo Janice",
     role: "Medeeigenaar Janice.nl",
     title: "Onze bezoekersaantallen zijn vermedigvuldigd",
     quote: "In december 2019 kwamen we Britt egen in Thailand. Haar digital nomad instelling was voor ons doorslaggevend om met Britt in zee te gaan. Heerlijk hoe je over de hele wereld kunt werken en dat het niet uitmaakt waar je bent. Het enige wat je nodig hebt is je laptop, wifi en een goede instelling. En die heeft Britt. Zij heeft de SEO van onze site zo enorm goed aangepakt dat we in de afgelopen maanden enorm zijn gestegen in Google, maar ook met ons bereik. Onze bezoekersaantallen zijn enorm vermedigdvuldidg. Een duidelijk plan met doorzettingsvermogen van Britt heeft een enorme meerwaarde geleverd aan onze website. Daarnaast heeft haar levensinstelling ons geinspireerd en zullen wij ok als Digital nomads ons bedrijf gaan runnen. Ik zeg, Bedankt Britt!",
@@ -172,30 +211,41 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Rinie Jongenelen",
+    url: "https://bruidsmodeoutlet.be/",
+    logo: bruidsmodeLogo.url,
+    logoAlt: "Logo De Bruidsmode Outlet",
     role: "Eigenaar De Bruidsmode Outlet",
     title: "Zeer tevreden met de samenwerking",
     quote: "Britt van B. Analyzed marketing heeft ervoor gezorgd dat we binnen 8 maanden 300% meer leads hebben binnengehaald door middel van Google Ads en SEO. Britt is een harde werker die altijd voor resultaat gaat. B. Analyzed is een echte aanbeveling!",
   },
   {
     name: "Ron Tielen",
+    url: "https://vogelvoerkopen.nl/",
+    logo: vogelvoerLogo.url,
+    logoAlt: "Logo Vogelvoerkopen.nl",
     role: "Eigenaar Vogelvoerkopen.nl",
     title: "Kwaliteit, professionaliteit en responsiteit",
     quote: "Mede door de online inspanningen van Britt maken we een sterke groei door. Het is prettig samenwerken en Britt weet waar ze het over heeft. Een aanrader!",
   },
   {
     name: "Topsuits Lommel",
+    url: "https://topsuits.be/",
+    logo: "/assets/logos/topsuits-logo.png",
+    logoAlt: "Logo Topsuits",
     role: "Eigenaar",
     title: "Wij bevelen B. Analyzed zeker aan!",
     quote: "Britt van B. Analyzed heeft ons bedrijf goed geholpen met haar advies en SEO en SEA werkzaamheden. Het aantal aanvragen is in 8 maanden ruim verdubbeld. Een echte aanrader!",
   },
   {
     name: "Raymond van Hardware Tips",
+    url: "https://hardwaretips.nl/",
     role: "Eigenaar",
     title: "Zeer prettige samenwerking met mooie resultaten!",
     quote: "Zeer prettige samenwerking met mooie resultaten in enkele maanden. Britt reageert snel en uitgebreid erg positief",
   },
   {
     name: "Hazique G.M.",
+    url: "https://swissescape.ch/",
     role: "Co-founder Swiss Escape",
     title: "Efficient and very responsive!",
     quote: "I really enjoyed working with Britt for Facebook Ads and SEO optimization. She was efficient and very responsive to all my questions. She went out of her away to work to give suggestions of other ways to improve our marketing, and she did it with passion.",
@@ -208,6 +258,9 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Veronique Deeke",
+    url: "https://www.hastbo.com/",
+    logo: "/assets/logos/hastbo-logo.jpg",
+    logoAlt: "Logo HASTBO",
     role: "Mede-eigenaar HASTBO",
     title: "Wij kijken uit naar de toekomstige samenwerking en zullen hier zeker maandelijks gebruik van maken",
     quote: "Voor onze webshop waren wij opzoek naar een programmeur om een module te ontwikkelen om onze producten aan de klant direct online te kunnen aanbieden. Britt Daemen van B. analyzed geeft feedback en een duidelijke strategisch plan. Zij heeft verschillende bedrijven voor ons benaderd. Het resultaat wij hebben een derde partij gevonden, welke de module aan het ontwikkelen is tegen een aantrekkelijke prijs. Zodra de module gereed is en op onze site is geïntegreerd, zullen wij B. Analyzed weer inschakelen om onze website te optimaliseren. Het is heel prettig dat B. Anaylzed je op elke vlak van het internetmarketing kan ondersteunen. Waardoor wij maar een partij hoeven in te schakelen voor de benodigde diensten. Wij kijken uit naar de toekomstige samenwerking en zullen hier zeker maandelijks gebruik van maken.",
@@ -238,18 +291,25 @@ export const REVIEWS: Review[] = [
   },
   {
     name: "Ferry van Poel",
+    url: "https://vantoorinteriors.nl/",
+    logo: vanToorLogo.url,
+    logoAlt: "Logo Van Toor Interiors",
     role: "CEO Van Toor Interiors",
     title: "Wij zijn onder de indruk van haar aantoonbare resultaten!",
     quote: "Wij waren op zoek naar een freelance SEO-specialist, maar bovenal naar partner voor al onze website-activiteiten. Dat is voor ons Britt van B. Analyzed geworden. Waren we voorheen elders maandelijks veel geld kwijt voor nauwelijks merkbare resultaten, merken we nu vanaf dag één dat Britt voor ons aan het werk is en zijn we onder de indruk van haar aantoonbare resultaten. Wij zijn dan ook meer dan tevreden over de activiteiten van B. Analyzed en recommanderen haar van harte!",
   },
   {
     name: "Sjan en Micha Horowitz",
+    url: "https://www.trythai.nl/",
     role: "Eigenaar van Try Thai",
     title: "We zijn landelijk beter bereikbaar en dat merken we aan alles!",
     quote: "Wij hebben nooit geweten dat internetmarketing zoveel impact heeft op onze aanvragen. We zijn landelijk beter bereikbaar en dat merken we aan alles. Wij zijn erg tevreden met B. Analyzed en zullen zeker nog gebruik maken van haar marketingdiensten!",
   },
   {
     name: "Janneke Boeiakaloa",
+    url: "https://willkamayuspirit.com/",
+    logo: "/assets/logos/willkamayu-logo.png",
+    logoAlt: "Logo Willkamayu Spirit",
     role: "Owner Willkamayu Spirit",
     title: "A lot of gratefulness for our friend Britt!",
     quote: "A lot of gratefulness for our friend Britt! She really helped us a lot with our project in Peru! We just started and doing online everything by ourselves(all is new for us), and Britt gave us a big energy online boost! Amazing!!! Really appreciate that she is still open and gives effort to help us, while she is on her travel/ work journey again!! Thank you Britt, we hope to see you again here in Peru! Love",

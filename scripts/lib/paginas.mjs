@@ -22,7 +22,12 @@ export function normalize(p) {
 /** Alle padwaarden uit `to="/x/"`, `to: "/x/"` en `href="/x/"`. */
 export function extractLinks(src) {
   const links = new Set();
-  const patterns = [/\bto=\{?"(\/[^"]*)"/g, /\bto:\s*"(\/[^"]*)"/g, /\bhref="(\/[^"]*)"/g];
+  // `to="/x/"`, `to = "/x/"` (standaardwaarde van een prop), `to: "/x/"` en `href="/x/"`.
+  const patterns = [
+    /\bto\s*=\s*\{?"(\/[^"]*)"/g,
+    /\bto:\s*"(\/[^"]*)"/g,
+    /\bhref\s*=\s*"(\/[^"]*)"/g,
+  ];
   for (const re of patterns) {
     let m;
     while ((m = re.exec(src))) links.add(normalize(m[1]));
@@ -91,6 +96,14 @@ export function verzamelPaginas(root = process.cwd(), nu = new Date()) {
       soort: "blog",
       datum: m[2],
     });
+  }
+
+  // Cases draaien op de dynamische route /cases/$slug
+  const caseBestand = join(root, "src", "content", "cases.ts");
+  const caseSrc = readFileSync(caseBestand, "utf8");
+  for (const m of caseSrc.matchAll(/^ {4}slug:\s*"([^"]+)",$/gm)) {
+    const pad = `/cases/${m[1]}/`;
+    paginas.set(pad, { pad, bestand: relative(root, caseBestand), soort: "case" });
   }
 
   // Kennisbankbegrippen, alleen de begrippen waarvan de publicatiedatum is bereikt

@@ -4,8 +4,82 @@
     {
       "name": "b-analyzed-dev",
       "runtimeExecutable": "node",
-      "runtimeArgs": ["--env-file-if-exists=.env.local", "node_modules/vite/bin/vite.js", "dev", "--port", "5173"],
+      "runtimeArgs": [
+        "--env-file-if-exists=.env.local",
+        "node_modules/vite/bin/vite.js",
+        "dev",
+        "--port",
+        "5173"
+      ],
       "port": 5173
+    },
+    {
+      "name": "laduna-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "klantwerk/laduna-tarifa/serve.mjs"
+      ],
+      "port": 4321
+    },
+    {
+      "name": "adezz-wireframe",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4330",
+        "--directory",
+        "klantwerk/adezz-wireframe"
+      ],
+      "port": 4330
+    },
+    {
+      "name": "tessaleonie",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4331",
+        "--directory",
+        "klantwerk/tessaleonie"
+      ],
+      "port": 4331
+    },
+    {
+      "name": "partycreations",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4332",
+        "--directory",
+        "klantwerk/partycreations/nieuwe-site"
+      ],
+      "port": 4332
+    },
+    {
+      "name": "steinbrueckner",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4333",
+        "--directory",
+        "klantwerk/steinbrueckner/nieuwe-site"
+      ],
+      "port": 4333
+    },
+    {
+      "name": "ninapurafilms",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4334",
+        "--directory",
+        "klantwerk/ninapurafilms/nieuwe-site"
+      ],
+      "port": 4334
     }
   ]
 }

@@ -1,4 +1,3 @@
-import { AeoBlocks } from "@/components/site/aeo";
 import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
@@ -143,7 +142,6 @@ function GeoPage() {
         </Link>
       </Section>
 
-      <AeoBlocks />
       <FaqBlock items={FAQ} />
       <CtaBand
         title="Weten of AI jou al noemt?"

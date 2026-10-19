@@ -1,6 +1,6 @@
-import { Link } from "@tanstack/react-router";
+import { Link, useRouterState } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, Check, ChevronDown, Menu, Phone, Star, X } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, Globe, Menu, Phone, Star, X } from "lucide-react";
 import logoUrl from "@/assets/logo-b-analyzed.svg?url";
 import portretClose from "@/assets/photos/portret-close.jpg.asset.json";
 import {
@@ -13,6 +13,7 @@ import {
 } from "@/lib/site-config";
 import { BEDRIJFSCIJFERS, ERVARING_TEKST } from "@/data/bedrijfscijfers";
 import { FounderCard } from "@/components/site/founder-card";
+import { tegenhanger } from "@/lib/i18n";
 
 export { EMAIL, PHONE, PHONE_HREF, REVIEW_COUNT, REVIEWS_HREF, WHATSAPP_HREF };
 
@@ -24,9 +25,18 @@ export const PILLARS = [
   { name: "CRO", to: "/online-marketing/conversie-optimalisatie/", claim: "Bezoekers omzetten in aanvragen" },
 ] as const;
 
-export function Logo({ compact = false }: { compact?: boolean }) {
+export function Logo({
+  compact = false,
+  to = "/",
+  label = "B. Analyzed marketing, home",
+}: {
+  compact?: boolean;
+  /** Doel van de logolink. De Engelse sectie wijst naar /en/. */
+  to?: "/" | "/en/";
+  label?: string;
+}) {
   return (
-    <Link to="/" className="flex items-center" aria-label="B. Analyzed marketing, home">
+    <Link to={to} className="flex items-center" aria-label={label}>
       <img
         src={logoUrl}
         alt="B. Analyzed marketing"
@@ -118,6 +128,26 @@ const ABOUT_LINKS = [
   { label: "Over ons", to: "/online-marketing-bedrijf/" },
   { label: "Klantwaarderingen", to: "/klantwaarderingen/" },
 ];
+
+/**
+ * Wisselt naar de Engelse tegenhanger van de huidige pagina. Staat er geen
+ * vertaling, dan wijst de link naar de Engelse homepage: een taalwissel die
+ * naar een 404 leidt, is slechter dan een wissel naar een overzichtspagina.
+ */
+function TaalWissel({ className = "" }: { className?: string }) {
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+  const naar = tegenhanger(pathname) ?? "/en/";
+  return (
+    <Link
+      to={naar}
+      hrefLang="en"
+      className={`inline-flex items-center gap-1.5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink ${className}`}
+      aria-label="View this page in English"
+    >
+      <Globe className="size-4" /> EN
+    </Link>
+  );
+}
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -268,6 +298,9 @@ export function Header() {
                 </span>
               </Link>
             </li>
+            <li>
+              <TaalWissel />
+            </li>
           </ul>
           <div className="flex items-center gap-2">
             <a
@@ -379,6 +412,7 @@ export function Header() {
                 >
                   {PHONE}
                 </a>
+                <TaalWissel className="justify-center py-2" />
               </li>
             </ul>
           </div>
@@ -482,6 +516,9 @@ export function Footer() {
               <Link to="/disclaimer/" className="hover:text-brand-ink">
                 Disclaimer
               </Link>
+            </li>
+            <li className="pt-2">
+              <TaalWissel />
             </li>
           </ul>
         </div>

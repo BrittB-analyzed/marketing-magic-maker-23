@@ -587,114 +587,152 @@ export const TOPICAL_LANDINGS: Record<string, Landing> = {
   },
   "online-marketing-venlo": {
     eyebrow: "Online marketing",
-    h1: "Online marketing Venlo – Behaal meer online rendement!",
-    title: "Online Marketing Venlo | B. Analyzed",
-    description: "Op zoek naar een online marketingbureau in Venlo? B. Analyzed helpt ondernemers uit Venlo en omgeving met SEO, Google Ads, social media en GEO.",
-    intro: "Vaak denken ondernemers nog dat de meeste leads toch uit hun eigen omgeving voortkomen, en dat internet marketing niet nodig is. Online marketing is echter een redelijk goedkope manier om de juiste mensen te bereiken. Online vindbaarheid wordt steeds belangrijker. Je kunt deze werkzaamheden nu eenmaal niet allemaal zelf uitvoeren, het is handig om hier een professioneel kantoor voor in te schakelen.",
+    h1: "Online marketing bureau Venlo: SEO, Ads en conversie op één plek",
+    title: "Online Marketing Bureau Venlo | SEO, Google Ads & CRO",
+    description:
+      "Online marketing bureau in Venlo met 15 jaar ervaring en een 9,8 uit 48 reviews. SEO, Google Ads en CRO bij één vast aanspreekpunt, vanaf 999 euro per maand.",
+    intro:
+      "Wij zijn een online marketing bureau uit Venlo en werken voor ondernemers in de stad, de regio en daarbuiten. Geen accountmanager die doorverwijst naar een uitvoerend team, maar één vaste specialist die je strategie bedenkt en ook zelf doorvoert. Dat scheelt doorlooptijd en het voorkomt dat afspraken onderweg sneuvelen.",
     bullets: [
-      "Persoonlijk contact, korte lijnen, geen wachttijden",
-      "Ervaring met concurrentie uit Nederland én Duitsland",
-      "Volledig pakket: SEO, SEA, social media en meer",
+      "SEO, GEO, Google Ads en conversie in één plan vanaf 999 euro per maand",
+      "Gevestigd in Arcen, gemeente Venlo: korte lijnen en bekend met de regio",
+      "15 jaar ervaring en een 9,8 uit 48 Google-reviews",
+      "Elke maand een korte video met wat er is gebeurd en wat het deed",
     ],
     sections: [
       {
-        h: "Online marketing diensten Venlo nodig?",
-        p: "Voor veel bedrijfseigenaren zal het niet makkelijk zijn om al die online taken goed onder de knie te krijgen. Het is dan ook eenvoudiger om het gewoon uit te besteden aan een bedreven online marketing bureau. Een goed online marketing bureau zal voor jouw organisatie een maatwerk strategie opstellen, door middel van deze strategie weet je gelijk waar de focus op moet gaan liggen. Bij het maken van die strategie worden ook de middelen die je gaat inzetten bepaald. Dit soort werkzaamheden zijn altijd maatwerk, waardoor iedere organisatie, klein of groot, geholpen kan worden door een online marketing bureau in Venlo. . Beoordeeld met een 9.8 op Google Mijn Bedrijf +50 tevreden klanten gingen jou voor Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI",
+        h: "Wat kost een online marketing bureau in Venlo?",
+        p: "Een doorlopend pakket start bij 999 euro per maand. Daarin combineren we SEO, zichtbaarheid in AI-antwoorden, Google Ads en conversie-optimalisatie, en je kiest zelf welke onderdelen het zwaarst wegen. Wil je eerst weten waar je staat, dan kost een uitgebreide audit 599 euro eenmalig en krijg je een actielijst die je ook zelf kunt uitvoeren. Los maatwerk rekenen we af tegen 90 euro per uur. Je krijgt vooraf een vaste maandprijs en nooit een nacalculatie. Je advertentiebudget staat daar los van en betaal je rechtstreeks aan Google, in je eigen account.",
       },
       {
-        h: "Online marketing specialisten Venlo",
-        p: "Onze online marketing specialisten helpen je bij het opstellen van een heldere online marketingstrategie. In een kennismakingsgesprek bespreken we waar jouw bedrijf nu staat, maken we een swot-analyse en bekijken we de huidige marketingmix. Waar staan jullie nu en waar willen we naartoe? Daar geeft Analytics een beter beeld van. De huidige kanalen en alle relevante data-bronnen worden geanalyseerd. Dit gebruiken we als vertrekpunt voor het opstellen van de online marketingstrategie. We gaan vervolgens aan de slag met een prognose van de grootte van de potentiële doelgroep(en) op geografisch gebied en maken we meetbare doelstellingen (KPI’s) op. Het aanvalsplan komen we vervolgens bij jou op locatie presenteren.",
+        h: "Case: Venlo Taxi, negen jaar op positie 1",
+        p: "Venlo Taxi staat inmiddels negen jaar op positie 1 voor taxi venlo. In die samenwerking groeide het aantal zoekwoorden in de top 5 van 26 naar 106 en het totaal aantal gerankte zoekwoorden van 344 naar 1.270. Dat is het type resultaat waar lokale online marketing op uitdraait: niet één piek, maar een positie die jaren blijft staan en elke maand aanvragen oplevert zonder kosten per klik.",
       },
       {
-        h: "Online marketingbureau Venlo inschakelen?",
-        p: "Heb je geen online marketing bureau in Venlo? B. Analyzed is je graag van dienst vanuit Venlo met jouw online marketing benodigdheden. Want samen vinden we een online marketing strategie die past bij jouw bedrijf. B. Analyzed is namelijk een expert op het vlak van online marketing en zorgen altijd voor resultaat. Wij verzorgen zoekmachine optimalisatie MKB alsmede voor zelfstandigen! Als online marketing bureau bieden wij ook een waaier aan diensten waaronder een website en/of webshop bouwen voor jouw bedrijf, een SEO en SEA-campagne starten, linkbuilding, content marketing, social media marketing, remarketing, Google shopping en display advertising. Om te kunnen selecteren wat jouw bedrijf nodig heeft, zullen we eerst samen in gesprek moeten gaan. Klaar voor een nieuw avontuur? Wij gaan graag in gesprek, zodat we jou de beste opties kunnen voorleggen. Één van B. Analyzed online marketing bureau belangrijkste aandachtspunten is het behouden van lange-termijn relaties met onze klanten. Om die reden willen we hen ten aller tijde op de hoogte houden van wat er gebeurt op hun website. B. Analyzed doet dit door maandelijkse rapporten en adviezen samen te stellen, om aan te tonen hoe dicht onze klanten bij hun vastgelegde doelstellingen staan. Onze marketing experts kunnen dan de kansen, bedreigingen, sterktes en zwaktes van jouw website weergeven. Want we willen dat op alle opportuniteiten ingezet wordt. Verder geven de rapporten ook aan wat er nog veranderd moet worden en wat niet, waardoor jouw bedrijf zijn online-groei kan genereren. Wil je meer weten over ons aanbod, en hoe we jouw online aanwezigheid kunnen vergroten? Neem contact met ons op! Onze experts zijn elke werkdag aanwezig om jou te helpen.",
+        h: "Wat de Venlose markt anders maakt",
+        p: "Venlo ligt tegen de Duitse grens en dat zie je terug in het bedrijfsleven: logistiek en agrofood rond Trade Port en Fresh Park, maakindustrie, en daarnaast een brede groep dienstverleners en detaillisten die het van de eigen stad en regio moeten hebben. Die twee vragen om een andere aanpak. Voor de lokale kant tellen plaatsgebonden zoekopdrachten en je Google Bedrijfsprofiel. Voor de zakelijke en grensoverschrijdende kant tellen juist specialistische zoekwoorden met weinig volume, waar één aanvraag veel waard is. Wij scheiden die twee in plaats van ze op dezelfde pagina te proppen.",
       },
       {
-        h: "Online marketing Venlo is altijd een goede investering",
-        p: "Aarzel niet langer en schakel zo snel mogelijk een online marketing bureau uit Venlo in. Wij hopen dat je met onze handvatten snel beland bij een marketingbureau dat perfect aansluit bij jouw wensen. Door middel van een online marketing bureau in Venlo ben je in staat om jouw bedrijf naar het volgende niveau te tillen. Haal jij al resultaat uit jouw online inspanningen maar denk je dat dit nog beter kan? Klik dan op conversie optimalisatie om meer uit je website verkeer uit bijvoorbeeld Venlo te halen. Vergelijk gemakkelijk en vrijblijvend onze professionele en betaalbare online marketing bureau uit Venlo, gespecialiseerd in SEO en Google Ads.",
+        h: "Vier pijlers in plaats van dertien losse diensten",
+        p: "SEO zorgt dat je gevonden wordt in de onbetaalde zoekresultaten. GEO zorgt dat je genoemd wordt in de antwoorden van ChatGPT, Gemini en Google zelf, een groeiend deel van het zoekgedrag. Ads koopt het verkeer dat vandaag moet converteren en levert binnen weken de zoektermdata waar SEO maanden over doet. Conversie-optimalisatie zorgt dat je van al dat verkeer ook daadwerkelijk aanvragen terugziet. Welke pijler het zwaarst weegt hangt af van waar je groei nu vastloopt, en dat is de eerste vraag die we stellen.",
       },
       {
-        h: "Meer weten?",
-        p: "Wil jij weten wat ons internet marketing bureau voor jou kan betekenen? Ben je op zoek naar een SEO specialist of heb je vragen over zoekmachine optimalisatie? Wil jij jouw online campagnes uitbesteden of wil je hulp bij search engine advertising? Wat je vraag ook is, je kan altijd contact opnemen met een van onze specialisten of plan een vrijblijvend gesprek in waarin we samen naar de mogelijkheden voor jouw bedrijf kijken! Je kunt bij ons ook terecht als je op zoek bent naar een SEO bureau Rotterdam of SEO bureau Maastricht. Ongeacht waar je bedrijf zich bevindt, wij kunnen je altijd van dienst zijn!",
+        h: "Hoe we te werk gaan",
+        p: "We beginnen met een gesprek over wat je groei in de weg zit, gevolgd door een nulmeting van je posities, je techniek en je concurrentie. Daaruit volgt een plan met een volgorde, waarin het werk met de meeste impact bovenaan staat. Er start niets zonder jouw akkoord. Tijdens de uitvoering krijg je elke maand een korte video waarin je ziet wat er is gedaan, wat het opleverde en wat er daarna gebeurt. Blijven resultaten uit, dan veranderen we van aanpak zonder extra kosten.",
+      },
+      {
+        h: "Lokale zichtbaarheid in en om Venlo",
+        p: "Google toont sterk gelokaliseerde resultaten. Wie vanuit Blerick zoekt krijgt andere bedrijven te zien dan iemand in Tegelen of Belfeld, ook zonder dat de wijknaam in de zoekopdracht staat. Voor bedrijven met een vestiging of een afgebakend werkgebied is het Google Bedrijfsprofiel daarom minstens zo belangrijk als de website: categorieën, openingstijden, foto's en vooral recente reviews bepalen of je in het kaartblok bovenaan verschijnt. Wil je specifiek aan je vindbaarheid in Google werken en de advertenties even laten liggen, kijk dan naar de pagina over SEO in Venlo.",
       },
     ],
     faq: [
       {
-        q: "Werken jullie alleen voor bedrijven in Venlo?",
-        a: "Nee, we zitten in Venlo maar werken door heel Nederland en België. Venlo en omgeving zijn wel een van onze vaste werkgebieden.",
+        q: "Wat kost een online marketing bureau in Venlo?",
+        a: "Bij ons vanaf 999 euro per maand voor een doorlopend pakket waarin SEO, GEO, Ads en conversie zijn gecombineerd. Een eenmalige audit kost 599 euro en losse uren 90 euro. Je advertentiebudget betaal je zelf rechtstreeks aan Google, in je eigen account.",
       },
       {
-        q: "Wat kost online marketing in Venlo?",
-        a: "Een audit start vanaf € 599,-. Doorlopende begeleiding start vanaf € 999,- per maand, of € 90,- per uur.",
+        q: "Wat is het verschil met de pagina over SEO Venlo?",
+        a: "Die pagina gaat alleen over vindbaarheid in de onbetaalde zoekresultaten. Deze pagina gaat over het geheel: SEO, zichtbaarheid in AI-antwoorden, advertenties en conversie in één plan, met één aanspreekpunt en één maandelijkse rapportage.",
       },
       {
-        q: "Welke diensten bieden jullie in Venlo aan?",
-        a: "SEO, Google Ads, social media marketing, e-mailmarketing, website-advies en meer, volledig op maat van jouw bedrijf.",
+        q: "Werken jullie alleen voor bedrijven uit Venlo?",
+        a: "Nee, we werken door heel Nederland en België. Dat we in de gemeente Venlo zitten betekent vooral dat we de regio kennen en makkelijk langskomen. Voor klanten verderop gaat het traject volledig op afstand, zonder dat dat iets aan de aanpak verandert.",
+      },
+      {
+        q: "Kan ik ook alleen SEO of alleen Google Ads afnemen?",
+        a: "Ja. Binnen het pakket kies je zelf welke onderdelen het zwaarst wegen. Heb je vandaag omzet nodig, dan ligt het accent op Ads. Wil je structureel groeien zonder kosten per klik, dan op SEO. In de praktijk werken die twee het best naast elkaar.",
+      },
+      {
+        q: "Hoe snel zie ik resultaat?",
+        a: "Google Ads levert binnen dagen de eerste klikken en binnen weken bruikbare conversiedata. SEO laat na twee tot drie maanden beweging zien en levert meestal tussen maand zes en twaalf meetbaar meer aanvragen op. Dat verschil in tempo is precies waarom de combinatie werkt.",
+      },
+      {
+        q: "Blijf ik eigenaar van mijn accounts?",
+        a: "Altijd. We werken in jouw eigen Google Analytics, Search Console, Bedrijfsprofiel en advertentieaccount, en je houdt volledige toegang tot je data, ook als de samenwerking ooit stopt. Dat is bij ons een harde voorwaarde en geen extra service.",
       },
     ],
     related: [
-      { label: "Online marketing bureau Nederland", to: "/online-marketing-bureau-nederland/" },
-      { label: "Marketingbureau Limburg", to: "/marketingbureau-limburg/" },
-      { label: "SEO Venlo", to: "/seo-venlo/" },
+      { label: "SEO Venlo voor je organische posities", to: "/seo-venlo/" },
+      { label: "Online marketing bureau Limburg", to: "/marketingbureau-limburg/" },
+      { label: "Google Ads uitbesteden", to: "/online-marketing/google-ads-uitbesteden/" },
+      { label: "Wat online marketing kost", to: "/tarieven-seo/" },
     ],
   },
+
   "marketingbureau-limburg": {
     eyebrow: "Online marketing",
-    h1: "Behaal meer online rendement met B. Analyzed marketingbureau Limburg",
-    title: "Marketingbureau Limburg | B. Analyzed",
-    description: "B. Analyzed is een marketingbureau in Limburg dat ondernemers helpt met SEO, Google Ads en social media, met oog voor de grensregio en AI-zichtbaarheid.",
-    intro: "Online marketing is onze passie. B. Analyzed marketing is een online marketing specialist op het gebied van zoekmachine optimalisatie (SEO), zoekmachine adverteren (SEA) en lead generalisatie. De specialisten van ons online marketing bureau in Limburg hebben meer dan 10 jaar ervaring. Onze experts kunnen je altijd vrijblijvend voorzien van marketing strategieën op maat. Daarnaast werken wij samen met experts op het gebied van programmering, webdesign, display marketing & copywriting om de beste resultaten te behalen voor jouw onderneming!",
+    h1: "Marketingbureau Limburg: je online marketing bureau voor het MKB",
+    title: "Online Marketing Bureau Limburg | 9,8 uit 48 reviews",
+    description:
+      "Online marketing bureau in Limburg voor SEO, Google Ads en conversie. 15 jaar ervaring, 9,8 uit 48 reviews en één vast aanspreekpunt. Vanaf 999 euro per maand.",
+    intro:
+      "Wij zijn een online marketing bureau uit Limburg dat werkt voor MKB-bedrijven in de hele provincie, van Venlo tot Maastricht. Geen accountmanager en geen black box, maar één vaste specialist die je strategie bedenkt, uitvoert en elke maand laat zien wat het heeft opgeleverd.",
     bullets: [
-      "Regionale kennis van de Limburgse markt en grensregio",
-      "0-meting om je startpositie helder in kaart te brengen",
-      "Gezamenlijk stappenplan met concrete doelstellingen",
+      "SEO, GEO, Google Ads en conversie in één plan vanaf 999 euro per maand",
+      "15 jaar ervaring en een 9,8 uit 48 Google-reviews",
+      "Eén vast aanspreekpunt in plaats van een accountmanager",
+      "Elke maand een korte video met wat er is gebeurd en wat het deed",
     ],
     sections: [
       {
-        h: "Hoe gaat B.Analyzed te werk?",
-        p: "Als jouw internetbureau in Limburg gaan we meteen aan de slag! We gaan met jou aan tafel om jouw bedrijfsituatie in kaart te brengen door uitvoerig stil te staan bij jouw behaalde resultaten, jouw doelstellingen en verwachtingen.",
+        h: "Wat kost een marketingbureau in Limburg?",
+        p: "Een doorlopend pakket start bij 999 euro per maand, waarin SEO, zichtbaarheid in AI-antwoorden, Google Ads en conversie-optimalisatie zijn gecombineerd. Een uitgebreide audit kost 599 euro eenmalig en levert een actielijst op die je ook zelf kunt uitvoeren. Losse uren rekenen we af tegen 90 euro. Je krijgt vooraf een vaste maandprijs, er volgt nooit een nacalculatie, en je advertentiebudget betaal je rechtstreeks aan Google in je eigen account. In de markt lopen de maandbedragen bij vergelijkbare bureaus uiteen van ongeveer 500 tot 3.500 euro, afhankelijk van hoeveel uren er daadwerkelijk in zitten.",
       },
       {
-        h: "De bedrijfssituatie bepalen",
-        p: "In deze eerste fase brengt ons marketing bureau in Limburg de huidige bedrijfssituatie in kaart. We gaan kijken naar jouw diensten en/of producten, jouw (potentiële) doelgroepen, de huidige marketingmix, de missie en visie van jouw bedrijf, et cetera. Vervolgens bepalen we de korte termijn doelstellingen, en bekijken we welke quick wins we kunnen oppakken. Uiteraard bekijken en bepalen we ook de lange termijn doelstellingen.",
+        h: "Resultaten bij Limburgse bedrijven",
+        p: "Meubel & Outlet Weert groeide in zestien maanden met 680 procent in organisch verkeer, van circa 500 naar bijna 5.500 bezoekers per maand, en ging van 1.500 naar meer dan 5.000 zoekwoorden waarop de site gevonden wordt. Parketreus uit Heerlen haalde 439.000 vertoningen en 4.310 klikken, en schoof voor traprenovatie limburg van positie 18 naar positie 2. Twee verschillende branches, dezelfde aanpak: eerst de techniek, dan de content, dan de autoriteit.",
       },
       {
-        h: "0 -meting",
-        p: "Daarnaast doen we een 0-meting van de website. Is de website technisch in orde, wat zijn de huidige rankings en hoe ziet het linkbuilding profiel eruit? Ook maken we een concurrentieanalyse. Wie zijn de concurrenten en wat is het onderscheidend vermogen t.o.v. de concurrenten? Uiteindelijk bekijken we met welke aanpassingen we jouw leads en sales kunnen maximaliseren. Deze stappen worden verwerkt in een complete situatie-analyse. Dit verwerken we in een online marketingstrategie.",
+        h: "Limburg is geen één markt",
+        p: "De provincie is langgerekt en economisch verdeeld. Noord-Limburg draait op logistiek, agrofood en maakindustrie, met Venlo als grensknooppunt richting Duitsland. Midden-Limburg heeft veel MKB en detailhandel rond Roermond en Weert. Zuid-Limburg leunt zwaarder op zorg, onderwijs, toerisme en de Euregio rond Maastricht. Dat betekent dat een zoekwoord dat in Venlo werkt in Maastricht niets oplevert, en andersom. Wij maken daarom per werkgebied een eigen zoekwoordenlijst in plaats van één provinciale aanpak over alles heen te leggen.",
       },
       {
-        h: "Uitdagingen en kansen bepalen",
-        p: "We bekijken aan de hand van de situatie-analyse welke kansen en uitdagingen er zijn. Welke mix van marketingkanalen gaan we inzetten om de doelgroepen op de juiste momenten te benaderen?",
+        h: "Vier pijlers in plaats van dertien losse diensten",
+        p: "SEO zorgt dat je gevonden wordt in de onbetaalde zoekresultaten. GEO zorgt dat je genoemd wordt in de antwoorden van ChatGPT, Gemini en Google zelf. Ads koopt het verkeer dat vandaag moet converteren en levert binnen weken de zoektermdata waar SEO maanden over doet. Conversie-optimalisatie zorgt dat je van dat verkeer ook daadwerkelijk aanvragen terugziet. We beginnen altijd bij de vraag wat je groei nu het meest in de weg zit, en kiezen de pijler die daar het snelste antwoord op geeft.",
       },
       {
-        h: "Gezamenlijk stappenplan opstellen",
-        p: "Door middel van het bepalen van de doelstellingen (ofwel KPI’s) bepalen we in overleg met elkaar de aanpak en tijdsplanning. We selecteren de marketingkanalen en bepalen samen het marketingbudget. Ook bepalen we de frequentie van rapportages en overleg. Samenwerken met ons als online marketing bureau Limburg levert je het beste resultaat op!",
+        h: "Hoe we te werk gaan",
+        p: "Eerst een gesprek over je markt en je doelen, daarna een nulmeting van je posities, je techniek en je concurrentie. Daaruit volgt een plan met een volgorde, waarin het werk met de meeste impact bovenaan staat. Er start niets zonder jouw akkoord. Tijdens de uitvoering krijg je elke maand een korte video waarin je ziet wat er is gedaan, wat het opleverde en wat er daarna gebeurt. Blijven resultaten uit, dan sturen we bij zonder extra kosten en werken we door tot je meetbaar resultaat boekt.",
       },
       {
-        h: "Hoe maakt B.Analyzed het verschil?",
-        p: "Er zijn natuurlijk talloze freelancers of internetmarketing bureau’s in Limburg die in zekere zin hetzelfde doen. Het grote verschil zit hem in het onderscheidende vermogen. Als jouw online marketingbureau in Limburg begrijpen wij dat je bedrijf véél verder gaat dan alleen je website. Bedrijven die hun online marketing uitbesteden aan B.Analyzed kiezen voor kwaliteit en persoonlijkheid. We verdiepen ons niet alleen in de techniek en uitstraling van je website, maar willen ook alles weten over je strategie, je diensten of producten, je klanten, je doelgroep en jouw bedrijf. Wij zien jou namelijk als partner, niet als klant. Jouw succes is ons succes. En vice versa. Wij snappen online marketing. Jij snapt jouw doelgroep. Samen komen we tot een optimaal resultaat voor jouw bedrijf! Wil jij meer weten over onze diensten als online marketingbureau in Limburg? Wil jij je SEO uitbesteden of een online marketing strategie uitzetten? Neem dan contact met ons op voor een vrijblijvend en oriënterend gesprek! Wij helpen je graag verder!",
+        h: "Per plaats een eigen ingang",
+        p: "Omdat lokale zoekopdrachten per plaats verschillen, hebben de grotere werkgebieden een eigen pagina met eigen zoekwoorden en eigen inhoud. Zit je in Noord-Limburg, kijk dan bij online marketing in Venlo of SEO in Venray. Voor Zuid-Limburg is er een pagina over SEO in Maastricht, voor Midden-Limburg een over Roermond. Dat is geen trucje met plaatsnamen: elke pagina beantwoordt de zoekvraag van die markt, en ze verwijzen naar elkaar zodat duidelijk is dat het om hetzelfde bureau gaat.",
       },
     ],
     faq: [
       {
-        q: "Werken jullie alleen in Limburg?",
-        a: "We zitten in Limburg en kennen de regio goed, maar werken daarnaast door heel Nederland en België.",
+        q: "Wat kost een online marketing bureau in Limburg?",
+        a: "Bij ons vanaf 999 euro per maand voor een doorlopend pakket met SEO, GEO, Ads en conversie. Een eenmalige audit kost 599 euro, losse uren 90 euro. In de markt loopt dat bij vergelijkbare bureaus uiteen van ongeveer 500 tot 3.500 euro per maand.",
       },
       {
-        q: "Wat kost een marketingbureau in Limburg inschakelen?",
-        a: "Een audit start vanaf € 599,-. Doorlopende begeleiding start vanaf € 999,- per maand, of € 90,- per uur voor losse werkzaamheden.",
+        q: "Werken jullie in heel Limburg?",
+        a: "Ja, van Venlo tot Maastricht, en daarbuiten door heel Nederland en België. We zitten in Arcen, gemeente Venlo. Voor klanten verderop gaat het traject volledig op afstand via videobellen en een online dashboard, zonder dat dat iets aan de aanpak verandert.",
       },
       {
-        q: "Wat is een 0-meting precies?",
-        a: "Een 0-meting brengt je huidige situatie in kaart, posities, verkeer en conversies, zodat we later objectief kunnen laten zien welke vooruitgang is geboekt.",
+        q: "Wat is het verschil met een landelijk bureau?",
+        a: "Vooral wie het werk doet. Bij een groter bureau spreek je een accountmanager en voert iemand anders de wijzigingen uit. Bij ons is dat dezelfde persoon, wat scheelt in doorlooptijd. Daar staat tegenover dat één specialist niet oneindig opschaalt bij tientallen markten tegelijk.",
+      },
+      {
+        q: "Hoe snel zie ik resultaat?",
+        a: "Google Ads levert binnen dagen de eerste klikken en binnen weken bruikbare conversiedata. SEO laat na twee tot drie maanden beweging zien en levert meestal tussen maand zes en twaalf meetbaar meer aanvragen op. Op lokale zoekwoorden met weinig concurrentie gaat dat sneller.",
+      },
+      {
+        q: "Geven jullie garantie op resultaat?",
+        a: "Niet op een specifieke positie, want die kan niemand garanderen. Wel spreken we vooraf af welke resultaten we nastreven en meten we die maandelijks. Blijven ze uit, dan sturen we bij zonder extra kosten en werken we door tot je meetbaar resultaat boekt.",
+      },
+      {
+        q: "Blijf ik eigenaar van mijn accounts?",
+        a: "Altijd. We werken in jouw eigen Google Analytics, Search Console, Bedrijfsprofiel en advertentieaccount, en je houdt volledige toegang tot je data, ook als de samenwerking ooit stopt. Dat is bij ons een harde voorwaarde en geen extra service.",
       },
     ],
     related: [
-      { label: "Online marketing Venlo", to: "/online-marketing-venlo/" },
+      { label: "Online marketing bureau Venlo", to: "/online-marketing-venlo/" },
       { label: "SEO Limburg", to: "/seo-limburg/" },
-      { label: "Online marketing bureau Nederland", to: "/online-marketing-bureau-nederland/" },
+      { label: "Online marketing uitbesteden", to: "/online-marketing/uitbesteden/" },
+      { label: "Wat online marketing kost", to: "/tarieven-seo/" },
     ],
   },
+
   "kosten-online-marketing": {
     eyebrow: "Tarieven",
     h1: "Kosten online marketing: heldere pakketten en tarieven",
