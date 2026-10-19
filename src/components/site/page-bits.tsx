@@ -510,6 +510,8 @@ export function PageHero({
   variant?: HeroVariant;
 }) {
   const heroVariant = variant ?? deriveHeroVariant(`${eyebrow} ${title} ${intro}`);
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+  const definition = aeoFor(pathname)?.definition;
   return (
     <div className="relative overflow-hidden border-b border-brand-line bg-white">
       <div
@@ -525,6 +527,11 @@ export function PageHero({
           <h1 className="mt-5 max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl">
             {title}
           </h1>
+          {definition && (
+            <p className="mt-5 max-w-2xl border-l-2 border-brand-red pl-4 text-lg font-medium leading-relaxed text-brand-ink">
+              {definition}
+            </p>
+          )}
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-brand-muted">{intro}</p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link
