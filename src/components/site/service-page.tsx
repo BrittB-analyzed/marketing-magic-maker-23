@@ -1,3 +1,4 @@
+import { AeoBlocks } from "./aeo";
 import { Link } from "@tanstack/react-router";
 import { ArrowRight, Check } from "lucide-react";
 import { LeadForm } from "./lead-form";
@@ -113,6 +114,7 @@ export function ServicePage(props: ServicePageProps) {
 
       {props.extra}
 
+      <AeoBlocks />
       <FaqBlock items={props.faq} />
       <CtaBand />
     </>
