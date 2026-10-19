@@ -1,3 +1,4 @@
+import { graph, localBusinessSchema, organizationSchema } from "@/lib/schema";
 import { seoMeta } from "@/data/seo-meta";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
@@ -65,7 +66,10 @@ const FAQ: Faq[] = [
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: seoMeta('/', { ogType: 'website', twitterCard: 'summary_large_image' }),
-    scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
+    scripts: [
+      { type: "application/ld+json", children: faqJsonLd(FAQ) },
+      { type: "application/ld+json", children: graph(organizationSchema(), localBusinessSchema()) },
+    ],
   }),
   component: Home,
 });

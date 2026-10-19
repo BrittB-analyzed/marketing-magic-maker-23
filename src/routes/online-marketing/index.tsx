@@ -1,3 +1,4 @@
+import { AeoBlocks } from "@/components/site/aeo";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { SiteLayout, PILLARS } from "@/components/site/site-chrome";
@@ -134,6 +135,7 @@ function Diensten() {
         ]}
       />
       <RelatedLinks className="bg-white" title="Verder op de site" items={OVERIGE_LINKS} />
+      <AeoBlocks />
       <FaqBlock items={FAQ} />
       <CtaBand />
     </SiteLayout>
