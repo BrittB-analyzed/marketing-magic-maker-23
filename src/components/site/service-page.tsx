@@ -3,6 +3,7 @@ import { ArrowRight, Check } from "lucide-react";
 import { LeadForm } from "./lead-form";
 import { CtaBand, Eyebrow, Faq, FaqBlock, PageHero, Section, SectionHeading } from "./page-bits";
 import { BrandIcon, type BrandIconName } from "./brand-icon";
+import type { Locale } from "@/lib/i18n";
 
 const FOR_WHO_ICONS: BrandIconName[] = ["keywords", "audit", "groei"];
 const STEP_ICONS: BrandIconName[] = ["kennismaking", "strategie", "uitvoering", "monitoring", "grafiek"];
@@ -20,15 +21,47 @@ export type ServicePageProps = {
   related?: { label: string; to: string }[];
   /** Extra inhoudelijke secties, gerenderd tussen het aanbod en de FAQ. */
   extra?: React.ReactNode;
+  locale?: Locale;
 };
 
+const SP_TEKST = {
+  nl: {
+    voorWieEyebrow: "Voor wie",
+    voorWieTitel: "Herken je één van deze situaties?",
+    krijgtEyebrow: "Wat je krijgt",
+    krijgtTitel: "Concrete deliverables, geen beloftes",
+    werkwijze: "Werkwijze",
+    samenhangEyebrow: "Samenhang",
+    samenhangTitel: "Hoe dit samenwerkt met de andere pijlers",
+    kost: "Wat het kost",
+    tarieven: "Bekijk alle tarieven",
+    tarievenNaar: "/tarieven-seo/",
+    verder: "Verder lezen",
+  },
+  en: {
+    voorWieEyebrow: "Who it is for",
+    voorWieTitel: "Does one of these sound familiar?",
+    krijgtEyebrow: "What you get",
+    krijgtTitel: "Concrete deliverables, not promises",
+    werkwijze: "How we work",
+    samenhangEyebrow: "How it connects",
+    samenhangTitel: "How this works with the other pillars",
+    kost: "What it costs",
+    tarieven: "See all pricing",
+    tarievenNaar: "/en/pricing/",
+    verder: "Read on",
+  },
+} as const;
+
 export function ServicePage(props: ServicePageProps) {
+  const locale = props.locale ?? "nl";
+  const t = SP_TEKST[locale];
   return (
     <>
-      <PageHero eyebrow={props.eyebrow} title={props.title} intro={props.intro} />
+      <PageHero eyebrow={props.eyebrow} title={props.title} intro={props.intro} locale={locale} />
 
       <Section>
-        <SectionHeading eyebrow="Voor wie" title="Herken je één van deze situaties?" />
+        <SectionHeading eyebrow={t.voorWieEyebrow} title={t.voorWieTitel} />
         <div className="mt-10 grid gap-6 md:grid-cols-3">
           {props.forWho.map((item, i) => (
             <div key={item.title} className="rounded-2xl border border-brand-line bg-white p-7">
@@ -43,7 +76,7 @@ export function ServicePage(props: ServicePageProps) {
       <Section className="border-y border-brand-line bg-white">
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
-            <SectionHeading eyebrow="Wat je krijgt" title="Concrete deliverables, geen beloftes" />
+            <SectionHeading eyebrow={t.krijgtEyebrow} title={t.krijgtTitel} />
             <ul className="mt-8 space-y-3">
               {props.deliverables.map((d) => (
                 <li key={d} className="flex gap-3 text-sm leading-relaxed text-brand-muted">
@@ -54,7 +87,7 @@ export function ServicePage(props: ServicePageProps) {
             </ul>
           </div>
           <div>
-            <Eyebrow>Werkwijze</Eyebrow>
+            <Eyebrow>{t.werkwijze}</Eyebrow>
             <ol className="mt-6 space-y-6">
               {props.steps.map((s, i) => (
                 <li key={s.title} className="flex gap-4">
@@ -73,24 +106,24 @@ export function ServicePage(props: ServicePageProps) {
       <Section>
         <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
           <div>
-            <SectionHeading eyebrow="Samenhang" title="Hoe dit samenwerkt met de andere pijlers" intro={props.connection} />
+            <SectionHeading eyebrow={t.samenhangEyebrow} title={t.samenhangTitel} intro={props.connection} />
             <div className="mt-8 rounded-2xl border border-brand-line bg-brand-sand p-7">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-muted">
-                Wat het kost
+                {t.kost}
               </p>
               <p className="mt-3 text-3xl font-semibold tracking-tight">{props.price.from}</p>
               <p className="mt-2 text-sm leading-relaxed text-brand-muted">{props.price.note}</p>
               <Link
-                to="/tarieven-seo/"
+                to={t.tarievenNaar}
                 className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-brand-ink"
               >
-                Bekijk alle tarieven <ArrowRight className="size-4 text-brand-red" />
+                {t.tarieven} <ArrowRight className="size-4 text-brand-red" />
               </Link>
             </div>
             {props.related && props.related.length > 0 && (
               <div className="mt-8">
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-muted">
-                  Verder lezen
+                  {t.verder}
                 </p>
                 <ul className="mt-3 grid gap-2 sm:grid-cols-2">
                   {props.related.map((r) => (
@@ -107,14 +140,14 @@ export function ServicePage(props: ServicePageProps) {
               </div>
             )}
           </div>
-          <LeadForm id="scan" />
+          <LeadForm id="scan" locale={locale} />
         </div>
       </Section>
 
       {props.extra}
 
-      <FaqBlock items={props.faq} />
-      <CtaBand />
+      <FaqBlock items={props.faq} locale={locale} />
+      <CtaBand locale={locale} />
     </>
   );
 }

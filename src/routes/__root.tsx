@@ -15,6 +15,7 @@ import { useEffect, useRef, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { canonicalUrl } from "../lib/canonical";
+import { hreflangLinks, localeVanPad } from "../lib/i18n";
 
 const GTM_ID = "GTM-N9JCGMN";
 
@@ -160,11 +161,20 @@ function RootShell({ children }: { children: ReactNode }) {
     });
   }, [pathname]);
 
+  // De taal van de pagina volgt uit het pad: alles onder /en/ is Engels.
+  const locale = localeVanPad(pathname);
+  const alternates = hreflangLinks(pathname);
+
   return (
-    <html lang="nl">
+    <html lang={locale === "en" ? "en-GB" : "nl"}>
       <head>
         <HeadContent />
         <link rel="canonical" href={canonicalUrl(pathname)} />
+        {/* hreflang alleen op pagina's die daadwerkelijk een tegenhanger
+            hebben. Zie src/lib/i18n.ts voor de motivatie. */}
+        {alternates.map((a) => (
+          <link key={a.hreflang} rel="alternate" hrefLang={a.hreflang} href={a.href} />
+        ))}
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{

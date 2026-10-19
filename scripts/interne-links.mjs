@@ -25,6 +25,7 @@ const asJson = process.argv.includes("--json");
 /** Bestanden waarvan de links op élke pagina staan. */
 const CHROME_FILES = [
   join("src", "components", "site", "site-chrome.tsx"),
+  join("src", "components", "site", "site-chrome-en.tsx"),
   join("src", "components", "site", "page-bits.tsx"),
   join("src", "components", "site", "lead-form.tsx"),
   join("src", "components", "site", "founder-card.tsx"),

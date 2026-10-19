@@ -22,7 +22,12 @@ export function normalize(p) {
 /** Alle padwaarden uit `to="/x/"`, `to: "/x/"` en `href="/x/"`. */
 export function extractLinks(src) {
   const links = new Set();
-  const patterns = [/\bto=\{?"(\/[^"]*)"/g, /\bto:\s*"(\/[^"]*)"/g, /\bhref="(\/[^"]*)"/g];
+  // `to="/x/"`, `to = "/x/"` (standaardwaarde van een prop), `to: "/x/"` en `href="/x/"`.
+  const patterns = [
+    /\bto\s*=\s*\{?"(\/[^"]*)"/g,
+    /\bto:\s*"(\/[^"]*)"/g,
+    /\bhref\s*=\s*"(\/[^"]*)"/g,
+  ];
   for (const re of patterns) {
     let m;
     while ((m = re.exec(src))) links.add(normalize(m[1]));

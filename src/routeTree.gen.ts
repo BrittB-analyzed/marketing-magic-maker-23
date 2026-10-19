@@ -63,6 +63,12 @@ import { Route as VeelgesteldeVragenRouteImport } from './routes/veelgestelde-vr
 import { Route as WatKostEenWebsiteLatenBouwenRouteImport } from './routes/wat-kost-een-website-laten-bouwen'
 import { Route as ZoekenRouteImport } from './routes/zoeken'
 import { Route as CasesSlugRouteImport } from './routes/cases.$slug'
+import { Route as EnIndexRouteImport } from './routes/en/index'
+import { Route as EnAboutRouteImport } from './routes/en/about'
+import { Route as EnCaseStudiesRouteImport } from './routes/en/case-studies'
+import { Route as EnContactRouteImport } from './routes/en/contact'
+import { Route as EnFreeScanRouteImport } from './routes/en/free-scan'
+import { Route as EnPricingRouteImport } from './routes/en/pricing'
 import { Route as KennisbankIndexRouteImport } from './routes/kennisbank.index'
 import { Route as KennisbankSlugRouteImport } from './routes/kennisbank.$slug'
 import { Route as KennisbankGeoRouteImport } from './routes/kennisbank.geo'
@@ -85,6 +91,11 @@ import { Route as OnlineMarketingWebsiteAdviesRouteImport } from './routes/onlin
 import { Route as OnlineMarketingWordpressOnderhoudRouteImport } from './routes/online-marketing/wordpress-onderhoud'
 import { Route as OnlineMarketingZoekmachineOptimalisatieSpecialistRouteImport } from './routes/online-marketing/zoekmachine-optimalisatie-specialist'
 import { Route as ApiPublicLeadRouteImport } from './routes/api/public/lead'
+import { Route as EnServicesIndexRouteImport } from './routes/en/services/index'
+import { Route as EnServicesConversionOptimisationRouteImport } from './routes/en/services/conversion-optimisation'
+import { Route as EnServicesGeoRouteImport } from './routes/en/services/geo'
+import { Route as EnServicesGoogleAdsRouteImport } from './routes/en/services/google-ads'
+import { Route as EnServicesSeoRouteImport } from './routes/en/services/seo'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -367,6 +378,36 @@ const CasesSlugRoute = CasesSlugRouteImport.update({
   path: '/cases/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EnIndexRoute = EnIndexRouteImport.update({
+  id: '/en/',
+  path: '/en/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnAboutRoute = EnAboutRouteImport.update({
+  id: '/en/about',
+  path: '/en/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnCaseStudiesRoute = EnCaseStudiesRouteImport.update({
+  id: '/en/case-studies',
+  path: '/en/case-studies',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnContactRoute = EnContactRouteImport.update({
+  id: '/en/contact',
+  path: '/en/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnFreeScanRoute = EnFreeScanRouteImport.update({
+  id: '/en/free-scan',
+  path: '/en/free-scan',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnPricingRoute = EnPricingRouteImport.update({
+  id: '/en/pricing',
+  path: '/en/pricing',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const KennisbankIndexRoute = KennisbankIndexRouteImport.update({
   id: '/kennisbank/',
   path: '/kennisbank/',
@@ -492,6 +533,32 @@ const ApiPublicLeadRoute = ApiPublicLeadRouteImport.update({
   path: '/api/public/lead',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EnServicesIndexRoute = EnServicesIndexRouteImport.update({
+  id: '/en/services/',
+  path: '/en/services/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnServicesConversionOptimisationRoute =
+  EnServicesConversionOptimisationRouteImport.update({
+    id: '/en/services/conversion-optimisation',
+    path: '/en/services/conversion-optimisation',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const EnServicesGeoRoute = EnServicesGeoRouteImport.update({
+  id: '/en/services/geo',
+  path: '/en/services/geo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnServicesGoogleAdsRoute = EnServicesGoogleAdsRouteImport.update({
+  id: '/en/services/google-ads',
+  path: '/en/services/google-ads',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnServicesSeoRoute = EnServicesSeoRouteImport.update({
+  id: '/en/services/seo',
+  path: '/en/services/seo',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -548,6 +615,11 @@ export interface FileRoutesByFullPath {
   '/wat-kost-een-website-laten-bouwen': typeof WatKostEenWebsiteLatenBouwenRoute
   '/zoeken': typeof ZoekenRoute
   '/cases/$slug': typeof CasesSlugRoute
+  '/en/about': typeof EnAboutRoute
+  '/en/case-studies': typeof EnCaseStudiesRoute
+  '/en/contact': typeof EnContactRoute
+  '/en/free-scan': typeof EnFreeScanRoute
+  '/en/pricing': typeof EnPricingRoute
   '/kennisbank/$slug': typeof KennisbankSlugRoute
   '/kennisbank/geo': typeof KennisbankGeoRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
@@ -567,9 +639,15 @@ export interface FileRoutesByFullPath {
   '/online-marketing/website-advies': typeof OnlineMarketingWebsiteAdviesRoute
   '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
   '/online-marketing/zoekmachine-optimalisatie-specialist': typeof OnlineMarketingZoekmachineOptimalisatieSpecialistRoute
+  '/en/': typeof EnIndexRoute
   '/kennisbank/': typeof KennisbankIndexRoute
   '/online-marketing/': typeof OnlineMarketingIndexRoute
   '/api/public/lead': typeof ApiPublicLeadRoute
+  '/en/services/conversion-optimisation': typeof EnServicesConversionOptimisationRoute
+  '/en/services/geo': typeof EnServicesGeoRoute
+  '/en/services/google-ads': typeof EnServicesGoogleAdsRoute
+  '/en/services/seo': typeof EnServicesSeoRoute
+  '/en/services/': typeof EnServicesIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -626,6 +704,11 @@ export interface FileRoutesByTo {
   '/wat-kost-een-website-laten-bouwen': typeof WatKostEenWebsiteLatenBouwenRoute
   '/zoeken': typeof ZoekenRoute
   '/cases/$slug': typeof CasesSlugRoute
+  '/en/about': typeof EnAboutRoute
+  '/en/case-studies': typeof EnCaseStudiesRoute
+  '/en/contact': typeof EnContactRoute
+  '/en/free-scan': typeof EnFreeScanRoute
+  '/en/pricing': typeof EnPricingRoute
   '/kennisbank/$slug': typeof KennisbankSlugRoute
   '/kennisbank/geo': typeof KennisbankGeoRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
@@ -645,9 +728,15 @@ export interface FileRoutesByTo {
   '/online-marketing/website-advies': typeof OnlineMarketingWebsiteAdviesRoute
   '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
   '/online-marketing/zoekmachine-optimalisatie-specialist': typeof OnlineMarketingZoekmachineOptimalisatieSpecialistRoute
+  '/en': typeof EnIndexRoute
   '/kennisbank': typeof KennisbankIndexRoute
   '/online-marketing': typeof OnlineMarketingIndexRoute
   '/api/public/lead': typeof ApiPublicLeadRoute
+  '/en/services/conversion-optimisation': typeof EnServicesConversionOptimisationRoute
+  '/en/services/geo': typeof EnServicesGeoRoute
+  '/en/services/google-ads': typeof EnServicesGoogleAdsRoute
+  '/en/services/seo': typeof EnServicesSeoRoute
+  '/en/services': typeof EnServicesIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -705,6 +794,11 @@ export interface FileRoutesById {
   '/wat-kost-een-website-laten-bouwen': typeof WatKostEenWebsiteLatenBouwenRoute
   '/zoeken': typeof ZoekenRoute
   '/cases/$slug': typeof CasesSlugRoute
+  '/en/about': typeof EnAboutRoute
+  '/en/case-studies': typeof EnCaseStudiesRoute
+  '/en/contact': typeof EnContactRoute
+  '/en/free-scan': typeof EnFreeScanRoute
+  '/en/pricing': typeof EnPricingRoute
   '/kennisbank/$slug': typeof KennisbankSlugRoute
   '/kennisbank/geo': typeof KennisbankGeoRoute
   '/online-marketing/conversie-optimalisatie': typeof OnlineMarketingConversieOptimalisatieRoute
@@ -724,9 +818,15 @@ export interface FileRoutesById {
   '/online-marketing/website-advies': typeof OnlineMarketingWebsiteAdviesRoute
   '/online-marketing/wordpress-onderhoud': typeof OnlineMarketingWordpressOnderhoudRoute
   '/online-marketing/zoekmachine-optimalisatie-specialist': typeof OnlineMarketingZoekmachineOptimalisatieSpecialistRoute
+  '/en/': typeof EnIndexRoute
   '/kennisbank/': typeof KennisbankIndexRoute
   '/online-marketing/': typeof OnlineMarketingIndexRoute
   '/api/public/lead': typeof ApiPublicLeadRoute
+  '/en/services/conversion-optimisation': typeof EnServicesConversionOptimisationRoute
+  '/en/services/geo': typeof EnServicesGeoRoute
+  '/en/services/google-ads': typeof EnServicesGoogleAdsRoute
+  '/en/services/seo': typeof EnServicesSeoRoute
+  '/en/services/': typeof EnServicesIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -785,6 +885,11 @@ export interface FileRouteTypes {
     | '/wat-kost-een-website-laten-bouwen'
     | '/zoeken'
     | '/cases/$slug'
+    | '/en/about'
+    | '/en/case-studies'
+    | '/en/contact'
+    | '/en/free-scan'
+    | '/en/pricing'
     | '/kennisbank/$slug'
     | '/kennisbank/geo'
     | '/online-marketing/conversie-optimalisatie'
@@ -804,9 +909,15 @@ export interface FileRouteTypes {
     | '/online-marketing/website-advies'
     | '/online-marketing/wordpress-onderhoud'
     | '/online-marketing/zoekmachine-optimalisatie-specialist'
+    | '/en/'
     | '/kennisbank/'
     | '/online-marketing/'
     | '/api/public/lead'
+    | '/en/services/conversion-optimisation'
+    | '/en/services/geo'
+    | '/en/services/google-ads'
+    | '/en/services/seo'
+    | '/en/services/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -863,6 +974,11 @@ export interface FileRouteTypes {
     | '/wat-kost-een-website-laten-bouwen'
     | '/zoeken'
     | '/cases/$slug'
+    | '/en/about'
+    | '/en/case-studies'
+    | '/en/contact'
+    | '/en/free-scan'
+    | '/en/pricing'
     | '/kennisbank/$slug'
     | '/kennisbank/geo'
     | '/online-marketing/conversie-optimalisatie'
@@ -882,9 +998,15 @@ export interface FileRouteTypes {
     | '/online-marketing/website-advies'
     | '/online-marketing/wordpress-onderhoud'
     | '/online-marketing/zoekmachine-optimalisatie-specialist'
+    | '/en'
     | '/kennisbank'
     | '/online-marketing'
     | '/api/public/lead'
+    | '/en/services/conversion-optimisation'
+    | '/en/services/geo'
+    | '/en/services/google-ads'
+    | '/en/services/seo'
+    | '/en/services'
   id:
     | '__root__'
     | '/'
@@ -941,6 +1063,11 @@ export interface FileRouteTypes {
     | '/wat-kost-een-website-laten-bouwen'
     | '/zoeken'
     | '/cases/$slug'
+    | '/en/about'
+    | '/en/case-studies'
+    | '/en/contact'
+    | '/en/free-scan'
+    | '/en/pricing'
     | '/kennisbank/$slug'
     | '/kennisbank/geo'
     | '/online-marketing/conversie-optimalisatie'
@@ -960,9 +1087,15 @@ export interface FileRouteTypes {
     | '/online-marketing/website-advies'
     | '/online-marketing/wordpress-onderhoud'
     | '/online-marketing/zoekmachine-optimalisatie-specialist'
+    | '/en/'
     | '/kennisbank/'
     | '/online-marketing/'
     | '/api/public/lead'
+    | '/en/services/conversion-optimisation'
+    | '/en/services/geo'
+    | '/en/services/google-ads'
+    | '/en/services/seo'
+    | '/en/services/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -1020,6 +1153,11 @@ export interface RootRouteChildren {
   WatKostEenWebsiteLatenBouwenRoute: typeof WatKostEenWebsiteLatenBouwenRoute
   ZoekenRoute: typeof ZoekenRoute
   CasesSlugRoute: typeof CasesSlugRoute
+  EnAboutRoute: typeof EnAboutRoute
+  EnCaseStudiesRoute: typeof EnCaseStudiesRoute
+  EnContactRoute: typeof EnContactRoute
+  EnFreeScanRoute: typeof EnFreeScanRoute
+  EnPricingRoute: typeof EnPricingRoute
   KennisbankSlugRoute: typeof KennisbankSlugRoute
   KennisbankGeoRoute: typeof KennisbankGeoRoute
   OnlineMarketingConversieOptimalisatieRoute: typeof OnlineMarketingConversieOptimalisatieRoute
@@ -1039,9 +1177,15 @@ export interface RootRouteChildren {
   OnlineMarketingWebsiteAdviesRoute: typeof OnlineMarketingWebsiteAdviesRoute
   OnlineMarketingWordpressOnderhoudRoute: typeof OnlineMarketingWordpressOnderhoudRoute
   OnlineMarketingZoekmachineOptimalisatieSpecialistRoute: typeof OnlineMarketingZoekmachineOptimalisatieSpecialistRoute
+  EnIndexRoute: typeof EnIndexRoute
   KennisbankIndexRoute: typeof KennisbankIndexRoute
   OnlineMarketingIndexRoute: typeof OnlineMarketingIndexRoute
   ApiPublicLeadRoute: typeof ApiPublicLeadRoute
+  EnServicesConversionOptimisationRoute: typeof EnServicesConversionOptimisationRoute
+  EnServicesGeoRoute: typeof EnServicesGeoRoute
+  EnServicesGoogleAdsRoute: typeof EnServicesGoogleAdsRoute
+  EnServicesSeoRoute: typeof EnServicesSeoRoute
+  EnServicesIndexRoute: typeof EnServicesIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -1424,6 +1568,48 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CasesSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/en/': {
+      id: '/en/'
+      path: '/en'
+      fullPath: '/en/'
+      preLoaderRoute: typeof EnIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/about': {
+      id: '/en/about'
+      path: '/en/about'
+      fullPath: '/en/about'
+      preLoaderRoute: typeof EnAboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/case-studies': {
+      id: '/en/case-studies'
+      path: '/en/case-studies'
+      fullPath: '/en/case-studies'
+      preLoaderRoute: typeof EnCaseStudiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/contact': {
+      id: '/en/contact'
+      path: '/en/contact'
+      fullPath: '/en/contact'
+      preLoaderRoute: typeof EnContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/free-scan': {
+      id: '/en/free-scan'
+      path: '/en/free-scan'
+      fullPath: '/en/free-scan'
+      preLoaderRoute: typeof EnFreeScanRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/pricing': {
+      id: '/en/pricing'
+      path: '/en/pricing'
+      fullPath: '/en/pricing'
+      preLoaderRoute: typeof EnPricingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/kennisbank/': {
       id: '/kennisbank/'
       path: '/kennisbank'
@@ -1578,6 +1764,41 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiPublicLeadRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/en/services/': {
+      id: '/en/services/'
+      path: '/en/services'
+      fullPath: '/en/services/'
+      preLoaderRoute: typeof EnServicesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/services/conversion-optimisation': {
+      id: '/en/services/conversion-optimisation'
+      path: '/en/services/conversion-optimisation'
+      fullPath: '/en/services/conversion-optimisation'
+      preLoaderRoute: typeof EnServicesConversionOptimisationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/services/geo': {
+      id: '/en/services/geo'
+      path: '/en/services/geo'
+      fullPath: '/en/services/geo'
+      preLoaderRoute: typeof EnServicesGeoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/services/google-ads': {
+      id: '/en/services/google-ads'
+      path: '/en/services/google-ads'
+      fullPath: '/en/services/google-ads'
+      preLoaderRoute: typeof EnServicesGoogleAdsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/services/seo': {
+      id: '/en/services/seo'
+      path: '/en/services/seo'
+      fullPath: '/en/services/seo'
+      preLoaderRoute: typeof EnServicesSeoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -1640,6 +1861,11 @@ const rootRouteChildren: RootRouteChildren = {
   WatKostEenWebsiteLatenBouwenRoute: WatKostEenWebsiteLatenBouwenRoute,
   ZoekenRoute: ZoekenRoute,
   CasesSlugRoute: CasesSlugRoute,
+  EnAboutRoute: EnAboutRoute,
+  EnCaseStudiesRoute: EnCaseStudiesRoute,
+  EnContactRoute: EnContactRoute,
+  EnFreeScanRoute: EnFreeScanRoute,
+  EnPricingRoute: EnPricingRoute,
   KennisbankSlugRoute: KennisbankSlugRoute,
   KennisbankGeoRoute: KennisbankGeoRoute,
   OnlineMarketingConversieOptimalisatieRoute:
@@ -1668,9 +1894,15 @@ const rootRouteChildren: RootRouteChildren = {
     OnlineMarketingWordpressOnderhoudRoute,
   OnlineMarketingZoekmachineOptimalisatieSpecialistRoute:
     OnlineMarketingZoekmachineOptimalisatieSpecialistRoute,
+  EnIndexRoute: EnIndexRoute,
   KennisbankIndexRoute: KennisbankIndexRoute,
   OnlineMarketingIndexRoute: OnlineMarketingIndexRoute,
   ApiPublicLeadRoute: ApiPublicLeadRoute,
+  EnServicesConversionOptimisationRoute: EnServicesConversionOptimisationRoute,
+  EnServicesGeoRoute: EnServicesGeoRoute,
+  EnServicesGoogleAdsRoute: EnServicesGoogleAdsRoute,
+  EnServicesSeoRoute: EnServicesSeoRoute,
+  EnServicesIndexRoute: EnServicesIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

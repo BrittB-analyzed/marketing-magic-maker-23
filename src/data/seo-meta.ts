@@ -129,6 +129,62 @@ export const SEO_META: Record<string, SeoEntry> = {
     title: "20 Gratis Online Bedrijvengidsen in Nederland (2026)",
     description: "Een overzicht van 20 Nederlandse bedrijvengidsen waar je je bedrijf gratis kunt vermelden, met per gids wat de vermelding oplevert voor je lokale vindbaarheid.",
   },
+  // --- Engelse sectie (/en/). Brits Engels, Europese targeting. ---
+  "/en/": {
+    title: "Dutch SEO & GEO Agency for Europe | B. Analyzed",
+    description:
+      "An SEO, GEO and Google Ads agency from the Netherlands, working across Europe. 15 years of experience, rated 9.8, one fixed point of contact.",
+  },
+  "/en/services/": {
+    title: "Our Services | SEO, GEO, Google Ads and CRO",
+    description:
+      "Four pillars instead of thirteen separate services: SEO, GEO, Google Ads and conversion optimisation. What each one does and when it pays off.",
+  },
+  "/en/services/seo/": {
+    title: "SEO Services | Get Found in Google Across Europe",
+    description:
+      "SEO services from a Dutch agency working across Europe. Technical SEO, content and authority in one plan. Audit from 599 euro, ongoing from 999.",
+  },
+  "/en/services/geo/": {
+    title: "GEO | Get Cited in ChatGPT, Gemini and AI Answers",
+    description:
+      "Generative engine optimisation: get your brand named and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews, not just ranked in Google.",
+  },
+  "/en/services/google-ads/": {
+    title: "Google Ads Management | A Specialist, Not a Bot",
+    description:
+      "Google Ads managed by one specialist who optimises weekly. You keep ownership of your account. Audit from 599 euro, ongoing from 999 a month.",
+  },
+  "/en/services/conversion-optimisation/": {
+    title: "Conversion Optimisation | More From the Same Traffic",
+    description:
+      "Conversion optimisation for SMEs: how to calculate your conversion rate, which tests to run in which order, and what it costs. Audit from 599 euro.",
+  },
+  "/en/pricing/": {
+    title: "Pricing | Audit 599 Euro, Ongoing From 999 a Month",
+    description:
+      "What SEO costs at B. Analyzed: a one-off audit from 599 euro, an ongoing SEO and GEO package from 999 euro a month, and loose hours at 90 euro.",
+  },
+  "/en/about/": {
+    title: "About B. Analyzed | Britt Daemen, Your Specialist",
+    description:
+      "B. Analyzed was founded by Britt Daemen, 15 years in SEO and Google Ads. No account manager, one fixed specialist. Rated 9.8 out of 48 reviews.",
+  },
+  "/en/case-studies/": {
+    title: "Case Studies | Real Numbers From Real Clients",
+    description:
+      "Case studies with verifiable numbers: rankings, organic traffic and conversion. Including a nine-year number one and a 733% rise in organic traffic.",
+  },
+  "/en/contact/": {
+    title: "Contact | Speak to Britt Daemen Directly",
+    description:
+      "Get in touch with B. Analyzed in Venlo, the Netherlands. Call, email or WhatsApp. You always speak to the specialist who does the work.",
+  },
+  "/en/free-scan/": {
+    title: "Free SEO & GEO Scan | Personal Video Analysis",
+    description:
+      "Request a free scan of your visibility in Google and in AI answers. You get a personal video analysis within two working days. No obligation.",
+  },
 };
 
 type MetaTag = Record<string, string>;
