@@ -7,6 +7,7 @@
     "dev": "vite dev",
     "build": "node scripts/check-seo-meta.mjs && node scripts/generate-sitemap.mjs && vite build",
     "build:dev": "node scripts/check-seo-meta.mjs && node scripts/generate-sitemap.mjs && vite build --mode development",
+    "build:node": "node scripts/build-node.mjs",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
