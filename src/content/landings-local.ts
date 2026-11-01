@@ -6,81 +6,61 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
     h1: "SEO Venlo – behaal meer online rendement met een SEO specialist!",
     title: "SEO Venlo: SEO-bureau voor Noord-Limburg | B. Analyzed",
     description: "SEO Venlo nodig? Meer zichtbaarheid, top 3-posities in Google en meer leads. Ook zichtbaar in ChatGPT en Gemini. Audit vanaf € 599,-.",
-    intro: "De afkorting SEO staat voor Search Engine Optimization of in het Nederlands, zoekmachine optimalisatie. Een SEO expert, SEO specialist of SEO consultant is een online marketeer die weet hoe die websites beter vindbaar maken in zoekmachines als Google en Bing door het gebruik van de juiste zoektermen. Er zijn inmiddels meer dan 200 factoren die bepalen hoe goed jouw website gevonden wordt. Door de juiste strategische keuzes te maken laat een SEO specialist jouw website hoger scoren in de zoekmachines. Hierdoor trekt jouw website of webshop meer relevante bezoekers aan, en loop je voor op je concurrenten. Met SEO Venlo vergroot je jouw online succes!",
+    intro: "SEO in Venlo betekent dat jouw website bovenaan komt in Google wanneer mensen in Venlo, Blerick, Tegelen en de rest van Noord-Limburg zoeken naar wat jij aanbiedt. B. Analyzed is een SEO-bureau uit Venlo met 15 jaar ervaring, een 9,8 uit 48 Google-reviews en één vast aanspreekpunt: Britt Daemen, die de strategie bedenkt én zelf uitvoert. We zorgen dat je gevonden wordt in Google, in Google Maps en als bron in AI-antwoorden van ChatGPT en Gemini.",
     bullets: [
-      "Vergroot je online vindbaarheid met een op Venlo gerichte SEO-strategie",
-      "Behaal top 3-posities in Google op zoekwoorden die klanten écht gebruiken",
-      "Krijg meer relevante bezoekers en meer leads/sales via je website",
+      "Een SEO-strategie gericht op Venlo en Noord-Limburg",
+      "Top 3-posities in Google op zoekwoorden die klanten écht gebruiken",
+      "Meer relevante bezoekers, aanvragen en verkopen via je website",
       "GEO: ook zichtbaar als bron in AI-antwoorden, niet alleen in Google",
     ],
     sections: [
       {
-        h: "B.Analyzed: Jouw zoekmachine optimalisatie specialist",
-        p: "Waarschijnlijk vond je ons in de zoekresultaten van Google toen je zocht naar SEO Venlo, SEO specialist Venlo, of SEO bureau Venlo. Zoals je ziet, SEO, ofwel zoekmachine optimalisatie is niet meer weg te denken anno 2026. Voor veel webshop-eigenaren, dienstverleners, bloggers en online bureaus is online marketing dé manier om de doelgroep te bereiken en bezoekers naar de website te krijgen. Met een digitale marketingstrategie en zoekmachine optimalisatie vergroot je je online vindbaarheid in de zoekresultaten van zoekmachines zoals Google. Hierdoor scoor je hoger in Google en trek je een constante stroom bezoekers naar je website. Wil je weten hoe jouw website SEO-technisch ervoor staat? Bij ons SEO bureau in Venlo kun je een gratis SEO scan doen. Doe de gratis SEO scan en zie meteen hoe jouw bedrijf ervoor staat! opdrachtgevers beoordelen ons met een 9.8 op Google Mijn Bedrijf Super transparante en persoonlijke werkwijze +50 tevreden klanten kozen voor SEO in Venlo Meer dan 100 nummer 1 posities in Google Gegarandeerd een geweldig ROI Meer dan 7 jaar ervaring",
+        h: "Wat doet een SEO-bureau in Venlo?",
+        p: "Een SEO-bureau zorgt dat je website hoger in Google komt op de zoekwoorden waarmee jouw klanten zoeken. Dat gebeurt in vier lagen: de techniek van je site (snelheid, mobiel, indexatie), de inhoud van je pagina's, de autoriteit van je site via backlinks, en je lokale zichtbaarheid via je Google Bedrijfsprofiel. Voor een bedrijf in Venlo ligt het accent vaak op die laatste: wie zoekt op 'loodgieter Venlo' of 'kapper Blerick' krijgt eerst een kaart met drie bedrijven te zien, en daar wil je bij staan.",
       },
       {
-        h: "Hoe gaan wij te werk?",
-        p: "Ons online marketingbureau biedt een breed scala aan SEO-diensten, waaronder zoekwoordenonderzoek, technische optimalisatie, content optimalisatie en meer. We beginnen met het in kaart brengen van jouw wensen en doelen, waarna we een effectieve SEO-strategie bepalen die is afgestemd op jouw onderneming en doelgroep. Onze SEO diensten omvatten onder andere: Zoekwoordenonderzoek om de juiste trefwoorden te vinden voor jouw product of dienst Technische SEO om ervoor te zorgen dat jouw website goed geoptimaliseerd is voor zoekmachines Content optimalisatie om relevante en waardevolle content op de website te plaatsen Google Ads voor betaalde advertenties en snelle zichtbaarheid Google Mijn Bedrijf optimalisatie voor lokale zichtbaarheid Hieronder vind je een overzicht van de SEO-optimalisatie werkzaamheden die wij kunnen verrichten om jouw online vindbaarheid te vergroten:",
+        h: "Waarom een SEO-specialist uit Venlo?",
+        p: "Omdat we de markt kennen. Venlo is een logistieke en agrarische regio met de Greenport, bedrijventerreinen als Trade Port en Venlo-Oost en veel Duitse klanten over de grens. Dat vraagt om andere zoekwoorden dan in de Randstad, en soms om een Duitstalige pagina. We zitten in de regio, je kunt langskomen of wij komen naar jou, en je werkt altijd met dezelfde specialist in plaats van met een accountmanager die je doorverwijst.",
       },
       {
-        h: "Zoekwoorden onderzoek",
-        p: "Het zoekwoordenonderzoek is de belangrijkste stap bij SEO optimalisatie. Met een zoekwoordenonderzoek ga je bepalen op welke zoekwoorden je gevonden wilt worden. Door een goed uitgevoerd zoekwoordenonderzoek vind je de zoekwoorden die relevant zijn voor je business én waarvan je verwacht dat deze goed zullen converteren in sales of leads. Daarnaast kijk je of er voldoende zoekvolume op de zoekwoorden zit en hoeveel concurrentie er is op het zoekwoord. Met de juiste zoekwoorden zorg je ervoor dat jouw website beter gevonden wordt voor jouw product of dienst.",
+        h: "Zo pakken we SEO in Venlo aan",
+        p: "We beginnen met een audit: hoe staat je site er technisch voor, op welke zoekwoorden sta je al, waar liggen de snelle winsten en wat doen je concurrenten in Venlo beter. Daarna volgt een zoekwoordonderzoek waarin we bepalen welke termen omzet opleveren, niet alleen verkeer. Op basis daarvan maken we een plan: welke pagina's we verbeteren, welke er bij komen en welke links we gaan verdienen. Elke maand krijg je een korte video waarin je ziet wat er is gedaan en wat het opleverde.",
       },
       {
-        h: "Technische analyse website",
-        p: "Je website moet technisch goed in orde zijn en door de zoekmachines goed te lezen zijn. Met een technische analyse doe je een soort apk-keuring van je website. Hierbij wordt onder andere gekeken naar de snelheid, mobiele vriendelijkheid, structuur en technische opbouw van de website. Een goede technische optimalisatie is essentieel om hoog te kunnen scoren in de zoekresultaten en op de eerste pagina van Google te komen.",
+        h: "Zoekwoordonderzoek",
+        p: "Het zoekwoordonderzoek bepaalt waar je op gevonden wilt worden. We zoeken de termen die relevant zijn voor je bedrijf, voldoende zoekvolume hebben en goed converteren naar aanvragen of verkopen. Daarbij kijken we naar lokale varianten (met Venlo, Blerick, Tegelen of Noord-Limburg erbij) en naar de vragen die mensen aan Google en ChatGPT stellen.",
       },
       {
-        h: "On-page SEO",
-        p: "Voordat je verder met de strategie gaat, ga je bekijken hoe het met de huidige on-page SEO zit. Zijn alle pagina’s voorzien van de juiste HTML-titels, relevante meta beschrijvingen, heldere headings en logische interne links? De on-page optimalisatie omvat alle optimalisaties die je op jouw website zelf kunt doen aan de content en de technische elementen.",
+        h: "Technische SEO",
+        p: "Je website moet snel zijn, goed werken op mobiel en volledig leesbaar zijn voor zoekmachines. We controleren indexatie, laadtijd, Core Web Vitals, interne links, redirects en gestructureerde data. Technische fouten houden een site vaak harder tegen dan matige teksten, en ze zijn meestal snel op te lossen.",
       },
       {
-        h: "SEO strategie",
-        p: "Je bepaalt welke zoekwoorden bij welke URL of pagina horen, je creëert nieuwe landingspagina’s en bepaalt welke aanpassingen gedaan moeten worden op het gebied van techniek en de huidige pagina’s. Het opstellen van een solide SEO strategie is essentieel, want SEO bestaat uit vele facetten die allemaal naadloos op elkaar moeten aansluiten. Een goede SEO strategie is erg belangrijk om succesvol te kunnen zijn.",
+        h: "Content en on-page SEO",
+        p: "Elke belangrijke dienst krijgt een eigen pagina met een duidelijke titel, meta description, kopstructuur en een tekst die de vraag van de zoeker echt beantwoordt. We schrijven die teksten zelf of verbeteren wat er staat, met lokale inhoud die specifiek is voor Venlo in plaats van dezelfde tekst met een andere plaatsnaam.",
       },
       {
-        h: "Content creatie",
-        p: "Voor de nieuwe trefwoorden ga je aan de slag met nieuwe content. Dat kunnen landingspagina’s zijn, maar ook blogartikelen of andere type content dat aansluit bij jouw wensen en doelgroep voor jouw onderneming. Relevante en kwalitatief hoogwaardige content is cruciaal voor een goede gebruikerservaring en ranking in Google.",
+        h: "Linkbuilding",
+        p: "Backlinks blijven een belangrijke rankingfactor. We verdienen links van relevante, regionale en branchegerichte sites, zoals lokale ondernemersverenigingen, nieuws- en vakwebsites en partners. Geen linkfarms of trucs, maar links die ook over een paar jaar nog waarde hebben.",
       },
       {
-        h: "Link building",
-        p: "Backlinks zijn nog altijd een belangrijke ranking factor voor Google. Door middel van een effectieve linkbuilding strategie binnen het gebied van SEO werk je aan het verwerven van waardevolle links naar jouw website. Hoe meer kwalitatieve backlinks, hoe meer autoriteit jouw website krijgt en hoe hoger je kunt scoren in Google.",
+        h: "Lokale SEO en Google Bedrijfsprofiel",
+        p: "Voor bedrijven die klanten in Venlo en omgeving bedienen, is het Google Bedrijfsprofiel vaak de snelste winst. We richten het volledig in, zorgen dat je bedrijfsgegevens overal hetzelfde zijn, helpen je aan meer reviews en koppelen het profiel aan je lokale landingspagina's. Zo kom je in de kaartresultaten bovenaan te staan.",
       },
       {
-        h: "Google Ads",
-        p: "Google Ads is de advertentiedienst van Google waarbij je kunt adverteren in de zoekresultaten. Terwijl SEO meer op de lange termijn werkt, biedt Google Ads snelle zichtbaarheid door middel van betaalde advertenties bovenaan de zoekresultaten. Voor een goede zichtbaarheid ligt de focus vaak zowel op SEO als op Google Ads.",
+        h: "GEO: zichtbaar in ChatGPT en Gemini",
+        p: "Steeds meer mensen stellen hun vraag aan een AI-assistent in plaats van aan Google. We zorgen dat je website ook daar als bron wordt genoemd: met heldere antwoorden bovenaan je pagina's, gestructureerde data en vermeldingen op sites die AI-modellen vertrouwen.",
       },
       {
-        h: "Lokale SEO Venlo",
-        p: "Voor lokale bedrijven in Venlo en omgeving is een goede lokale SEO strategie erg belangrijk. Dit omvat optimalisaties voor gebied-specifieke zoekwoorden, maar ook het goed inrichten van een Google Mijn Bedrijf listing. Wij zorgen ervoor dat jouw onderneming goed gevonden wordt door mensen die in Venlo en omgeving op zoek zijn naar jouw diensten.",
+        h: "Case: Venlo Taxi, negen jaar nummer 1",
+        p: "Venlo Taxi werkt sinds 2017 met B. Analyzed. Binnen twaalf maanden ging de site van positie 3 naar positie 1 op 'taxi venlo', en die plek is sindsdien niet meer losgelaten: in de meetdata van januari 2021 tot juni 2026 stond de site in alle 203 wekelijkse metingen op 1. Het aantal zoekwoorden in de top 5 groeide van 26 naar 106. Het laat zien wat lokale SEO oplevert als je het consequent volhoudt.",
       },
       {
-        h: "Case: Venlo Taxi: 10 jaar nummer 1 in Google",
-        p: "Venlo Taxi is een lokaal taxibedrijf in Venlo dat al meer dan 10 jaar samenwerkt met B. Analyzed. Het resultaat van die langdurige samenwerking spreekt voor zich: een onafgebroken nummer 1 positie in Google op het zoekwoord ‘taxi Venlo’ gedurende de gehele looptijd van de samenwerking. Deze case laat zien wat consistente lokale SEO op de lange termijn oplevert: niet alleen een sterke positie in de zoekresultaten, maar ook een stabiele stroom aan lokale klanten voor een dienstverlenend bedrijf in een competitieve markt.",
+        h: "Wat kost SEO in Venlo?",
+        p: "Een SEO-specialist rekent doorgaans tussen de 40 en 120 euro per uur. Bij B. Analyzed is het uurtarief 90 euro. Je kunt starten met een uitgebreide SEO- en GEO-audit vanaf 599 euro: daarin staat precies wat er beter moet en in welke volgorde. Wil je het daarna uitbesteden, dan werken we met een vast maandpakket vanaf 999 euro, zodat je vooraf weet waar je aan toe bent.",
       },
       {
-        h: "Slimme SEO-strategie om jouw online vindbaarheid te vergroten",
-        p: "Zoekmachine optimalisatie begint met het bepalen van een slimme SEO-strategie. Ons Seo bureau in Venlo stelt onder meer de volgende vragen in gesprek met jou: Wat is de huidige situatie? Waar behalen we quick wins? Wat zijn de lange termijn doelstellingen? Hoeveel relevante bezoekers bezoeken je site? Is er een constante stroom aan bezoekers op je huidige website? Wie zijn je doelgroepen precies en waar bevinden ze zich? Richten we als SEO-bureau Venlo ons op specifieke zoekwoorden met weinig concurrentie (de long tail) of gaan we ons ook focussen of hoge volumes of een combinatie van beide? Op basis van dit gesprek en de beantwoorde vragen kunnen we samen met jou de SEO strategie bepalen en zo jouw posities in de zoekresultaten omhoog te brengen!",
-      },
-      {
-        h: "Resultaten voor lokale bedrijven in Venlo",
-        p: "Met onze expertise op het gebied van lokale SEO hebben we tal van bedrijven in Venlo en omgeving geholpen om bovenaan te scoren in Google voor relevante zoektermen. Eenmaal de kansen en mogelijkheden voor jouw onderneming in kaart zijn gebracht, werken we nauw met je samen om jouw SEO doelen te realiseren.",
-      },
-      {
-        h: "Waarom SEO Venlo inschakelen voor jouw website?",
-        p: "Een SEO expert kan soms door enkele eenvoudige aanpassingen je website hoger in zoekmachines laten ranken. Als je met relevante zoekwoorden waar hoge zoekvolumes op zitten vindbaar bent, kun je makkelijk veel extra echt GRATIS verkeer naar je website krijgen. Een ervaren SEO specialist zal vooral kijken naar methoden om de juiste bezoekers aan te trekken en ervoor te zorgen dat je meer bezoekers op je website krijgt. Dit zijn dus de mensen die geïnteresseerd zijn in jouw dienst, product of informatie.",
-      },
-      {
-        h: "Wat kost SEO specialist Venlo?",
-        p: "Het uurtarief van een SEO-consultant ligt tussen de 40 euro en 95 euro per uur. De verschillen in de kosten van online marketing liggen in de kennis en het niveau van werken. Ook het aantal jaar ervaring speelt een belangrijke rol. Voor een analyse maken, conclusies trekken en actiepunten uitzetten en je hersenen te gebruiken is meer kennis nodig dan enkel een SEO geoptimaliseerde tekst schrijven. Er zijn ook diverse soorten SEO-ers, de één is goed in techniek, de ander weer in creatief schrijven, de ander weer in creatieve linkbuilding. Wanneer een ervaren SEO -er, naast het verhogen van organisch verkeer, ook nog een sterk analytisch denkvermogen heeft, dan heb je een goede SEO specialist te pakken.",
-      },
-      {
-        h: "Wil jij je SEO uitbesteden aan een SEO bureau Venlo?",
-        p: "Ben je op zoek naar een ervaren SEO-bureau in Venlo om jouw website bovenaan in Google te krijgen? Dan is B.Analyzed de juiste keuze voor jou! Als SEO specialist in Venlo zorgen wij ervoor dat jouw producten of diensten eenvoudig gevonden worden door potentiële klanten in het gebied van Venlo en omgeving. Ben je benieuwd naar hoe wij als SEO specialist Venlo, denken over zoekmachine optimalisatie en SEO content en hoe wij dit belangrijk onderdeel van een online marketing strategie kunnen toepassen op jouw huidige website? Wij zijn een open, transparant en flexibel online marketingbedrijf en denken altijd mee met de klant. Heb je SEO ontdekt en wil je meer weten over hoe wij jouw website kunnen optimaliseren?Wij verzorgen de SEO voor MKB alsmede voor zelfstandigen.Neem dan gerust contact op voor een vrijblijvend gesprek. Onze SEO specialist staat klaar om jou te helpen bij het behalen van topposities in Google.",
-      },
-      {
-        h: "SEO Venlo, lokale en internationale online marketing",
-        p: "Onze SEO klanten bevinden zich door heel Nederland maar ook over andere delen van de wereld. Dit komt doordat B. Analyzed online marketing bestaat uit een team van freelancers die zich over de hele wereld bevinden. Of je nu een lokaal bedrijf bent of een grotere onderneming, SEO is essentieel om gevonden te worden door klanten die online op zoek zijn naar jouw producten of diensten. Bij B-Analyzed zijn wij dé SEO specialist in Venlo en zorgen we ervoor dat jouw website optimaal presteert in de zoekresultaten. Neem vandaag nog contact met ons op en laat ons jouw website naar de eerste pagina van Google brengen! Geïnteresseerd in een kennismakingsgesprek? Wacht niet langer en stuur ons een e-mail of bel ons! SEO Nijmegen SEO Rotterdam SEO Maastricht",
+        h: "SEO uitbesteden aan een SEO-bureau in Venlo",
+        p: "Wil je je SEO uitbesteden aan een bureau dat dichtbij zit en zelf de handen uit de mouwen steekt? Vraag de gratis SEO-scan aan. Je ziet dan binnen een paar dagen waar je website staat in Google en in AI-antwoorden, en wat de eerste stappen zijn. Liever eerst even sparren? Bel of app Britt voor een vrijblijvend gesprek.",
       },
     ],
     faq: [
@@ -102,10 +82,30 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
-      { label: "SEO Blerick voor Venlo-West", to: "/seo-blerick/" },
-      { label: "Online marketing bureau Venlo", to: "/online-marketing-venlo/" },
-      { label: "SEO Nijmegen", to: "/seo-nijmegen/" },
-      { label: "SEO uitbesteden aan een vaste specialist", to: "/online-marketing/seo-uitbesteden/" },
+      {
+        label: "Case: Venlo Taxi negen jaar nummer 1",
+        to: "/cases/venlo-taxi-negen-jaar-nummer-1/",
+      },
+      {
+        label: "SEO Blerick voor Venlo-West",
+        to: "/seo-blerick/",
+      },
+      {
+        label: "SEO Limburg",
+        to: "/seo-limburg/",
+      },
+      {
+        label: "Online marketing bureau Venlo",
+        to: "/online-marketing-venlo/",
+      },
+      {
+        label: "Local SEO",
+        to: "/online-marketing/local-seo/",
+      },
+      {
+        label: "SEO uitbesteden aan een vaste specialist",
+        to: "/online-marketing/seo-uitbesteden/",
+      },
     ],
   },
   "seo-maastricht": {
@@ -905,118 +905,102 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
     h1: "SEO Limburg: Dé seo specialist voor jouw website vind je hier!",
     title: "SEO Limburg: SEO-bureau voor de hele provincie | B. Analyzed",
     description: "SEO in Limburg nodig? Meer zichtbaarheid, top 3-posities in Google en meer leads. Ook zichtbaar in AI. Audit vanaf € 599,-.",
-    intro: "Het woord SEO staat voor search engine optimisation of in het Nederlands, zoekmachine optimalisatie. Een SEO expert, SEO specialist of SEO consultant is een marketeer die weet hoe je websites met relevante zoekwoorden hoger in Google laat ranken. Er zijn inmiddels meer dan 200 factoren die bepalen hoe goed jouw website gevonden wordt.",
+    intro: "SEO in Limburg zorgt dat jouw bedrijf bovenaan in Google staat wanneer mensen in Venlo, Roermond, Weert, Sittard, Heerlen of Maastricht zoeken naar wat jij aanbiedt. B. Analyzed is een SEO-bureau uit Venlo met 15 jaar ervaring, een 9,8 uit 48 Google-reviews en klanten in heel de provincie. Je werkt met één vaste specialist die de strategie bedenkt en zelf uitvoert, voor zichtbaarheid in Google, Google Maps en AI-antwoorden.",
     bullets: [
-      "Vergroot je zichtbaarheid in de organische zoekresultaten",
-      "Behaal top 3-posities in Google",
-      "Krijg meer relevante bezoekers naar je site",
-      "Vergroot je aantal leads en online sales",
+      "Zichtbaar in de organische resultaten én in de kaartresultaten",
+      "Top 3-posities in Google op zoekwoorden die omzet opleveren",
+      "Meer relevante bezoekers, aanvragen en verkopen",
+      "Ook zichtbaar als bron in ChatGPT en Gemini",
     ],
     sections: [
       {
-        h: "Samenwerken met een gerenommeerd SEO bureau Limburg?",
-        p: "B.Analyzed is dé SEO-specialist in Limburg voor het optimaliseren van jouw website. Verhoog je online vindbaarheid en laat je website hoger scoren in Google met SEO Limburg. B.Analyzed is een onafhankelijk, datagedreven full service online marketingbureau dat al veel klanten heeft geholpen met het verbeteren van hun online zichtbaarheid en prestaties. Met meer dan 11 jaar ervaring binnen SEO helpt het team van B.Analyzed bedrijven bij het uitbesteden van SEO. Door onze duurzame, transparante werkwijze zorgen wij voor langdurig resultaat.",
+        h: "Wat is een SEO-specialist?",
+        p: "Een SEO-specialist zorgt dat je website hoger in zoekmachines komt op de zoekwoorden waarmee jouw klanten zoeken. Dat gaat over de techniek van je site, de inhoud van je pagina's, de autoriteit die je opbouwt via backlinks en je lokale zichtbaarheid in Google Maps. Een goede specialist kijkt daarbij niet naar posities alleen, maar naar wat ze opleveren: aanvragen, verkopen en omzet.",
       },
       {
-        h: "Een gespecialiseerd team",
-        p: "Bij B. Analyzed werk je samen met een team van ervaren SEO-specialisten, denk aan technische SEO specialisten, copywriters, linkbuilders en SEO strategen. Je hebt hierbij altijd één aanspreekpunt. Zij werken nauw met elkaar samen om de beste resultaten voor jouw bedrijf te behalen.",
+        h: "Een SEO-bureau dat Limburg kent",
+        p: "Limburg is geen eenvormige markt. Noord-Limburg draait op logistiek, tuinbouw en de Greenport, Midden-Limburg op retail en het outletgebied in Roermond, Zuid-Limburg op toerisme, zorg en de Euregio rond Maastricht en Heerlen. Bovendien zoeken veel klanten vanuit België en Duitsland. Wij kennen die verschillen en stemmen de zoekwoorden, de content en de lokale vermeldingen daarop af, per regio en waar nodig per taal.",
       },
       {
-        h: "Ontzorging van A tot Z",
-        p: "Wij nemen de volledige SEO-strategie voor jouw bedrijf uit handen. Ons team stelt een op maat gemaakt plan van aanpak op, afgestemd op jouw doelstellingen en wensen. Wij gaan net zolang door totdat het resultaat behaald is.",
+        h: "Eén vaste specialist, geen accountmanager",
+        p: "Bij B. Analyzed werk je rechtstreeks met Britt Daemen. Zij bedenkt de strategie en voert hem zelf uit, ondersteund door een vaste copywriter en linkbuilder. Geen doorgeschoven tickets, geen junior die je account overneemt: je weet altijd wie er aan je site werkt en waarom.",
       },
       {
-        h: "Bewezen resultaten",
-        p: "1. Analyzed is een ervaren SEO-bureau in Nederland met een persoonlijke aanpak. Wij hebben al talloze klanten geholpen om organisch te groeien en hun online zichtbaarheid aanzienlijk te verbeteren. Door samen te werken met ons gespecialiseerde team, kun je erop vertrouwen dat jouw website geoptimaliseerd wordt voor duurzaam succes in de zoekresultaten. Wij nemen de volledige SEO-uitvoering voor onze rekening, zodat jij je kunt focussen op je core business.",
+        h: "Hoe gaat ons SEO-bureau in Limburg te werk?",
+        p: "We starten met een audit van je techniek, content en autoriteit en een analyse van je concurrenten in de regio. Daarna volgt een zoekwoordonderzoek waarin we bepalen welke termen omzet opleveren. Op basis daarvan maken we een plan met de snelle winsten eerst en de structurele verbeteringen daarna. Elke maand krijg je een korte video met wat er is gedaan en wat het opleverde, plus de cijfers uit Search Console en SE Ranking.",
       },
       {
-        h: "Hoe gaat ons SEO bureau in Limburg precies te werk?",
-        p: "Zoekmachine optimalisatie begint met het bepalen van een slimme SEO-strategie. Wat is de huidige situatie, waar behalen we quick wins en wat zijn de lange termijn doelstellingen? Wie zijn je doelgroepen precies en waar bevinden ze zich? Richten we ons op specifieke zoekwoorden met weinig concurrentie of gaan we ons ook focussen of hoge volumes of een combinatie van beide? Vanuit bedrijfsvisie en doelstellingen en gewenste propositie maken we samen een vertaalslag naar SEO-doelen met een passende strategie.",
+        h: "Technische SEO",
+        p: "Een snelle, goed leesbare website is de basis. We controleren indexatie, laadtijd, Core Web Vitals, mobiele weergave, redirects, interne links en gestructureerde data. Technische fouten houden een site vaak harder tegen dan matige teksten, en ze zijn meestal snel op te lossen.",
       },
       {
-        h: "Waarom SEO uitbesteden aan een specialist?",
-        p: "Een SEO expert kan soms door enkele eenvoudige aanpassingen je website hoger in zoekmachines laten ranken. Als je met de juiste trefwoorden waar hoge zoekvolumes op zitten vindbaar bent, kun je makkelijk veel extra GRATIS verkeer naar je website krijgen. Een echte SEO expert zal vooral kijken naar methoden om de juiste bezoekers aan te trekken. Dit zijn dus de mensen die geïnteresseerd zijn in jouw dienst, product of informatie.",
+        h: "Content en lokale landingspagina's",
+        p: "Elke belangrijke dienst en elke belangrijke plaats krijgt een eigen pagina die echt iets zegt over die plaats, in plaats van dezelfde tekst met een andere plaatsnaam. Dat werkt beter in Google en het overtuigt bezoekers ook meer.",
       },
       {
-        h: "Waarom heb je een SEO-specialist in Limburg nodig?",
-        p: "Limburg is een competitieve markt, waar bedrijven moeten concurreren om de aandacht van potentiële klanten. Een SEO-specialist in Limburg heeft de kennis en ervaring om je website te optimaliseren zodat deze beter gevonden wordt door zoekmachines als Google.",
+        h: "Linkbuilding in Limburg",
+        p: "We verdienen backlinks van relevante regionale en branchegerichte sites: lokale media, ondernemersverenigingen, vakwebsites en partners. Kwaliteit boven aantal, zodat de links ook over een paar jaar nog waarde hebben.",
       },
       {
-        h: "Experts met jarenlange ervaring",
-        p: "SEO-specialisten in Limburg hebben diepgaande kennis van zoekmachine optimalisatie en kunnen je website technisch optimaliseren, relevante content creëren en een effectieve linkbuilding strategie opzetten. Met hun expertise op het gebied van SEO kunnen zij jouw bedrijf in Limburg helpen om beter gevonden te worden.",
+        h: "Google Bedrijfsprofiel en reviews",
+        p: "Voor bedrijven met een vestiging of werkgebied in Limburg is het Google Bedrijfsprofiel vaak de snelste winst. We richten het volledig in, zorgen voor consistente bedrijfsgegevens op alle vermeldingen en helpen je aan meer reviews. Zo verschijn je in de kaartresultaten die bij lokale zoekopdrachten bovenaan staan.",
       },
       {
-        h: "Blijvende ondersteuning en optimalisatie",
-        p: "Een SEO-specialist in Limburg biedt niet alleen eenmalige optimalisatie, maar ook doorlopende ondersteuning. Zij houden je website up-to-date en optimaliseren deze continu om je online zichtbaarheid te vergroten en je betere vindbaarheid van je website te garanderen.",
+        h: "Resultaten van Limburgse klanten",
+        p: "Meubel & Outlet Weert ging in 16 maanden van minder dan 500 naar bijna 5.500 organische bezoekers per maand en staat op 1 voor 'meubel outlet', een zoekterm met 6.600 zoekopdrachten per maand. Parketreus uit Heerlen steeg met 'traprenovatie limburg' van positie 18 naar 2 en haalde 439.000 vertoningen in Google. Venlo Taxi staat al negen jaar op 1 voor 'taxi venlo'. De volledige cases vind je hieronder.",
       },
       {
-        h: "Voordelen van SEO Limburg",
-        p: "Als je als bedrijf in Limburg wilt profiteren van de vele voordelen die SEO-optimalisatie biedt, is samenwerken met een ervaren SEO-specialist in Limburg de slimste keuze. Met meer dan 11 jaar expertise in SEO hebben wij de kennis en vaardigheden om jouw website zichtbaarder te maken in Google en andere zoekmachines. Onze duurzame en transparante aanpak zorgt ervoor dat jij langdurig profiteert van de resultaten.",
+        h: "Wat kost SEO in Limburg?",
+        p: "SEO-specialisten rekenen doorgaans tussen de 40 en 125 euro per uur. Bij B. Analyzed is het uurtarief 90 euro. Je kunt beginnen met een uitgebreide SEO- en GEO-audit vanaf 599 euro, met een concreet plan van aanpak. Daarna werken we met een vast maandpakket vanaf 999 euro, zodat je vooraf weet waar je aan toe bent.",
       },
       {
-        h: "Meer online zichtbaarheid",
-        p: "Door onze SEO-expertise weten wij precies hoe je jouw website technisch optimaal kunt optimaliseren, relevante content kunt creëren en een effectieve linkbuilding strategie kunt opzetten. Hierdoor wordt jouw website beter gevonden door potentiële klanten beter gevonden door potentiële klanten in Venlo, Maastricht, Sittard-Geleen, Heerlen en de rest van de provincie Limburg. Meer dan 75% van de Nederlanders vindt bedrijven via zoekopdrachten, dus een sterke online zichtbaarheid is essentieel.",
-      },
-      {
-        h: "Hogere posities in Google",
-        p: "Onze SEO-specialisten helpen jouw website hoger te ranken in de zoekresultaten van Google. Door toepassing van de juiste SEO-technieken, zien we in veel gevallen een stijging van 1,5 tot 2 keer in zoekmachine rankings. Gemiddeld genomen zien onze klanten een verdubbeling van hun organische website bezoekers.",
-      },
-      {
-        h: "Meer relevante websitebezoekers",
-        p: "Wanneer jouw website beter vindbaar is in Google, trek je meer potentiële klanten aan die zoeken naar jouw producten of diensten. Wij zorgen ervoor dat je website gezien wordt door de juiste doelgroep, wat resulteert in een hoger aantal relevante bezoekers. Gemiddeld zien onze klanten een toename van 25 naar meer dan 6.000 bezoekers per maand na 9 maanden samenwerking.",
-      },
-      {
-        h: "Verbeterde conversie en omzet",
-        p: "Een sterkere online zichtbaarheid en meer relevante bezoekers leiden uiteindelijk tot een hogere conversie en omzet voor jouw bedrijf. Onze SEO-klanten zien gemiddeld een verbetering van meer dan 150% in conversie. Dit komt doordat jouw website beter aansluit bij de behoeften van jouw doelgroep.",
-      },
-      {
-        h: "Over B.Analyzed – SEO-specialist in Limburg",
-        p: "B.Analyzed is dé SEO-specialist in Limburg met meer dan 11 jaar ervaring. Ons team van experts heeft de kennis en ervaring om jouw website optimaal te optimaliseren voor een betere vindbaarheid in Google. Wij worden beoordeeld met een 9.8 op Google Mijn Bedrijf en kunnen bogen op meer dan 100 nummer 1 posities in Google, met meer dan 50 tevreden klanten die ons al voor zijn gegaan.",
-      },
-      {
-        h: "Ervaren SEO team",
-        p: "Ons team van online marketing specialisten heeft ruim 11 jaar ervaring in het vak en blijft continu op de hoogte van de laatste trends en ontwikkelingen op het gebied van SEO. Samen met onze klanten ontwikkelen we een effectieve seo strategie om een website beter vindbaar te maken in L imburg en omgeving.",
-      },
-      {
-        h: "Transparante werkwijze",
-        p: "Bij B.Analyzed staat transparantie hoog in het vaandel. Wij werken onafhankelijk en nemen een persoonlijke aanpak om jouw online marketing te verzorgen. Onze klanten krijgen maandelijks een gratis SEO rapport over de voortgang en kunnen altijd de meetbare resultaten inzien.",
-      },
-      {
-        h: "Meetbare resultaten",
-        p: "Met onze SEO -specialisten in Limburg behalen we concrete resultaten voor onze klanten. Zo hebben we voor meer dan 25 bedrijven een organische groei van minimaal 150% in één jaar weten te realiseren. Daarnaast garanderen we een minimum van 300% groei in organisch verkeer voor onze SEO-diensten.",
-      },
-      {
-        h: "Tevreden klanten in Limburg",
-        p: "Naast onze sterke resultaten, zijn onze klanten in Limburg ook erg tevreden over onze samenwerking. Meer dan 150 tevreden klanten gingen jou al voor. Het uurtarief van een SEO specialist in Limburg ligt tussen de 40 euro en 125 euro per uur, maar wij bieden onze diensten aan tegen een scherpe prijs-kwaliteitverhouding.",
-      },
-      {
-        h: "Begin met SEO in Limburg vandaag!",
-        p: "Als je als bedrijf in Limburg meer bezoekers, leads en omzet wilt genereren via je website, dan is samenwerken met een SEO-specialist een slimme keuze. Een SEO-expert kan je website technisch optimaliseren, relevante content creëren en een effectieve linkbuilding strategie opzetten om je online zichtbaarheid substantieel te vergroten. Onze SEO-specialisten in Limburg beschikken over de nodige expertise en tools om jouw website te optimaliseren voor zoekmachines zoals Google. Door samen te werken met ons SEO bureau in Limburg kan je profiteren van hogere posities in Google, meer relevante websitebezoekers en uiteindelijk een verbeterde conversie en omzet. Investeer in SEO in Limburg en laat jouw bedrijf beter vindbaar worden voor je doelgroep. Met de juiste SEO-strategie en de ondersteuning van een online marketing bureau kan je jouw website laten groeien en jouw bedrijf in Limburg naar nieuwe hoogtes tillen. Geïnteresseerd in een kennismakingsgesprek? Wacht niet langer en app, mail of bel ons!",
+        h: "Begin met SEO in Limburg",
+        p: "Wil je weten waar je website nu staat in Google en in AI-antwoorden, en wat de eerste stappen zijn? Vraag de gratis SEO-scan aan. Liever eerst even sparren over je situatie? Bel, app of mail Britt voor een vrijblijvend kennismakingsgesprek.",
       },
     ],
     faq: [
       {
         q: "Waarom is een SEO-specialist in Limburg beter dan een nationaal bureau?",
-        a: "Een lokale SEO-specialist kent de Limburgse markt van binnenuit. Denk aan regiospecifieke zoekpatronen, kennis van het lokale bedrijfslandschap en de mogelijkheid tot persoonlijk contact. Een nationaal bureau behandelt uw opdracht als één van de velen; een lokale specialist investeert in een langdurige samenwerking die aansluit op uw markt.",
+        a: "Een lokale SEO-specialist kent de Limburgse markt van binnenuit. Denk aan regiospecifieke zoekpatronen, kennis van het lokale bedrijfslandschap en de mogelijkheid tot persoonlijk contact. Een nationaal bureau behandelt je opdracht als één van de velen; een lokale specialist investeert in een langdurige samenwerking die aansluit op jouw markt.",
       },
       {
         q: "Wat zijn de kosten van SEO in Limburg?",
-        a: "De uurtarieven voor SEO liggen doorgaans tussen de €40 en €125, afhankelijk van de ervaring en aanpak van het bureau. B. Analyzed werkt met vaste maandpakketten die afgestemd zijn op het budget van het MKB. Zo weet u altijd waar u aan toe bent, zonder verrassingen achteraf.",
+        a: "De uurtarieven voor SEO liggen doorgaans tussen de €40 en €125, afhankelijk van de ervaring en aanpak van het bureau. B. Analyzed rekent 90 euro per uur en werkt met vaste maandpakketten vanaf 999 euro, afgestemd op het budget van het MKB. Zo weet je altijd waar je aan toe bent, zonder verrassingen achteraf.",
       },
       {
         q: "Welke steden in Limburg bedient B. Analyzed?",
-        a: "B. Analyzed is actief in de gehele provincie Limburg, waaronder Venlo, Maastricht, Roermond, Weert, Horst en Venray. Of uw bedrijf nu in een grote stad of een kleinere gemeente zit, wij zorgen voor lokale vindbaarheid die aansluit op uw regio.",
+        a: "B. Analyzed is actief in de gehele provincie Limburg, waaronder Venlo, Maastricht, Roermond, Weert, Horst en Venray. Of je bedrijf nu in een grote stad of een kleinere gemeente zit, wij zorgen voor lokale vindbaarheid die aansluit op jouw regio.",
       },
       {
         q: "Hoe meet B. Analyzed de SEO-resultaten?",
-        a: "Resultaten worden bijgehouden via maandelijkse rapportages in Google Search Console en SE Ranking. U krijgt inzicht in uw zoekwoordposities, het aantal klikken naar uw website én de behaalde conversies, zodat u precies weet welk effect de SEO-inspanningen hebben op uw bedrijf.",
+        a: "Resultaten worden bijgehouden via maandelijkse rapportages in Google Search Console en SE Ranking. Je krijgt elke maand een korte video en inzicht in je zoekwoordposities, het aantal klikken naar je website én de behaalde conversies, zodat je precies weet wat de SEO oplevert.",
       },
     ],
     related: [
-      { label: "SEO Eindhoven voor tech en industrie", to: "/seo-eindhoven/" },
-      { label: "SEO Rotterdam voor haven en logistiek", to: "/seo-rotterdam/" },
-      { label: "SEO Nijmegen", to: "/seo-nijmegen/" },
-      { label: "Marketingbureau Limburg", to: "/marketingbureau-limburg/" },
+      {
+        label: "Case: Meubel & Outlet Weert nummer 1",
+        to: "/cases/6600x-meubel-outlet-nummer-1-in-google/",
+      },
+      {
+        label: "Case: Parketreus in Heerlen",
+        to: "/cases/parketreus/",
+      },
+      {
+        label: "SEO Venlo",
+        to: "/seo-venlo/",
+      },
+      {
+        label: "SEO Maastricht",
+        to: "/seo-maastricht/",
+      },
+      {
+        label: "SEO Roermond",
+        to: "/seo-roermond/",
+      },
+      {
+        label: "Marketingbureau Limburg",
+        to: "/marketingbureau-limburg/",
+      },
     ],
   },
   "linkbuilding-uitbesteden-venlo": {

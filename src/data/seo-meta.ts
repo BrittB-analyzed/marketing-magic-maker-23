@@ -18,11 +18,11 @@ export const SEO_META: Record<string, SeoEntry> = {
     description: "Online marketingbureau voor het MKB, gevestigd in Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
   },
   "/seo-limburg/": {
-    title: "SEO Limburg | SEO specialist met een 9,8 uit 48 reviews",
+    title: "SEO Limburg | SEO-bureau en SEO-specialist in Limburg",
     description: "SEO-specialist in Limburg met 15 jaar ervaring en een 9,8 uit 48 reviews. Een vast aanspreekpunt en elke maand een video met wat er is gebeurd en wat het deed.",
   },
   "/seo-venlo/": {
-    title: "SEO Venlo | Vaste SEO-specialist, beoordeeld met 9,8",
+    title: "SEO Venlo | SEO-bureau en SEO-specialist in Venlo",
     description: "SEO in Venlo door Britt Daemen: 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Uitgebreide audit vanaf 599 euro, doorlopend vanaf 999 euro.",
   },
   "/seo-eindhoven/": {
