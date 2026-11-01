@@ -35,6 +35,7 @@ import dashboardImage from "@/assets/seo-dashboard.jpg";
 import logoMeubelOutlet from "@/assets/logos/meubeloutletweert-logo.avif.asset.json";
 import logoParketreus from "@/assets/logos/parketreus-logo.avif.asset.json";
 import logoVogelvoer from "@/assets/logos/vogelvoerkopenlogo_1.avif.asset.json";
+import { graph, localBusinessSchema, organizationSchema } from "@/lib/schema";
 
 const FAQ: Faq[] = [
   {
@@ -66,7 +67,10 @@ const FAQ: Faq[] = [
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: seoMeta('/', { ogType: 'website', twitterCard: 'summary_large_image' }),
-    scripts: [{ type: "application/ld+json", children: faqJsonLd(FAQ) }],
+    scripts: [
+      { type: "application/ld+json", children: faqJsonLd(FAQ) },
+      { type: "application/ld+json", children: graph(organizationSchema(), localBusinessSchema()) },
+    ],
   }),
   component: Home,
 });
