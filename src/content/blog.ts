@@ -12,6 +12,106 @@ export type Post = {
 };
 
 export const POSTS: Record<string, Post> = {
+  "ahrefs-alternatieven-in-2026": {
+  "slug": "ahrefs-alternatieven-in-2026",
+  "title": "Ahrefs-alternatieven in 2026: welke SEO-tool past bij jouw bedrijf?",
+  "description": "Op zoek naar een alternatief voor Ahrefs? Vergelijk Semrush, SE Ranking, Mangools, Moz Pro en meer, en ontdek welke SEO-tool bij jouw budget past.",
+  "date": "2026-06-26",
+  "tag": "SEO-tools",
+  "excerpt": "SE Ranking voor de beste prijs-kwaliteit, Semrush voor grote marketingteams, Mangools voor starters en Moz Pro voor linkbuilding. Zo kies je de tool die bij je past.",
+  "sections": [
+    {
+      "h": "Het korte antwoord",
+      "p": "Het beste Ahrefs-alternatief is voor de meeste MKB-bedrijven SE Ranking, vanwege de prijs-kwaliteitverhouding en de module voor AI-zichtbaarheid. Semrush is de beste keuze voor grotere marketingteams, Mangools voor beginners die snel willen starten en Moz Pro voor wie linkbuilding en domeinautoriteit centraal zet. Ahrefs zelf blijft ongeëvenaard in backlinkdata, maar is niet voor iedereen de meest rendabele keuze."
+    },
+    {
+      "h": "Wat maakt Ahrefs zo sterk?",
+      "p": "Ahrefs heeft een van de grootste en meest actuele backlink-indexen ter wereld, gevoed door een eigen crawler die dagelijks miljarden pagina's bezoekt. Daarbovenop komen de Content Explorer voor inspiratie, de Site Explorer voor diepgaande concurrentieanalyse, een Keyword Explorer met SERP-overzicht en historische data, en een betrouwbare rank tracker. Voor SEO-specialisten en bureaus is het daarom al jaren de gouden standaard."
+    },
+    {
+      "h": "Waarom bedrijven toch verder kijken",
+      "p": "Er zijn drie redenen die we bij klanten steeds terugzien. De prijs: voor kleinere organisaties zijn er tools die 80 procent van de functionaliteit bieden voor de helft van het budget. Het creditsysteem: bij intensief gebruik op grote sites of veel concurrenten raken credits snel op. En AI-zichtbaarheid: Ahrefs heeft nog geen volwaardige module om je zichtbaarheid in ChatGPT, Gemini of Perplexity te meten, terwijl sommige alternatieven dat wel hebben."
+    },
+    {
+      "h": "Semrush: het meest complete marketingplatform",
+      "p": "Semrush is het bekendste alternatief. De kracht zit in de breedte: naast SEO biedt het uitgebreide mogelijkheden voor Google Ads, contentmarketing, social media en marktonderzoek, met meer dan 55 tools in één omgeving. Het is de beste keuze voor grotere bedrijven en bureaus die online marketing breed aanpakken. Voor kleine bedrijven die alleen basis-SEO doen, is het vaak meer dan nodig, en de interface vraagt even inwerken."
+    },
+    {
+      "h": "SE Ranking: beste prijs-kwaliteit voor het MKB",
+      "p": "SE Ranking combineert zoekwoordonderzoek, nauwkeurige rank tracking, site-audits en concurrentieanalyse met een toegankelijke prijs en een overzichtelijke interface. Uniek is de AI Search Toolkit, die meet hoe vaak je merk wordt genoemd in AI-zoekmachines. Voor bedrijven die SEO serieus willen aanpakken zonder de hoofdprijs te betalen, is dit in onze ervaring het sterkste alternatief."
+    },
+    {
+      "h": "Mangools: de makkelijkste start",
+      "p": "Mangools bestaat uit vijf tools: KWFinder voor zoekwoordonderzoek, SERPChecker, SERPWatcher voor posities, LinkMiner voor backlinks en SiteProfiler voor domeinanalyse. De interface is visueel en binnen een middag te leren, ook zonder SEO-achtergrond. Ideaal voor freelancers, zzp'ers en kleine bedrijven. Wie diepgaande backlinkdata of rapportages voor veel klanten nodig heeft, loopt er wel tegen grenzen aan."
+    },
+    {
+      "h": "Moz Pro, Ubersuggest en SEO PowerSuite",
+      "p": "Moz Pro is bekend van Domain Authority en Page Authority, de scores die branchebreed worden gebruikt om linkwaarde in te schatten. Het is sterk in linkprospecting, maar minder breed dan Semrush. Ubersuggest is de laagdrempelige instap voor starters met een klein budget, met een beperkte gratis versie. SEO PowerSuite draait als desktopsoftware en kent geen creditbeperkingen, wat het interessant maakt voor diepe technische audits van grote sites."
+    },
+    {
+      "h": "Welke tool wint per onderdeel?",
+      "p": "Voor backlinkanalyse blijft Ahrefs toonaangevend, met Moz Pro en SEO PowerSuite als beste alternatieven. Voor zoekwoordonderzoek en concurrentieanalyse is Semrush het sterkst. Voor rank tracking en AI-zichtbaarheid scoort SE Ranking het best. Voor technische audits zonder limieten kies je SEO PowerSuite, en voor gebruiksgemak Mangools of SE Ranking."
+    },
+    {
+      "h": "Gratis alternatieven",
+      "p": "Zonder budget kom je al ver met een combinatie van gratis tools. Google Search Console laat je echte klikken, vertoningen en indexatieproblemen zien. Screaming Frog crawlt in de gratis versie tot 500 URL's en vindt technische fouten. Bing Webmaster Tools geeft verrassend veel inzicht in prestaties, indexatie en backlinks. De datasets zijn kleiner dan die van Ahrefs, maar voor een kleine site vaak voldoende."
+    },
+    {
+      "h": "Welke tool gebruikt B. Analyzed?",
+      "p": "Wij werken dagelijks met meerdere platformen. Voor het meeste werk vinden we SE Ranking het sterkste Ahrefs-alternatief, vanwege de combinatie van functionaliteit, AI-zichtbaarheid, gebruiksgemak en prijs. Een universeel beste tool bestaat niet: de resultaten komen uit de juiste strategie, prioriteiten en consequente uitvoering, niet uit de tool zelf. Twijfel je welke tool of aanpak bij jouw bedrijf past? Vraag de gratis SEO-scan aan, dan laten we zien waar je grootste kansen liggen."
+    }
+  ]
+},
+  "seo-gericht-schrijven": {
+  "slug": "seo-gericht-schrijven",
+  "title": "SEO-gericht schrijven: content die scoort in Google én in AI",
+  "description": "Zo schrijf je SEO-gerichte content die rankt in Google en wordt geciteerd door ChatGPT en Gemini: zoekintentie, structuur, E-E-A-T en on-page optimalisatie.",
+  "date": "2026-06-22",
+  "tag": "Content",
+  "excerpt": "SEO-gericht schrijven is in 2026 schrijven voor twee lezers: de mens en het taalmodel. Met deze vijf stappen maak je content die rankt én wordt geciteerd.",
+  "sections": [
+    {
+      "h": "Wat is SEO-gericht schrijven?",
+      "p": "SEO-gericht schrijven is het maken van waardevolle content die goed vindbaar is voor mensen die zoeken in Google én voor AI-systemen zoals ChatGPT en Gemini. Je schrijft vanuit de zoekintentie, met een heldere structuur en aantoonbare expertise, zodat je zowel rankt in de organische resultaten als wordt geciteerd als betrouwbare bron. Je schrijft dus voor twee lezers tegelijk: de mens en het algoritme."
+    },
+    {
+      "h": "Van trefwoorden naar autoriteit",
+      "p": "Vroeger draaide SEO vooral om het herhalen van het hoofdzoekwoord. Algoritmes begrijpen context inmiddels veel beter, en Google beoordeelt content aan de hand van E-E-A-T: ervaring, expertise, autoriteit en betrouwbaarheid. Zeker bij onderwerpen met impact op gezondheid of financiën is dat doorslaggevend. Succes heeft in 2026 twee vormen: ranken in de organische resultaten en geciteerd worden door AI. Wie beide combineert, bouwt zichtbaarheid die bestand is tegen algoritmewijzigingen."
+    },
+    {
+      "h": "Stap 1: onderwerp en zoekintentie bepalen",
+      "p": "Elke goede tekst begint met onderzoek. Kijk niet alleen naar zoekvolume: een onderwerp met weinig zoekopdrachten kan juist waardevol zijn als het precies jouw doelgroep raakt. Bepaal daarna de intentie. Bij een informatieve zoekvraag geef je een diepgaand antwoord met context. Bij een navigerende zoekvraag moet je direct zichtbaar zijn op je merknaam. Bij een commerciële zoekvraag vergelijk je opties, en bij een transactionele zoekvraag hoort een korte boodschap met een duidelijke call-to-action. Bekijk altijd eerst welke pagina's nu bovenaan staan: die laten zien wat Google als beste match ziet."
+    },
+    {
+      "h": "Stap 2: een heldere tekststructuur",
+      "p": "Een logische opbouw helpt lezers én AI-systemen. De H1 is de titel met het hoofdzoekwoord, H2's zijn de hoofdthema's en H3's de deelonderwerpen daarbinnen. Formuleer koppen als vraag of als direct antwoord: niet 'Inleiding', maar 'Wat is SEO-gericht schrijven?'. Een lezer die alleen de koppen scant, moet al weten waar de pagina over gaat, en een taalmodel dat naar citeerbare fragmenten zoekt evengoed. Houd zinnen en alinea's kort en schrijf actief."
+    },
+    {
+      "h": "Stap 3: schrijven voor AI-zichtbaarheid",
+      "p": "Om door ChatGPT of Google AI Overviews te worden genoemd, moet je content citeerbaar zijn: feiten en definities helder en beknopt, bij voorkeur in de eerste zinnen van een sectie. Taalmodellen geven de voorkeur aan bronnen met unieke, controleerbare informatie. Werk daarom vanuit eigen materiaal: praktijkervaring, cijfers, cases en klantervaringen. AI-schrijftools zonder die input leveren teksten die niet te onderscheiden zijn van die van je concurrent."
+    },
+    {
+      "h": "Stap 4: on-page elementen optimaliseren",
+      "p": "Houd de title tag rond de 55 tekens, met het belangrijkste zoekwoord vooraan. Schrijf een meta description die uitnodigt tot klikken. Maak de URL kort en beschrijvend, met koppeltekens tussen de woorden. Geef elke afbeelding een beschrijvende alt-tekst en vat video's kort samen in tekst op de pagina. Afbeeldingen en video's zijn voor sommige zoekopdrachten inmiddels een voorwaarde om te ranken, en AI-zoekmachines gebruiken ze ook als bron."
+    },
+    {
+      "h": "Stap 5: interne links en topical authority",
+      "p": "Een tekst staat nooit op zichzelf. Met interne links laat je zoekmachines zien hoe je pagina's samenhangen en verdeel je linkwaarde over je site. Link vanuit een nieuwe blog naar relevante oudere artikelen en dienstpagina's, en andersom. Bouw ondersteunende pagina's voor subonderwerpen die in het hoofdartikel maar kort aan bod komen. Zo groeit je autoriteit op een thema stap voor stap."
+    },
+    {
+      "h": "AI als gereedschap, niet als schrijver",
+      "p": "AI-tools versnellen het onderzoek, leveren een eerste opzet en brengen ideeën boven. Ze vervangen geen redactie. Controleer altijd de feiten, pas de toon aan op je merk en voeg de praktijkervaring toe die een model niet heeft. Teksten die rechtstreeks uit een AI-tool komen, zijn generiek, en generieke content wordt niet geciteerd, niet onthouden en niet gedeeld. De vuistregel: AI voor snelheid en structuur, de mens voor expertise en kwaliteit."
+    },
+    {
+      "h": "Na publicatie: meten en verbeteren",
+      "p": "Publiceren is geen eindpunt. Volg in Search Console hoe een pagina presteert. Komen er zoekopdrachten binnen die je pagina nog niet beantwoordt, voeg dan een sectie toe. Daalt het verkeer, onderzoek dan of de zoekintentie is verschoven of dat een concurrent een betere tekst heeft. Over lengte: een uitgebreide handleiding kan 2.000 woorden tellen, een helder antwoord op een specifieke vraag 300. Volledigheid telt, niet het aantal woorden."
+    },
+    {
+      "h": "Hulp bij SEO-gericht schrijven",
+      "p": "Wil je weten hoe je huidige teksten scoren in Google en in AI-antwoorden? Vraag de gratis SEO-scan aan. Daarin zie je waar je pagina's tekortschieten in structuur, zoekintentie of autoriteit, en welke onderwerpen je concurrenten al wel afdekken. Wil je de content liever uitbesteden, dan schrijven we SEO-teksten op basis van zoekwoordonderzoek en jouw eigen expertise."
+    }
+  ]
+},
   "ai-in-seo-de-toekomst-van-zoekmachineoptimalisatie": {
   "slug": "ai-in-seo-de-toekomst-van-zoekmachineoptimalisatie",
   "title": "AI in SEO: de toekomst van zoekmachineoptimalisatie",

@@ -5,6 +5,7 @@ import vanToorLogo from "@/assets/logos/vantoor-interiors.avif.asset.json";
 import vogelvoerLogo from "@/assets/logos/vogelvoerkopenlogo_1.avif.asset.json";
 import bruidsmodeLogo from "@/assets/logos/bruidsmode-outlet.jpg.asset.json";
 import tienEuroTaxiLogo from "@/assets/logos/10-euro-taxi.png.asset.json";
+import taxiVenloLogo from "@/assets/logos/venlo-taxi-logo.png.asset.json";
 import vanOfferbeekLogo from "@/assets/logos/van-offerbeek-logo.avif.asset.json";
 
 export type Review = {
@@ -18,6 +19,19 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    name: "Taxi Venlo en omstreken",
+    url: "https://venlotaxi.nl/",
+    logo: taxiVenloLogo.url,
+    logoAlt: "Logo Taxi Venlo en Omstreken",
+    title: "Altijd efficiënt en effectief",
+    quote: "Britt is al geruime tijd onze partner betreffende online marketing, in de breedste zin van het woord. Onlangs heeft Britt voor ons een nieuwe website gerealiseerd. Het project voor het realiseren van een vernieuwde website is ons uiterst goed bevallen. Door de korte communicatielijnen, frisse ingevingen en zich kunnen vinden in onze wensen en behoefte is het samenwerken met Britt altijd efficiënt en effectief.",
+  },
+  {
+    name: "Silvie Nollen",
+    title: "Prettige samenwerking met veel kennis van zaken",
+    quote: "Britt heeft mij zeer professioneel geholpen met het opzetten en verbeteren van mijn website, social media, de SEO en SEA campagnes. Als klein en nieuw bedrijf was het voor mij belangrijk dat er een persoonlijk contact was en iemand die met me mee kon denken. Ik kijk terug op een prettige samenwerking met iemand die veel kennis van zaken heeft.",
+  },
   {
     name: "Patrick Trump",
     url: "https://www.drumcafe.nl/",
@@ -324,10 +338,5 @@ export const REVIEWS: Review[] = [
     role: "Ondernemer bij Zagtvlees",
     title: "Prettig contact en snel handelen",
     quote: "B Analyzed heeft een uitgebreide sitecheck voor de webshop van Steak Away / Zagt Vlees gedaan. Met de tips van Britt kunnen wij weer vooruit en als alle input is doorgevoerd zullen wij in de toekomst zeker contact opnemen om aan de slag te gaan met Google Adwords campagnes. Pluspunten:",
-  },
-  {
-    name: "Ahrefs alternatieven in 2026: welke SEO-tool past het beste bij jouw bedrijf?",
-    role: "26 June 2026",
-    title: "Blogs",
   },
 ];
