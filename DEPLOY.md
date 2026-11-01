@@ -49,13 +49,21 @@ Verwacht: 161. Verder horen deze allemaal een 200 te geven:
 
 En op de homepage hoort `reviewCount` op **48** te staan.
 
-## Wat hier nog niet in staat
+## Hoe de uitrol loopt
 
-De manier waarop `.output` op de server terechtkomt. Er is geen werkende
-automatische koppeling waargenomen: commit `3d0a57d` stond op 19 oktober op
-`origin/main` zonder dat er binnen vierentwintig uur iets uitrolde. Zodra
-duidelijk is of dit via Git-deploy in hPanel, via SSH of via een Node-applicatie
-loopt, hoort dat hier beschreven te worden.
+hPanel → Websites → b-analyzed.com → Implementaties. De Node.js-webapp is aan
+GitHub gekoppeld (`BrittB-analyzed/marketing-magic-maker-23`, tak `main`). Elke
+push naar `main` start daar automatisch een build: schone `npm install` (bij een
+peer-conflict opnieuw met `--legacy-peer-deps`), dan `npm run build`, Node 22,
+uitvoermap `.output`. Een uitrol duurt een paar minuten.
+
+**Mislukte build = niets live.** Van 14 oktober tot 1 november 2026 faalde elke
+build met `Could not resolve entry module "index.html"`, omdat de schone install
+een nieuwere `@tanstack/react-start` (1.169) binnenhaalde die vite 8 verwacht.
+Daarom staan `@tanstack/react-router`, `@tanstack/react-start` en
+`@tanstack/router-plugin` in `package.json` op een exacte versie. Upgrade die
+alleen samen en na een schone testbuild. Controleer na een push altijd de status
+onder Implementaties.
 
 > **Let op bij Lovable.** Op 19 oktober merge-de een publish-actie vanuit Lovable
 > een verouderde projectkopie over `main` heen (`d8e7fc6`, "Website online
