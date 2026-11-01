@@ -33,7 +33,7 @@ te zetten met `PORT`.
 
 De build controleert zichzelf: `check-seo-meta.mjs` bewaakt de titel- en
 descriptionlengtes en `generate-sitemap.mjs` genereert `public/sitemap.xml`
-opnieuw. Op 20 oktober 2026 levert dat **159 URL's op, waarvan 22 met hreflang**.
+opnieuw. Op 1 november 2026 levert dat **161 URL's op, waarvan 22 met hreflang**.
 
 ## Controleren na een uitrol
 
@@ -41,7 +41,7 @@ opnieuw. Op 20 oktober 2026 levert dat **159 URL's op, waarvan 22 met hreflang**
 curl -s https://b-analyzed.com/sitemap.xml | grep -c "<loc>"
 ```
 
-Verwacht: 159. Verder horen deze allemaal een 200 te geven:
+Verwacht: 161. Verder horen deze allemaal een 200 te geven:
 
 - `/en/` en de tien andere Engelse pagina's
 - de dertien casepagina's onder `/cases/`
