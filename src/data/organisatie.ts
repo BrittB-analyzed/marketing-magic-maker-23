@@ -40,6 +40,28 @@ export const ORGANISATIE = {
 } as const;
 
 /**
+ * Werkgebied voor areaServed in de schema-markup. Noord-Limburg staat voorop
+ * omdat daar de vestiging zit (Arcen, gemeente Venlo); zo kunnen Google en
+ * AI-assistenten B. Analyzed koppelen aan zoekvragen uit die regio.
+ */
+export const WERKGEBIED = {
+  regio: "Noord-Limburg",
+  plaatsen: ["Venlo", "Arcen", "Blerick", "Tegelen", "Belfeld", "Venray", "Horst aan de Maas", "Grubbenvorst", "Sevenum", "Panningen", "Reuver", "Gennep", "Roermond"],
+  landen: ["Nederland", "België"],
+} as const;
+
+/** Vakgebieden voor knowsAbout in de schema-markup. */
+export const VAKGEBIEDEN = [
+  "Zoekmachineoptimalisatie (SEO)",
+  "Zoekmachineadverteren (SEA)",
+  "Google Ads",
+  "Generative Engine Optimization (GEO)",
+  "Local SEO",
+  "Conversie-optimalisatie (CRO)",
+  "Linkbuilding",
+] as const;
+
+/**
  * Afbeelding voor og:image en twitter:image als een pagina geen eigen beeld
  * heeft. Bewust een JPG en geen SVG: Facebook, LinkedIn en X renderen SVG niet,
  * waardoor een gedeelde link anders zonder voorvertoning verschijnt.

@@ -55,6 +55,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
         p: "Venlo Taxi werkt sinds 2017 met B. Analyzed. Binnen twaalf maanden ging de site van positie 3 naar positie 1 op 'taxi venlo', en die plek is sindsdien niet meer losgelaten: in de meetdata van januari 2021 tot juni 2026 stond de site in alle 203 wekelijkse metingen op 1. Het aantal zoekwoorden in de top 5 groeide van 26 naar 106. Het laat zien wat lokale SEO oplevert als je het consequent volhoudt.",
       },
       {
+        h: "SEO en SEA in Venlo combineren",
+        p: "Wil je sneller resultaat dan SEO alleen kan geven? Dan combineren we SEO met SEA: Google Ads-campagnes gericht op Venlo en Noord-Limburg. Advertenties leveren binnen dagen aanvragen op en laten zien welke zoekwoorden converteren, en die kennis gebruiken we om de SEO gerichter in te zetten. Zo ben je als SEO- en SEA-specialist in één keer geregeld.",
+      },
+      {
         h: "Wat kost SEO in Venlo?",
         p: "Een SEO-specialist rekent doorgaans tussen de 40 en 120 euro per uur. Bij B. Analyzed is het uurtarief 90 euro. Je kunt starten met een uitgebreide SEO- en GEO-audit vanaf 599 euro: daarin staat precies wat er beter moet en in welke volgorde. Wil je het daarna uitbesteden, dan werken we met een vast maandpakket vanaf 999 euro, zodat je vooraf weet waar je aan toe bent.",
       },
@@ -85,6 +89,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       {
         label: "Case: Venlo Taxi negen jaar nummer 1",
         to: "/cases/venlo-taxi-negen-jaar-nummer-1/",
+      },
+      {
+        label: "SEA-specialist Noord-Limburg (Google Ads)",
+        to: "/sea-specialist-noord-limburg/",
       },
       {
         label: "SEO Blerick voor Venlo-West",
@@ -950,6 +958,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
         p: "Meubel & Outlet Weert ging in 16 maanden van minder dan 500 naar bijna 5.500 organische bezoekers per maand en staat op 1 voor 'meubel outlet', een zoekterm met 6.600 zoekopdrachten per maand. Parketreus uit Heerlen steeg met 'traprenovatie limburg' van positie 18 naar 2 en haalde 439.000 vertoningen in Google. Venlo Taxi staat al negen jaar op 1 voor 'taxi venlo'. De volledige cases vind je hieronder.",
       },
       {
+        h: "SEO en SEA in Noord-Limburg",
+        p: "Vanuit Arcen, gemeente Venlo, werken we vooral veel voor bedrijven in Noord-Limburg: Venlo, Venray, Horst aan de Maas, Peel en Maas en Gennep. Daar combineren we SEO vaak met SEA, oftewel Google Ads. Advertenties leveren direct aanvragen op terwijl de organische posities groeien, en de advertentiedata laat zien welke zoekwoorden het meest opleveren.",
+      },
+      {
         h: "Wat kost SEO in Limburg?",
         p: "SEO-specialisten rekenen doorgaans tussen de 40 en 125 euro per uur. Bij B. Analyzed is het uurtarief 90 euro. Je kunt beginnen met een uitgebreide SEO- en GEO-audit vanaf 599 euro, met een concreet plan van aanpak. Daarna werken we met een vast maandpakket vanaf 999 euro, zodat je vooraf weet waar je aan toe bent.",
       },
@@ -1000,6 +1012,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       {
         label: "Marketingbureau Limburg",
         to: "/marketingbureau-limburg/",
+      },
+      {
+        label: "SEA-specialist Noord-Limburg",
+        to: "/sea-specialist-noord-limburg/",
       },
     ],
   },
@@ -1481,4 +1497,81 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
     ],
   },
 
+  "sea-specialist-noord-limburg": {
+    eyebrow: "SEO & SEA Noord-Limburg",
+    h1: "SEA-specialist in Noord-Limburg: Google Ads en SEO uit één hand",
+    title: "SEA-specialist Noord-Limburg | Google Ads Venlo",
+    description: "SEA- en SEO-specialist uit Arcen (Venlo) voor Noord-Limburg. Google Ads die aanvragen opleveren, 15 jaar ervaring, 9,8 uit 48 reviews.",
+    intro: "Zoek je een SEA-specialist in Noord-Limburg? B. Analyzed is een online marketingbureau uit Arcen, gemeente Venlo, dat ondernemers in Venlo, Venray, Horst aan de Maas, Peel en Maas, Beesel, Bergen en Gennep helpt met Google Ads (SEA) én SEO. Je werkt met één vaste specialist, Britt Daemen, die je campagnes zelf opzet en wekelijks beheert. 15 jaar ervaring, een 9,8 uit 48 Google-reviews en je advertentiebudget blijft in je eigen Google Ads-account.",
+    bullets: [
+      "Google Ads-campagnes gericht op Venlo, Venray en de rest van Noord-Limburg",
+      "Sturen op kosten per aanvraag, niet op klikken",
+      "SEA en SEO in één plan, met één rapportage",
+      "Je eigen advertentieaccount: budget betaal je rechtstreeks aan Google",
+    ],
+    sections: [
+      {
+        h: "Wat doet een SEA-specialist?",
+        p: "SEA staat voor Search Engine Advertising: betaald adverteren in zoekmachines, in de praktijk vooral Google Ads. Een SEA-specialist bepaalt op welke zoekwoorden je adverteert, schrijft de advertenties, stelt biedingen en budgetten in en sluit zoekopdrachten uit die geld kosten zonder iets op te leveren. Het belangrijkste werk zit in het bijsturen: elke week kijken welke zoekopdrachten aanvragen opleveren en het budget daarheen verschuiven.",
+      },
+      {
+        h: "Waarom een SEA-specialist uit Noord-Limburg?",
+        p: "Omdat adverteren in Noord-Limburg anders werkt dan in de Randstad. Het zoekvolume per plaats is kleiner, dus een campagne die alleen op Venlo target, mist klanten uit Blerick, Tegelen, Venray en Horst. Tegelijk zit de Duitse grens om de hoek: veel bedrijven hier hebben klanten aan beide kanten, en dan wil je weten of een Duitstalige campagne loont. We zitten zelf in Arcen, kennen de regio en komen gewoon langs.",
+      },
+      {
+        h: "Waar we in Noord-Limburg voor adverteren",
+        p: "We werken voor dienstverleners, installateurs, bouwbedrijven, webshops en logistieke en agrarische bedrijven in de regio. De campagnes richten zich op het werkgebied dat jij bedient: Venlo, Blerick, Tegelen, Arcen, Belfeld, Venray, Horst, Grubbenvorst, Sevenum, Panningen, Reuver en Gennep, en waar nodig het Duitse grensgebied rond Kaldenkirchen, Straelen en Nettetal.",
+      },
+      {
+        h: "SEO en SEA: waarom de combinatie werkt",
+        p: "Google Ads levert binnen dagen bezoekers en binnen weken bruikbare data over welke zoekwoorden aanvragen opleveren. SEO heeft maanden nodig, maar levert daarna verkeer op zonder klikprijs. Door beide te combineren gebruik je de advertentiedata om te kiezen welke pagina's je voor SEO verbetert, en schaal je advertenties af op zoekwoorden waar je organisch al bovenaan staat. Zo houd je de kosten per aanvraag laag.",
+      },
+      {
+        h: "Zo pakken we Google Ads aan",
+        p: "We beginnen met een audit van je huidige account, of zetten er een op als je nog niet adverteert. Eerst de conversiemeting: zonder betrouwbare meting stuur je blind. Daarna de campagnestructuur, de zoekwoorden en uitsluitingen, advertentieteksten en de landingspagina's waar de klik op uitkomt. Elke week lopen we zoektermen, biedingen en budgetten na, en elke maand krijg je een korte video met wat er gedaan is en wat het opleverde.",
+      },
+      {
+        h: "Resultaat uit Limburg: Meubel & Outlet Weert",
+        p: "Bij Meubel & Outlet Weert verschoof het advertentiebudget van brede zoekopdrachten naar merkgerichte, productgerichte en lokale campagnes. Dat leverde 77% meer sessies uit Google Ads op met een efficiënter ingezet budget. Venlo Taxi laat zien wat de organische kant oplevert: sinds 2017 klant en in alle wekelijkse metingen van januari 2021 tot juni 2026 op positie 1 voor 'taxi venlo'.",
+      },
+      {
+        h: "Wat kost een SEA-specialist in Noord-Limburg?",
+        p: "Een audit van je Google Ads-account start vanaf 599 euro eenmalig. Doorlopend beheer, gecombineerd met SEO en GEO, kan vanaf 999 euro per maand. Losse werkzaamheden rekenen we af tegen 90 euro per uur. Je advertentiebudget staat daar los van: dat betaal je zelf aan Google, in je eigen account, zodat je altijd eigenaar blijft van je campagnes en data.",
+      },
+      {
+        h: "Begin met een gratis scan",
+        p: "Wil je weten wat Google Ads en SEO voor jouw bedrijf in Noord-Limburg kunnen opleveren? Vraag de gratis SEO- en GEO-scan aan of bel Britt voor een vrijblijvend gesprek. Je hoort binnen 24 uur van ons.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wat is het verschil tussen SEO en SEA?",
+        a: "SEO (zoekmachineoptimalisatie) zorgt dat je onbetaald hoger in Google komt via techniek, content en autoriteit. SEA (zoekmachineadverteren) is betaald adverteren, meestal via Google Ads: je betaalt per klik en staat direct bovenaan. SEA levert snel resultaat, SEO bouwt op lange termijn. B. Analyzed in Arcen (Venlo) combineert beide voor bedrijven in Noord-Limburg.",
+      },
+      {
+        q: "Wie is een goede SEO- en SEA-specialist in Noord-Limburg?",
+        a: "B. Analyzed uit Arcen, gemeente Venlo, is een SEO- en SEA-specialist voor het MKB in Noord-Limburg, met 15 jaar ervaring en een 9,8 uit 48 Google-reviews. Britt Daemen beheert de Google Ads-campagnes zelf, zonder accountmanager ertussen, en combineert ze met SEO en GEO.",
+      },
+      {
+        q: "Wat kost Google Ads-beheer in Venlo en omgeving?",
+        a: "Bij B. Analyzed start een Google Ads-audit vanaf € 599,- eenmalig en doorlopend beheer inclusief SEO en GEO vanaf € 999,- per maand. Losse werkzaamheden kosten € 90,- per uur. Het advertentiebudget betaal je rechtstreeks aan Google.",
+      },
+      {
+        q: "Hoeveel advertentiebudget heb ik nodig in Noord-Limburg?",
+        a: "Dat hangt af van je branche en klikprijzen. Omdat het zoekvolume per plaats in Noord-Limburg kleiner is dan in de Randstad, kun je vaak met een beperkt budget al een groot deel van de zoekopdrachten in je werkgebied afdekken. In de audit rekenen we uit welk budget nodig is voor jouw doel.",
+      },
+      {
+        q: "In welke plaatsen werken jullie?",
+        a: "In heel Noord-Limburg, waaronder Venlo, Blerick, Tegelen, Arcen, Belfeld, Venray, Horst, Grubbenvorst, Sevenum, Panningen, Reuver en Gennep, en daarnaast in de rest van Nederland en België.",
+      },
+    ],
+    related: [
+      { label: "Google Ads uitbesteden", to: "/online-marketing/google-ads-uitbesteden/" },
+      { label: "SEO en SEA combineren", to: "/online-marketing/seo-en-sea/" },
+      { label: "SEO Venlo", to: "/seo-venlo/" },
+      { label: "SEO Limburg", to: "/seo-limburg/" },
+      { label: "SEO Venray", to: "/seo-venray/" },
+      { label: "Case: Meubel & Outlet Weert", to: "/cases/6600x-meubel-outlet-nummer-1-in-google/" },
+    ],
+  },
 };

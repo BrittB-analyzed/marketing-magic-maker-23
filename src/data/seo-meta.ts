@@ -15,11 +15,15 @@ export const TWITTER_SITE = "@b_analyzed";
 export const SEO_META: Record<string, SeoEntry> = {
   "/": {
     title: "Online Marketing Bureau voor het MKB | SEO, GEO & Ads",
-    description: "Online marketingbureau voor het MKB, gevestigd in Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
+    description: "Online marketingbureau voor het MKB, gevestigd in Noord-Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
   },
   "/seo-limburg/": {
     title: "SEO Limburg | SEO-bureau en SEO-specialist in Limburg",
     description: "SEO-specialist in Limburg met 15 jaar ervaring en een 9,8 uit 48 reviews. Een vast aanspreekpunt en elke maand een video met wat er is gebeurd en wat het deed.",
+  },
+  "/sea-specialist-noord-limburg/": {
+    title: "SEA-specialist Noord-Limburg | Google Ads Venlo",
+    description: "SEA- en SEO-specialist uit Arcen (Venlo) voor Noord-Limburg. Google Ads die aanvragen opleveren, 15 jaar ervaring, 9,8 uit 48 reviews.",
   },
   "/seo-venlo/": {
     title: "SEO Venlo | SEO-bureau en SEO-specialist in Venlo",

@@ -108,6 +108,11 @@ function Home() {
             to: "/seo-venlo/",
             note: "Alleen je organische posities, zonder advertentiebudget.",
           },
+          {
+            label: "SEO- en SEA-specialist Noord-Limburg",
+            to: "/sea-specialist-noord-limburg/",
+            note: "Google Ads en SEO voor Venlo, Venray, Horst en omgeving.",
+          },
         ]}
       />
       <FaqBlock items={FAQ} />

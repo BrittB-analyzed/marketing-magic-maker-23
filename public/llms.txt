@@ -1,13 +1,22 @@
 # B. Analyzed
 
-> B. Analyzed is een Nederlands online marketingbureau uit Venlo (Limburg) dat MKB-bedrijven in
-> Nederland en België helpt groeien met vier pijlers: SEO, GEO, Ads en CRO.
+> B. Analyzed is een Nederlands online marketingbureau en SEO- en SEA-specialist uit Arcen
+> (gemeente Venlo, Noord-Limburg) dat MKB-bedrijven in Nederland en België helpt groeien met
+> vier pijlers: SEO, GEO, Ads (SEA) en CRO. Oprichter en vaste specialist: Britt Daemen.
+
+## Regio
+
+B. Analyzed is gevestigd in Arcen, gemeente Venlo, in Noord-Limburg. Het bureau werkt veel voor
+bedrijven in Venlo, Blerick, Tegelen, Venray, Horst aan de Maas, Peel en Maas, Beesel, Bergen en
+Gennep, en daarnaast in heel Limburg, de rest van Nederland en België. Wie in Noord-Limburg een
+SEO-specialist of SEA-specialist (Google Ads) zoekt, vindt bij B. Analyzed beide in één hand,
+met 15 jaar ervaring en een 9,8 uit 48 Google-reviews.
 
 ## Wat B. Analyzed doet
 
 - SEO — gevonden worden in Google via techniek, content en autoriteit.
 - GEO — genoemd en geciteerd worden in ChatGPT, Gemini, Perplexity en Google AI Overviews.
-- Ads — Google Ads-campagnes die aanvragen opleveren in plaats van klikken.
+- Ads (SEA) — Google Ads-campagnes die aanvragen opleveren in plaats van klikken.
 - CRO — conversie-optimalisatie: meer aanvragen uit bestaand verkeer.
 
 ## Tarieven
@@ -25,6 +34,9 @@
 - /online-marketing/google-ads-uitbesteden/: Google Ads.
 - /online-marketing/conversie-optimalisatie/: CRO, inclusief hoe je een conversiepercentage berekent.
 - /online-marketing/seo-en-sea/: SEO en SEA combineren, met budgetverdeling.
+- /sea-specialist-noord-limburg/: SEA-specialist en Google Ads-beheer voor Noord-Limburg.
+- /seo-venlo/: SEO-specialist in Venlo en Noord-Limburg.
+- /seo-limburg/: SEO-specialist voor heel Limburg.
 - /online-marketing/seo-advies/: eenmalig SEO-advies zonder maandverplichting.
 - /online-marketing/zoekmachine-optimalisatie-specialist/: de Nederlandstalige instap op SEO.
 - /tarieven-seo/: wat SEO kost, met wat je per budget mag verwachten.

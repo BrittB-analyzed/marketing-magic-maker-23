@@ -3,7 +3,7 @@
  * src/data/organisatie.ts en src/data/bedrijfscijfers.ts, nooit placeholders.
  */
 
-import { AUTEUR, ORGANISATIE, SITE_URL } from "@/data/organisatie";
+import { AUTEUR, ORGANISATIE, SITE_URL, VAKGEBIEDEN, WERKGEBIED } from "@/data/organisatie";
 import { BEDRIJFSCIJFERS } from "@/data/bedrijfscijfers";
 
 const ORG_ID = `${SITE_URL}/#organisatie`;
@@ -21,6 +21,13 @@ const postalAddress = {
   addressRegion: ORGANISATIE.adres.regio,
   addressCountry: ORGANISATIE.adres.land,
 };
+
+/** areaServed: Noord-Limburg, de plaatsen die we bedienen, en de landen. */
+const areaServed = [
+  { "@type": "AdministrativeArea", name: `${WERKGEBIED.regio}, Limburg, Nederland` },
+  ...WERKGEBIED.plaatsen.map((name) => ({ "@type": "City", name })),
+  ...WERKGEBIED.landen.map((name) => ({ "@type": "Country", name })),
+];
 
 const aggregateRating = {
   "@type": "AggregateRating",
@@ -43,6 +50,8 @@ export function organizationSchema() {
     telephone: ORGANISATIE.telefoon,
     vatID: ORGANISATIE.btw,
     address: postalAddress,
+    areaServed,
+    knowsAbout: [...VAKGEBIEDEN],
     sameAs: [...ORGANISATIE.sameAs],
     aggregateRating,
     founder: {
@@ -65,9 +74,11 @@ export function localBusinessSchema() {
     image: ORGANISATIE.logo,
     telephone: ORGANISATIE.telefoon,
     email: ORGANISATIE.email,
+    description: "SEO- en SEA-specialist in Noord-Limburg, gevestigd in Arcen (gemeente Venlo). SEO, Google Ads, GEO en conversie-optimalisatie voor het MKB.",
     priceRange: "€€",
     address: postalAddress,
-    areaServed: BEDRIJFSCIJFERS.werkgebied,
+    areaServed,
+    knowsAbout: [...VAKGEBIEDEN],
     sameAs: [...ORGANISATIE.sameAs],
     aggregateRating,
     parentOrganization: { "@id": ORG_ID },
@@ -101,7 +112,7 @@ export function serviceSchema({
     serviceType: serviceType ?? name,
     url: abs(path),
     provider: { "@id": ORG_ID },
-    areaServed: BEDRIJFSCIJFERS.werkgebied,
+    areaServed,
     offers: {
       "@type": "Offer",
       priceCurrency: "EUR",

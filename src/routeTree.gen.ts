@@ -32,6 +32,7 @@ import { Route as OnlineMarketingStrategieRouteImport } from './routes/online-ma
 import { Route as OnlineMarketingVenloRouteImport } from './routes/online-marketing-venlo'
 import { Route as OnlineMarketingVenrayRouteImport } from './routes/online-marketing-venray'
 import { Route as PrivacybeleidRouteImport } from './routes/privacybeleid'
+import { Route as SeaSpecialistNoordLimburgRouteImport } from './routes/sea-specialist-noord-limburg'
 import { Route as SeoArcenRouteImport } from './routes/seo-arcen'
 import { Route as SeoBelfeldRouteImport } from './routes/seo-belfeld'
 import { Route as SeoBlerickRouteImport } from './routes/seo-blerick'
@@ -218,6 +219,12 @@ const PrivacybeleidRoute = PrivacybeleidRouteImport.update({
   path: '/privacybeleid',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SeaSpecialistNoordLimburgRoute =
+  SeaSpecialistNoordLimburgRouteImport.update({
+    id: '/sea-specialist-noord-limburg',
+    path: '/sea-specialist-noord-limburg',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const SeoArcenRoute = SeoArcenRouteImport.update({
   id: '/seo-arcen',
   path: '/seo-arcen',
@@ -584,6 +591,7 @@ export interface FileRoutesByFullPath {
   '/online-marketing-venlo': typeof OnlineMarketingVenloRoute
   '/online-marketing-venray': typeof OnlineMarketingVenrayRoute
   '/privacybeleid': typeof PrivacybeleidRoute
+  '/sea-specialist-noord-limburg': typeof SeaSpecialistNoordLimburgRoute
   '/seo-arcen': typeof SeoArcenRoute
   '/seo-belfeld': typeof SeoBelfeldRoute
   '/seo-blerick': typeof SeoBlerickRoute
@@ -673,6 +681,7 @@ export interface FileRoutesByTo {
   '/online-marketing-venlo': typeof OnlineMarketingVenloRoute
   '/online-marketing-venray': typeof OnlineMarketingVenrayRoute
   '/privacybeleid': typeof PrivacybeleidRoute
+  '/sea-specialist-noord-limburg': typeof SeaSpecialistNoordLimburgRoute
   '/seo-arcen': typeof SeoArcenRoute
   '/seo-belfeld': typeof SeoBelfeldRoute
   '/seo-blerick': typeof SeoBlerickRoute
@@ -763,6 +772,7 @@ export interface FileRoutesById {
   '/online-marketing-venlo': typeof OnlineMarketingVenloRoute
   '/online-marketing-venray': typeof OnlineMarketingVenrayRoute
   '/privacybeleid': typeof PrivacybeleidRoute
+  '/sea-specialist-noord-limburg': typeof SeaSpecialistNoordLimburgRoute
   '/seo-arcen': typeof SeoArcenRoute
   '/seo-belfeld': typeof SeoBelfeldRoute
   '/seo-blerick': typeof SeoBlerickRoute
@@ -854,6 +864,7 @@ export interface FileRouteTypes {
     | '/online-marketing-venlo'
     | '/online-marketing-venray'
     | '/privacybeleid'
+    | '/sea-specialist-noord-limburg'
     | '/seo-arcen'
     | '/seo-belfeld'
     | '/seo-blerick'
@@ -943,6 +954,7 @@ export interface FileRouteTypes {
     | '/online-marketing-venlo'
     | '/online-marketing-venray'
     | '/privacybeleid'
+    | '/sea-specialist-noord-limburg'
     | '/seo-arcen'
     | '/seo-belfeld'
     | '/seo-blerick'
@@ -1032,6 +1044,7 @@ export interface FileRouteTypes {
     | '/online-marketing-venlo'
     | '/online-marketing-venray'
     | '/privacybeleid'
+    | '/sea-specialist-noord-limburg'
     | '/seo-arcen'
     | '/seo-belfeld'
     | '/seo-blerick'
@@ -1122,6 +1135,7 @@ export interface RootRouteChildren {
   OnlineMarketingVenloRoute: typeof OnlineMarketingVenloRoute
   OnlineMarketingVenrayRoute: typeof OnlineMarketingVenrayRoute
   PrivacybeleidRoute: typeof PrivacybeleidRoute
+  SeaSpecialistNoordLimburgRoute: typeof SeaSpecialistNoordLimburgRoute
   SeoArcenRoute: typeof SeoArcenRoute
   SeoBelfeldRoute: typeof SeoBelfeldRoute
   SeoBlerickRoute: typeof SeoBlerickRoute
@@ -1349,6 +1363,13 @@ declare module '@tanstack/react-router' {
       path: '/privacybeleid'
       fullPath: '/privacybeleid'
       preLoaderRoute: typeof PrivacybeleidRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sea-specialist-noord-limburg': {
+      id: '/sea-specialist-noord-limburg'
+      path: '/sea-specialist-noord-limburg'
+      fullPath: '/sea-specialist-noord-limburg'
+      preLoaderRoute: typeof SeaSpecialistNoordLimburgRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/seo-arcen': {
@@ -1828,6 +1849,7 @@ const rootRouteChildren: RootRouteChildren = {
   OnlineMarketingVenloRoute: OnlineMarketingVenloRoute,
   OnlineMarketingVenrayRoute: OnlineMarketingVenrayRoute,
   PrivacybeleidRoute: PrivacybeleidRoute,
+  SeaSpecialistNoordLimburgRoute: SeaSpecialistNoordLimburgRoute,
   SeoArcenRoute: SeoArcenRoute,
   SeoBelfeldRoute: SeoBelfeldRoute,
   SeoBlerickRoute: SeoBlerickRoute,

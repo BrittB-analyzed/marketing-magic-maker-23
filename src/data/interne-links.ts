@@ -15,6 +15,11 @@ export type InterneLink = { label: string; to: string; note?: string };
 export const REGIO_LINKS: InterneLink[] = [
   { label: "SEO Venlo", to: "/seo-venlo/", note: "SEO-bureau voor Noord-Limburg." },
   { label: "SEO Limburg", to: "/seo-limburg/", note: "De hele provincie, van Venlo tot Maastricht." },
+  {
+    label: "SEA-specialist Noord-Limburg",
+    to: "/sea-specialist-noord-limburg/",
+    note: "Google Ads en SEO voor Venlo, Venray en Horst.",
+  },
   { label: "SEO Maastricht", to: "/seo-maastricht/", note: "Zuid-Limburg en de Euregio." },
   { label: "SEO Roermond", to: "/seo-roermond/", note: "Midden-Limburg en het Outletgebied." },
   { label: "SEO Venray", to: "/seo-venray/", note: "Noord-Limburg en de Peel." },
