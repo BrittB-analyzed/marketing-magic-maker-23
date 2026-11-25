@@ -4,6 +4,10 @@ export type PostSection = {
   /** Platte tekst; een lege regel ("\n\n") begint een nieuwe alinea. */
   p: string;
   list?: string[];
+  /** Toon de lijst genummerd (1, 2, 3) in plaats van met bolletjes. */
+  ordered?: boolean;
+  /** Tekst die na de lijst of tabel komt; een lege regel begint een nieuwe alinea. */
+  na?: string;
   table?: { head: string[]; rows: string[][] };
   images?: PostImage[];
   links?: { label: string; href: string }[];
@@ -21,6 +25,133 @@ export type Post = {
 };
 
 export const POSTS: Record<string, Post> = {
+  "agentic-seo-workflows-2026": {
+  "slug": "agentic-seo-workflows-2026",
+  "title": "Agentic SEO in 2026: van losse prompts naar slimme systemen",
+  "description": "Wat is agentic SEO? Zes workflows met SE Ranking, Claude en Screaming Frog die uren schelen, en zes vragen om te bepalen wat je wel en niet automatiseert.",
+  "date": "2026-11-16",
+  "tag": "AI & SEO",
+  "excerpt": "Een goede prompt bespaart je een uur, een goed systeem elke week een dag. Zo zet je AI, live zoekdata en je eigen SEO-tools aan elkaar in workflows die schalen.",
+  "image": "/assets/blog/agentic-seo-workflows-2026/vijf-fases-agentic-seo-workflow.webp",
+  "imageAlt": "Schema van de vijf fases van een agentic SEO-workflow",
+  "sections": [
+    {
+      "h": "Van een slimme prompt naar een slim systeem",
+      "p": "Een goede prompt bespaart je een uur. Een goed systeem bespaart je elke week een dag. Dat is in één zin het verschil tussen hoe de meeste bedrijven AI nu inzetten voor SEO en waar het in 2026 naartoe gaat.\n\nTwee jaar geleden draaide alles om de perfecte prompt: een slimme opdracht in ChatGPT, een eigen Custom GPT of een Claude-project vol instructies. Dat werkt prima voor een losse tekst of een snelle analyse. Maar wie een website met honderden pagina's beheert of duizenden zoekwoorden moet ordenen, loopt al snel vast. Elke keer opnieuw kopiëren en plakken, steeds net andere uitkomsten en geen manier om het werk op te schalen.\n\nDaarom stappen steeds meer bureaus en marketingteams over op agentic SEO: werkprocessen waarin AI-modellen, live zoekdata, SEO-tools en een menselijke specialist automatisch op elkaar aansluiten. In dit artikel lees je wat dat in de praktijk betekent, bij welke zes taken het de meeste tijd scheelt en hoe je bepaalt wat je wel en niet moet automatiseren."
+    },
+    {
+      "h": "Waarom losse prompts niet meer genoeg zijn",
+      "p": "Een prompt is een losse opdracht. Je geeft input, je krijgt output, en daarna begint het handwerk: resultaten controleren, overzetten naar een spreadsheet, combineren met data uit Search Console of je keywordtool. Daar zitten drie problemen in:",
+      "ordered": true,
+      "list": [
+        "Wisselende kwaliteit: dezelfde vraag levert morgen een ander antwoord op dan vandaag. Voor een strategie waar je op wilt bouwen, is dat onhandig.",
+        "Veel handwerk tussen de stappen: de AI doet één stukje, jij doet de rest. De tijdwinst valt daardoor vaak tegen.",
+        "Het schaalt niet: tien zoekwoorden kun je nog met de hand verwerken, tienduizend niet."
+      ],
+      "images": [
+        {
+          "src": "/assets/blog/agentic-seo-workflows-2026/prompt-vs-agentic-workflow.webp",
+          "alt": "Schema: links een losse prompt waarbij de gebruiker zelf kopieert en controleert, rechts een agentic workflow die data ophaalt, verwerkt, laat goedkeuren en doorzet"
+        }
+      ]
+    },
+    {
+      "h": "Wat is agentic SEO?",
+      "p": "Bij agentic SEO bouw je geen betere prompt, maar een systeem. Zo'n systeem haalt zelf data op, verwerkt die met AI, legt de uitkomst voor aan een specialist en zet het goedgekeurde resultaat door naar de volgende stap. De persoon die zulke systemen ontwerpt, noemen we steeds vaker een marketing engineer: iemand die marketing, data en techniek combineert.\n\nEen goed opgezette workflow doorloopt altijd dezelfde vijf fases:",
+      "ordered": true,
+      "list": [
+        "Het knelpunt kiezen: welke taak kost nu onevenredig veel tijd? Denk aan dagenlang zoekwoorden sorteren of elke maand dezelfde rapportage samenstellen.",
+        "Koppelen: de benodigde tools, zoals SE Ranking, Semrush, DataForSEO of Search Console, via een API verbinden met een AI-model.",
+        "Automatisch verwerken: data verzamelen, opschonen en in een vaste structuur zetten, zonder dat iemand ernaar hoeft om te kijken.",
+        "Menselijke controle: een ervaren SEO-specialist beoordeelt de uitkomst op strategie, kwaliteit en tone of voice. Dit heet ook wel human-in-the-loop.",
+        "Live zetten en meten: de resultaten doorvoeren en bijhouden of de workflow echt iets oplevert."
+      ],
+      "images": [
+        {
+          "src": "/assets/blog/agentic-seo-workflows-2026/vijf-fases-agentic-seo-workflow.webp",
+          "alt": "Schema van de vijf fases: knelpunt kiezen, koppelen, verwerken, menselijke check, live zetten en meten"
+        }
+      ]
+    },
+    {
+      "h": "1. Zoekwoorden clusteren in uren in plaats van weken",
+      "p": "Zoekwoorden vinden is met de huidige tools geen probleem meer. Het lastige deel komt daarna: welke zoektermen horen bij elkaar, wanneer heeft een zoekwoord een andere intentie, en waar heb je een aparte pagina voor nodig?\n\nEen agentic workflow pakt dat in drie stappen aan. Eerst haalt hij voor elk zoekwoord op welke pagina's er nu in Google staan. Daarna berekent AI hoe inhoudelijk verwant de zoektermen zijn (met zogeheten embeddings). Tot slot worden de zoekwoorden automatisch gegroepeerd op onderwerp en intentie, desnoods in meerdere talen tegelijk. De specialist krijgt een kant-en-klaar overzicht en kan meteen beslissen welke clusters prioriteit krijgen.\n\nZo ziet dat eruit: een webshop in tuinverlichting heeft 1.500 zoekwoorden uit SE Ranking. Een script, gebouwd met Claude Code, haalt via de API van SE Ranking per zoekwoord de top tien op. Zoekwoorden waarvoor grotendeels dezelfde pagina's ranken, komen in één cluster, zoals \"tuinspots\", \"wandlampen buiten\" en \"tuinverlichting op zonne-energie\". Claude geeft elk cluster een label voor de zoekintentie (informatief of koopgericht) en stelt voor welke pagina erbij hoort. Het resultaat staat in een Google Sheet, klaar om te beoordelen.",
+      "images": [
+        {
+          "src": "/assets/blog/agentic-seo-workflows-2026/zoekwoorden-clusteren-workflow.webp",
+          "alt": "Schema: zoekwoorden uit SE Ranking, top 10 per zoekwoord via de API, clustering met Claude Code, intentielabels door Claude, resultaat in Google Sheet"
+        }
+      ]
+    },
+    {
+      "h": "2. Contentbriefings op basis van live zoekresultaten",
+      "p": "Voor een goede contentbriefing bekijk je normaal gesproken per zoekwoord de huidige toppagina's, analyseer je wat concurrenten behandelen en bepaal je welke onderwerpen niet mogen ontbreken. Voor één artikel is dat te doen. Voor een contentkalender met vijftig artikelen kost het weken.\n\nEen geautomatiseerde workflow analyseert de top tien voor het doelzoekwoord, vult dat aan met je eigen bedrijfsinformatie en doelgroepkennis, en laat AI daar een complete briefing van maken: opbouw, kopjes, toon en gewenste lengte. Pas daarna kijkt de specialist mee, zodat de tekstschrijver start met een briefing die strategisch klopt en bij je merk past.\n\nZo ziet dat eruit: voor een rijschool staat een blog gepland over \"hoeveel rijlessen heb je nodig\". De workflow haalt de top tien op uit SE Ranking en de zoekopdrachten waarmee de site nu al vertoningen krijgt uit Google Search Console. Een Claude-skill met de tone of voice van de rijschool maakt daar een briefing van: de vragen die concurrenten beantwoorden, de kopjes, de lengte en waar je intern naar linkt. De specialist leest hem na en past aan waar nodig voordat de schrijver begint."
+    },
+    {
+      "h": "3. Losse tools aan elkaar koppelen",
+      "p": "De grootste winst zit niet in één slimme AI-taak, maar in de koppeling tussen taken. Neem een content gap-analyse. Normaal exporteer je data uit je keywordtool, filter je die in Excel, bekijk je de zoekresultaten met de hand en schrijf je daarna pas een briefing.\n\nIn een gekoppelde workflow gebeurt dat in één doorlopende keten: het systeem haalt de ontbrekende onderwerpen op, zet ze op volgorde van kansrijkheid, maakt een eerste opzet voor de pagina en legt alles klaar in één omgeving. De specialist hoeft alleen nog te beoordelen en bij te sturen.\n\nZo ziet dat eruit: SE Ranking laat zien voor welke zoekwoorden twee concurrenten wel ranken en jij niet. Claude zet die lijst op volgorde, op basis van zoekvolume, moeilijkheid en hoe goed het onderwerp bij je diensten past. Van de vijf beste kansen maakt het systeem een eerste opzet, die als concept in WordPress terechtkomt. Er gaat niets live zonder dat de specialist het concept heeft gelezen en goedgekeurd."
+    },
+    {
+      "h": "4. Zichtbaarheid in AI-antwoorden in kaart brengen (GEO)",
+      "p": "AI-zoekmachines zoals ChatGPT, Perplexity en Google AI Overviews splitsen één vraag op in tientallen deelvragen. Dat heet query fan-out. Wie alleen op het hoofdzoekwoord optimaliseert, mist dus een groot deel van de antwoorden waarin hij genoemd had kunnen worden.\n\nEen agentic workflow brengt rond een kernonderwerp alle vragen en informatiebehoeften in kaart, controleert hoe vaak jouw merk in AI-antwoorden voorkomt ten opzichte van concurrenten en zet de gaten op volgorde van zichtbaarheid en omzetpotentie. Zo ontstaat een roadmap voor generative engine optimization in plaats van losse gokken.\n\nZo ziet dat eruit: een online marketingbureau wil genoemd worden als iemand vraagt naar een \"GEO-specialist in Limburg\". Claude splitst die vraag op in de vervolgvragen die een AI-zoekmachine waarschijnlijk stelt, zoals \"wat kost GEO?\", \"wat is het verschil met SEO?\" en \"hoe meet je zichtbaarheid in ChatGPT?\". Met de AI Search Toolkit van SE Ranking zie je hoe vaak jouw merk en je concurrenten in AI-antwoorden voorkomen. Vragen waarop je nog niet wordt genoemd, komen bovenaan de contentplanning.",
+      "images": [
+        {
+          "src": "/assets/blog/agentic-seo-workflows-2026/query-fan-out-geo.webp",
+          "alt": "Schema: de hoofdvraag GEO-specialist Limburg vertakt in zes deelvragen, zoals wat kost GEO en wat is het verschil met SEO"
+        }
+      ]
+    },
+    {
+      "h": "5. Kwaliteit bewaken als je veel content maakt",
+      "p": "Met AI is het makkelijk om veel content te produceren. Juist daardoor wordt kwaliteitsbewaking belangrijker, zeker in sectoren met strenge regels, zoals zorg, financiën of juridische dienstverlening, of bij merken met duidelijke huisstijlrichtlijnen.\n\nEen governance-workflow zet alles in één dashboard: automatische checks op tone of voice en merkrichtlijnen, vaste goedkeuringsrondes voor juridische of inhoudelijke controle en een helder overzicht van welke tekst in welke fase zit. Geen losse mailtjes en geen zoekgeraakte versies meer.\n\nZo ziet dat eruit: een financieel adviseur laat elke maand acht blogs schrijven. Voordat een tekst naar de klant gaat, controleert een Claude-skill hem op de merkrichtlijnen: aanspreekvorm, verboden beloftes zoals \"gegarandeerd rendement\", verplichte disclaimers en de huisstijl van koppen. Wat niet voldoet, krijgt een opmerking terug. In één overzicht zie je per tekst of hij in concept, in controle, bij de klant of gepubliceerd is."
+    },
+    {
+      "h": "6. Technische SEO-meldingen slim prioriteren",
+      "p": "Een crawler zoals Screaming Frog vindt op een grotere site al snel duizenden meldingen. Maar de crawler weet niet welke pagina's het meeste omzet opleveren, en ook niet of een wijziging bewust is doorgevoerd.\n\nEen slimme technische workflow controleert dagelijks alle belangrijke URL's en weegt elke verandering af. Is dit onverwacht? Gaat het om een pagina die veel conversies oplevert? Is een eerder doorgegeven verbetering ook echt goed doorgevoerd? Alleen wat ertoe doet, komt als melding bij het team terecht. Zo los je problemen op voordat ze je posities of omzet kosten.\n\nZo ziet dat eruit: Screaming Frog crawlt elke maandagnacht automatisch een Shopify-webshop en haalt via de koppeling met Google Search Console en GA4 de kliks en conversies per URL op. Claude vergelijkt de crawl met die van vorige week. Staat een productcategorie met veel verkopen ineens op noindex, of is een canonical veranderd, dan krijgt het team dezelfde ochtend een melding met uitleg. Honderd kleine meldingen op pagina's zonder verkeer blijven in het rapport en leiden niemand af.",
+      "images": [
+        {
+          "src": "/assets/blog/agentic-seo-workflows-2026/technische-seo-monitoring-workflow.webp",
+          "alt": "Schema: wekelijkse Screaming Frog-crawl, kliks en conversies uit Search Console en GA4, vergelijking door Claude, filter op pagina's met verkopen, gerichte melding"
+        }
+      ]
+    },
+    {
+      "h": "Automatiseren of niet? Zes toetsvragen",
+      "p": "Een workflow bouwen kost tijd en geld. Automatiseren omdat het kan, is dus geen goed idee. Loop deze zes vragen langs voordat je begint:",
+      "ordered": true,
+      "list": [
+        "Herhaalt de taak zich? Volg je telkens dezelfde stappen?",
+        "Komt de taak vaak voor? Doe je dit wekelijks, of doen meerdere collega's het maandelijks?",
+        "Draait het om veel data? Zit het werk in het verwerken van grote hoeveelheden informatie, en niet in één strategische keuze?",
+        "Zijn de regels vast te leggen? Kun je criteria, drempelwaarden en prioriteiten helder omschrijven?",
+        "Waar moet een mens meekijken? Welke stappen vragen echt om ervaring en oordeel?",
+        "Is de winst meetbaar? Levert het, na aftrek van bouwtijd en AI-kosten, netto tijd en betere resultaten op?"
+      ],
+      "na": "Beantwoord je de eerste vier vragen met ja, dan is de taak waarschijnlijk geschikt voor automatisering. Vraag vijf bepaalt waar de menselijke controle in de workflow komt, en vraag zes of het de investering waard is.",
+      "images": [
+        {
+          "src": "/assets/blog/agentic-seo-workflows-2026/terugverdientijd-seo-automatisering.webp",
+          "alt": "Lijngrafiek: handmatig werk loopt op tot 72 uur in twaalf weken, een workflow tot 28 uur; terugverdiend na ruim drie weken",
+          "caption": "Rekenvoorbeeld ter illustratie: 6 uur handwerk per week tegenover 16 uur bouwen en 1 uur controle per week."
+        }
+      ]
+    },
+    {
+      "h": "Wie heb je nodig in je team?",
+      "p": "Sterke marketingteams combineren in 2026 drie soorten expertise:",
+      "list": [
+        "De SEO-strateeg kent de markt, bepaalt de koers en bewaakt kwaliteit en creativiteit.",
+        "De data-specialist legt vast wat succes is en meet de werkelijke impact op aanvragen, conversies en omzet.",
+        "De marketing engineer bouwt en onderhoudt de systemen waarmee het team op schaal kan werken."
+      ],
+      "na": "Voor de meeste MKB-bedrijven zijn dat geen drie aparte functies. Vaak combineert één specialist of bureau deze rollen. Het belangrijkste is dat alle drie de invalshoeken aan tafel zitten."
+    },
+    {
+      "h": "Conclusie: van AI-experiment naar vast onderdeel van je marketing",
+      "p": "De vraag is in 2026 niet meer óf je AI gebruikt, maar hoe goed je het hebt ingebed in je werkprocessen. Losse prompts zijn een prima begin. Wie de stap zet naar gestructureerde workflows, werkt sneller, nauwkeuriger en met resultaten waar je op kunt bouwen.\n\nBenieuwd welke onderdelen van jouw SEO al slimmer kunnen? Bij B. Analyzed combineren we jarenlange SEO-ervaring met de nieuwste AI- en datatools, met één vast aanspreekpunt en meetbaar resultaat. Vraag de gratis SEO-scan aan of neem contact op voor een aanpak op maat."
+    }
+  ]
+},
   "seo-performance-meten-2026": {
   "slug": "seo-performance-meten-2026",
   "title": "SEO-performance meten in 2026: van vanity metrics naar omzet",
@@ -79,6 +210,7 @@ export const POSTS: Record<string, Post> = {
     {
       "h": "Waarom vanity metrics je SEO-strategie misleiden",
       "p": "Veel marketingteams vieren successen op basis van vanity metrics (ijdelheidsstatistieken). Een stijging van 60% in organisch verkeer klinkt fantastisch, maar als de omzet met 20% daalt, schiet je er niets mee op. Waarom sturen traditionele metrieken je soms het bos in?",
+      "ordered": true,
       "list": [
         "Rankings zonder conversie-intentie: ranken op positie 1 voor een zoekwoord met een hoog zoekvolume maar nul commerciële intentie levert weliswaar bezoekers op, maar geen omzet.",
         "De privacy gap in Search Console: Google toont zeldzame zoekopdrachten niet, om de privacy van gebruikers te beschermen. Uit onderzoek van Ahrefs (2026) blijkt dat gemiddeld bijna de helft (±47%) van alle kliks geen zichtbare zoekterm heeft; bij veel websites ligt dat aandeel tussen 45% en 80%. Search Console geeft dus een richtinggevend signaal, maar niet de volledige waarheid.",
@@ -182,6 +314,7 @@ export const POSTS: Record<string, Post> = {
     {
       "h": "Veelvoorkomende valkuilen bij het meten van SEO",
       "p": "",
+      "ordered": true,
       "list": [
         "Silo-rapportage: SEO op zichzelf beoordelen zonder te kijken naar hoe het samenwerkt met Google Ads, social media en e-mailmarketing.",
         "Te vroeg conclusies trekken: SEO-aanpassingen hebben vaak enkele weken tot maanden nodig om volledig door te werken in de zoekresultaten.",
