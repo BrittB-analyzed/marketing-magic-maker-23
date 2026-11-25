@@ -53,6 +53,8 @@ import { Route as SeoRoermondRouteImport } from './routes/seo-roermond'
 import { Route as SeoRotterdamRouteImport } from './routes/seo-rotterdam'
 import { Route as SeoScoreRouteImport } from './routes/seo-score'
 import { Route as SeoVenloRouteImport } from './routes/seo-venlo'
+import { Route as GeoSpecialistLimburgRouteImport } from './routes/geo-specialist-limburg'
+import { Route as GeoSpecialistVenloRouteImport } from './routes/geo-specialist-venlo'
 import { Route as SeoVenrayRouteImport } from './routes/seo-venray'
 import { Route as SeoVoorMkbRouteImport } from './routes/seo-voor-mkb'
 import { Route as TarievenLinkbuildingRouteImport } from './routes/tarieven-linkbuilding'
@@ -323,6 +325,16 @@ const SeoScoreRoute = SeoScoreRouteImport.update({
 const SeoVenloRoute = SeoVenloRouteImport.update({
   id: '/seo-venlo',
   path: '/seo-venlo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GeoSpecialistLimburgRoute = GeoSpecialistLimburgRouteImport.update({
+  id: '/geo-specialist-limburg',
+  path: '/geo-specialist-limburg',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GeoSpecialistVenloRoute = GeoSpecialistVenloRouteImport.update({
+  id: '/geo-specialist-venlo',
+  path: '/geo-specialist-venlo',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SeoVenrayRoute = SeoVenrayRouteImport.update({
@@ -612,6 +624,8 @@ export interface FileRoutesByFullPath {
   '/seo-rotterdam': typeof SeoRotterdamRoute
   '/seo-score': typeof SeoScoreRoute
   '/seo-venlo': typeof SeoVenloRoute
+  '/geo-specialist-limburg': typeof GeoSpecialistLimburgRoute
+  '/geo-specialist-venlo': typeof GeoSpecialistVenloRoute
   '/seo-venray': typeof SeoVenrayRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
   '/tarieven-linkbuilding': typeof TarievenLinkbuildingRoute
@@ -702,6 +716,8 @@ export interface FileRoutesByTo {
   '/seo-rotterdam': typeof SeoRotterdamRoute
   '/seo-score': typeof SeoScoreRoute
   '/seo-venlo': typeof SeoVenloRoute
+  '/geo-specialist-limburg': typeof GeoSpecialistLimburgRoute
+  '/geo-specialist-venlo': typeof GeoSpecialistVenloRoute
   '/seo-venray': typeof SeoVenrayRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
   '/tarieven-linkbuilding': typeof TarievenLinkbuildingRoute
@@ -793,6 +809,8 @@ export interface FileRoutesById {
   '/seo-rotterdam': typeof SeoRotterdamRoute
   '/seo-score': typeof SeoScoreRoute
   '/seo-venlo': typeof SeoVenloRoute
+  '/geo-specialist-limburg': typeof GeoSpecialistLimburgRoute
+  '/geo-specialist-venlo': typeof GeoSpecialistVenloRoute
   '/seo-venray': typeof SeoVenrayRoute
   '/seo-voor-mkb': typeof SeoVoorMkbRoute
   '/tarieven-linkbuilding': typeof TarievenLinkbuildingRoute
@@ -885,6 +903,8 @@ export interface FileRouteTypes {
     | '/seo-rotterdam'
     | '/seo-score'
     | '/seo-venlo'
+    | '/geo-specialist-limburg'
+    | '/geo-specialist-venlo'
     | '/seo-venray'
     | '/seo-voor-mkb'
     | '/tarieven-linkbuilding'
@@ -975,6 +995,8 @@ export interface FileRouteTypes {
     | '/seo-rotterdam'
     | '/seo-score'
     | '/seo-venlo'
+    | '/geo-specialist-limburg'
+    | '/geo-specialist-venlo'
     | '/seo-venray'
     | '/seo-voor-mkb'
     | '/tarieven-linkbuilding'
@@ -1065,6 +1087,8 @@ export interface FileRouteTypes {
     | '/seo-rotterdam'
     | '/seo-score'
     | '/seo-venlo'
+    | '/geo-specialist-limburg'
+    | '/geo-specialist-venlo'
     | '/seo-venray'
     | '/seo-voor-mkb'
     | '/tarieven-linkbuilding'
@@ -1156,6 +1180,8 @@ export interface RootRouteChildren {
   SeoRotterdamRoute: typeof SeoRotterdamRoute
   SeoScoreRoute: typeof SeoScoreRoute
   SeoVenloRoute: typeof SeoVenloRoute
+  GeoSpecialistLimburgRoute: typeof GeoSpecialistLimburgRoute
+  GeoSpecialistVenloRoute: typeof GeoSpecialistVenloRoute
   SeoVenrayRoute: typeof SeoVenrayRoute
   SeoVoorMkbRoute: typeof SeoVoorMkbRoute
   TarievenLinkbuildingRoute: typeof TarievenLinkbuildingRoute
@@ -1510,6 +1536,20 @@ declare module '@tanstack/react-router' {
       path: '/seo-venlo'
       fullPath: '/seo-venlo'
       preLoaderRoute: typeof SeoVenloRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/geo-specialist-limburg': {
+      id: '/geo-specialist-limburg'
+      path: '/geo-specialist-limburg'
+      fullPath: '/geo-specialist-limburg'
+      preLoaderRoute: typeof GeoSpecialistLimburgRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/geo-specialist-venlo': {
+      id: '/geo-specialist-venlo'
+      path: '/geo-specialist-venlo'
+      fullPath: '/geo-specialist-venlo'
+      preLoaderRoute: typeof GeoSpecialistVenloRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/seo-venray': {
@@ -1870,6 +1910,8 @@ const rootRouteChildren: RootRouteChildren = {
   SeoRotterdamRoute: SeoRotterdamRoute,
   SeoScoreRoute: SeoScoreRoute,
   SeoVenloRoute: SeoVenloRoute,
+  GeoSpecialistLimburgRoute: GeoSpecialistLimburgRoute,
+  GeoSpecialistVenloRoute: GeoSpecialistVenloRoute,
   SeoVenrayRoute: SeoVenrayRoute,
   SeoVoorMkbRoute: SeoVoorMkbRoute,
   TarievenLinkbuildingRoute: TarievenLinkbuildingRoute,
