@@ -67,13 +67,20 @@ function Article() {
                       {alinea}
                     </p>
                   ))}
-                {s.list && (
-                  <ul className="mt-3 list-disc space-y-2 pl-5 text-base leading-relaxed text-brand-muted">
-                    {s.list.map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
-                )}
+                {s.list &&
+                  (s.ordered ? (
+                    <ol className="mt-3 list-decimal space-y-2 pl-5 text-base leading-relaxed text-brand-muted">
+                      {s.list.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ol>
+                  ) : (
+                    <ul className="mt-3 list-disc space-y-2 pl-5 text-base leading-relaxed text-brand-muted">
+                      {s.list.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
+                  ))}
                 {s.table && (
                   <div className="mt-4 overflow-x-auto rounded-2xl border border-brand-line">
                     <table className="w-full text-left text-sm">

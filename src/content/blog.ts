@@ -4,6 +4,8 @@ export type PostSection = {
   /** Platte tekst; een lege regel ("\n\n") begint een nieuwe alinea. */
   p: string;
   list?: string[];
+  /** Toon de lijst genummerd (1, 2, 3) in plaats van met bolletjes. */
+  ordered?: boolean;
   table?: { head: string[]; rows: string[][] };
   images?: PostImage[];
   links?: { label: string; href: string }[];
@@ -79,6 +81,7 @@ export const POSTS: Record<string, Post> = {
     {
       "h": "Waarom vanity metrics je SEO-strategie misleiden",
       "p": "Veel marketingteams vieren successen op basis van vanity metrics (ijdelheidsstatistieken). Een stijging van 60% in organisch verkeer klinkt fantastisch, maar als de omzet met 20% daalt, schiet je er niets mee op. Waarom sturen traditionele metrieken je soms het bos in?",
+      "ordered": true,
       "list": [
         "Rankings zonder conversie-intentie: ranken op positie 1 voor een zoekwoord met een hoog zoekvolume maar nul commerciële intentie levert weliswaar bezoekers op, maar geen omzet.",
         "De privacy gap in Search Console: Google toont zeldzame zoekopdrachten niet, om de privacy van gebruikers te beschermen. Uit onderzoek van Ahrefs (2026) blijkt dat gemiddeld bijna de helft (±47%) van alle kliks geen zichtbare zoekterm heeft; bij veel websites ligt dat aandeel tussen 45% en 80%. Search Console geeft dus een richtinggevend signaal, maar niet de volledige waarheid.",
@@ -182,6 +185,7 @@ export const POSTS: Record<string, Post> = {
     {
       "h": "Veelvoorkomende valkuilen bij het meten van SEO",
       "p": "",
+      "ordered": true,
       "list": [
         "Silo-rapportage: SEO op zichzelf beoordelen zonder te kijken naar hoe het samenwerkt met Google Ads, social media en e-mailmarketing.",
         "Te vroeg conclusies trekken: SEO-aanpassingen hebben vaak enkele weken tot maanden nodig om volledig door te werken in de zoekresultaten.",
