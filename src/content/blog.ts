@@ -1,4 +1,13 @@
-export type PostSection = { h: string; p: string };
+export type PostImage = { src: string; alt: string; caption?: string };
+export type PostSection = {
+  h: string;
+  /** Platte tekst; een lege regel ("\n\n") begint een nieuwe alinea. */
+  p: string;
+  list?: string[];
+  table?: { head: string[]; rows: string[][] };
+  images?: PostImage[];
+  links?: { label: string; href: string }[];
+};
 export type Post = {
   slug: string;
   title: string;
@@ -12,6 +21,193 @@ export type Post = {
 };
 
 export const POSTS: Record<string, Post> = {
+  "seo-performance-meten-2026": {
+  "slug": "seo-performance-meten-2026",
+  "title": "SEO-performance meten in 2026: van vanity metrics naar omzet",
+  "description": "Stop met vanity metrics. Ontdek welke SEO-KPI's in 2026 écht tellen, hoe je AI-zichtbaarheid meet en hoe je SEO koppelt aan conversies en omzet.",
+  "date": "2026-11-25",
+  "tag": "SEO",
+  "excerpt": "Een nummer 1-positie of meer bezoekers zegt in 2026 weinig. Zo koppel je SEO aan conversies, omzet en zichtbaarheid in AI-antwoorden, met de KPI's die er écht toe doen.",
+  "image": "/assets/blog/seo-performance-meten-2026/seo-vanity-metrics-verkeer-vs-omzet.webp",
+  "imageAlt": "Staafdiagram: organisch verkeer stijgt met 60 procent terwijl de organische omzet met 20 procent daalt",
+  "sections": [
+    {
+      "h": "Waarom SEO meten in 2026 anders is",
+      "p": "SEO gaat in 2026 niet meer alleen over het behalen van een nummer 1-positie in Google of het genereren van zoveel mogelijk anonieme bezoekers. Met de opkomst van AI Overviews, zero-click zoekresultaten en AI-chatbots zoals ChatGPT, Gemini en Perplexity is het meten van zoekmachineprestaties fundamenteel veranderd. Echte SEO-performance draait om het verbinden van zoekzichtbaarheid aan concrete zakelijke resultaten: kwalitatief verkeer, conversies, omzet en merkautoriteit in zowel traditionele zoekmachines als AI-antwoordsystemen.\n\nIn dit artikel leggen we precies uit hoe je het verschil maakt tussen SEO-prestaties en SEO-resultaten, welke KPI's er écht toe doen, hoe je AI-zichtbaarheid meet en hoe je een waterdicht meetmodel opbouwt voor jouw organisatie."
+    },
+    {
+      "h": "SEO-performance vs. SEO-resultaten: wat is het verschil?",
+      "p": "Veel bedrijven halen twee begrippen door elkaar: SEO-prestaties (performance) en SEO-resultaten (results). Toch zijn dit twee verschillende dimensies van je online marketingstrategie.",
+      "table": {
+        "head": [
+          "Categorie",
+          "SEO-performance (prestaties)",
+          "SEO-resultaten (results)"
+        ],
+        "rows": [
+          [
+            "Focus",
+            "Voortgang, trends en de algemene gezondheid van je site",
+            "Concrete zakelijke uitkomsten en harde cijfers"
+          ],
+          [
+            "Doel",
+            "Kansen en technische knelpunten vroegtijdig opsporen",
+            "De ROI en zakelijke waarde bewijzen aan stakeholders"
+          ],
+          [
+            "Metrieken",
+            "Zoekwoordgroei, impressies, CTR-trends, Core Web Vitals",
+            "Exact organisch bezoekersaantal, conversieratio, omzet"
+          ],
+          [
+            "Evaluatie",
+            "Continu of per kwartaal",
+            "Maandelijks of per campagne"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "SEO-prestaties (performance)",
+      "p": "SEO-performance brengt de gezondheid en het potentieel van je website in kaart. Het laat zien of zoekmachines jouw content opmerken en waarderen. Denk hierbij aan stijgende impressies in Google Search Console of een toename van het aantal zoekwoorden waarmee je pagina's in de top 10 verschijnen. Prestaties fungeren als vroegtijdige signalen die voorspellen of er in de toekomst meer verkeer en omzet aan gaat komen."
+    },
+    {
+      "h": "SEO-resultaten (results)",
+      "p": "SEO-resultaten zijn de kwantificeerbare uitkomsten van al je inspanningen. Het beantwoordt de vraag: wat levert al die moeite en investering onderaan de streep op? Hier kijken we naar het exacte aantal organische bezoekers, de gegenereerde leads, het aantal verkopen en de uiteindelijke omzet uit organisch zoekverkeer."
+    },
+    {
+      "h": "Waarom vanity metrics je SEO-strategie misleiden",
+      "p": "Veel marketingteams vieren successen op basis van vanity metrics (ijdelheidsstatistieken). Een stijging van 60% in organisch verkeer klinkt fantastisch, maar als de omzet met 20% daalt, schiet je er niets mee op. Waarom sturen traditionele metrieken je soms het bos in?",
+      "list": [
+        "Rankings zonder conversie-intentie: ranken op positie 1 voor een zoekwoord met een hoog zoekvolume maar nul commerciële intentie levert weliswaar bezoekers op, maar geen omzet.",
+        "De privacy gap in Search Console: Google toont zeldzame zoekopdrachten niet, om de privacy van gebruikers te beschermen. Uit onderzoek van Ahrefs (2026) blijkt dat gemiddeld bijna de helft (±47%) van alle kliks geen zichtbare zoekterm heeft; bij veel websites ligt dat aandeel tussen 45% en 80%. Search Console geeft dus een richtinggevend signaal, maar niet de volledige waarheid.",
+        "Stijging in scraper- en botverkeer: geautomatiseerd botverkeer (scrapers en AI-crawlers) is sterk toegenomen. Zonder goede filtering kan dit een vals beeld geven van je werkelijke bezoekersaantallen.",
+        "De impact van zero-click search en AI Overviews: gebruikers krijgen hun antwoord steeds vaker direct op de zoekresultatenpagina of via AI-antwoorden. Een zoekwoordpositie kan hoog zijn, maar als het antwoord al bovenin door een AI Overview wordt getoond, daalt de klikfrequentie (CTR)."
+      ],
+      "images": [
+        {
+          "src": "/assets/blog/seo-performance-meten-2026/search-console-kliks-zonder-zoekterm.webp",
+          "alt": "Balkdiagram: gemiddeld 53 procent van de Search Console-kliks heeft een zichtbare zoekterm, 47 procent is geanonimiseerd",
+          "caption": "Bron: Ahrefs, 2026."
+        }
+      ]
+    },
+    {
+      "h": "Hoeveel kliks kost een AI Overview?",
+      "p": "Ahrefs vergeleek de klikfrequentie van het #1-resultaat voor en na de komst van AI Overviews. Bij informatieve zoekwoorden zonder AI Overview daalde de CTR van positie 1 tussen december 2023 en december 2025 van 7,6% naar 3,9%. Bij zoekwoorden mét AI Overview zakte die van 7,3% naar 1,6%. Gecorrigeerd voor de algemene daling krijgt het toppresultaat bij een AI Overview zo'n 58% minder kliks, en ook op positie 2 en 3 is het effect groot. Een hoge positie is dus geen garantie meer voor verkeer.",
+      "images": [
+        {
+          "src": "/assets/blog/seo-performance-meten-2026/ai-overviews-ctr-positie-1.webp",
+          "alt": "Staafdiagram: CTR van positie 1 daalde van 7,6 naar 3,9 procent zonder AI Overview en van 7,3 naar 1,6 procent met AI Overview tussen december 2023 en december 2025",
+          "caption": "Bron: Ahrefs, februari 2026."
+        },
+        {
+          "src": "/assets/blog/seo-performance-meten-2026/ai-overviews-ctr-daling-per-positie.webp",
+          "alt": "Staafdiagram: een AI Overview verlaagt de CTR met 58 procent op positie 1, 50,8 procent op positie 2 en 46,4 procent op positie 3",
+          "caption": "Bron: Ahrefs, februari 2026."
+        }
+      ]
+    },
+    {
+      "h": "De belangrijkste SEO-KPI's om in 2026 te meten",
+      "p": "Om een realistisch en waardevol beeld te krijgen van je SEO-succes, verdeel je je KPI's in vier hoofdcategorieën.",
+      "images": [
+        {
+          "src": "/assets/blog/seo-performance-meten-2026/seo-kpi-categorieen-2026.webp",
+          "alt": "Overzicht van vier SEO-KPI-categorieën: zakelijke uitkomsten, verkeerskwaliteit, AI- en LLM-zichtbaarheid, SERP en techniek"
+        }
+      ]
+    },
+    {
+      "h": "A. Zakelijke uitkomsten en omzet (business impact)",
+      "p": "",
+      "list": [
+        "Organische omzet: de directe omzet die voortvloeit uit organische bezoekers, meetbaar via Google Analytics 4 en e-commerce tracking.",
+        "Organische conversieratio: het percentage organische bezoekers dat een gewenste actie uitvoert, zoals een leadformulier invullen, een aankoop doen of een offerte aanvragen.",
+        "Customer Acquisition Cost (CAC) vs. Lifetime Value (LTV): de kosten om een klant via SEO binnen te halen, vergeleken met de totale waarde die deze klant gedurende zijn klantreis oplevert.",
+        "SEO ROI: de verhouding tussen de totale investering in SEO (content, techniek, linkbuilding) en de gegenereerde marge of omzet."
+      ]
+    },
+    {
+      "h": "B. Verkeerskwaliteit en waarde (quality metrics)",
+      "p": "",
+      "list": [
+        "Geëngageerd verkeer: in plaats van puur te kijken naar totale sessies, meet je de kwaliteit van het bezoek, bijvoorbeeld bezoekers die minimaal twee pagina's bekijken, scrollen of een CTA aanklikken.",
+        "Traffic cost (geschatte verkeerswaarde): een metriek uit tools zoals Semrush die berekent hoeveel hetzelfde verkeer gekost zou hebben als je het via Google Ads had moeten inkopen. Dit toont de directe besparing en waarde van je organische positie.",
+        "Branded vs. non-branded verkeer: non-branded verkeer toont hoe goed je nieuwe potentiële klanten aantrekt die je merknaam nog niet kenden."
+      ]
+    },
+    {
+      "h": "C. AI- en LLM-zichtbaarheid (AEO/GEO-metrics)",
+      "p": "",
+      "list": [
+        "AI Overview inclusion rate: hoe vaak wordt jouw content als bron gebruikt of geciteerd in Google AI Overviews?",
+        "Citaties en share of voice in AI-chatbots: de frequentie waarmee jouw merk wordt genoemd in antwoorden van ChatGPT, Perplexity, Gemini en Claude.",
+        "LLM-referralverkeer en conversie: verkeer dat vanuit AI-platforms naar je site doorklikt. Dit verkeer vertoont vaak een aanzienlijk hogere conversiebereidheid, omdat de bezoeker al een gericht advies heeft gekregen van de AI."
+      ]
+    },
+    {
+      "h": "D. SERP-zichtbaarheid en technische gezondheid",
+      "p": "",
+      "list": [
+        "Click-through rate (CTR): het percentage weergaven dat daadwerkelijk leidt tot een klik. Een lage CTR bij hoge impressies duidt op een niet-relevante of oninteressante meta-title en -description.",
+        "Index coverage en crawl health: zorgen dat alle belangrijke pagina's correct door zoekmachines worden geïndexeerd, zonder dat crawlbudget wordt verspild aan pagina's met weinig waarde.",
+        "Core Web Vitals en toegankelijkheid (SXO): snelheid (LCP, INP), visuele stabiliteit (CLS) en een toegankelijke sitestructuur (WCAG) verbeteren zowel de gebruikerservaring als de crawl-efficiëntie van zoekmachines."
+      ]
+    },
+    {
+      "h": "Stap 1: bepaal de nulmeting (baseline)",
+      "p": "Hoe zet je deze KPI's om in een praktisch actieplan? Het begint met een nulmeting. Voordat je nieuwe SEO-initiatieven start, breng je je huidige prestatieniveau nauwkeurig in kaart. Documenteer je huidige maandelijkse organische verkeer, de conversieratio, de gemiddelde orderwaarde (AOV) en de organische omzet."
+    },
+    {
+      "h": "Stap 2: formuleer concrete doelen en KPI's",
+      "p": "Koppel je SEO-doelen rechtstreeks aan je bedrijfsdoelstellingen. Als je doel is om de organische omzet met 30% te laten groeien, zijn je primaire KPI's het verhogen van kwalitatief organisch verkeer naar commerciële landingspagina's en het optimaliseren van de conversieratio op die pagina's."
+    },
+    {
+      "h": "Stap 3: stel haalbare mijlpalen per periode in",
+      "p": "Verdeel een jaardoel in kwartaal- of maandmijlpalen:",
+      "list": [
+        "Maand 1-2: optimaliseer de Core Web Vitals en verbeter de meta-titles van pagina's die nu op posities 5-10 ranken, om de CTR direct te verhogen.",
+        "Maand 3-4: bouw doelgerichte content-clusters rondom high-intent zoekwoorden en voeg FAQ-secties toe voor meer kans op AI Overviews.",
+        "Maand 5-6: versterk de autoriteit met kwalitatieve linkbuilding en meet het effect op de conversieratio en organische omzet."
+      ],
+      "images": [
+        {
+          "src": "/assets/blog/seo-performance-meten-2026/seo-roadmap-6-maanden.webp",
+          "alt": "Tijdlijn van zes maanden: maand 1-2 snelle winst, maand 3-4 content en AI, maand 5-6 autoriteit en resultaat"
+        }
+      ]
+    },
+    {
+      "h": "Veelvoorkomende valkuilen bij het meten van SEO",
+      "p": "",
+      "list": [
+        "Silo-rapportage: SEO op zichzelf beoordelen zonder te kijken naar hoe het samenwerkt met Google Ads, social media en e-mailmarketing.",
+        "Te vroeg conclusies trekken: SEO-aanpassingen hebben vaak enkele weken tot maanden nodig om volledig door te werken in de zoekresultaten.",
+        "Vertrouwen op één bron: gebruik niet alleen Google Search Console of alleen een losse SEO-tool, maar combineer data uit GA4, Search Console, serverlogs en gespecialiseerde SEO-software."
+      ]
+    },
+    {
+      "h": "Conclusie: maak van SEO een meetbare groeimotor",
+      "p": "In 2026 is SEO geen gokspel meer, maar een strategisch systeem van oorzaak en gevolg. Door af te stappen van losse ranking-lijstjes en te focussen op kwalitatief verkeer, omzet, conversies en AI-zichtbaarheid, transformeer je SEO van een kostenpost naar een voorspelbare groeimotor.\n\nWil je weten waar jouw kansen liggen om de SEO-performance van je bedrijf meetbaar te verbeteren? Bij B. Analyzed helpen we bedrijven om data om te zetten in concrete resultaten. Vraag de gratis SEO-scan aan voor direct inzicht in je groeikansen, of neem contact op voor een aanpak op maat."
+    },
+    {
+      "h": "Bronnen",
+      "p": "",
+      "links": [
+        {
+          "label": "Ahrefs: Anonymized Queries Make Up Nearly Half of Google Search Console Traffic (2026)",
+          "href": "https://ahrefs.com/blog/gsc-anonymized-queries/"
+        },
+        {
+          "label": "Ahrefs: Update: AI Overviews Reduce Clicks by 58% (februari 2026)",
+          "href": "https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/"
+        }
+      ]
+    }
+  ]
+},
   "ahrefs-alternatieven-in-2026": {
   "slug": "ahrefs-alternatieven-in-2026",
   "title": "Ahrefs-alternatieven in 2026: welke SEO-tool past bij jouw bedrijf?",

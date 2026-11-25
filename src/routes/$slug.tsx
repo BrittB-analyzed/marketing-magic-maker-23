@@ -59,7 +59,73 @@ function Article() {
             {post.sections.map((s: PostSection) => (
               <div key={s.h}>
                 <h2 className="text-2xl font-semibold tracking-tight">{s.h}</h2>
-                <p className="mt-3 text-base leading-relaxed text-brand-muted">{s.p}</p>
+                {s.p
+                  .split("\n\n")
+                  .filter(Boolean)
+                  .map((alinea, i) => (
+                    <p key={i} className="mt-3 text-base leading-relaxed text-brand-muted">
+                      {alinea}
+                    </p>
+                  ))}
+                {s.list && (
+                  <ul className="mt-3 list-disc space-y-2 pl-5 text-base leading-relaxed text-brand-muted">
+                    {s.list.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                )}
+                {s.table && (
+                  <div className="mt-4 overflow-x-auto rounded-2xl border border-brand-line">
+                    <table className="w-full text-left text-sm">
+                      <thead className="bg-brand-line/40">
+                        <tr>
+                          {s.table.head.map((kop) => (
+                            <th key={kop} className="px-4 py-3 font-semibold">
+                              {kop}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {s.table.rows.map((rij) => (
+                          <tr key={rij[0]} className="border-t border-brand-line">
+                            {rij.map((cel, i) => (
+                              <td key={i} className={i === 0 ? "px-4 py-3 font-medium" : "px-4 py-3 text-brand-muted"}>
+                                {cel}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+                {s.images?.map((img) => (
+                  <figure key={img.src} className="mt-5">
+                    <img
+                      src={img.src}
+                      alt={img.alt}
+                      width={1200}
+                      height={675}
+                      loading="lazy"
+                      className="w-full rounded-2xl border border-brand-line"
+                    />
+                    {img.caption && (
+                      <figcaption className="mt-2 text-xs text-brand-muted">{img.caption}</figcaption>
+                    )}
+                  </figure>
+                ))}
+                {s.links && (
+                  <ul className="mt-3 space-y-2 text-sm">
+                    {s.links.map((l) => (
+                      <li key={l.href}>
+                        <a href={l.href} target="_blank" rel="noopener" className="underline hover:text-brand-red">
+                          {l.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             ))}
             <Link to="/blog/" className="inline-flex items-center gap-2 text-sm font-semibold">
