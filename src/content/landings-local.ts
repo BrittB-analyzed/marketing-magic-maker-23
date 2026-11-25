@@ -86,6 +86,7 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       },
     ],
     related: [
+      { label: "GEO-specialist Venlo", to: "/geo-specialist-venlo/" },
       {
         label: "Case: Venlo Taxi negen jaar nummer 1",
         to: "/cases/venlo-taxi-negen-jaar-nummer-1/",
@@ -910,8 +911,8 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
   },
   "seo-limburg": {
     eyebrow: "Local SEO",
-    h1: "SEO Limburg: Dé seo specialist voor jouw website vind je hier!",
-    title: "SEO Limburg: SEO-bureau voor de hele provincie | B. Analyzed",
+    h1: "SEO Limburg: jouw vaste SEO-specialist van Venlo tot Maastricht",
+    title: "SEO Limburg | SEO-specialist Limburg met 9,8 uit 48 reviews",
     description: "SEO in Limburg nodig? Meer zichtbaarheid, top 3-posities in Google en meer leads. Ook zichtbaar in AI. Audit vanaf € 599,-.",
     intro: "SEO in Limburg zorgt dat jouw bedrijf bovenaan in Google staat wanneer mensen in Venlo, Roermond, Weert, Sittard, Heerlen of Maastricht zoeken naar wat jij aanbiedt. B. Analyzed is een SEO-bureau uit Venlo met 15 jaar ervaring, een 9,8 uit 48 Google-reviews en klanten in heel de provincie. Je werkt met één vaste specialist die de strategie bedenkt en zelf uitvoert, voor zichtbaarheid in Google, Google Maps en AI-antwoorden.",
     bullets: [
@@ -928,6 +929,14 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       {
         h: "Een SEO-bureau dat Limburg kent",
         p: "Limburg is geen eenvormige markt. Noord-Limburg draait op logistiek, tuinbouw en de Greenport, Midden-Limburg op retail en het outletgebied in Roermond, Zuid-Limburg op toerisme, zorg en de Euregio rond Maastricht en Heerlen. Bovendien zoeken veel klanten vanuit België en Duitsland. Wij kennen die verschillen en stemmen de zoekwoorden, de content en de lokale vermeldingen daarop af, per regio en waar nodig per taal.",
+      },
+      {
+        h: "SEO in Noord-, Midden- en Zuid-Limburg",
+        p: "In Noord-Limburg (Venlo, Venray, Horst) draait veel om logistiek, agrofood en de Greenport, met veel zakelijke zoekopdrachten en klanten over de grens in Duitsland. In Midden-Limburg (Roermond, Weert) gaat het vaker om retail, het outletgebied en MKB-dienstverleners, waar de kaartresultaten en reviews het verschil maken. In Zuid-Limburg (Maastricht, Heerlen, Sittard-Geleen) is de concurrentie groter en wordt er gezocht in het Nederlands, Engels, Duits en Frans, rond toerisme, zorg, onderwijs en Chemelot. Per regio kies ik daarom andere zoekwoorden, andere lokale vermeldingen en waar nodig een andere taal.",
+      },
+      {
+        h: "Voor wie is een SEO-specialist in Limburg?",
+        p: "Voor elk Limburgs bedrijf dat klanten via Google of AI wil binnenhalen: van de installateur in Kerkrade en de advocaat in Maastricht tot de webshop in Weert en het logistieke bedrijf op Trade Port in Venlo. Ik werk voor MKB-bedrijven, dienstverleners, vakbedrijven, webshops en recreatieondernemers, in de hele provincie: Venlo, Venray, Horst aan de Maas, Peel en Maas, Gennep, Roermond, Weert, Sittard-Geleen, Heerlen, Kerkrade, Landgraaf, Brunssum, Valkenburg, Vaals en Maastricht. Of je nu lokaal klanten zoekt in het Heuvelland of landelijk verkoopt vanuit de Greenport: de aanpak sluit aan op jouw markt.",
       },
       {
         h: "Eén vaste specialist, geen accountmanager",
@@ -962,6 +971,10 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
         p: "Vanuit Arcen, gemeente Venlo, werken we vooral veel voor bedrijven in Noord-Limburg: Venlo, Venray, Horst aan de Maas, Peel en Maas en Gennep. Daar combineren we SEO vaak met SEA, oftewel Google Ads. Advertenties leveren direct aanvragen op terwijl de organische posities groeien, en de advertentiedata laat zien welke zoekwoorden het meest opleveren.",
       },
       {
+        h: "Gevonden in Google én genoemd door AI",
+        p: "Steeds meer Limburgers stellen hun vraag eerst aan ChatGPT of zien een AI-overzicht bovenaan in Google. Daarom pak ik SEO en GEO (Generative Engine Optimization) samen aan: pagina's die goed ranken worden ook vaker door AI-zoekmachines als bron gebruikt. Met GEO zorg ik dat ChatGPT, Gemini, Perplexity en Google AI Overviews jouw bedrijf noemen als iemand in Limburg zoekt naar wat jij aanbiedt. Hoe dat werkt lees je op de pagina's over GEO in Limburg en GEO in Venlo.",
+      },
+      {
         h: "Wat kost SEO in Limburg?",
         p: "SEO-specialisten rekenen doorgaans tussen de 40 en 125 euro per uur. Bij B. Analyzed is het uurtarief 90 euro. Je kunt beginnen met een uitgebreide SEO- en GEO-audit vanaf 599 euro, met een concreet plan van aanpak. Daarna werken we met een vast maandpakket vanaf 999 euro, zodat je vooraf weet waar je aan toe bent.",
       },
@@ -982,6 +995,14 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
       {
         q: "Welke steden in Limburg bedient B. Analyzed?",
         a: "B. Analyzed is actief in de gehele provincie Limburg, waaronder Venlo, Maastricht, Roermond, Weert, Horst en Venray. Of je bedrijf nu in een grote stad of een kleinere gemeente zit, wij zorgen voor lokale vindbaarheid die aansluit op jouw regio.",
+      },
+      {
+        q: "Wat doet een SEO-specialist in Limburg?",
+        a: "Een SEO-specialist in Limburg zorgt dat je bedrijf hoger in Google en in AI-antwoorden komt bij zoekopdrachten uit de regio. Dat betekent: de techniek van je website op orde, teksten die de vraag van Limburgse zoekers beantwoorden, autoriteit via links van regionale en vakgerichte sites en een sterk Google Bedrijfsprofiel voor de kaartresultaten.",
+      },
+      {
+        q: "Waarom een SEO-specialist inschakelen in plaats van het zelf te doen?",
+        a: "Omdat SEO vakwerk is dat continu verandert, zeker nu AI-zoekmachines meetellen. Een specialist weet waar de snelste winst zit, voorkomt fouten die je posities kosten en meet wat het oplevert. Jij houdt tijd over voor je eigen vak. Bij B. Analyzed werk je met één vaste specialist, Britt Daemen, met 15 jaar ervaring.",
       },
       {
         q: "Hoe meet B. Analyzed de SEO-resultaten?",
@@ -1017,6 +1038,167 @@ export const LOCAL_LANDINGS: Record<string, Landing> = {
         label: "SEA-specialist Noord-Limburg",
         to: "/sea-specialist-noord-limburg/",
       },
+      {
+        label: "GEO-specialist Limburg",
+        to: "/geo-specialist-limburg/",
+      },
+      {
+        label: "GEO-specialist Venlo",
+        to: "/geo-specialist-venlo/",
+      },
+    ],
+  },
+  "geo-specialist-limburg": {
+    eyebrow: "GEO Limburg",
+    h1: "GEO-specialist Limburg: zorg dat AI jouw bedrijf noemt",
+    title: "GEO-specialist Limburg | Genoemd worden in ChatGPT & AI",
+    description: "GEO-specialist in Limburg: zorg dat ChatGPT, Gemini en Google AI Overviews jouw bedrijf noemen. 15 jaar ervaring, 9,8 uit 48 reviews.",
+    intro: "Een GEO-specialist zorgt dat AI-zoekmachines als ChatGPT, Gemini, Perplexity en Google AI Overviews jouw bedrijf noemen en aanbevelen als iemand een vraag stelt. Waar SEO draait om een hoge positie in Google, draait GEO (Generative Engine Optimization) om genoemd worden ín het antwoord. Ik ben Britt Daemen van B. Analyzed: al 15 jaar werk ik aan de vindbaarheid van Limburgse ondernemers, van Venlo tot Maastricht, en je hebt één vast aanspreekpunt.",
+    bullets: [
+      "Genoemd worden in ChatGPT, Gemini, Perplexity en Google AI Overviews",
+      "GEO gecombineerd met een sterke SEO-basis in Limburg",
+      "Elke maand gemeten in welke AI-antwoorden je verschijnt",
+      "Eén vaste specialist, geen accountmanager",
+    ],
+    sections: [
+      {
+        h: "Wat doet een GEO-specialist?",
+        p: "Een GEO-specialist richt je website en je online aanwezigheid zo in dat AI-tools je bedrijf kennen, vertrouwen en noemen. Vraagt iemand aan ChatGPT welk installatiebedrijf in Zuid-Limburg goed is, of welk logistiek bedrijf rond Venlo koelvervoer doet, dan geeft de AI drie tot vijf namen. GEO zorgt dat de jouwe erbij staat. Dat gaat over duidelijke feiten op je site, consistente bedrijfsgegevens op het web, vermeldingen op andere sites en technische toegang voor AI-crawlers.",
+      },
+      {
+        h: "Waarom GEO nu belangrijk is voor Limburgse bedrijven",
+        p: "Steeds meer zoekopdrachten eindigen zonder klik: Google toont een AI-overzicht bovenaan en ChatGPT geeft direct een antwoord. Sta je daar niet tussen, dan besta je voor die zoeker niet, ook al sta je op plek 3 in Google. Voor Limburg komt daar iets bij: AI-tools moeten begrijpen wáár je actief bent. Een AI-model weet niet vanzelf dat je in Sittard, Weert én over de grens in Duitsland en België werkt. Dat moet je expliciet en consistent op het web laten zien.",
+      },
+      {
+        h: "SEO of GEO: wat is het verschil?",
+        p: "SEO zorgt voor een hoge positie in Google en Bing, met een klik naar je website als resultaat. GEO zorgt dat je genoemd wordt in de antwoorden van ChatGPT, Gemini, Perplexity, Claude en Google AI Overviews. Voor SEO tellen relevantie, techniek en backlinks; voor GEO vooral duidelijke feiten, autoriteit, vermeldingen op andere sites en gestructureerde data. Ze versterken elkaar: AI-zoekmachines halen hun informatie voor een groot deel uit pagina's die al goed ranken. Daarom begin ik altijd met een sterke SEO-basis.",
+      },
+      {
+        h: "Stap 1: AI-zichtbaarheidsscan",
+        p: "Ik stel de vragen die jouw klanten stellen aan ChatGPT, Gemini, Perplexity en Google, zoals 'beste dakdekker Roermond' of 'B2B-logistiek partner Venlo'. Ik noteer wie er genoemd wordt, welke bronnen de AI gebruikt en waar jij ontbreekt. Dat is het vertrekpunt van de aanpak.",
+      },
+      {
+        h: "Stap 2: je bedrijf als duidelijke entiteit",
+        p: "AI-modellen denken in entiteiten: wie ben je, wat doe je en waar? Ik zorg dat dat overal hetzelfde staat: op je website met Organization- en LocalBusiness-schema, in je Google Bedrijfsprofiel, op LinkedIn, bij de KVK en op branchesites.",
+      },
+      {
+        h: "Stap 3: content die AI kan citeren",
+        p: "AI citeert pagina's die een vraag direct en feitelijk beantwoorden. Ik herschrijf je belangrijkste pagina's zo dat ze openen met een helder antwoord, gevolgd door concrete cijfers, prijzen en werkgebieden, en vragen als koppen met korte antwoorden eronder.",
+      },
+      {
+        h: "Stap 4: vermeldingen op Limburgse en vakgerichte sites",
+        p: "AI-tools vertrouwen een bedrijf meer als anderen erover schrijven. Denk aan regionale media, ondernemersverenigingen, branchegidsen en samenwerkingspartners in Limburg en de Euregio. Het gaat hier om vermeldingen van je naam, niet alleen om links.",
+      },
+      {
+        h: "Stap 5 en 6: technische toegang en maandelijkse meting",
+        p: "Veel websites blokkeren onbewust GPTBot, PerplexityBot of ClaudeBot, of tonen hun tekst pas via JavaScript, wat de meeste AI-crawlers niet lezen. Dat controleer en herstel ik. Daarna meet ik elke maand opnieuw in welke AI-antwoorden je verschijnt, en je krijgt een korte video met wat er veranderd is en wat de volgende stap is.",
+      },
+      {
+        h: "Voor welke Limburgse bedrijven werkt GEO?",
+        p: "GEO levert het meest op voor bedrijven waarbij klanten eerst vergelijken of advies vragen: dienstverleners en vakbedrijven in Maastricht, Heerlen, Sittard-Geleen, Roermond en Venlo; B2B-bedrijven in logistiek, maakindustrie en agro rond Venlo, de Greenport en Chemelot; recreatie en toerisme in Zuid- en Noord-Limburg, waar toeristen steeds vaker ChatGPT vragen waar ze moeten eten of slapen; en webshops die vanuit Limburg landelijk verkopen.",
+      },
+      {
+        h: "Resultaten van Limburgse klanten",
+        p: "Mijn GEO-aanpak bouwt voort op SEO-resultaten in Limburg. Meubel & Outlet Weert ging in 16 maanden van minder dan 500 naar bijna 5.500 organische bezoekers per maand en staat op 1 voor 'meubel outlet'. Parketreus uit Heerlen steeg met 'traprenovatie limburg' van positie 18 naar 2. Venlo Taxi staat al negen jaar op 1 voor 'taxi venlo'. Pagina's die zo goed ranken, worden ook vaker als bron gebruikt door AI-zoekmachines.",
+      },
+      {
+        h: "Wat kost een GEO-specialist in Limburg?",
+        p: "Je begint met een gratis SEO- en GEO-scan: een persoonlijke video-analyse van je zichtbaarheid in Google en AI, binnen twee werkdagen. Een complete SEO- en GEO-audit kost vanaf 599 euro eenmalig, doorlopende SEO en GEO vanaf 999 euro per maand. Het uurtarief is 90 euro. Eerlijk is eerlijk: niemand kan garanderen dat ChatGPT jou noemt. Wat ik wel doe, is die kans flink vergroten en het elke maand meten.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wat doet een GEO-specialist?",
+        a: "Een GEO-specialist zorgt dat AI-zoekmachines je bedrijf kennen, vertrouwen en noemen. Dat gebeurt door je website zo in te richten dat AI de feiten makkelijk kan overnemen, door consistente bedrijfsgegevens op het web en door vermeldingen op andere sites te verzamelen.",
+      },
+      {
+        q: "Heb ik GEO nodig als ik al goed scoor in Google?",
+        a: "Ja. Een goede Google-positie is geen garantie dat AI je noemt, en AI-antwoorden noemen vaak maar drie tot vijf bedrijven. Een goede SEO-basis helpt wel, want veel AI-antwoorden gebruiken pagina's die al hoog ranken.",
+      },
+      {
+        q: "Hoe lang duurt het voordat ChatGPT mijn bedrijf noemt?",
+        a: "Dat verschilt per tool. AI-tools die live zoeken, zoals Perplexity, ChatGPT met zoeken en Google AI Overviews, pikken verbeteringen vaak binnen enkele weken op. Kennis die in het AI-model zelf zit, verandert pas bij een nieuwe versie van het model.",
+      },
+      {
+        q: "Werk je alleen voor bedrijven in Limburg?",
+        a: "Nee, ik werk voor bedrijven in heel Nederland. Limburg is mijn thuisbasis: ik ken de regio, de zoekwoorden en de lokale media, en dat helpt bij lokale zichtbaarheid in AI.",
+      },
+      {
+        q: "Wat is het verschil tussen GEO en AEO?",
+        a: "AEO (Answer Engine Optimization) richt zich op directe antwoorden in Google, zoals uitgelichte fragmenten en spraakassistenten. GEO richt zich op generatieve AI-tools die zelf een antwoord samenstellen. In de praktijk pak ik ze samen aan.",
+      },
+    ],
+    related: [
+      { label: "SEO Limburg", to: "/seo-limburg/" },
+      { label: "GEO-specialist Venlo", to: "/geo-specialist-venlo/" },
+      { label: "GEO-optimalisatie: zo werkt het", to: "/online-marketing/geo-optimalisatie/" },
+      { label: "Case: Meubel & Outlet Weert nummer 1", to: "/cases/6600x-meubel-outlet-nummer-1-in-google/" },
+      { label: "Case: Parketreus in Heerlen", to: "/cases/parketreus/" },
+      { label: "Marketingbureau Limburg", to: "/marketingbureau-limburg/" },
+    ],
+  },
+  "geo-specialist-venlo": {
+    eyebrow: "GEO Venlo",
+    h1: "GEO-specialist Venlo: aanbevolen worden door ChatGPT en Google AI",
+    title: "GEO-specialist Venlo | Zichtbaar in ChatGPT en Google AI",
+    description: "GEO-specialist uit Noord-Limburg: zorg dat ChatGPT, Gemini en Google AI jouw Venlose bedrijf aanbevelen. Vast aanspreekpunt, 9,8 uit 48 reviews.",
+    intro: "Als GEO-specialist in Venlo zorg ik dat AI-zoekmachines je bedrijf noemen wanneer iemand in Noord-Limburg een dienst of leverancier zoekt. Steeds meer mensen typen hun vraag niet meer in Google maar in ChatGPT, Gemini of Perplexity, en de AI geeft dan drie tot vijf namen. GEO zorgt dat de jouwe erbij zit. Ik ben Britt Daemen en help vanuit Arcen, net boven Venlo, al 15 jaar ondernemers uit de regio beter gevonden te worden.",
+    bullets: [
+      "Aanbevolen worden in ChatGPT, Gemini en Google AI Overviews",
+      "Afgestemd op logistiek, Greenport en Duitse klanten",
+      "Gecombineerd met SEO in Venlo",
+      "Elke maand een video met je AI-zichtbaarheid",
+    ],
+    sections: [
+      {
+        h: "Waarom AI-zichtbaarheid in Venlo anders werkt",
+        p: "De economie in en rond Venlo draait voor een groot deel op logistiek, de Greenport, agrofood en maakindustrie, met veel zakelijke klanten uit Duitsland. Een inkoper in Düsseldorf of Eindhoven vraagt ChatGPT naar een logistiek dienstverlener in Venlo met douane-afhandeling. Staat jouw specialisme niet duidelijk op je site, dan noemt de AI een concurrent. Voor grensoverschrijdende klanten moet je bovendien in het Nederlands én Duits begrijpelijk zijn voor AI-modellen.",
+      },
+      {
+        h: "Lokale vermeldingen tellen mee",
+        p: "Een vermelding bij regionale media, Venlose ondernemersverenigingen of in de netwerken rond de Greenport vertelt AI-tools: dit bedrijf is echt en actief in deze regio. Samen met consistente bedrijfsgegevens in je Google Bedrijfsprofiel, op LinkedIn en op branchesites vormt dat de basis waarop AI een aanbeveling doet.",
+      },
+      {
+        h: "Wat ik als GEO-specialist voor je doe",
+        p: "Ik begin met een AI-scan: ik stel de vragen die jouw klanten stellen aan ChatGPT, Gemini, Perplexity en Google AI Overviews en meet wie er genoemd wordt en waarom. Daarna zorg ik voor duidelijke bedrijfsgegevens met schema markup, pagina's die openen met een direct antwoord gevolgd door feiten, prijzen en werkgebied (Venlo, Blerick, Tegelen, Venlo-Oost, Trade Port), vermeldingen in de regio en een technische check zodat AI-crawlers als GPTBot en PerplexityBot je site kunnen lezen. Elke maand meet ik opnieuw en laat ik in een korte video zien waar je staat.",
+      },
+      {
+        h: "GEO bouwt voort op sterke SEO",
+        p: "AI-zoekmachines gebruiken vaak pagina's die al goed in Google staan. Daarom combineer ik GEO met SEO in Venlo. Een voorbeeld uit Venlo zelf: Venlo Taxi staat al negen jaar op nummer 1 voor 'taxi venlo'. Zo'n positie maakt het ook waarschijnlijker dat een AI-tool je noemt. Werk je buiten Venlo, in Roermond, Venray of Zuid-Limburg? Dan is GEO-specialist Limburg de pagina voor jou.",
+      },
+      {
+        h: "Wat kost GEO in Venlo?",
+        p: "De gratis SEO- en GEO-scan levert binnen twee werkdagen een persoonlijke video-analyse op. Een SEO- en GEO-audit kost vanaf 599 euro eenmalig, doorlopend SEO en GEO vanaf 999 euro per maand. Een garantie dat ChatGPT je noemt kan niemand eerlijk geven, maar ik kan je kansen meetbaar vergroten en laat je elke maand zien waar je staat.",
+      },
+    ],
+    faq: [
+      {
+        q: "Wat is GEO precies?",
+        a: "GEO staat voor Generative Engine Optimization: je website en online aanwezigheid zo inrichten dat AI-tools als ChatGPT, Gemini, Perplexity en Google AI Overviews je bedrijf noemen in hun antwoorden.",
+      },
+      {
+        q: "Is GEO interessant voor een B2B-bedrijf in Venlo?",
+        a: "Juist voor B2B. Inkopers en ondernemers gebruiken AI steeds vaker om leveranciers te vergelijken voordat ze contact opnemen. Sta je niet in dat lijstje, dan krijg je de aanvraag niet.",
+      },
+      {
+        q: "Moet ik eerst SEO doen voordat GEO zin heeft?",
+        a: "Een goede SEO-basis helpt flink, want AI haalt veel informatie uit pagina's die goed ranken. Ik pak ze daarom samen op: dezelfde verbeteringen werken voor allebei.",
+      },
+      {
+        q: "Kun je meten of ChatGPT mijn bedrijf noemt?",
+        a: "Ja. Ik test elke maand een vaste set vragen in de belangrijkste AI-tools en houd bij wanneer en hoe je genoemd wordt. Dat zie je terug in je maandelijkse video.",
+      },
+      {
+        q: "Werk je ook voor bedrijven in Blerick, Tegelen en omgeving?",
+        a: "Ja, voor heel Venlo en omgeving: Blerick, Tegelen, Belfeld, Arcen, Grubbenvorst en verder in Noord-Limburg.",
+      },
+    ],
+    related: [
+      { label: "SEO Venlo", to: "/seo-venlo/" },
+      { label: "GEO-specialist Limburg", to: "/geo-specialist-limburg/" },
+      { label: "SEO Limburg", to: "/seo-limburg/" },
+      { label: "GEO-optimalisatie: zo werkt het", to: "/online-marketing/geo-optimalisatie/" },
+      { label: "Online marketing Venlo", to: "/online-marketing-venlo/" },
     ],
   },
   "linkbuilding-uitbesteden-venlo": {
