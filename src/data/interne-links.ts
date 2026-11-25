@@ -16,6 +16,16 @@ export const REGIO_LINKS: InterneLink[] = [
   { label: "SEO Venlo", to: "/seo-venlo/", note: "SEO-bureau voor Noord-Limburg." },
   { label: "SEO Limburg", to: "/seo-limburg/", note: "De hele provincie, van Venlo tot Maastricht." },
   {
+    label: "GEO-specialist Limburg",
+    to: "/geo-specialist-limburg/",
+    note: "Genoemd worden in ChatGPT en Google AI, in heel Limburg.",
+  },
+  {
+    label: "GEO-specialist Venlo",
+    to: "/geo-specialist-venlo/",
+    note: "AI-zichtbaarheid voor bedrijven in Venlo en Noord-Limburg.",
+  },
+  {
     label: "SEA-specialist Noord-Limburg",
     to: "/sea-specialist-noord-limburg/",
     note: "Google Ads en SEO voor Venlo, Venray en Horst.",

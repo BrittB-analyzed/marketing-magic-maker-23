@@ -18,8 +18,16 @@ export const SEO_META: Record<string, SeoEntry> = {
     description: "Online marketingbureau voor het MKB, gevestigd in Noord-Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
   },
   "/seo-limburg/": {
-    title: "SEO Limburg | SEO-bureau en SEO-specialist in Limburg",
+    title: "SEO Limburg | SEO-specialist Limburg met 9,8 uit 48 reviews",
     description: "SEO-specialist in Limburg met 15 jaar ervaring en een 9,8 uit 48 reviews. Een vast aanspreekpunt en elke maand een video met wat er is gebeurd en wat het deed.",
+  },
+  "/geo-specialist-limburg/": {
+    title: "GEO-specialist Limburg | Genoemd worden in ChatGPT & AI",
+    description: "GEO-specialist in Limburg: zorg dat ChatGPT, Gemini en Google AI Overviews jouw bedrijf noemen. 15 jaar ervaring, 9,8 uit 48 reviews, één aanspreekpunt.",
+  },
+  "/geo-specialist-venlo/": {
+    title: "GEO-specialist Venlo | Zichtbaar in ChatGPT en Google AI",
+    description: "GEO-specialist uit Noord-Limburg: zorg dat ChatGPT, Gemini en Google AI jouw Venlose bedrijf aanbevelen. Vast aanspreekpunt, 9,8 uit 48 reviews.",
   },
   "/sea-specialist-noord-limburg/": {
     title: "SEA-specialist Noord-Limburg | Google Ads Venlo",
