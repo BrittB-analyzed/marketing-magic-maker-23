@@ -17,6 +17,10 @@ export const SEO_META: Record<string, SeoEntry> = {
     title: "Online Marketing Bureau voor het MKB | SEO, GEO & Ads",
     description: "Online marketingbureau voor het MKB, gevestigd in Noord-Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
   },
+  "/agentic-seo-workflows-2026/": {
+    title: "Agentic SEO in 2026: van prompts naar slimme workflows",
+    description: "Wat is agentic SEO? Zes workflows met SE Ranking, Claude en Screaming Frog die uren schelen, en zes vragen om te bepalen wat je wel en niet automatiseert.",
+  },
   "/seo-performance-meten-2026/": {
     title: "SEO-performance meten in 2026: KPI's die omzet opleveren",
     description: "Stop met vanity metrics. Ontdek welke SEO-KPI's in 2026 écht tellen, hoe je AI-zichtbaarheid meet en hoe je SEO koppelt aan conversies en omzet.",

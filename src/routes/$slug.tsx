@@ -107,6 +107,14 @@ function Article() {
                     </table>
                   </div>
                 )}
+                {s.na
+                  ?.split("\n\n")
+                  .filter(Boolean)
+                  .map((alinea, i) => (
+                    <p key={i} className="mt-3 text-base leading-relaxed text-brand-muted">
+                      {alinea}
+                    </p>
+                  ))}
                 {s.images?.map((img) => (
                   <figure key={img.src} className="mt-5">
                     <img
