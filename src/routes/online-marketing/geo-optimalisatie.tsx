@@ -140,6 +140,16 @@ function GeoPage() {
         >
           Lees meer in de kennisbank <ArrowRight className="size-4 text-brand-red" />
         </Link>
+        <p className="mt-4 text-sm text-brand-muted">
+          Regionaal:{" "}
+          <Link to="/geo-specialist-limburg/" className="font-semibold text-brand-ink hover:text-brand-red">
+            GEO-specialist Limburg
+          </Link>{" "}
+          ·{" "}
+          <Link to="/geo-specialist-venlo/" className="font-semibold text-brand-ink hover:text-brand-red">
+            GEO-specialist Venlo
+          </Link>
+        </p>
       </Section>
 
       <FaqBlock items={FAQ} />
