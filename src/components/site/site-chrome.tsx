@@ -124,6 +124,17 @@ const NAV = [
   { label: "Tarieven", to: "/tarieven-seo/" },
 ];
 
+/** Regiopagina's in de footer: sitebreed interne links naar de lokale SEO- en GEO-pagina's. */
+const REGIO_FOOTER_LINKS = [
+  { label: "SEO Limburg", to: "/seo-limburg/" },
+  { label: "SEO Venlo", to: "/seo-venlo/" },
+  { label: "SEO Roermond", to: "/seo-roermond/" },
+  { label: "SEO Maastricht", to: "/seo-maastricht/" },
+  { label: "GEO-specialist Limburg", to: "/geo-specialist-limburg/" },
+  { label: "GEO-specialist Venlo", to: "/geo-specialist-venlo/" },
+  { label: "Marketingbureau Limburg", to: "/marketingbureau-limburg/" },
+];
+
 const ABOUT_LINKS = [
   { label: "Over ons", to: "/online-marketing-bedrijf/" },
   { label: "Klantwaarderingen", to: "/klantwaarderingen/" },
@@ -166,17 +177,17 @@ export function Header() {
               onMouseEnter={() => setServices(true)}
               onMouseLeave={() => setServices(false)}
             >
-              <button
-                type="button"
-                onClick={() => setServices((v) => !v)}
+              <Link
+                to="/online-marketing/"
+                onFocus={() => setServices(true)}
                 aria-expanded={services}
                 className="flex items-center gap-1 py-5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
               >
                 Diensten
                 <ChevronDown className="size-3.5" />
-              </button>
-              {services && (
-                <div className="absolute left-1/2 top-full w-[34rem] -translate-x-1/2 rounded-2xl border border-brand-line bg-white p-6 shadow-xl">
+              </Link>
+              {(
+                <div hidden={!services} className="absolute left-1/2 top-full w-[34rem] -translate-x-1/2 rounded-2xl border border-brand-line bg-white p-6 shadow-xl">
                   <div className="grid grid-cols-2 gap-6">
                     <div>
                       <p className="text-[11px] font-semibold uppercase tracking-wide text-brand-muted">
@@ -248,17 +259,17 @@ export function Header() {
               onMouseEnter={() => setAbout(true)}
               onMouseLeave={() => setAbout(false)}
             >
-              <button
-                type="button"
-                onClick={() => setAbout((v) => !v)}
+              <Link
+                to="/online-marketing-bedrijf/"
+                onFocus={() => setAbout(true)}
                 aria-expanded={about}
                 className="flex items-center gap-1 py-5 text-sm font-medium text-brand-muted transition-colors hover:text-brand-ink"
               >
                 Over ons
                 <ChevronDown className="size-3.5" />
-              </button>
-              {about && (
-                <div className="absolute left-1/2 top-full w-56 -translate-x-1/2 rounded-2xl border border-brand-line bg-white p-4 shadow-xl">
+              </Link>
+              {(
+                <div hidden={!about} className="absolute left-1/2 top-full w-56 -translate-x-1/2 rounded-2xl border border-brand-line bg-white p-4 shadow-xl">
                   <ul className="space-y-2">
                     {ABOUT_LINKS.map((l) => (
                       <li key={l.to}>
@@ -428,7 +439,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 pt-12">
         <FounderCard />
       </div>
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 md:grid-cols-4">
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 md:grid-cols-3 lg:grid-cols-5">
         <div>
           <Logo />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-brand-muted">
@@ -461,6 +472,18 @@ export function Footer() {
           <h2 className="text-sm font-semibold text-brand-ink">Ondersteunende diensten</h2>
           <ul className="mt-4 space-y-2 text-sm text-brand-muted">
             {SUPPORT_LINKS.map((l) => (
+              <li key={l.to}>
+                <Link to={l.to} className="hover:text-brand-ink">
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-sm font-semibold text-brand-ink">In jouw regio</h2>
+          <ul className="mt-4 space-y-2 text-sm text-brand-muted">
+            {REGIO_FOOTER_LINKS.map((l) => (
               <li key={l.to}>
                 <Link to={l.to} className="hover:text-brand-ink">
                   {l.label}

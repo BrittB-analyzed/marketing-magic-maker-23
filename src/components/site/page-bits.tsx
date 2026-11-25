@@ -677,9 +677,15 @@ export function FaqBlock({
                   <Plus className="size-4 shrink-0 text-brand-muted" />
                 )}
               </button>
-              {open === i && (
-                <p className="pb-5 text-sm leading-relaxed text-brand-muted">{item.a}</p>
-              )}
+              {/* Antwoord altijd in de HTML laten staan (alleen visueel verbergen),
+                  zodat Google en AI-crawlers elk antwoord lezen en het overeenkomt
+                  met het FAQPage-schema in de head. */}
+              <p
+                hidden={open !== i}
+                className="pb-5 text-sm leading-relaxed text-brand-muted"
+              >
+                {item.a}
+              </p>
             </div>
           ))}
         </div>
