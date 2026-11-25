@@ -29,7 +29,7 @@ export const POSTS: Record<string, Post> = {
   "slug": "agentic-seo-workflows-2026",
   "title": "Agentic SEO in 2026: van losse prompts naar slimme systemen",
   "description": "Wat is agentic SEO? Zes workflows met SE Ranking, Claude en Screaming Frog die uren schelen, en zes vragen om te bepalen wat je wel en niet automatiseert.",
-  "date": "2026-11-25",
+  "date": "2026-11-16",
   "tag": "AI & SEO",
   "excerpt": "Een goede prompt bespaart je een uur, een goed systeem elke week een dag. Zo zet je AI, live zoekdata en je eigen SEO-tools aan elkaar in workflows die schalen.",
   "image": "/assets/blog/agentic-seo-workflows-2026/vijf-fases-agentic-seo-workflow.webp",
