@@ -590,9 +590,10 @@ function FAQ() {
                   <Plus className="size-4 text-zinc-400" />
                 )}
               </button>
-              {open === i && (
-                <p className="pb-6 text-sm leading-relaxed text-zinc-600">{f.a}</p>
-              )}
+              {/* Altijd in de HTML, alleen visueel verborgen: zo leest Google elk antwoord. */}
+              <p hidden={open !== i} className="pb-6 text-sm leading-relaxed text-zinc-600">
+                {f.a}
+              </p>
             </div>
           ))}
         </div>
