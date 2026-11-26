@@ -25,6 +25,175 @@ export type Post = {
 };
 
 export const POSTS: Record<string, Post> = {
+  "geo-factoren-gevonden-worden-door-ai": {
+  "slug": "geo-factoren-gevonden-worden-door-ai",
+  "title": "De 10 belangrijkste GEO-factoren voor zichtbaarheid in AI",
+  "description": "Hoe word je geciteerd door ChatGPT, Perplexity en Gemini? De 10 GEO-factoren die het verschil maken, plus tips voor WordPress, Shopify en meten.",
+  "date": "2026-11-26",
+  "tag": "AI & SEO",
+  "excerpt": "Bij GEO draait het niet meer om gekozen worden, maar om geciteerd worden. Deze 10 factoren bepalen of ChatGPT, Perplexity en Gemini jouw pagina gebruiken.",
+  "sections": [
+    {
+      "h": "Bij GEO draait het om geciteerd worden",
+      "p": "Bij GEO draait het niet meer om gekozen worden, maar om geciteerd worden. Een zoekmachine stuurt bezoekers naar je pagina. ChatGPT, Perplexity of Gemini leest je pagina, haalt er één alinea uit en laat de rest liggen.\n\nDe afgelopen weken heb ik de gratis GEO-cursus van Emad Sharaki (LearnGEO) doorgewerkt: 19 modules, 57 lessen. Geen hype, wel bronnen en eerlijke kanttekeningen. Hieronder staan de 10 onderdelen die volgens mij het verschil maken om gevonden en aanbevolen te worden door AI.\n\nEén ding vooraf: GEO vervangt SEO niet. AI-assistenten zoeken via gewone zoekmachines. Google AI Overviews draait op Google-resultaten, Copilot op Bing. Wie de SEO-basis niet op orde heeft, hoeft aan GEO nog niet te beginnen."
+    },
+    {
+      "h": "1. Zorg eerst dat je SEO-fundament klopt",
+      "p": "AI-assistenten bouwen geen eigen index. Ze zoeken via Google en Bing en lezen wat daar bovenkomt. Een pagina die niet geïndexeerd is, valt af voordat GEO überhaupt meetelt.",
+      "list": [
+        "Controleer indexering in Google Search Console én in Bing Webmaster Tools. Zonder Bing ben je onzichtbaar in Copilot.",
+        "Los kapotte canonicals, redirectketens en duplicate content op.",
+        "Versterk je interne linking: volgens de cursus de tactiek die door AI juist meer waarde krijgt."
+      ],
+      "na": "Let op: je hoeft niet in de Google top 3 te staan. Je moet wel geïndexeerd zijn, maar AI zoekt niet op jouw hoofdkeyword. Het splitst de vraag op in deelvragen (query fan-out) en kiest bronnen uit die resultaten. Volgens Ahrefs komt maar zo'n 38% van de citaties in Google AI Overviews uit de top 10 (maart 2026). Bij ChatGPT, Gemini en Copilot staat gemiddeld maar 12% van de geciteerde pagina's in de Google top 10 voor dezelfde vraag (augustus 2025). Goed scoren op de deelvragen rond je onderwerp telt dus meer dan die ene toppositie."
+    },
+    {
+      "h": "2. Laat AI-crawlers bewust binnen",
+      "p": "Veel sites blokkeren AI-bots zonder het te weten, via robots.txt, een plugin of de CDN-instellingen. Blokkeren gaat snel, de schade herstellen duurt lang.",
+      "list": [
+        "Check robots.txt en je CDN (bijvoorbeeld Cloudflare) op regels voor AI-bots.",
+        "Marketing-, product- en supportpagina's: gewoon alles toestaan.",
+        "Blokkeer alleen gericht, per bot en per map, met een datum en reden erbij."
+      ]
+    },
+    {
+      "h": "3. Zet je content in de HTML, niet alleen in JavaScript",
+      "p": "AI-crawlers verwerken JavaScript minder goed dan Googlebot. Prijzen in een afbeelding of tekst die pas na het laden verschijnt, zien ze niet.",
+      "list": [
+        "Bekijk je vijf belangrijkste pagina's met JavaScript uitgeschakeld. Staat de inhoud er nog?",
+        "Zet prijzen, specificaties en tabellen als echte tekst op de pagina.",
+        "Geef video's een transcriptie en afbeeldingen een echte alt-tekst."
+      ]
+    },
+    {
+      "h": "4. Begin met het antwoord",
+      "p": "AI leest vaak één sectie van je pagina, niet het hele verhaal. Zet daarom de conclusie bovenaan en onderbouw daarna, zoals de omgekeerde piramide in de journalistiek.",
+      "list": [
+        "Open belangrijke pagina's met een korte samenvatting van twee à drie zinnen.",
+        "Houd de diepgang eronder voor de menselijke lezer.",
+        "Schrap intro's die alleen de vraag herhalen. Die kosten ruimte en leveren niets op."
+      ]
+    },
+    {
+      "h": "5. Schrijf alinea's die op zichzelf staan",
+      "p": "De meeste opgehaalde pagina's worden weggegooid voordat ze gelezen zijn. Wat overblijft, is compact en los te begrijpen. Een alinea die steunt op \"zoals hierboven genoemd\" valt af.",
+      "list": [
+        "Eén idee per alinea, met dat idee in de eerste zin.",
+        "Koppen die zeggen wat eronder staat. Dus niet \"Onze aanpak\", maar de vraag of het antwoord.",
+        "Test: lees een sectie los. Beantwoordt die nog steeds een vraag?"
+      ]
+    },
+    {
+      "h": "6. Maak je claims controleerbaar",
+      "p": "AI herhaalt het liefst wat het kan verantwoorden. \"Enterprise-grade oplossing\" beantwoordt geen enkele vraag. \"Ondersteunt SSO via SAML en Okta\" wel.",
+      "list": [
+        "Maak claims specifiek: wie, hoeveel, sinds wanneer.",
+        "Zet bij elk cijfer de bron en de datum.",
+        "Noem een echte auteur met een bio, en zeg ook wat je niet weet. Dat maakt de rest geloofwaardiger."
+      ]
+    },
+    {
+      "h": "7. Wees één duidelijke entiteit",
+      "p": "AI denkt in entiteiten: je bedrijf, je product en jijzelf zijn elk een \"ding\" met eigenschappen. Elke naamvariant splitst het bewijs over meerdere dingen.",
+      "list": [
+        "Kies één naam en gebruik die overal: site, footer, LinkedIn, Google Bedrijfsprofiel, gidsen.",
+        "Benoem je categorie in de woorden die klanten gebruiken, niet in een zelfbedacht label.",
+        "Maak relaties expliciet: wie zit erachter, voor wie is het, wie zijn de alternatieven. Leg dit vast met Organization-schema, maar verwacht niet dat schema het werk alleen doet."
+      ]
+    },
+    {
+      "h": "8. Zorg dat anderen je goed beschrijven",
+      "p": "Of AI je tot een categorie rekent, hangt vooral af van wat ánderen over je schrijven. Word je wel genoemd als iemand naar je merk vraagt, maar niet bij \"beste X in Y\"? Dan los je dat niet op je eigen site op.",
+      "list": [
+        "Zoek uit welke bronnen AI citeert in jouw branche: lijstjes, vergelijkingssites, Reddit, vakmedia.",
+        "Zorg dat je daar voorkomt, met dezelfde naam en omschrijving.",
+        "Maak eerlijke vergelijkingspagina's met je echte alternatieven. Volgens de cursus het werk dat het meest bijdraagt aan categorie-associatie."
+      ]
+    },
+    {
+      "h": "9. Wees zelf de bron",
+      "p": "Alle andere tactieken vergroten je kans. Eigen data is de enige positie waarbij AI niet om je heen kan: wie over dat feit schrijft, moet jou noemen.",
+      "list": [
+        "Meet iets in je branche dat nog niemand gemeten heeft, bijvoorbeeld een benchmark of een kleine studie.",
+        "Publiceer het met methode, steekproef, datum en beperkingen. Zonder methode is het niet citeerbaar.",
+        "Zet het op een vaste URL, niet in een pdf waar niemand naar linkt."
+      ]
+    },
+    {
+      "h": "10. Kies je platforms en talen, en werk per markt",
+      "p": "ChatGPT, Perplexity, Gemini, Copilot en Claude citeren heel verschillende bronnen. Volgens een synthese van 5W PR overlapt maar zo'n 11% van de domeinen tussen ChatGPT en Perplexity. Tussen talen is het verschil nog groter: dezelfde vraag in een andere taal levert maar 4 tot 11% dezelfde bronnen op.",
+      "list": [
+        "Kies twee platforms op basis van waar jouw klanten zitten, niet op basis van gebruikersaantallen.",
+        "Behandel Nederlands en Engels als aparte markten, met eigen content en eigen metingen.",
+        "Gebruik Perplexity als testomgeving: daar zie je verbeteringen het snelst terug."
+      ]
+    },
+    {
+      "h": "GEO in WordPress: waar het vaak misgaat",
+      "p": "De meeste problemen ontstaan niet door het platform zelf, maar door thema's, plugins en instellingen die ooit zijn blijven staan. Je ziet ze niet in de browser, wel in de ruwe HTML die een crawler binnenkrijgt.",
+      "list": [
+        "Controleer het vinkje \"Zoekmachines ontmoedigen\" (Instellingen > Lezen). Het zet een noindex-tag in je pagina's, dus in robots.txt zie je niets. Het blijft vaak staan na een herbouw of staging.",
+        "Kijk of er een los robots.txt-bestand in de root staat. Dat wint altijd van je SEO-plugin, ook als Yoast of Rank Math iets anders laat zien.",
+        "Check je beveiligingsplugin en host. Firewalls kunnen AI-bots weigeren zonder dat je het in WordPress ziet. Zoek in de serverlogs naar 403-meldingen.",
+        "Zet het antwoord direct onder elke kop. Een hero, featuregrid of testimonials boven het antwoord betekent dat AI de verkeerde tekst als eerste leest.",
+        "Ruim dunne tag- en categoriepagina's op. Archieven met minder dan drie berichten concurreren met de pagina die je wilt laten vinden.",
+        "Laat schema kloppen met de pagina. Een auteur \"admin\" of een bedrijfsnaam die afwijkt van de footer is een tegenstrijdigheid in machinetaal. Geef elke auteur een echte naam, bio en externe link."
+      ]
+    },
+    {
+      "h": "GEO in Shopify: waar het vaak misgaat",
+      "p": "Ook in Shopify zitten de problemen vooral in apps en instellingen, niet in het platform zelf.",
+      "list": [
+        "Schrijf per product drie zinnen: voor wie het is, waarmee het werkt (maten, modellen, normen) en voor wie het níet is. AI-koopvragen gaan over \"past dit bij mij?\", niet over specificaties.",
+        "Pas op met \"Unlisted\" en het metafield seo.hidden. Beide halen een product uit de sitemap, en daarmee uit AI-antwoorden.",
+        "Pas robots.txt aan via robots.txt.liquid, nooit met een statisch bestand. Anders bevriezen de standaardregels van Shopify.",
+        "Zet varianten en reviews in de HTML. Maten of kleuren die pas na een klik verschijnen, en reviews die een app later inlaadt, ziet AI niet.",
+        "Beperk gefilterde collecties. Houd alleen filters die een eigen introductie verdienen, zoals maat of compatibiliteit.",
+        "Controleer dubbel schema van apps. Meerdere apps kunnen tegenstrijdige prijzen of ratings publiceren. Publiceer nooit een rating die je niet met zichtbare reviews kunt onderbouwen."
+      ],
+      "na": "Snelle test voor beide platforms: open de broncode van je vijf belangrijkste pagina's en zoek de belangrijkste zin. Staat die er niet in, dan ziet AI hem ook niet."
+    },
+    {
+      "h": "Zo meet je of GEO werkt",
+      "p": "AI-antwoorden verschillen per keer dat je dezelfde vraag stelt. Eén check is dus een anekdote. Bovendien ziet Google Analytics alleen klikken, terwijl de meeste waarde zit in genoemd worden zonder klik. Mijn aanpak, gebaseerd op de cursus:",
+      "ordered": true,
+      "list": [
+        "Kies tien koopvragen zoals een klant ze stelt, zonder je merknaam erin.",
+        "Stel ze op drie platforms, telkens in een nieuwe sessie zonder geheugen, en elke vraag drie keer.",
+        "Noteer per antwoord de datum, het platform, of je genoemd wordt (met of zonder link), welke concurrenten erbij staan en welke bronnen geciteerd worden.",
+        "Vraag ook: \"Wat is [jouw merk] en voor wie is het?\" Het verschil met je eigen omschrijving is je echte probleem.",
+        "Herhaal dit maandelijks. De richting telt meer dan het getal."
+      ],
+      "na": "Dat zijn 90 datapunten per maand, voor ongeveer een uur werk. Vermijd één gecombineerde \"AI-zichtbaarheidsscore\": een gemiddelde over platforms die het niet met elkaar eens zijn, verbergt precies wat je moet weten."
+    },
+    {
+      "h": "Tot slot: GEO is geen trucje",
+      "p": "Het meeste GEO-werk is geen trucje. Het is een kleine verandering in hoe je een alinea schrijft, consequent toegepast. Daarnaast kost het geduld: wat AI vandaag over je weet, is jaren geleden geschreven. Wie nu begint, bouwt aan de aanbevelingen van over een paar jaar.\n\nBenieuwd hoe zichtbaar jouw bedrijf is in ChatGPT, Perplexity en Gemini? Neem contact op, dan doe ik een korte nulmeting op jouw belangrijkste koopvragen.",
+      "links": [
+        {
+          "label": "Vraag een nulmeting aan",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "h": "Bronnen",
+      "p": "Dit artikel is gebaseerd op de volgende bronnen:",
+      "list": [
+        "LearnGEO, gratis GEO-cursus van Emad Sharaki (19 modules, 57 lessen, bijgewerkt september 2026), met de modules over citaties en bronnen, het SEO-fundament, AI-crawlertoegang, entiteiten, categorie-associatie en de richtlijnen voor WordPress en Shopify",
+        "Ahrefs: 38% of AI Overview Citations Pull From The Top 10 (maart 2026)",
+        "Ahrefs: Only 12% of AI Cited URLs Rank in Google's Top 10 (augustus 2025)",
+        "5W PR: synthese van citatiebronnen per AI-platform (11% overlap tussen ChatGPT en Perplexity)"
+      ],
+      "links": [
+        {
+          "label": "Ahrefs: 38% of AI Overview Citations Pull From The Top 10 (2026)",
+          "href": "https://ahrefs.com/blog/ai-overview-citations-top-10/"
+        }
+      ]
+    }
+  ]
+},
   "agentic-seo-workflows-2026": {
   "slug": "agentic-seo-workflows-2026",
   "title": "Agentic SEO in 2026: van losse prompts naar slimme systemen",

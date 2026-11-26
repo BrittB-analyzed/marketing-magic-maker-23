@@ -13,6 +13,10 @@ export const TWITTER_SITE = "@b_analyzed";
  * De controle hierop draait automatisch mee in de build (scripts/check-seo-meta.mjs).
  */
 export const SEO_META: Record<string, SeoEntry> = {
+  "/geo-factoren-gevonden-worden-door-ai/": {
+    title: "10 GEO-factoren om gevonden te worden door AI | 2026",
+    description: "Hoe word je geciteerd door ChatGPT, Perplexity en Gemini? De 10 GEO-factoren die het verschil maken, plus tips voor WordPress, Shopify en meten.",
+  },
   "/": {
     title: "Online Marketing Bureau voor het MKB | SEO, GEO & Ads",
     description: "Online marketingbureau voor het MKB, gevestigd in Noord-Limburg. 15 jaar ervaring, 9,8 uit 48 reviews en een vast aanspreekpunt. Vraag je gratis scan aan.",
