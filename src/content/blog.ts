@@ -519,6 +519,8 @@ export const POSTS: Record<string, Post> = {
   "date": "2026-06-26",
   "tag": "SEO-tools",
   "excerpt": "SE Ranking voor de beste prijs-kwaliteit, Semrush voor grote marketingteams, Mangools voor starters en Moz Pro voor linkbuilding. Zo kies je de tool die bij je past.",
+  "image": "/assets/blog/ahrefs-alternatieven-in-2026/ahrefs-alternatieven-2026.webp",
+  "imageAlt": "Ahrefs-alternatieven in 2026: Semrush, SE Ranking, Mangools en Moz Pro vergeleken",
   "sections": [
     {
       "h": "Het korte antwoord",
@@ -569,6 +571,8 @@ export const POSTS: Record<string, Post> = {
   "date": "2026-06-22",
   "tag": "Content",
   "excerpt": "SEO-gericht schrijven is in 2026 schrijven voor twee lezers: de mens en het taalmodel. Met deze vijf stappen maak je content die rankt én wordt geciteerd.",
+  "image": "/assets/blog/seo-gericht-schrijven/seo-gericht-schrijven.webp",
+  "imageAlt": "SEO-gericht schrijven: content die scoort in Google én AI, in vijf stappen",
   "sections": [
     {
       "h": "Wat is SEO-gericht schrijven?",
