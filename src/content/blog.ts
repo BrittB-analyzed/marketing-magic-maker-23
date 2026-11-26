@@ -32,6 +32,8 @@ export const POSTS: Record<string, Post> = {
   "date": "2026-11-26",
   "tag": "AI & SEO",
   "excerpt": "Bij GEO draait het niet meer om gekozen worden, maar om geciteerd worden. Deze 10 factoren bepalen of ChatGPT, Perplexity en Gemini jouw pagina gebruiken.",
+    "image": "/assets/blog/geo-factoren-gevonden-worden-door-ai/10-geo-factoren-zichtbaarheid-ai.webp",
+    "imageAlt": "De 10 belangrijkste GEO-factoren voor zichtbaarheid in AI, B. Analyzed marketing",
   "sections": [
     {
       "h": "Bij GEO draait het om geciteerd worden",
