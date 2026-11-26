@@ -53,7 +53,7 @@ function Article() {
                 src={post.image}
                 alt={post.imageAlt ?? post.title}
                 loading="lazy"
-                className="aspect-[16/9] w-full rounded-2xl border border-brand-line object-cover"
+                className="aspect-[16/9] w-full rounded-2xl border border-brand-line bg-white object-contain"
               />
             )}
             {post.sections.map((s: PostSection) => (

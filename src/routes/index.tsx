@@ -143,7 +143,7 @@ function BlogTeasers() {
             className="flex flex-col overflow-hidden rounded-2xl border border-brand-line bg-white transition-colors hover:border-brand-ink"
           >
             {p.image && (
-              <img src={p.image} alt={p.imageAlt ?? p.title} loading="lazy" className="aspect-[16/10] w-full object-cover" />
+              <img src={p.image} alt={p.imageAlt ?? p.title} loading="lazy" className="aspect-[16/10] w-full bg-white object-contain" />
             )}
             <div className="flex flex-1 flex-col p-6">
               <span className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">{p.tag}</span>

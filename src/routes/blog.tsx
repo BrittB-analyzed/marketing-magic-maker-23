@@ -43,7 +43,7 @@ function Blog() {
                   src={p.image}
                   alt={p.imageAlt ?? p.title}
                   loading="lazy"
-                  className="aspect-[16/10] w-full object-cover"
+                  className="aspect-[16/10] w-full bg-white object-contain"
                 />
               )}
               <div className="flex flex-1 flex-col p-6">
